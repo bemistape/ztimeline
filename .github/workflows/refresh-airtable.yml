@@ -32,9 +32,8 @@ jobs:
           AIRTABLE_LOCATION_VIEW_ID: ${{ vars.AIRTABLE_LOCATION_VIEW_ID }}
           AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
           AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
-          AIRTABLE_CACHE_MEDIA_TYPES: ${{ vars.AIRTABLE_CACHE_MEDIA_TYPES }}
         run: |
-          python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types "${AIRTABLE_CACHE_MEDIA_TYPES:-pdf}"
+          python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types image
 
       - name: Commit and push if changed
         run: |
@@ -44,6 +43,17 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config http.version HTTP/1.1
+          git config http.postBuffer 524288000
           git add data
           git commit -m "chore: refresh Airtable timeline data"
-          git push
+          for attempt in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 20))
+            fi
+          done
+          echo "git push failed after 3 attempts."
+          exit 1

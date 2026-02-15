@@ -186,7 +186,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 0.65rem;
-  padding: 0.3rem 0;
+  padding: 0.2rem 0 0.32rem;
   border-bottom: 1px solid var(--line);
 }
 
@@ -200,12 +200,14 @@ h1 {
 
 .date-label {
   font-family: "Fraunces", "Georgia", serif;
-  font-size: clamp(1rem, 1.8vw, 1.22rem);
+  font-size: clamp(0.94rem, 1.55vw, 1.1rem);
   font-weight: 600;
-  padding: 0.16rem 0.66rem;
+  letter-spacing: 0.01em;
+  padding: 0.14rem 0.58rem;
   border-radius: 999px;
-  border: 1px solid #b9b9b9;
-  background: linear-gradient(160deg, #f8f8f8 0%, #ececec 100%);
+  border: 1px solid #bdbdbd;
+  background: linear-gradient(165deg, #f6f6f6 0%, #ebebeb 100%);
+  box-shadow: inset 0 1px 0 #ffffff;
 }
 
 .group-events {
@@ -216,7 +218,7 @@ h1 {
 
 .timeline-item {
   border-bottom: 1px solid #d4d4d4;
-  padding: 0.18rem 0;
+  padding: 0.2rem 0;
 }
 
 .timeline-item:last-child {
@@ -224,18 +226,25 @@ h1 {
 }
 
 .event-item {
-  border: 1px solid #d2d2d2;
-  border-left: 3px solid var(--record-tint-border, #bdbdbd);
-  background: var(--record-tint-bg, #ffffff);
+  border: 1px solid #d5d5d5;
+  border-left: 2px solid var(--record-tint-border, #c2c2c2);
+  background: linear-gradient(180deg, #fdfdfd 0%, var(--record-tint-bg, #f8f8f8) 100%);
   border-radius: 10px;
   padding: 0 0.72rem;
+  transition: border-color 120ms ease, box-shadow 120ms ease, background-color 120ms ease;
+}
+
+.event-item[open] {
+  border-color: var(--record-tint-border, #b4b4b4);
+  border-left-width: 3px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.48);
 }
 
 .event-summary {
   list-style: none;
   display: grid;
   gap: 0.45rem;
-  padding: 0.64rem 0;
+  padding: 0.58rem 0;
   cursor: pointer;
 }
 
@@ -246,7 +255,7 @@ h1 {
 .summary-top {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
-  gap: 0.78rem;
+  gap: 0.62rem;
   align-items: start;
 }
 
@@ -256,14 +265,15 @@ h1 {
 
 .summary-thumb-button {
   appearance: none;
-  border: 1px solid #b8b8b8;
-  background: #f3f3f3;
+  border: 1px solid #c4c4c4;
+  background: #f7f7f7;
   border-radius: 8px;
   padding: 0;
   cursor: pointer;
-  width: 110px;
-  height: 58px;
+  width: 96px;
+  height: 52px;
   overflow: hidden;
+  align-self: center;
 }
 
 .summary-thumb {
@@ -284,7 +294,8 @@ h1 {
 
 .event-title {
   margin: 0;
-  font-size: 1.16rem;
+  font-size: 1.18rem;
+  line-height: 1.18;
   text-align: left;
 }
 
@@ -298,28 +309,29 @@ h1 {
 .event-title-actions {
   display: inline-flex;
   align-items: center;
-  gap: 0.42rem;
+  gap: 0.38rem;
+  flex-shrink: 0;
 }
 
 .event-date-badge {
-  font-size: 0.74rem;
+  font-size: 0.71rem;
   text-transform: uppercase;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.12em;
   font-weight: 700;
-  color: #313131;
-  background: #e8e8e8;
-  border: 1px solid #c3c3c3;
+  color: #353535;
+  background: #ededed;
+  border: 1px solid #c7c7c7;
   border-radius: 999px;
-  padding: 0.14rem 0.5rem;
+  padding: 0.12rem 0.52rem;
   white-space: nowrap;
 }
 
 .event-expander {
-  width: 1.56rem;
-  height: 1.56rem;
-  border: 1px solid #a8a8a8;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid #b2b2b2;
   border-radius: 50%;
-  background: #f3f3f3;
+  background: #f5f5f5;
   position: relative;
 }
 
@@ -345,28 +357,30 @@ h1 {
 }
 
 .summary-fields {
-  margin-top: 0.28rem;
+  margin-top: 0.3rem;
   display: grid;
-  grid-template-columns: minmax(120px, 0.9fr) minmax(140px, 1.1fr) minmax(220px, 1.8fr);
-  gap: 0.32rem 0.92rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.3rem 0.7rem;
+  align-items: start;
 }
 
 .summary-field {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  gap: 0.34rem;
-  font-size: 0.87rem;
+  align-items: baseline;
+  gap: 0.28rem;
+  font-size: 0.84rem;
   min-width: 0;
 }
 
 .summary-label {
-  color: #3f3f3f;
+  color: #4a4a4a;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .summary-value {
-  color: #151515;
+  color: #222222;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -389,18 +403,25 @@ h1 {
 
 .filter-chip {
   appearance: none;
-  border: 1px solid #b1b1b1;
-  background: var(--chip);
-  color: #111111;
+  border: 1px solid #c3c3c3;
+  background: #f0f0f0;
+  color: #2a2a2a;
   border-radius: 999px;
   padding: 0.22rem 0.54rem;
-  font-size: 0.74rem;
-  font-weight: 700;
+  font-size: 0.73rem;
+  font-weight: 600;
   cursor: pointer;
   max-width: 180px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: border-color 100ms ease, background-color 100ms ease, color 100ms ease;
+}
+
+.filter-chip:hover {
+  border-color: #9e9e9e;
+  background: #e7e7e7;
+  color: #101010;
 }
 
 .summary-chip {
@@ -408,15 +429,18 @@ h1 {
 }
 
 .event-content {
-  padding: 0.45rem 0 0.9rem;
+  padding: 0.5rem 0 0.94rem;
   display: grid;
-  gap: 0.7rem;
+  gap: 0.72rem;
   border-top: 1px dashed #d6d6d6;
 }
 
 .event-description {
   margin: 0;
+  max-width: 88ch;
   font-size: 0.95rem;
+  line-height: 1.6;
+  color: #202020;
 }
 
 .images-section,
@@ -787,6 +811,7 @@ h1 {
 
   .summary-fields {
     grid-template-columns: 1fr 1fr;
+    gap: 0.28rem 0.6rem;
   }
 
   .summary-field:last-child {
@@ -794,8 +819,8 @@ h1 {
   }
 
   .summary-thumb-button {
-    width: 96px;
-    height: 52px;
+    width: 90px;
+    height: 48px;
   }
 
   .event-date-badge {
@@ -831,6 +856,8 @@ h1 {
 
   .summary-thumb-button {
     justify-self: start;
+    width: 96px;
+    height: 52px;
   }
 
   .summary-fields {

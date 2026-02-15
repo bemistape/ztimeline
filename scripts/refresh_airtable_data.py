@@ -16,6 +16,7 @@ import os
 import re
 import shutil
 import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
@@ -138,10 +139,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--cache-media-types",
-        default=env_or_default("AIRTABLE_CACHE_MEDIA_TYPES", ""),
+        default=env_or_default("AIRTABLE_CACHE_MEDIA_TYPES", "image"),
         help=(
             "Comma-separated attachment types to cache locally (image,pdf,file). "
-            "Default empty caches all attachment types."
+            "Default caches image attachments."
         ),
     )
     parser.add_argument(
@@ -467,18 +468,33 @@ def short_hash(value: str) -> str:
 
 
 def download_binary(url: str, path: Path) -> None:
-    request = Request(url)
-    request.add_header("Accept", "*/*")
-    try:
-        with urlopen(request, timeout=180) as response:
-            path.parent.mkdir(parents=True, exist_ok=True)
-            with path.open("wb") as file_handle:
-                shutil.copyfileobj(response, file_handle)
-    except HTTPError as exc:
-        body = exc.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"Attachment download failed ({exc.code}) for {url}: {body}") from exc
-    except URLError as exc:
-        raise RuntimeError(f"Attachment download failed for {url}: {exc.reason}") from exc
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        request = Request(url)
+        request.add_header("Accept", "*/*")
+        request.add_header("User-Agent", "ztimeline-refresh/1.0")
+        temporary_path = path.with_suffix(f"{path.suffix}.tmp")
+        try:
+            with urlopen(request, timeout=180) as response:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                with temporary_path.open("wb") as file_handle:
+                    shutil.copyfileobj(response, file_handle)
+                temporary_path.replace(path)
+                return
+        except HTTPError as exc:
+            body = exc.read().decode("utf-8", errors="replace")
+            if attempt < attempts and 500 <= exc.code <= 599:
+                time.sleep(attempt * 2)
+                continue
+            raise RuntimeError(f"Attachment download failed ({exc.code}) for {url}: {body}") from exc
+        except URLError as exc:
+            if attempt < attempts:
+                time.sleep(attempt * 2)
+                continue
+            raise RuntimeError(f"Attachment download failed for {url}: {exc.reason}") from exc
+        finally:
+            if temporary_path.exists():
+                temporary_path.unlink(missing_ok=True)
 
 
 def write_csv(path: Path, headers: list[str], rows: list[dict[str, str]]) -> None:

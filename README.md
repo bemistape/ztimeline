@@ -56,7 +56,7 @@ export AIRTABLE_TAGS_VIEW_ID="viwa1K5WgktgPYoO9"
 2. Run refresh:
 
 ```bash
-python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types pdf
+python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types image
 ```
 
 This updates:
@@ -87,7 +87,6 @@ Use `.github/workflows/refresh-airtable.yml`:
    - `AIRTABLE_LOCATION_VIEW_ID`
    - `AIRTABLE_TAGS_TABLE_ID`
    - `AIRTABLE_TAGS_VIEW_ID`
-   - `AIRTABLE_CACHE_MEDIA_TYPES`
 3. Enable GitHub Actions for the repo.
 
 The workflow runs:
@@ -95,14 +94,15 @@ The workflow runs:
 - On a daily schedule
 - On demand with `workflow_dispatch`
 
-To keep Action pushes reliable, the workflow caches only file attachments by default (`--cache-media-types pdf`) and skips downloading image binaries. This keeps `git push` payloads small enough for GitHub Actions while still preserving stable downloadable files.
+The workflow now caches image attachments by default (`--cache-media-types image`) so image links on the site do not depend on expiring Airtable URLs.
 
-Optional: set repo variable `AIRTABLE_CACHE_MEDIA_TYPES` to:
+Optional manual modes for `--cache-media-types`:
 
-- `pdf` (default, recommended)
-- `file` (non-image files)
-- `pdf,file`
-- empty string to cache all media types (not recommended for scheduled runs)
+- `image` (workflow default)
+- `pdf`
+- `image,pdf`
+- `file`
+- empty string to cache all media types
 
 ## Security note
 
