@@ -1,9 +1,9 @@
 const DATA_URL = "data/events-timeline.csv";
 const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"]);
+const PDF_EXTENSIONS = new Set(["pdf"]);
 const UNKNOWN_TIME_MINUTES = 24 * 60 + 1;
 
 const dom = {
-  datasetStatus: document.getElementById("dataset-status"),
   searchInput: document.getElementById("search-input"),
   locationFilter: document.getElementById("location-filter"),
   peopleFilter: document.getElementById("people-filter"),
@@ -34,7 +34,7 @@ const state = {
 
 init().catch((error) => {
   console.error(error);
-  setStatus("Could not load timeline data.", false);
+  renderLoadError();
 });
 
 async function init() {
@@ -50,8 +50,6 @@ async function init() {
 
   populateFilters();
   applyFilters();
-
-  setStatus(`Loaded ${state.events.length} events.`, true);
 }
 
 function bindUi() {
@@ -260,12 +258,14 @@ function normalizeEvent(raw, index) {
   const beginningDate = parseDateOnly(raw["Beginning Date"]);
   const timeMinutes = parseTimeToMinutes(raw.Time || raw["Time (AM/PM)"] || "");
 
-  const images = [
+  const allMediaAttachments = [
     ...parseAttachmentField(raw.Images, "image"),
     ...parseAttachmentField(raw["Document Images"], "image")
-  ].filter((attachment) => attachment.type === "image");
+  ];
 
-  const tags = parseList(raw.Tags);
+  const images = allMediaAttachments.filter((attachment) => attachment.type === "image");
+  const imagePdfLinks = allMediaAttachments.filter((attachment) => attachment.type === "pdf");
+
   const people = parseList(raw["Related People & Groups"]);
   const location = (raw.Location || "").trim();
   const description = raw.Description || "";
@@ -274,16 +274,18 @@ function normalizeEvent(raw, index) {
 
   const dateKey = beginningDate ? toDateKey(beginningDate) : "unknown-date";
   const dateLabel = beginningDate ? formatDateHeading(beginningDate) : "Unknown Date";
-  const displayTiming = raw["Event Timing"] || raw["Event Date & Time"] || raw["Beginning Date"] || "Unknown time";
+  const dateSummary =
+    raw["Event Timing"] ||
+    raw["Event Date & Time"] ||
+    (beginningDate ? formatDateSummary(beginningDate) : raw["Beginning Date"] || "Unknown date");
 
   const searchableText = [
     raw["Event Name"],
     description,
     location,
-    raw.Tags,
     raw["Related People & Groups"],
     raw["Related Documents"],
-    raw.Type
+    raw.Tags
   ]
     .filter(Boolean)
     .join(" ")
@@ -291,19 +293,17 @@ function normalizeEvent(raw, index) {
 
   return {
     index,
-    id: `event-${index + 1}`,
     eventName: raw["Event Name"] || "Untitled event",
     description,
     location,
     people,
-    tags,
-    displayTiming,
-    beginningDate,
+    dateSummary,
     dateKey,
     dateLabel,
     sortTime: beginningDate ? beginningDate.getTime() + timeMinutes * 60_000 : Number.POSITIVE_INFINITY,
-    links,
     images,
+    imagePdfLinks,
+    links,
     searchableText
   };
 }
@@ -358,6 +358,9 @@ function inferAttachmentType(label, url, hintedType) {
   const extension = extensionMatch[1];
   if (IMAGE_EXTENSIONS.has(extension)) {
     return "image";
+  }
+  if (PDF_EXTENSIONS.has(extension)) {
+    return "pdf";
   }
   return fallback;
 }
@@ -462,6 +465,15 @@ function formatDateHeading(date) {
   });
 }
 
+function formatDateSummary(date) {
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    timeZone: "UTC"
+  });
+}
+
 function sortEvents(left, right) {
   if (left.sortTime !== right.sortTime) {
     return left.sortTime - right.sortTime;
@@ -519,7 +531,7 @@ function applyFilters() {
     if (person && !event.people.includes(person)) {
       return false;
     }
-    if (mediaOnly && event.images.length === 0) {
+    if (mediaOnly && event.images.length === 0 && event.imagePdfLinks.length === 0) {
       return false;
     }
     if (search && !event.searchableText.includes(search)) {
@@ -598,15 +610,28 @@ function buildEventRow(event, filteredIndex) {
   title.className = "event-title";
   title.textContent = event.eventName;
 
-  const when = document.createElement("p");
-  when.className = "event-time";
-  when.textContent = event.displayTiming;
+  const fieldGrid = document.createElement("div");
+  fieldGrid.className = "summary-fields";
+  fieldGrid.append(
+    buildSummaryField("Date", event.dateSummary),
+    buildSummaryLocationField(event.location),
+    buildSummaryPeopleField(event.people)
+  );
 
-  summaryText.append(title, when);
-
+  summaryText.append(title, fieldGrid);
   summary.append(summaryText);
 
-  if (event.images.length) {
+  const content = document.createElement("div");
+  content.className = "event-content";
+
+  if (event.images.length > 0) {
+    const keyRow = document.createElement("div");
+    keyRow.className = "detail-key-row";
+
+    const keyLabel = document.createElement("p");
+    keyLabel.className = "detail-key-name";
+    keyLabel.textContent = event.eventName;
+
     const leadButton = document.createElement("button");
     leadButton.type = "button";
     leadButton.className = "lead-thumb-button";
@@ -617,29 +642,12 @@ function buildEventRow(event, filteredIndex) {
     const leadImage = document.createElement("img");
     leadImage.className = "lead-thumb";
     leadImage.loading = "lazy";
-    leadImage.src = event.images[0].url;
+    leadImage.dataset.src = event.images[0].url;
     leadImage.alt = event.images[0].label;
 
     leadButton.append(leadImage);
-    summary.append(leadButton);
-  }
-
-  const content = document.createElement("div");
-  content.className = "event-content";
-
-  if (event.location || event.people.length) {
-    const meta = document.createElement("div");
-    meta.className = "meta-row";
-
-    if (event.location) {
-      meta.append(buildFilterChip(event.location, "location", event.location));
-    }
-
-    event.people.slice(0, 12).forEach((person) => {
-      meta.append(buildFilterChip(person, "person", person));
-    });
-
-    content.append(meta);
+    keyRow.append(keyLabel, leadButton);
+    content.append(keyRow);
   }
 
   if (event.description) {
@@ -647,6 +655,14 @@ function buildEventRow(event, filteredIndex) {
     description.className = "event-description";
     description.textContent = event.description;
     content.append(description);
+  }
+
+  if (event.images.length) {
+    content.append(buildImageGallery(event.images, filteredIndex));
+  }
+
+  if (event.imagePdfLinks.length) {
+    content.append(buildPdfDownloads(event.imagePdfLinks));
   }
 
   if (event.links.length) {
@@ -664,20 +680,92 @@ function buildEventRow(event, filteredIndex) {
     content.append(links);
   }
 
-  if (event.images.length) {
-    content.append(buildImageGallery(event.images, filteredIndex));
-  }
-
   details.append(summary, content);
   row.append(details);
   return row;
 }
 
-function buildFilterChip(label, kind, value) {
+function buildSummaryField(label, value) {
+  const item = document.createElement("div");
+  item.className = "summary-field";
+
+  const key = document.createElement("span");
+  key.className = "summary-label";
+  key.textContent = `${label}:`;
+
+  const fieldValue = document.createElement("span");
+  fieldValue.className = "summary-value";
+  fieldValue.textContent = value || "-";
+
+  item.append(key, fieldValue);
+  return item;
+}
+
+function buildSummaryLocationField(location) {
+  const item = document.createElement("div");
+  item.className = "summary-field";
+
+  const key = document.createElement("span");
+  key.className = "summary-label";
+  key.textContent = "Location:";
+  item.append(key);
+
+  if (!location) {
+    const empty = document.createElement("span");
+    empty.className = "summary-value";
+    empty.textContent = "-";
+    item.append(empty);
+    return item;
+  }
+
+  item.append(buildFilterChip(location, "location", location, true));
+  return item;
+}
+
+function buildSummaryPeopleField(people) {
+  const item = document.createElement("div");
+  item.className = "summary-field";
+
+  const key = document.createElement("span");
+  key.className = "summary-label";
+  key.textContent = "People:";
+  item.append(key);
+
+  if (people.length === 0) {
+    const empty = document.createElement("span");
+    empty.className = "summary-value";
+    empty.textContent = "-";
+    item.append(empty);
+    return item;
+  }
+
+  const wrap = document.createElement("span");
+  wrap.className = "summary-chip-wrap";
+
+  const visiblePeople = people.slice(0, 6);
+  visiblePeople.forEach((person) => {
+    wrap.append(buildFilterChip(person, "person", person, true));
+  });
+
+  if (people.length > visiblePeople.length) {
+    const overflow = document.createElement("span");
+    overflow.className = "summary-overflow";
+    overflow.textContent = `+${people.length - visiblePeople.length} more`;
+    wrap.append(overflow);
+  }
+
+  item.append(wrap);
+  return item;
+}
+
+function buildFilterChip(label, kind, value, compact = false) {
   const chip = document.createElement("button");
   chip.type = "button";
   chip.className = `filter-chip ${kind === "location" ? "location-chip" : "people-chip"}`;
-  chip.textContent = kind === "location" ? `Location: ${label}` : label;
+  if (compact) {
+    chip.classList.add("summary-chip");
+  }
+  chip.textContent = label;
 
   if (kind === "location") {
     chip.dataset.filterLocation = value;
@@ -724,6 +812,35 @@ function buildImageGallery(images, filteredIndex) {
   return section;
 }
 
+function buildPdfDownloads(pdfs) {
+  const section = document.createElement("section");
+  section.className = "pdf-section";
+
+  const heading = document.createElement("h4");
+  heading.className = "pdf-heading";
+  heading.textContent = `PDF Downloads (${pdfs.length})`;
+  section.append(heading);
+
+  const list = document.createElement("ul");
+  list.className = "pdf-list";
+
+  pdfs.forEach((pdf) => {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.className = "pdf-link";
+    link.href = pdf.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.download = "";
+    link.textContent = pdf.label;
+    item.append(link);
+    list.append(item);
+  });
+
+  section.append(list);
+  return section;
+}
+
 function openModal(mediaItems, index) {
   if (!mediaItems.length) {
     return;
@@ -759,10 +876,19 @@ function renderModal() {
   dom.modalCaption.textContent = `${item.label} (${state.modalIndex + 1}/${state.modalMedia.length})`;
 }
 
-function setStatus(message, ok) {
-  dom.datasetStatus.textContent = message;
-  dom.datasetStatus.classList.toggle("status-ok", Boolean(ok));
-  dom.datasetStatus.classList.toggle("status-pending", !ok);
+function renderLoadError() {
+  dom.timeline.replaceChildren();
+  const errorItem = document.createElement("li");
+  errorItem.className = "empty-state";
+
+  const title = document.createElement("h2");
+  title.textContent = "Could not load timeline data.";
+
+  const message = document.createElement("p");
+  message.textContent = "Check that data/events-timeline.csv exists and reload.";
+
+  errorItem.append(title, message);
+  dom.timeline.append(errorItem);
 }
 
 function capitalize(value) {

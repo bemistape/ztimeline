@@ -14,7 +14,7 @@ Static website for browsing your Airtable timeline with:
 - `styles.css`: responsive visual system
 - `app.js`: CSV parser + rendering + filters + modal logic
 - `data/events-timeline.csv`: timeline dataset consumed by the app
-- `assets/zodiac-header.svg`: header image asset
+- `assets/zodiac-header.png`: header image asset
 - `scripts/refresh_airtable_data.py`: fetches Airtable view + refreshes local dataset
 - `.github/workflows/refresh-airtable.yml`: optional daily and manual cloud refresh
 
