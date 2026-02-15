@@ -267,7 +267,7 @@ function normalizeEvent(raw, index) {
   const imagePdfLinks = allMediaAttachments.filter((attachment) => attachment.type === "pdf");
 
   const people = parseList(raw["Related People & Groups"]);
-  const location = (raw.Location || "").trim();
+  const location = sanitizeText(raw.Location || "");
   const description = raw.Description || "";
   const sourceUrls = parseUrls(raw.Sources);
   const links = sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url }));
@@ -283,7 +283,7 @@ function normalizeEvent(raw, index) {
     raw["Event Name"],
     description,
     location,
-    raw["Related People & Groups"],
+    people.join(" "),
     raw["Related Documents"],
     raw.Tags
   ]
@@ -373,10 +373,51 @@ function parseList(value) {
   if (!value) {
     return [];
   }
-  return value
-    .split(",")
-    .map((item) => item.trim())
-    .filter(Boolean);
+
+  const items = [];
+  let current = "";
+  let quoted = false;
+
+  for (let i = 0; i < value.length; i += 1) {
+    const char = value[i];
+    const next = value[i + 1];
+
+    if (quoted) {
+      if (char === '"' && next === '"') {
+        current += '"';
+        i += 1;
+        continue;
+      }
+      if (char === '"') {
+        quoted = false;
+        continue;
+      }
+      current += char;
+      continue;
+    }
+
+    if (char === '"') {
+      quoted = true;
+      continue;
+    }
+
+    if (char === ",") {
+      const token = sanitizeText(current);
+      if (token) {
+        items.push(token);
+      }
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  const finalToken = sanitizeText(current);
+  if (finalToken) {
+    items.push(finalToken);
+  }
+  return items;
 }
 
 function parseUrls(value) {
@@ -386,6 +427,25 @@ function parseUrls(value) {
   const found = value.match(/https?:\/\/[^\s,•]+/g) || [];
   const normalized = found.map((url) => url.replace(/[).,;]+$/g, ""));
   return [...new Set(normalized)];
+}
+
+function sanitizeText(value) {
+  const text = String(value || "").trim();
+  if (!text) {
+    return "";
+  }
+
+  let result = text;
+  if (
+    (result.startsWith('"') && result.endsWith('"')) ||
+    (result.startsWith("'") && result.endsWith("'"))
+  ) {
+    result = result.slice(1, -1);
+  }
+
+  result = result.replace(/""/g, '"').trim();
+  result = result.replace(/^"+|"+$/g, "").trim();
+  return result;
 }
 
 function parseDateOnly(value) {
@@ -619,36 +679,33 @@ function buildEventRow(event, filteredIndex) {
   );
 
   summaryText.append(title, fieldGrid);
-  summary.append(summaryText);
+
+  const summaryTop = document.createElement("div");
+  summaryTop.className = "summary-top";
+  summaryTop.append(summaryText);
+
+  if (event.images.length > 0) {
+    const summaryThumbButton = document.createElement("button");
+    summaryThumbButton.type = "button";
+    summaryThumbButton.className = "summary-thumb-button";
+    summaryThumbButton.dataset.mediaGroupIndex = String(filteredIndex);
+    summaryThumbButton.dataset.mediaItemIndex = "0";
+    summaryThumbButton.setAttribute("aria-label", `Open primary image for ${event.eventName}`);
+
+    const summaryThumb = document.createElement("img");
+    summaryThumb.className = "summary-thumb";
+    summaryThumb.loading = "lazy";
+    summaryThumb.src = event.images[0].url;
+    summaryThumb.alt = event.images[0].label;
+
+    summaryThumbButton.append(summaryThumb);
+    summaryTop.append(summaryThumbButton);
+  }
+
+  summary.append(summaryTop);
 
   const content = document.createElement("div");
   content.className = "event-content";
-
-  if (event.images.length > 0) {
-    const keyRow = document.createElement("div");
-    keyRow.className = "detail-key-row";
-
-    const keyLabel = document.createElement("p");
-    keyLabel.className = "detail-key-name";
-    keyLabel.textContent = event.eventName;
-
-    const leadButton = document.createElement("button");
-    leadButton.type = "button";
-    leadButton.className = "lead-thumb-button";
-    leadButton.dataset.mediaGroupIndex = String(filteredIndex);
-    leadButton.dataset.mediaItemIndex = "0";
-    leadButton.setAttribute("aria-label", `Open primary image for ${event.eventName}`);
-
-    const leadImage = document.createElement("img");
-    leadImage.className = "lead-thumb";
-    leadImage.loading = "lazy";
-    leadImage.dataset.src = event.images[0].url;
-    leadImage.alt = event.images[0].label;
-
-    leadButton.append(leadImage);
-    keyRow.append(keyLabel, leadButton);
-    content.append(keyRow);
-  }
 
   if (event.description) {
     const description = document.createElement("p");
@@ -742,7 +799,7 @@ function buildSummaryPeopleField(people) {
   const wrap = document.createElement("span");
   wrap.className = "summary-chip-wrap";
 
-  const visiblePeople = people.slice(0, 6);
+  const visiblePeople = people.slice(0, 2);
   visiblePeople.forEach((person) => {
     wrap.append(buildFilterChip(person, "person", person, true));
   });
