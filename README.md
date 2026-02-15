@@ -18,7 +18,7 @@ Static website for browsing your Airtable timeline with:
 - `data/location-location-sync.csv`: location records used for modal drill-down
 - `data/tags-tags-sync.csv`: tag records used for modal drill-down
 - `assets/zodiac-header.png`: header image asset
-- `scripts/refresh_airtable_data.py`: fetches Airtable view + refreshes local dataset
+- `scripts/refresh_airtable_data.py`: fetches Airtable views + refreshes local datasets
 - `.github/workflows/refresh-airtable.yml`: optional daily and manual cloud refresh
 
 ## Run locally
@@ -36,7 +36,7 @@ Then open:
 
 ## Manual refresh from Airtable
 
-This refresh script can cache attachment files into `data/media/` so the site no longer relies on temporary Airtable URLs.
+This refresh script refreshes Events, People, Location, and Tags CSVs from Airtable in one run. It can cache attachment files into `data/media/` so the site no longer relies on temporary Airtable URLs.
 
 1. Set environment variables (or copy from `.env.example`):
 
@@ -45,6 +45,12 @@ export AIRTABLE_API_TOKEN="your_token_here"
 export AIRTABLE_BASE_ID="appyDwtN9iiA9sjEe"
 export AIRTABLE_TABLE_ID="tblxd8PLtQOl1dRa7"
 export AIRTABLE_VIEW_ID="viwUWtXt3UUxE6LOC"
+export AIRTABLE_PEOPLE_TABLE_ID="tblpcpi1xL4Kbajqv"
+export AIRTABLE_PEOPLE_VIEW_ID="viwlBBAjb87ucn0ni"
+export AIRTABLE_LOCATION_TABLE_ID="tbl5djS0HR8Ecg1OJ"
+export AIRTABLE_LOCATION_VIEW_ID="viwbicx0kvh1UMRLB"
+export AIRTABLE_TAGS_TABLE_ID="tbl369AkU0k8At9IV"
+export AIRTABLE_TAGS_VIEW_ID="viwa1K5WgktgPYoO9"
 ```
 
 2. Run refresh:
@@ -56,7 +62,13 @@ python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types pdf
 This updates:
 
 - `data/events-timeline.csv`
+- `data/people-people-sync.csv`
+- `data/location-location-sync.csv`
+- `data/tags-tags-sync.csv`
 - `data/refresh-metadata.json`
+- `data/refresh-metadata-people.json`
+- `data/refresh-metadata-location.json`
+- `data/refresh-metadata-tags.json`
 - `data/media/*` (cached attachments)
 
 ## Automated daily refresh (GitHub Actions)
@@ -69,6 +81,13 @@ Use `.github/workflows/refresh-airtable.yml`:
    - `AIRTABLE_BASE_ID`
    - `AIRTABLE_TABLE_ID`
    - `AIRTABLE_VIEW_ID`
+   - `AIRTABLE_PEOPLE_TABLE_ID`
+   - `AIRTABLE_PEOPLE_VIEW_ID`
+   - `AIRTABLE_LOCATION_TABLE_ID`
+   - `AIRTABLE_LOCATION_VIEW_ID`
+   - `AIRTABLE_TAGS_TABLE_ID`
+   - `AIRTABLE_TAGS_VIEW_ID`
+   - `AIRTABLE_CACHE_MEDIA_TYPES`
 3. Enable GitHub Actions for the repo.
 
 The workflow runs:

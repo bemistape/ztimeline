@@ -26,6 +26,12 @@ jobs:
           AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
           AIRTABLE_TABLE_ID: ${{ vars.AIRTABLE_TABLE_ID }}
           AIRTABLE_VIEW_ID: ${{ vars.AIRTABLE_VIEW_ID }}
+          AIRTABLE_PEOPLE_TABLE_ID: ${{ vars.AIRTABLE_PEOPLE_TABLE_ID }}
+          AIRTABLE_PEOPLE_VIEW_ID: ${{ vars.AIRTABLE_PEOPLE_VIEW_ID }}
+          AIRTABLE_LOCATION_TABLE_ID: ${{ vars.AIRTABLE_LOCATION_TABLE_ID }}
+          AIRTABLE_LOCATION_VIEW_ID: ${{ vars.AIRTABLE_LOCATION_VIEW_ID }}
+          AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
+          AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
           AIRTABLE_CACHE_MEDIA_TYPES: ${{ vars.AIRTABLE_CACHE_MEDIA_TYPES }}
         run: |
           python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types "${AIRTABLE_CACHE_MEDIA_TYPES:-pdf}"

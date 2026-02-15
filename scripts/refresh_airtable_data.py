@@ -16,6 +16,7 @@ import os
 import re
 import shutil
 import sys
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
@@ -24,12 +25,18 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 DEFAULT_BASE_ID = "appyDwtN9iiA9sjEe"
-DEFAULT_TABLE_ID = "tblxd8PLtQOl1dRa7"
-DEFAULT_VIEW_ID = "viwUWtXt3UUxE6LOC"
+DEFAULT_EVENTS_TABLE_ID = "tblxd8PLtQOl1dRa7"
+DEFAULT_EVENTS_VIEW_ID = "viwUWtXt3UUxE6LOC"
+DEFAULT_PEOPLE_TABLE_ID = "tblpcpi1xL4Kbajqv"
+DEFAULT_PEOPLE_VIEW_ID = "viwlBBAjb87ucn0ni"
+DEFAULT_LOCATION_TABLE_ID = "tbl5djS0HR8Ecg1OJ"
+DEFAULT_LOCATION_VIEW_ID = "viwbicx0kvh1UMRLB"
+DEFAULT_TAGS_TABLE_ID = "tbl369AkU0k8At9IV"
+DEFAULT_TAGS_VIEW_ID = "viwa1K5WgktgPYoO9"
 IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"}
 PDF_EXTENSIONS = {"pdf"}
 
-DEFAULT_HEADERS = [
+EVENTS_DEFAULT_HEADERS = [
     "Event Name",
     "Beginning Date",
     "Time",
@@ -62,12 +69,22 @@ DEFAULT_HEADERS = [
 ]
 
 
+@dataclass(frozen=True)
+class ExportTarget:
+    name: str
+    output_csv: Path
+    metadata_path: Path
+    table_id: str
+    view_id: str
+    preferred_headers: list[str]
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Refresh Airtable timeline export.")
+    parser = argparse.ArgumentParser(description="Refresh Airtable exports for events, people, locations, and tags.")
     parser.add_argument(
         "--output-csv",
         default="data/events-timeline.csv",
-        help="Path to write refreshed CSV.",
+        help="Path to write refreshed events CSV.",
     )
     parser.add_argument(
         "--media-dir",
@@ -77,7 +94,37 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--metadata-path",
         default="data/refresh-metadata.json",
-        help="Path to write refresh metadata JSON.",
+        help="Path to write events refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--people-output-csv",
+        default="data/people-people-sync.csv",
+        help="Path to write refreshed people CSV.",
+    )
+    parser.add_argument(
+        "--people-metadata-path",
+        default="data/refresh-metadata-people.json",
+        help="Path to write people refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--location-output-csv",
+        default="data/location-location-sync.csv",
+        help="Path to write refreshed location CSV.",
+    )
+    parser.add_argument(
+        "--location-metadata-path",
+        default="data/refresh-metadata-location.json",
+        help="Path to write location refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--tags-output-csv",
+        default="data/tags-tags-sync.csv",
+        help="Path to write refreshed tags CSV.",
+    )
+    parser.add_argument(
+        "--tags-metadata-path",
+        default="data/refresh-metadata-tags.json",
+        help="Path to write tags refresh metadata JSON.",
     )
     parser.add_argument(
         "--no-cache-media",
@@ -104,13 +151,43 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--table-id",
-        default=env_or_default("AIRTABLE_TABLE_ID", DEFAULT_TABLE_ID),
-        help="Airtable table id (default from env or built-in table).",
+        default=env_or_default("AIRTABLE_TABLE_ID", DEFAULT_EVENTS_TABLE_ID),
+        help="Airtable events table id (default from env or built-in table).",
     )
     parser.add_argument(
         "--view-id",
-        default=env_or_default("AIRTABLE_VIEW_ID", DEFAULT_VIEW_ID),
-        help="Airtable view id (default from env or built-in view).",
+        default=env_or_default("AIRTABLE_VIEW_ID", DEFAULT_EVENTS_VIEW_ID),
+        help="Airtable events view id (default from env or built-in view).",
+    )
+    parser.add_argument(
+        "--people-table-id",
+        default=env_or_default("AIRTABLE_PEOPLE_TABLE_ID", DEFAULT_PEOPLE_TABLE_ID),
+        help="Airtable people table id (default from env or built-in table).",
+    )
+    parser.add_argument(
+        "--people-view-id",
+        default=env_or_default("AIRTABLE_PEOPLE_VIEW_ID", DEFAULT_PEOPLE_VIEW_ID),
+        help="Airtable people view id (default from env or built-in view).",
+    )
+    parser.add_argument(
+        "--location-table-id",
+        default=env_or_default("AIRTABLE_LOCATION_TABLE_ID", DEFAULT_LOCATION_TABLE_ID),
+        help="Airtable location table id (default from env or built-in table).",
+    )
+    parser.add_argument(
+        "--location-view-id",
+        default=env_or_default("AIRTABLE_LOCATION_VIEW_ID", DEFAULT_LOCATION_VIEW_ID),
+        help="Airtable location view id (default from env or built-in view).",
+    )
+    parser.add_argument(
+        "--tags-table-id",
+        default=env_or_default("AIRTABLE_TAGS_TABLE_ID", DEFAULT_TAGS_TABLE_ID),
+        help="Airtable tags table id (default from env or built-in table).",
+    )
+    parser.add_argument(
+        "--tags-view-id",
+        default=env_or_default("AIRTABLE_TAGS_VIEW_ID", DEFAULT_TAGS_VIEW_ID),
+        help="Airtable tags view id (default from env or built-in view).",
     )
     return parser.parse_args()
 
@@ -127,9 +204,7 @@ def main() -> int:
         print("Missing AIRTABLE_API_TOKEN.", file=sys.stderr)
         return 2
 
-    output_csv = Path(args.output_csv)
     media_dir = Path(args.media_dir)
-    metadata_path = Path(args.metadata_path)
     cache_media = not args.no_cache_media
     try:
         cache_media_types = parse_cache_media_types(args.cache_media_types)
@@ -137,18 +212,84 @@ def main() -> int:
         print(str(exc), file=sys.stderr)
         return 2
 
-    output_csv.parent.mkdir(parents=True, exist_ok=True)
     media_dir.mkdir(parents=True, exist_ok=True)
-    metadata_path.parent.mkdir(parents=True, exist_ok=True)
+    targets = [
+        ExportTarget(
+            name="events",
+            output_csv=Path(args.output_csv),
+            metadata_path=Path(args.metadata_path),
+            table_id=args.table_id,
+            view_id=args.view_id,
+            preferred_headers=EVENTS_DEFAULT_HEADERS,
+        ),
+        ExportTarget(
+            name="people",
+            output_csv=Path(args.people_output_csv),
+            metadata_path=Path(args.people_metadata_path),
+            table_id=args.people_table_id,
+            view_id=args.people_view_id,
+            preferred_headers=[],
+        ),
+        ExportTarget(
+            name="location",
+            output_csv=Path(args.location_output_csv),
+            metadata_path=Path(args.location_metadata_path),
+            table_id=args.location_table_id,
+            view_id=args.location_view_id,
+            preferred_headers=[],
+        ),
+        ExportTarget(
+            name="tags",
+            output_csv=Path(args.tags_output_csv),
+            metadata_path=Path(args.tags_metadata_path),
+            table_id=args.tags_table_id,
+            view_id=args.tags_view_id,
+            preferred_headers=[],
+        ),
+    ]
 
-    print("Fetching records from Airtable...")
-    records = fetch_all_records(
-        token=token, base_id=args.base_id, table_id=args.table_id, view_id=args.view_id
-    )
-    print(f"Fetched {len(records)} records.")
-
-    headers = compute_headers(records)
     used_media_files: set[str] = set()
+    for target in targets:
+        refresh_target(
+            token=token,
+            base_id=args.base_id,
+            target=target,
+            media_dir=media_dir,
+            cache_media=cache_media,
+            cache_media_types=cache_media_types,
+            used_media_files=used_media_files,
+        )
+
+    if cache_media and args.prune_media:
+        prune_stale_media(media_dir, used_media_files)
+
+    print("Refresh complete.")
+    return 0
+
+
+def refresh_target(
+    *,
+    token: str,
+    base_id: str,
+    target: ExportTarget,
+    media_dir: Path,
+    cache_media: bool,
+    cache_media_types: set[str] | None,
+    used_media_files: set[str],
+) -> None:
+    target.output_csv.parent.mkdir(parents=True, exist_ok=True)
+    target.metadata_path.parent.mkdir(parents=True, exist_ok=True)
+
+    print(f"Fetching {target.name} records from Airtable...")
+    records = fetch_all_records(
+        token=token,
+        base_id=base_id,
+        table_id=target.table_id,
+        view_id=target.view_id,
+    )
+    print(f"Fetched {len(records)} {target.name} records.")
+
+    headers = compute_headers(records, preferred_headers=target.preferred_headers)
     rows: list[dict[str, str]] = []
 
     for record in records:
@@ -165,25 +306,21 @@ def main() -> int:
             )
         rows.append(row)
 
-    print(f"Writing CSV to {output_csv} ...")
-    write_csv(output_csv, headers, rows)
-
-    if cache_media and args.prune_media:
-        prune_stale_media(media_dir, used_media_files)
+    print(f"Writing {target.name} CSV to {target.output_csv} ...")
+    write_csv(target.output_csv, headers, rows)
 
     metadata = {
         "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+        "dataset": target.name,
         "record_count": len(rows),
         "media_cached": cache_media,
         "media_files_in_use": len(used_media_files),
-        "base_id": args.base_id,
-        "table_id": args.table_id,
-        "view_id": args.view_id,
+        "base_id": base_id,
+        "table_id": target.table_id,
+        "view_id": target.view_id,
     }
-    metadata_path.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
-    print(f"Wrote metadata to {metadata_path}.")
-    print("Refresh complete.")
-    return 0
+    target.metadata_path.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
+    print(f"Wrote {target.name} metadata to {target.metadata_path}.")
 
 
 def fetch_all_records(*, token: str, base_id: str, table_id: str, view_id: str) -> list[dict[str, Any]]:
@@ -220,17 +357,18 @@ def get_json(url: str, token: str) -> dict[str, Any]:
         raise RuntimeError(f"Network error while contacting Airtable: {exc.reason}") from exc
 
 
-def compute_headers(records: Iterable[dict[str, Any]]) -> list[str]:
-    seen_extras: set[str] = set()
+def compute_headers(records: Iterable[dict[str, Any]], preferred_headers: list[str] | None = None) -> list[str]:
+    preferred = preferred_headers or []
+    seen: set[str] = set(preferred)
     extras: list[str] = []
     for record in records:
         fields = record.get("fields", {})
         for key in fields.keys():
-            if key in DEFAULT_HEADERS or key in seen_extras:
+            if key in seen:
                 continue
-            seen_extras.add(key)
+            seen.add(key)
             extras.append(key)
-    return DEFAULT_HEADERS + sorted(extras)
+    return preferred + extras
 
 
 def stringify_value(
