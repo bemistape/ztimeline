@@ -27,7 +27,7 @@ jobs:
           AIRTABLE_TABLE_ID: ${{ vars.AIRTABLE_TABLE_ID }}
           AIRTABLE_VIEW_ID: ${{ vars.AIRTABLE_VIEW_ID }}
         run: |
-          python3 scripts/refresh_airtable_data.py --prune-media
+          python3 scripts/refresh_airtable_data.py --no-cache-media
 
       - name: Commit and push if changed
         run: |

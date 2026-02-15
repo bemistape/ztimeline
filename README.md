@@ -73,6 +73,8 @@ The workflow runs:
 - On a daily schedule
 - On demand with `workflow_dispatch`
 
+To keep Action pushes reliable, the workflow runs refresh with `--no-cache-media`, so it commits only lightweight dataset files (instead of trying to push large binary attachment batches that can fail with HTTP 408 during `git push`).
+
 ## Security note
 
 Do not put your Airtable API token in frontend files. Treat the token as compromised if it was shared in plain text and rotate it in Airtable.
