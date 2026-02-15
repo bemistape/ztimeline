@@ -1,17 +1,14 @@
 const DATA_URL = "data/events-timeline.csv";
 const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"]);
-const PDF_EXTENSIONS = new Set(["pdf"]);
+const UNKNOWN_TIME_MINUTES = 24 * 60 + 1;
 
 const dom = {
   datasetStatus: document.getElementById("dataset-status"),
   searchInput: document.getElementById("search-input"),
-  typeFilter: document.getElementById("type-filter"),
-  yearFilter: document.getElementById("year-filter"),
+  locationFilter: document.getElementById("location-filter"),
+  peopleFilter: document.getElementById("people-filter"),
   mediaOnlyFilter: document.getElementById("media-only-filter"),
   resetFilters: document.getElementById("reset-filters"),
-  visibleEvents: document.getElementById("visible-events"),
-  visibleImages: document.getElementById("visible-images"),
-  visiblePdfs: document.getElementById("visible-pdfs"),
   timeline: document.getElementById("timeline"),
   imageModal: document.getElementById("image-modal"),
   modalImage: document.getElementById("modal-image"),
@@ -27,8 +24,8 @@ const state = {
   filteredEvents: [],
   filters: {
     search: "",
-    type: "",
-    year: "",
+    location: "",
+    person: "",
     mediaOnly: false
   },
   modalMedia: [],
@@ -63,13 +60,13 @@ function bindUi() {
     applyFilters();
   });
 
-  dom.typeFilter.addEventListener("change", (event) => {
-    state.filters.type = event.target.value;
+  dom.locationFilter.addEventListener("change", (event) => {
+    state.filters.location = event.target.value;
     applyFilters();
   });
 
-  dom.yearFilter.addEventListener("change", (event) => {
-    state.filters.year = event.target.value;
+  dom.peopleFilter.addEventListener("change", (event) => {
+    state.filters.person = event.target.value;
     applyFilters();
   });
 
@@ -80,19 +77,22 @@ function bindUi() {
 
   dom.resetFilters.addEventListener("click", () => {
     state.filters.search = "";
-    state.filters.type = "";
-    state.filters.year = "";
+    state.filters.location = "";
+    state.filters.person = "";
     state.filters.mediaOnly = false;
+
     dom.searchInput.value = "";
-    dom.typeFilter.value = "";
-    dom.yearFilter.value = "";
+    dom.locationFilter.value = "";
+    dom.peopleFilter.value = "";
     dom.mediaOnlyFilter.checked = false;
+
     applyFilters();
   });
 
   dom.timeline.addEventListener("click", (event) => {
     const thumb = event.target.closest("button[data-media-group-index]");
     if (thumb) {
+      event.preventDefault();
       const groupIndex = Number.parseInt(thumb.dataset.mediaGroupIndex, 10);
       const itemIndex = Number.parseInt(thumb.dataset.mediaItemIndex, 10);
       const eventData = state.filteredEvents[groupIndex];
@@ -101,22 +101,45 @@ function bindUi() {
       }
       return;
     }
+
+    const locationTrigger = event.target.closest("button[data-filter-location]");
+    if (locationTrigger) {
+      event.preventDefault();
+      const location = locationTrigger.dataset.filterLocation || "";
+      state.filters.location = location;
+      dom.locationFilter.value = location;
+      applyFilters();
+      return;
+    }
+
+    const personTrigger = event.target.closest("button[data-filter-person]");
+    if (personTrigger) {
+      event.preventDefault();
+      const person = personTrigger.dataset.filterPerson || "";
+      state.filters.person = person;
+      dom.peopleFilter.value = person;
+      applyFilters();
+    }
   });
 
-  dom.timeline.addEventListener("toggle", (event) => {
-    if (!event.target.matches("details.media-details")) {
-      return;
-    }
-    if (!event.target.open || event.target.dataset.loaded === "1") {
-      return;
-    }
-    const lazyImages = event.target.querySelectorAll("img[data-src]");
-    lazyImages.forEach((image) => {
-      image.src = image.dataset.src;
-      image.removeAttribute("data-src");
-    });
-    event.target.dataset.loaded = "1";
-  }, true);
+  dom.timeline.addEventListener(
+    "toggle",
+    (event) => {
+      if (!event.target.matches("details.event-item")) {
+        return;
+      }
+      if (!event.target.open || event.target.dataset.loaded === "1") {
+        return;
+      }
+      const lazyImages = event.target.querySelectorAll("img[data-src]");
+      lazyImages.forEach((image) => {
+        image.src = image.dataset.src;
+        image.removeAttribute("data-src");
+      });
+      event.target.dataset.loaded = "1";
+    },
+    true
+  );
 
   dom.modalClose.addEventListener("click", () => closeModal());
   dom.modalPrev.addEventListener("click", () => shiftModal(-1));
@@ -234,33 +257,33 @@ function rowsToObjects(rows) {
 }
 
 function normalizeEvent(raw, index) {
-  const date = deriveDate(raw);
+  const beginningDate = parseDateOnly(raw["Beginning Date"]);
+  const timeMinutes = parseTimeToMinutes(raw.Time || raw["Time (AM/PM)"] || "");
+
   const images = [
     ...parseAttachmentField(raw.Images, "image"),
     ...parseAttachmentField(raw["Document Images"], "image")
-  ];
-  const pdfs = parseAttachmentField(raw.PDFs, "pdf");
+  ].filter((attachment) => attachment.type === "image");
+
   const tags = parseList(raw.Tags);
   const people = parseList(raw["Related People & Groups"]);
-  const location = raw.Location || "";
+  const location = (raw.Location || "").trim();
   const description = raw.Description || "";
   const sourceUrls = parseUrls(raw.Sources);
-  const links = [
-    ...sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url })),
-    ...toLabeledLink(raw["Google Search"], "Google Search"),
-    ...toLabeledLink(raw["Image Search"], "Image Search")
-  ];
-  const type = raw.Type || "Uncategorized";
-  const year = raw["Event Year"] || (date ? String(date.getUTCFullYear()) : "");
+  const links = sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url }));
+
+  const dateKey = beginningDate ? toDateKey(beginningDate) : "unknown-date";
+  const dateLabel = beginningDate ? formatDateHeading(beginningDate) : "Unknown Date";
+  const displayTiming = raw["Event Timing"] || raw["Event Date & Time"] || raw["Beginning Date"] || "Unknown time";
+
   const searchableText = [
     raw["Event Name"],
     description,
     location,
-    type,
-    year,
     raw.Tags,
     raw["Related People & Groups"],
-    raw["Related Documents"]
+    raw["Related Documents"],
+    raw.Type
   ]
     .filter(Boolean)
     .join(" ")
@@ -274,15 +297,13 @@ function normalizeEvent(raw, index) {
     location,
     people,
     tags,
-    type,
-    year,
-    timeLabel: raw["Event Date & Time"] || raw["Event Timing"] || raw["Beginning Date"] || "Unknown date",
-    date,
-    sortTime: date ? date.getTime() : Number.POSITIVE_INFINITY,
+    displayTiming,
+    beginningDate,
+    dateKey,
+    dateLabel,
+    sortTime: beginningDate ? beginningDate.getTime() + timeMinutes * 60_000 : Number.POSITIVE_INFINITY,
     links,
     images,
-    pdfs,
-    relatedDocs: parseList(raw["Related Documents"]),
     searchableText
   };
 }
@@ -328,7 +349,7 @@ function pushAttachment(target, seen, label, url, hintedType) {
 }
 
 function inferAttachmentType(label, url, hintedType) {
-  const fallback = hintedType === "pdf" ? "pdf" : hintedType === "image" ? "image" : "file";
+  const fallback = hintedType === "image" ? "image" : "file";
   const value = `${label} ${url}`.toLowerCase();
   const extensionMatch = value.match(/\.([a-z0-9]+)(?:$|[?#)\s])/);
   if (!extensionMatch) {
@@ -337,9 +358,6 @@ function inferAttachmentType(label, url, hintedType) {
   const extension = extensionMatch[1];
   if (IMAGE_EXTENSIONS.has(extension)) {
     return "image";
-  }
-  if (PDF_EXTENSIONS.has(extension)) {
-    return "pdf";
   }
   return fallback;
 }
@@ -367,41 +385,7 @@ function parseUrls(value) {
   return [...new Set(normalized)];
 }
 
-function toLabeledLink(rawUrl, label) {
-  const first = parseUrls(rawUrl)[0];
-  if (!first) {
-    return [];
-  }
-  return [{ label, url: first }];
-}
-
-function deriveDate(record) {
-  const candidates = [
-    record["Event Date & Time"],
-    record["Event Timing"],
-    joinDateAndTime(record["Beginning Date"], record["Time (AM/PM)"] || record.Time),
-    record["Beginning Date"]
-  ];
-
-  for (const candidate of candidates) {
-    const parsed = parseFlexibleDate(candidate);
-    if (parsed) {
-      return parsed;
-    }
-  }
-  return null;
-}
-
-function joinDateAndTime(dateText, timeText) {
-  const date = (dateText || "").trim();
-  const time = (timeText || "").trim();
-  if (!date) {
-    return "";
-  }
-  return time ? `${date} ${time}` : date;
-}
-
-function parseFlexibleDate(value) {
+function parseDateOnly(value) {
   if (!value) {
     return null;
   }
@@ -410,39 +394,72 @@ function parseFlexibleDate(value) {
     return null;
   }
 
+  const match = text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (match) {
+    const [, month, day, year] = match;
+    return new Date(Date.UTC(Number.parseInt(year, 10), Number.parseInt(month, 10) - 1, Number.parseInt(day, 10)));
+  }
+
   const native = Date.parse(text);
   if (!Number.isNaN(native)) {
-    return new Date(native);
+    const parsed = new Date(native);
+    return new Date(Date.UTC(parsed.getUTCFullYear(), parsed.getUTCMonth(), parsed.getUTCDate()));
   }
 
-  const dateTimeMatch = text.match(
-    /^(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+(\d{1,2})(?::(\d{2}))?\s*([ap]m)?)?$/i
-  );
+  return null;
+}
 
-  if (!dateTimeMatch) {
-    return null;
+function parseTimeToMinutes(value) {
+  if (!value) {
+    return UNKNOWN_TIME_MINUTES;
+  }
+  const text = value.trim().toLowerCase();
+  if (!text) {
+    return UNKNOWN_TIME_MINUTES;
   }
 
-  let [, month, day, year, hour, minute, meridiem] = dateTimeMatch;
-  let normalizedHour = hour ? Number.parseInt(hour, 10) : 0;
-  const normalizedMinute = minute ? Number.parseInt(minute, 10) : 0;
-  const normalizedMeridiem = (meridiem || "").toLowerCase();
-
-  if (normalizedMeridiem === "pm" && normalizedHour < 12) {
-    normalizedHour += 12;
-  } else if (normalizedMeridiem === "am" && normalizedHour === 12) {
-    normalizedHour = 0;
+  let match = text.match(/^(\d{1,2}):(\d{2})$/);
+  if (match) {
+    const hours = Number.parseInt(match[1], 10);
+    const minutes = Number.parseInt(match[2], 10);
+    if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59) {
+      return hours * 60 + minutes;
+    }
   }
 
-  return new Date(
-    Date.UTC(
-      Number.parseInt(year, 10),
-      Number.parseInt(month, 10) - 1,
-      Number.parseInt(day, 10),
-      normalizedHour,
-      normalizedMinute
-    )
-  );
+  match = text.match(/^(\d{1,2})(?::(\d{2}))?\s*([ap]m)$/i);
+  if (match) {
+    let hours = Number.parseInt(match[1], 10);
+    const minutes = Number.parseInt(match[2] || "0", 10);
+    const meridiem = match[3].toLowerCase();
+    if (hours >= 1 && hours <= 12 && minutes >= 0 && minutes <= 59) {
+      if (meridiem === "pm" && hours < 12) {
+        hours += 12;
+      } else if (meridiem === "am" && hours === 12) {
+        hours = 0;
+      }
+      return hours * 60 + minutes;
+    }
+  }
+
+  return UNKNOWN_TIME_MINUTES;
+}
+
+function toDateKey(date) {
+  const year = String(date.getUTCFullYear());
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function formatDateHeading(date) {
+  return date.toLocaleDateString("en-US", {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC"
+  });
 }
 
 function sortEvents(left, right) {
@@ -453,34 +470,56 @@ function sortEvents(left, right) {
 }
 
 function populateFilters() {
-  const types = [...new Set(state.events.map((event) => event.type).filter(Boolean))].sort();
-  const years = [...new Set(state.events.map((event) => event.year).filter(Boolean))].sort((a, b) => Number(a) - Number(b));
+  const locationCounts = new Map();
+  const peopleCounts = new Map();
 
-  types.forEach((type) => {
-    const option = document.createElement("option");
-    option.value = type;
-    option.textContent = type;
-    dom.typeFilter.append(option);
+  state.events.forEach((event) => {
+    if (event.location) {
+      locationCounts.set(event.location, (locationCounts.get(event.location) || 0) + 1);
+    }
+    event.people.forEach((person) => {
+      peopleCounts.set(person, (peopleCounts.get(person) || 0) + 1);
+    });
   });
 
-  years.forEach((year) => {
+  fillSelectOptions(dom.locationFilter, "All Locations", locationCounts);
+  fillSelectOptions(dom.peopleFilter, "All People", peopleCounts);
+}
+
+function fillSelectOptions(select, defaultLabel, countsMap) {
+  select.replaceChildren();
+
+  const defaultOption = document.createElement("option");
+  defaultOption.value = "";
+  defaultOption.textContent = defaultLabel;
+  select.append(defaultOption);
+
+  const sorted = [...countsMap.entries()].sort((left, right) => {
+    if (right[1] !== left[1]) {
+      return right[1] - left[1];
+    }
+    return left[0].localeCompare(right[0]);
+  });
+
+  sorted.forEach(([value, count]) => {
     const option = document.createElement("option");
-    option.value = year;
-    option.textContent = year;
-    dom.yearFilter.append(option);
+    option.value = value;
+    option.textContent = `${value} (${count})`;
+    select.append(option);
   });
 }
 
 function applyFilters() {
-  const { search, type, year, mediaOnly } = state.filters;
+  const { search, location, person, mediaOnly } = state.filters;
+
   state.filteredEvents = state.events.filter((event) => {
-    if (type && event.type !== type) {
+    if (location && event.location !== location) {
       return false;
     }
-    if (year && event.year !== year) {
+    if (person && !event.people.includes(person)) {
       return false;
     }
-    if (mediaOnly && event.images.length + event.pdfs.length === 0) {
+    if (mediaOnly && event.images.length === 0) {
       return false;
     }
     if (search && !event.searchableText.includes(search)) {
@@ -490,17 +529,6 @@ function applyFilters() {
   });
 
   renderTimeline();
-  updateStats();
-}
-
-function updateStats() {
-  const eventCount = state.filteredEvents.length;
-  const imageCount = state.filteredEvents.reduce((sum, event) => sum + event.images.length, 0);
-  const pdfCount = state.filteredEvents.reduce((sum, event) => sum + event.pdfs.length, 0);
-
-  dom.visibleEvents.textContent = String(eventCount);
-  dom.visibleImages.textContent = String(imageCount);
-  dom.visiblePdfs.textContent = String(pdfCount);
 }
 
 function renderTimeline() {
@@ -511,45 +539,114 @@ function renderTimeline() {
     return;
   }
 
-  const fragment = document.createDocumentFragment();
-  state.filteredEvents.forEach((event, groupIndex) => {
-    fragment.append(buildEventRow(event, groupIndex));
+  const grouped = [];
+  let current = null;
+
+  state.filteredEvents.forEach((event, filteredIndex) => {
+    if (!current || current.key !== event.dateKey) {
+      current = {
+        key: event.dateKey,
+        label: event.dateLabel,
+        items: []
+      };
+      grouped.push(current);
+    }
+    current.items.push({ event, filteredIndex });
   });
+
+  const fragment = document.createDocumentFragment();
+  grouped.forEach((group) => {
+    fragment.append(buildDateGroup(group));
+  });
+
   dom.timeline.append(fragment);
 }
 
-function buildEventRow(event, groupIndex) {
+function buildDateGroup(group) {
+  const row = document.createElement("li");
+  row.className = "date-group";
+
+  const heading = document.createElement("h2");
+  heading.className = "date-heading";
+  heading.textContent = `${group.label} (${group.items.length})`;
+
+  const list = document.createElement("ol");
+  list.className = "group-events";
+
+  group.items.forEach(({ event, filteredIndex }) => {
+    list.append(buildEventRow(event, filteredIndex));
+  });
+
+  row.append(heading, list);
+  return row;
+}
+
+function buildEventRow(event, filteredIndex) {
   const row = document.createElement("li");
   row.className = "timeline-item";
 
-  const card = document.createElement("article");
-  card.className = "event-card";
+  const details = document.createElement("details");
+  details.className = "event-item";
 
-  card.append(buildHeader(event));
+  const summary = document.createElement("summary");
+  summary.className = "event-summary";
+
+  const summaryText = document.createElement("div");
+  summaryText.className = "summary-text";
+
+  const title = document.createElement("h3");
+  title.className = "event-title";
+  title.textContent = event.eventName;
+
+  const when = document.createElement("p");
+  when.className = "event-time";
+  when.textContent = event.displayTiming;
+
+  summaryText.append(title, when);
+
+  summary.append(summaryText);
+
+  if (event.images.length) {
+    const leadButton = document.createElement("button");
+    leadButton.type = "button";
+    leadButton.className = "lead-thumb-button";
+    leadButton.dataset.mediaGroupIndex = String(filteredIndex);
+    leadButton.dataset.mediaItemIndex = "0";
+    leadButton.setAttribute("aria-label", `Open primary image for ${event.eventName}`);
+
+    const leadImage = document.createElement("img");
+    leadImage.className = "lead-thumb";
+    leadImage.loading = "lazy";
+    leadImage.src = event.images[0].url;
+    leadImage.alt = event.images[0].label;
+
+    leadButton.append(leadImage);
+    summary.append(leadButton);
+  }
+
+  const content = document.createElement("div");
+  content.className = "event-content";
 
   if (event.location || event.people.length) {
-    const meta = document.createElement("p");
-    meta.className = "event-meta";
-    const peopleLabel = event.people.length ? `People: ${event.people.slice(0, 4).join(", ")}` : "";
-    meta.textContent = [event.location ? `Location: ${event.location}` : "", peopleLabel]
-      .filter(Boolean)
-      .join(" | ");
-    card.append(meta);
+    const meta = document.createElement("div");
+    meta.className = "meta-row";
+
+    if (event.location) {
+      meta.append(buildFilterChip(event.location, "location", event.location));
+    }
+
+    event.people.slice(0, 12).forEach((person) => {
+      meta.append(buildFilterChip(person, "person", person));
+    });
+
+    content.append(meta);
   }
 
   if (event.description) {
     const description = document.createElement("p");
     description.className = "event-description";
     description.textContent = event.description;
-    card.append(description);
-  }
-
-  if (event.tags.length || event.type) {
-    const chips = document.createElement("div");
-    chips.className = "chip-row";
-    chips.append(buildChip(event.type));
-    event.tags.slice(0, 8).forEach((tag) => chips.append(buildChip(tag)));
-    card.append(chips);
+    content.append(description);
   }
 
   if (event.links.length) {
@@ -564,47 +661,41 @@ function buildEventRow(event, groupIndex) {
       anchor.textContent = link.label;
       links.append(anchor);
     });
-    card.append(links);
+    content.append(links);
   }
 
   if (event.images.length) {
-    card.append(buildMediaDetails(event.images, groupIndex));
+    content.append(buildImageGallery(event.images, filteredIndex));
   }
 
-  if (event.pdfs.length || event.relatedDocs.length) {
-    card.append(buildDocsDetails(event.pdfs, event.relatedDocs));
-  }
-
-  row.append(card);
+  details.append(summary, content);
+  row.append(details);
   return row;
 }
 
-function buildHeader(event) {
-  const header = document.createElement("header");
-  const title = document.createElement("h2");
-  title.className = "event-title";
-  title.textContent = event.eventName;
-  const date = document.createElement("time");
-  date.className = "event-date";
-  date.textContent = formatDate(event);
-  header.append(title, date);
-  return header;
-}
+function buildFilterChip(label, kind, value) {
+  const chip = document.createElement("button");
+  chip.type = "button";
+  chip.className = `filter-chip ${kind === "location" ? "location-chip" : "people-chip"}`;
+  chip.textContent = kind === "location" ? `Location: ${label}` : label;
 
-function buildChip(text) {
-  const chip = document.createElement("span");
-  chip.className = "chip";
-  chip.textContent = text;
+  if (kind === "location") {
+    chip.dataset.filterLocation = value;
+  } else {
+    chip.dataset.filterPerson = value;
+  }
+
   return chip;
 }
 
-function buildMediaDetails(images, groupIndex) {
-  const details = document.createElement("details");
-  details.className = "media-details";
+function buildImageGallery(images, filteredIndex) {
+  const section = document.createElement("section");
+  section.className = "images-section";
 
-  const summary = document.createElement("summary");
-  summary.textContent = `Images (${images.length})`;
-  details.append(summary);
+  const heading = document.createElement("h4");
+  heading.className = "images-heading";
+  heading.textContent = `Images (${images.length})`;
+  section.append(heading);
 
   const grid = document.createElement("div");
   grid.className = "media-grid";
@@ -613,7 +704,7 @@ function buildMediaDetails(images, groupIndex) {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "thumb-button";
-    button.dataset.mediaGroupIndex = String(groupIndex);
+    button.dataset.mediaGroupIndex = String(filteredIndex);
     button.dataset.mediaItemIndex = String(itemIndex);
 
     const thumbnail = document.createElement("img");
@@ -629,66 +720,8 @@ function buildMediaDetails(images, groupIndex) {
     grid.append(button);
   });
 
-  details.append(grid);
-  return details;
-}
-
-function buildDocsDetails(pdfs, relatedDocs) {
-  const details = document.createElement("details");
-  details.className = "docs-details";
-  const totalCount = pdfs.length + relatedDocs.length;
-
-  const summary = document.createElement("summary");
-  summary.textContent = `Documents (${totalCount})`;
-  details.append(summary);
-
-  const list = document.createElement("ul");
-  list.className = "doc-list";
-
-  pdfs.forEach((pdf) => {
-    const item = document.createElement("li");
-    const anchor = document.createElement("a");
-    anchor.className = "doc-link";
-    anchor.href = pdf.url;
-    anchor.target = "_blank";
-    anchor.rel = "noopener noreferrer";
-    anchor.download = "";
-
-    const label = document.createElement("span");
-    label.textContent = pdf.label;
-    const action = document.createElement("span");
-    action.className = "doc-action";
-    action.textContent = "Open / Download";
-
-    anchor.append(label, action);
-    item.append(anchor);
-    list.append(item);
-  });
-
-  relatedDocs.slice(0, 20).forEach((docName) => {
-    const item = document.createElement("li");
-    item.textContent = docName;
-    list.append(item);
-  });
-
-  details.append(list);
-  return details;
-}
-
-function formatDate(event) {
-  if (event.date) {
-    const text = event.date.toLocaleString("en-US", {
-      year: "numeric",
-      month: "short",
-      day: "numeric",
-      hour: "numeric",
-      minute: "2-digit",
-      hour12: true,
-      timeZone: "UTC"
-    });
-    return `${text} UTC`;
-  }
-  return event.timeLabel;
+  section.append(grid);
+  return section;
 }
 
 function openModal(mediaItems, index) {

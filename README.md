@@ -2,10 +2,11 @@
 
 Static website for browsing your Airtable timeline with:
 
-- Chronological event cards
-- Fast text/type/year/media filters
+- Chronological, date-grouped timeline rows
+- Fast text/location/people/media filters
 - Image thumbnails with fullscreen modal viewer
-- Direct PDF open/download links
+- Collapsible events grouped by `Beginning Date`
+- Click-to-filter chips for `Location` and `People`
 
 ## Project files
 
@@ -13,6 +14,7 @@ Static website for browsing your Airtable timeline with:
 - `styles.css`: responsive visual system
 - `app.js`: CSV parser + rendering + filters + modal logic
 - `data/events-timeline.csv`: timeline dataset consumed by the app
+- `assets/zodiac-header.svg`: header image asset
 - `scripts/refresh_airtable_data.py`: fetches Airtable view + refreshes local dataset
 - `.github/workflows/refresh-airtable.yml`: optional daily and manual cloud refresh
 

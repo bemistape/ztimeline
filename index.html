@@ -6,7 +6,7 @@
     <title>Zodiac Timeline Archive</title>
     <meta
       name="description"
-      content="Interactive timeline for the Zodiac case with Airtable-exported events, images, and PDF records."
+      content="Interactive timeline for the Zodiac case with collapsible date-grouped events and image galleries."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,11 +19,16 @@
   <body>
     <main class="app-shell">
       <header class="hero">
+        <img
+          class="hero-mark"
+          src="assets/zodiac-header.svg"
+          alt="This is the Zodiac"
+          width="1867"
+          height="324"
+        />
         <p class="eyebrow">Case Timeline Viewer</p>
         <h1>Zodiac Archive</h1>
-        <p class="hero-copy">
-          Chronological event mapping with source links, image previews, and downloadable PDF records.
-        </p>
+        <p class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
         <div class="hero-actions">
           <a class="button secondary" href="data/events-timeline.csv" download>Download CSV</a>
           <p class="hero-meta">
@@ -45,16 +50,16 @@
         </label>
 
         <label class="control">
-          <span>Type</span>
-          <select id="type-filter">
-            <option value="">All Types</option>
+          <span>Location</span>
+          <select id="location-filter">
+            <option value="">All Locations</option>
           </select>
         </label>
 
         <label class="control">
-          <span>Year</span>
-          <select id="year-filter">
-            <option value="">All Years</option>
+          <span>People</span>
+          <select id="people-filter">
+            <option value="">All People</option>
           </select>
         </label>
 
@@ -64,21 +69,6 @@
         </label>
 
         <button id="reset-filters" class="button reset" type="button">Reset</button>
-      </section>
-
-      <section class="stats" aria-label="Dataset statistics">
-        <article class="stat-card">
-          <h2>Visible Events</h2>
-          <p id="visible-events">0</p>
-        </article>
-        <article class="stat-card">
-          <h2>Images</h2>
-          <p id="visible-images">0</p>
-        </article>
-        <article class="stat-card">
-          <h2>PDFs</h2>
-          <p id="visible-pdfs">0</p>
-        </article>
       </section>
 
       <section class="timeline-section">
