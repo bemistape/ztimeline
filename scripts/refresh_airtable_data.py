@@ -26,6 +26,8 @@ from urllib.request import Request, urlopen
 DEFAULT_BASE_ID = "appyDwtN9iiA9sjEe"
 DEFAULT_TABLE_ID = "tblxd8PLtQOl1dRa7"
 DEFAULT_VIEW_ID = "viwUWtXt3UUxE6LOC"
+IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"}
+PDF_EXTENSIONS = {"pdf"}
 
 DEFAULT_HEADERS = [
     "Event Name",
@@ -88,6 +90,14 @@ def parse_args() -> argparse.Namespace:
         help="Delete stale cached media files not referenced by refreshed records.",
     )
     parser.add_argument(
+        "--cache-media-types",
+        default=env_or_default("AIRTABLE_CACHE_MEDIA_TYPES", ""),
+        help=(
+            "Comma-separated attachment types to cache locally (image,pdf,file). "
+            "Default empty caches all attachment types."
+        ),
+    )
+    parser.add_argument(
         "--base-id",
         default=env_or_default("AIRTABLE_BASE_ID", DEFAULT_BASE_ID),
         help="Airtable base id (default from env or built-in base).",
@@ -121,6 +131,11 @@ def main() -> int:
     media_dir = Path(args.media_dir)
     metadata_path = Path(args.metadata_path)
     cache_media = not args.no_cache_media
+    try:
+        cache_media_types = parse_cache_media_types(args.cache_media_types)
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 2
 
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     media_dir.mkdir(parents=True, exist_ok=True)
@@ -145,6 +160,7 @@ def main() -> int:
                 value=value,
                 media_dir=media_dir,
                 cache_media=cache_media,
+                cache_media_types=cache_media_types,
                 used_media_files=used_media_files,
             )
         rows.append(row)
@@ -222,6 +238,7 @@ def stringify_value(
     value: Any,
     media_dir: Path,
     cache_media: bool,
+    cache_media_types: set[str] | None,
     used_media_files: set[str],
 ) -> str:
     if value is None:
@@ -233,6 +250,7 @@ def stringify_value(
                 attachments=value,
                 media_dir=media_dir,
                 cache_media=cache_media,
+                cache_media_types=cache_media_types,
                 used_media_files=used_media_files,
             )
         return ",".join(filter(None, (stringify_scalar(item) for item in value)))
@@ -260,6 +278,7 @@ def format_attachments(
     attachments: list[dict[str, Any]],
     media_dir: Path,
     cache_media: bool,
+    cache_media_types: set[str] | None,
     used_media_files: set[str],
 ) -> str:
     output_parts: list[str] = []
@@ -272,8 +291,12 @@ def format_attachments(
         attachment_id = str(attachment.get("id", "")).strip() or short_hash(source_url)
         local_filename = f"{attachment_id}_{filename}"
         local_path = media_dir / local_filename
+        attachment_type = infer_attachment_type(filename, source_url)
+        should_cache = cache_media and (
+            cache_media_types is None or attachment_type in cache_media_types
+        )
 
-        if cache_media:
+        if should_cache:
             if not local_path.exists():
                 download_binary(source_url, local_path)
             used_media_files.add(local_filename)
@@ -335,6 +358,32 @@ def prune_stale_media(media_dir: Path, used_media_files: set[str]) -> None:
             removed += 1
     if removed:
         print(f"Pruned {removed} stale media files.")
+
+
+def parse_cache_media_types(raw_value: str) -> set[str] | None:
+    value = (raw_value or "").strip().lower()
+    if not value:
+        return None
+
+    allowed = {"image", "pdf", "file"}
+    selected = {part.strip() for part in value.split(",") if part.strip()}
+    invalid = sorted(selected - allowed)
+    if invalid:
+        raise ValueError(f"Unsupported media types for --cache-media-types: {', '.join(invalid)}")
+    return selected
+
+
+def infer_attachment_type(filename: str, source_url: str) -> str:
+    value = f"{filename} {source_url}".lower()
+    match = re.search(r"\.([a-z0-9]+)(?:$|[?#)\s])", value)
+    if not match:
+        return "file"
+    extension = match.group(1)
+    if extension in IMAGE_EXTENSIONS:
+        return "image"
+    if extension in PDF_EXTENSIONS:
+        return "pdf"
+    return "file"
 
 
 if __name__ == "__main__":

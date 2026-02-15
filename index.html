@@ -85,6 +85,20 @@
       </button>
     </dialog>
 
+    <dialog id="record-modal" class="record-modal" aria-label="Record details">
+      <button id="record-modal-close" class="record-modal-close" type="button" aria-label="Close record details">
+        Close
+      </button>
+      <article class="record-modal-body">
+        <header class="record-modal-header">
+          <p id="record-modal-kind" class="record-modal-kind"></p>
+          <h2 id="record-modal-title" class="record-modal-title"></h2>
+          <p id="record-modal-subtitle" class="record-modal-subtitle"></p>
+        </header>
+        <div id="record-modal-content" class="record-modal-content"></div>
+      </article>
+    </dialog>
+
     <template id="empty-state-template">
       <li class="empty-state">
         <h2>No events match these filters.</h2>

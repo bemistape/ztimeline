@@ -14,6 +14,9 @@ Static website for browsing your Airtable timeline with:
 - `styles.css`: responsive visual system
 - `app.js`: CSV parser + rendering + filters + modal logic
 - `data/events-timeline.csv`: timeline dataset consumed by the app
+- `data/people-people-sync.csv`: people records used for modal drill-down
+- `data/location-location-sync.csv`: location records used for modal drill-down
+- `data/tags-tags-sync.csv`: tag records used for modal drill-down
 - `assets/zodiac-header.png`: header image asset
 - `scripts/refresh_airtable_data.py`: fetches Airtable view + refreshes local dataset
 - `.github/workflows/refresh-airtable.yml`: optional daily and manual cloud refresh
@@ -47,7 +50,7 @@ export AIRTABLE_VIEW_ID="viwUWtXt3UUxE6LOC"
 2. Run refresh:
 
 ```bash
-python3 scripts/refresh_airtable_data.py --prune-media
+python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types pdf
 ```
 
 This updates:
@@ -73,7 +76,14 @@ The workflow runs:
 - On a daily schedule
 - On demand with `workflow_dispatch`
 
-To keep Action pushes reliable, the workflow runs refresh with `--no-cache-media`, so it commits only lightweight dataset files (instead of trying to push large binary attachment batches that can fail with HTTP 408 during `git push`).
+To keep Action pushes reliable, the workflow caches only file attachments by default (`--cache-media-types pdf`) and skips downloading image binaries. This keeps `git push` payloads small enough for GitHub Actions while still preserving stable downloadable files.
+
+Optional: set repo variable `AIRTABLE_CACHE_MEDIA_TYPES` to:
+
+- `pdf` (default, recommended)
+- `file` (non-image files)
+- `pdf,file`
+- empty string to cache all media types (not recommended for scheduled runs)
 
 ## Security note
 
