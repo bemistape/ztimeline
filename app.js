@@ -269,6 +269,7 @@ function normalizeEvent(raw, index) {
   const people = parseList(raw["Related People & Groups"]);
   const location = sanitizeText(raw.Location || "");
   const description = raw.Description || "";
+  const type = sanitizeText(raw.Type || "") || "Uncategorized";
   const sourceUrls = parseUrls(raw.Sources);
   const links = sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url }));
 
@@ -284,6 +285,7 @@ function normalizeEvent(raw, index) {
     description,
     location,
     people.join(" "),
+    type,
     raw["Related Documents"],
     raw.Tags
   ]
@@ -295,6 +297,7 @@ function normalizeEvent(raw, index) {
     index,
     eventName: raw["Event Name"] || "Untitled event",
     description,
+    type,
     location,
     people,
     dateSummary,
@@ -600,7 +603,32 @@ function applyFilters() {
     return true;
   });
 
+  assignTimelinePositions(state.filteredEvents);
   renderTimeline();
+}
+
+function assignTimelinePositions(events) {
+  const finiteTimes = events.map((event) => event.sortTime).filter((value) => Number.isFinite(value));
+  if (finiteTimes.length === 0) {
+    events.forEach((event) => {
+      event.timelinePercent = null;
+    });
+    return;
+  }
+
+  const min = Math.min(...finiteTimes);
+  const max = Math.max(...finiteTimes);
+  events.forEach((event) => {
+    if (!Number.isFinite(event.sortTime)) {
+      event.timelinePercent = null;
+      return;
+    }
+    if (max === min) {
+      event.timelinePercent = 0.5;
+      return;
+    }
+    event.timelinePercent = (event.sortTime - min) / (max - min);
+  });
 }
 
 function renderTimeline() {
@@ -659,6 +687,9 @@ function buildEventRow(event, filteredIndex) {
 
   const details = document.createElement("details");
   details.className = "event-item";
+  const tint = getTypeTint(event.type);
+  details.style.setProperty("--record-tint-bg", tint.background);
+  details.style.setProperty("--record-tint-border", tint.border);
 
   const summary = document.createElement("summary");
   summary.className = "event-summary";
@@ -678,7 +709,7 @@ function buildEventRow(event, filteredIndex) {
     buildSummaryPeopleField(event.people)
   );
 
-  summaryText.append(title, fieldGrid);
+  summaryText.append(title, fieldGrid, buildTimeBar(event));
 
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
@@ -740,6 +771,26 @@ function buildEventRow(event, filteredIndex) {
   details.append(summary, content);
   row.append(details);
   return row;
+}
+
+function buildTimeBar(event) {
+  const wrap = document.createElement("div");
+  wrap.className = "time-bar";
+  if (event.timelinePercent == null) {
+    return wrap;
+  }
+
+  const progress = document.createElement("span");
+  progress.className = "time-bar-progress";
+  const dot = document.createElement("span");
+  dot.className = "time-bar-dot";
+
+  const percent = Math.max(0, Math.min(100, event.timelinePercent * 100));
+  progress.style.width = `${percent}%`;
+  dot.style.left = `${percent}%`;
+
+  wrap.append(progress, dot);
+  return wrap;
 }
 
 function buildSummaryField(label, value) {
@@ -831,6 +882,20 @@ function buildFilterChip(label, kind, value, compact = false) {
   }
 
   return chip;
+}
+
+function getTypeTint(type) {
+  const text = (type || "uncategorized").toLowerCase();
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = (hash * 31 + text.charCodeAt(i)) % 360;
+  }
+
+  const hue = hash;
+  return {
+    background: `hsl(${hue} 25% 97%)`,
+    border: `hsl(${hue} 22% 72%)`
+  };
 }
 
 function buildImageGallery(images, filteredIndex) {

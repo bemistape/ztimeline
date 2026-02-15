@@ -193,6 +193,7 @@ h1 {
 
 .timeline-item {
   border-bottom: 1px solid #d4d4d4;
+  padding: 0.18rem 0;
 }
 
 .timeline-item:last-child {
@@ -200,7 +201,11 @@ h1 {
 }
 
 .event-item {
-  border: 0;
+  border: 1px solid #d2d2d2;
+  border-left: 3px solid var(--record-tint-border, #bdbdbd);
+  background: var(--record-tint-bg, #ffffff);
+  border-radius: 10px;
+  padding: 0 0.72rem;
 }
 
 .event-summary {
@@ -285,6 +290,38 @@ h1 {
   display: grid;
   grid-template-columns: minmax(120px, 0.9fr) minmax(140px, 1.1fr) minmax(220px, 1.8fr);
   gap: 0.32rem 0.92rem;
+}
+
+.time-bar {
+  position: relative;
+  height: 6px;
+  border-radius: 999px;
+  background: #d5d5d5;
+  margin-top: 0.38rem;
+  overflow: hidden;
+}
+
+.time-bar:empty {
+  display: none;
+}
+
+.time-bar-progress {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: #7b7b7b;
+  opacity: 0.5;
+}
+
+.time-bar-dot {
+  position: absolute;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #1f1f1f;
+  transform: translate(-50%, -50%);
 }
 
 .summary-field {
@@ -514,6 +551,10 @@ h1 {
     grid-template-columns: 1fr 1fr;
   }
 
+  .summary-field:last-child {
+    grid-column: 1 / span 2;
+  }
+
   .summary-thumb-button {
     width: 96px;
     height: 52px;
@@ -541,6 +582,10 @@ h1 {
   .summary-fields {
     grid-template-columns: 1fr;
     gap: 0.24rem;
+  }
+
+  .summary-field:last-child {
+    grid-column: auto;
   }
 
   .event-content {
