@@ -43,6 +43,11 @@ const state = {
     location: new Map(),
     tag: new Map()
   },
+  relatedById: {
+    person: new Map(),
+    location: new Map(),
+    tag: new Map()
+  },
   modalMedia: [],
   modalIndex: 0,
   recordModalImages: [],
@@ -75,6 +80,7 @@ async function init() {
     locationCsv,
     tagCsv
   });
+  hydrateEventLinkedReferences();
 
   populateFilters();
   applyFilters();
@@ -1012,6 +1018,101 @@ function buildRelatedIndexes({ peopleCsv, locationCsv, tagCsv }) {
   state.related.person = buildPersonIndex(peopleCsv, eventNameLookup);
   state.related.location = buildLocationIndex(locationCsv, eventNameLookup);
   state.related.tag = buildTagIndex(tagCsv, eventNameLookup);
+
+  state.relatedById.person = buildIdLookup(peopleCsv, ["People Record ID"], ["Full Name"]);
+  state.relatedById.location = buildIdLookup(locationCsv, ["Location Record ID"], ["Location"]);
+  state.relatedById.tag = buildIdLookup(tagCsv, ["Tag Record ID", "Documents Record ID"], ["Tag"]);
+}
+
+function buildIdLookup(csvText, idFields, nameFields) {
+  const lookup = new Map();
+  rowsFromOptionalCsv(csvText).forEach((row) => {
+    const name = firstField(row, nameFields);
+    const recordId = firstField(row, idFields);
+    if (!name || !recordId) {
+      return;
+    }
+    lookup.set(normalizeKey(recordId), name);
+  });
+  return lookup;
+}
+
+function firstField(row, fields) {
+  for (const field of fields) {
+    const value = sanitizeText(row[field]);
+    if (value) {
+      return value;
+    }
+  }
+  return "";
+}
+
+function hydrateEventLinkedReferences() {
+  state.events = state.events.map((event) => {
+    const location = resolveLinkedName("location", event.location);
+    const people = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
+    const tags = uniqueCompact(event.tags.map((tag) => resolveLinkedName("tag", tag)));
+    const searchableText = [event.searchableText, location, people.join(" "), tags.join(" ")]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+
+    return {
+      ...event,
+      location,
+      people,
+      tags,
+      searchableText
+    };
+  });
+}
+
+function uniqueCompact(values) {
+  const seen = new Set();
+  const result = [];
+  values.forEach((value) => {
+    const clean = sanitizeText(value);
+    if (!clean) {
+      return;
+    }
+    const key = normalizeKey(clean);
+    if (seen.has(key)) {
+      return;
+    }
+    seen.add(key);
+    result.push(clean);
+  });
+  return result;
+}
+
+function isRecordId(value) {
+  return /^rec[a-z0-9]{10,}$/i.test(sanitizeText(value));
+}
+
+function resolveLinkedName(kind, value) {
+  const text = sanitizeText(value);
+  if (!text) {
+    return "";
+  }
+  if (!isRecordId(text)) {
+    return text;
+  }
+  const resolved = state.relatedById[kind]?.get(normalizeKey(text));
+  return resolved || "";
+}
+
+function resolveRecordLookupKey(kind, nameOrId) {
+  const text = sanitizeText(nameOrId);
+  if (!text) {
+    return "";
+  }
+  if (isRecordId(text)) {
+    const resolved = state.relatedById[kind]?.get(normalizeKey(text));
+    if (resolved) {
+      return normalizeKey(resolved);
+    }
+  }
+  return normalizeKey(text);
 }
 
 function rowsFromOptionalCsv(csvText) {
@@ -1166,8 +1267,8 @@ function resolveRelatedEvents(names, eventNameLookup) {
 
 function openRecordModal(kind, name) {
   const lookup = state.related[kind];
-  const key = normalizeKey(name);
-  const record = lookup ? lookup.get(key) || buildFallbackRecord(kind, name) : buildFallbackRecord(kind, name);
+  const lookupKey = resolveRecordLookupKey(kind, name);
+  const record = lookup ? lookup.get(lookupKey) || buildFallbackRecord(kind, name) : buildFallbackRecord(kind, name);
 
   state.recordModalImages = record.images;
   state.recordModalRelatedEvents = record.relatedEvents;
@@ -1212,17 +1313,20 @@ function openRecordModal(kind, name) {
 }
 
 function buildFallbackRecord(kind, name) {
-  const cleanName = sanitizeText(name);
+  const cleanName = resolveLinkedName(kind, name) || "";
+  const fallbackName =
+    cleanName ||
+    (kind === "person" ? "Unknown Person" : kind === "location" ? "Unknown Location" : "Unknown Tag");
   const relatedEvents = state.events
     .filter((event) => {
       if (kind === "person") {
-        return event.people.some((person) => normalizeKey(person) === normalizeKey(cleanName));
+        return event.people.some((person) => normalizeKey(person) === normalizeKey(fallbackName));
       }
       if (kind === "location") {
-        return normalizeKey(event.location) === normalizeKey(cleanName);
+        return normalizeKey(event.location) === normalizeKey(fallbackName);
       }
       if (kind === "tag") {
-        return event.tags.some((tag) => normalizeKey(tag) === normalizeKey(cleanName));
+        return event.tags.some((tag) => normalizeKey(tag) === normalizeKey(fallbackName));
       }
       return false;
     })
@@ -1230,7 +1334,7 @@ function buildFallbackRecord(kind, name) {
 
   return {
     kind,
-    name: cleanName,
+    name: fallbackName,
     subtitle: "Record details unavailable in synced table",
     summary: "",
     details: [],
