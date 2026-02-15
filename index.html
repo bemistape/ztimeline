@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Zodiac Timeline Archive</title>
+    <meta
+      name="description"
+      content="Interactive timeline for the Zodiac case with Airtable-exported events, images, and PDF records."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="hero">
+        <p class="eyebrow">Case Timeline Viewer</p>
+        <h1>Zodiac Archive</h1>
+        <p class="hero-copy">
+          Chronological event mapping with source links, image previews, and downloadable PDF records.
+        </p>
+        <div class="hero-actions">
+          <a class="button secondary" href="data/events-timeline.csv" download>Download CSV</a>
+          <p class="hero-meta">
+            Dataset status:
+            <span id="dataset-status" class="status-pending">Loading...</span>
+          </p>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="Timeline filters">
+        <label class="control">
+          <span>Search</span>
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Event name, people, location, notes"
+            autocomplete="off"
+          />
+        </label>
+
+        <label class="control">
+          <span>Type</span>
+          <select id="type-filter">
+            <option value="">All Types</option>
+          </select>
+        </label>
+
+        <label class="control">
+          <span>Year</span>
+          <select id="year-filter">
+            <option value="">All Years</option>
+          </select>
+        </label>
+
+        <label class="check-control">
+          <input id="media-only-filter" type="checkbox" />
+          <span>Only events with media</span>
+        </label>
+
+        <button id="reset-filters" class="button reset" type="button">Reset</button>
+      </section>
+
+      <section class="stats" aria-label="Dataset statistics">
+        <article class="stat-card">
+          <h2>Visible Events</h2>
+          <p id="visible-events">0</p>
+        </article>
+        <article class="stat-card">
+          <h2>Images</h2>
+          <p id="visible-images">0</p>
+        </article>
+        <article class="stat-card">
+          <h2>PDFs</h2>
+          <p id="visible-pdfs">0</p>
+        </article>
+      </section>
+
+      <section class="timeline-section">
+        <ol id="timeline" class="timeline" aria-live="polite"></ol>
+      </section>
+    </main>
+
+    <dialog id="image-modal" class="image-modal" aria-label="Image preview">
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close image preview">
+        Close
+      </button>
+      <button id="modal-prev" class="modal-nav prev" type="button" aria-label="Previous image">
+        Prev
+      </button>
+      <figure class="modal-figure">
+        <img id="modal-image" alt="" />
+        <figcaption id="modal-caption"></figcaption>
+      </figure>
+      <button id="modal-next" class="modal-nav next" type="button" aria-label="Next image">
+        Next
+      </button>
+    </dialog>
+
+    <template id="empty-state-template">
+      <li class="empty-state">
+        <h2>No events match these filters.</h2>
+        <p>Try clearing one or more filters.</p>
+      </li>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
