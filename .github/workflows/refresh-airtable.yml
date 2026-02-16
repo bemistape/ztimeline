@@ -59,6 +59,7 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
+          TARGET_BRANCH="${GITHUB_REF_NAME}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.version HTTP/1.1
@@ -66,9 +67,17 @@ jobs:
 
           push_with_retry() {
             for attempt in 1 2 3; do
-              if git push; then
+              if git push origin "HEAD:${TARGET_BRANCH}"; then
                 return 0
               fi
+
+              LOCAL_SHA="$(git rev-parse HEAD)"
+              REMOTE_SHA="$(git ls-remote --heads origin "${TARGET_BRANCH}" | awk '{print $1}' | head -n 1 || true)"
+              if [ -n "${REMOTE_SHA}" ] && [ "${REMOTE_SHA}" = "${LOCAL_SHA}" ]; then
+                echo "Push likely succeeded despite transport error (remote already at ${LOCAL_SHA})."
+                return 0
+              fi
+
               if [ "$attempt" -lt 3 ]; then
                 sleep $((attempt * 20))
               fi
@@ -89,18 +98,36 @@ jobs:
             exit 0
           fi
 
-          BATCH_SIZE=140
-          TOTAL_FILES=${#MEDIA_FILES[@]}
+          MAX_BATCH_BYTES=$((180 * 1024 * 1024))
           BATCH_NUMBER=1
-          START=0
-          while [ "$START" -lt "$TOTAL_FILES" ]; do
-            COUNT=$BATCH_SIZE
-            if [ $((START + COUNT)) -gt "$TOTAL_FILES" ]; then
-              COUNT=$((TOTAL_FILES - START))
+          CURRENT_BATCH_BYTES=0
+          CURRENT_BATCH_FILES=()
+
+          flush_media_batch() {
+            if [ "${#CURRENT_BATCH_FILES[@]}" -eq 0 ]; then
+              return 0
             fi
-            git add -- "${MEDIA_FILES[@]:START:COUNT}"
+
+            git add -- "${CURRENT_BATCH_FILES[@]}"
             git commit -m "chore: refresh Airtable timeline data (media batch ${BATCH_NUMBER})"
             push_with_retry || { echo "Failed to push media batch ${BATCH_NUMBER}."; exit 1; }
-            START=$((START + COUNT))
             BATCH_NUMBER=$((BATCH_NUMBER + 1))
+            CURRENT_BATCH_BYTES=0
+            CURRENT_BATCH_FILES=()
+          }
+
+          for media_file in "${MEDIA_FILES[@]}"; do
+            FILE_BYTES=0
+            if [ -f "${media_file}" ]; then
+              FILE_BYTES=$(wc -c < "${media_file}")
+            fi
+
+            if [ "${#CURRENT_BATCH_FILES[@]}" -gt 0 ] && [ $((CURRENT_BATCH_BYTES + FILE_BYTES)) -gt "${MAX_BATCH_BYTES}" ]; then
+              flush_media_batch
+            fi
+
+            CURRENT_BATCH_FILES+=("${media_file}")
+            CURRENT_BATCH_BYTES=$((CURRENT_BATCH_BYTES + FILE_BYTES))
           done
+
+          flush_media_batch
