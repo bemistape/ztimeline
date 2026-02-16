@@ -51,13 +51,16 @@ export AIRTABLE_LOCATION_TABLE_ID="tbl5djS0HR8Ecg1OJ"
 export AIRTABLE_LOCATION_VIEW_ID="viwbicx0kvh1UMRLB"
 export AIRTABLE_TAGS_TABLE_ID="tbl369AkU0k8At9IV"
 export AIRTABLE_TAGS_VIEW_ID="viwa1K5WgktgPYoO9"
+export AIRTABLE_SYNC_MODE="delta"
 ```
 
 2. Run refresh:
 
 ```bash
-python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types image
+python3 scripts/refresh_airtable_data.py --sync-mode delta --prune-media --cache-media-types image
 ```
+
+Use `--sync-mode full` when you want a complete rebuild.
 
 This updates:
 
@@ -91,7 +94,8 @@ Use `.github/workflows/refresh-airtable.yml`:
 
 The workflow runs:
 
-- On a daily schedule
+- Daily in `delta` mode (only changed/new records + unpublished removals)
+- Weekly in `full` mode (full reconciliation, catches hard deletes)
 - On demand with `workflow_dispatch`
 
 The workflow now caches image attachments by default (`--cache-media-types image`) so image links on the site do not depend on expiring Airtable URLs.

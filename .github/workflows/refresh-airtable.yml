@@ -2,8 +2,18 @@ name: Refresh Airtable Timeline
 
 on:
   workflow_dispatch:
+    inputs:
+      sync_mode:
+        description: "Sync mode (delta or full)"
+        required: false
+        default: "delta"
+        type: choice
+        options:
+          - delta
+          - full
   schedule:
     - cron: "12 10 * * *"
+    - cron: "45 10 * * 0"
 
 permissions:
   contents: write
@@ -33,11 +43,19 @@ jobs:
           AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
           AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
         run: |
-          python3 scripts/refresh_airtable_data.py --prune-media --cache-media-types image
+          SYNC_MODE="delta"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "45 10 * * 0" ]; then
+            SYNC_MODE="full"
+          fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.sync_mode }}" ]; then
+            SYNC_MODE="${{ github.event.inputs.sync_mode }}"
+          fi
+          echo "Running Airtable refresh with sync mode: ${SYNC_MODE}"
+          python3 scripts/refresh_airtable_data.py --sync-mode "${SYNC_MODE}" --prune-media --cache-media-types image
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet; then
+          if git diff --quiet -- data; then
             echo "No changes to commit."
             exit 0
           fi
@@ -45,15 +63,44 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.version HTTP/1.1
           git config http.postBuffer 524288000
-          git add data
-          git commit -m "chore: refresh Airtable timeline data"
-          for attempt in 1 2 3; do
-            if git push; then
-              exit 0
+
+          push_with_retry() {
+            for attempt in 1 2 3; do
+              if git push; then
+                return 0
+              fi
+              if [ "$attempt" -lt 3 ]; then
+                sleep $((attempt * 20))
+              fi
+            done
+            return 1
+          }
+
+          mapfile -t NON_MEDIA_FILES < <(git diff --name-only -- data | grep -v '^data/media/' || true)
+          if [ "${#NON_MEDIA_FILES[@]}" -gt 0 ]; then
+            git add "${NON_MEDIA_FILES[@]}"
+            git commit -m "chore: refresh Airtable timeline data (metadata)"
+            push_with_retry || { echo "Failed to push metadata batch."; exit 1; }
+          fi
+
+          mapfile -t MEDIA_FILES < <(git diff --name-only -- data/media)
+          if [ "${#MEDIA_FILES[@]}" -eq 0 ]; then
+            echo "No media file changes to push."
+            exit 0
+          fi
+
+          BATCH_SIZE=140
+          TOTAL_FILES=${#MEDIA_FILES[@]}
+          BATCH_NUMBER=1
+          START=0
+          while [ "$START" -lt "$TOTAL_FILES" ]; do
+            COUNT=$BATCH_SIZE
+            if [ $((START + COUNT)) -gt "$TOTAL_FILES" ]; then
+              COUNT=$((TOTAL_FILES - START))
             fi
-            if [ "$attempt" -lt 3 ]; then
-              sleep $((attempt * 20))
-            fi
+            git add "${MEDIA_FILES[@]:START:COUNT}"
+            git commit -m "chore: refresh Airtable timeline data (media batch ${BATCH_NUMBER})"
+            push_with_retry || { echo "Failed to push media batch ${BATCH_NUMBER}."; exit 1; }
+            START=$((START + COUNT))
+            BATCH_NUMBER=$((BATCH_NUMBER + 1))
           done
-          echo "git push failed after 3 attempts."
-          exit 1

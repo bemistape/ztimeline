@@ -183,6 +183,13 @@ function bindUi() {
   });
 
   dom.recordModalContent.addEventListener("click", (event) => {
+    const recordTrigger = event.target.closest("button[data-record-kind][data-record-name]");
+    if (recordTrigger) {
+      event.preventDefault();
+      openRecordModal(recordTrigger.dataset.recordKind, recordTrigger.dataset.recordName);
+      return;
+    }
+
     const mediaTrigger = event.target.closest("button[data-record-media-index]");
     if (mediaTrigger) {
       event.preventDefault();
@@ -354,6 +361,8 @@ function normalizeEvent(raw, index) {
 
   const people = parseList(raw["Related People & Groups"]);
   const location = sanitizeText(raw.Location || "");
+  const locationFallback = sanitizeText(raw["All Related Locations"] || "");
+  const peopleFallback = sanitizeText(raw["All Related People Names"] || "");
   const tags = parseList(raw.Tags);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
@@ -388,7 +397,9 @@ function normalizeEvent(raw, index) {
     description,
     type,
     location,
+    locationFallback,
     people,
+    peopleFallback,
     tags,
     dateSummary,
     dateBadge,
@@ -852,9 +863,7 @@ function buildEventRow(event, filteredIndex) {
   content.className = "event-content";
 
   if (event.description) {
-    const description = document.createElement("p");
-    description.className = "event-description";
-    description.textContent = event.description;
+    const description = renderRichTextBlock(event.description, "event-description");
     content.append(description);
   }
 
@@ -1049,8 +1058,12 @@ function firstField(row, fields) {
 
 function hydrateEventLinkedReferences() {
   state.events = state.events.map((event) => {
-    const location = resolveLinkedName("location", event.location);
-    const people = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
+    const resolvedLocation = resolveLinkedName("location", event.location);
+    const location = resolvedLocation || event.locationFallback || "";
+
+    const resolvedPeople = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
+    const fallbackPeople = parseLinkedValues(event.peopleFallback, "person");
+    const people = resolvedPeople.length > 0 ? resolvedPeople : uniqueCompact(fallbackPeople);
     const tags = uniqueCompact(event.tags.map((tag) => resolveLinkedName("tag", tag)));
     const searchableText = [event.searchableText, location, people.join(" "), tags.join(" ")]
       .filter(Boolean)
@@ -1143,17 +1156,29 @@ function buildPersonIndex(csvText, eventNameLookup) {
     index.set(normalizeKey(name), {
       kind: "person",
       name,
+      slug: sanitizeText(row.Slug),
       subtitle: sanitizeText(row["Role in Case"]),
       summary: sanitizeText(row["Short Bio"] || row.Biography),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
+      relatedRecords: {
+        person: uniqueCompact(
+          resolveRelatedNames("person", [
+            row["Member Of / Linked Beneath"],
+            row["Members of Group"],
+            row.Relatives,
+            row["From field: Relatives"]
+          ]).filter((person) => normalizeKey(person) !== normalizeKey(name))
+        ),
+        location: resolveRelatedNames("location", [row["Locations Linked To"], row["Locations via Events"]]),
+        tag: resolveRelatedNames("tag", [row["Related Tags"]])
+      },
       relatedEvents: resolveRelatedEvents(parseList(row["Related Events"]), eventNameLookup),
       details: [
         makeDetail("Born", row["Date of Birth"]),
         makeDetail("Died", row["Date of Death"]),
         makeDetail("Home / HQ", row["Home / Headquarters"]),
-        makeDetail("Tags", row["Related Tags"]),
-        makeDetail("Locations", row["Locations via Events"] || row["Locations Linked To"])
+        makeDetail("Role Score", row["Role in Case Score"])
       ].filter(Boolean)
     });
   });
@@ -1178,16 +1203,29 @@ function buildLocationIndex(csvText, eventNameLookup) {
     index.set(normalizeKey(name), {
       kind: "location",
       name,
+      slug: sanitizeText(row.Slug),
       subtitle: sanitizeText(row.Type),
       summary: sanitizeText(row.Notes),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
+      relatedRecords: {
+        person: resolveRelatedNames("person", [row["People / Orgs Linked To"], row["All Related People Names"]]),
+        location: uniqueCompact(
+          resolveRelatedNames("location", [
+            row["Related Locations"],
+            row["All Related Locations"],
+            row["Related Locations Rollup"],
+            row["All Related Locations Rollup (from Located Within)"]
+          ]).filter((location) => normalizeKey(location) !== normalizeKey(name))
+        ),
+        tag: resolveRelatedNames("tag", [row.Tags])
+      },
       relatedEvents: resolveRelatedEvents(parseList(row.Events), eventNameLookup),
       details: [
         makeDetail("Address", row.Address),
         makeDetail("Located Within", row["Located Within"]),
-        makeDetail("People", row["People / Orgs Linked To"]),
-        makeDetail("Tags", row.Tags)
+        makeDetail("Latitude", row.Latitude),
+        makeDetail("Longitude", row.Longitude)
       ].filter(Boolean)
     });
   });
@@ -1211,19 +1249,25 @@ function buildTagIndex(csvText, eventNameLookup) {
     index.set(normalizeKey(name), {
       kind: "tag",
       name,
+      slug: sanitizeText(row.Slug),
       subtitle: sanitizeText(row["Tagged Under"] || row["AI: Information Category (Detailed)"]),
       summary: sanitizeText(row.Summary || row["AI: Summary Analysis"]),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
+      relatedRecords: {
+        person: resolveRelatedNames("person", [row["Related People"], row["Related People Names"]]),
+        location: resolveRelatedNames("location", [row.Locations]),
+        tag: resolveRelatedNames("tag", [row["Tagged Under"]]).filter(
+          (tag) => normalizeKey(tag) !== normalizeKey(name)
+        )
+      },
       relatedEvents: resolveRelatedEvents(
         parseList(row["Related Event Names"] || row["Related Events"]),
         eventNameLookup
       ),
       details: [
         makeDetail("Date", row.Date),
-        makeDetail("People", row["Related People"] || row["Related People Names"]),
-        makeDetail("Documents", row["Related Documents"]),
-        makeDetail("Locations", row.Locations)
+        makeDetail("Documents", row["Related Documents"])
       ].filter(Boolean)
     });
   });
@@ -1281,9 +1325,7 @@ function openRecordModal(kind, name) {
   content.replaceChildren();
 
   if (record.summary) {
-    const summary = document.createElement("p");
-    summary.className = "record-summary";
-    summary.textContent = record.summary;
+    const summary = renderRichTextBlock(record.summary, "record-summary");
     content.append(summary);
   }
 
@@ -1308,6 +1350,7 @@ function openRecordModal(kind, name) {
     content.append(buildRecordDownloadSection(record.downloads));
   }
 
+  content.append(buildRecordConnectionsSection(record.relatedRecords));
   content.append(buildRelatedEventsSection(record.relatedEvents));
   dom.recordModal.showModal();
 }
@@ -1340,8 +1383,44 @@ function buildFallbackRecord(kind, name) {
     details: [],
     images: [],
     downloads: [],
+    relatedRecords: {
+      person: [],
+      location: [],
+      tag: []
+    },
     relatedEvents
   };
+}
+
+function buildRecordConnectionsSection(relatedRecords) {
+  const groups = [
+    { kind: "person", label: "People", values: relatedRecords?.person || [] },
+    { kind: "location", label: "Locations", values: relatedRecords?.location || [] },
+    { kind: "tag", label: "Tags", values: relatedRecords?.tag || [] }
+  ].filter((group) => group.values.length > 0);
+
+  if (groups.length === 0) {
+    return document.createDocumentFragment();
+  }
+
+  const section = document.createElement("section");
+  section.className = "record-section";
+
+  groups.forEach((group) => {
+    const heading = document.createElement("h3");
+    heading.className = "record-section-title";
+    heading.textContent = `${group.label} (${group.values.length})`;
+    section.append(heading);
+
+    const list = document.createElement("div");
+    list.className = "record-related-list";
+    group.values.forEach((value) => {
+      list.append(buildRecordChip(value, group.kind, value));
+    });
+    section.append(list);
+  });
+
+  return section;
 }
 
 function buildRecordImageSection(images) {
@@ -1494,6 +1573,177 @@ function buildImageGallery(images, filteredIndex) {
 
   section.append(grid);
   return section;
+}
+
+function resolveRelatedNames(kind, values) {
+  const output = [];
+  values.forEach((raw) => {
+    parseLinkedValues(raw, kind).forEach((value) => {
+      const resolved = resolveLinkedName(kind, value);
+      if (resolved) {
+        output.push(resolved);
+      }
+    });
+  });
+  return uniqueCompact(output);
+}
+
+function parseLinkedValues(value, kind) {
+  const text = sanitizeText(value);
+  if (!text) {
+    return [];
+  }
+
+  const parsed = parseList(text);
+  if (parsed.length <= 1) {
+    return parsed.length ? parsed : [text];
+  }
+
+  const containsRecordIds = parsed.some((item) => isRecordId(item));
+  if (!containsRecordIds && kind === "location") {
+    return [text];
+  }
+
+  return parsed;
+}
+
+function renderRichTextBlock(input, className) {
+  const root = document.createElement("div");
+  root.className = className;
+
+  const normalized = String(input || "")
+    .replace(/\r\n?/g, "\n")
+    .trim();
+  if (!normalized) {
+    return root;
+  }
+
+  const blocks = normalized.split(/\n{2,}/);
+  blocks.forEach((block) => {
+    const lines = block.split("\n").map((line) => line.trimEnd());
+    const headingMatch = lines[0].match(/^(#{1,6})\s+(.+)$/);
+
+    if (headingMatch && lines.length === 1) {
+      const level = Math.min(6, headingMatch[1].length + 2);
+      const heading = document.createElement(`h${level}`);
+      appendRichInline(heading, headingMatch[2]);
+      root.append(heading);
+      return;
+    }
+
+    const listItems = lines
+      .filter((line) => line.trim().length > 0)
+      .map((line) => line.match(/^\s*[-*]\s+(.+)$/))
+      .filter(Boolean);
+
+    if (listItems.length === lines.filter((line) => line.trim().length > 0).length && listItems.length > 0) {
+      const list = document.createElement("ul");
+      listItems.forEach((match) => {
+        const item = document.createElement("li");
+        appendRichInline(item, match[1]);
+        list.append(item);
+      });
+      root.append(list);
+      return;
+    }
+
+    const paragraph = document.createElement("p");
+    lines.forEach((line, index) => {
+      if (index > 0) {
+        paragraph.append(document.createElement("br"));
+      }
+      appendRichInline(paragraph, line);
+    });
+    root.append(paragraph);
+  });
+
+  return root;
+}
+
+function appendRichInline(target, text) {
+  const tokenPattern = /\[([^\]]+)\]\s*\((https?:\/\/[^)\s]+)\)|(https?:\/\/[^\s]+)/gi;
+  let cursor = 0;
+  let match = tokenPattern.exec(text);
+
+  while (match) {
+    if (match.index > cursor) {
+      appendStrongEmphasis(target, text.slice(cursor, match.index));
+    }
+
+    const markdownLabel = match[1];
+    const markdownUrl = match[2];
+    const rawUrl = match[3];
+    const url = sanitizeUrl(markdownUrl || rawUrl || "");
+
+    if (url) {
+      const anchor = document.createElement("a");
+      anchor.href = url;
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.textContent = markdownLabel || stripTrailingUrlPunctuation(rawUrl || "");
+      target.append(anchor);
+    } else {
+      appendStrongEmphasis(target, match[0]);
+    }
+
+    cursor = tokenPattern.lastIndex;
+    match = tokenPattern.exec(text);
+  }
+
+  if (cursor < text.length) {
+    appendStrongEmphasis(target, text.slice(cursor));
+  }
+}
+
+function appendStrongEmphasis(target, text) {
+  const pattern = /\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+  let cursor = 0;
+  let match = pattern.exec(text);
+
+  while (match) {
+    if (match.index > cursor) {
+      target.append(document.createTextNode(text.slice(cursor, match.index)));
+    }
+
+    if (match[1]) {
+      const strong = document.createElement("strong");
+      strong.textContent = match[1];
+      target.append(strong);
+    } else if (match[2]) {
+      const em = document.createElement("em");
+      em.textContent = match[2];
+      target.append(em);
+    }
+
+    cursor = pattern.lastIndex;
+    match = pattern.exec(text);
+  }
+
+  if (cursor < text.length) {
+    target.append(document.createTextNode(text.slice(cursor)));
+  }
+}
+
+function sanitizeUrl(value) {
+  const clean = stripTrailingUrlPunctuation(String(value || "").trim());
+  if (!clean) {
+    return "";
+  }
+
+  try {
+    const parsed = new URL(clean);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      return parsed.toString();
+    }
+  } catch (error) {
+    return "";
+  }
+
+  return "";
+}
+
+function stripTrailingUrlPunctuation(url) {
+  return String(url || "").replace(/[),.;!?]+$/g, "");
 }
 
 function buildPdfDownloads(pdfs) {

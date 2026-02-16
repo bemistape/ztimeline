@@ -443,6 +443,50 @@ h1 {
   color: #202020;
 }
 
+.event-description p,
+.record-summary p {
+  margin: 0;
+}
+
+.event-description p + p,
+.record-summary p + p,
+.event-description p + ul,
+.record-summary p + ul,
+.event-description ul + p,
+.record-summary ul + p {
+  margin-top: 0.5rem;
+}
+
+.event-description ul,
+.record-summary ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.event-description li,
+.record-summary li {
+  margin: 0.2rem 0;
+}
+
+.event-description h3,
+.event-description h4,
+.event-description h5,
+.record-summary h3,
+.record-summary h4,
+.record-summary h5 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.event-description a,
+.record-summary a {
+  color: #1a1a1a;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 .images-section,
 .pdf-section {
   display: grid;

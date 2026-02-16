@@ -36,6 +36,15 @@ DEFAULT_TAGS_TABLE_ID = "tbl369AkU0k8At9IV"
 DEFAULT_TAGS_VIEW_ID = "viwa1K5WgktgPYoO9"
 IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"}
 PDF_EXTENSIONS = {"pdf"}
+RECORD_ID_HEADER = "_Airtable Record ID"
+MEDIA_REFERENCE_PATTERN = re.compile(r"data/media/([^),\s]+)")
+LAST_MODIFIED_FIELD_CANDIDATES = [
+    "Last Modified",
+    "Last Modified Time",
+    "Last Modified (All Fields)",
+    "Last Modified (all fields)",
+]
+PUBLISHED_FIELD_CANDIDATES = ["Published", "Is Published", "Publish"]
 
 EVENTS_DEFAULT_HEADERS = [
     "Event Name",
@@ -78,6 +87,18 @@ class ExportTarget:
     table_id: str
     view_id: str
     preferred_headers: list[str]
+    last_modified_field_candidates: list[str]
+    published_field_candidates: list[str]
+
+
+@dataclass(frozen=True)
+class RefreshResult:
+    mode: str
+    record_count: int
+    changed_records: int
+    sync_cursor_utc: str
+    published_field: str
+    last_modified_field: str
 
 
 def parse_args() -> argparse.Namespace:
@@ -126,6 +147,12 @@ def parse_args() -> argparse.Namespace:
         "--tags-metadata-path",
         default="data/refresh-metadata-tags.json",
         help="Path to write tags refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--sync-mode",
+        choices=["delta", "full"],
+        default=env_or_default("AIRTABLE_SYNC_MODE", "delta"),
+        help="Sync strategy. 'delta' updates only changed/new records when possible; 'full' rebuilds datasets.",
     )
     parser.add_argument(
         "--no-cache-media",
@@ -222,6 +249,8 @@ def main() -> int:
             table_id=args.table_id,
             view_id=args.view_id,
             preferred_headers=EVENTS_DEFAULT_HEADERS,
+            last_modified_field_candidates=LAST_MODIFIED_FIELD_CANDIDATES,
+            published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
         ),
         ExportTarget(
             name="people",
@@ -230,6 +259,8 @@ def main() -> int:
             table_id=args.people_table_id,
             view_id=args.people_view_id,
             preferred_headers=[],
+            last_modified_field_candidates=LAST_MODIFIED_FIELD_CANDIDATES,
+            published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
         ),
         ExportTarget(
             name="location",
@@ -238,6 +269,8 @@ def main() -> int:
             table_id=args.location_table_id,
             view_id=args.location_view_id,
             preferred_headers=[],
+            last_modified_field_candidates=LAST_MODIFIED_FIELD_CANDIDATES,
+            published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
         ),
         ExportTarget(
             name="tags",
@@ -246,12 +279,14 @@ def main() -> int:
             table_id=args.tags_table_id,
             view_id=args.tags_view_id,
             preferred_headers=[],
+            last_modified_field_candidates=LAST_MODIFIED_FIELD_CANDIDATES,
+            published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
         ),
     ]
 
     used_media_files: set[str] = set()
     for target in targets:
-        refresh_target(
+        result = refresh_target(
             token=token,
             base_id=args.base_id,
             target=target,
@@ -259,6 +294,11 @@ def main() -> int:
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            sync_mode=args.sync_mode,
+        )
+        print(
+            f"[{target.name}] {result.mode} sync complete: "
+            f"{result.record_count} records ({result.changed_records} changed)."
         )
 
     if cache_media and args.prune_media:
@@ -277,59 +317,295 @@ def refresh_target(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
-) -> None:
+    sync_mode: str,
+) -> RefreshResult:
     target.output_csv.parent.mkdir(parents=True, exist_ok=True)
     target.metadata_path.parent.mkdir(parents=True, exist_ok=True)
 
-    print(f"Fetching {target.name} records from Airtable...")
-    records = fetch_all_records(
+    previous_metadata = read_json_file(target.metadata_path)
+    existing_headers, existing_rows_by_id = read_existing_rows_by_record_id(target.output_csv)
+
+    if sync_mode == "delta":
+        result = refresh_target_delta(
+            token=token,
+            base_id=base_id,
+            target=target,
+            media_dir=media_dir,
+            cache_media=cache_media,
+            cache_media_types=cache_media_types,
+            used_media_files=used_media_files,
+            previous_metadata=previous_metadata,
+            existing_headers=existing_headers,
+            existing_rows_by_id=existing_rows_by_id,
+        )
+        if result is not None:
+            return result
+        print(f"[{target.name}] Delta sync unavailable; falling back to full sync.")
+
+    return refresh_target_full(
         token=token,
         base_id=base_id,
-        table_id=target.table_id,
-        view_id=target.view_id,
+        target=target,
+        media_dir=media_dir,
+        cache_media=cache_media,
+        cache_media_types=cache_media_types,
+        used_media_files=used_media_files,
+        previous_metadata=previous_metadata,
     )
-    print(f"Fetched {len(records)} {target.name} records.")
 
-    headers = compute_headers(records, preferred_headers=target.preferred_headers)
-    rows: list[dict[str, str]] = []
 
-    for record in records:
+def refresh_target_delta(
+    *,
+    token: str,
+    base_id: str,
+    target: ExportTarget,
+    media_dir: Path,
+    cache_media: bool,
+    cache_media_types: set[str] | None,
+    used_media_files: set[str],
+    previous_metadata: dict[str, Any],
+    existing_headers: list[str],
+    existing_rows_by_id: dict[str, dict[str, str]],
+) -> RefreshResult | None:
+    if not existing_rows_by_id or RECORD_ID_HEADER not in existing_headers:
+        return None
+
+    previous_cursor = normalize_text(previous_metadata.get("sync_cursor_utc"))
+    if not previous_cursor:
+        return None
+
+    published_field = resolve_known_field_name(
+        previous_metadata=previous_metadata,
+        known_headers=existing_headers,
+        candidates=target.published_field_candidates,
+        metadata_key="published_field",
+    )
+    last_modified_field = resolve_known_field_name(
+        previous_metadata=previous_metadata,
+        known_headers=existing_headers,
+        candidates=target.last_modified_field_candidates,
+        metadata_key="last_modified_field",
+    )
+
+    if not last_modified_field:
+        return None
+
+    for row in existing_rows_by_id.values():
+        used_media_files.update(extract_media_references_from_row(row))
+
+    delta_formula = build_delta_formula(
+        last_modified_field=last_modified_field,
+        published_field=published_field,
+        cursor_utc=previous_cursor,
+    )
+
+    print(f"[{target.name}] Fetching changed records since {previous_cursor} ...")
+    try:
+        changed_records = fetch_all_records(
+            token=token,
+            base_id=base_id,
+            table_id=target.table_id,
+            view_id=target.view_id,
+            filter_formula=delta_formula,
+        )
+    except RuntimeError as exc:
+        if is_unknown_field_error(exc):
+            return None
+        raise
+
+    headers = ensure_record_id_header(existing_headers)
+    changed_count = 0
+
+    for record in changed_records:
         fields = record.get("fields", {})
-        row: dict[str, str] = {}
-        for header in headers:
-            value = fields.get(header, "")
-            row[header] = stringify_value(
-                value=value,
-                media_dir=media_dir,
-                cache_media=cache_media,
-                cache_media_types=cache_media_types,
-                used_media_files=used_media_files,
-            )
-        rows.append(row)
+        record_id = normalize_text(record.get("id"))
+        if not record_id:
+            continue
 
-    print(f"Writing {target.name} CSV to {target.output_csv} ...")
+        headers = merge_headers(
+            headers=headers,
+            incoming_fields=fields.keys(),
+            preferred_headers=target.preferred_headers,
+        )
+
+        old_row = existing_rows_by_id.get(record_id)
+        if old_row:
+            used_media_files.difference_update(extract_media_references_from_row(old_row))
+
+        if published_field and not is_published(fields.get(published_field)):
+            existing_rows_by_id.pop(record_id, None)
+            changed_count += 1
+            continue
+
+        row = record_to_csv_row(
+            record=record,
+            headers=headers,
+            media_dir=media_dir,
+            cache_media=cache_media,
+            cache_media_types=cache_media_types,
+            used_media_files=used_media_files,
+        )
+        existing_rows_by_id[record_id] = row
+        changed_count += 1
+
+    rows = list(existing_rows_by_id.values())
     write_csv(target.output_csv, headers, rows)
 
-    metadata = {
-        "generated_at_utc": datetime.now(timezone.utc).isoformat(),
-        "dataset": target.name,
-        "record_count": len(rows),
-        "media_cached": cache_media,
-        "media_files_in_use": len(used_media_files),
-        "base_id": base_id,
-        "table_id": target.table_id,
-        "view_id": target.view_id,
-    }
-    target.metadata_path.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
-    print(f"Wrote {target.name} metadata to {target.metadata_path}.")
+    updated_last_modified_field = discover_field_name_from_records(changed_records, target.last_modified_field_candidates)
+    if not updated_last_modified_field:
+        updated_last_modified_field = last_modified_field
+
+    updated_published_field = discover_field_name_from_records(changed_records, target.published_field_candidates)
+    if not updated_published_field:
+        updated_published_field = published_field
+
+    changed_cursor = compute_max_modified_cursor(changed_records, updated_last_modified_field)
+    sync_cursor = latest_timestamp_iso(previous_cursor, changed_cursor) or datetime.now(timezone.utc).isoformat()
+
+    write_metadata(
+        path=target.metadata_path,
+        metadata={
+            "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+            "dataset": target.name,
+            "record_count": len(rows),
+            "media_cached": cache_media,
+            "media_files_in_use": len(used_media_files),
+            "base_id": base_id,
+            "table_id": target.table_id,
+            "view_id": target.view_id,
+            "sync_mode": "delta",
+            "changed_records": changed_count,
+            "published_field": updated_published_field,
+            "last_modified_field": updated_last_modified_field,
+            "sync_cursor_utc": sync_cursor,
+        },
+    )
+
+    return RefreshResult(
+        mode="delta",
+        record_count=len(rows),
+        changed_records=changed_count,
+        sync_cursor_utc=sync_cursor,
+        published_field=updated_published_field,
+        last_modified_field=updated_last_modified_field,
+    )
 
 
-def fetch_all_records(*, token: str, base_id: str, table_id: str, view_id: str) -> list[dict[str, Any]]:
+def refresh_target_full(
+    *,
+    token: str,
+    base_id: str,
+    target: ExportTarget,
+    media_dir: Path,
+    cache_media: bool,
+    cache_media_types: set[str] | None,
+    used_media_files: set[str],
+    previous_metadata: dict[str, Any],
+) -> RefreshResult:
+    previous_published_field = resolve_known_field_name(
+        previous_metadata=previous_metadata,
+        known_headers=[],
+        candidates=target.published_field_candidates,
+        metadata_key="published_field",
+    )
+
+    full_formula = build_published_formula(previous_published_field) if previous_published_field else None
+
+    print(f"[{target.name}] Fetching full dataset from Airtable ...")
+    records: list[dict[str, Any]]
+    try:
+        records = fetch_all_records(
+            token=token,
+            base_id=base_id,
+            table_id=target.table_id,
+            view_id=target.view_id,
+            filter_formula=full_formula,
+        )
+    except RuntimeError as exc:
+        if full_formula and is_unknown_field_error(exc):
+            records = fetch_all_records(
+                token=token,
+                base_id=base_id,
+                table_id=target.table_id,
+                view_id=target.view_id,
+                filter_formula=None,
+            )
+            previous_published_field = ""
+        else:
+            raise
+
+    discovered_published_field = discover_field_name_from_records(records, target.published_field_candidates)
+    discovered_last_modified_field = discover_field_name_from_records(records, target.last_modified_field_candidates)
+
+    published_field = discovered_published_field or previous_published_field
+    if published_field:
+        records = [record for record in records if is_published(record.get("fields", {}).get(published_field))]
+
+    headers = compute_headers(records, preferred_headers=target.preferred_headers)
+    headers = ensure_record_id_header(headers)
+
+    rows: list[dict[str, str]] = []
+    for record in records:
+        row = record_to_csv_row(
+            record=record,
+            headers=headers,
+            media_dir=media_dir,
+            cache_media=cache_media,
+            cache_media_types=cache_media_types,
+            used_media_files=used_media_files,
+        )
+        rows.append(row)
+
+    write_csv(target.output_csv, headers, rows)
+
+    sync_cursor = compute_max_modified_cursor(records, discovered_last_modified_field)
+    if not sync_cursor:
+        sync_cursor = datetime.now(timezone.utc).isoformat()
+
+    write_metadata(
+        path=target.metadata_path,
+        metadata={
+            "generated_at_utc": datetime.now(timezone.utc).isoformat(),
+            "dataset": target.name,
+            "record_count": len(rows),
+            "media_cached": cache_media,
+            "media_files_in_use": len(used_media_files),
+            "base_id": base_id,
+            "table_id": target.table_id,
+            "view_id": target.view_id,
+            "sync_mode": "full",
+            "changed_records": len(rows),
+            "published_field": published_field,
+            "last_modified_field": discovered_last_modified_field,
+            "sync_cursor_utc": sync_cursor,
+        },
+    )
+
+    return RefreshResult(
+        mode="full",
+        record_count=len(rows),
+        changed_records=len(rows),
+        sync_cursor_utc=sync_cursor,
+        published_field=published_field,
+        last_modified_field=discovered_last_modified_field,
+    )
+
+
+def fetch_all_records(
+    *,
+    token: str,
+    base_id: str,
+    table_id: str,
+    view_id: str,
+    filter_formula: str | None,
+) -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     offset = None
 
     while True:
         params = {"pageSize": "100", "view": view_id}
+        if filter_formula:
+            params["filterByFormula"] = filter_formula
         if offset:
             params["offset"] = offset
         url = f"https://api.airtable.com/v0/{base_id}/{table_id}?{urlencode(params)}"
@@ -372,6 +648,56 @@ def compute_headers(records: Iterable[dict[str, Any]], preferred_headers: list[s
     return preferred + extras
 
 
+def merge_headers(headers: list[str], incoming_fields: Iterable[str], preferred_headers: list[str]) -> list[str]:
+    merged = ensure_record_id_header(headers)
+    seen = set(merged)
+
+    for field in preferred_headers:
+        if field and field not in seen:
+            merged.append(field)
+            seen.add(field)
+
+    for field in incoming_fields:
+        if field not in seen:
+            merged.append(field)
+            seen.add(field)
+
+    return merged
+
+
+def ensure_record_id_header(headers: list[str]) -> list[str]:
+    filtered = [header for header in headers if header != RECORD_ID_HEADER]
+    return [RECORD_ID_HEADER, *filtered]
+
+
+def record_to_csv_row(
+    *,
+    record: dict[str, Any],
+    headers: list[str],
+    media_dir: Path,
+    cache_media: bool,
+    cache_media_types: set[str] | None,
+    used_media_files: set[str],
+) -> dict[str, str]:
+    fields = record.get("fields", {})
+    row: dict[str, str] = {}
+
+    for header in headers:
+        if header == RECORD_ID_HEADER:
+            row[header] = normalize_text(record.get("id"))
+            continue
+        value = fields.get(header, "")
+        row[header] = stringify_value(
+            value=value,
+            media_dir=media_dir,
+            cache_media=cache_media,
+            cache_media_types=cache_media_types,
+            used_media_files=used_media_files,
+        )
+
+    return row
+
+
 def stringify_value(
     *,
     value: Any,
@@ -407,7 +733,9 @@ def is_attachment_list(items: list[Any]) -> bool:
 
 
 def stringify_scalar(value: Any) -> str:
-    if isinstance(value, (str, int, float, bool)):
+    if isinstance(value, bool):
+        return "true" if value else "false"
+    if isinstance(value, (str, int, float)):
         return str(value)
     return json.dumps(value, sort_keys=True, ensure_ascii=False)
 
@@ -431,9 +759,7 @@ def format_attachments(
         local_filename = f"{attachment_id}_{filename}"
         local_path = media_dir / local_filename
         attachment_type = infer_attachment_type(filename, source_url)
-        should_cache = cache_media and (
-            cache_media_types is None or attachment_type in cache_media_types
-        )
+        should_cache = cache_media and (cache_media_types is None or attachment_type in cache_media_types)
 
         if should_cache:
             if not local_path.exists():
@@ -504,6 +830,23 @@ def write_csv(path: Path, headers: list[str], rows: list[dict[str, str]]) -> Non
         writer.writerows(rows)
 
 
+def read_existing_rows_by_record_id(path: Path) -> tuple[list[str], dict[str, dict[str, str]]]:
+    if not path.exists():
+        return [], {}
+
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        headers = reader.fieldnames or []
+        rows_by_id: dict[str, dict[str, str]] = {}
+        for row in reader:
+            record_id = normalize_text(row.get(RECORD_ID_HEADER))
+            if not record_id:
+                continue
+            rows_by_id[record_id] = {header: row.get(header, "") for header in headers}
+
+    return headers, rows_by_id
+
+
 def prune_stale_media(media_dir: Path, used_media_files: set[str]) -> None:
     removed = 0
     for child in media_dir.iterdir():
@@ -538,6 +881,155 @@ def infer_attachment_type(filename: str, source_url: str) -> str:
     if extension in PDF_EXTENSIONS:
         return "pdf"
     return "file"
+
+
+def extract_media_references_from_row(row: dict[str, str]) -> set[str]:
+    references: set[str] = set()
+    for value in row.values():
+        if not value:
+            continue
+        text = str(value)
+        for match in MEDIA_REFERENCE_PATTERN.finditer(text):
+            references.add(match.group(1))
+    return references
+
+
+def build_delta_formula(*, last_modified_field: str, published_field: str, cursor_utc: str) -> str:
+    escaped_cursor = formula_string(cursor_utc)
+    if published_field:
+        return (
+            f"OR(IS_AFTER({formula_field(last_modified_field)}, DATETIME_PARSE({escaped_cursor})), "
+            f"NOT({formula_field(published_field)}))"
+        )
+    return f"IS_AFTER({formula_field(last_modified_field)}, DATETIME_PARSE({escaped_cursor}))"
+
+
+def build_published_formula(published_field: str) -> str:
+    if not published_field:
+        return ""
+    return formula_field(published_field)
+
+
+def formula_field(field_name: str) -> str:
+    return "{" + field_name + "}"
+
+
+def formula_string(value: str) -> str:
+    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
+    return f'"{escaped}"'
+
+
+def is_unknown_field_error(error: RuntimeError) -> bool:
+    message = str(error)
+    return "UNKNOWN_FIELD_NAME" in message or "Unknown field names" in message
+
+
+def is_published(value: Any) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return value != 0
+    if isinstance(value, str):
+        lowered = value.strip().lower()
+        return lowered in {"1", "true", "yes", "y", "on", "checked"}
+    return bool(value)
+
+
+def normalize_text(value: Any) -> str:
+    return str(value or "").strip()
+
+
+def parse_iso_datetime(value: str) -> datetime | None:
+    text = normalize_text(value)
+    if not text:
+        return None
+    normalized = text.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(normalized)
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def latest_timestamp_iso(*values: str) -> str:
+    latest: datetime | None = None
+    for value in values:
+        parsed = parse_iso_datetime(value)
+        if not parsed:
+            continue
+        if latest is None or parsed > latest:
+            latest = parsed
+    return latest.isoformat() if latest else ""
+
+
+def compute_max_modified_cursor(records: list[dict[str, Any]], last_modified_field: str) -> str:
+    if not last_modified_field:
+        return ""
+
+    latest: datetime | None = None
+    for record in records:
+        fields = record.get("fields", {})
+        parsed = parse_iso_datetime(fields.get(last_modified_field))
+        if not parsed:
+            continue
+        if latest is None or parsed > latest:
+            latest = parsed
+
+    return latest.isoformat() if latest else ""
+
+
+def discover_field_name_from_records(records: list[dict[str, Any]], candidates: list[str]) -> str:
+    if not records:
+        return ""
+
+    found: set[str] = set()
+    for record in records:
+        fields = record.get("fields", {})
+        found.update(fields.keys())
+
+    return first_matching_name(found, candidates)
+
+
+def resolve_known_field_name(
+    *,
+    previous_metadata: dict[str, Any],
+    known_headers: list[str],
+    candidates: list[str],
+    metadata_key: str,
+) -> str:
+    from_metadata = normalize_text(previous_metadata.get(metadata_key))
+    if from_metadata:
+        return from_metadata
+    return first_matching_name(set(known_headers), candidates)
+
+
+def first_matching_name(existing_names: set[str], candidates: list[str]) -> str:
+    lowered_map = {name.strip().lower(): name for name in existing_names}
+    for candidate in candidates:
+        key = candidate.strip().lower()
+        if key in lowered_map:
+            return lowered_map[key]
+    return ""
+
+
+def read_json_file(path: Path) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+    if isinstance(data, dict):
+        return data
+    return {}
+
+
+def write_metadata(*, path: Path, metadata: dict[str, Any]) -> None:
+    path.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":
