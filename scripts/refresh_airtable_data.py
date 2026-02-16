@@ -157,7 +157,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--no-cache-media",
         action="store_true",
-        help="Keep Airtable attachment URLs instead of downloading files to media-dir.",
+        help="Disable attachment caching. Uncached attachments are omitted from exported CSV fields.",
     )
     parser.add_argument(
         "--prune-media",
@@ -169,7 +169,7 @@ def parse_args() -> argparse.Namespace:
         default=env_or_default("AIRTABLE_CACHE_MEDIA_TYPES", "image"),
         help=(
             "Comma-separated attachment types to cache locally (image,pdf,file). "
-            "Default caches image attachments."
+            "Default caches image attachments. Unselected attachment types are omitted."
         ),
     )
     parser.add_argument(
@@ -390,8 +390,19 @@ def refresh_target_delta(
     if not last_modified_field:
         return None
 
+    missing_cached_files = 0
     for row in existing_rows_by_id.values():
-        used_media_files.update(extract_media_references_from_row(row))
+        row_references = extract_media_references_from_row(row)
+        used_media_files.update(row_references)
+        if not cache_media:
+            continue
+        for media_name in row_references:
+            if not (media_dir / media_name).exists():
+                missing_cached_files += 1
+
+    if missing_cached_files:
+        print(f"[{target.name}] Detected {missing_cached_files} missing cached media files.")
+        return None
 
     delta_formula = build_delta_formula(
         last_modified_field=last_modified_field,
@@ -761,14 +772,13 @@ def format_attachments(
         attachment_type = classify_attachment_type(attachment=attachment, filename=filename, source_url=source_url)
         should_cache = cache_media and (cache_media_types is None or attachment_type in cache_media_types)
 
-        if should_cache:
-            if not local_path.exists():
-                download_binary(source_url, local_path)
-            used_media_files.add(local_filename)
-            link_target = f"data/media/{local_filename}"
-        else:
-            link_target = source_url
+        if not should_cache:
+            continue
 
+        if not local_path.exists():
+            download_binary(source_url, local_path)
+        used_media_files.add(local_filename)
+        link_target = f"data/media/{local_filename}"
         output_parts.append(f"{filename} ({link_target})")
     return ",".join(output_parts)
 

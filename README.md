@@ -36,7 +36,7 @@ Then open:
 
 ## Manual refresh from Airtable
 
-This refresh script refreshes Events, People, Location, and Tags CSVs from Airtable in one run. It can cache attachment files into `data/media/` so the site no longer relies on temporary Airtable URLs.
+This refresh script refreshes Events, People, Location, and Tags CSVs from Airtable in one run. It caches image attachments into `data/media/`, and uncached attachments are omitted from exports (no Airtable fallback URLs are emitted).
 
 1. Set environment variables (or copy from `.env.example`):
 
@@ -72,7 +72,7 @@ This updates:
 - `data/refresh-metadata-people.json`
 - `data/refresh-metadata-location.json`
 - `data/refresh-metadata-tags.json`
-- `data/media/*` (cached attachments)
+- `data/media/*` (cached image attachments)
 
 ## Automated daily refresh (GitHub Actions)
 
@@ -98,15 +98,9 @@ The workflow runs:
 - Weekly in `full` mode (full reconciliation, catches hard deletes)
 - On demand with `workflow_dispatch`
 
-The workflow now caches image attachments by default (`--cache-media-types image`) so image links on the site do not depend on expiring Airtable URLs.
+The workflow caches image attachments by default (`--cache-media-types image`) so image links on the site do not depend on expiring Airtable URLs. Uncached attachments are omitted.
 
-Optional manual modes for `--cache-media-types`:
-
-- `image` (workflow default)
-- `pdf`
-- `image,pdf`
-- `file`
-- empty string to cache all media types
+PDF attachments are intentionally not rendered in the timeline UI.
 
 ## Security note
 

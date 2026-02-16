@@ -55,7 +55,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- data; then
+          if [ -z "$(git status --porcelain -- data)" ]; then
             echo "No changes to commit."
             exit 0
           fi
@@ -76,14 +76,14 @@ jobs:
             return 1
           }
 
-          mapfile -t NON_MEDIA_FILES < <(git diff --name-only -- data | grep -v '^data/media/' || true)
+          mapfile -t NON_MEDIA_FILES < <(git status --porcelain -- data | awk '{print $2}' | grep -v '^data/media/' || true)
           if [ "${#NON_MEDIA_FILES[@]}" -gt 0 ]; then
-            git add "${NON_MEDIA_FILES[@]}"
+            git add -- "${NON_MEDIA_FILES[@]}"
             git commit -m "chore: refresh Airtable timeline data (metadata)"
             push_with_retry || { echo "Failed to push metadata batch."; exit 1; }
           fi
 
-          mapfile -t MEDIA_FILES < <(git diff --name-only -- data/media)
+          mapfile -t MEDIA_FILES < <(git status --porcelain -- data | awk '{print $2}' | grep '^data/media/' || true)
           if [ "${#MEDIA_FILES[@]}" -eq 0 ]; then
             echo "No media file changes to push."
             exit 0
@@ -98,7 +98,7 @@ jobs:
             if [ $((START + COUNT)) -gt "$TOTAL_FILES" ]; then
               COUNT=$((TOTAL_FILES - START))
             fi
-            git add "${MEDIA_FILES[@]:START:COUNT}"
+            git add -- "${MEDIA_FILES[@]:START:COUNT}"
             git commit -m "chore: refresh Airtable timeline data (media batch ${BATCH_NUMBER})"
             push_with_retry || { echo "Failed to push media batch ${BATCH_NUMBER}."; exit 1; }
             START=$((START + COUNT))

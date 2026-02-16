@@ -487,8 +487,7 @@ h1 {
   text-underline-offset: 2px;
 }
 
-.images-section,
-.pdf-section {
+.images-section {
   display: grid;
   gap: 0.42rem;
 }
@@ -498,8 +497,7 @@ h1 {
   gap: 0.38rem;
 }
 
-.images-heading,
-.pdf-heading {
+.images-heading {
   margin: 0;
   font-size: 0.82rem;
   color: var(--muted);
@@ -556,15 +554,6 @@ h1 {
   text-overflow: ellipsis;
 }
 
-.pdf-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  gap: 0.32rem;
-}
-
-.pdf-link,
 .link-pill {
   color: #1a1a1a;
   text-decoration: underline;

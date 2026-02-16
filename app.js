@@ -357,7 +357,6 @@ function normalizeEvent(raw, index) {
   ];
 
   const images = allMediaAttachments.filter((attachment) => attachment.type === "image");
-  const imagePdfLinks = allMediaAttachments.filter((attachment) => attachment.type === "pdf");
 
   const people = parseList(raw["Related People & Groups"]);
   const location = sanitizeText(raw.Location || "");
@@ -366,7 +365,7 @@ function normalizeEvent(raw, index) {
   const tags = parseList(raw.Tags);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
-  const sourceUrls = parseUrls(raw.Sources);
+  const sourceUrls = parseUrls(raw.Sources).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url));
   const links = sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url }));
 
   const dateKey = beginningDate ? toDateKey(beginningDate) : "unknown-date";
@@ -407,7 +406,6 @@ function normalizeEvent(raw, index) {
     dateLabel,
     sortTime: beginningDate ? beginningDate.getTime() + timeMinutes * 60_000 : Number.POSITIVE_INFINITY,
     images,
-    imagePdfLinks,
     links,
     searchableText
   };
@@ -442,7 +440,7 @@ function parseAttachmentField(input, hintedType) {
 }
 
 function pushAttachment(target, seen, label, url, hintedType) {
-  if (!url || seen.has(url)) {
+  if (!url || seen.has(url) || isAirtableAttachmentUrl(url)) {
     return;
   }
   seen.add(url);
@@ -532,6 +530,14 @@ function parseUrls(value) {
   const found = value.match(/https?:\/\/[^\s,•]+/g) || [];
   const normalized = found.map((url) => url.replace(/[).,;]+$/g, ""));
   return [...new Set(normalized)];
+}
+
+function isPdfUrl(value) {
+  return /\.pdf(?:$|[?#])/i.test(String(value || "").trim());
+}
+
+function isAirtableAttachmentUrl(value) {
+  return /airtableusercontent\.com/i.test(String(value || "").trim());
 }
 
 function sanitizeText(value) {
@@ -713,7 +719,7 @@ function applyFilters() {
     if (person && !event.people.includes(person)) {
       return false;
     }
-    if (mediaOnly && event.images.length === 0 && event.imagePdfLinks.length === 0) {
+    if (mediaOnly && event.images.length === 0) {
       return false;
     }
     if (search && !event.searchableText.includes(search)) {
@@ -869,10 +875,6 @@ function buildEventRow(event, filteredIndex) {
 
   if (event.images.length) {
     content.append(buildImageGallery(event.images, filteredIndex));
-  }
-
-  if (event.imagePdfLinks.length) {
-    content.append(buildPdfDownloads(event.imagePdfLinks));
   }
 
   if (event.tags.length) {
@@ -1149,9 +1151,12 @@ function buildPersonIndex(csvText, eventNameLookup) {
 
     const attachments = parseAttachmentField(row.Image, "image");
     const downloads = [
-      ...attachments.filter((item) => item.type !== "image"),
-      ...buildLinkDownloads(parseUrls(row.Sources), "Source")
-    ];
+      ...attachments.filter((item) => item.type !== "image" && item.type !== "pdf"),
+      ...buildLinkDownloads(
+        parseUrls(row.Sources).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url)),
+        "Source"
+      )
+    ].filter((item) => item.type !== "pdf");
 
     index.set(normalizeKey(name), {
       kind: "person",
@@ -1194,11 +1199,13 @@ function buildLocationIndex(csvText, eventNameLookup) {
     }
 
     const attachments = parseAttachmentField(row.Images, "image");
-    const mapLinks = parseUrls(row["Google Maps"] || row["Lat/Lon Google Maps URL"]);
+    const mapLinks = parseUrls(row["Google Maps"] || row["Lat/Lon Google Maps URL"]).filter(
+      (url) => !isAirtableAttachmentUrl(url)
+    );
     const downloads = [
-      ...attachments.filter((item) => item.type !== "image"),
+      ...attachments.filter((item) => item.type !== "image" && item.type !== "pdf"),
       ...buildLinkDownloads(mapLinks, "Map")
-    ];
+    ].filter((item) => item.type !== "pdf");
 
     index.set(normalizeKey(name), {
       kind: "location",
@@ -1242,9 +1249,12 @@ function buildTagIndex(csvText, eventNameLookup) {
 
     const attachments = parseAttachmentField(row["Document Images"], "image");
     const downloads = [
-      ...attachments.filter((item) => item.type !== "image"),
-      ...buildLinkDownloads(parseUrls(row.Documents), "Document")
-    ];
+      ...attachments.filter((item) => item.type !== "image" && item.type !== "pdf"),
+      ...buildLinkDownloads(
+        parseUrls(row.Documents).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url)),
+        "Document"
+      )
+    ].filter((item) => item.type !== "pdf");
 
     index.set(normalizeKey(name), {
       kind: "tag",
@@ -1286,7 +1296,7 @@ function buildLinkDownloads(urls, labelPrefix) {
   return urls.map((url, index) => ({
     label: `${labelPrefix} ${index + 1}`,
     url,
-    type: "file"
+    type: inferAttachmentType(`${labelPrefix} ${index + 1}`, url, "file")
   }));
 }
 
@@ -1744,35 +1754,6 @@ function sanitizeUrl(value) {
 
 function stripTrailingUrlPunctuation(url) {
   return String(url || "").replace(/[),.;!?]+$/g, "");
-}
-
-function buildPdfDownloads(pdfs) {
-  const section = document.createElement("section");
-  section.className = "pdf-section";
-
-  const heading = document.createElement("h4");
-  heading.className = "pdf-heading";
-  heading.textContent = `PDF Downloads (${pdfs.length})`;
-  section.append(heading);
-
-  const list = document.createElement("ul");
-  list.className = "pdf-list";
-
-  pdfs.forEach((pdf) => {
-    const item = document.createElement("li");
-    const link = document.createElement("a");
-    link.className = "pdf-link";
-    link.href = pdf.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.download = "";
-    link.textContent = pdf.label;
-    item.append(link);
-    list.append(item);
-  });
-
-  section.append(list);
-  return section;
 }
 
 function openModal(mediaItems, index) {
