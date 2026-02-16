@@ -34,7 +34,7 @@ jobs:
           python3 scripts/refresh_airtable_data.py \
             --sync-mode full \
             --cache-media-types image \
-            --max-media-downloads 100
+            --max-media-downloads 300
       - name: Commit and push if changed
         run: |
           if [ -z "$(git status --porcelain -- data)" ]; then
