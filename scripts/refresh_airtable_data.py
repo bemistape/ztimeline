@@ -173,6 +173,15 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--max-media-downloads",
+        type=int,
+        default=None,
+        help=(
+            "Maximum number of new attachment files to download during this run. "
+            "Existing cached files are still referenced. Default has no limit."
+        ),
+    )
+    parser.add_argument(
         "--base-id",
         default=env_or_default("AIRTABLE_BASE_ID", DEFAULT_BASE_ID),
         help="Airtable base id (default from env or built-in base).",
@@ -234,6 +243,10 @@ def main() -> int:
 
     media_dir = Path(args.media_dir)
     cache_media = not args.no_cache_media
+    if args.max_media_downloads is not None and args.max_media_downloads < 0:
+        print("--max-media-downloads must be zero or greater.", file=sys.stderr)
+        return 2
+    download_budget = {"remaining": args.max_media_downloads} if args.max_media_downloads is not None else None
     try:
         cache_media_types = parse_cache_media_types(args.cache_media_types)
     except ValueError as exc:
@@ -294,6 +307,7 @@ def main() -> int:
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            download_budget=download_budget,
             sync_mode=args.sync_mode,
         )
         print(
@@ -317,6 +331,7 @@ def refresh_target(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
     sync_mode: str,
 ) -> RefreshResult:
     target.output_csv.parent.mkdir(parents=True, exist_ok=True)
@@ -334,6 +349,7 @@ def refresh_target(
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            download_budget=download_budget,
             previous_metadata=previous_metadata,
             existing_headers=existing_headers,
             existing_rows_by_id=existing_rows_by_id,
@@ -350,6 +366,7 @@ def refresh_target(
         cache_media=cache_media,
         cache_media_types=cache_media_types,
         used_media_files=used_media_files,
+        download_budget=download_budget,
         previous_metadata=previous_metadata,
     )
 
@@ -363,6 +380,7 @@ def refresh_target_delta(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
     previous_metadata: dict[str, Any],
     existing_headers: list[str],
     existing_rows_by_id: dict[str, dict[str, str]],
@@ -455,6 +473,7 @@ def refresh_target_delta(
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            download_budget=download_budget,
         )
         existing_rows_by_id[record_id] = row
         changed_count += 1
@@ -511,6 +530,7 @@ def refresh_target_full(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
     previous_metadata: dict[str, Any],
 ) -> RefreshResult:
     previous_published_field = resolve_known_field_name(
@@ -564,6 +584,7 @@ def refresh_target_full(
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            download_budget=download_budget,
         )
         rows.append(row)
 
@@ -689,6 +710,7 @@ def record_to_csv_row(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
 ) -> dict[str, str]:
     fields = record.get("fields", {})
     row: dict[str, str] = {}
@@ -704,6 +726,7 @@ def record_to_csv_row(
             cache_media=cache_media,
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
+            download_budget=download_budget,
         )
 
     return row
@@ -716,6 +739,7 @@ def stringify_value(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
 ) -> str:
     if value is None:
         return ""
@@ -728,6 +752,7 @@ def stringify_value(
                 cache_media=cache_media,
                 cache_media_types=cache_media_types,
                 used_media_files=used_media_files,
+                download_budget=download_budget,
             )
         return ",".join(filter(None, (stringify_scalar(item) for item in value)))
 
@@ -758,6 +783,7 @@ def format_attachments(
     cache_media: bool,
     cache_media_types: set[str] | None,
     used_media_files: set[str],
+    download_budget: dict[str, int] | None,
 ) -> str:
     output_parts: list[str] = []
     for attachment in attachments:
@@ -776,7 +802,11 @@ def format_attachments(
             continue
 
         if not local_path.exists():
+            if download_budget is not None and download_budget["remaining"] <= 0:
+                continue
             download_binary(source_url, local_path)
+            if download_budget is not None:
+                download_budget["remaining"] -= 1
         used_media_files.add(local_filename)
         link_target = f"data/media/{local_filename}"
         output_parts.append(f"{filename} ({link_target})")

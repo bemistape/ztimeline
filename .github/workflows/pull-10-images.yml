@@ -1,0 +1,54 @@
+name: Pull Exactly 10 Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pull-ten-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh Airtable (download up to 10 new images)
+        env:
+          AIRTABLE_API_TOKEN: ${{ secrets.AIRTABLE_API_TOKEN }}
+          AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
+          AIRTABLE_TABLE_ID: ${{ vars.AIRTABLE_TABLE_ID }}
+          AIRTABLE_VIEW_ID: ${{ vars.AIRTABLE_VIEW_ID }}
+          AIRTABLE_PEOPLE_TABLE_ID: ${{ vars.AIRTABLE_PEOPLE_TABLE_ID }}
+          AIRTABLE_PEOPLE_VIEW_ID: ${{ vars.AIRTABLE_PEOPLE_VIEW_ID }}
+          AIRTABLE_LOCATION_TABLE_ID: ${{ vars.AIRTABLE_LOCATION_TABLE_ID }}
+          AIRTABLE_LOCATION_VIEW_ID: ${{ vars.AIRTABLE_LOCATION_VIEW_ID }}
+          AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
+          AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
+        run: |
+          python3 scripts/refresh_airtable_data.py \
+            --sync-mode full \
+            --cache-media-types image \
+            --max-media-downloads 10
+
+      - name: Commit and push if changed
+        run: |
+          if [ -z "$(git status --porcelain -- data)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          TARGET_BRANCH="${GITHUB_REF_NAME}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config http.version HTTP/1.1
+          git config http.postBuffer 524288000
+
+          git add -- data
+          git commit -m "chore: pull 10 Airtable images"
+          git push origin "HEAD:${TARGET_BRANCH}"
