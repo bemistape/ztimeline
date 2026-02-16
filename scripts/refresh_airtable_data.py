@@ -758,7 +758,7 @@ def format_attachments(
         attachment_id = str(attachment.get("id", "")).strip() or short_hash(source_url)
         local_filename = f"{attachment_id}_{filename}"
         local_path = media_dir / local_filename
-        attachment_type = infer_attachment_type(filename, source_url)
+        attachment_type = classify_attachment_type(attachment=attachment, filename=filename, source_url=source_url)
         should_cache = cache_media and (cache_media_types is None or attachment_type in cache_media_types)
 
         if should_cache:
@@ -771,6 +771,21 @@ def format_attachments(
 
         output_parts.append(f"{filename} ({link_target})")
     return ",".join(output_parts)
+
+
+def classify_attachment_type(*, attachment: dict[str, Any], filename: str, source_url: str) -> str:
+    declared_type = normalize_text(attachment.get("type")).lower()
+    if declared_type.startswith("image/"):
+        return "image"
+    if declared_type == "application/pdf":
+        return "pdf"
+
+    thumbnails = attachment.get("thumbnails")
+    if isinstance(thumbnails, dict) and thumbnails:
+        # Airtable includes thumbnails only for images.
+        return "image"
+
+    return infer_attachment_type(filename, source_url)
 
 
 def sanitize_filename(name: str, url: str) -> str:
