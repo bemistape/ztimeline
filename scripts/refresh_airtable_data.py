@@ -182,6 +182,15 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--max-media-file-mb",
+        type=int,
+        default=int(env_or_default("AIRTABLE_MAX_MEDIA_FILE_MB", "95")),
+        help=(
+            "Maximum size (in MB) for a single downloaded attachment file. "
+            "Larger files are skipped to avoid repository push limits."
+        ),
+    )
+    parser.add_argument(
         "--base-id",
         default=env_or_default("AIRTABLE_BASE_ID", DEFAULT_BASE_ID),
         help="Airtable base id (default from env or built-in base).",
@@ -246,7 +255,11 @@ def main() -> int:
     if args.max_media_downloads is not None and args.max_media_downloads < 0:
         print("--max-media-downloads must be zero or greater.", file=sys.stderr)
         return 2
+    if args.max_media_file_mb <= 0:
+        print("--max-media-file-mb must be greater than zero.", file=sys.stderr)
+        return 2
     download_budget = {"remaining": args.max_media_downloads} if args.max_media_downloads is not None else None
+    max_media_file_bytes = args.max_media_file_mb * 1024 * 1024
     try:
         cache_media_types = parse_cache_media_types(args.cache_media_types)
     except ValueError as exc:
@@ -308,6 +321,7 @@ def main() -> int:
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
             download_budget=download_budget,
+            max_media_file_bytes=max_media_file_bytes,
             sync_mode=args.sync_mode,
         )
         print(
@@ -332,6 +346,7 @@ def refresh_target(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
     sync_mode: str,
 ) -> RefreshResult:
     target.output_csv.parent.mkdir(parents=True, exist_ok=True)
@@ -350,6 +365,7 @@ def refresh_target(
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
             download_budget=download_budget,
+            max_media_file_bytes=max_media_file_bytes,
             previous_metadata=previous_metadata,
             existing_headers=existing_headers,
             existing_rows_by_id=existing_rows_by_id,
@@ -367,6 +383,7 @@ def refresh_target(
         cache_media_types=cache_media_types,
         used_media_files=used_media_files,
         download_budget=download_budget,
+        max_media_file_bytes=max_media_file_bytes,
         previous_metadata=previous_metadata,
     )
 
@@ -381,6 +398,7 @@ def refresh_target_delta(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
     previous_metadata: dict[str, Any],
     existing_headers: list[str],
     existing_rows_by_id: dict[str, dict[str, str]],
@@ -474,6 +492,7 @@ def refresh_target_delta(
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
             download_budget=download_budget,
+            max_media_file_bytes=max_media_file_bytes,
         )
         existing_rows_by_id[record_id] = row
         changed_count += 1
@@ -531,6 +550,7 @@ def refresh_target_full(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
     previous_metadata: dict[str, Any],
 ) -> RefreshResult:
     previous_published_field = resolve_known_field_name(
@@ -585,6 +605,7 @@ def refresh_target_full(
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
             download_budget=download_budget,
+            max_media_file_bytes=max_media_file_bytes,
         )
         rows.append(row)
 
@@ -711,6 +732,7 @@ def record_to_csv_row(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
 ) -> dict[str, str]:
     fields = record.get("fields", {})
     row: dict[str, str] = {}
@@ -727,6 +749,7 @@ def record_to_csv_row(
             cache_media_types=cache_media_types,
             used_media_files=used_media_files,
             download_budget=download_budget,
+            max_media_file_bytes=max_media_file_bytes,
         )
 
     return row
@@ -740,6 +763,7 @@ def stringify_value(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
 ) -> str:
     if value is None:
         return ""
@@ -753,6 +777,7 @@ def stringify_value(
                 cache_media_types=cache_media_types,
                 used_media_files=used_media_files,
                 download_budget=download_budget,
+                max_media_file_bytes=max_media_file_bytes,
             )
         return ",".join(filter(None, (stringify_scalar(item) for item in value)))
 
@@ -784,6 +809,7 @@ def format_attachments(
     cache_media_types: set[str] | None,
     used_media_files: set[str],
     download_budget: dict[str, int] | None,
+    max_media_file_bytes: int,
 ) -> str:
     output_parts: list[str] = []
     for attachment in attachments:
@@ -801,10 +827,25 @@ def format_attachments(
         if not should_cache:
             continue
 
+        source_size = attachment.get("size")
+        if isinstance(source_size, (int, float)) and int(source_size) > max_media_file_bytes:
+            print(
+                f"Skipping oversized attachment (> {max_media_file_bytes} bytes): {filename} ({int(source_size)} bytes)"
+            )
+            continue
+
         if not local_path.exists():
             if download_budget is not None and download_budget["remaining"] <= 0:
                 continue
             download_binary(source_url, local_path)
+            downloaded_size = local_path.stat().st_size if local_path.exists() else 0
+            if downloaded_size > max_media_file_bytes:
+                local_path.unlink(missing_ok=True)
+                print(
+                    f"Skipping oversized downloaded file (> {max_media_file_bytes} bytes): "
+                    f"{filename} ({downloaded_size} bytes)"
+                )
+                continue
             if download_budget is not None:
                 download_budget["remaining"] -= 1
         used_media_files.add(local_filename)
