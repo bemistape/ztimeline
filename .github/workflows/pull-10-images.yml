@@ -1,19 +1,13 @@
-name: Pull Images Batch
+name: Pull Exactly 10 Images
 
 on:
   workflow_dispatch:
-    inputs:
-      image_count:
-        description: "How many new images to download this run (1-300)"
-        required: false
-        default: "100"
-        type: string
 
 permissions:
   contents: write
 
 jobs:
-  pull-images-batch:
+  pull-ten-images:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Refresh Airtable (download image batch)
+      - name: Refresh Airtable (download up to 10 new images)
         env:
           AIRTABLE_API_TOKEN: ${{ secrets.AIRTABLE_API_TOKEN }}
           AIRTABLE_BASE_ID: ${{ vars.AIRTABLE_BASE_ID }}
@@ -36,68 +30,22 @@ jobs:
           AIRTABLE_LOCATION_VIEW_ID: ${{ vars.AIRTABLE_LOCATION_VIEW_ID }}
           AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
           AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
-          INPUT_IMAGE_COUNT: ${{ github.event.inputs.image_count }}
         run: |
-          IMAGE_COUNT="${INPUT_IMAGE_COUNT:-100}"
-          if ! [[ "${IMAGE_COUNT}" =~ ^[0-9]+$ ]]; then
-            echo "image_count must be a whole number."
-            exit 2
-          fi
-          if [ "${IMAGE_COUNT}" -lt 1 ] || [ "${IMAGE_COUNT}" -gt 300 ]; then
-            echo "image_count must be between 1 and 300."
-            exit 2
-          fi
-
           python3 scripts/refresh_airtable_data.py \
             --sync-mode full \
             --cache-media-types image \
-            --max-media-downloads "${IMAGE_COUNT}"
-
-      - name: Media integrity summary
-        run: |
-          python3 - <<'PY'
-          import re
-          from pathlib import Path
-
-          files = [
-              Path("data/events-timeline.csv"),
-              Path("data/people-people-sync.csv"),
-              Path("data/location-location-sync.csv"),
-              Path("data/tags-tags-sync.csv"),
-          ]
-
-          pattern = re.compile(r"data/media/([^),\s]+)")
-          refs = set()
-          for file_path in files:
-              if file_path.exists():
-                  refs.update(pattern.findall(file_path.read_text(encoding="utf-8-sig", errors="replace")))
-
-          media_dir = Path("data/media")
-          disk = {item.name for item in media_dir.iterdir() if item.is_file()} if media_dir.exists() else set()
-          missing = sorted(refs - disk)
-
-          print(f"media_refs_unique={len(refs)}")
-          print(f"media_files_on_disk={len(disk)}")
-          print(f"media_refs_missing={len(missing)}")
-          if missing:
-              print("sample_missing:")
-              for name in missing[:15]:
-                  print(name)
-          PY
-
+            --max-media-downloads 100
       - name: Commit and push if changed
         run: |
           if [ -z "$(git status --porcelain -- data)" ]; then
             echo "No changes to commit."
             exit 0
           fi
-
           TARGET_BRANCH="${GITHUB_REF_NAME}"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config http.version HTTP/1.1
           git config http.postBuffer 524288000
-
           git add -- data
-          git commit -m "chore: pull Airtable image batch"
+          git commit -m "chore: pull 10 Airtable images"
           git push origin "HEAD:${TARGET_BRANCH}"
