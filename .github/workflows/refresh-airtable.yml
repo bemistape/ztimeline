@@ -53,6 +53,56 @@ jobs:
           echo "Running Airtable refresh with sync mode: ${SYNC_MODE}"
           python3 scripts/refresh_airtable_data.py --sync-mode "${SYNC_MODE}" --prune-media --cache-media-types image
 
+      - name: Media integrity summary
+        env:
+          DISPATCH_SYNC_MODE: ${{ github.event.inputs.sync_mode }}
+        run: |
+          SYNC_MODE="delta"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "45 10 * * 0" ]; then
+            SYNC_MODE="full"
+          fi
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${DISPATCH_SYNC_MODE}" ]; then
+            SYNC_MODE="${DISPATCH_SYNC_MODE}"
+          fi
+          export SYNC_MODE
+
+          python3 - <<'PY'
+          import re
+          import os
+          import sys
+          from pathlib import Path
+
+          files = [
+              Path("data/events-timeline.csv"),
+              Path("data/people-people-sync.csv"),
+              Path("data/location-location-sync.csv"),
+              Path("data/tags-tags-sync.csv"),
+          ]
+
+          pattern = re.compile(r"data/media/([^),\s]+)")
+          refs = set()
+          for file_path in files:
+              if file_path.exists():
+                  refs.update(pattern.findall(file_path.read_text(encoding="utf-8-sig", errors="replace")))
+
+          media_dir = Path("data/media")
+          disk = {item.name for item in media_dir.iterdir() if item.is_file()} if media_dir.exists() else set()
+          missing = sorted(refs - disk)
+
+          print(f"media_refs_unique={len(refs)}")
+          print(f"media_files_on_disk={len(disk)}")
+          print(f"media_refs_missing={len(missing)}")
+          if missing:
+              print("sample_missing:")
+              for name in missing[:20]:
+                  print(name)
+
+          sync_mode = os.getenv("SYNC_MODE", "delta")
+          if sync_mode == "full" and missing:
+              print("Full sync failed integrity: cached media references are missing.", file=sys.stderr)
+              sys.exit(1)
+          PY
+
       - name: Commit and push if changed
         run: |
           if [ -z "$(git status --porcelain -- data)" ]; then
