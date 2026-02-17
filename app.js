@@ -12,6 +12,11 @@ const UNKNOWN_TIME_MINUTES = 24 * 60 + 1;
 const VALID_RECORD_KINDS = new Set(["person", "location", "tag"]);
 
 const dom = {
+  hero: document.querySelector(".hero"),
+  controls: document.querySelector(".controls"),
+  stickyNavShell: document.getElementById("sticky-nav-shell"),
+  stickySiteTitle: document.getElementById("sticky-site-title"),
+  stickyNav: document.getElementById("sticky-site-nav"),
   heroEyebrow: document.getElementById("hero-eyebrow"),
   heroTitle: document.getElementById("hero-title"),
   heroCopy: document.getElementById("hero-copy"),
@@ -131,13 +136,8 @@ async function init() {
 }
 
 async function loadDataSources() {
-  const bundled = readBundledData();
-  if (bundled && bundled.eventsCsv) {
-    return bundled;
-  }
-
   const [eventsCsv, peopleCsv, locationCsv, tagCsv, elementsCsv, elementsFallbackCsv, eventsMetadata] = await Promise.all([
-    fetchCsv(DATA_URL),
+    fetchOptionalCsv(DATA_URL),
     fetchOptionalCsv(PEOPLE_DATA_URL),
     fetchOptionalCsv(LOCATION_DATA_URL),
     fetchOptionalCsv(TAG_DATA_URL),
@@ -146,15 +146,21 @@ async function loadDataSources() {
     fetchOptionalJson(EVENTS_METADATA_URL)
   ]);
 
-  return {
-    eventsCsv,
-    peopleCsv,
-    locationCsv,
-    tagCsv,
-    elementsCsv,
-    elementsFallbackCsv,
-    eventsMetadata
+  const bundled = readBundledData();
+  const resolved = {
+    eventsCsv: eventsCsv || bundled?.eventsCsv || "",
+    peopleCsv: peopleCsv || bundled?.peopleCsv || "",
+    locationCsv: locationCsv || bundled?.locationCsv || "",
+    tagCsv: tagCsv || bundled?.tagCsv || "",
+    elementsCsv: elementsCsv || bundled?.elementsCsv || "",
+    elementsFallbackCsv: elementsFallbackCsv || bundled?.elementsFallbackCsv || "",
+    eventsMetadata: eventsMetadata || bundled?.eventsMetadata || null
   };
+  if (!resolved.eventsCsv.trim()) {
+    throw new Error(`Unable to fetch ${DATA_URL}`);
+  }
+
+  return resolved;
 }
 
 function readBundledData() {
@@ -426,6 +432,8 @@ function bindUi() {
     applyRouteFromUrl();
     state.suppressUrlSync = false;
   });
+
+  bindStickyNavVisibility();
 }
 
 async function fetchCsv(url) {
@@ -791,6 +799,9 @@ function applyElementsContent(elements) {
   if (siteTitle && dom.heroTitle) {
     dom.heroTitle.textContent = siteTitle;
     document.title = siteTitle;
+    if (dom.stickySiteTitle) {
+      dom.stickySiteTitle.textContent = siteTitle;
+    }
   }
 
   const subtitle = getElementText(
@@ -852,7 +863,7 @@ function getElementLinkLabel(element) {
 }
 
 function renderSiteNav(elements) {
-  if (!dom.siteNav) {
+  if (!dom.siteNav && !dom.stickyNav) {
     return;
   }
   const navItems = elements
@@ -866,7 +877,17 @@ function renderSiteNav(elements) {
       return !isSuppressedNavItem(element, key);
     })
     .sort((left, right) => left.sortOrder - right.sortOrder);
-  dom.siteNav.replaceChildren();
+
+  renderNavContainer(dom.siteNav, navItems);
+  renderNavContainer(dom.stickyNav, navItems);
+  updateStickyNavVisibility();
+}
+
+function renderNavContainer(container, navItems) {
+  if (!container) {
+    return;
+  }
+  container.replaceChildren();
   navItems.forEach((item) => {
     const label = getElementLinkLabel(item);
     if (!label) {
@@ -889,9 +910,49 @@ function renderSiteNav(elements) {
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
     }
-    dom.siteNav.append(anchor);
+    container.append(anchor);
   });
-  dom.siteNav.hidden = dom.siteNav.childElementCount === 0;
+  container.hidden = container.childElementCount === 0;
+}
+
+function bindStickyNavVisibility() {
+  if (!dom.stickyNavShell) {
+    return;
+  }
+  let ticking = false;
+  const onViewportChange = () => {
+    if (ticking) {
+      return;
+    }
+    ticking = true;
+    window.requestAnimationFrame(() => {
+      ticking = false;
+      updateStickyNavVisibility();
+    });
+  };
+  window.addEventListener("scroll", onViewportChange, { passive: true });
+  window.addEventListener("resize", onViewportChange);
+  updateStickyNavVisibility();
+}
+
+function updateStickyNavVisibility() {
+  if (!dom.stickyNavShell || !dom.stickyNav) {
+    return;
+  }
+  const hasNavItems = dom.stickyNav.childElementCount > 0;
+  if (!hasNavItems) {
+    dom.stickyNavShell.classList.remove("is-visible");
+    return;
+  }
+
+  const anchor = dom.controls || dom.hero;
+  if (!anchor) {
+    dom.stickyNavShell.classList.toggle("is-visible", window.scrollY > 180);
+    return;
+  }
+  const rect = anchor.getBoundingClientRect();
+  const shouldShow = rect.top < -24;
+  dom.stickyNavShell.classList.toggle("is-visible", shouldShow);
 }
 
 function isSuppressedNavItem(element, key) {
@@ -1058,7 +1119,7 @@ function normalizeEvent(raw, index) {
   const location = sanitizeText(raw.Location || "");
   const locationFallback = sanitizeText(raw["All Related Locations"] || "");
   const peopleFallback = sanitizeText(raw["All Related People Names"] || "");
-  const tags = parseList(raw.Tags).map((tag) => cleanTagText(tag)).filter(Boolean);
+  const tags = parseList(raw.Tags);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
   const sourceUrls = parseUrls(raw.Sources).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url));
@@ -1291,15 +1352,19 @@ function parseDateOnly(value) {
 
 function resolveEventTime(raw) {
   const candidates = [
-    raw["Time (AM/PM)"],
-    raw.Time,
-    raw["Event Date & Time"],
-    raw["End Date/Time"],
-    raw["Event Timing"]
+    { value: raw["Time (AM/PM)"], explicitOnly: false },
+    { value: raw.Time, explicitOnly: false },
+    { value: raw["Event Timing"], explicitOnly: true }
   ];
   for (const candidate of candidates) {
-    const text = sanitizeText(candidate);
+    const text = sanitizeText(candidate.value);
     if (!text) {
+      continue;
+    }
+    if (text === "0" || text === "00:00:00" || text === "00:00") {
+      continue;
+    }
+    if (candidate.explicitOnly && !/(?:\d{1,2}:\d{2}|[ap]\.?m\.?)/i.test(text)) {
       continue;
     }
     const numericMinutes = parseNumericTimeToMinutes(text);
@@ -1359,6 +1424,9 @@ function parseTimeToMinutes(value) {
 function parseNumericTimeToMinutes(value) {
   const text = sanitizeText(value);
   if (!/^\d{1,8}$/.test(text)) {
+    return UNKNOWN_TIME_MINUTES;
+  }
+  if (text === "0") {
     return UNKNOWN_TIME_MINUTES;
   }
   const numeric = Number.parseInt(text, 10);
@@ -1583,17 +1651,6 @@ function buildEventRow(event, filteredIndex) {
   const row = document.createElement("li");
   row.className = "timeline-item";
 
-  const timeRail = document.createElement("div");
-  timeRail.className = "event-time-rail";
-  const timeLabel = document.createElement("span");
-  timeLabel.className = "event-time-label";
-  timeLabel.textContent = event.timeLabel || "";
-  timeRail.append(timeLabel);
-  if (!event.timeLabel) {
-    timeRail.classList.add("is-empty");
-    timeRail.setAttribute("aria-hidden", "true");
-  }
-
   const details = document.createElement("details");
   details.className = "event-item";
   details.dataset.eventName = event.eventName;
@@ -1637,10 +1694,19 @@ function buildEventRow(event, filteredIndex) {
 
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
+  const summaryMeta = document.createElement("div");
+  summaryMeta.className = "summary-meta";
   const typeBadge = document.createElement("span");
   typeBadge.className = "event-type-badge";
   typeBadge.textContent = resolveDisplayToken(event.type) || "Uncategorized";
-  summaryTop.append(typeBadge, summaryText);
+  summaryMeta.append(typeBadge);
+  if (event.timeLabel) {
+    const timeLabel = document.createElement("span");
+    timeLabel.className = "summary-inline-time";
+    timeLabel.textContent = event.timeLabel;
+    summaryMeta.append(timeLabel);
+  }
+  summaryTop.append(summaryMeta, summaryText);
 
   if (event.images.length > 0) {
     const summaryThumbButton = document.createElement("button");
@@ -1693,7 +1759,7 @@ function buildEventRow(event, filteredIndex) {
   }
 
   details.append(summary, content);
-  row.append(timeRail, details);
+  row.append(details);
   return row;
 }
 
@@ -1836,9 +1902,21 @@ function buildRelatedIndexes({ peopleCsv, locationCsv, tagCsv }) {
   state.related.location = buildLocationIndex(locationCsv, eventNameLookup);
   state.related.tag = buildTagIndex(tagCsv, eventNameLookup);
 
-  state.relatedById.person = buildIdLookup(peopleCsv, ["People Record ID", "_Airtable Record ID"], ["Full Name"]);
-  state.relatedById.location = buildIdLookup(locationCsv, ["Location Record ID", "_Airtable Record ID"], ["Location"]);
-  state.relatedById.tag = buildIdLookup(tagCsv, ["Tag Record ID", "Documents Record ID", "_Airtable Record ID"], ["Tag"]);
+  state.relatedById.person = buildIdLookup(
+    peopleCsv,
+    ["People Record ID", "Person Record ID", "Record ID", "ID", "_Airtable Record ID"],
+    ["Full Name", "Person", "Name"]
+  );
+  state.relatedById.location = buildIdLookup(
+    locationCsv,
+    ["Location Record ID", "Record ID", "ID", "_Airtable Record ID"],
+    ["Location", "Name"]
+  );
+  state.relatedById.tag = buildIdLookup(
+    tagCsv,
+    ["Tag Record ID", "Documents Record ID", "Record ID", "ID", "_Airtable Record ID"],
+    ["Tag", "Name"]
+  );
 }
 
 function buildIdLookup(csvText, idFields, nameFields) {
