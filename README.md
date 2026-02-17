@@ -66,8 +66,8 @@ export AIRTABLE_LOCATION_TABLE_ID="tbl5djS0HR8Ecg1OJ"
 export AIRTABLE_LOCATION_VIEW_ID="viwbicx0kvh1UMRLB"
 export AIRTABLE_TAGS_TABLE_ID="tbl369AkU0k8At9IV"
 export AIRTABLE_TAGS_VIEW_ID="viwa1K5WgktgPYoO9"
-export AIRTABLE_ELEMENTS_TABLE_ID="your_elements_table_id"
-export AIRTABLE_ELEMENTS_VIEW_ID="your_elements_view_id"
+export AIRTABLE_ELEMENTS_TABLE_ID="tblXJVRuDZHWaVtKj"
+export AIRTABLE_ELEMENTS_VIEW_ID="viwi5d6pT5HvblgON"
 export AIRTABLE_SYNC_MODE="delta"
 ```
 
