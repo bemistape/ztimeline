@@ -2,9 +2,11 @@ const DATA_URL = "data/events-timeline.csv";
 const PEOPLE_DATA_URL = "data/people-people-sync.csv";
 const LOCATION_DATA_URL = "data/location-location-sync.csv";
 const TAG_DATA_URL = "data/tags-tags-sync.csv";
+const EVENTS_METADATA_URL = "data/refresh-metadata.json";
 const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"]);
 const PDF_EXTENSIONS = new Set(["pdf"]);
 const UNKNOWN_TIME_MINUTES = 24 * 60 + 1;
+const VALID_RECORD_KINDS = new Set(["person", "location", "tag"]);
 
 const dom = {
   searchInput: document.getElementById("search-input"),
@@ -12,13 +14,21 @@ const dom = {
   peopleFilter: document.getElementById("people-filter"),
   mediaOnlyFilter: document.getElementById("media-only-filter"),
   resetFilters: document.getElementById("reset-filters"),
+  dataFreshness: document.getElementById("data-freshness"),
   timeline: document.getElementById("timeline"),
   imageModal: document.getElementById("image-modal"),
+  modalFigure: document.getElementById("modal-figure"),
   modalImage: document.getElementById("modal-image"),
   modalCaption: document.getElementById("modal-caption"),
   modalClose: document.getElementById("modal-close"),
   modalPrev: document.getElementById("modal-prev"),
   modalNext: document.getElementById("modal-next"),
+  modalZoomIn: document.getElementById("modal-zoom-in"),
+  modalZoomOut: document.getElementById("modal-zoom-out"),
+  modalResetView: document.getElementById("modal-reset-view"),
+  modalRotate: document.getElementById("modal-rotate"),
+  modalFullscreen: document.getElementById("modal-fullscreen"),
+  modalOpenOriginal: document.getElementById("modal-open-original"),
   recordModal: document.getElementById("record-modal"),
   recordModalClose: document.getElementById("record-modal-close"),
   recordModalKind: document.getElementById("record-modal-kind"),
@@ -48,8 +58,24 @@ const state = {
     location: new Map(),
     tag: new Map()
   },
+  eventNameById: new Map(),
   modalMedia: [],
   modalIndex: 0,
+  modalView: {
+    zoom: 1,
+    rotation: 0,
+    offsetX: 0,
+    offsetY: 0,
+    isDragging: false,
+    dragStartX: 0,
+    dragStartY: 0
+  },
+  route: {
+    eventName: "",
+    recordKind: "",
+    recordName: ""
+  },
+  suppressUrlSync: false,
   recordModalImages: [],
   recordModalRelatedEvents: []
 };
@@ -61,11 +87,12 @@ init().catch((error) => {
 
 async function init() {
   bindUi();
-  const [eventsCsv, peopleCsv, locationCsv, tagCsv] = await Promise.all([
+  const [eventsCsv, peopleCsv, locationCsv, tagCsv, eventsMetadata] = await Promise.all([
     fetchCsv(DATA_URL),
     fetchOptionalCsv(PEOPLE_DATA_URL),
     fetchOptionalCsv(LOCATION_DATA_URL),
-    fetchOptionalCsv(TAG_DATA_URL)
+    fetchOptionalCsv(TAG_DATA_URL),
+    fetchOptionalJson(EVENTS_METADATA_URL)
   ]);
 
   const rows = parseCsv(eventsCsv);
@@ -83,7 +110,13 @@ async function init() {
   hydrateEventLinkedReferences();
 
   populateFilters();
+  state.suppressUrlSync = true;
+  restoreStateFromUrl();
   applyFilters();
+  applyRouteFromUrl();
+  state.suppressUrlSync = false;
+  syncUrlState();
+  renderDataFreshness(eventsMetadata);
 }
 
 function bindUi() {
@@ -117,6 +150,9 @@ function bindUi() {
     state.filters.person = "";
     state.filters.mediaOnly = false;
     state.filters.relatedEventSet = null;
+    state.route.eventName = "";
+    state.route.recordKind = "";
+    state.route.recordName = "";
 
     dom.searchInput.value = "";
     dom.locationFilter.value = "";
@@ -149,18 +185,24 @@ function bindUi() {
   dom.timeline.addEventListener(
     "toggle",
     (event) => {
-      if (!event.target.matches("details.event-item")) {
+      const details = event.target;
+      if (!details.matches("details.event-item")) {
         return;
       }
-      if (!event.target.open || event.target.dataset.loaded === "1") {
-        return;
+      if (details.open) {
+        if (details.dataset.loaded !== "1") {
+          const lazyImages = details.querySelectorAll("img[data-src]");
+          lazyImages.forEach((image) => {
+            image.src = image.dataset.src;
+            image.removeAttribute("data-src");
+          });
+          details.dataset.loaded = "1";
+        }
+        state.route.eventName = findEventNameByKey(details.dataset.eventNameKey);
+      } else if (normalizeKey(state.route.eventName) === details.dataset.eventNameKey) {
+        state.route.eventName = "";
       }
-      const lazyImages = event.target.querySelectorAll("img[data-src]");
-      lazyImages.forEach((image) => {
-        image.src = image.dataset.src;
-        image.removeAttribute("data-src");
-      });
-      event.target.dataset.loaded = "1";
+      syncUrlState();
     },
     true
   );
@@ -168,7 +210,28 @@ function bindUi() {
   dom.modalClose.addEventListener("click", () => closeModal());
   dom.modalPrev.addEventListener("click", () => shiftModal(-1));
   dom.modalNext.addEventListener("click", () => shiftModal(1));
+  dom.modalZoomIn.addEventListener("click", () => changeModalZoom(0.2));
+  dom.modalZoomOut.addEventListener("click", () => changeModalZoom(-0.2));
+  dom.modalResetView.addEventListener("click", () => resetModalImageView());
+  dom.modalRotate.addEventListener("click", () => rotateModalImage(90));
+  dom.modalFullscreen.addEventListener("click", () => toggleModalFullscreen());
   dom.recordModalClose.addEventListener("click", () => closeRecordModal());
+  dom.modalFigure.addEventListener(
+    "wheel",
+    (event) => {
+      if (!dom.imageModal.open) {
+        return;
+      }
+      event.preventDefault();
+      changeModalZoom(event.deltaY < 0 ? 0.12 : -0.12);
+    },
+    { passive: false }
+  );
+  dom.modalImage.addEventListener("pointerdown", (event) => beginModalImageDrag(event));
+  dom.modalImage.addEventListener("pointermove", (event) => dragModalImage(event));
+  dom.modalImage.addEventListener("pointerup", (event) => endModalImageDrag(event));
+  dom.modalImage.addEventListener("pointercancel", (event) => endModalImageDrag(event));
+  document.addEventListener("fullscreenchange", () => updateModalFullscreenLabel());
 
   dom.recordModal.addEventListener("click", (event) => {
     const rect = dom.recordModal.getBoundingClientRect();
@@ -250,7 +313,30 @@ function bindUi() {
       shiftModal(-1);
     } else if (event.key === "ArrowRight") {
       shiftModal(1);
+    } else if (event.key === "+" || event.key === "=") {
+      event.preventDefault();
+      changeModalZoom(0.2);
+    } else if (event.key === "-" || event.key === "_") {
+      event.preventDefault();
+      changeModalZoom(-0.2);
+    } else if (event.key === "0") {
+      event.preventDefault();
+      resetModalImageView();
+    } else if (event.key.toLowerCase() === "r") {
+      event.preventDefault();
+      rotateModalImage(90);
+    } else if (event.key.toLowerCase() === "f") {
+      event.preventDefault();
+      toggleModalFullscreen();
     }
+  });
+
+  window.addEventListener("popstate", () => {
+    state.suppressUrlSync = true;
+    restoreStateFromUrl();
+    applyFilters();
+    applyRouteFromUrl();
+    state.suppressUrlSync = false;
   });
 }
 
@@ -268,6 +354,18 @@ async function fetchOptionalCsv(url) {
     return "";
   }
   return response.text();
+}
+
+async function fetchOptionalJson(url) {
+  const response = await fetch(url, { cache: "no-store" });
+  if (!response.ok) {
+    return null;
+  }
+  try {
+    return await response.json();
+  } catch (error) {
+    return null;
+  }
 }
 
 function parseCsv(input) {
@@ -336,7 +434,7 @@ function parseCsv(input) {
 }
 
 function rowsToObjects(rows) {
-  const headers = rows[0].map((header) => header.trim());
+  const headers = rows[0].map((header) => header.replace(/^\ufeff/, "").trim());
   const body = rows.slice(1);
   return body.map((cells) => {
     const object = {};
@@ -350,6 +448,7 @@ function rowsToObjects(rows) {
 function normalizeEvent(raw, index) {
   const beginningDate = parseDateOnly(raw["Beginning Date"]);
   const timeMinutes = parseTimeToMinutes(raw.Time || raw["Time (AM/PM)"] || "");
+  const recordId = firstField(raw, ["_Airtable Record ID", "Event Record ID", "ID"]);
 
   const allMediaAttachments = [
     ...parseAttachmentField(raw.Images, "image"),
@@ -392,6 +491,7 @@ function normalizeEvent(raw, index) {
 
   return {
     index,
+    recordId,
     eventName: raw["Event Name"] || "Untitled event",
     description,
     type,
@@ -732,6 +832,16 @@ function applyFilters() {
   });
 
   renderTimeline();
+  if (state.route.eventName && !state.suppressUrlSync) {
+    const key = normalizeKey(state.route.eventName);
+    const isOpen = [...dom.timeline.querySelectorAll("details.event-item[open]")].some(
+      (item) => item.dataset.eventNameKey === key
+    );
+    if (!isOpen) {
+      state.route.eventName = "";
+    }
+  }
+  syncUrlState();
 }
 
 function renderTimeline() {
@@ -799,6 +909,7 @@ function buildEventRow(event, filteredIndex) {
 
   const details = document.createElement("details");
   details.className = "event-item";
+  details.dataset.eventName = event.eventName;
   details.dataset.eventNameKey = normalizeKey(event.eventName);
   const tint = getTypeTint(event.type);
   details.style.setProperty("--record-tint-bg", tint.background);
@@ -812,7 +923,7 @@ function buildEventRow(event, filteredIndex) {
 
   const title = document.createElement("h3");
   title.className = "event-title";
-  title.textContent = event.eventName;
+  title.textContent = resolveDisplayToken(event.eventName) || "Untitled event";
 
   const titleActions = document.createElement("div");
   titleActions.className = "event-title-actions";
@@ -851,7 +962,10 @@ function buildEventRow(event, filteredIndex) {
     summaryThumbButton.className = "summary-thumb-button";
     summaryThumbButton.dataset.mediaGroupIndex = String(filteredIndex);
     summaryThumbButton.dataset.mediaItemIndex = "0";
-    summaryThumbButton.setAttribute("aria-label", `Open primary image for ${event.eventName}`);
+    summaryThumbButton.setAttribute(
+      "aria-label",
+      `Open primary image for ${resolveDisplayToken(event.eventName) || "this event"}`
+    );
 
     const summaryThumb = document.createElement("img");
     summaryThumb.className = "summary-thumb";
@@ -934,7 +1048,15 @@ function buildSummaryLocationField(location) {
     return item;
   }
 
-  item.append(buildRecordChip(location, "location", location, true));
+  const chip = buildRecordChip(location, "location", location, true);
+  if (chip) {
+    item.append(chip);
+    return item;
+  }
+  const fallback = document.createElement("span");
+  fallback.className = "summary-value";
+  fallback.textContent = "-";
+  item.append(fallback);
   return item;
 }
 
@@ -959,14 +1081,19 @@ function buildSummaryPeopleField(people) {
   wrap.className = "summary-chip-wrap";
 
   const visiblePeople = people.slice(0, 2);
+  let renderedPeopleCount = 0;
   visiblePeople.forEach((person) => {
-    wrap.append(buildRecordChip(person, "person", person, true));
+    const chip = buildRecordChip(person, "person", person, true);
+    if (chip) {
+      wrap.append(chip);
+      renderedPeopleCount += 1;
+    }
   });
 
-  if (people.length > visiblePeople.length) {
+  if (people.length > renderedPeopleCount) {
     const overflow = document.createElement("span");
     overflow.className = "summary-overflow";
-    overflow.textContent = `+${people.length - visiblePeople.length} more`;
+    overflow.textContent = `+${people.length - renderedPeopleCount} more`;
     wrap.append(overflow);
   }
 
@@ -975,33 +1102,47 @@ function buildSummaryPeopleField(people) {
 }
 
 function buildTagSection(tags) {
+  const cleanTags = uniqueCompact(tags.map((tag) => resolveDisplayToken(tag, "tag")));
+  if (cleanTags.length === 0) {
+    return document.createDocumentFragment();
+  }
+
   const section = document.createElement("section");
   section.className = "tag-section";
 
   const heading = document.createElement("h4");
   heading.className = "tag-heading";
-  heading.textContent = `Tags (${tags.length})`;
+  heading.textContent = `Tags (${cleanTags.length})`;
   section.append(heading);
 
   const wrap = document.createElement("div");
   wrap.className = "tag-list";
-  tags.forEach((tag) => {
-    wrap.append(buildRecordChip(tag, "tag", tag));
+  cleanTags.forEach((tag) => {
+    const chip = buildRecordChip(tag, "tag", tag);
+    if (chip) {
+      wrap.append(chip);
+    }
   });
   section.append(wrap);
   return section;
 }
 
 function buildRecordChip(label, kind, value, compact = false) {
+  const cleanLabel = resolveDisplayToken(label, kind);
+  const cleanValue = resolveDisplayToken(value, kind);
+  if (!cleanLabel || !cleanValue) {
+    return null;
+  }
+
   const chip = document.createElement("button");
   chip.type = "button";
   chip.className = `filter-chip ${kind}-chip`;
   if (compact) {
     chip.classList.add("summary-chip");
   }
-  chip.textContent = label;
+  chip.textContent = cleanLabel;
   chip.dataset.recordKind = kind;
-  chip.dataset.recordName = value;
+  chip.dataset.recordName = cleanValue;
 
   return chip;
 }
@@ -1022,17 +1163,23 @@ function getTypeTint(type) {
 
 function buildRelatedIndexes({ peopleCsv, locationCsv, tagCsv }) {
   const eventNameLookup = new Map();
+  state.eventNameById = new Map();
   state.events.forEach((event) => {
     eventNameLookup.set(normalizeKey(event.eventName), event.eventName);
+    if (event.recordId) {
+      const idKey = normalizeKey(event.recordId);
+      eventNameLookup.set(idKey, event.eventName);
+      state.eventNameById.set(idKey, event.eventName);
+    }
   });
 
   state.related.person = buildPersonIndex(peopleCsv, eventNameLookup);
   state.related.location = buildLocationIndex(locationCsv, eventNameLookup);
   state.related.tag = buildTagIndex(tagCsv, eventNameLookup);
 
-  state.relatedById.person = buildIdLookup(peopleCsv, ["People Record ID"], ["Full Name"]);
-  state.relatedById.location = buildIdLookup(locationCsv, ["Location Record ID"], ["Location"]);
-  state.relatedById.tag = buildIdLookup(tagCsv, ["Tag Record ID", "Documents Record ID"], ["Tag"]);
+  state.relatedById.person = buildIdLookup(peopleCsv, ["People Record ID", "_Airtable Record ID"], ["Full Name"]);
+  state.relatedById.location = buildIdLookup(locationCsv, ["Location Record ID", "_Airtable Record ID"], ["Location"]);
+  state.relatedById.tag = buildIdLookup(tagCsv, ["Tag Record ID", "Documents Record ID", "_Airtable Record ID"], ["Tag"]);
 }
 
 function buildIdLookup(csvText, idFields, nameFields) {
@@ -1061,11 +1208,12 @@ function firstField(row, fields) {
 function hydrateEventLinkedReferences() {
   state.events = state.events.map((event) => {
     const resolvedLocation = resolveLinkedName("location", event.location);
-    const location = resolvedLocation || event.locationFallback || "";
+    const fallbackLocations = resolveRelatedNames("location", [event.locationFallback]);
+    const location = resolvedLocation || fallbackLocations[0] || "";
 
     const resolvedPeople = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
-    const fallbackPeople = parseLinkedValues(event.peopleFallback, "person");
-    const people = resolvedPeople.length > 0 ? resolvedPeople : uniqueCompact(fallbackPeople);
+    const fallbackPeople = resolveRelatedNames("person", [event.peopleFallback]);
+    const people = resolvedPeople.length > 0 ? resolvedPeople : fallbackPeople;
     const tags = uniqueCompact(event.tags.map((tag) => resolveLinkedName("tag", tag)));
     const searchableText = [event.searchableText, location, people.join(" "), tags.join(" ")]
       .filter(Boolean)
@@ -1104,6 +1252,24 @@ function isRecordId(value) {
   return /^rec[a-z0-9]{10,}$/i.test(sanitizeText(value));
 }
 
+function resolveRecordId(kind, value) {
+  const id = sanitizeText(value);
+  if (!id) {
+    return "";
+  }
+  const key = normalizeKey(id);
+  if (kind && state.relatedById[kind]?.has(key)) {
+    return state.relatedById[kind].get(key) || "";
+  }
+  return (
+    state.relatedById.person.get(key) ||
+    state.relatedById.location.get(key) ||
+    state.relatedById.tag.get(key) ||
+    state.eventNameById.get(key) ||
+    ""
+  );
+}
+
 function resolveLinkedName(kind, value) {
   const text = sanitizeText(value);
   if (!text) {
@@ -1112,7 +1278,7 @@ function resolveLinkedName(kind, value) {
   if (!isRecordId(text)) {
     return text;
   }
-  const resolved = state.relatedById[kind]?.get(normalizeKey(text));
+  const resolved = resolveRecordId(kind, text);
   return resolved || "";
 }
 
@@ -1122,12 +1288,44 @@ function resolveRecordLookupKey(kind, nameOrId) {
     return "";
   }
   if (isRecordId(text)) {
-    const resolved = state.relatedById[kind]?.get(normalizeKey(text));
+    const resolved = resolveRecordId(kind, text);
     if (resolved) {
       return normalizeKey(resolved);
     }
   }
   return normalizeKey(text);
+}
+
+function resolveDisplayToken(value, kind = "") {
+  const text = sanitizeText(value);
+  if (!text) {
+    return "";
+  }
+  if (!isRecordId(text)) {
+    return text;
+  }
+  return resolveRecordId(kind, text);
+}
+
+function resolveDisplayValue(value, kind = "") {
+  const text = sanitizeText(value);
+  if (!text) {
+    return "";
+  }
+  const parsed = parseList(text);
+  const parts =
+    kind === "person" || kind === "location" || kind === "tag"
+      ? parseLinkedValues(text, kind)
+      : parsed.length > 1
+        ? parsed
+        : [text];
+  const resolved = uniqueCompact(parts.map((part) => resolveDisplayToken(part, kind)));
+  return resolved.join(", ");
+}
+
+function scrubRecordIdsInText(value) {
+  const text = String(value || "");
+  return text.replace(/\brec[a-z0-9]{10,}\b/gi, (match) => resolveRecordId("", match));
 }
 
 function rowsFromOptionalCsv(csvText) {
@@ -1162,7 +1360,7 @@ function buildPersonIndex(csvText, eventNameLookup) {
       kind: "person",
       name,
       slug: sanitizeText(row.Slug),
-      subtitle: sanitizeText(row["Role in Case"]),
+      subtitle: resolveDisplayValue(row["Role in Case"]),
       summary: sanitizeText(row["Short Bio"] || row.Biography),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
@@ -1182,7 +1380,7 @@ function buildPersonIndex(csvText, eventNameLookup) {
       details: [
         makeDetail("Born", row["Date of Birth"]),
         makeDetail("Died", row["Date of Death"]),
-        makeDetail("Home / HQ", row["Home / Headquarters"]),
+        makeDetail("Home / HQ", row["Home / Headquarters"], "location"),
         makeDetail("Role Score", row["Role in Case Score"])
       ].filter(Boolean)
     });
@@ -1211,7 +1409,7 @@ function buildLocationIndex(csvText, eventNameLookup) {
       kind: "location",
       name,
       slug: sanitizeText(row.Slug),
-      subtitle: sanitizeText(row.Type),
+      subtitle: resolveDisplayValue(row.Type),
       summary: sanitizeText(row.Notes),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
@@ -1230,7 +1428,7 @@ function buildLocationIndex(csvText, eventNameLookup) {
       relatedEvents: resolveRelatedEvents(parseList(row.Events), eventNameLookup),
       details: [
         makeDetail("Address", row.Address),
-        makeDetail("Located Within", row["Located Within"]),
+        makeDetail("Located Within", row["Located Within"], "location"),
         makeDetail("Latitude", row.Latitude),
         makeDetail("Longitude", row.Longitude)
       ].filter(Boolean)
@@ -1260,7 +1458,7 @@ function buildTagIndex(csvText, eventNameLookup) {
       kind: "tag",
       name,
       slug: sanitizeText(row.Slug),
-      subtitle: sanitizeText(row["Tagged Under"] || row["AI: Information Category (Detailed)"]),
+      subtitle: resolveDisplayValue(row["Tagged Under"] || row["AI: Information Category (Detailed)"], "tag"),
       summary: sanitizeText(row.Summary || row["AI: Summary Analysis"]),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
@@ -1277,15 +1475,15 @@ function buildTagIndex(csvText, eventNameLookup) {
       ),
       details: [
         makeDetail("Date", row.Date),
-        makeDetail("Documents", row["Related Documents"])
+        makeDetail("Documents", row["Related Documents"], "tag")
       ].filter(Boolean)
     });
   });
   return index;
 }
 
-function makeDetail(label, value) {
-  const text = sanitizeText(value);
+function makeDetail(label, value, kind = "") {
+  const text = resolveDisplayValue(value, kind);
   if (!text) {
     return null;
   }
@@ -1308,7 +1506,10 @@ function resolveRelatedEvents(names, eventNameLookup) {
     if (!clean) {
       return;
     }
-    const canonical = eventNameLookup.get(normalizeKey(clean)) || clean;
+    const canonical = eventNameLookup.get(normalizeKey(clean)) || (isRecordId(clean) ? "" : clean);
+    if (!canonical) {
+      return;
+    }
     const key = normalizeKey(canonical);
     if (seen.has(key)) {
       return;
@@ -1320,16 +1521,36 @@ function resolveRelatedEvents(names, eventNameLookup) {
 }
 
 function openRecordModal(kind, name) {
+  if (!VALID_RECORD_KINDS.has(kind)) {
+    return;
+  }
   const lookup = state.related[kind];
   const lookupKey = resolveRecordLookupKey(kind, name);
   const record = lookup ? lookup.get(lookupKey) || buildFallbackRecord(kind, name) : buildFallbackRecord(kind, name);
 
   state.recordModalImages = record.images;
-  state.recordModalRelatedEvents = record.relatedEvents;
+  state.recordModalRelatedEvents = uniqueCompact(
+    record.relatedEvents.map((eventName) => {
+      if (isRecordId(eventName)) {
+        return resolveRecordId("", eventName);
+      }
+      return sanitizeText(eventName);
+    })
+  );
+  const subtitleText = scrubRecordIdsInText(record.subtitle || "");
+  const titleText =
+    resolveDisplayToken(record.name, kind) ||
+    (isRecordId(record.name)
+      ? kind === "person"
+        ? "Unknown Person"
+        : kind === "location"
+          ? "Unknown Location"
+          : "Unknown Tag"
+      : record.name);
   dom.recordModalKind.textContent = record.kind.toUpperCase();
-  dom.recordModalTitle.textContent = record.name;
-  dom.recordModalSubtitle.textContent = record.subtitle || "";
-  dom.recordModalSubtitle.hidden = !record.subtitle;
+  dom.recordModalTitle.textContent = titleText;
+  dom.recordModalSubtitle.textContent = subtitleText;
+  dom.recordModalSubtitle.hidden = !subtitleText;
 
   const content = dom.recordModalContent;
   content.replaceChildren();
@@ -1361,8 +1582,11 @@ function openRecordModal(kind, name) {
   }
 
   content.append(buildRecordConnectionsSection(record.relatedRecords));
-  content.append(buildRelatedEventsSection(record.relatedEvents));
+  content.append(buildRelatedEventsSection(state.recordModalRelatedEvents));
   dom.recordModal.showModal();
+  state.route.recordKind = VALID_RECORD_KINDS.has(kind) ? kind : "";
+  state.route.recordName = dom.recordModalTitle.textContent;
+  syncUrlState();
 }
 
 function buildFallbackRecord(kind, name) {
@@ -1407,7 +1631,12 @@ function buildRecordConnectionsSection(relatedRecords) {
     { kind: "person", label: "People", values: relatedRecords?.person || [] },
     { kind: "location", label: "Locations", values: relatedRecords?.location || [] },
     { kind: "tag", label: "Tags", values: relatedRecords?.tag || [] }
-  ].filter((group) => group.values.length > 0);
+  ]
+    .map((group) => ({
+      ...group,
+      values: uniqueCompact(group.values.map((value) => resolveDisplayToken(value, group.kind)))
+    }))
+    .filter((group) => group.values.length > 0);
 
   if (groups.length === 0) {
     return document.createDocumentFragment();
@@ -1425,9 +1654,14 @@ function buildRecordConnectionsSection(relatedRecords) {
     const list = document.createElement("div");
     list.className = "record-related-list";
     group.values.forEach((value) => {
-      list.append(buildRecordChip(value, group.kind, value));
+      const chip = buildRecordChip(value, group.kind, value);
+      if (chip) {
+        list.append(chip);
+      }
     });
-    section.append(list);
+    if (list.childElementCount > 0) {
+      section.append(list);
+    }
   });
 
   return section;
@@ -1494,15 +1728,28 @@ function buildRecordDownloadSection(downloads) {
 }
 
 function buildRelatedEventsSection(eventNames) {
+  const cleanEventNames = uniqueCompact(
+    eventNames.map((name) => {
+      const text = sanitizeText(name);
+      if (!text) {
+        return "";
+      }
+      if (isRecordId(text)) {
+        return resolveRecordId("", text);
+      }
+      return text;
+    })
+  );
+
   const section = document.createElement("section");
   section.className = "record-section";
 
   const heading = document.createElement("h3");
   heading.className = "record-section-title";
-  heading.textContent = `Related Events (${eventNames.length})`;
+  heading.textContent = `Related Events (${cleanEventNames.length})`;
   section.append(heading);
 
-  if (eventNames.length === 0) {
+  if (cleanEventNames.length === 0) {
     const empty = document.createElement("p");
     empty.className = "record-empty";
     empty.textContent = "No related timeline events in this dataset.";
@@ -1519,7 +1766,7 @@ function buildRelatedEventsSection(eventNames) {
 
   const list = document.createElement("div");
   list.className = "record-related-list";
-  eventNames.forEach((name) => {
+  cleanEventNames.forEach((name) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "record-related-event";
@@ -1535,6 +1782,9 @@ function closeRecordModal() {
   if (dom.recordModal.open) {
     dom.recordModal.close();
   }
+  state.route.recordKind = "";
+  state.route.recordName = "";
+  syncUrlState();
 }
 
 function focusEventByName(eventName) {
@@ -1546,6 +1796,9 @@ function focusEventByName(eventName) {
   state.filters.relatedEventSet = null;
   state.filters.search = name.toLowerCase();
   dom.searchInput.value = name;
+  state.route.eventName = name;
+  state.route.recordKind = "";
+  state.route.recordName = "";
   applyFilters();
 }
 
@@ -1621,7 +1874,7 @@ function renderRichTextBlock(input, className) {
   const root = document.createElement("div");
   root.className = className;
 
-  const normalized = String(input || "")
+  const normalized = scrubRecordIdsInText(input || "")
     .replace(/\r\n?/g, "\n")
     .trim();
   if (!normalized) {
@@ -1761,12 +2014,16 @@ function openModal(mediaItems, index) {
     return;
   }
   state.modalMedia = mediaItems;
-  state.modalIndex = index;
+  state.modalIndex = Number.isFinite(index) ? Math.max(0, Math.min(index, mediaItems.length - 1)) : 0;
   renderModal();
   dom.imageModal.showModal();
 }
 
 function closeModal() {
+  endModalImageDrag();
+  if (document.fullscreenElement === dom.imageModal) {
+    document.exitFullscreen().catch(() => {});
+  }
   if (dom.imageModal.open) {
     dom.imageModal.close();
   }
@@ -1774,6 +2031,9 @@ function closeModal() {
 
 function shiftModal(direction) {
   if (!state.modalMedia.length) {
+    return;
+  }
+  if (state.modalMedia.length <= 1) {
     return;
   }
   const total = state.modalMedia.length;
@@ -1786,9 +2046,268 @@ function renderModal() {
   if (!item) {
     return;
   }
+  const label = sanitizeText(item.label) || "Image";
+  resetModalImageView();
   dom.modalImage.src = item.url;
-  dom.modalImage.alt = item.label;
-  dom.modalCaption.textContent = `${item.label} (${state.modalIndex + 1}/${state.modalMedia.length})`;
+  dom.modalImage.alt = label;
+  dom.modalImage.draggable = false;
+  dom.modalCaption.textContent =
+    state.modalMedia.length > 1 ? `${label} (${state.modalIndex + 1}/${state.modalMedia.length})` : label;
+  dom.modalPrev.hidden = state.modalMedia.length <= 1;
+  dom.modalNext.hidden = state.modalMedia.length <= 1;
+  dom.modalPrev.disabled = state.modalMedia.length <= 1;
+  dom.modalNext.disabled = state.modalMedia.length <= 1;
+  dom.modalOpenOriginal.href = item.url;
+  dom.modalOpenOriginal.hidden = !item.url;
+  updateModalFullscreenLabel();
+}
+
+function resetModalImageView() {
+  state.modalView.zoom = 1;
+  state.modalView.rotation = 0;
+  state.modalView.offsetX = 0;
+  state.modalView.offsetY = 0;
+  state.modalView.isDragging = false;
+  applyModalImageTransform();
+}
+
+function applyModalImageTransform() {
+  const { zoom, rotation, offsetX, offsetY, isDragging } = state.modalView;
+  dom.modalImage.style.transform = `translate3d(${offsetX}px, ${offsetY}px, 0) scale(${zoom}) rotate(${rotation}deg)`;
+  dom.modalImage.style.transition = isDragging ? "none" : "transform 120ms ease";
+  if (zoom > 1.01) {
+    dom.modalImage.style.cursor = isDragging ? "grabbing" : "grab";
+  } else {
+    dom.modalImage.style.cursor = "zoom-in";
+  }
+}
+
+function changeModalZoom(delta) {
+  const nextZoom = Math.max(1, Math.min(5, state.modalView.zoom + delta));
+  state.modalView.zoom = Math.round(nextZoom * 100) / 100;
+  if (state.modalView.zoom <= 1) {
+    state.modalView.offsetX = 0;
+    state.modalView.offsetY = 0;
+  }
+  applyModalImageTransform();
+}
+
+function rotateModalImage(degrees) {
+  state.modalView.rotation = (state.modalView.rotation + degrees) % 360;
+  applyModalImageTransform();
+}
+
+function beginModalImageDrag(event) {
+  if (!dom.imageModal.open || state.modalView.zoom <= 1.01) {
+    return;
+  }
+  state.modalView.isDragging = true;
+  state.modalView.dragStartX = event.clientX - state.modalView.offsetX;
+  state.modalView.dragStartY = event.clientY - state.modalView.offsetY;
+  dom.modalImage.setPointerCapture(event.pointerId);
+  applyModalImageTransform();
+}
+
+function dragModalImage(event) {
+  if (!state.modalView.isDragging || state.modalView.zoom <= 1.01) {
+    return;
+  }
+  state.modalView.offsetX = event.clientX - state.modalView.dragStartX;
+  state.modalView.offsetY = event.clientY - state.modalView.dragStartY;
+  applyModalImageTransform();
+}
+
+function endModalImageDrag(event) {
+  if (!state.modalView.isDragging) {
+    return;
+  }
+  state.modalView.isDragging = false;
+  if (event && dom.modalImage.hasPointerCapture(event.pointerId)) {
+    dom.modalImage.releasePointerCapture(event.pointerId);
+  }
+  applyModalImageTransform();
+}
+
+async function toggleModalFullscreen() {
+  const target = dom.imageModal;
+  try {
+    if (document.fullscreenElement) {
+      await document.exitFullscreen();
+      return;
+    }
+    if (typeof target.requestFullscreen === "function") {
+      await target.requestFullscreen();
+    }
+  } catch (error) {
+    // Ignore fullscreen API failures in unsupported environments.
+  } finally {
+    updateModalFullscreenLabel();
+  }
+}
+
+function updateModalFullscreenLabel() {
+  const inFullscreen = document.fullscreenElement === dom.imageModal;
+  dom.modalFullscreen.textContent = inFullscreen ? "Exit Fullscreen" : "Fullscreen";
+}
+
+function syncUrlState() {
+  if (state.suppressUrlSync) {
+    return;
+  }
+  const params = new URLSearchParams();
+  const searchText = sanitizeText(dom.searchInput.value);
+  if (searchText) {
+    params.set("q", searchText);
+  }
+  if (state.filters.location) {
+    params.set("loc", state.filters.location);
+  }
+  if (state.filters.person) {
+    params.set("person", state.filters.person);
+  }
+  if (state.filters.mediaOnly) {
+    params.set("media", "1");
+  }
+  if (state.route.eventName) {
+    params.set("event", state.route.eventName);
+  }
+  if (state.route.recordKind && state.route.recordName) {
+    params.set("recordKind", state.route.recordKind);
+    params.set("record", state.route.recordName);
+  }
+
+  const query = params.toString();
+  const nextUrl = `${window.location.pathname}${query ? `?${query}` : ""}${window.location.hash}`;
+  const currentUrl = `${window.location.pathname}${window.location.search}${window.location.hash}`;
+  if (nextUrl !== currentUrl) {
+    window.history.replaceState(null, "", nextUrl);
+  }
+}
+
+function restoreStateFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+
+  const searchText = sanitizeText(params.get("q"));
+  state.filters.search = searchText.toLowerCase();
+  dom.searchInput.value = searchText;
+
+  const rawLocation = sanitizeText(params.get("loc"));
+  const location = isRecordId(rawLocation) ? resolveRecordId("location", rawLocation) : rawLocation;
+  state.filters.location = selectHasOptionValue(dom.locationFilter, location) ? location : "";
+  dom.locationFilter.value = state.filters.location;
+
+  const rawPerson = sanitizeText(params.get("person"));
+  const person = isRecordId(rawPerson) ? resolveRecordId("person", rawPerson) : rawPerson;
+  state.filters.person = selectHasOptionValue(dom.peopleFilter, person) ? person : "";
+  dom.peopleFilter.value = state.filters.person;
+
+  state.filters.mediaOnly = sanitizeText(params.get("media")) === "1";
+  dom.mediaOnlyFilter.checked = state.filters.mediaOnly;
+  state.filters.relatedEventSet = null;
+
+  const eventParam = sanitizeText(params.get("event"));
+  state.route.eventName = isRecordId(eventParam) ? resolveRecordId("", eventParam) : eventParam;
+
+  const recordKind = sanitizeText(params.get("recordKind")).toLowerCase();
+  const recordParam = sanitizeText(params.get("record"));
+  state.route.recordKind = VALID_RECORD_KINDS.has(recordKind) ? recordKind : "";
+  state.route.recordName =
+    state.route.recordKind && isRecordId(recordParam) ? resolveRecordId(state.route.recordKind, recordParam) : recordParam;
+  if (!state.route.recordKind) {
+    state.route.recordName = "";
+  }
+}
+
+function applyRouteFromUrl() {
+  if (state.route.eventName) {
+    if (!openEventDetailsByName(state.route.eventName)) {
+      const matchedEventName = resolveEventRouteName(state.route.eventName);
+      if (matchedEventName) {
+        state.filters.location = "";
+        state.filters.person = "";
+        state.filters.mediaOnly = false;
+        dom.locationFilter.value = "";
+        dom.peopleFilter.value = "";
+        dom.mediaOnlyFilter.checked = false;
+        state.filters.search = matchedEventName.toLowerCase();
+        dom.searchInput.value = matchedEventName;
+        applyFilters();
+        openEventDetailsByName(matchedEventName);
+      }
+    }
+  }
+
+  if (state.route.recordKind && state.route.recordName) {
+    openRecordModal(state.route.recordKind, state.route.recordName);
+  }
+}
+
+function openEventDetailsByName(name) {
+  const eventName = resolveEventRouteName(name);
+  if (!eventName) {
+    return false;
+  }
+  const eventKey = normalizeKey(eventName);
+  const details = [...dom.timeline.querySelectorAll("details.event-item")].find(
+    (item) => item.dataset.eventNameKey === eventKey
+  );
+  if (!details) {
+    return false;
+  }
+  details.open = true;
+  details.scrollIntoView({ block: "center", behavior: state.suppressUrlSync ? "auto" : "smooth" });
+  state.route.eventName = eventName;
+  return true;
+}
+
+function resolveEventRouteName(value) {
+  const text = sanitizeText(value);
+  if (!text) {
+    return "";
+  }
+  if (isRecordId(text)) {
+    return resolveRecordId("", text);
+  }
+  const key = normalizeKey(text);
+  const event = state.events.find((item) => normalizeKey(item.eventName) === key);
+  return event ? event.eventName : text;
+}
+
+function findEventNameByKey(eventNameKey) {
+  const key = normalizeKey(eventNameKey);
+  if (!key) {
+    return "";
+  }
+  const event = state.events.find((item) => normalizeKey(item.eventName) === key);
+  return event ? event.eventName : "";
+}
+
+function selectHasOptionValue(select, value) {
+  if (!value) {
+    return false;
+  }
+  return [...select.options].some((option) => option.value === value);
+}
+
+function renderDataFreshness(metadata) {
+  if (!dom.dataFreshness) {
+    return;
+  }
+  const rawTimestamp = sanitizeText(metadata?.generated_at_utc || metadata?.sync_cursor_utc);
+  if (!rawTimestamp) {
+    return;
+  }
+  const parsed = new Date(rawTimestamp);
+  if (Number.isNaN(parsed.getTime())) {
+    return;
+  }
+  const timestamp = parsed.toLocaleString("en-US", {
+    dateStyle: "medium",
+    timeStyle: "short"
+  });
+  const syncMode = sanitizeText(metadata?.sync_mode);
+  dom.dataFreshness.textContent = syncMode ? `Data refreshed ${timestamp} (${syncMode})` : `Data refreshed ${timestamp}`;
+  dom.dataFreshness.hidden = false;
 }
 
 function renderLoadError() {

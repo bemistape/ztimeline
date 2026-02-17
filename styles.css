@@ -78,6 +78,12 @@ h1 {
   max-width: 72ch;
 }
 
+.data-freshness {
+  margin: 0.58rem 0 0;
+  font-size: 0.82rem;
+  color: #484848;
+}
+
 .button {
   text-decoration: none;
   display: inline-flex;
@@ -142,7 +148,10 @@ h1 {
 .record-image-button:focus-visible,
 .record-related-event:focus-visible,
 .record-related-filter:focus-visible,
-.record-modal-close:focus-visible {
+.record-modal-close:focus-visible,
+.modal-close:focus-visible,
+.modal-nav:focus-visible,
+.modal-tool:focus-visible {
   outline: 3px solid #7c7c7c;
   outline-offset: 2px;
 }
@@ -593,7 +602,7 @@ h1 {
   margin: 0;
   display: grid;
   gap: 0.55rem;
-  padding: 2.9rem 0.8rem 1rem;
+  padding: 4rem 0.8rem 1rem;
 }
 
 .modal-figure img {
@@ -602,6 +611,11 @@ h1 {
   object-fit: contain;
   background: #efefef;
   border-radius: 10px;
+  transform-origin: center center;
+  transition: transform 120ms ease;
+  user-select: none;
+  cursor: zoom-in;
+  touch-action: none;
 }
 
 .modal-figure figcaption {
@@ -626,6 +640,37 @@ h1 {
 .modal-close {
   top: 0.52rem;
   right: 0.52rem;
+}
+
+.modal-toolbar {
+  position: absolute;
+  top: 0.52rem;
+  left: 0.52rem;
+  right: 3.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  z-index: 2;
+}
+
+.modal-tool {
+  border: 1px solid #505050;
+  color: #f8f8f8;
+  background: rgba(0, 0, 0, 0.82);
+  border-radius: 999px;
+  cursor: pointer;
+  height: 1.85rem;
+  padding: 0 0.66rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-tool-link {
+  color: #f8f8f8;
 }
 
 .modal-nav {
@@ -923,6 +968,17 @@ h1 {
     top: auto;
     bottom: 0.5rem;
     transform: none;
+  }
+
+  .modal-toolbar {
+    right: 0.5rem;
+    top: 2.9rem;
+  }
+
+  .modal-tool {
+    height: 1.8rem;
+    font-size: 0.69rem;
+    padding: 0 0.54rem;
   }
 
   .modal-nav.prev {

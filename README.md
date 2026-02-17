@@ -4,9 +4,12 @@ Static website for browsing your Airtable timeline with:
 
 - Chronological, date-grouped timeline rows
 - Fast text/location/people/media filters
-- Image thumbnails with fullscreen modal viewer
+- Image thumbnails with enhanced modal viewer (zoom, rotate, fullscreen, open-original)
 - Collapsible events grouped by `Beginning Date`
 - Click-to-filter chips for `Location` and `People`
+- Shareable URL state (filters + event/record deep links)
+- Airtable record IDs suppressed in UI output
+- Data freshness indicator from refresh metadata
 
 ## Project files
 

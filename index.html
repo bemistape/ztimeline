@@ -29,6 +29,7 @@
         <p class="eyebrow">Case Timeline Viewer</p>
         <h1>Zodiac Archive</h1>
         <p class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
+        <p id="data-freshness" class="data-freshness" hidden></p>
       </header>
 
       <section class="controls" aria-label="Timeline filters">
@@ -70,13 +71,30 @@
     </main>
 
     <dialog id="image-modal" class="image-modal" aria-label="Image preview">
+      <div class="modal-toolbar" role="toolbar" aria-label="Image viewer controls">
+        <button id="modal-zoom-in" class="modal-tool" type="button" aria-label="Zoom in">Zoom +</button>
+        <button id="modal-zoom-out" class="modal-tool" type="button" aria-label="Zoom out">Zoom -</button>
+        <button id="modal-reset-view" class="modal-tool" type="button" aria-label="Reset zoom and rotation">Reset</button>
+        <button id="modal-rotate" class="modal-tool" type="button" aria-label="Rotate image 90 degrees">Rotate</button>
+        <button id="modal-fullscreen" class="modal-tool" type="button" aria-label="Toggle fullscreen">Fullscreen</button>
+        <a
+          id="modal-open-original"
+          class="modal-tool modal-tool-link"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Open original image in a new tab"
+        >
+          Open Original
+        </a>
+      </div>
       <button id="modal-close" class="modal-close" type="button" aria-label="Close image preview">
         Close
       </button>
       <button id="modal-prev" class="modal-nav prev" type="button" aria-label="Previous image">
         Prev
       </button>
-      <figure class="modal-figure">
+      <figure id="modal-figure" class="modal-figure">
         <img id="modal-image" alt="" />
         <figcaption id="modal-caption"></figcaption>
       </figure>
