@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Manrope:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -31,7 +31,6 @@
         <h1 id="hero-title">Zodiac Archive</h1>
         <p id="hero-copy" class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
         <nav id="site-nav" class="site-nav" aria-label="Primary" hidden></nav>
-        <p id="data-freshness" class="data-freshness" hidden></p>
       </header>
 
       <section class="controls" aria-label="Timeline filters">
@@ -47,26 +46,25 @@
 
         <label class="control">
           <span>Location</span>
-          <select id="location-filter">
-            <option value="">All Locations</option>
+          <select id="location-filter" multiple size="6" title="Select one or more locations">
           </select>
         </label>
 
         <label class="control">
           <span>People</span>
-          <select id="people-filter">
-            <option value="">All People</option>
+          <select id="people-filter" multiple size="6" title="Select one or more people">
+          </select>
+        </label>
+
+        <label class="control">
+          <span>Tags</span>
+          <select id="tag-filter" multiple size="6" title="Select one or more tags">
           </select>
         </label>
 
         <label class="check-control">
           <input id="media-only-filter" type="checkbox" />
           <span>Only events with media</span>
-        </label>
-
-        <label class="check-control">
-          <input id="map-only-filter" type="checkbox" />
-          <span>Only events with maps</span>
         </label>
 
         <button id="reset-filters" class="button reset" type="button">Reset</button>
@@ -81,6 +79,7 @@
         <section id="footer-links" class="footer-block footer-links" hidden></section>
         <section id="footer-legal" class="footer-block footer-legal" hidden></section>
       </footer>
+      <p id="data-freshness" class="data-freshness data-freshness-bottom" hidden></p>
     </main>
 
     <dialog id="image-modal" class="image-modal" aria-label="Image preview">

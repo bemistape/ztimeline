@@ -3,7 +3,7 @@
 Static website for browsing your Airtable timeline with:
 
 - Chronological, date-grouped timeline rows
-- Fast text/location/people/media filters
+- Fast text/media filters plus multi-select Location, People, and Tags filters
 - Image thumbnails with enhanced modal viewer (zoom, rotate, fullscreen, open-original)
 - Location record modals with conditional Google Maps embeds (when coordinates or map URL exist)
 - Collapsible events grouped by `Beginning Date`

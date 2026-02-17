@@ -23,8 +23,8 @@ const dom = {
   searchInput: document.getElementById("search-input"),
   locationFilter: document.getElementById("location-filter"),
   peopleFilter: document.getElementById("people-filter"),
+  tagFilter: document.getElementById("tag-filter"),
   mediaOnlyFilter: document.getElementById("media-only-filter"),
-  mapOnlyFilter: document.getElementById("map-only-filter"),
   resetFilters: document.getElementById("reset-filters"),
   dataFreshness: document.getElementById("data-freshness"),
   timelineSection: document.querySelector(".timeline-section"),
@@ -57,10 +57,10 @@ const state = {
   filteredEvents: [],
   filters: {
     search: "",
-    location: "",
-    person: "",
+    locations: [],
+    people: [],
+    tags: [],
     mediaOnly: false,
-    mapOnly: false,
     relatedEventSet: null
   },
   related: {
@@ -178,6 +178,10 @@ function readBundledData() {
 }
 
 function bindUi() {
+  bindMultiSelectToggle(dom.locationFilter);
+  bindMultiSelectToggle(dom.peopleFilter);
+  bindMultiSelectToggle(dom.tagFilter);
+
   dom.searchInput.addEventListener("input", (event) => {
     state.filters.relatedEventSet = null;
     state.filters.search = event.target.value.trim().toLowerCase();
@@ -186,15 +190,23 @@ function bindUi() {
 
   dom.locationFilter.addEventListener("change", (event) => {
     state.filters.relatedEventSet = null;
-    state.filters.location = event.target.value;
+    state.filters.locations = getSelectedSelectValues(event.target);
     applyFilters();
   });
 
   dom.peopleFilter.addEventListener("change", (event) => {
     state.filters.relatedEventSet = null;
-    state.filters.person = event.target.value;
+    state.filters.people = getSelectedSelectValues(event.target);
     applyFilters();
   });
+
+  if (dom.tagFilter) {
+    dom.tagFilter.addEventListener("change", (event) => {
+      state.filters.relatedEventSet = null;
+      state.filters.tags = getSelectedSelectValues(event.target);
+      applyFilters();
+    });
+  }
 
   dom.mediaOnlyFilter.addEventListener("change", (event) => {
     state.filters.relatedEventSet = null;
@@ -202,28 +214,24 @@ function bindUi() {
     applyFilters();
   });
 
-  dom.mapOnlyFilter.addEventListener("change", (event) => {
-    state.filters.relatedEventSet = null;
-    state.filters.mapOnly = event.target.checked;
-    applyFilters();
-  });
-
   dom.resetFilters.addEventListener("click", () => {
     state.filters.search = "";
-    state.filters.location = "";
-    state.filters.person = "";
+    state.filters.locations = [];
+    state.filters.people = [];
+    state.filters.tags = [];
     state.filters.mediaOnly = false;
-    state.filters.mapOnly = false;
     state.filters.relatedEventSet = null;
     state.route.eventName = "";
     state.route.recordKind = "";
     state.route.recordName = "";
 
     dom.searchInput.value = "";
-    dom.locationFilter.value = "";
-    dom.peopleFilter.value = "";
+    clearSelectSelection(dom.locationFilter);
+    clearSelectSelection(dom.peopleFilter);
+    if (dom.tagFilter) {
+      clearSelectSelection(dom.tagFilter);
+    }
     dom.mediaOnlyFilter.checked = false;
-    dom.mapOnlyFilter.checked = false;
 
     applyFilters();
   });
@@ -634,18 +642,29 @@ function parseElementsRows(csvText) {
 }
 
 function normalizeElementRecord(raw) {
-  const parsedOrder = Number.parseInt(sanitizeText(raw["Sort Order"]), 10);
+  const parsedOrder = Number.parseInt(sanitizeText(pickRawFieldValue(raw, ["Sort Order", "Sort", "Order", "Position"])), 10);
+  const type = sanitizeText(pickRawFieldValue(raw, ["Element Type", "Type", "Kind"])).toLowerCase() || "text";
+  const label = sanitizeText(pickRawFieldValue(raw, ["Label", "Title", "Name"]));
+  const linkLabel = sanitizeText(pickRawFieldValue(raw, ["Link Label", "Button Label", "Link Text"]));
+  const resolvedKey = canonicalizeElementKey(
+    sanitizeText(pickRawFieldValue(raw, ["Element Key", "Key", "Slot"])) ||
+      inferElementKey({
+        type,
+        label,
+        linkLabel
+      })
+  );
   return {
-    key: sanitizeText(raw["Element Key"]),
-    type: sanitizeText(raw["Element Type"]).toLowerCase() || "text",
-    label: sanitizeText(raw.Label),
-    body: sanitizeText(raw.Body),
-    linkLabel: sanitizeText(raw["Link Label"]),
-    linkUrl: sanitizeLinkUrl(raw["Link URL"]),
+    key: resolvedKey,
+    type,
+    label,
+    body: sanitizeText(pickRawFieldValue(raw, ["Body", "Text", "Content", "Value", "Copy", "Description"])),
+    linkLabel,
+    linkUrl: sanitizeLinkUrl(pickRawFieldValue(raw, ["Link URL", "URL", "Link"])),
     sortOrder: Number.isFinite(parsedOrder) ? parsedOrder : Number.MAX_SAFE_INTEGER,
-    published: parseBooleanFlag(raw.Published, true),
-    locale: sanitizeText(raw.Locale).toLowerCase(),
-    notes: sanitizeText(raw.Notes)
+    published: parseBooleanFlag(pickRawFieldValue(raw, ["Published", "Enabled", "Active", "Show"]), true),
+    locale: sanitizeText(pickRawFieldValue(raw, ["Locale", "Language"])).toLowerCase(),
+    notes: sanitizeText(pickRawFieldValue(raw, ["Notes", "Internal Notes"]))
   };
 }
 
@@ -654,7 +673,108 @@ function parseBooleanFlag(value, defaultValue = false) {
   if (!normalized) {
     return defaultValue;
   }
-  return ["1", "true", "yes", "y", "on"].includes(normalized);
+  return ["1", "true", "yes", "y", "on", "checked", "published", "enabled", "active"].includes(normalized);
+}
+
+function pickRawFieldValue(raw, candidates) {
+  for (const candidate of candidates) {
+    if (Object.prototype.hasOwnProperty.call(raw, candidate)) {
+      const value = raw[candidate];
+      if (sanitizeText(value)) {
+        return value;
+      }
+    }
+  }
+  const normalizedCandidates = new Set(candidates.map((candidate) => normalizeKey(candidate)));
+  for (const [key, value] of Object.entries(raw)) {
+    if (!normalizedCandidates.has(normalizeKey(key))) {
+      continue;
+    }
+    if (sanitizeText(value)) {
+      return value;
+    }
+  }
+  return "";
+}
+
+function inferElementKey({ type, label, linkLabel }) {
+  const fingerprint = normalizeKey(`${label} ${linkLabel}`);
+  const navLike = normalizeKey(type).includes("nav");
+
+  if (navLike || fingerprint === "home" || fingerprint.startsWith("nav ")) {
+    if (fingerprint.includes("timeline")) {
+      return "nav.timeline";
+    }
+    if (fingerprint.includes("source")) {
+      return "nav.sources";
+    }
+    if (fingerprint.includes("about")) {
+      return "nav.about";
+    }
+    return "nav.home";
+  }
+
+  if (
+    fingerprint.includes("site title") ||
+    fingerprint.includes("page title") ||
+    fingerprint === "title" ||
+    fingerprint === "site title"
+  ) {
+    return "site.title";
+  }
+  if (
+    fingerprint.includes("subtitle") ||
+    fingerprint.includes("sub title") ||
+    fingerprint.includes("eyebrow") ||
+    fingerprint.includes("kicker")
+  ) {
+    return "site.subtitle";
+  }
+  if (
+    fingerprint.includes("intro") ||
+    fingerprint.includes("subhead") ||
+    fingerprint.includes("description") ||
+    fingerprint.includes("hero copy")
+  ) {
+    return "site.intro";
+  }
+  if (fingerprint.includes("about")) {
+    return "site.about_blurb";
+  }
+  if (fingerprint.includes("privacy")) {
+    return "legal.privacy";
+  }
+  if (fingerprint.includes("terms")) {
+    return "legal.terms";
+  }
+  if (fingerprint.includes("legal") || fingerprint.includes("disclaimer")) {
+    return "legal.disclaimer";
+  }
+
+  const slug = fingerprint.replace(/[^a-z0-9]+/g, ".").replace(/^\.+|\.+$/g, "");
+  return slug ? `custom.${slug}` : "";
+}
+
+function canonicalizeElementKey(value) {
+  const clean = normalizeKey(value).replace(/[^a-z0-9]+/g, ".").replace(/\.+/g, ".").replace(/^\.+|\.+$/g, "");
+  if (!clean) {
+    return "";
+  }
+  const aliases = new Map([
+    ["title", "site.title"],
+    ["site.title.text", "site.title"],
+    ["page.title", "site.title"],
+    ["hero.title", "site.title"],
+    ["subtitle", "site.subtitle"],
+    ["subhead", "site.intro"],
+    ["description", "site.intro"],
+    ["intro", "site.intro"],
+    ["about", "site.about_blurb"],
+    ["about.copy", "site.about_blurb"],
+    ["home", "nav.home"],
+    ["about.us", "site.about_blurb"]
+  ]);
+  return aliases.get(clean) || clean;
 }
 
 function applyElementsContent(elements) {
@@ -665,18 +785,24 @@ function applyElementsContent(elements) {
   const localized = localizeElements(elements, locale);
   const byKey = new Map(localized.map((element) => [normalizeKey(element.key), element]));
 
-  const siteTitle = getElementText(byKey.get("site.title"));
+  const siteTitle = getElementText(
+    findFirstElement(byKey, ["site.title", "hero.title", "page.title", "home.title", "title"])
+  );
   if (siteTitle && dom.heroTitle) {
     dom.heroTitle.textContent = siteTitle;
     document.title = siteTitle;
   }
 
-  const subtitle = getElementText(byKey.get("site.subtitle"));
+  const subtitle = getElementText(
+    findFirstElement(byKey, ["site.subtitle", "hero.subtitle", "site.eyebrow", "hero.eyebrow", "page.subtitle"])
+  );
   if (subtitle && dom.heroEyebrow) {
     dom.heroEyebrow.textContent = subtitle;
   }
 
-  const intro = getElementText(byKey.get("site.intro"));
+  const intro = getElementText(
+    findFirstElement(byKey, ["site.intro", "hero.intro", "hero.copy", "site.subhead", "site.description"])
+  );
   if (intro && dom.heroCopy) {
     dom.heroCopy.textContent = intro;
     const descriptionMeta = document.querySelector('meta[name="description"]');
@@ -730,7 +856,15 @@ function renderSiteNav(elements) {
     return;
   }
   const navItems = elements
-    .filter((element) => normalizeKey(element.key).startsWith("nav.") && element.linkUrl)
+    .filter((element) => {
+      const key = normalizeKey(element.key);
+      const type = normalizeKey(element.type);
+      const isNav = key.startsWith("nav.") || type === "nav_link" || type === "nav" || type.includes("nav");
+      if (!isNav || !element.linkUrl) {
+        return false;
+      }
+      return !isSuppressedNavItem(element, key);
+    })
     .sort((left, right) => left.sortOrder - right.sortOrder);
   dom.siteNav.replaceChildren();
   navItems.forEach((item) => {
@@ -760,18 +894,27 @@ function renderSiteNav(elements) {
   dom.siteNav.hidden = dom.siteNav.childElementCount === 0;
 }
 
+function isSuppressedNavItem(element, key) {
+  if (key === "nav.timeline" || key === "nav.sources") {
+    return true;
+  }
+  const labelFingerprint = normalizeKey(`${sanitizeText(element.label)} ${getElementLinkLabel(element)}`);
+  return /\btimeline\b/.test(labelFingerprint) || /\bsources?\b/.test(labelFingerprint);
+}
+
 function getNavAction(item) {
   const key = normalizeKey(item?.key);
-  if (key === "nav.home") {
+  const label = normalizeKey(getElementLinkLabel(item));
+  if (key === "nav.home" || label === "home") {
     return "home";
   }
-  if (key === "nav.timeline") {
+  if (key === "nav.timeline" || label === "timeline") {
     return "timeline";
   }
-  if (key === "nav.sources") {
+  if (key === "nav.sources" || label === "sources") {
     return "sources";
   }
-  if (key === "nav.about") {
+  if (key === "nav.about" || label === "about") {
     return "about";
   }
   return "";
@@ -901,9 +1044,7 @@ function rowsToObjects(rows) {
 
 function normalizeEvent(raw, index) {
   const beginningDate = parseDateOnly(raw["Beginning Date"]);
-  const rawTime = sanitizeText(raw.Time || raw["Time (AM/PM)"] || "");
-  const timeMinutes = parseTimeToMinutes(rawTime);
-  const timeLabel = formatTimeLabel(rawTime, timeMinutes);
+  const { timeMinutes, timeLabel } = resolveEventTime(raw);
   const recordId = firstField(raw, ["_Airtable Record ID", "Event Record ID", "ID"]);
 
   const allMediaAttachments = [
@@ -917,7 +1058,7 @@ function normalizeEvent(raw, index) {
   const location = sanitizeText(raw.Location || "");
   const locationFallback = sanitizeText(raw["All Related Locations"] || "");
   const peopleFallback = sanitizeText(raw["All Related People Names"] || "");
-  const tags = parseList(raw.Tags);
+  const tags = parseList(raw.Tags).map((tag) => cleanTagText(tag)).filter(Boolean);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
   const sourceUrls = parseUrls(raw.Sources).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url));
@@ -1148,35 +1289,66 @@ function parseDateOnly(value) {
   return null;
 }
 
-function parseTimeToMinutes(value) {
-  if (!value) {
-    return UNKNOWN_TIME_MINUTES;
+function resolveEventTime(raw) {
+  const candidates = [
+    raw["Time (AM/PM)"],
+    raw.Time,
+    raw["Event Date & Time"],
+    raw["End Date/Time"],
+    raw["Event Timing"]
+  ];
+  for (const candidate of candidates) {
+    const text = sanitizeText(candidate);
+    if (!text) {
+      continue;
+    }
+    const numericMinutes = parseNumericTimeToMinutes(text);
+    if (numericMinutes !== UNKNOWN_TIME_MINUTES) {
+      return {
+        timeMinutes: numericMinutes,
+        timeLabel: formatTimeLabel(numericMinutes)
+      };
+    }
+    const parsedMinutes = parseTimeToMinutes(text);
+    if (parsedMinutes !== UNKNOWN_TIME_MINUTES) {
+      return {
+        timeMinutes: parsedMinutes,
+        timeLabel: formatTimeLabel(parsedMinutes)
+      };
+    }
   }
-  const text = value.trim().toLowerCase();
+  return {
+    timeMinutes: UNKNOWN_TIME_MINUTES,
+    timeLabel: ""
+  };
+}
+
+function parseTimeToMinutes(value) {
+  const text = sanitizeText(value).toLowerCase();
   if (!text) {
     return UNKNOWN_TIME_MINUTES;
   }
 
-  let match = text.match(/^(\d{1,2}):(\d{2})$/);
+  let match = text.match(/(\d{1,2})(?::(\d{2}))?\s*([ap])\.?\s*m\.?/i);
   if (match) {
-    const hours = Number.parseInt(match[1], 10);
-    const minutes = Number.parseInt(match[2], 10);
-    if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59) {
+    let hours = Number.parseInt(match[1] || "", 10);
+    const minutes = Number.parseInt(match[2] || "0", 10);
+    const meridiem = String(match[3] || "").toLowerCase();
+    if (hours >= 1 && hours <= 12 && minutes >= 0 && minutes <= 59) {
+      if (meridiem === "p" && hours < 12) {
+        hours += 12;
+      } else if (meridiem === "a" && hours === 12) {
+        hours = 0;
+      }
       return hours * 60 + minutes;
     }
   }
 
-  match = text.match(/^(\d{1,2})(?::(\d{2}))?\s*([ap]m)$/i);
+  match = text.match(/(?:^|[^\d])(\d{1,2}):(\d{2})(?::(\d{2}))?(?!\d)/);
   if (match) {
-    let hours = Number.parseInt(match[1], 10);
-    const minutes = Number.parseInt(match[2] || "0", 10);
-    const meridiem = match[3].toLowerCase();
-    if (hours >= 1 && hours <= 12 && minutes >= 0 && minutes <= 59) {
-      if (meridiem === "pm" && hours < 12) {
-        hours += 12;
-      } else if (meridiem === "am" && hours === 12) {
-        hours = 0;
-      }
+    const hours = Number.parseInt(match[1] || "", 10);
+    const minutes = Number.parseInt(match[2] || "", 10);
+    if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59) {
       return hours * 60 + minutes;
     }
   }
@@ -1184,13 +1356,40 @@ function parseTimeToMinutes(value) {
   return UNKNOWN_TIME_MINUTES;
 }
 
-function formatTimeLabel(rawValue, minutes) {
-  const source = sanitizeText(rawValue);
-  if (!source) {
-    return "";
+function parseNumericTimeToMinutes(value) {
+  const text = sanitizeText(value);
+  if (!/^\d{1,8}$/.test(text)) {
+    return UNKNOWN_TIME_MINUTES;
   }
+  const numeric = Number.parseInt(text, 10);
+  if (!Number.isFinite(numeric)) {
+    return UNKNOWN_TIME_MINUTES;
+  }
+
+  if (/^\d{3,4}$/.test(text)) {
+    const hours = Math.floor(numeric / 100);
+    const minutes = numeric % 100;
+    if (hours >= 0 && hours <= 23 && minutes >= 0 && minutes <= 59) {
+      return hours * 60 + minutes;
+    }
+  }
+
+  if (numeric >= 0 && numeric <= 1439) {
+    return numeric;
+  }
+  if (numeric >= 0 && numeric <= 86399) {
+    return Math.floor(numeric / 60);
+  }
+  if (numeric >= 0 && numeric <= 86399999 && numeric % 1000 === 0) {
+    return Math.floor(numeric / 60000);
+  }
+
+  return UNKNOWN_TIME_MINUTES;
+}
+
+function formatTimeLabel(minutes) {
   if (!Number.isFinite(minutes) || minutes === UNKNOWN_TIME_MINUTES) {
-    return source.replace(/\s+/g, "").toUpperCase();
+    return "";
   }
 
   const safeMinutes = Math.max(0, Math.min(23 * 60 + 59, Math.trunc(minutes)));
@@ -1201,7 +1400,7 @@ function formatTimeLabel(rawValue, minutes) {
   if (hours12 === 0) {
     hours12 = 12;
   }
-  return `${hours12}:${String(minutePart).padStart(2, "0")}${meridiem}`;
+  return `${hours12}:${String(minutePart).padStart(2, "0")} ${meridiem}`;
 }
 
 function toDateKey(date) {
@@ -1222,7 +1421,7 @@ function formatDateHeading(date) {
     day: "numeric",
     timeZone: "UTC"
   });
-  return `${weekday} \u2022 ${main}`;
+  return `${weekday}, ${main}`;
 }
 
 function sortEvents(left, right) {
@@ -1235,6 +1434,7 @@ function sortEvents(left, right) {
 function populateFilters() {
   const locationCounts = new Map();
   const peopleCounts = new Map();
+  const tagCounts = new Map();
 
   state.events.forEach((event) => {
     if (event.location) {
@@ -1243,19 +1443,24 @@ function populateFilters() {
     event.people.forEach((person) => {
       peopleCounts.set(person, (peopleCounts.get(person) || 0) + 1);
     });
+    event.tags.forEach((tag) => {
+      tagCounts.set(tag, (tagCounts.get(tag) || 0) + 1);
+    });
   });
 
-  fillSelectOptions(dom.locationFilter, "All Locations", locationCounts);
-  fillSelectOptions(dom.peopleFilter, "All People", peopleCounts);
+  fillSelectOptions(dom.locationFilter, locationCounts, state.filters.locations);
+  fillSelectOptions(dom.peopleFilter, peopleCounts, state.filters.people);
+  if (dom.tagFilter) {
+    fillSelectOptions(dom.tagFilter, tagCounts, state.filters.tags);
+  }
+
+  state.filters.locations = getSelectedSelectValues(dom.locationFilter);
+  state.filters.people = getSelectedSelectValues(dom.peopleFilter);
+  state.filters.tags = dom.tagFilter ? getSelectedSelectValues(dom.tagFilter) : [];
 }
 
-function fillSelectOptions(select, defaultLabel, countsMap) {
+function fillSelectOptions(select, countsMap, selectedValues = []) {
   select.replaceChildren();
-
-  const defaultOption = document.createElement("option");
-  defaultOption.value = "";
-  defaultOption.textContent = defaultLabel;
-  select.append(defaultOption);
 
   const sorted = [...countsMap.entries()].sort((left, right) => {
     if (right[1] !== left[1]) {
@@ -1270,22 +1475,27 @@ function fillSelectOptions(select, defaultLabel, countsMap) {
     option.textContent = `${value} (${count})`;
     select.append(option);
   });
+
+  setSelectedSelectValues(select, selectedValues);
 }
 
 function applyFilters() {
-  const { search, location, person, mediaOnly, mapOnly, relatedEventSet } = state.filters;
+  const { search, locations, people, tags, mediaOnly, relatedEventSet } = state.filters;
+  const selectedLocationKeys = new Set((locations || []).map((value) => normalizeKey(value)));
+  const selectedPeopleKeys = new Set((people || []).map((value) => normalizeKey(value)));
+  const selectedTagKeys = new Set((tags || []).map((value) => normalizeKey(value)));
 
   state.filteredEvents = state.events.filter((event) => {
-    if (location && event.location !== location) {
+    if (selectedLocationKeys.size > 0 && !selectedLocationKeys.has(normalizeKey(event.location))) {
       return false;
     }
-    if (person && !event.people.includes(person)) {
+    if (selectedPeopleKeys.size > 0 && !event.people.some((person) => selectedPeopleKeys.has(normalizeKey(person)))) {
+      return false;
+    }
+    if (selectedTagKeys.size > 0 && !event.tags.some((tag) => selectedTagKeys.has(normalizeKey(tag)))) {
       return false;
     }
     if (mediaOnly && event.images.length === 0) {
-      return false;
-    }
-    if (mapOnly && !event.hasMap) {
       return false;
     }
     if (search && !event.searchableText.includes(search)) {
@@ -1358,14 +1568,6 @@ function buildDateGroup(group) {
   heading.append(label);
   rail.append(heading);
 
-  const firstEventWithTime = group.items.find((item) => item.event.timeLabel);
-  if (firstEventWithTime) {
-    const time = document.createElement("p");
-    time.className = "date-rail-time";
-    time.textContent = firstEventWithTime.event.timeLabel;
-    rail.append(time);
-  }
-
   const list = document.createElement("ol");
   list.className = "group-events";
 
@@ -1380,6 +1582,17 @@ function buildDateGroup(group) {
 function buildEventRow(event, filteredIndex) {
   const row = document.createElement("li");
   row.className = "timeline-item";
+
+  const timeRail = document.createElement("div");
+  timeRail.className = "event-time-rail";
+  const timeLabel = document.createElement("span");
+  timeLabel.className = "event-time-label";
+  timeLabel.textContent = event.timeLabel || "";
+  timeRail.append(timeLabel);
+  if (!event.timeLabel) {
+    timeRail.classList.add("is-empty");
+    timeRail.setAttribute("aria-hidden", "true");
+  }
 
   const details = document.createElement("details");
   details.className = "event-item";
@@ -1417,11 +1630,7 @@ function buildEventRow(event, filteredIndex) {
 
   const fieldGrid = document.createElement("div");
   fieldGrid.className = "summary-fields";
-  const summaryFields = [];
-  if (event.timeLabel) {
-    summaryFields.push(buildSummaryField("Time", event.timeLabel));
-  }
-  summaryFields.push(buildSummaryLocationField(event.location), buildSummaryPeopleField(event.people));
+  const summaryFields = [buildSummaryLocationField(event.location), buildSummaryPeopleField(event.people)];
   fieldGrid.append(...summaryFields);
 
   summaryText.append(titleRow, fieldGrid);
@@ -1484,7 +1693,7 @@ function buildEventRow(event, filteredIndex) {
   }
 
   details.append(summary, content);
-  row.append(details);
+  row.append(timeRail, details);
   return row;
 }
 
@@ -1664,7 +1873,11 @@ function hydrateEventLinkedReferences() {
     const resolvedPeople = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
     const fallbackPeople = resolveRelatedNames("person", [event.peopleFallback]);
     const people = resolvedPeople.length > 0 ? resolvedPeople : fallbackPeople;
-    const tags = uniqueCompact(event.tags.map((tag) => resolveLinkedName("tag", tag)));
+    const tags = uniqueCompact(
+      event.tags
+        .map((tag) => cleanTagText(resolveLinkedName("tag", tag)))
+        .filter((tag) => isMeaningfulToken(tag))
+    );
     const searchableText = [event.searchableText, location, people.join(" "), tags.join(" ")]
       .filter(Boolean)
       .join(" ")
@@ -2792,17 +3005,11 @@ function syncUrlState() {
   if (searchText) {
     params.set("q", searchText);
   }
-  if (state.filters.location) {
-    params.set("loc", state.filters.location);
-  }
-  if (state.filters.person) {
-    params.set("person", state.filters.person);
-  }
+  (state.filters.locations || []).forEach((location) => params.append("loc", location));
+  (state.filters.people || []).forEach((person) => params.append("person", person));
+  (state.filters.tags || []).forEach((tag) => params.append("tag", tag));
   if (state.filters.mediaOnly) {
     params.set("media", "1");
-  }
-  if (state.filters.mapOnly) {
-    params.set("maps", "1");
   }
   if (state.route.eventName) {
     params.set("event", state.route.eventName);
@@ -2827,20 +3034,24 @@ function restoreStateFromUrl() {
   state.filters.search = searchText.toLowerCase();
   dom.searchInput.value = searchText;
 
-  const rawLocation = sanitizeText(params.get("loc"));
-  const location = isRecordId(rawLocation) ? resolveRecordId("location", rawLocation) : rawLocation;
-  state.filters.location = selectHasOptionValue(dom.locationFilter, location) ? location : "";
-  dom.locationFilter.value = state.filters.location;
+  state.filters.locations = parseFilterValuesFromUrl(params, ["loc"], "location");
+  state.filters.locations = filterExistingOptionValues(dom.locationFilter, state.filters.locations);
+  setSelectedSelectValues(dom.locationFilter, state.filters.locations);
 
-  const rawPerson = sanitizeText(params.get("person"));
-  const person = isRecordId(rawPerson) ? resolveRecordId("person", rawPerson) : rawPerson;
-  state.filters.person = selectHasOptionValue(dom.peopleFilter, person) ? person : "";
-  dom.peopleFilter.value = state.filters.person;
+  state.filters.people = parseFilterValuesFromUrl(params, ["person", "people"], "person");
+  state.filters.people = filterExistingOptionValues(dom.peopleFilter, state.filters.people);
+  setSelectedSelectValues(dom.peopleFilter, state.filters.people);
+
+  if (dom.tagFilter) {
+    state.filters.tags = parseFilterValuesFromUrl(params, ["tag", "tags"], "tag");
+    state.filters.tags = filterExistingOptionValues(dom.tagFilter, state.filters.tags);
+    setSelectedSelectValues(dom.tagFilter, state.filters.tags);
+  } else {
+    state.filters.tags = [];
+  }
 
   state.filters.mediaOnly = sanitizeText(params.get("media")) === "1";
   dom.mediaOnlyFilter.checked = state.filters.mediaOnly;
-  state.filters.mapOnly = sanitizeText(params.get("maps")) === "1";
-  dom.mapOnlyFilter.checked = state.filters.mapOnly;
   state.filters.relatedEventSet = null;
 
   const eventParam = sanitizeText(params.get("event"));
@@ -2861,14 +3072,16 @@ function applyRouteFromUrl() {
     if (!openEventDetailsByName(state.route.eventName)) {
       const matchedEventName = resolveEventRouteName(state.route.eventName);
       if (matchedEventName) {
-        state.filters.location = "";
-        state.filters.person = "";
+        state.filters.locations = [];
+        state.filters.people = [];
+        state.filters.tags = [];
         state.filters.mediaOnly = false;
-        state.filters.mapOnly = false;
-        dom.locationFilter.value = "";
-        dom.peopleFilter.value = "";
+        clearSelectSelection(dom.locationFilter);
+        clearSelectSelection(dom.peopleFilter);
+        if (dom.tagFilter) {
+          clearSelectSelection(dom.tagFilter);
+        }
         dom.mediaOnlyFilter.checked = false;
-        dom.mapOnlyFilter.checked = false;
         state.filters.search = matchedEventName.toLowerCase();
         dom.searchInput.value = matchedEventName;
         applyFilters();
@@ -2922,11 +3135,81 @@ function findEventNameByKey(eventNameKey) {
   return event ? event.eventName : "";
 }
 
-function selectHasOptionValue(select, value) {
-  if (!value) {
-    return false;
+function bindMultiSelectToggle(select) {
+  if (!select || !select.multiple) {
+    return;
   }
-  return [...select.options].some((option) => option.value === value);
+  select.addEventListener("mousedown", (event) => {
+    const option = event.target instanceof HTMLOptionElement ? event.target : null;
+    if (!option) {
+      return;
+    }
+    event.preventDefault();
+    option.selected = !option.selected;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+  });
+}
+
+function getSelectedSelectValues(select) {
+  if (!select) {
+    return [];
+  }
+  return [...select.selectedOptions].map((option) => sanitizeText(option.value)).filter(Boolean);
+}
+
+function setSelectedSelectValues(select, values) {
+  if (!select) {
+    return;
+  }
+  const selectedKeys = new Set((values || []).map((value) => normalizeKey(value)));
+  [...select.options].forEach((option) => {
+    option.selected = selectedKeys.has(normalizeKey(option.value));
+  });
+}
+
+function clearSelectSelection(select) {
+  if (!select) {
+    return;
+  }
+  [...select.options].forEach((option) => {
+    option.selected = false;
+  });
+}
+
+function filterExistingOptionValues(select, values) {
+  if (!select) {
+    return [];
+  }
+  const existingValues = new Map([...select.options].map((option) => [normalizeKey(option.value), option.value]));
+  const resolved = [];
+  (values || []).forEach((value) => {
+    const key = normalizeKey(value);
+    if (existingValues.has(key)) {
+      resolved.push(existingValues.get(key));
+    }
+  });
+  return uniqueCompact(resolved);
+}
+
+function parseFilterValuesFromUrl(params, keys, kind) {
+  const values = [];
+  keys.forEach((key) => {
+    const rawValues = params.getAll(key);
+    rawValues.forEach((rawValue) => {
+      const parts = String(rawValue || "").includes("|") ? String(rawValue).split("|") : [rawValue];
+      parts.forEach((item) => {
+        const clean = sanitizeText(item);
+        if (!clean) {
+          return;
+        }
+        const resolved = isRecordId(clean) ? resolveRecordId(kind, clean) : clean;
+        if (resolved) {
+          values.push(resolved);
+        }
+      });
+    });
+  });
+  return uniqueCompact(values);
 }
 
 function renderDataFreshness(metadata) {

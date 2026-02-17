@@ -49,7 +49,10 @@ jobs:
             SYNC_MODE="${{ github.event.inputs.sync_mode }}"
           fi
           echo "Running Airtable refresh with sync mode: ${SYNC_MODE}"
-          python3 scripts/refresh_airtable_data.py --sync-mode "${SYNC_MODE}" --prune-media --cache-media-types image
+          python3 scripts/refresh_airtable_data.py \
+            --sync-mode "${SYNC_MODE}" \
+            --prune-media \
+            --cache-media-types image
 
       - name: Media integrity summary
         env:
