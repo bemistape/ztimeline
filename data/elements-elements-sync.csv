@@ -1,13 +1,12 @@
-Element Key,Element Type,Label,Body,Link Label,Link URL,Sort Order,Published,Locale,Notes
-site.title,text,Site Title,Zodiac Archive,,,10,true,en-US,Primary site title shown in hero and browser metadata.
-site.subtitle,text,Site Subtitle,Case Timeline Viewer,,,20,true,en-US,Short eyebrow copy.
-site.intro,rich_text,Intro Copy,Date-grouped timeline with collapsible events and source image evidence.,,,30,true,en-US,Main intro paragraph.
-site.about_blurb,rich_text,About Blurb,"Independent research archive organizing timeline, people, locations, and source evidence for reference.",,,40,true,en-US,Short About module on homepage.
-nav.home,nav_link,Home,,Home,/,50,true,en-US,Primary navigation item.
-nav.timeline,nav_link,Timeline,,Timeline,/timeline,60,true,en-US,Primary navigation item.
-nav.sources,nav_link,Sources,,Sources,/sources,70,true,en-US,Primary navigation item.
-nav.about,nav_link,About,,About,/about,80,true,en-US,Primary navigation item.
-cta.submit_tip,link,Submit a Tip,,Contact,mailto:research@example.org,90,false,en-US,Optional public contact CTA.
-legal.privacy,link,Privacy Policy,,Privacy Policy,/privacy,100,true,en-US,Legal link.
-legal.terms,link,Terms of Use,,Terms of Use,/terms,110,true,en-US,Legal link.
-legal.disclaimer,rich_text,Research Disclaimer,Content is provided for research and reference use and may include links to external sources.,,,120,true,en-US,Footer legal/disclaimer block.
+﻿_Airtable Record ID,Element Key,Element Type,Label,Body,Sort Order,Published,Locale,Notes,Link Label,Link URL
+recsGJcSvEg9zik7V,site.title,text,Site Title,ZTimeline,10,true,en-US,Primary site title shown in hero and browser metadata.,,
+recwLf3UMSOfwZceJ,site.subtitle,text,Site Subtitle,Timeline,20,true,en-US,Short eyebrow copy.,,
+recPqFHXjXvcpC7nY,site.intro,rich_text,Intro Copy,A web reference to the Zodiac Killer case.,30,true,en-US,Main intro paragraph.,,
+rec7nhbA0RECu0KrM,site.about_blurb,rich_text,About Blurb,"Independent research archive organizing timeline, people, locations, and source evidence for reference.",40,true,en-US,Short About module on homepage.,,
+recnngaU4dUrLpoIH,nav.home,nav_link,Home,,50,true,en-US,Primary navigation item.,Home,/
+recHHSZwfznYDguTQ,nav.timeline,nav_link,Timeline,,60,true,en-US,Primary navigation item.,Timeline,/timeline
+reckk4h7YxVerWgFD,nav.sources,nav_link,Sources,,70,true,en-US,Primary navigation item.,Sources,/sources
+rec1ynZDmlZRZ88Ns,nav.about,nav_link,About,,80,true,en-US,Primary navigation item.,About,/about
+recsCtKltOLhFRa1y,legal.privacy,link,Privacy Policy,,100,true,en-US,Legal link.,Privacy Policy,/privacy
+recNjca4G0efVL0li,legal.terms,link,Terms of Use,,110,true,en-US,Legal link.,Terms of Use,/terms
+recbw7BduvncjBwo5,legal.disclaimer,rich_text,Research Disclaimer,Content is provided for research and reference use and may include links to external sources.,120,true,en-US,Footer legal/disclaimer block.,,
