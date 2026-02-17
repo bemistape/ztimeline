@@ -27,6 +27,7 @@ const dom = {
   mapOnlyFilter: document.getElementById("map-only-filter"),
   resetFilters: document.getElementById("reset-filters"),
   dataFreshness: document.getElementById("data-freshness"),
+  timelineSection: document.querySelector(".timeline-section"),
   timeline: document.getElementById("timeline"),
   imageModal: document.getElementById("image-modal"),
   modalFigure: document.getElementById("modal-figure"),
@@ -381,7 +382,7 @@ function bindUi() {
 }
 
 async function fetchCsv(url) {
-  const response = await fetchWithAssetFallback(url);
+  const response = await fetchWithAssetFallback(url, "csv");
   if (!response) {
     throw new Error(`Unable to fetch ${url}`);
   }
@@ -389,7 +390,7 @@ async function fetchCsv(url) {
 }
 
 async function fetchOptionalCsv(url) {
-  const response = await fetchWithAssetFallback(url);
+  const response = await fetchWithAssetFallback(url, "csv");
   if (!response) {
     return "";
   }
@@ -397,7 +398,7 @@ async function fetchOptionalCsv(url) {
 }
 
 async function fetchOptionalJson(url) {
-  const response = await fetchWithAssetFallback(url);
+  const response = await fetchWithAssetFallback(url, "json");
   if (!response) {
     return null;
   }
@@ -408,14 +409,18 @@ async function fetchOptionalJson(url) {
   }
 }
 
-async function fetchWithAssetFallback(url) {
+async function fetchWithAssetFallback(url, kind = "text") {
   const candidates = buildAssetUrlCandidates(url);
   for (const candidate of candidates) {
     try {
       const response = await fetch(candidate, { cache: "no-store" });
-      if (response.ok) {
-        return response;
+      if (!response.ok) {
+        continue;
       }
+      if (await isLikelyHtmlFallback(response, kind)) {
+        continue;
+      }
+      return response;
     } catch (error) {
       // Ignore and try the next candidate.
     }
@@ -476,6 +481,25 @@ function getLikelyRepoBasePath() {
     return "";
   }
   return `/${segments[0]}`;
+}
+
+async function isLikelyHtmlFallback(response, kind) {
+  if (kind !== "csv" && kind !== "json") {
+    return false;
+  }
+  const contentType = String(response.headers.get("content-type") || "").toLowerCase();
+  if (contentType.includes("text/html")) {
+    return true;
+  }
+  if (contentType && !contentType.includes("text/plain")) {
+    return false;
+  }
+  try {
+    const prefix = (await response.clone().text()).slice(0, 256).trimStart().toLowerCase();
+    return prefix.startsWith("<!doctype html") || prefix.startsWith("<html");
+  } catch (error) {
+    return false;
+  }
 }
 
 function parseCsv(input) {
@@ -664,15 +688,63 @@ function renderSiteNav(elements) {
     }
     const anchor = document.createElement("a");
     anchor.className = "site-nav-link";
-    anchor.href = item.linkUrl;
     anchor.textContent = label;
-    if (isExternalUrl(item.linkUrl)) {
+    const action = getNavAction(item);
+    if (action) {
+      anchor.href = "#";
+      anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        runNavAction(action);
+      });
+    } else {
+      anchor.href = item.linkUrl;
+    }
+    if (!action && isExternalUrl(item.linkUrl)) {
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
     }
     dom.siteNav.append(anchor);
   });
   dom.siteNav.hidden = dom.siteNav.childElementCount === 0;
+}
+
+function getNavAction(item) {
+  const key = normalizeKey(item?.key);
+  if (key === "nav.home") {
+    return "home";
+  }
+  if (key === "nav.timeline") {
+    return "timeline";
+  }
+  if (key === "nav.sources") {
+    return "sources";
+  }
+  if (key === "nav.about") {
+    return "about";
+  }
+  return "";
+}
+
+function runNavAction(action) {
+  if (action === "home") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  if (action === "timeline") {
+    (dom.timelineSection || dom.timeline)?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
+  if (action === "sources") {
+    state.filters.mediaOnly = true;
+    state.filters.relatedEventSet = null;
+    dom.mediaOnlyFilter.checked = true;
+    applyFilters();
+    (dom.timelineSection || dom.timeline)?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
+  if (action === "about") {
+    (dom.siteFooter || dom.timeline)?.scrollIntoView({ block: "start", behavior: "smooth" });
+  }
 }
 
 function renderSiteFooter(elements, byKey) {
@@ -2817,8 +2889,28 @@ function renderLoadError() {
   const message = document.createElement("p");
   message.textContent = "Check that data/events-timeline.csv exists and reload.";
 
-  errorItem.append(title, message);
+  const hints = buildLoadErrorHints();
+  errorItem.append(title, message, ...hints);
   dom.timeline.append(errorItem);
+}
+
+function buildLoadErrorHints() {
+  const hints = [];
+  if (window.location.protocol === "file:") {
+    const hint = document.createElement("p");
+    hint.textContent =
+      "Detected file:// access. Run a local server (python3 -m http.server 4173) and open http://localhost:4173 instead.";
+    hints.push(hint);
+    return hints;
+  }
+
+  const path = sanitizeText(window.location.pathname);
+  if (path && path !== "/" && !path.endsWith(".html")) {
+    const rootHint = document.createElement("p");
+    rootHint.textContent = `Current path is ${path}. If this URL is rewritten, try loading the site root directly.`;
+    hints.push(rootHint);
+  }
+  return hints;
 }
 
 function capitalize(value) {
