@@ -34,6 +34,8 @@ DEFAULT_LOCATION_TABLE_ID = "tbl5djS0HR8Ecg1OJ"
 DEFAULT_LOCATION_VIEW_ID = "viwbicx0kvh1UMRLB"
 DEFAULT_TAGS_TABLE_ID = "tbl369AkU0k8At9IV"
 DEFAULT_TAGS_VIEW_ID = "viwa1K5WgktgPYoO9"
+DEFAULT_ELEMENTS_TABLE_ID = ""
+DEFAULT_ELEMENTS_VIEW_ID = ""
 IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"}
 PDF_EXTENSIONS = {"pdf"}
 RECORD_ID_HEADER = "_Airtable Record ID"
@@ -102,7 +104,9 @@ class RefreshResult:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Refresh Airtable exports for events, people, locations, and tags.")
+    parser = argparse.ArgumentParser(
+        description="Refresh Airtable exports for events, people, locations, tags, and optional elements."
+    )
     parser.add_argument(
         "--output-csv",
         default="data/events-timeline.csv",
@@ -147,6 +151,16 @@ def parse_args() -> argparse.Namespace:
         "--tags-metadata-path",
         default="data/refresh-metadata-tags.json",
         help="Path to write tags refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--elements-output-csv",
+        default="data/elements-elements-sync.csv",
+        help="Path to write refreshed elements CSV.",
+    )
+    parser.add_argument(
+        "--elements-metadata-path",
+        default="data/refresh-metadata-elements.json",
+        help="Path to write elements refresh metadata JSON.",
     )
     parser.add_argument(
         "--sync-mode",
@@ -235,6 +249,22 @@ def parse_args() -> argparse.Namespace:
         default=env_or_default("AIRTABLE_TAGS_VIEW_ID", DEFAULT_TAGS_VIEW_ID),
         help="Airtable tags view id (default from env or built-in view).",
     )
+    parser.add_argument(
+        "--elements-table-id",
+        default=env_or_default("AIRTABLE_ELEMENTS_TABLE_ID", DEFAULT_ELEMENTS_TABLE_ID),
+        help=(
+            "Airtable elements table id. Leave empty to skip Elements refresh. "
+            "(default from env)"
+        ),
+    )
+    parser.add_argument(
+        "--elements-view-id",
+        default=env_or_default("AIRTABLE_ELEMENTS_VIEW_ID", DEFAULT_ELEMENTS_VIEW_ID),
+        help=(
+            "Airtable elements view id. Leave empty to skip Elements refresh. "
+            "(default from env)"
+        ),
+    )
     return parser.parse_args()
 
 
@@ -309,6 +339,29 @@ def main() -> int:
             published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
         ),
     ]
+
+    elements_table_id = normalize_text(args.elements_table_id)
+    elements_view_id = normalize_text(args.elements_view_id)
+    if elements_table_id and elements_view_id:
+        targets.append(
+            ExportTarget(
+                name="elements",
+                output_csv=Path(args.elements_output_csv),
+                metadata_path=Path(args.elements_metadata_path),
+                table_id=elements_table_id,
+                view_id=elements_view_id,
+                preferred_headers=[],
+                last_modified_field_candidates=LAST_MODIFIED_FIELD_CANDIDATES,
+                published_field_candidates=PUBLISHED_FIELD_CANDIDATES,
+            )
+        )
+    elif elements_table_id or elements_view_id:
+        print(
+            "[elements] Skipping Elements refresh because table/view id is incomplete. "
+            "Set both AIRTABLE_ELEMENTS_TABLE_ID and AIRTABLE_ELEMENTS_VIEW_ID."
+        )
+    else:
+        print("[elements] Elements refresh disabled (no table/view ids configured).")
 
     used_media_files: set[str] = set()
     for target in targets:

@@ -12,8 +12,7 @@ on:
           - delta
           - full
   schedule:
-    - cron: "12 10 * * *"
-    - cron: "45 10 * * 0"
+    - cron: "17 */6 * * *"
 
 permissions:
   contents: write
@@ -42,11 +41,10 @@ jobs:
           AIRTABLE_LOCATION_VIEW_ID: ${{ vars.AIRTABLE_LOCATION_VIEW_ID }}
           AIRTABLE_TAGS_TABLE_ID: ${{ vars.AIRTABLE_TAGS_TABLE_ID }}
           AIRTABLE_TAGS_VIEW_ID: ${{ vars.AIRTABLE_TAGS_VIEW_ID }}
+          AIRTABLE_ELEMENTS_TABLE_ID: ${{ vars.AIRTABLE_ELEMENTS_TABLE_ID }}
+          AIRTABLE_ELEMENTS_VIEW_ID: ${{ vars.AIRTABLE_ELEMENTS_VIEW_ID }}
         run: |
           SYNC_MODE="delta"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "45 10 * * 0" ]; then
-            SYNC_MODE="full"
-          fi
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.sync_mode }}" ]; then
             SYNC_MODE="${{ github.event.inputs.sync_mode }}"
           fi
@@ -58,9 +56,6 @@ jobs:
           DISPATCH_SYNC_MODE: ${{ github.event.inputs.sync_mode }}
         run: |
           SYNC_MODE="delta"
-          if [ "${{ github.event_name }}" = "schedule" ] && [ "${{ github.event.schedule }}" = "45 10 * * 0" ]; then
-            SYNC_MODE="full"
-          fi
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${DISPATCH_SYNC_MODE}" ]; then
             SYNC_MODE="${DISPATCH_SYNC_MODE}"
           fi
@@ -77,6 +72,7 @@ jobs:
               Path("data/people-people-sync.csv"),
               Path("data/location-location-sync.csv"),
               Path("data/tags-tags-sync.csv"),
+              Path("data/elements-elements-sync.csv"),
           ]
 
           pattern = re.compile(r"data/media/([^),\s]+)")

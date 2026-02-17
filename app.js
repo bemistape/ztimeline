@@ -2,17 +2,29 @@ const DATA_URL = "data/events-timeline.csv";
 const PEOPLE_DATA_URL = "data/people-people-sync.csv";
 const LOCATION_DATA_URL = "data/location-location-sync.csv";
 const TAG_DATA_URL = "data/tags-tags-sync.csv";
+const ELEMENTS_DATA_URL = "data/elements-elements-sync.csv";
+const ELEMENTS_FALLBACK_DATA_URL = "data/elements-starter.csv";
 const EVENTS_METADATA_URL = "data/refresh-metadata.json";
-const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"]);
+const IMAGE_EXTENSIONS = new Set(["jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif"]);
+const BLOCKED_MEDIA_EXTENSIONS = new Set(["tif", "tiff"]);
 const PDF_EXTENSIONS = new Set(["pdf"]);
 const UNKNOWN_TIME_MINUTES = 24 * 60 + 1;
 const VALID_RECORD_KINDS = new Set(["person", "location", "tag"]);
 
 const dom = {
+  heroEyebrow: document.getElementById("hero-eyebrow"),
+  heroTitle: document.getElementById("hero-title"),
+  heroCopy: document.getElementById("hero-copy"),
+  siteNav: document.getElementById("site-nav"),
+  siteFooter: document.getElementById("site-footer"),
+  footerAbout: document.getElementById("footer-about"),
+  footerLinks: document.getElementById("footer-links"),
+  footerLegal: document.getElementById("footer-legal"),
   searchInput: document.getElementById("search-input"),
   locationFilter: document.getElementById("location-filter"),
   peopleFilter: document.getElementById("people-filter"),
   mediaOnlyFilter: document.getElementById("media-only-filter"),
+  mapOnlyFilter: document.getElementById("map-only-filter"),
   resetFilters: document.getElementById("reset-filters"),
   dataFreshness: document.getElementById("data-freshness"),
   timeline: document.getElementById("timeline"),
@@ -40,12 +52,14 @@ const dom = {
 
 const state = {
   events: [],
+  elements: [],
   filteredEvents: [],
   filters: {
     search: "",
     location: "",
     person: "",
     mediaOnly: false,
+    mapOnly: false,
     relatedEventSet: null
   },
   related: {
@@ -87,11 +101,13 @@ init().catch((error) => {
 
 async function init() {
   bindUi();
-  const [eventsCsv, peopleCsv, locationCsv, tagCsv, eventsMetadata] = await Promise.all([
+  const [eventsCsv, peopleCsv, locationCsv, tagCsv, elementsCsv, elementsFallbackCsv, eventsMetadata] = await Promise.all([
     fetchCsv(DATA_URL),
     fetchOptionalCsv(PEOPLE_DATA_URL),
     fetchOptionalCsv(LOCATION_DATA_URL),
     fetchOptionalCsv(TAG_DATA_URL),
+    fetchOptionalCsv(ELEMENTS_DATA_URL),
+    fetchOptionalCsv(ELEMENTS_FALLBACK_DATA_URL),
     fetchOptionalJson(EVENTS_METADATA_URL)
   ]);
 
@@ -108,6 +124,8 @@ async function init() {
     tagCsv
   });
   hydrateEventLinkedReferences();
+  state.elements = parseElementsRows(elementsCsv || elementsFallbackCsv);
+  applyElementsContent(state.elements);
 
   populateFilters();
   state.suppressUrlSync = true;
@@ -144,11 +162,18 @@ function bindUi() {
     applyFilters();
   });
 
+  dom.mapOnlyFilter.addEventListener("change", (event) => {
+    state.filters.relatedEventSet = null;
+    state.filters.mapOnly = event.target.checked;
+    applyFilters();
+  });
+
   dom.resetFilters.addEventListener("click", () => {
     state.filters.search = "";
     state.filters.location = "";
     state.filters.person = "";
     state.filters.mediaOnly = false;
+    state.filters.mapOnly = false;
     state.filters.relatedEventSet = null;
     state.route.eventName = "";
     state.route.recordKind = "";
@@ -158,6 +183,7 @@ function bindUi() {
     dom.locationFilter.value = "";
     dom.peopleFilter.value = "";
     dom.mediaOnlyFilter.checked = false;
+    dom.mapOnlyFilter.checked = false;
 
     applyFilters();
   });
@@ -232,6 +258,20 @@ function bindUi() {
   dom.modalImage.addEventListener("pointerup", (event) => endModalImageDrag(event));
   dom.modalImage.addEventListener("pointercancel", (event) => endModalImageDrag(event));
   document.addEventListener("fullscreenchange", () => updateModalFullscreenLabel());
+
+  document.addEventListener("contextmenu", (event) => {
+    const target = event.target;
+    if (target instanceof Element && target.closest("img")) {
+      event.preventDefault();
+    }
+  });
+
+  document.addEventListener("dragstart", (event) => {
+    const target = event.target;
+    if (target instanceof Element && target.closest("img")) {
+      event.preventDefault();
+    }
+  });
 
   dom.recordModal.addEventListener("click", (event) => {
     const rect = dom.recordModal.getBoundingClientRect();
@@ -433,6 +473,226 @@ function parseCsv(input) {
   return rows;
 }
 
+function parseElementsRows(csvText) {
+  const text = String(csvText || "").trim();
+  if (!text) {
+    return [];
+  }
+  const rows = parseCsv(text);
+  if (rows.length < 2) {
+    return [];
+  }
+  return rowsToObjects(rows)
+    .map(normalizeElementRecord)
+    .filter((element) => element.key && element.published);
+}
+
+function normalizeElementRecord(raw) {
+  const parsedOrder = Number.parseInt(sanitizeText(raw["Sort Order"]), 10);
+  return {
+    key: sanitizeText(raw["Element Key"]),
+    type: sanitizeText(raw["Element Type"]).toLowerCase() || "text",
+    label: sanitizeText(raw.Label),
+    body: sanitizeText(raw.Body),
+    linkLabel: sanitizeText(raw["Link Label"]),
+    linkUrl: sanitizeLinkUrl(raw["Link URL"]),
+    sortOrder: Number.isFinite(parsedOrder) ? parsedOrder : Number.MAX_SAFE_INTEGER,
+    published: parseBooleanFlag(raw.Published, true),
+    locale: sanitizeText(raw.Locale).toLowerCase(),
+    notes: sanitizeText(raw.Notes)
+  };
+}
+
+function parseBooleanFlag(value, defaultValue = false) {
+  const normalized = sanitizeText(value).toLowerCase();
+  if (!normalized) {
+    return defaultValue;
+  }
+  return ["1", "true", "yes", "y", "on"].includes(normalized);
+}
+
+function applyElementsContent(elements) {
+  if (!elements || elements.length === 0) {
+    return;
+  }
+  const locale = sanitizeText(document.documentElement.lang || "en-US").toLowerCase();
+  const localized = localizeElements(elements, locale);
+  const byKey = new Map(localized.map((element) => [normalizeKey(element.key), element]));
+
+  const siteTitle = getElementText(byKey.get("site.title"));
+  if (siteTitle && dom.heroTitle) {
+    dom.heroTitle.textContent = siteTitle;
+    document.title = siteTitle;
+  }
+
+  const subtitle = getElementText(byKey.get("site.subtitle"));
+  if (subtitle && dom.heroEyebrow) {
+    dom.heroEyebrow.textContent = subtitle;
+  }
+
+  const intro = getElementText(byKey.get("site.intro"));
+  if (intro && dom.heroCopy) {
+    dom.heroCopy.textContent = intro;
+    const descriptionMeta = document.querySelector('meta[name="description"]');
+    if (descriptionMeta) {
+      descriptionMeta.setAttribute("content", intro);
+    }
+  }
+
+  renderSiteNav(localized);
+  renderSiteFooter(localized, byKey);
+}
+
+function localizeElements(elements, preferredLocale) {
+  const sorted = [...elements].sort((left, right) => {
+    if (left.sortOrder !== right.sortOrder) {
+      return left.sortOrder - right.sortOrder;
+    }
+    return left.key.localeCompare(right.key);
+  });
+  const exactMatches = sorted.filter((element) => element.locale && element.locale === preferredLocale);
+  const localeNeutral = sorted.filter((element) => !element.locale);
+  const fallback = sorted.filter((element) => element.locale && element.locale !== preferredLocale);
+  const byKey = new Map();
+  [...exactMatches, ...localeNeutral, ...fallback].forEach((element) => {
+    const key = normalizeKey(element.key);
+    if (key && !byKey.has(key)) {
+      byKey.set(key, element);
+    }
+  });
+  return [...byKey.values()].sort((left, right) => {
+    if (left.sortOrder !== right.sortOrder) {
+      return left.sortOrder - right.sortOrder;
+    }
+    return left.key.localeCompare(right.key);
+  });
+}
+
+function getElementText(element) {
+  if (!element) {
+    return "";
+  }
+  return sanitizeText(element.body) || sanitizeText(element.label);
+}
+
+function getElementLinkLabel(element) {
+  return sanitizeText(element?.linkLabel) || sanitizeText(element?.label) || sanitizeText(element?.body) || "";
+}
+
+function renderSiteNav(elements) {
+  if (!dom.siteNav) {
+    return;
+  }
+  const navItems = elements
+    .filter((element) => normalizeKey(element.key).startsWith("nav.") && element.linkUrl)
+    .sort((left, right) => left.sortOrder - right.sortOrder);
+  dom.siteNav.replaceChildren();
+  navItems.forEach((item) => {
+    const label = getElementLinkLabel(item);
+    if (!label) {
+      return;
+    }
+    const anchor = document.createElement("a");
+    anchor.className = "site-nav-link";
+    anchor.href = item.linkUrl;
+    anchor.textContent = label;
+    if (isExternalUrl(item.linkUrl)) {
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+    }
+    dom.siteNav.append(anchor);
+  });
+  dom.siteNav.hidden = dom.siteNav.childElementCount === 0;
+}
+
+function renderSiteFooter(elements, byKey) {
+  if (!dom.siteFooter || !dom.footerAbout || !dom.footerLinks || !dom.footerLegal) {
+    return;
+  }
+  dom.footerAbout.replaceChildren();
+  dom.footerLinks.replaceChildren();
+  dom.footerLegal.replaceChildren();
+
+  const aboutElement = findFirstElement(byKey, ["site.about_blurb", "footer.about", "about.copy", "about.us"]);
+  const aboutText = getElementText(aboutElement);
+  if (aboutText) {
+    dom.footerAbout.append(renderRichTextBlock(aboutText, "footer-about-copy"));
+    dom.footerAbout.hidden = false;
+  } else {
+    dom.footerAbout.hidden = true;
+  }
+
+  const linkItems = elements
+    .filter((element) => {
+      const key = normalizeKey(element.key);
+      if (key.startsWith("nav.")) {
+        return false;
+      }
+      return Boolean(element.linkUrl) && (key.startsWith("footer.") || key.startsWith("legal.") || key.startsWith("cta."));
+    })
+    .sort((left, right) => left.sortOrder - right.sortOrder);
+  linkItems.forEach((item) => {
+    const label = getElementLinkLabel(item);
+    if (!label) {
+      return;
+    }
+    const anchor = document.createElement("a");
+    anchor.className = "footer-link";
+    anchor.href = item.linkUrl;
+    anchor.textContent = label;
+    if (isExternalUrl(item.linkUrl)) {
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+    }
+    dom.footerLinks.append(anchor);
+  });
+  dom.footerLinks.hidden = dom.footerLinks.childElementCount === 0;
+
+  const legalTextItems = elements
+    .filter((element) => normalizeKey(element.key).startsWith("legal.") && !element.linkUrl)
+    .sort((left, right) => left.sortOrder - right.sortOrder);
+  legalTextItems.forEach((item) => {
+    const text = getElementText(item);
+    if (!text) {
+      return;
+    }
+    const block = renderRichTextBlock(text, "footer-legal-copy");
+    dom.footerLegal.append(block);
+  });
+  dom.footerLegal.hidden = dom.footerLegal.childElementCount === 0;
+
+  dom.siteFooter.hidden = dom.footerAbout.hidden && dom.footerLinks.hidden && dom.footerLegal.hidden;
+}
+
+function findFirstElement(byKey, keys) {
+  for (const key of keys) {
+    const element = byKey.get(normalizeKey(key));
+    if (element) {
+      return element;
+    }
+  }
+  return null;
+}
+
+function isExternalUrl(url) {
+  const text = sanitizeText(url);
+  if (!text) {
+    return false;
+  }
+  if (/^(mailto:|tel:)/i.test(text) || text.startsWith("/") || text.startsWith("#") || text.startsWith("?")) {
+    return false;
+  }
+  try {
+    const parsed = new URL(text, window.location.origin);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      return false;
+    }
+    return parsed.origin !== window.location.origin;
+  } catch (error) {
+    return false;
+  }
+}
+
 function rowsToObjects(rows) {
   const headers = rows[0].map((header) => header.replace(/^\ufeff/, "").trim());
   const body = rows.slice(1);
@@ -447,7 +707,9 @@ function rowsToObjects(rows) {
 
 function normalizeEvent(raw, index) {
   const beginningDate = parseDateOnly(raw["Beginning Date"]);
-  const timeMinutes = parseTimeToMinutes(raw.Time || raw["Time (AM/PM)"] || "");
+  const rawTime = sanitizeText(raw.Time || raw["Time (AM/PM)"] || "");
+  const timeMinutes = parseTimeToMinutes(rawTime);
+  const timeLabel = formatTimeLabel(rawTime, timeMinutes);
   const recordId = firstField(raw, ["_Airtable Record ID", "Event Record ID", "ID"]);
 
   const allMediaAttachments = [
@@ -469,12 +731,6 @@ function normalizeEvent(raw, index) {
 
   const dateKey = beginningDate ? toDateKey(beginningDate) : "unknown-date";
   const dateLabel = beginningDate ? formatDateHeading(beginningDate) : "Unknown Date";
-  const dateSummary =
-    raw["Event Timing"] ||
-    raw["Event Date & Time"] ||
-    (beginningDate ? formatDateSummary(beginningDate) : raw["Beginning Date"] || "Unknown date");
-  const dateBadge = beginningDate ? formatDateBadge(beginningDate) : raw["Beginning Date"] || "Unknown";
-
   const searchableText = [
     raw["Event Name"],
     description,
@@ -500,11 +756,11 @@ function normalizeEvent(raw, index) {
     people,
     peopleFallback,
     tags,
-    dateSummary,
-    dateBadge,
     dateKey,
     dateLabel,
+    timeLabel,
     sortTime: beginningDate ? beginningDate.getTime() + timeMinutes * 60_000 : Number.POSITIVE_INFINITY,
+    hasMap: false,
     images,
     links,
     searchableText
@@ -543,11 +799,15 @@ function pushAttachment(target, seen, label, url, hintedType) {
   if (!url || seen.has(url) || isAirtableAttachmentUrl(url)) {
     return;
   }
+  const type = inferAttachmentType(label, url, hintedType);
+  if (type === "blocked") {
+    return;
+  }
   seen.add(url);
   target.push({
     label,
     url,
-    type: inferAttachmentType(label, url, hintedType)
+    type
   });
 }
 
@@ -559,6 +819,9 @@ function inferAttachmentType(label, url, hintedType) {
     return fallback;
   }
   const extension = extensionMatch[1];
+  if (BLOCKED_MEDIA_EXTENSIONS.has(extension)) {
+    return "blocked";
+  }
   if (IMAGE_EXTENSIONS.has(extension)) {
     return "image";
   }
@@ -659,6 +922,10 @@ function sanitizeText(value) {
   return result;
 }
 
+function isMeaningfulToken(value) {
+  return /[\p{L}\p{N}]/u.test(sanitizeText(value));
+}
+
 function normalizeKey(value) {
   return sanitizeText(value).toLowerCase();
 }
@@ -744,24 +1011,6 @@ function formatDateHeading(date) {
   return `${weekday} \u2022 ${main}`;
 }
 
-function formatDateBadge(date) {
-  return date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: "UTC"
-  });
-}
-
-function formatDateSummary(date) {
-  return date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    timeZone: "UTC"
-  });
-}
-
 function sortEvents(left, right) {
   if (left.sortTime !== right.sortTime) {
     return left.sortTime - right.sortTime;
@@ -810,7 +1059,7 @@ function fillSelectOptions(select, defaultLabel, countsMap) {
 }
 
 function applyFilters() {
-  const { search, location, person, mediaOnly, relatedEventSet } = state.filters;
+  const { search, location, person, mediaOnly, mapOnly, relatedEventSet } = state.filters;
 
   state.filteredEvents = state.events.filter((event) => {
     if (location && event.location !== location) {
@@ -820,6 +1069,9 @@ function applyFilters() {
       return false;
     }
     if (mediaOnly && event.images.length === 0) {
+      return false;
+    }
+    if (mapOnly && !event.hasMap) {
       return false;
     }
     if (search && !event.searchableText.includes(search)) {
@@ -832,7 +1084,6 @@ function applyFilters() {
   });
 
   renderTimeline();
-  scrubRecordIdsInElement(dom.timeline);
   if (state.route.eventName && !state.suppressUrlSync) {
     const key = normalizeKey(state.route.eventName);
     const isOpen = [...dom.timeline.querySelectorAll("details.event-item[open]")].some(
@@ -880,6 +1131,9 @@ function buildDateGroup(group) {
   const row = document.createElement("li");
   row.className = "date-group";
 
+  const rail = document.createElement("div");
+  rail.className = "date-rail";
+
   const heading = document.createElement("h2");
   heading.className = "date-heading";
 
@@ -888,6 +1142,15 @@ function buildDateGroup(group) {
   label.textContent = group.label;
 
   heading.append(label);
+  rail.append(heading);
+
+  const firstEventWithTime = group.items.find((item) => item.event.timeLabel);
+  if (firstEventWithTime) {
+    const time = document.createElement("p");
+    time.className = "date-rail-time";
+    time.textContent = firstEventWithTime.event.timeLabel;
+    rail.append(time);
+  }
 
   const list = document.createElement("ol");
   list.className = "group-events";
@@ -896,7 +1159,7 @@ function buildDateGroup(group) {
     list.append(buildEventRow(event, filteredIndex));
   });
 
-  row.append(heading, list);
+  row.append(rail, list);
   return row;
 }
 
@@ -911,6 +1174,9 @@ function buildEventRow(event, filteredIndex) {
   const tint = getTypeTint(event.type);
   details.style.setProperty("--record-tint-bg", tint.background);
   details.style.setProperty("--record-tint-border", tint.border);
+  details.style.setProperty("--type-badge-bg", tint.badgeBackground);
+  details.style.setProperty("--type-badge-border", tint.badgeBorder);
+  details.style.setProperty("--type-badge-ink", tint.badgeInk);
 
   const summary = document.createElement("summary");
   summary.className = "event-summary";
@@ -925,15 +1191,11 @@ function buildEventRow(event, filteredIndex) {
   const titleActions = document.createElement("div");
   titleActions.className = "event-title-actions";
 
-  const dateBadge = document.createElement("span");
-  dateBadge.className = "event-date-badge";
-  dateBadge.textContent = event.dateBadge;
-
   const expander = document.createElement("span");
   expander.className = "event-expander";
   expander.setAttribute("aria-hidden", "true");
 
-  titleActions.append(dateBadge, expander);
+  titleActions.append(expander);
 
   const titleRow = document.createElement("div");
   titleRow.className = "event-title-row";
@@ -941,17 +1203,21 @@ function buildEventRow(event, filteredIndex) {
 
   const fieldGrid = document.createElement("div");
   fieldGrid.className = "summary-fields";
-  fieldGrid.append(
-    buildSummaryField("Date", event.dateSummary),
-    buildSummaryLocationField(event.location),
-    buildSummaryPeopleField(event.people)
-  );
+  const summaryFields = [];
+  if (event.timeLabel) {
+    summaryFields.push(buildSummaryField("Time", event.timeLabel));
+  }
+  summaryFields.push(buildSummaryLocationField(event.location), buildSummaryPeopleField(event.people));
+  fieldGrid.append(...summaryFields);
 
   summaryText.append(titleRow, fieldGrid);
 
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
-  summaryTop.append(summaryText);
+  const typeBadge = document.createElement("span");
+  typeBadge.className = "event-type-badge";
+  typeBadge.textContent = resolveDisplayToken(event.type) || "Uncategorized";
+  summaryTop.append(typeBadge, summaryText);
 
   if (event.images.length > 0) {
     const summaryThumbButton = document.createElement("button");
@@ -986,10 +1252,6 @@ function buildEventRow(event, filteredIndex) {
 
   if (event.images.length) {
     content.append(buildImageGallery(event.images, filteredIndex));
-  }
-
-  if (event.tags.length) {
-    content.append(buildTagSection(event.tags));
   }
 
   if (event.links.length) {
@@ -1098,32 +1360,6 @@ function buildSummaryPeopleField(people) {
   return item;
 }
 
-function buildTagSection(tags) {
-  const cleanTags = uniqueCompact(tags.map((tag) => resolveDisplayToken(tag, "tag")));
-  if (cleanTags.length === 0) {
-    return document.createDocumentFragment();
-  }
-
-  const section = document.createElement("section");
-  section.className = "tag-section";
-
-  const heading = document.createElement("h4");
-  heading.className = "tag-heading";
-  heading.textContent = `Tags (${cleanTags.length})`;
-  section.append(heading);
-
-  const wrap = document.createElement("div");
-  wrap.className = "tag-list";
-  cleanTags.forEach((tag) => {
-    const chip = buildRecordChip(tag, "tag", tag);
-    if (chip) {
-      wrap.append(chip);
-    }
-  });
-  section.append(wrap);
-  return section;
-}
-
 function buildRecordChip(label, kind, value, compact = false) {
   const cleanLabel = resolveDisplayToken(label, kind);
   const cleanValue = resolveDisplayToken(value, kind);
@@ -1154,7 +1390,10 @@ function getTypeTint(type) {
   const hue = hash;
   return {
     background: `hsl(${hue} 22% 14%)`,
-    border: `hsl(${hue} 34% 42%)`
+    border: `hsl(${hue} 34% 42%)`,
+    badgeBackground: `hsl(${hue} 58% 88%)`,
+    badgeBorder: `hsl(${hue} 38% 52%)`,
+    badgeInk: `hsl(${hue} 30% 20%)`
   };
 }
 
@@ -1204,9 +1443,9 @@ function firstField(row, fields) {
 
 function hydrateEventLinkedReferences() {
   state.events = state.events.map((event) => {
-    const resolvedLocation = resolveLinkedName("location", event.location);
-    const fallbackLocations = resolveRelatedNames("location", [event.locationFallback]);
-    const location = resolvedLocation || fallbackLocations[0] || "";
+    const resolvedLocations = resolveRelatedNames("location", [event.location, event.locationFallback]);
+    const location = resolvedLocations[0] || "";
+    const hasMap = resolvedLocations.some((locationName) => locationHasMap(locationName));
 
     const resolvedPeople = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
     const fallbackPeople = resolveRelatedNames("person", [event.peopleFallback]);
@@ -1222,9 +1461,19 @@ function hydrateEventLinkedReferences() {
       location,
       people,
       tags,
+      hasMap,
       searchableText
     };
   });
+}
+
+function locationHasMap(locationName) {
+  const key = normalizeKey(locationName);
+  if (!key) {
+    return false;
+  }
+  const location = state.related.location.get(key);
+  return Boolean(location && (location.mapEmbedUrl || location.mapOpenUrl));
 }
 
 function uniqueCompact(values) {
@@ -1271,14 +1520,14 @@ function resolveRecordId(kind, value) {
 
 function resolveLinkedName(kind, value) {
   const text = sanitizeText(value);
-  if (!text) {
+  if (!text || !isMeaningfulToken(text)) {
     return "";
   }
   if (!isRecordId(text)) {
     return text;
   }
   const resolved = resolveRecordId(kind, text);
-  return resolved || "";
+  return isMeaningfulToken(resolved) ? resolved : "";
 }
 
 function resolveRecordLookupKey(kind, nameOrId) {
@@ -1297,13 +1546,14 @@ function resolveRecordLookupKey(kind, nameOrId) {
 
 function resolveDisplayToken(value, kind = "") {
   const text = sanitizeText(value);
-  if (!text) {
+  if (!text || !isMeaningfulToken(text)) {
     return "";
   }
   if (!isRecordId(text)) {
     return text;
   }
-  return resolveRecordId(kind, text);
+  const resolved = resolveRecordId(kind, text);
+  return isMeaningfulToken(resolved) ? resolved : "";
 }
 
 function resolveDisplayValue(value, kind = "") {
@@ -1324,21 +1574,14 @@ function resolveDisplayValue(value, kind = "") {
 
 function scrubRecordIdsInText(value) {
   const text = String(value || "");
-  return text.replace(/\brec[a-z0-9]{10,}\b/gi, (match) => resolveRecordId("", match));
-}
-
-function scrubRecordIdsInElement(root) {
-  if (!root || typeof document.createTreeWalker !== "function") {
-    return;
-  }
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  let node = walker.nextNode();
-  while (node) {
-    if (node.nodeValue && /\brec[a-z0-9]{10,}\b/i.test(node.nodeValue)) {
-      node.nodeValue = node.nodeValue.replace(/\brec[a-z0-9]{10,}\b/gi, "").replace(/\s{2,}/g, " ");
-    }
-    node = walker.nextNode();
-  }
+  return text
+    .replace(/\brec[a-z0-9]{10,}\b/gi, (match) => resolveRecordId("", match))
+    .replace(/\s*,\s*(?=,)/g, ", ")
+    .replace(/(^|[\s([{])[,;:]+(?=\s|$)/g, "$1")
+    .replace(/[,;:]+(?=\s*[)\]}])/g, "")
+    .replace(/\(\s*\)/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
 }
 
 function looksLikeErrorPayload(value) {
@@ -1491,9 +1734,7 @@ function buildLocationIndex(csvText, eventNameLookup) {
       relatedEvents: resolveRelatedEvents(parseList(row.Events), eventNameLookup),
       details: [
         makeDetail("Address", row.Address),
-        makeDetail("Located Within", row["Located Within"], "location"),
-        makeDetail("Latitude", row.Latitude),
-        makeDetail("Longitude", row.Longitude)
+        makeDetail("Located Within", row["Located Within"], "location")
       ].filter(Boolean)
     });
   });
@@ -1647,7 +1888,6 @@ function openRecordModal(kind, name) {
 
   content.append(buildRecordConnectionsSection(record.relatedRecords));
   content.append(buildRelatedEventsSection(state.recordModalRelatedEvents));
-  scrubRecordIdsInElement(content);
   dom.recordModal.showModal();
   state.route.recordKind = VALID_RECORD_KINDS.has(kind) ? kind : "";
   state.route.recordName = dom.recordModalTitle.textContent;
@@ -1696,8 +1936,7 @@ function buildFallbackRecord(kind, name) {
 function buildRecordConnectionsSection(relatedRecords) {
   const groups = [
     { kind: "person", label: "People", values: relatedRecords?.person || [] },
-    { kind: "location", label: "Locations", values: relatedRecords?.location || [] },
-    { kind: "tag", label: "Tags", values: relatedRecords?.tag || [] }
+    { kind: "location", label: "Locations", values: relatedRecords?.location || [] }
   ]
     .map((group) => ({
       ...group,
@@ -1859,7 +2098,7 @@ function buildRelatedEventsSection(eventNames) {
   filterButton.type = "button";
   filterButton.className = "record-related-filter";
   filterButton.dataset.applyRelatedEvents = "1";
-  filterButton.textContent = "Filter Timeline To These Events";
+  filterButton.textContent = "Filter Timeline";
   section.append(filterButton);
 
   const list = document.createElement("div");
@@ -1957,7 +2196,10 @@ function parseLinkedValues(value, kind) {
 
   const parsed = parseList(text);
   if (parsed.length <= 1) {
-    return parsed.length ? parsed : [text];
+    if (parsed.length) {
+      return parsed.filter((item) => isMeaningfulToken(item));
+    }
+    return isMeaningfulToken(text) ? [text] : [];
   }
 
   const containsRecordIds = parsed.some((item) => isRecordId(item));
@@ -2101,6 +2343,21 @@ function sanitizeUrl(value) {
   }
 
   return "";
+}
+
+function sanitizeLinkUrl(value) {
+  const clean = stripTrailingUrlPunctuation(String(value || "").trim());
+  if (!clean) {
+    return "";
+  }
+  const hasScheme = /^[a-z][a-z0-9+.-]*:/i.test(clean);
+  if (!hasScheme && !clean.startsWith("//")) {
+    return clean;
+  }
+  if (/^(mailto:|tel:)/i.test(clean)) {
+    return clean;
+  }
+  return sanitizeUrl(clean);
 }
 
 function stripTrailingUrlPunctuation(url) {
@@ -2330,6 +2587,9 @@ function syncUrlState() {
   if (state.filters.mediaOnly) {
     params.set("media", "1");
   }
+  if (state.filters.mapOnly) {
+    params.set("maps", "1");
+  }
   if (state.route.eventName) {
     params.set("event", state.route.eventName);
   }
@@ -2365,6 +2625,8 @@ function restoreStateFromUrl() {
 
   state.filters.mediaOnly = sanitizeText(params.get("media")) === "1";
   dom.mediaOnlyFilter.checked = state.filters.mediaOnly;
+  state.filters.mapOnly = sanitizeText(params.get("maps")) === "1";
+  dom.mapOnlyFilter.checked = state.filters.mapOnly;
   state.filters.relatedEventSet = null;
 
   const eventParam = sanitizeText(params.get("event"));
@@ -2388,9 +2650,11 @@ function applyRouteFromUrl() {
         state.filters.location = "";
         state.filters.person = "";
         state.filters.mediaOnly = false;
+        state.filters.mapOnly = false;
         dom.locationFilter.value = "";
         dom.peopleFilter.value = "";
         dom.mediaOnlyFilter.checked = false;
+        dom.mapOnlyFilter.checked = false;
         state.filters.search = matchedEventName.toLowerCase();
         dom.searchInput.value = matchedEventName;
         applyFilters();

@@ -27,9 +27,10 @@
           width="1867"
           height="324"
         />
-        <p class="eyebrow">Case Timeline Viewer</p>
-        <h1>Zodiac Archive</h1>
-        <p class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
+        <p id="hero-eyebrow" class="eyebrow">Case Timeline Viewer</p>
+        <h1 id="hero-title">Zodiac Archive</h1>
+        <p id="hero-copy" class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
+        <nav id="site-nav" class="site-nav" aria-label="Primary" hidden></nav>
         <p id="data-freshness" class="data-freshness" hidden></p>
       </header>
 
@@ -63,12 +64,23 @@
           <span>Only events with media</span>
         </label>
 
+        <label class="check-control">
+          <input id="map-only-filter" type="checkbox" />
+          <span>Only events with maps</span>
+        </label>
+
         <button id="reset-filters" class="button reset" type="button">Reset</button>
       </section>
 
       <section class="timeline-section">
         <ol id="timeline" class="timeline" aria-live="polite"></ol>
       </section>
+
+      <footer id="site-footer" class="site-footer" hidden>
+        <section id="footer-about" class="footer-block" hidden></section>
+        <section id="footer-links" class="footer-block footer-links" hidden></section>
+        <section id="footer-legal" class="footer-block footer-legal" hidden></section>
+      </footer>
     </main>
 
     <dialog id="image-modal" class="image-modal" aria-label="Image preview">
