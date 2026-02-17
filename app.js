@@ -1184,6 +1184,26 @@ function parseTimeToMinutes(value) {
   return UNKNOWN_TIME_MINUTES;
 }
 
+function formatTimeLabel(rawValue, minutes) {
+  const source = sanitizeText(rawValue);
+  if (!source) {
+    return "";
+  }
+  if (!Number.isFinite(minutes) || minutes === UNKNOWN_TIME_MINUTES) {
+    return source.replace(/\s+/g, "").toUpperCase();
+  }
+
+  const safeMinutes = Math.max(0, Math.min(23 * 60 + 59, Math.trunc(minutes)));
+  const hours24 = Math.floor(safeMinutes / 60);
+  const minutePart = safeMinutes % 60;
+  const meridiem = hours24 >= 12 ? "PM" : "AM";
+  let hours12 = hours24 % 12;
+  if (hours12 === 0) {
+    hours12 = 12;
+  }
+  return `${hours12}:${String(minutePart).padStart(2, "0")}${meridiem}`;
+}
+
 function toDateKey(date) {
   const year = String(date.getUTCFullYear());
   const month = String(date.getUTCMonth() + 1).padStart(2, "0");
