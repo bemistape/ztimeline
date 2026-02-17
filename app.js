@@ -381,24 +381,24 @@ function bindUi() {
 }
 
 async function fetchCsv(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) {
-    throw new Error(`Unable to fetch ${url} (${response.status})`);
+  const response = await fetchWithAssetFallback(url);
+  if (!response) {
+    throw new Error(`Unable to fetch ${url}`);
   }
   return response.text();
 }
 
 async function fetchOptionalCsv(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) {
+  const response = await fetchWithAssetFallback(url);
+  if (!response) {
     return "";
   }
   return response.text();
 }
 
 async function fetchOptionalJson(url) {
-  const response = await fetch(url, { cache: "no-store" });
-  if (!response.ok) {
+  const response = await fetchWithAssetFallback(url);
+  if (!response) {
     return null;
   }
   try {
@@ -406,6 +406,76 @@ async function fetchOptionalJson(url) {
   } catch (error) {
     return null;
   }
+}
+
+async function fetchWithAssetFallback(url) {
+  const candidates = buildAssetUrlCandidates(url);
+  for (const candidate of candidates) {
+    try {
+      const response = await fetch(candidate, { cache: "no-store" });
+      if (response.ok) {
+        return response;
+      }
+    } catch (error) {
+      // Ignore and try the next candidate.
+    }
+  }
+  return null;
+}
+
+function buildAssetUrlCandidates(url) {
+  const source = sanitizeText(url);
+  if (!source) {
+    return [];
+  }
+  if (/^(?:https?:)?\/\//i.test(source) || /^(?:mailto:|tel:)/i.test(source)) {
+    return [source];
+  }
+
+  const cleanPath = source.replace(/^\.\//, "").replace(/^\/+/, "");
+  const candidates = new Set();
+  const addCandidate = (value) => {
+    if (value) {
+      candidates.add(value);
+    }
+  };
+
+  const scriptBase = getAppScriptBaseUrl();
+  if (scriptBase) {
+    addCandidate(new URL(cleanPath, scriptBase).toString());
+  }
+
+  const currentDirectoryBase = new URL("./", window.location.href);
+  addCandidate(new URL(cleanPath, currentDirectoryBase).toString());
+
+  addCandidate(new URL(`/${cleanPath}`, window.location.origin).toString());
+
+  const repoBase = getLikelyRepoBasePath();
+  if (repoBase) {
+    addCandidate(new URL(`${repoBase}/${cleanPath}`, window.location.origin).toString());
+  }
+
+  return [...candidates];
+}
+
+function getAppScriptBaseUrl() {
+  const script = [...document.scripts].find((element) => /(?:^|\/)app\.js(?:[?#].*)?$/.test(element.src || ""));
+  if (!script?.src) {
+    return "";
+  }
+  try {
+    return new URL("./", script.src).toString();
+  } catch (error) {
+    return "";
+  }
+}
+
+function getLikelyRepoBasePath() {
+  const segments = window.location.pathname.split("/").filter(Boolean);
+  if (segments.length < 2) {
+    return "";
+  }
+  return `/${segments[0]}`;
 }
 
 function parseCsv(input) {
