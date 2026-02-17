@@ -36,7 +36,8 @@ DEFAULT_TAGS_TABLE_ID = "tbl369AkU0k8At9IV"
 DEFAULT_TAGS_VIEW_ID = "viwa1K5WgktgPYoO9"
 DEFAULT_ELEMENTS_TABLE_ID = "tblXJVRuDZHWaVtKj"
 DEFAULT_ELEMENTS_VIEW_ID = "viwi5d6pT5HvblgON"
-IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif", "tif", "tiff"}
+IMAGE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "gif", "bmp", "svg", "avif"}
+BLOCKED_MEDIA_EXTENSIONS = {"tif", "tiff"}
 PDF_EXTENSIONS = {"pdf"}
 RECORD_ID_HEADER = "_Airtable Record ID"
 MEDIA_REFERENCE_PATTERN = re.compile(r"data/media/([^),\s]+)")
@@ -879,6 +880,8 @@ def format_attachments(
             continue
 
         filename = sanitize_filename(str(attachment.get("filename", "")).strip(), source_url)
+        if is_blocked_media(filename, source_url):
+            continue
         attachment_id = str(attachment.get("id", "")).strip() or short_hash(source_url)
         local_filename = f"{attachment_id}_{filename}"
         local_path = media_dir / local_filename
@@ -1033,11 +1036,21 @@ def infer_attachment_type(filename: str, source_url: str) -> str:
     if not match:
         return "file"
     extension = match.group(1)
+    if extension in BLOCKED_MEDIA_EXTENSIONS:
+        return "blocked"
     if extension in IMAGE_EXTENSIONS:
         return "image"
     if extension in PDF_EXTENSIONS:
         return "pdf"
     return "file"
+
+
+def is_blocked_media(filename: str, source_url: str) -> bool:
+    value = f"{filename} {source_url}".lower()
+    match = re.search(r"\.([a-z0-9]+)(?:$|[?#)\s])", value)
+    if not match:
+        return False
+    return match.group(1) in BLOCKED_MEDIA_EXTENSIONS
 
 
 def extract_media_references_from_row(row: dict[str, str]) -> set[str]:
