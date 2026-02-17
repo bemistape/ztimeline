@@ -55,6 +55,7 @@ ROOT_FALLBACK_CSV_BY_TARGET = {
     "tags": "tags-tags-sync.csv",
     "elements": "elements-elements-sync.csv",
 }
+BUNDLE_OUTPUT_JS_DEFAULT = "data-bundle.js"
 
 EVENTS_DEFAULT_HEADERS = [
     "Event Name",
@@ -169,6 +170,11 @@ def parse_args() -> argparse.Namespace:
         "--elements-metadata-path",
         default="data/refresh-metadata-elements.json",
         help="Path to write elements refresh metadata JSON.",
+    )
+    parser.add_argument(
+        "--bundle-output-js",
+        default=BUNDLE_OUTPUT_JS_DEFAULT,
+        help="Path to write prebuilt site data bundle JavaScript.",
     )
     parser.add_argument(
         "--sync-mode",
@@ -390,6 +396,8 @@ def main() -> int:
             f"{result.record_count} records ({result.changed_records} changed)."
         )
         sync_root_fallback_csv(target)
+
+    write_site_data_bundle(bundle_output=Path(args.bundle_output_js), targets=targets)
 
     if cache_media and args.prune_media:
         prune_stale_media(media_dir, used_media_files)
@@ -1121,6 +1129,45 @@ def sync_root_fallback_csv(target: ExportTarget) -> None:
         return
     destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(target.output_csv, destination)
+
+
+def write_site_data_bundle(*, bundle_output: Path, targets: list[ExportTarget]) -> None:
+    by_name = {target.name: target for target in targets}
+
+    def read_csv_text(target_name: str, fallback_path: str = "") -> str:
+        target = by_name.get(target_name)
+        if target and target.output_csv.exists():
+            return target.output_csv.read_text(encoding="utf-8-sig")
+        if fallback_path:
+            fallback = Path(fallback_path)
+            if fallback.exists():
+                return fallback.read_text(encoding="utf-8-sig")
+        return ""
+
+    def read_metadata(target_name: str, fallback_path: str = "") -> dict[str, Any]:
+        target = by_name.get(target_name)
+        if target and target.metadata_path.exists():
+            return read_json_file(target.metadata_path)
+        if fallback_path:
+            fallback = Path(fallback_path)
+            if fallback.exists():
+                return read_json_file(fallback)
+        return {}
+
+    payload = {
+        "eventsCsv": read_csv_text("events", "data/events-timeline.csv"),
+        "peopleCsv": read_csv_text("people", "data/people-people-sync.csv"),
+        "locationCsv": read_csv_text("location", "data/location-location-sync.csv"),
+        "tagCsv": read_csv_text("tags", "data/tags-tags-sync.csv"),
+        "elementsCsv": read_csv_text("elements", "data/elements-elements-sync.csv"),
+        "elementsFallbackCsv": read_csv_text("elements", "data/elements-starter.csv"),
+        "eventsMetadata": read_metadata("events", "data/refresh-metadata.json"),
+    }
+
+    json_payload = json.dumps(payload, ensure_ascii=False, separators=(",", ":"))
+    json_payload = json_payload.replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
+    bundle_output.parent.mkdir(parents=True, exist_ok=True)
+    bundle_output.write_text(f"window.__ZTIMELINE_DATA__ = {json_payload};\n", encoding="utf-8")
 
 
 def parse_iso_datetime(value: str) -> datetime | None:

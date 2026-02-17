@@ -97,20 +97,12 @@ const state = {
 
 init().catch((error) => {
   console.error(error);
-  renderLoadError();
+  renderLoadError(error);
 });
 
 async function init() {
   bindUi();
-  const [eventsCsv, peopleCsv, locationCsv, tagCsv, elementsCsv, elementsFallbackCsv, eventsMetadata] = await Promise.all([
-    fetchCsv(DATA_URL),
-    fetchOptionalCsv(PEOPLE_DATA_URL),
-    fetchOptionalCsv(LOCATION_DATA_URL),
-    fetchOptionalCsv(TAG_DATA_URL),
-    fetchOptionalCsv(ELEMENTS_DATA_URL),
-    fetchOptionalCsv(ELEMENTS_FALLBACK_DATA_URL),
-    fetchOptionalJson(EVENTS_METADATA_URL)
-  ]);
+  const { eventsCsv, peopleCsv, locationCsv, tagCsv, elementsCsv, elementsFallbackCsv, eventsMetadata } = await loadDataSources();
 
   const rows = parseCsv(eventsCsv);
   if (rows.length < 2) {
@@ -136,6 +128,53 @@ async function init() {
   state.suppressUrlSync = false;
   syncUrlState();
   renderDataFreshness(eventsMetadata);
+}
+
+async function loadDataSources() {
+  const bundled = readBundledData();
+  if (bundled && bundled.eventsCsv) {
+    return bundled;
+  }
+
+  const [eventsCsv, peopleCsv, locationCsv, tagCsv, elementsCsv, elementsFallbackCsv, eventsMetadata] = await Promise.all([
+    fetchCsv(DATA_URL),
+    fetchOptionalCsv(PEOPLE_DATA_URL),
+    fetchOptionalCsv(LOCATION_DATA_URL),
+    fetchOptionalCsv(TAG_DATA_URL),
+    fetchOptionalCsv(ELEMENTS_DATA_URL),
+    fetchOptionalCsv(ELEMENTS_FALLBACK_DATA_URL),
+    fetchOptionalJson(EVENTS_METADATA_URL)
+  ]);
+
+  return {
+    eventsCsv,
+    peopleCsv,
+    locationCsv,
+    tagCsv,
+    elementsCsv,
+    elementsFallbackCsv,
+    eventsMetadata
+  };
+}
+
+function readBundledData() {
+  const payload = window.__ZTIMELINE_DATA__;
+  if (!payload || typeof payload !== "object") {
+    return null;
+  }
+  const eventsCsv = typeof payload.eventsCsv === "string" ? payload.eventsCsv : "";
+  if (!eventsCsv.trim()) {
+    return null;
+  }
+  return {
+    eventsCsv,
+    peopleCsv: typeof payload.peopleCsv === "string" ? payload.peopleCsv : "",
+    locationCsv: typeof payload.locationCsv === "string" ? payload.locationCsv : "",
+    tagCsv: typeof payload.tagCsv === "string" ? payload.tagCsv : "",
+    elementsCsv: typeof payload.elementsCsv === "string" ? payload.elementsCsv : "",
+    elementsFallbackCsv: typeof payload.elementsFallbackCsv === "string" ? payload.elementsFallbackCsv : "",
+    eventsMetadata: payload.eventsMetadata && typeof payload.eventsMetadata === "object" ? payload.eventsMetadata : null
+  };
 }
 
 function bindUi() {
@@ -2891,7 +2930,7 @@ function renderDataFreshness(metadata) {
   dom.dataFreshness.hidden = false;
 }
 
-function renderLoadError() {
+function renderLoadError(error = null) {
   dom.timeline.replaceChildren();
   const errorItem = document.createElement("li");
   errorItem.className = "empty-state";
@@ -2902,9 +2941,32 @@ function renderLoadError() {
   const message = document.createElement("p");
   message.textContent = "Check that data/events-timeline.csv exists and reload.";
 
+  const details = formatLoadErrorDetails(error);
+  if (details) {
+    const detailLine = document.createElement("p");
+    detailLine.textContent = `Detail: ${details}`;
+    errorItem.append(title, message, detailLine, ...buildLoadErrorHints());
+    dom.timeline.append(errorItem);
+    return;
+  }
+
   const hints = buildLoadErrorHints();
   errorItem.append(title, message, ...hints);
   dom.timeline.append(errorItem);
+}
+
+function formatLoadErrorDetails(error) {
+  if (!error) {
+    return "";
+  }
+  if (typeof error === "string") {
+    return sanitizeText(error);
+  }
+  const message = sanitizeText(error.message || "");
+  if (!message) {
+    return "";
+  }
+  return message;
 }
 
 function buildLoadErrorHints() {

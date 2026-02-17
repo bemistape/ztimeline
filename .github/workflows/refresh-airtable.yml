@@ -108,8 +108,9 @@ jobs:
             tags-tags-sync.csv
             elements-elements-sync.csv
           )
+          SITE_BUNDLE_FILE="data-bundle.js"
 
-          if [ -z "$(git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}")" ]; then
+          if [ -z "$(git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}" "${SITE_BUNDLE_FILE}")" ]; then
             echo "No changes to commit."
             exit 0
           fi
@@ -140,7 +141,7 @@ jobs:
           }
 
           mapfile -t NON_MEDIA_FILES < <(
-            git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}" \
+            git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}" "${SITE_BUNDLE_FILE}" \
               | awk '{print $2}' \
               | grep -v '^data/media/' \
               || true

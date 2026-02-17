@@ -18,6 +18,7 @@ Static website for browsing your Airtable timeline with:
 - `index.html`: page structure
 - `styles.css`: responsive visual system
 - `app.js`: CSV parser + rendering + filters + modal logic
+- `data-bundle.js`: prebuilt runtime data bundle loaded before `app.js` (primary data source in production)
 - `data/events-timeline.csv`: timeline dataset consumed by the app
 - `data/people-people-sync.csv`: people records used for modal drill-down
 - `data/location-location-sync.csv`: location records used for modal drill-down
@@ -96,6 +97,7 @@ This updates:
 - `location-location-sync.csv` (root fallback copy)
 - `tags-tags-sync.csv` (root fallback copy)
 - `elements-elements-sync.csv` (root fallback copy)
+- `data-bundle.js` (prebuilt bundle consumed directly by the frontend)
 - `data/refresh-metadata.json`
 - `data/refresh-metadata-people.json`
 - `data/refresh-metadata-location.json`
