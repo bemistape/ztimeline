@@ -832,6 +832,7 @@ function applyFilters() {
   });
 
   renderTimeline();
+  scrubRecordIdsInElement(dom.timeline);
   if (state.route.eventName && !state.suppressUrlSync) {
     const key = normalizeKey(state.route.eventName);
     const isOpen = [...dom.timeline.querySelectorAll("details.event-item[open]")].some(
@@ -882,15 +883,11 @@ function buildDateGroup(group) {
   const heading = document.createElement("h2");
   heading.className = "date-heading";
 
-  const count = document.createElement("span");
-  count.className = "date-count";
-  count.textContent = `${group.items.length} ${group.items.length === 1 ? "event" : "events"}`;
-
   const label = document.createElement("span");
   label.className = "date-label";
   label.textContent = group.label;
 
-  heading.append(count, label);
+  heading.append(label);
 
   const list = document.createElement("ol");
   list.className = "group-events";
@@ -1156,8 +1153,8 @@ function getTypeTint(type) {
 
   const hue = hash;
   return {
-    background: `hsl(${hue} 25% 97%)`,
-    border: `hsl(${hue} 22% 72%)`
+    background: `hsl(${hue} 22% 14%)`,
+    border: `hsl(${hue} 34% 42%)`
   };
 }
 
@@ -1258,6 +1255,9 @@ function resolveRecordId(kind, value) {
     return "";
   }
   const key = normalizeKey(id);
+  if (kind === "event") {
+    return state.eventNameById.get(key) || "";
+  }
   if (kind && state.relatedById[kind]?.has(key)) {
     return state.relatedById[kind].get(key) || "";
   }
@@ -1265,7 +1265,6 @@ function resolveRecordId(kind, value) {
     state.relatedById.person.get(key) ||
     state.relatedById.location.get(key) ||
     state.relatedById.tag.get(key) ||
-    state.eventNameById.get(key) ||
     ""
   );
 }
@@ -1328,6 +1327,59 @@ function scrubRecordIdsInText(value) {
   return text.replace(/\brec[a-z0-9]{10,}\b/gi, (match) => resolveRecordId("", match));
 }
 
+function scrubRecordIdsInElement(root) {
+  if (!root || typeof document.createTreeWalker !== "function") {
+    return;
+  }
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  let node = walker.nextNode();
+  while (node) {
+    if (node.nodeValue && /\brec[a-z0-9]{10,}\b/i.test(node.nodeValue)) {
+      node.nodeValue = node.nodeValue.replace(/\brec[a-z0-9]{10,}\b/gi, "").replace(/\s{2,}/g, " ");
+    }
+    node = walker.nextNode();
+  }
+}
+
+function looksLikeErrorPayload(value) {
+  const text = sanitizeText(value);
+  if (!text) {
+    return false;
+  }
+  const lowered = text.toLowerCase();
+  if (lowered.includes("errortype") || lowered.includes("emptydependency") || lowered.includes("#error!")) {
+    return true;
+  }
+  if (
+    (text.startsWith("{") && text.endsWith("}")) ||
+    (text.startsWith("[") && text.endsWith("]")) ||
+    (text.startsWith("{\"") && text.includes("\"state\""))
+  ) {
+    try {
+      const parsed = JSON.parse(text);
+      if (!parsed || typeof parsed !== "object") {
+        return false;
+      }
+      return (
+        Object.prototype.hasOwnProperty.call(parsed, "errorType") ||
+        Object.prototype.hasOwnProperty.call(parsed, "isStale") ||
+        Object.prototype.hasOwnProperty.call(parsed, "state")
+      );
+    } catch (error) {
+      return lowered.includes("state: error") || lowered.includes("value: null");
+    }
+  }
+  return false;
+}
+
+function cleanTagText(value) {
+  const cleaned = sanitizeText(scrubRecordIdsInText(value || ""));
+  if (!cleaned || looksLikeErrorPayload(cleaned)) {
+    return "";
+  }
+  return cleaned;
+}
+
 function rowsFromOptionalCsv(csvText) {
   if (!csvText) {
     return [];
@@ -1380,8 +1432,7 @@ function buildPersonIndex(csvText, eventNameLookup) {
       details: [
         makeDetail("Born", row["Date of Birth"]),
         makeDetail("Died", row["Date of Death"]),
-        makeDetail("Home / HQ", row["Home / Headquarters"], "location"),
-        makeDetail("Role Score", row["Role in Case Score"])
+        makeDetail("Home / HQ", row["Home / Headquarters"], "location")
       ].filter(Boolean)
     });
   });
@@ -1400,6 +1451,16 @@ function buildLocationIndex(csvText, eventNameLookup) {
     const mapLinks = parseUrls(row["Google Maps"] || row["Lat/Lon Google Maps URL"]).filter(
       (url) => !isAirtableAttachmentUrl(url)
     );
+    const preferredMapUrl =
+      sanitizeUrl(row["Google Maps"]) || sanitizeUrl(row["Lat/Lon Google Maps URL"]) || sanitizeUrl(row["Manual Google Maps"]);
+    const latitude = parseCoordinate(row.Latitude);
+    const longitude = parseCoordinate(row.Longitude);
+    const mapEmbedUrl = buildLocationMapEmbedUrl({
+      latitude,
+      longitude,
+      mapUrl: preferredMapUrl
+    });
+    const mapOpenUrl = preferredMapUrl || buildCoordinateMapUrl(latitude, longitude);
     const downloads = [
       ...attachments.filter((item) => item.type !== "image" && item.type !== "pdf"),
       ...buildLinkDownloads(mapLinks, "Map")
@@ -1412,6 +1473,8 @@ function buildLocationIndex(csvText, eventNameLookup) {
       subtitle: resolveDisplayValue(row.Type),
       summary: sanitizeText(row.Notes),
       images: attachments.filter((item) => item.type === "image"),
+      mapEmbedUrl,
+      mapOpenUrl,
       downloads,
       relatedRecords: {
         person: resolveRelatedNames("person", [row["People / Orgs Linked To"], row["All Related People Names"]]),
@@ -1458,8 +1521,8 @@ function buildTagIndex(csvText, eventNameLookup) {
       kind: "tag",
       name,
       slug: sanitizeText(row.Slug),
-      subtitle: resolveDisplayValue(row["Tagged Under"] || row["AI: Information Category (Detailed)"], "tag"),
-      summary: sanitizeText(row.Summary || row["AI: Summary Analysis"]),
+      subtitle: cleanTagText(row["Tagged Under"]) || cleanTagText(row["AI: Information Category (Detailed)"]),
+      summary: cleanTagText(row.Summary || row["AI: Summary Analysis"]),
       images: attachments.filter((item) => item.type === "image"),
       downloads,
       relatedRecords: {
@@ -1473,10 +1536,7 @@ function buildTagIndex(csvText, eventNameLookup) {
         parseList(row["Related Event Names"] || row["Related Events"]),
         eventNameLookup
       ),
-      details: [
-        makeDetail("Date", row.Date),
-        makeDetail("Documents", row["Related Documents"], "tag")
-      ].filter(Boolean)
+      details: [makeDetail("Date", cleanTagText(row.Date))].filter(Boolean)
     });
   });
   return index;
@@ -1532,7 +1592,7 @@ function openRecordModal(kind, name) {
   state.recordModalRelatedEvents = uniqueCompact(
     record.relatedEvents.map((eventName) => {
       if (isRecordId(eventName)) {
-        return resolveRecordId("", eventName);
+        return resolveRecordId("event", eventName);
       }
       return sanitizeText(eventName);
     })
@@ -1577,12 +1637,17 @@ function openRecordModal(kind, name) {
     content.append(buildRecordImageSection(record.images));
   }
 
+  if (record.kind === "location" && record.mapEmbedUrl) {
+    content.append(buildRecordMapSection(record.mapEmbedUrl, record.mapOpenUrl));
+  }
+
   if (record.downloads.length) {
     content.append(buildRecordDownloadSection(record.downloads));
   }
 
   content.append(buildRecordConnectionsSection(record.relatedRecords));
   content.append(buildRelatedEventsSection(state.recordModalRelatedEvents));
+  scrubRecordIdsInElement(content);
   dom.recordModal.showModal();
   state.route.recordKind = VALID_RECORD_KINDS.has(kind) ? kind : "";
   state.route.recordName = dom.recordModalTitle.textContent;
@@ -1616,6 +1681,8 @@ function buildFallbackRecord(kind, name) {
     summary: "",
     details: [],
     images: [],
+    mapEmbedUrl: "",
+    mapOpenUrl: "",
     downloads: [],
     relatedRecords: {
       person: [],
@@ -1700,6 +1767,37 @@ function buildRecordImageSection(images) {
   return section;
 }
 
+function buildRecordMapSection(embedUrl, openUrl) {
+  const section = document.createElement("section");
+  section.className = "record-section";
+
+  const heading = document.createElement("h3");
+  heading.className = "record-section-title";
+  heading.textContent = "Map";
+  section.append(heading);
+
+  const frame = document.createElement("iframe");
+  frame.className = "record-map-frame";
+  frame.loading = "lazy";
+  frame.allowFullscreen = true;
+  frame.referrerPolicy = "no-referrer-when-downgrade";
+  frame.src = embedUrl;
+  frame.title = "Location map";
+  section.append(frame);
+
+  if (openUrl) {
+    const link = document.createElement("a");
+    link.className = "record-map-link";
+    link.href = openUrl;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "Open in Google Maps";
+    section.append(link);
+  }
+
+  return section;
+}
+
 function buildRecordDownloadSection(downloads) {
   const section = document.createElement("section");
   section.className = "record-section";
@@ -1735,7 +1833,7 @@ function buildRelatedEventsSection(eventNames) {
         return "";
       }
       if (isRecordId(text)) {
-        return resolveRecordId("", text);
+        return resolveRecordId("event", text);
       }
       return text;
     })
@@ -2009,6 +2107,70 @@ function stripTrailingUrlPunctuation(url) {
   return String(url || "").replace(/[),.;!?]+$/g, "");
 }
 
+function parseCoordinate(value) {
+  const text = sanitizeText(value);
+  if (!text || !/^-?\d{1,3}(?:\.\d+)?$/.test(text)) {
+    return null;
+  }
+  const parsed = Number.parseFloat(text);
+  if (!Number.isFinite(parsed)) {
+    return null;
+  }
+  return parsed;
+}
+
+function buildCoordinateMapUrl(latitude, longitude) {
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+    return "";
+  }
+  return `https://www.google.com/maps?q=${latitude},${longitude}`;
+}
+
+function getGoogleMapsApiKey() {
+  const fromWindow = sanitizeText(window.GOOGLE_MAPS_API || window.__GOOGLE_MAPS_API__);
+  if (fromWindow) {
+    return fromWindow;
+  }
+  const fromMeta = sanitizeText(document.querySelector('meta[name="google-maps-api"]')?.content);
+  return fromMeta;
+}
+
+function buildLocationMapEmbedUrl({ latitude, longitude, mapUrl }) {
+  const hasCoords = Number.isFinite(latitude) && Number.isFinite(longitude);
+  const key = getGoogleMapsApiKey();
+  if (hasCoords && key) {
+    return (
+      "https://www.google.com/maps/embed/v1/view?key=" +
+      encodeURIComponent(key) +
+      `&center=${latitude},${longitude}&zoom=13&maptype=roadmap`
+    );
+  }
+  if (hasCoords) {
+    return `https://www.google.com/maps?q=${latitude},${longitude}&output=embed`;
+  }
+
+  const cleanUrl = sanitizeUrl(mapUrl);
+  if (!cleanUrl) {
+    return "";
+  }
+  try {
+    const parsed = new URL(cleanUrl);
+    const isGoogleMapDomain = /(?:^|\.)google\./i.test(parsed.hostname) || /maps\.app\.goo\.gl/i.test(parsed.hostname);
+    if (!isGoogleMapDomain) {
+      return "";
+    }
+    if (parsed.hostname.includes("maps.app.goo.gl")) {
+      return `https://www.google.com/maps?q=${encodeURIComponent(cleanUrl)}&output=embed`;
+    }
+    if (parsed.searchParams.has("q")) {
+      return `https://www.google.com/maps?output=embed&q=${encodeURIComponent(parsed.searchParams.get("q") || "")}`;
+    }
+    return `${parsed.origin}${parsed.pathname}${parsed.search ? `${parsed.search}&output=embed` : "?output=embed"}`;
+  } catch (error) {
+    return "";
+  }
+}
+
 function openModal(mediaItems, index) {
   if (!mediaItems.length) {
     return;
@@ -2206,7 +2368,7 @@ function restoreStateFromUrl() {
   state.filters.relatedEventSet = null;
 
   const eventParam = sanitizeText(params.get("event"));
-  state.route.eventName = isRecordId(eventParam) ? resolveRecordId("", eventParam) : eventParam;
+  state.route.eventName = isRecordId(eventParam) ? resolveRecordId("event", eventParam) : eventParam;
 
   const recordKind = sanitizeText(params.get("recordKind")).toLowerCase();
   const recordParam = sanitizeText(params.get("record"));
@@ -2266,7 +2428,7 @@ function resolveEventRouteName(value) {
     return "";
   }
   if (isRecordId(text)) {
-    return resolveRecordId("", text);
+    return resolveRecordId("event", text);
   }
   const key = normalizeKey(text);
   const event = state.events.find((item) => normalizeKey(item.eventName) === key);

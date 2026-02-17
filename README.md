@@ -5,6 +5,7 @@ Static website for browsing your Airtable timeline with:
 - Chronological, date-grouped timeline rows
 - Fast text/location/people/media filters
 - Image thumbnails with enhanced modal viewer (zoom, rotate, fullscreen, open-original)
+- Location record modals with conditional Google Maps embeds (when coordinates or map URL exist)
 - Collapsible events grouped by `Beginning Date`
 - Click-to-filter chips for `Location` and `People`
 - Shareable URL state (filters + event/record deep links)
@@ -20,6 +21,7 @@ Static website for browsing your Airtable timeline with:
 - `data/people-people-sync.csv`: people records used for modal drill-down
 - `data/location-location-sync.csv`: location records used for modal drill-down
 - `data/tags-tags-sync.csv`: tag records used for modal drill-down
+- `data/elements-starter.csv`: starter schema+rows for an Airtable `Elements` content table
 - `assets/zodiac-header.png`: header image asset
 - `scripts/refresh_airtable_data.py`: fetches Airtable views + refreshes local datasets
 - `.github/workflows/refresh-airtable.yml`: optional daily and manual cloud refresh
@@ -36,6 +38,14 @@ python3 -m http.server 4173
 Then open:
 
 - `http://localhost:4173`
+
+### Optional Google Maps key for embeds
+
+Location embeds work without a key when latitude/longitude are present using a public `q=lat,lon` embed URL.
+If you want Google Maps Embed API mode, set your key in either:
+
+- `window.GOOGLE_MAPS_API` before `app.js` runs, or
+- `<meta name="google-maps-api" content="YOUR_KEY_HERE" />` in `index.html`
 
 ## Manual refresh from Airtable
 

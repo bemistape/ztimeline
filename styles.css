@@ -193,7 +193,7 @@ h1 {
   margin: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 0.65rem;
   padding: 0.2rem 0 0.32rem;
   border-bottom: 1px solid var(--line);
@@ -635,6 +635,7 @@ h1 {
   padding: 0 0.78rem;
   font-size: 0.76rem;
   font-weight: 700;
+  z-index: 4;
 }
 
 .modal-close {
@@ -679,11 +680,11 @@ h1 {
 }
 
 .modal-nav.prev {
-  left: 0.52rem;
+  left: 1rem;
 }
 
 .modal-nav.next {
-  right: 0.52rem;
+  right: 1rem;
 }
 
 .record-modal {
@@ -825,6 +826,21 @@ h1 {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.record-map-frame {
+  width: 100%;
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  min-height: 280px;
+  background: #f0f0f0;
+}
+
+.record-map-link {
+  justify-self: start;
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-size: 0.84rem;
 }
 
 .record-download-list {
@@ -988,4 +1004,238 @@ h1 {
   .modal-nav.next {
     right: 0.5rem;
   }
+}
+
+/* Black-first visual refresh */
+body {
+  color: #ededed;
+  background:
+    radial-gradient(860px 440px at 100% -16%, rgba(110, 110, 110, 0.18) 0%, transparent 62%),
+    radial-gradient(760px 420px at -14% 5%, rgba(66, 66, 66, 0.2) 0%, transparent 60%),
+    linear-gradient(180deg, #070707 0%, #0e0e0f 100%);
+}
+
+.hero,
+.controls,
+.timeline-section {
+  border: 1px solid #2b2b2d;
+  box-shadow: 0 26px 52px -30px rgba(0, 0, 0, 0.82);
+}
+
+.hero {
+  background: linear-gradient(160deg, #111112 0%, #141416 100%);
+}
+
+.hero-mark {
+  border-color: #2f2f34;
+  background: #020202;
+}
+
+.eyebrow {
+  color: #a9a9ae;
+}
+
+h1 {
+  color: #f5f5f5;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.44);
+}
+
+.hero-copy,
+.data-freshness {
+  color: #b8b8bc;
+}
+
+.controls {
+  background: linear-gradient(180deg, #111113 0%, #151517 100%);
+}
+
+.control span {
+  color: #c0c0c5;
+}
+
+.control input,
+.control select {
+  border-color: #3b3b41;
+  background: #0d0d0f;
+  color: #f0f0f2;
+}
+
+.control input::placeholder {
+  color: #818188;
+}
+
+.check-control {
+  color: #b8b8bd;
+}
+
+.button,
+.record-related-filter,
+.record-related-event {
+  border-color: #4a4a51;
+  background: #202023;
+  color: #f0f0f0;
+}
+
+.button:hover,
+.record-related-filter:hover,
+.record-related-event:hover {
+  background: #29292d;
+  border-color: #5d5d67;
+}
+
+.timeline-section {
+  background: linear-gradient(180deg, #111113 0%, #171719 100%);
+}
+
+.timeline-item {
+  border-bottom-color: #2f2f33;
+}
+
+.date-heading {
+  border-bottom-color: #35353b;
+}
+
+.date-count {
+  color: #8f8f97;
+}
+
+.date-label {
+  color: #ececf0;
+  border-color: #4f4f55;
+  background: linear-gradient(165deg, #1e1e22 0%, #24242a 100%);
+  box-shadow: inset 0 1px 0 #32323a;
+}
+
+.event-item {
+  border-color: #313137;
+  background: linear-gradient(180deg, #141417 0%, var(--record-tint-bg, #17181d) 100%);
+}
+
+.event-item[open] {
+  border-color: var(--record-tint-border, #5d5d69);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.event-title,
+.summary-value {
+  color: #f2f2f4;
+}
+
+.summary-label {
+  color: #b9b9c0;
+}
+
+.event-date-badge,
+.event-expander {
+  color: #d8d8df;
+  border-color: #4b4b53;
+  background: #24242a;
+}
+
+.event-expander::before,
+.event-expander::after {
+  background: #d6d6de;
+}
+
+.summary-overflow {
+  color: #9f9fa7;
+}
+
+.filter-chip {
+  border-color: #53535b;
+  background: #25252a;
+  color: #e8e8eb;
+}
+
+.filter-chip:hover {
+  border-color: #6a6a72;
+  background: #2d2d32;
+  color: #ffffff;
+}
+
+.event-content {
+  border-top-color: #323239;
+}
+
+.event-description,
+.record-summary {
+  color: #dadadf;
+}
+
+.event-description a,
+.record-summary a,
+.record-download-link,
+.link-pill {
+  color: #9cc6ff;
+}
+
+.thumb-button,
+.summary-thumb-button,
+.record-image-button {
+  border-color: #4f4f57;
+  background: #18181c;
+}
+
+.thumb-button img,
+.summary-thumb,
+.record-image-button img {
+  background: #24242a;
+}
+
+.thumb-label,
+.record-image-label {
+  color: #c8c8cf;
+}
+
+.record-map-frame {
+  border-color: #45454f;
+  background: #1b1b22;
+}
+
+.record-map-link {
+  color: #9cc6ff;
+}
+
+.images-heading,
+.tag-heading,
+.record-section-title,
+.record-modal-kind {
+  color: #b8b8bf;
+}
+
+.record-modal,
+.image-modal {
+  border: 1px solid #2f2f36;
+  background: #111114;
+}
+
+.record-modal::backdrop,
+.image-modal::backdrop {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.record-modal-title {
+  color: #f0f0f4;
+}
+
+.record-modal-subtitle,
+.record-empty {
+  color: #b9b9bf;
+}
+
+.record-details {
+  border-color: #3c3c45;
+  background: #17171c;
+}
+
+.record-details dt {
+  color: #d7d7de;
+}
+
+.record-details dd {
+  color: #e8e8ef;
+}
+
+.modal-figure figcaption {
+  color: #b4b4bc;
 }
