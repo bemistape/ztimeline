@@ -23,6 +23,11 @@ Static website for browsing your Airtable timeline with:
 - `data/location-location-sync.csv`: location records used for modal drill-down
 - `data/tags-tags-sync.csv`: tag records used for modal drill-down
 - `data/elements-elements-sync.csv`: optional Elements table export for site copy/nav/footer content
+- `events-timeline.csv`: root-level fallback copy for hosts that do not serve `/data/*`
+- `people-people-sync.csv`: root-level fallback copy
+- `location-location-sync.csv`: root-level fallback copy
+- `tags-tags-sync.csv`: root-level fallback copy
+- `elements-elements-sync.csv`: root-level fallback copy
 - `data/elements-starter.csv`: starter schema+rows for an Airtable `Elements` content table
 - `assets/zodiac-header.png`: header image asset
 - `scripts/refresh_airtable_data.py`: fetches Airtable views + refreshes local datasets
@@ -86,6 +91,11 @@ This updates:
 - `data/location-location-sync.csv`
 - `data/tags-tags-sync.csv`
 - `data/elements-elements-sync.csv` (when Elements table/view ids are configured)
+- `events-timeline.csv` (root fallback copy)
+- `people-people-sync.csv` (root fallback copy)
+- `location-location-sync.csv` (root fallback copy)
+- `tags-tags-sync.csv` (root fallback copy)
+- `elements-elements-sync.csv` (root fallback copy)
 - `data/refresh-metadata.json`
 - `data/refresh-metadata-people.json`
 - `data/refresh-metadata-location.json`

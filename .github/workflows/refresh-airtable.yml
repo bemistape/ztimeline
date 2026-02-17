@@ -101,7 +101,15 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          if [ -z "$(git status --porcelain -- data)" ]; then
+          ROOT_FALLBACK_FILES=(
+            events-timeline.csv
+            people-people-sync.csv
+            location-location-sync.csv
+            tags-tags-sync.csv
+            elements-elements-sync.csv
+          )
+
+          if [ -z "$(git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}")" ]; then
             echo "No changes to commit."
             exit 0
           fi
@@ -131,7 +139,12 @@ jobs:
             return 1
           }
 
-          mapfile -t NON_MEDIA_FILES < <(git status --porcelain -- data | awk '{print $2}' | grep -v '^data/media/' || true)
+          mapfile -t NON_MEDIA_FILES < <(
+            git status --porcelain -- data "${ROOT_FALLBACK_FILES[@]}" \
+              | awk '{print $2}' \
+              | grep -v '^data/media/' \
+              || true
+          )
           if [ "${#NON_MEDIA_FILES[@]}" -gt 0 ]; then
             git add -- "${NON_MEDIA_FILES[@]}"
             git commit -m "chore: refresh Airtable timeline data (metadata)"

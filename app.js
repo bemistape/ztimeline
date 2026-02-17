@@ -460,6 +460,20 @@ function buildAssetUrlCandidates(url) {
     addCandidate(new URL(`${repoBase}/${cleanPath}`, window.location.origin).toString());
   }
 
+  if (cleanPath.startsWith("data/")) {
+    const rootlessPath = cleanPath.slice("data/".length);
+    if (rootlessPath) {
+      if (scriptBase) {
+        addCandidate(new URL(rootlessPath, scriptBase).toString());
+      }
+      addCandidate(new URL(rootlessPath, currentDirectoryBase).toString());
+      addCandidate(new URL(`/${rootlessPath}`, window.location.origin).toString());
+      if (repoBase) {
+        addCandidate(new URL(`${repoBase}/${rootlessPath}`, window.location.origin).toString());
+      }
+    }
+  }
+
   return [...candidates];
 }
 
@@ -488,10 +502,9 @@ async function isLikelyHtmlFallback(response, kind) {
     return false;
   }
   const contentType = String(response.headers.get("content-type") || "").toLowerCase();
-  if (contentType.includes("text/html")) {
-    return true;
-  }
-  if (contentType && !contentType.includes("text/plain")) {
+  const maybeHtml =
+    !contentType || contentType.includes("text/html") || contentType.includes("application/xhtml") || contentType.includes("text/plain");
+  if (!maybeHtml) {
     return false;
   }
   try {

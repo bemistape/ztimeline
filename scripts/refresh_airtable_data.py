@@ -47,6 +47,13 @@ LAST_MODIFIED_FIELD_CANDIDATES = [
     "Last Modified (all fields)",
 ]
 PUBLISHED_FIELD_CANDIDATES = ["Published", "Is Published", "Publish"]
+ROOT_FALLBACK_CSV_BY_TARGET = {
+    "events": "events-timeline.csv",
+    "people": "people-people-sync.csv",
+    "location": "location-location-sync.csv",
+    "tags": "tags-tags-sync.csv",
+    "elements": "elements-elements-sync.csv",
+}
 
 EVENTS_DEFAULT_HEADERS = [
     "Event Name",
@@ -381,6 +388,7 @@ def main() -> int:
             f"[{target.name}] {result.mode} sync complete: "
             f"{result.record_count} records ({result.changed_records} changed)."
         )
+        sync_root_fallback_csv(target)
 
     if cache_media and args.prune_media:
         prune_stale_media(media_dir, used_media_files)
@@ -1086,6 +1094,20 @@ def is_published(value: Any) -> bool:
 
 def normalize_text(value: Any) -> str:
     return str(value or "").strip()
+
+
+def sync_root_fallback_csv(target: ExportTarget) -> None:
+    fallback_name = ROOT_FALLBACK_CSV_BY_TARGET.get(target.name)
+    if not fallback_name:
+        return
+    destination = Path(fallback_name)
+    try:
+        if target.output_csv.resolve() == destination.resolve():
+            return
+    except OSError:
+        return
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(target.output_csv, destination)
 
 
 def parse_iso_datetime(value: str) -> datetime | None:

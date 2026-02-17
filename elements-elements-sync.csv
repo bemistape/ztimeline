@@ -1,0 +1,13 @@
+Element Key,Element Type,Label,Body,Link Label,Link URL,Sort Order,Published,Locale,Notes
+site.title,text,Site Title,Zodiac Archive,,,10,true,en-US,Primary site title shown in hero and browser metadata.
+site.subtitle,text,Site Subtitle,Case Timeline Viewer,,,20,true,en-US,Short eyebrow copy.
+site.intro,rich_text,Intro Copy,Date-grouped timeline with collapsible events and source image evidence.,,,30,true,en-US,Main intro paragraph.
+site.about_blurb,rich_text,About Blurb,"Independent research archive organizing timeline, people, locations, and source evidence for reference.",,,40,true,en-US,Short About module on homepage.
+nav.home,nav_link,Home,,Home,/,50,true,en-US,Primary navigation item.
+nav.timeline,nav_link,Timeline,,Timeline,/timeline,60,true,en-US,Primary navigation item.
+nav.sources,nav_link,Sources,,Sources,/sources,70,true,en-US,Primary navigation item.
+nav.about,nav_link,About,,About,/about,80,true,en-US,Primary navigation item.
+cta.submit_tip,link,Submit a Tip,,Contact,mailto:research@example.org,90,false,en-US,Optional public contact CTA.
+legal.privacy,link,Privacy Policy,,Privacy Policy,/privacy,100,true,en-US,Legal link.
+legal.terms,link,Terms of Use,,Terms of Use,/terms,110,true,en-US,Legal link.
+legal.disclaimer,rich_text,Research Disclaimer,Content is provided for research and reference use and may include links to external sources.,,,120,true,en-US,Footer legal/disclaimer block.
