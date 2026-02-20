@@ -1852,21 +1852,20 @@ function buildEventRow(event, filteredIndex) {
 
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
-
-  const summaryMeta = document.createElement("div");
-  summaryMeta.className = "summary-meta";
+  const typeStrip = document.createElement("div");
+  typeStrip.className = "event-type-strip";
   const typeBadge = document.createElement("span");
-  typeBadge.className = "event-type-badge";
+  typeBadge.className = "event-type-strip-label";
   typeBadge.textContent = resolveDisplayToken(event.type) || "Uncategorized";
-  summaryMeta.append(typeBadge);
+  typeStrip.append(typeBadge);
   if (event.timeLabel) {
     const timeLabel = document.createElement("span");
-    timeLabel.className = "summary-inline-time";
+    timeLabel.className = "event-type-strip-time";
     timeLabel.textContent = event.timeLabel;
-    summaryMeta.append(timeLabel);
+    typeStrip.append(timeLabel);
   }
 
-  summaryText.append(titleRow, summaryMeta, fieldGrid);
+  summaryText.append(typeStrip, titleRow, fieldGrid);
   summaryTop.append(summaryText);
 
   if (event.images.length > 0) {

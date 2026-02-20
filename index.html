@@ -49,7 +49,7 @@
       <details id="controls-panel" class="controls-panel" open>
         <summary class="controls-panel-summary">Search / Filter</summary>
         <section class="controls" aria-label="Timeline filters">
-          <label class="control">
+          <div class="control control-search">
             <span>Search</span>
             <input
               id="search-input"
@@ -57,7 +57,14 @@
               placeholder="Event name, people, location, notes"
               autocomplete="off"
             />
-          </label>
+            <div class="search-actions">
+              <label class="check-control">
+                <input id="media-only-filter" type="checkbox" />
+                <span>Only events with media</span>
+              </label>
+              <button id="reset-filters" class="button reset" type="button">Reset</button>
+            </div>
+          </div>
 
           <label class="control">
             <span>Location</span>
@@ -77,12 +84,6 @@
             </select>
           </label>
 
-          <label class="check-control">
-            <input id="media-only-filter" type="checkbox" />
-            <span>Only events with media</span>
-          </label>
-
-          <button id="reset-filters" class="button reset" type="button">Reset</button>
         </section>
       </details>
 
