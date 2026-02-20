@@ -14,6 +14,7 @@ const VALID_RECORD_KINDS = new Set(["person", "location", "tag"]);
 const dom = {
   hero: document.querySelector(".hero"),
   controls: document.querySelector(".controls"),
+  controlsPanel: document.getElementById("controls-panel"),
   stickyNavShell: document.getElementById("sticky-nav-shell"),
   stickySiteTitle: document.getElementById("sticky-site-title"),
   stickyNav: document.getElementById("sticky-site-nav"),
@@ -187,6 +188,11 @@ function readBundledData() {
 }
 
 function bindUi() {
+  if (dom.controlsPanel) {
+    const isMobileViewport = window.matchMedia("(max-width: 760px)").matches;
+    dom.controlsPanel.open = !isMobileViewport;
+  }
+
   bindMultiSelectToggle(dom.locationFilter);
   bindMultiSelectToggle(dom.peopleFilter);
   bindMultiSelectToggle(dom.tagFilter);
