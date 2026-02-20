@@ -52,6 +52,10 @@ const dom = {
   recordModalTitle: document.getElementById("record-modal-title"),
   recordModalSubtitle: document.getElementById("record-modal-subtitle"),
   recordModalContent: document.getElementById("record-modal-content"),
+  aboutModal: document.getElementById("about-modal"),
+  aboutModalClose: document.getElementById("about-modal-close"),
+  aboutModalTitle: document.getElementById("about-modal-title"),
+  aboutModalContent: document.getElementById("about-modal-content"),
   emptyStateTemplate: document.getElementById("empty-state-template")
 };
 
@@ -295,6 +299,9 @@ function bindUi() {
   dom.modalRotate.addEventListener("click", () => rotateModalImage(90));
   dom.modalFullscreen.addEventListener("click", () => toggleModalFullscreen());
   dom.recordModalClose.addEventListener("click", () => closeRecordModal());
+  if (dom.aboutModalClose) {
+    dom.aboutModalClose.addEventListener("click", () => closeAboutModal());
+  }
   dom.modalFigure.addEventListener(
     "wheel",
     (event) => {
@@ -337,6 +344,20 @@ function bindUi() {
       closeRecordModal();
     }
   });
+
+  if (dom.aboutModal) {
+    dom.aboutModal.addEventListener("click", (event) => {
+      const rect = dom.aboutModal.getBoundingClientRect();
+      const clickedOutside =
+        event.clientY < rect.top ||
+        event.clientY > rect.bottom ||
+        event.clientX < rect.left ||
+        event.clientX > rect.right;
+      if (clickedOutside) {
+        closeAboutModal();
+      }
+    });
+  }
 
   dom.recordModalContent.addEventListener("click", (event) => {
     const recordTrigger = event.target.closest("button[data-record-kind][data-record-name]");
@@ -397,6 +418,10 @@ function bindUi() {
     if (!dom.imageModal.open) {
       if (dom.recordModal.open && event.key === "Escape") {
         closeRecordModal();
+        return;
+      }
+      if (dom.aboutModal?.open && event.key === "Escape") {
+        closeAboutModal();
       }
       return;
     }
@@ -822,6 +847,7 @@ function applyElementsContent(elements) {
   }
 
   renderSiteNav(localized);
+  renderAboutModal(localized, byKey);
   renderSiteFooter(localized, byKey);
 }
 
@@ -998,7 +1024,76 @@ function runNavAction(action) {
     return;
   }
   if (action === "about") {
+    openAboutModal();
+  }
+}
+
+function renderAboutModal(elements, byKey) {
+  if (!dom.aboutModalContent || !dom.aboutModalTitle) {
+    return;
+  }
+
+  dom.aboutModalContent.replaceChildren();
+  const aboutTitleElement = findFirstElement(byKey, ["about.title", "site.about_title", "about.heading"]);
+  dom.aboutModalTitle.textContent = getElementText(aboutTitleElement) || "About";
+
+  const aboutBodyElement = findFirstElement(byKey, ["site.about_blurb", "footer.about", "about.copy", "about.us"]);
+  const aboutBodyText = getElementText(aboutBodyElement);
+  if (aboutBodyText) {
+    dom.aboutModalContent.append(renderRichTextBlock(aboutBodyText, "about-modal-copy"));
+  }
+
+  const aboutLinks = elements
+    .filter((element) => {
+      const key = normalizeKey(element.key);
+      if (!element.linkUrl) {
+        return false;
+      }
+      return key.startsWith("about.") || key === "site.about_link";
+    })
+    .sort((left, right) => left.sortOrder - right.sortOrder);
+
+  if (aboutLinks.length > 0) {
+    const links = document.createElement("div");
+    links.className = "about-modal-links";
+    aboutLinks.forEach((item) => {
+      const label = getElementLinkLabel(item);
+      if (!label || !item.linkUrl) {
+        return;
+      }
+      const anchor = document.createElement("a");
+      anchor.className = "about-modal-link";
+      anchor.href = item.linkUrl;
+      anchor.textContent = label;
+      if (isExternalUrl(item.linkUrl)) {
+        anchor.target = "_blank";
+        anchor.rel = "noopener noreferrer";
+      }
+      links.append(anchor);
+    });
+    if (links.childElementCount > 0) {
+      dom.aboutModalContent.append(links);
+    }
+  }
+}
+
+function openAboutModal() {
+  if (!dom.aboutModal || !dom.aboutModalContent) {
     (dom.siteFooter || dom.timeline)?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
+  if (!dom.aboutModalContent.childElementCount) {
+    (dom.siteFooter || dom.timeline)?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
+  if (!dom.aboutModal.open) {
+    dom.aboutModal.showModal();
+  }
+}
+
+function closeAboutModal() {
+  if (dom.aboutModal?.open) {
+    dom.aboutModal.close();
   }
 }
 

@@ -43,42 +43,45 @@
         <nav id="site-nav" class="site-nav" aria-label="Primary" hidden></nav>
       </header>
 
-      <section class="controls" aria-label="Timeline filters">
-        <label class="control">
-          <span>Search</span>
-          <input
-            id="search-input"
-            type="search"
-            placeholder="Event name, people, location, notes"
-            autocomplete="off"
-          />
-        </label>
+      <details id="controls-panel" class="controls-panel" open>
+        <summary class="controls-panel-summary">Search / Filter</summary>
+        <section class="controls" aria-label="Timeline filters">
+          <label class="control">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Event name, people, location, notes"
+              autocomplete="off"
+            />
+          </label>
 
-        <label class="control">
-          <span>Location</span>
-          <select id="location-filter" multiple size="6" title="Select one or more locations">
-          </select>
-        </label>
+          <label class="control">
+            <span>Location</span>
+            <select id="location-filter" multiple size="6" title="Select one or more locations">
+            </select>
+          </label>
 
-        <label class="control">
-          <span>People</span>
-          <select id="people-filter" multiple size="6" title="Select one or more people">
-          </select>
-        </label>
+          <label class="control">
+            <span>People</span>
+            <select id="people-filter" multiple size="6" title="Select one or more people">
+            </select>
+          </label>
 
-        <label class="control">
-          <span>Tags</span>
-          <select id="tag-filter" multiple size="6" title="Select one or more tags">
-          </select>
-        </label>
+          <label class="control">
+            <span>Tags</span>
+            <select id="tag-filter" multiple size="6" title="Select one or more tags">
+            </select>
+          </label>
 
-        <label class="check-control">
-          <input id="media-only-filter" type="checkbox" />
-          <span>Only events with media</span>
-        </label>
+          <label class="check-control">
+            <input id="media-only-filter" type="checkbox" />
+            <span>Only events with media</span>
+          </label>
 
-        <button id="reset-filters" class="button reset" type="button">Reset</button>
-      </section>
+          <button id="reset-filters" class="button reset" type="button">Reset</button>
+        </section>
+      </details>
 
       <section class="timeline-section">
         <ol id="timeline" class="timeline" aria-live="polite"></ol>
@@ -126,6 +129,16 @@
           <p id="record-modal-subtitle" class="record-modal-subtitle"></p>
         </header>
         <div id="record-modal-content" class="record-modal-content"></div>
+      </article>
+    </dialog>
+
+    <dialog id="about-modal" class="about-modal" aria-label="About this timeline">
+      <button id="about-modal-close" class="about-modal-close" type="button" aria-label="Close about panel">
+        Close
+      </button>
+      <article class="about-modal-body">
+        <h2 id="about-modal-title" class="about-modal-title">About</h2>
+        <div id="about-modal-content" class="about-modal-content"></div>
       </article>
     </dialog>
 
