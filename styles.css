@@ -335,8 +335,8 @@ h1 {
 .date-group {
   list-style: none;
   display: grid;
-  grid-template-columns: minmax(150px, 190px) minmax(0, 1fr);
-  gap: 0.82rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0.46rem;
   align-items: start;
 }
 
@@ -350,7 +350,7 @@ h1 {
 
 .date-heading {
   margin: 0;
-  padding: 0;
+  padding: 0.04rem 0 0;
 }
 
 .date-rail-time {
@@ -364,8 +364,8 @@ h1 {
 
 .date-label {
   font-family: "Public Sans", "Segoe UI", sans-serif;
-  font-size: clamp(0.94rem, 1.55vw, 1.1rem);
-  font-weight: 700;
+  font-size: clamp(1.12rem, 1.9vw, 1.44rem);
+  font-weight: 780;
   letter-spacing: 0;
   padding: 0;
   border: 0;
@@ -665,6 +665,23 @@ h1 {
 .record-summary ul {
   margin: 0;
   padding-left: 1.1rem;
+}
+
+.event-description blockquote,
+.record-summary blockquote {
+  margin: 0.58rem 0;
+  padding: 0.2rem 0 0.2rem 0.85rem;
+  border-left: 3px solid #d5d9de;
+}
+
+.event-description blockquote p + p,
+.record-summary blockquote p + p {
+  margin-top: 0.46rem;
+}
+
+.event-description em,
+.record-summary em {
+  font-style: italic;
 }
 
 .event-description li,
@@ -1163,7 +1180,6 @@ h1 {
   }
 
   .date-group {
-    grid-template-columns: 1fr;
     gap: 0.36rem;
   }
 
@@ -1371,6 +1387,11 @@ h1 {
 
 .date-label {
   color: #f0f6fc;
+}
+
+.event-description blockquote,
+.record-summary blockquote {
+  border-left-color: #3b4a5d;
 }
 
 .summary-inline-time {

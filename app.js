@@ -1122,8 +1122,7 @@ function normalizeEvent(raw, index) {
   const tags = parseList(raw.Tags);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
-  const sourceUrls = parseUrls(raw.Sources).filter((url) => !isPdfUrl(url) && !isAirtableAttachmentUrl(url));
-  const links = sourceUrls.map((url, linkIndex) => ({ label: `Source ${linkIndex + 1}`, url }));
+  const links = parseSourceLinks(raw.Sources).filter((link) => !isPdfUrl(link.url) && !isAirtableAttachmentUrl(link.url));
 
   const dateKey = beginningDate ? toDateKey(beginningDate) : "unknown-date";
   const dateLabel = beginningDate ? formatDateHeading(beginningDate) : "Unknown Date";
@@ -1289,6 +1288,71 @@ function parseUrls(value) {
   const found = value.match(/https?:\/\/[^\s,•]+/g) || [];
   const normalized = found.map((url) => url.replace(/[).,;]+$/g, ""));
   return [...new Set(normalized)];
+}
+
+function parseSourceLinks(value) {
+  const text = String(value || "").replace(/\r\n?/g, "\n");
+  if (!text.trim()) {
+    return [];
+  }
+
+  const links = [];
+  const seenUrls = new Set();
+  const addLink = (urlValue, labelValue = "") => {
+    const cleanUrl = sanitizeUrl(urlValue);
+    if (!cleanUrl || seenUrls.has(cleanUrl)) {
+      return;
+    }
+    seenUrls.add(cleanUrl);
+    const cleanLabel = sanitizeText(labelValue);
+    links.push({
+      label: cleanLabel || "",
+      url: cleanUrl
+    });
+  };
+
+  const lines = text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  lines.forEach((line) => {
+    const withoutBullet = line.replace(/^[-*]\s+/, "").trim();
+    const labelUrlMatch = withoutBullet.match(/^(.+?)\s*(?:\||:)\s*(https?:\/\/\S+)\s*$/i);
+    if (labelUrlMatch) {
+      addLink(labelUrlMatch[2], labelUrlMatch[1]);
+      return;
+    }
+
+    const markdownMatch = withoutBullet.match(/^\[([^\]]+)\]\s*\((https?:\/\/[^)\s]+)\)\s*$/i);
+    if (markdownMatch) {
+      addLink(markdownMatch[2], markdownMatch[1]);
+    }
+  });
+
+  if (links.length === 0) {
+    parseUrls(text).forEach((url) => addLink(url));
+    return links.map((link, index) => ({
+      label: `Source ${index + 1}`,
+      url: link.url
+    }));
+  }
+
+  const discoveredUrls = parseUrls(text);
+  discoveredUrls.forEach((url) => addLink(url));
+
+  let autoIndex = 1;
+  return links.map((link) => {
+    if (link.label) {
+      return link;
+    }
+    const label = `Source ${autoIndex}`;
+    autoIndex += 1;
+    return {
+      label,
+      url: link.url
+    };
+  });
 }
 
 function isPdfUrl(value) {
@@ -1623,9 +1687,6 @@ function buildDateGroup(group) {
   const row = document.createElement("li");
   row.className = "date-group";
 
-  const rail = document.createElement("div");
-  rail.className = "date-rail";
-
   const heading = document.createElement("h2");
   heading.className = "date-heading";
 
@@ -1634,7 +1695,6 @@ function buildDateGroup(group) {
   label.textContent = group.label;
 
   heading.append(label);
-  rail.append(heading);
 
   const list = document.createElement("ol");
   list.className = "group-events";
@@ -1643,7 +1703,7 @@ function buildDateGroup(group) {
     list.append(buildEventRow(event, filteredIndex));
   });
 
-  row.append(rail, list);
+  row.append(heading, list);
   return row;
 }
 
@@ -2726,7 +2786,7 @@ function renderRichTextBlock(input, className) {
     return root;
   }
 
-  const blocks = normalized.split(/\n{2,}/);
+  const blocks = normalized.split(/\n\s*\n+/);
   blocks.forEach((block) => {
     const lines = block.split("\n").map((line) => line.trimEnd());
     const headingMatch = lines[0].match(/^(#{1,6})\s+(.+)$/);
@@ -2755,6 +2815,74 @@ function renderRichTextBlock(input, className) {
       return;
     }
 
+    const nonEmptyLines = lines.filter((line) => line.trim().length > 0);
+    const quoteLines = nonEmptyLines
+      .filter((line) => line.trim().length > 0)
+      .map((line) => line.match(/^\s*>\s?(.*)$/))
+      .filter(Boolean);
+
+    if (quoteLines.length > 0 && quoteLines.length === nonEmptyLines.length) {
+      root.append(buildRichQuoteBlock(quoteLines.map((match) => match[1])));
+      return;
+    }
+
+    if (quoteLines.length > 0) {
+      const mixedFragment = document.createDocumentFragment();
+      let paragraph = null;
+      let quoteBuffer = [];
+
+      const flushParagraph = () => {
+        if (!paragraph) {
+          return;
+        }
+        mixedFragment.append(paragraph);
+        paragraph = null;
+      };
+
+      const flushQuote = () => {
+        if (!quoteBuffer.length) {
+          return;
+        }
+        mixedFragment.append(buildRichQuoteBlock(quoteBuffer));
+        quoteBuffer = [];
+      };
+
+      lines.forEach((line) => {
+        const trimmed = line.trim();
+        if (!trimmed) {
+          flushParagraph();
+          flushQuote();
+          return;
+        }
+
+        const quoteMatch = line.match(/^\s*>\s?(.*)$/);
+        if (quoteMatch) {
+          flushParagraph();
+          quoteBuffer.push(quoteMatch[1]);
+          return;
+        }
+
+        flushQuote();
+        if (!paragraph) {
+          paragraph = document.createElement("p");
+        } else {
+          paragraph.append(document.createElement("br"));
+        }
+        appendRichInline(paragraph, trimmed);
+      });
+
+      flushParagraph();
+      flushQuote();
+      if (mixedFragment.childNodes.length > 0) {
+        root.append(mixedFragment);
+        return;
+      }
+    }
+
+    if (!nonEmptyLines.length) {
+      return;
+    }
+
     const paragraph = document.createElement("p");
     lines.forEach((line, index) => {
       if (index > 0) {
@@ -2766,6 +2894,16 @@ function renderRichTextBlock(input, className) {
   });
 
   return root;
+}
+
+function buildRichQuoteBlock(lines) {
+  const blockquote = document.createElement("blockquote");
+  lines.forEach((line) => {
+    const paragraph = document.createElement("p");
+    appendRichInline(paragraph, line);
+    blockquote.append(paragraph);
+  });
+  return blockquote;
 }
 
 function appendRichInline(target, text) {
@@ -2804,7 +2942,7 @@ function appendRichInline(target, text) {
 }
 
 function appendStrongEmphasis(target, text) {
-  const pattern = /\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+  const pattern = /(\*\*|__)(.+?)\1|(\*|_)(.+?)\3|~~(.+?)~~/g;
   let cursor = 0;
   let match = pattern.exec(text);
 
@@ -2815,12 +2953,16 @@ function appendStrongEmphasis(target, text) {
 
     if (match[1]) {
       const strong = document.createElement("strong");
-      strong.textContent = match[1];
+      strong.textContent = match[2];
       target.append(strong);
-    } else if (match[2]) {
+    } else if (match[3]) {
       const em = document.createElement("em");
-      em.textContent = match[2];
+      em.textContent = match[4];
       target.append(em);
+    } else if (match[5]) {
+      const strike = document.createElement("s");
+      strike.textContent = match[5];
+      target.append(strike);
     }
 
     cursor = pattern.lastIndex;
