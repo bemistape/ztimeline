@@ -1794,13 +1794,12 @@ function buildEventRow(event, filteredIndex) {
   const content = document.createElement("div");
   content.className = "event-content";
 
+  const prose = document.createElement("div");
+  prose.className = "event-prose";
+
   if (event.description) {
     const description = renderRichTextBlock(event.description, "event-description");
-    content.append(description);
-  }
-
-  if (event.images.length) {
-    content.append(buildImageGallery(event.images, filteredIndex));
+    prose.append(description);
   }
 
   if (event.links.length) {
@@ -1815,7 +1814,22 @@ function buildEventRow(event, filteredIndex) {
       anchor.textContent = link.label;
       links.append(anchor);
     });
-    content.append(links);
+    prose.append(links);
+  }
+
+  if (event.images.length) {
+    const hasProse = prose.childElementCount > 0;
+    const body = document.createElement("div");
+    body.className = hasProse ? "event-body with-media" : "event-body";
+
+    if (hasProse) {
+      body.append(prose);
+    }
+
+    body.append(buildImageGallery(event.images, filteredIndex));
+    content.append(body);
+  } else if (prose.childElementCount > 0) {
+    content.append(prose);
   }
 
   details.append(summary, content);
@@ -2706,37 +2720,64 @@ function focusEventByName(eventName) {
 
 function buildImageGallery(images, filteredIndex) {
   const section = document.createElement("section");
-  section.className = "images-section";
+  section.className = "images-section event-media-rail";
 
-  const heading = document.createElement("h4");
-  heading.className = "images-heading";
-  heading.textContent = `Images (${images.length})`;
-  section.append(heading);
+  const primary = document.createElement("button");
+  primary.type = "button";
+  primary.className = "media-primary-button";
+  primary.dataset.mediaGroupIndex = String(filteredIndex);
+  primary.dataset.mediaItemIndex = "0";
+  primary.setAttribute("aria-label", "Open primary image");
 
-  const grid = document.createElement("div");
-  grid.className = "media-grid";
+  const primaryImage = document.createElement("img");
+  primaryImage.className = "media-primary-image";
+  primaryImage.alt = images[0].label;
+  primaryImage.loading = "lazy";
+  primaryImage.dataset.src = images[0].url;
+  primary.append(primaryImage);
+  section.append(primary);
 
-  images.forEach((image, itemIndex) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = "thumb-button";
-    button.dataset.mediaGroupIndex = String(filteredIndex);
-    button.dataset.mediaItemIndex = String(itemIndex);
+  const meta = document.createElement("div");
+  meta.className = "media-meta";
+  meta.textContent = `${images.length} ${images.length === 1 ? "image" : "images"}`;
+  section.append(meta);
 
-    const thumbnail = document.createElement("img");
-    thumbnail.alt = image.label;
-    thumbnail.loading = "lazy";
-    thumbnail.dataset.src = image.url;
+  if (images.length > 1) {
+    const strip = document.createElement("div");
+    strip.className = "media-thumb-strip";
 
-    const label = document.createElement("span");
-    label.className = "thumb-label";
-    label.textContent = image.label;
+    const MAX_STRIP_THUMBS = 12;
+    images.slice(0, MAX_STRIP_THUMBS).forEach((image, itemIndex) => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = "media-thumb-button";
+      button.dataset.mediaGroupIndex = String(filteredIndex);
+      button.dataset.mediaItemIndex = String(itemIndex);
+      button.setAttribute("aria-label", `Open image ${itemIndex + 1}`);
+      button.title = image.label;
 
-    button.append(thumbnail, label);
-    grid.append(button);
-  });
+      const thumbnail = document.createElement("img");
+      thumbnail.alt = image.label;
+      thumbnail.loading = "lazy";
+      thumbnail.dataset.src = image.url;
 
-  section.append(grid);
+      button.append(thumbnail);
+      strip.append(button);
+    });
+
+    if (images.length > MAX_STRIP_THUMBS) {
+      const moreButton = document.createElement("button");
+      moreButton.type = "button";
+      moreButton.className = "media-view-all";
+      moreButton.dataset.mediaGroupIndex = String(filteredIndex);
+      moreButton.dataset.mediaItemIndex = "0";
+      moreButton.textContent = `View all ${images.length}`;
+      strip.append(moreButton);
+    }
+
+    section.append(strip);
+  }
+
   return section;
 }
 
