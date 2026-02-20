@@ -1850,10 +1850,9 @@ function buildEventRow(event, filteredIndex) {
   const summaryFields = [buildSummaryLocationField(event.location), buildSummaryPeopleField(event.people)];
   fieldGrid.append(...summaryFields);
 
-  summaryText.append(titleRow, fieldGrid);
-
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
+
   const summaryMeta = document.createElement("div");
   summaryMeta.className = "summary-meta";
   const typeBadge = document.createElement("span");
@@ -1866,7 +1865,9 @@ function buildEventRow(event, filteredIndex) {
     timeLabel.textContent = event.timeLabel;
     summaryMeta.append(timeLabel);
   }
-  summaryTop.append(summaryMeta, summaryText);
+
+  summaryText.append(titleRow, summaryMeta, fieldGrid);
+  summaryTop.append(summaryText);
 
   if (event.images.length > 0) {
     const summaryThumbButton = document.createElement("button");

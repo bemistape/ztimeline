@@ -7,7 +7,7 @@
   --muted: #565656;
   --line: #c8c8c8;
   --chip: #e8e8e8;
-  --chip-radius: 8px;
+  --chip-radius: 3px;
   --shadow: 0 14px 30px -22px rgba(0, 0, 0, 0.36);
 }
 
@@ -26,6 +26,7 @@ body {
 body {
   font-family: "Public Sans", "Segoe UI", sans-serif;
   color: var(--ink);
+  overflow-x: clip;
   background:
     radial-gradient(1100px 420px at 100% -25%, #ececec 0%, transparent 64%),
     radial-gradient(760px 360px at -20% 12%, #f3f3f3 0%, transparent 62%),
@@ -99,17 +100,21 @@ body {
   box-shadow: var(--shadow);
 }
 
+.hero-banner {
+  width: 100%;
+  background: #000;
+  overflow: hidden;
+}
+
 .hero-mark {
   display: block;
-  width: min(100vw, 1700px);
-  max-width: min(100vw, 1700px);
+  width: 100%;
+  max-width: none;
   height: auto;
   border-radius: 0;
-  border: 1px solid #242424;
+  border: 0;
   background: #000;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  margin-bottom: 0.82rem;
+  margin: 0;
 }
 
 .eyebrow {
@@ -466,7 +471,7 @@ h1 {
 
 .summary-top {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 0.62rem;
   align-items: start;
 }
@@ -529,7 +534,7 @@ h1 {
 }
 
 .event-item[open] .summary-top {
-  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-columns: 1fr;
 }
 
 .event-title {
@@ -1446,7 +1451,7 @@ h1 {
   }
 
   .summary-top {
-    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) auto;
   }
 
   .timeline-item {
@@ -1541,7 +1546,6 @@ body {
 }
 
 .hero-mark {
-  border-color: #30363d;
   background: #020202;
 }
 
