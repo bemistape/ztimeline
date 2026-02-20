@@ -46,7 +46,6 @@ const dom = {
   modalResetView: document.getElementById("modal-reset-view"),
   modalRotate: document.getElementById("modal-rotate"),
   modalFullscreen: document.getElementById("modal-fullscreen"),
-  modalOpenOriginal: document.getElementById("modal-open-original"),
   recordModal: document.getElementById("record-modal"),
   recordModalClose: document.getElementById("record-modal-close"),
   recordModalKind: document.getElementById("record-modal-kind"),
@@ -1802,19 +1801,14 @@ function buildEventRow(event, filteredIndex) {
     prose.append(description);
   }
 
-  if (event.links.length) {
-    const links = document.createElement("div");
-    links.className = "links-row";
-    event.links.forEach((link) => {
-      const anchor = document.createElement("a");
-      anchor.className = "link-pill";
-      anchor.href = link.url;
-      anchor.target = "_blank";
-      anchor.rel = "noopener noreferrer";
-      anchor.textContent = link.label;
-      links.append(anchor);
-    });
-    prose.append(links);
+  const tagsSection = buildEventTagSection(event.tags);
+  if (tagsSection) {
+    prose.append(tagsSection);
+  }
+
+  const sourcesSection = buildEventSourcesSection(event.links);
+  if (sourcesSection) {
+    prose.append(sourcesSection);
   }
 
   if (event.images.length) {
@@ -2781,6 +2775,75 @@ function buildImageGallery(images, filteredIndex) {
   return section;
 }
 
+function buildEventTagSection(tags) {
+  const cleanTags = uniqueCompact(
+    (tags || [])
+      .map((tag) => cleanTagText(resolveDisplayToken(tag, "tag")))
+      .filter((tag) => isMeaningfulToken(tag))
+  );
+  if (cleanTags.length === 0) {
+    return null;
+  }
+
+  const section = document.createElement("section");
+  section.className = "tag-section event-tag-section";
+
+  const heading = document.createElement("h4");
+  heading.className = "tag-heading";
+  heading.textContent = `TAGS (${cleanTags.length})`;
+  section.append(heading);
+
+  const list = document.createElement("div");
+  list.className = "tag-list";
+  cleanTags.forEach((tag) => {
+    const chip = buildRecordChip(tag, "tag", tag, true);
+    if (chip) {
+      list.append(chip);
+    }
+  });
+  if (list.childElementCount === 0) {
+    return null;
+  }
+  section.append(list);
+  return section;
+}
+
+function buildEventSourcesSection(links) {
+  const cleanLinks = (links || []).filter((link) => sanitizeUrl(link?.url));
+  if (cleanLinks.length === 0) {
+    return null;
+  }
+
+  const section = document.createElement("section");
+  section.className = "sources-section";
+
+  const heading = document.createElement("h4");
+  heading.className = "sources-heading";
+  heading.textContent = "SOURCES";
+  section.append(heading);
+
+  const list = document.createElement("div");
+  list.className = "links-row sources-row";
+  cleanLinks.forEach((link) => {
+    const url = sanitizeUrl(link.url);
+    if (!url) {
+      return;
+    }
+    const anchor = document.createElement("a");
+    anchor.className = "link-pill";
+    anchor.href = url;
+    anchor.target = "_blank";
+    anchor.rel = "noopener noreferrer";
+    anchor.textContent = sanitizeText(link.label) || url;
+    list.append(anchor);
+  });
+  if (list.childElementCount === 0) {
+    return null;
+  }
+  section.append(list);
+  return section;
+}
+
 function resolveRelatedNames(kind, values) {
   const output = [];
   values.forEach((raw) => {
@@ -3164,8 +3227,6 @@ function renderModal() {
   dom.modalNext.hidden = state.modalMedia.length <= 1;
   dom.modalPrev.disabled = state.modalMedia.length <= 1;
   dom.modalNext.disabled = state.modalMedia.length <= 1;
-  dom.modalOpenOriginal.href = item.url;
-  dom.modalOpenOriginal.hidden = !item.url;
   updateModalFullscreenLabel();
 }
 

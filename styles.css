@@ -821,6 +821,11 @@ h1 {
   gap: 0.38rem;
 }
 
+.sources-section {
+  display: grid;
+  gap: 0.34rem;
+}
+
 .images-heading {
   margin: 0;
   font-size: 0.82rem;
@@ -835,6 +840,14 @@ h1 {
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+.sources-heading {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 
 .tag-list {
@@ -984,10 +997,6 @@ h1 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-}
-
-.modal-tool-link {
-  color: #f8f8f8;
 }
 
 .modal-nav {
@@ -1632,6 +1641,7 @@ h1 {
 
 .images-heading,
 .tag-heading,
+.sources-heading,
 .record-section-title,
 .record-modal-kind {
   color: #b8b8bf;
