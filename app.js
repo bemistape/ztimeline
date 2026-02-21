@@ -1247,6 +1247,7 @@ function normalizeEvent(raw, index) {
     description,
     type,
     location,
+    locations: location ? [location] : [],
     locationFallback,
     people,
     peopleFallback,
@@ -1669,9 +1670,13 @@ function populateFilters() {
   const tagCounts = new Map();
 
   state.events.forEach((event) => {
-    if (event.location) {
-      locationCounts.set(event.location, (locationCounts.get(event.location) || 0) + 1);
-    }
+    (event.locations && event.locations.length > 0 ? event.locations : [event.location]).forEach((location) => {
+      const cleanLocation = sanitizeText(location);
+      if (!cleanLocation) {
+        return;
+      }
+      locationCounts.set(cleanLocation, (locationCounts.get(cleanLocation) || 0) + 1);
+    });
     event.people.forEach((person) => {
       peopleCounts.set(person, (peopleCounts.get(person) || 0) + 1);
     });
@@ -1718,7 +1723,11 @@ function applyFilters() {
   const selectedTagKeys = new Set((tags || []).map((value) => normalizeKey(value)));
 
   state.filteredEvents = state.events.filter((event) => {
-    if (selectedLocationKeys.size > 0 && !selectedLocationKeys.has(normalizeKey(event.location))) {
+    const eventLocations = event.locations && event.locations.length > 0 ? event.locations : [event.location];
+    if (
+      selectedLocationKeys.size > 0 &&
+      !eventLocations.some((location) => selectedLocationKeys.has(normalizeKey(location)))
+    ) {
       return false;
     }
     if (selectedPeopleKeys.size > 0 && !event.people.some((person) => selectedPeopleKeys.has(normalizeKey(person)))) {
@@ -1847,7 +1856,11 @@ function buildEventRow(event, filteredIndex) {
 
   const fieldGrid = document.createElement("div");
   fieldGrid.className = "summary-fields";
-  const summaryFields = [buildSummaryLocationField(event.location), buildSummaryPeopleField(event.people)];
+  const summaryFields = [
+    buildSummaryLocationField(event.locations || [event.location]),
+    buildSummaryPeopleField(event.people),
+    buildSummaryTagField(event.tags)
+  ];
   fieldGrid.append(...summaryFields);
 
   const summaryTop = document.createElement("div");
@@ -1902,11 +1915,6 @@ function buildEventRow(event, filteredIndex) {
     prose.append(description);
   }
 
-  const tagsSection = buildEventTagSection(event.tags);
-  if (tagsSection) {
-    prose.append(tagsSection);
-  }
-
   const sourcesSection = buildEventSourcesSection(event.links);
   if (sourcesSection) {
     prose.append(sourcesSection);
@@ -1948,45 +1956,28 @@ function buildSummaryField(label, value) {
   return item;
 }
 
-function buildSummaryLocationField(location) {
-  const item = document.createElement("div");
-  item.className = "summary-field";
-
-  const key = document.createElement("span");
-  key.className = "summary-label";
-  key.textContent = "Location:";
-  item.append(key);
-
-  if (!location) {
-    const empty = document.createElement("span");
-    empty.className = "summary-value";
-    empty.textContent = "-";
-    item.append(empty);
-    return item;
-  }
-
-  const chip = buildRecordChip(location, "location", location, true);
-  if (chip) {
-    item.append(chip);
-    return item;
-  }
-  const fallback = document.createElement("span");
-  fallback.className = "summary-value";
-  fallback.textContent = "-";
-  item.append(fallback);
-  return item;
+function buildSummaryLocationField(locations) {
+  return buildSummaryChipField("Location", locations, "location", 1);
 }
 
 function buildSummaryPeopleField(people) {
+  return buildSummaryChipField("People", people, "person", 2);
+}
+
+function buildSummaryTagField(tags) {
+  return buildSummaryChipField("Tags", tags, "tag", 2);
+}
+
+function buildSummaryChipField(label, values, kind, collapseLimit = 2) {
   const item = document.createElement("div");
   item.className = "summary-field";
 
   const key = document.createElement("span");
   key.className = "summary-label";
-  key.textContent = "People:";
+  key.textContent = `${label}:`;
   item.append(key);
 
-  if (people.length === 0) {
+  if (!Array.isArray(values) || values.length === 0) {
     const empty = document.createElement("span");
     empty.className = "summary-value";
     empty.textContent = "-";
@@ -1997,20 +1988,34 @@ function buildSummaryPeopleField(people) {
   const wrap = document.createElement("span");
   wrap.className = "summary-chip-wrap";
 
-  const visiblePeople = people.slice(0, 2);
-  let renderedPeopleCount = 0;
-  visiblePeople.forEach((person) => {
-    const chip = buildRecordChip(person, "person", person, true);
+  const chips = [];
+  values.forEach((value) => {
+    const chip = buildRecordChip(value, kind, value, true);
     if (chip) {
-      wrap.append(chip);
-      renderedPeopleCount += 1;
+      chips.push(chip);
     }
   });
 
-  if (people.length > renderedPeopleCount) {
+  if (chips.length === 0) {
+    const empty = document.createElement("span");
+    empty.className = "summary-value";
+    empty.textContent = "-";
+    item.append(empty);
+    return item;
+  }
+
+  chips.forEach((chip, index) => {
+    if (index >= collapseLimit) {
+      chip.classList.add("summary-chip-extra");
+    }
+    wrap.append(chip);
+  });
+
+  const hiddenCount = Math.max(0, chips.length - collapseLimit);
+  if (hiddenCount > 0) {
     const overflow = document.createElement("span");
     overflow.className = "summary-overflow";
-    overflow.textContent = `+${people.length - renderedPeopleCount} more`;
+    overflow.textContent = `+${hiddenCount} more`;
     wrap.append(overflow);
   }
 
@@ -2114,8 +2119,9 @@ function firstField(row, fields) {
 function hydrateEventLinkedReferences() {
   state.events = state.events.map((event) => {
     const resolvedLocations = resolveRelatedNames("location", [event.location, event.locationFallback]);
-    const location = resolvedLocations[0] || "";
-    const hasMap = resolvedLocations.some((locationName) => locationHasMap(locationName));
+    const locations = resolvedLocations.length > 0 ? resolvedLocations : event.location ? [event.location] : [];
+    const location = locations[0] || "";
+    const hasMap = locations.some((locationName) => locationHasMap(locationName));
 
     const resolvedPeople = uniqueCompact(event.people.map((person) => resolveLinkedName("person", person)));
     const fallbackPeople = resolveRelatedNames("person", [event.peopleFallback]);
@@ -2125,7 +2131,7 @@ function hydrateEventLinkedReferences() {
         .map((tag) => cleanTagText(resolveLinkedName("tag", tag)))
         .filter((tag) => isMeaningfulToken(tag))
     );
-    const searchableText = [event.searchableText, location, people.join(" "), tags.join(" ")]
+    const searchableText = [event.searchableText, locations.join(" "), people.join(" "), tags.join(" ")]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -2133,6 +2139,7 @@ function hydrateEventLinkedReferences() {
     return {
       ...event,
       location,
+      locations,
       people,
       tags,
       hasMap,
@@ -2579,7 +2586,9 @@ function buildFallbackRecord(kind, name) {
         return event.people.some((person) => normalizeKey(person) === normalizeKey(fallbackName));
       }
       if (kind === "location") {
-        return normalizeKey(event.location) === normalizeKey(fallbackName);
+        return (event.locations || [event.location]).some(
+          (location) => normalizeKey(location) === normalizeKey(fallbackName)
+        );
       }
       if (kind === "tag") {
         return event.tags.some((tag) => normalizeKey(tag) === normalizeKey(fallbackName));
@@ -2873,39 +2882,6 @@ function buildImageGallery(images, filteredIndex) {
     section.append(strip);
   }
 
-  return section;
-}
-
-function buildEventTagSection(tags) {
-  const cleanTags = uniqueCompact(
-    (tags || [])
-      .map((tag) => cleanTagText(resolveDisplayToken(tag, "tag")))
-      .filter((tag) => isMeaningfulToken(tag))
-  );
-  if (cleanTags.length === 0) {
-    return null;
-  }
-
-  const section = document.createElement("section");
-  section.className = "tag-section event-tag-section";
-
-  const heading = document.createElement("h4");
-  heading.className = "tag-heading";
-  heading.textContent = `TAGS (${cleanTags.length})`;
-  section.append(heading);
-
-  const list = document.createElement("div");
-  list.className = "tag-list";
-  cleanTags.forEach((tag) => {
-    const chip = buildRecordChip(tag, "tag", tag, true);
-    if (chip) {
-      list.append(chip);
-    }
-  });
-  if (list.childElementCount === 0) {
-    return null;
-  }
-  section.append(list);
   return section;
 }
 

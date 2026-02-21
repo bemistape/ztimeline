@@ -623,7 +623,7 @@ h1 {
 .summary-fields {
   margin-top: 0.3rem;
   display: grid;
-  grid-template-columns: minmax(190px, 1fr) minmax(220px, 1fr);
+  grid-template-columns: minmax(170px, 1fr) minmax(220px, 1fr) minmax(190px, 1fr);
   gap: 0.3rem 0.7rem;
   align-items: center;
 }
@@ -670,10 +670,27 @@ h1 {
   overflow: hidden;
 }
 
+.summary-chip-extra {
+  display: none;
+}
+
 .summary-overflow {
   color: #5d5d5d;
   font-size: 0.8rem;
   white-space: nowrap;
+}
+
+.event-item[open] .summary-chip-wrap {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+.event-item[open] .summary-chip-extra {
+  display: inline-flex;
+}
+
+.event-item[open] .summary-overflow {
+  display: none;
 }
 
 .filter-chip {
@@ -884,11 +901,6 @@ h1 {
   background: #ececec;
 }
 
-.tag-section {
-  display: grid;
-  gap: 0.38rem;
-}
-
 .sources-section {
   display: grid;
   gap: 0.34rem;
@@ -902,26 +914,12 @@ h1 {
   letter-spacing: 0.08em;
 }
 
-.tag-heading {
-  margin: 0;
-  font-size: 0.82rem;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .sources-heading {
   margin: 0;
   font-size: 0.78rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-}
-
-.tag-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.34rem;
 }
 
 .media-grid {
@@ -1394,6 +1392,11 @@ h1 {
     height: 48px;
   }
 
+  .summary-fields {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.24rem 0.56rem;
+  }
+
   .event-date-badge {
     font-size: 0.68rem;
   }
@@ -1805,7 +1808,6 @@ h1 {
 }
 
 .images-heading,
-.tag-heading,
 .sources-heading,
 .record-section-title,
 .record-modal-kind {
