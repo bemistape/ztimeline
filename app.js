@@ -1865,7 +1865,7 @@ function buildEventRow(event, filteredIndex) {
     typeStrip.append(timeLabel);
   }
 
-  summaryText.append(typeStrip, titleRow, fieldGrid);
+  summaryText.append(titleRow, fieldGrid);
   summaryTop.append(summaryText);
 
   if (event.images.length > 0) {
@@ -1889,7 +1889,7 @@ function buildEventRow(event, filteredIndex) {
     summaryTop.append(summaryThumbButton);
   }
 
-  summary.append(summaryTop);
+  summary.append(typeStrip, summaryTop);
 
   const content = document.createElement("div");
   content.className = "event-content";
