@@ -720,6 +720,16 @@ h1 {
   padding: 0.18rem 0.5rem;
 }
 
+.summary-chip.person-chip {
+  max-width: 260px;
+}
+
+.event-item[open] .summary-chip.person-chip {
+  max-width: none;
+  overflow: visible;
+  text-overflow: clip;
+}
+
 .event-content {
   padding: 0.5rem 0 0.94rem;
   display: grid;

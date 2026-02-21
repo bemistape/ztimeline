@@ -2332,6 +2332,9 @@ function buildPersonIndex(csvText, eventNameLookup) {
       )
     ].filter((item) => item.type !== "pdf");
 
+    const extendedName = sanitizeText(firstField(row, ["Extended Name"]));
+    const showExtendedName = extendedName && normalizeKey(extendedName) !== normalizeKey(name);
+
     index.set(normalizeKey(name), {
       kind: "person",
       name,
@@ -2354,6 +2357,7 @@ function buildPersonIndex(csvText, eventNameLookup) {
       },
       relatedEvents: resolveRelatedEvents(parseList(row["Related Events"]), eventNameLookup),
       details: [
+        makeDetail("Extended Name", showExtendedName ? extendedName : ""),
         makeDetail("Born", row["Date of Birth"]),
         makeDetail("Died", row["Date of Death"]),
         makeDetail("Home / HQ", row["Home / Headquarters"], "location")
@@ -3298,8 +3302,9 @@ function renderModal() {
   dom.modalImage.src = item.url;
   dom.modalImage.alt = label;
   dom.modalImage.draggable = false;
-  dom.modalCaption.textContent =
-    state.modalMedia.length > 1 ? `${label} (${state.modalIndex + 1}/${state.modalMedia.length})` : label;
+  const captionText = state.modalMedia.length > 1 ? `${state.modalIndex + 1}/${state.modalMedia.length}` : "";
+  dom.modalCaption.textContent = captionText;
+  dom.modalCaption.hidden = !captionText;
   dom.modalPrev.hidden = state.modalMedia.length <= 1;
   dom.modalNext.hidden = state.modalMedia.length <= 1;
   dom.modalPrev.disabled = state.modalMedia.length <= 1;
