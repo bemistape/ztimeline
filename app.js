@@ -1220,6 +1220,12 @@ function normalizeEvent(raw, index) {
   const locationFallback = sanitizeText(raw["All Related Locations"] || "");
   const peopleFallback = sanitizeText(raw["All Related People Names"] || "");
   const tags = parseList(raw.Tags);
+  const googleMapsUrl = firstValidUrl([
+    raw["Google Maps"],
+    raw["Google Maps URL"],
+    raw["Primary Google Maps"],
+    raw["Map URL"]
+  ]);
   const description = raw.Description || "";
   const type = sanitizeText(raw.Type || "") || "Uncategorized";
   const links = parseSourceLinks(raw.Sources).filter((link) => !isPdfUrl(link.url) && !isAirtableAttachmentUrl(link.url));
@@ -1257,6 +1263,7 @@ function normalizeEvent(raw, index) {
     timeLabel,
     sortTime: beginningDate ? beginningDate.getTime() + timeMinutes * 60_000 : Number.POSITIVE_INFINITY,
     hasMap: false,
+    googleMapsUrl,
     images,
     links,
     searchableText
@@ -1389,6 +1396,23 @@ function parseUrls(value) {
   const found = value.match(/https?:\/\/[^\s,•]+/g) || [];
   const normalized = found.map((url) => url.replace(/[).,;]+$/g, ""));
   return [...new Set(normalized)];
+}
+
+function firstValidUrl(values) {
+  for (const value of values || []) {
+    const direct = sanitizeUrl(value);
+    if (direct) {
+      return direct;
+    }
+    const parsed = parseUrls(String(value || ""));
+    for (const candidate of parsed) {
+      const clean = sanitizeUrl(candidate);
+      if (clean) {
+        return clean;
+      }
+    }
+  }
+  return "";
 }
 
 function parseSourceLinks(value) {
@@ -1860,8 +1884,10 @@ function buildEventRow(event, filteredIndex) {
     buildSummaryLocationField(event.locations || [event.location]),
     buildSummaryPeopleField(event.people),
     buildSummaryTagField(event.tags)
-  ];
-  fieldGrid.append(...summaryFields);
+  ].filter(Boolean);
+  if (summaryFields.length > 0) {
+    fieldGrid.append(...summaryFields);
+  }
 
   const summaryTop = document.createElement("div");
   summaryTop.className = "summary-top";
@@ -1878,7 +1904,11 @@ function buildEventRow(event, filteredIndex) {
     typeStrip.append(timeLabel);
   }
 
-  summaryText.append(titleRow, fieldGrid);
+  if (summaryFields.length > 0) {
+    summaryText.append(titleRow, fieldGrid);
+  } else {
+    summaryText.append(titleRow);
+  }
   summaryTop.append(summaryText);
 
   if (event.images.length > 0) {
@@ -1935,6 +1965,11 @@ function buildEventRow(event, filteredIndex) {
     content.append(prose);
   }
 
+  const eventMapSection = buildEventMapSection(event.googleMapsUrl);
+  if (eventMapSection) {
+    content.append(eventMapSection);
+  }
+
   details.append(summary, content);
   row.append(details);
   return row;
@@ -1975,14 +2010,9 @@ function buildSummaryChipField(label, values, kind, collapseLimit = 2) {
   const key = document.createElement("span");
   key.className = "summary-label";
   key.textContent = `${label}:`;
-  item.append(key);
 
   if (!Array.isArray(values) || values.length === 0) {
-    const empty = document.createElement("span");
-    empty.className = "summary-value";
-    empty.textContent = "-";
-    item.append(empty);
-    return item;
+    return null;
   }
 
   const wrap = document.createElement("span");
@@ -1997,11 +2027,7 @@ function buildSummaryChipField(label, values, kind, collapseLimit = 2) {
   });
 
   if (chips.length === 0) {
-    const empty = document.createElement("span");
-    empty.className = "summary-value";
-    empty.textContent = "-";
-    item.append(empty);
-    return item;
+    return null;
   }
 
   chips.forEach((chip, index) => {
@@ -2019,7 +2045,7 @@ function buildSummaryChipField(label, values, kind, collapseLimit = 2) {
     wrap.append(overflow);
   }
 
-  item.append(wrap);
+  item.append(key, wrap);
   return item;
 }
 
@@ -2318,7 +2344,7 @@ function rowsFromOptionalCsv(csvText) {
 function buildPersonIndex(csvText, eventNameLookup) {
   const index = new Map();
   rowsFromOptionalCsv(csvText).forEach((row) => {
-    const name = sanitizeText(row["Full Name"]);
+    const name = sanitizeText(firstField(row, ["Full Name", "Person", "Name"]));
     if (!name) {
       return;
     }
@@ -2335,7 +2361,7 @@ function buildPersonIndex(csvText, eventNameLookup) {
     const extendedName = sanitizeText(firstField(row, ["Extended Name"]));
     const showExtendedName = extendedName && normalizeKey(extendedName) !== normalizeKey(name);
 
-    index.set(normalizeKey(name), {
+    const record = {
       kind: "person",
       name,
       slug: sanitizeText(row.Slug),
@@ -2362,9 +2388,75 @@ function buildPersonIndex(csvText, eventNameLookup) {
         makeDetail("Died", row["Date of Death"]),
         makeDetail("Home / HQ", row["Home / Headquarters"], "location")
       ].filter(Boolean)
+    };
+
+    const aliases = collectPersonAliases({ row, name, extendedName });
+    aliases.forEach((alias) => {
+      const key = normalizeKey(alias);
+      if (!key) {
+        return;
+      }
+      if (!index.has(key) || key === normalizeKey(name)) {
+        index.set(key, record);
+      }
     });
   });
   return index;
+}
+
+function collectPersonAliases({ row, name, extendedName }) {
+  const rawValues = [
+    name,
+    extendedName,
+    sanitizeText(row.Person),
+    sanitizeText(row.Name),
+    ...parseList(row.Aliases),
+    ...parseList(row.Alias),
+    ...parseList(row["Also Known As"]),
+    ...parseList(row.AKA),
+    ...parseList(row["Alternate Names"])
+  ];
+
+  const variants = [];
+  rawValues.forEach((value) => {
+    expandPersonAliasVariants(value).forEach((alias) => {
+      variants.push(alias);
+    });
+  });
+  return uniqueCompact(variants);
+}
+
+function expandPersonAliasVariants(value) {
+  const clean = sanitizeText(value);
+  if (!clean) {
+    return [];
+  }
+  const variants = new Set([clean]);
+  const withoutParens = sanitizeText(clean.replace(/[()]/g, " ").replace(/\s+/g, " "));
+  if (withoutParens && withoutParens !== clean) {
+    variants.add(withoutParens);
+  }
+
+  const parenMatch = clean.match(/^([^\s(]+)\s+\(([^)]+)\)\s+(.+)$/);
+  if (parenMatch) {
+    const first = sanitizeText(parenMatch[1]);
+    const middle = sanitizeText(parenMatch[2]);
+    const rest = sanitizeText(parenMatch[3]);
+    if (first && middle) {
+      variants.add(`${first} ${middle}`);
+    }
+    const restLast = sanitizeText(rest.split(/\s+/).slice(-1)[0]);
+    if (first && middle && restLast) {
+      variants.add(`${first} ${middle} ${restLast}`);
+    }
+  }
+
+  const tokens = (withoutParens || clean).split(/\s+/).filter(Boolean);
+  if (tokens.length >= 2) {
+    variants.add(`${tokens[0]} ${tokens[1]}`);
+  }
+
+  return [...variants];
 }
 
 function buildLocationIndex(csvText, eventNameLookup) {
@@ -2512,7 +2604,9 @@ function openRecordModal(kind, name) {
   }
   const lookup = state.related[kind];
   const lookupKey = resolveRecordLookupKey(kind, name);
-  const record = lookup ? lookup.get(lookupKey) || buildFallbackRecord(kind, name) : buildFallbackRecord(kind, name);
+  const directRecord = lookup ? lookup.get(lookupKey) : null;
+  const loosePersonRecord = !directRecord && kind === "person" && lookup ? findLoosePersonRecord(lookup, name) : null;
+  const record = directRecord || loosePersonRecord || buildFallbackRecord(kind, name);
 
   state.recordModalImages = record.images;
   state.recordModalRelatedEvents = uniqueCompact(
@@ -2559,12 +2653,17 @@ function openRecordModal(kind, name) {
     content.append(details);
   }
 
-  if (record.images.length) {
-    content.append(buildRecordImageSection(record.images));
-  }
-
   if (record.kind === "location" && record.mapEmbedUrl) {
     content.append(buildRecordMapSection(record.mapEmbedUrl, record.mapOpenUrl));
+  }
+
+  if (record.images.length) {
+    content.append(
+      buildRecordImageSection(record.images, {
+        showLabels: record.kind !== "location",
+        fullWidth: record.kind === "location"
+      })
+    );
   }
 
   if (record.downloads.length) {
@@ -2577,6 +2676,55 @@ function openRecordModal(kind, name) {
   state.route.recordKind = VALID_RECORD_KINDS.has(kind) ? kind : "";
   state.route.recordName = dom.recordModalTitle.textContent;
   syncUrlState();
+}
+
+function findLoosePersonRecord(lookup, inputName) {
+  const target = normalizeKey(inputName);
+  if (!target) {
+    return null;
+  }
+
+  const targetTokens = new Set(target.split(/\s+/).filter(Boolean));
+  if (targetTokens.size === 0) {
+    return null;
+  }
+
+  let bestRecord = null;
+  let bestScore = 0;
+  lookup.forEach((record, key) => {
+    if (!key) {
+      return;
+    }
+    if (key === target) {
+      bestRecord = record;
+      bestScore = 1;
+      return;
+    }
+
+    let score = 0;
+    if (key.includes(target) || target.includes(key)) {
+      score = 0.9;
+    } else {
+      const keyTokens = key.split(/\s+/).filter(Boolean);
+      if (keyTokens.length === 0) {
+        return;
+      }
+      let overlap = 0;
+      keyTokens.forEach((token) => {
+        if (targetTokens.has(token)) {
+          overlap += 1;
+        }
+      });
+      score = overlap / Math.max(keyTokens.length, targetTokens.size);
+    }
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestRecord = record;
+    }
+  });
+
+  return bestScore >= 0.66 ? bestRecord : null;
 }
 
 function buildFallbackRecord(kind, name) {
@@ -2660,21 +2808,28 @@ function buildRecordConnectionsSection(relatedRecords) {
   return section;
 }
 
-function buildRecordImageSection(images) {
+function buildRecordImageSection(images, options = {}) {
+  const { showLabels = true, fullWidth = false } = options;
   const section = document.createElement("section");
   section.className = "record-section";
 
   const heading = document.createElement("h3");
   heading.className = "record-section-title";
-  heading.textContent = `Images (${images.length})`;
+  heading.textContent = "Images";
   section.append(heading);
 
   const grid = document.createElement("div");
   grid.className = "record-image-grid";
+  if (fullWidth) {
+    grid.classList.add("record-image-grid-full");
+  }
   images.forEach((image, index) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "record-image-button";
+    if (fullWidth) {
+      button.classList.add("record-image-button-full");
+    }
     button.dataset.recordMediaIndex = String(index);
 
     const thumbnail = document.createElement("img");
@@ -2682,11 +2837,13 @@ function buildRecordImageSection(images) {
     thumbnail.src = image.url;
     thumbnail.alt = image.label;
 
-    const label = document.createElement("span");
-    label.className = "record-image-label";
-    label.textContent = image.label;
-
-    button.append(thumbnail, label);
+    button.append(thumbnail);
+    if (showLabels) {
+      const label = document.createElement("span");
+      label.className = "record-image-label";
+      label.textContent = image.label;
+      button.append(label);
+    }
     grid.append(button);
   });
   section.append(grid);
@@ -2845,11 +3002,6 @@ function buildImageGallery(images, filteredIndex) {
   primary.append(primaryImage);
   section.append(primary);
 
-  const meta = document.createElement("div");
-  meta.className = "media-meta";
-  meta.textContent = `${images.length} ${images.length === 1 ? "image" : "images"}`;
-  section.append(meta);
-
   if (images.length > 1) {
     const strip = document.createElement("div");
     strip.className = "media-thumb-strip";
@@ -2922,6 +3074,31 @@ function buildEventSourcesSection(links) {
     return null;
   }
   section.append(list);
+  return section;
+}
+
+function buildEventMapSection(mapUrl) {
+  const cleanUrl = sanitizeUrl(mapUrl);
+  if (!cleanUrl) {
+    return null;
+  }
+
+  const section = document.createElement("section");
+  section.className = "event-map-section";
+
+  const heading = document.createElement("h4");
+  heading.className = "event-map-heading";
+  heading.textContent = "Map";
+  section.append(heading);
+
+  const link = document.createElement("a");
+  link.className = "event-map-link";
+  link.href = cleanUrl;
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+  link.textContent = "Open in Google Maps";
+  section.append(link);
+
   return section;
 }
 

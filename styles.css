@@ -922,6 +922,11 @@ h1 {
   gap: 0.34rem;
 }
 
+.event-map-section {
+  display: grid;
+  gap: 0.3rem;
+}
+
 .images-heading {
   margin: 0;
   font-size: 0.82rem;
@@ -931,6 +936,14 @@ h1 {
 }
 
 .sources-heading {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.event-map-heading {
   margin: 0;
   font-size: 0.78rem;
   color: var(--muted);
@@ -1300,6 +1313,10 @@ h1 {
   gap: 0.5rem;
 }
 
+.record-image-grid-full {
+  grid-template-columns: 1fr;
+}
+
 .record-image-button {
   appearance: none;
   border: 1px solid #b8b8b8;
@@ -1317,6 +1334,10 @@ h1 {
   object-fit: contain;
   display: block;
   background: #f0f0f0;
+}
+
+.record-image-button-full img {
+  height: clamp(220px, 44vh, 520px);
 }
 
 .record-image-label {
@@ -1338,6 +1359,13 @@ h1 {
 }
 
 .record-map-link {
+  justify-self: start;
+  color: #1a1a1a;
+  text-decoration: underline;
+  font-size: 0.84rem;
+}
+
+.event-map-link {
   justify-self: start;
   color: #1a1a1a;
   text-decoration: underline;
@@ -1838,8 +1866,13 @@ h1 {
   color: #9cc6ff;
 }
 
+.event-map-link {
+  color: #9cc6ff;
+}
+
 .images-heading,
 .sources-heading,
+.event-map-heading,
 .record-section-title,
 .record-modal-kind {
   color: #b8b8bf;
