@@ -1,11 +1,12 @@
 import { buildEmptyState, escapeHtml, normalizeKey } from "../utils.js";
-import { kindHeading, renderArchiveCard, renderSectionHeader } from "./components.js";
+import { kindHeading, renderArchiveCard, renderSectionHeader, renderSectionList } from "./components.js";
 
 export function renderDirectory({ view, payload, route }) {
   if (!payload) {
     return `<section class="loading-state"><p>Loading ${escapeHtml(kindHeading(view).toLowerCase())}…</p></section>`;
   }
   const items = filterItems(payload.items || [], route.filters.q);
+  const mappedLocations = view === "locations" ? items.filter((item) => item.mapOpenUrl).slice(0, 8) : [];
   return `
     <section class="directory-view">
       ${renderSectionHeader({
@@ -30,6 +31,21 @@ export function renderDirectory({ view, payload, route }) {
         </label>
         <p class="directory-count">${escapeHtml(String(items.length))} visible</p>
       </section>
+      ${
+        mappedLocations.length
+          ? `
+            <section class="overview-panel directory-map-panel">
+              ${renderSectionHeader({
+                kicker: "Mapped sites",
+                title: "Geographic anchors",
+                copy: "These location records retain direct map links so you can move between the archive and the underlying geography quickly.",
+                level: 2,
+              })}
+              ${renderSectionList(mappedLocations, "location", { showMapLinks: true })}
+            </section>
+          `
+          : ""
+      }
       ${
         items.length
           ? `

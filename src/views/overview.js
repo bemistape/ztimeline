@@ -1,4 +1,4 @@
-import { renderArchiveCard, renderSectionCard, renderSectionHeader, renderSectionList } from "./components.js";
+import { renderSectionCard, renderSectionHeader, renderSectionList } from "./components.js";
 import { escapeHtml } from "../utils.js";
 
 export function renderOverview({ shell, overview }) {
@@ -9,6 +9,7 @@ export function renderOverview({ shell, overview }) {
   const featuredPeople = overview.featuredPeople || [];
   const featuredLocations = overview.featuredLocations || [];
   const featuredTags = overview.featuredTags || [];
+  const mappedLocations = overview.mappedLocations || [];
   return `
     <section class="overview-view">
       <section class="hero-card">
@@ -27,92 +28,132 @@ export function renderOverview({ shell, overview }) {
           ${renderStat("People", stats.people)}
           ${renderStat("Locations", stats.locations)}
           ${renderStat("Tags", stats.tags)}
-          ${renderStat("Images", stats.images)}
+          ${renderStat("Mapped Sites", stats.mappedSites)}
           ${renderStat("Span", stats.years?.start && stats.years?.end ? `${stats.years.start}–${stats.years.end}` : "n/a")}
         </div>
       </section>
 
-      <section class="overview-grid">
-        ${overview.entryPoints
-          .map((entry) =>
-            renderSectionCard({
-              kicker: "Start here",
-              title: entry.title,
-              copy: entry.description,
-              actionView: entry.view,
-              actionLabel: `Open ${entry.title}`,
-            })
-          )
-          .join("")}
-      </section>
-
-      <section class="overview-split">
-        <article class="overview-panel">
+      <section class="overview-compass">
+        <article class="overview-panel overview-panel-wide">
           ${renderSectionHeader({
-            kicker: "Most active years",
-            title: "Where the archive is densest",
-            copy: "Jump into the years with the most linked activity.",
+            kicker: "Quick ways in",
+            title: "Start with chronology, then branch out",
+            copy: "Use years and event types to enter the archive quickly, then move into the supporting directories when you need more context.",
+            level: 2,
           })}
-          <div class="overview-year-row">
-            ${(overview.featuredYears || [])
-              .map(
-                (item) => `
-                  <button class="overview-year-pill" type="button" data-jump-year="${escapeHtml(String(item.value))}">
-                    <strong>${escapeHtml(String(item.value))}</strong>
-                    <span>${escapeHtml(String(item.count))}</span>
-                  </button>
-                `
+          <div class="overview-action-grid">
+            ${overview.entryPoints
+              .map((entry) =>
+                renderSectionCard({
+                  kicker: entry.view === "timeline" ? "Chronology" : "Directory",
+                  title: entry.title,
+                  copy: entry.description,
+                  actionView: entry.view,
+                  actionLabel: `Open ${entry.title}`,
+                })
               )
               .join("")}
+          </div>
+          <div class="overview-quick-grid">
+            <div class="overview-quick-block">
+              <p class="section-kicker">Most active years</p>
+              <div class="overview-year-row">
+                ${(overview.featuredYears || [])
+                  .map(
+                    (item) => `
+                      <button class="overview-year-pill" type="button" data-jump-year="${escapeHtml(String(item.value))}">
+                        <strong>${escapeHtml(String(item.value))}</strong>
+                        <span>${escapeHtml(String(item.count))}</span>
+                      </button>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </div>
+            <div class="overview-quick-block">
+              <p class="section-kicker">Common event types</p>
+              <div class="overview-type-row">
+                ${(overview.featuredTypes || [])
+                  .map(
+                    (item) => `
+                      <button class="meta-pill is-button" type="button" data-apply-type="${escapeHtml(item.value)}">
+                        ${escapeHtml(item.value)}
+                        <span>${escapeHtml(String(item.count))}</span>
+                      </button>
+                    `
+                  )
+                  .join("")}
+              </div>
+            </div>
           </div>
         </article>
         <article class="overview-panel">
           ${renderSectionHeader({
-            kicker: "Event types",
-            title: "Common archive lenses",
-            copy: "Use these as fast paths into the timeline.",
+            kicker: "Mapped sites",
+            title: "Locations you can open spatially",
+            copy: "These records have direct map links and work well as geographic anchors when you want to move out of the chronology.",
+            level: 2,
           })}
-          <div class="overview-type-row">
-            ${(overview.featuredTypes || [])
-              .map(
-                (item) => `
-                  <button class="meta-pill is-button" type="button" data-apply-type="${escapeHtml(item.value)}">
-                    ${escapeHtml(item.value)}
-                    <span>${escapeHtml(String(item.count))}</span>
-                  </button>
-                `
-              )
-              .join("")}
+          ${mappedLocations.length
+            ? renderSectionList(mappedLocations.slice(0, 8), "location", { showMapLinks: true })
+            : "<p>No map-enabled locations are available in this build.</p>"}
+          <div class="overview-panel-action">
+            <button class="section-card-action" type="button" data-nav-view="locations">Browse all locations</button>
           </div>
         </article>
       </section>
 
-      <section class="overview-showcase">
+      <section class="overview-grid overview-grid-wide">
+        ${renderSectionCard({
+          kicker: "People",
+          title: "Connected records",
+          copy: "Open the people and organizations that tie into the largest set of related events.",
+          actionView: "people",
+          actionLabel: "Browse people",
+        })}
+        ${renderSectionCard({
+          kicker: "Locations",
+          title: "Places and scenes",
+          copy: "Locations now keep map access visible and group the related people, events, and notes around each place.",
+          actionView: "locations",
+          actionLabel: "Browse locations",
+        })}
+        ${renderSectionCard({
+          kicker: "Tags",
+          title: "Themes and clusters",
+          copy: "Tags work best as a browse layer over evidence, crimes, suspects, communications, and recurring motifs.",
+          actionView: "tags",
+          actionLabel: "Browse tags",
+        })}
+      </section>
+
+      <section class="overview-directory-grid">
         <article class="overview-panel">
           ${renderSectionHeader({
             kicker: "People",
-            title: "Most connected records",
-            copy: "Open the people that tie into the greatest number of linked events.",
+            title: "Most connected first",
+            copy: "These records link into the broadest set of events.",
+            level: 2,
           })}
-          <div class="overview-card-grid">
-            ${featuredPeople.slice(0, 3).map((item) => renderArchiveCard(item, { compact: true, actionLabel: "Open person" })).join("")}
-          </div>
+          ${renderSectionList(featuredPeople.slice(0, 6), "person")}
         </article>
         <article class="overview-panel">
           ${renderSectionHeader({
             kicker: "Locations",
-            title: "Places worth opening first",
-            copy: "Locations are presented as browse-first records, even when notes are sparse.",
+            title: "Most connected places",
+            copy: "Place records with the highest event density rise to the top.",
+            level: 2,
           })}
-          ${renderSectionList(featuredLocations.slice(0, 8), "location")}
+          ${renderSectionList(featuredLocations.slice(0, 6), "location", { showMapLinks: true })}
         </article>
         <article class="overview-panel">
           ${renderSectionHeader({
             kicker: "Tags",
-            title: "Thematic browse layer",
-            copy: "Tags connect events, records, and source clusters without losing the underlying detail.",
+            title: "High-signal thematic tags",
+            copy: "These tag records provide strong entry points into clusters of events and documents.",
+            level: 2,
           })}
-          ${renderSectionList(featuredTags.slice(0, 8), "tag")}
+          ${renderSectionList(featuredTags.slice(0, 6), "tag")}
         </article>
       </section>
     </section>

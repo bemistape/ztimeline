@@ -689,7 +689,7 @@ function scrollToEvent(eventId) {
   requestAnimationFrame(() => {
     const button = document.querySelector(`[data-open-event="${CSS.escape(eventId)}"]`);
     if (button instanceof HTMLElement) {
-      button.closest(".archive-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
+      button.closest("[data-event-card], .archive-card")?.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   });
 }

@@ -49,6 +49,7 @@ DERIVATIVE_SOURCE_EXTENSIONS = {"jpg", "jpeg", "png", "webp", "bmp"}
 BLOCKED_MEDIA_EXTENSIONS = {"tif", "tiff"}
 PDF_EXTENSIONS = {"pdf"}
 UNKNOWN_TIME_MINUTES = 24 * 60 + 1
+STRUCTURED_TEXT_KEYS = {"value", "state", "isStale", "errorType", "specialValue"}
 
 
 @dataclass(frozen=True)
@@ -241,6 +242,28 @@ def normalize_key(value: Any) -> str:
     return normalize_text(value).lower()
 
 
+def clean_structured_text(value: Any) -> str:
+    text = normalize_text(value)
+    if not text or not text.startswith("{"):
+        return text
+    try:
+        payload = json.loads(text)
+    except json.JSONDecodeError:
+        return text
+    if not isinstance(payload, dict) or not STRUCTURED_TEXT_KEYS.intersection(payload):
+        return text
+    inner_value = payload.get("value")
+    if isinstance(inner_value, str):
+        return normalize_text(inner_value)
+    if payload.get("specialValue") is not None:
+        return ""
+    if payload.get("state") in {"error", "empty"}:
+        return ""
+    if payload.get("errorType"):
+        return ""
+    return ""
+
+
 def slugify(value: Any) -> str:
     text = normalize_key(value)
     text = re.sub(r"[^a-z0-9]+", "-", text)
@@ -354,6 +377,14 @@ def pick_first(row: dict[str, str], fields: list[str]) -> str:
     return ""
 
 
+def pick_first_clean(row: dict[str, str], fields: list[str]) -> str:
+    for field in fields:
+        value = clean_structured_text(row.get(field))
+        if value:
+            return value
+    return ""
+
+
 def build_summary_lookup(rows: list[dict[str, str]], *, name_fields: list[str], slug_fields: list[str]) -> dict[str, dict[str, str]]:
     lookup: dict[str, dict[str, str]] = {}
     for row in rows:
@@ -406,6 +437,19 @@ def resolve_reference_list(raw_values: list[str], lookup: dict[str, dict[str, st
             seen.add(dedupe_key)
             output.append({"id": "", "name": item, "slug": slug})
     return output
+
+
+def resolve_reference_field(value: Any, lookup: dict[str, dict[str, str]]) -> str:
+    text = clean_structured_text(value)
+    if not text:
+        return ""
+    tokens = parse_list(text)
+    if not tokens:
+        return text
+    name_index = build_name_index(lookup)
+    if any(is_record_id(token) for token in tokens) or all(normalize_key(token) in name_index for token in tokens):
+        return ", ".join(item["name"] for item in resolve_reference_list([text], lookup))
+    return text
 
 
 def parse_source_links(value: Any) -> list[dict[str, str]]:
@@ -576,7 +620,7 @@ def format_date_label(parsed: datetime | None) -> str:
 
 
 def markdown_excerpt(text: str, limit: int = 220) -> str:
-    clean = re.sub(r"\s+", " ", normalize_text(text))
+    clean = re.sub(r"\s+", " ", clean_structured_text(text))
     if len(clean) <= limit:
         return clean
     return clean[: limit - 1].rstrip() + "…"
@@ -606,8 +650,8 @@ def build_events(
             if infer_attachment_type(item["url"]) == "image"
         ]
         sources = [item for item in parse_source_links(row.get("Sources")) if not item["url"].startswith("data/media/")]
-        description = normalize_text(row.get("Description"))
-        event_type = normalize_text(row.get("Type")) or "Uncategorized"
+        description = pick_first_clean(row, ["Description"])
+        event_type = pick_first_clean(row, ["Type"]) or "Uncategorized"
         year = parsed_date.year if parsed_date else safe_int(row.get("Event Year"))
         searchable = " ".join(
             filter(
@@ -704,14 +748,14 @@ def build_people(
             ],
             people_lookup,
         )
-        summary = pick_first(row, ["Short Bio", "Biography"])
+        summary = pick_first_clean(row, ["Short Bio", "Biography"])
         people.append(
             {
                 "id": record_id,
                 "slug": pick_first(row, ["Slug"]) or slugify(name),
                 "kind": "person",
                 "title": name,
-                "subtitle": pick_first(row, ["Role in Case"]),
+                "subtitle": pick_first_clean(row, ["Role in Case"]),
                 "summary": summary,
                 "excerpt": markdown_excerpt(summary),
                 "aliases": aliases,
@@ -719,10 +763,10 @@ def build_people(
                 "primaryImage": images[0] if images else None,
                 "facts": build_facts(
                     {
-                        "Extended Name": pick_first(row, ["Extended Name"]),
-                        "Born": pick_first(row, ["Date of Birth"]),
-                        "Died": pick_first(row, ["Date of Death"]),
-                        "Home / HQ": pick_first(row, ["Home / Headquarters"]),
+                        "Extended Name": pick_first_clean(row, ["Extended Name"]),
+                        "Born": pick_first_clean(row, ["Date of Birth"]),
+                        "Died": pick_first_clean(row, ["Date of Death"]),
+                        "Home / HQ": resolve_reference_field(row.get("Home / Headquarters"), location_lookup),
                     }
                 ),
                 "relatedEvents": related_events,
@@ -774,15 +818,15 @@ def build_locations(
                 "slug": pick_first(row, ["Slug"]) or slugify(title),
                 "kind": "location",
                 "title": title,
-                "subtitle": pick_first(row, ["Type"]),
-                "summary": pick_first(row, ["Notes"]),
-                "excerpt": markdown_excerpt(pick_first(row, ["Notes"])),
+                "subtitle": pick_first_clean(row, ["Type"]),
+                "summary": pick_first_clean(row, ["Notes"]),
+                "excerpt": markdown_excerpt(pick_first_clean(row, ["Notes"])),
                 "images": images,
                 "primaryImage": images[0] if images else None,
                 "facts": build_facts(
                     {
-                        "Address": pick_first(row, ["Address"]),
-                        "Located Within": pick_first(row, ["Located Within"]),
+                        "Address": pick_first_clean(row, ["Address"]),
+                        "Located Within": resolve_reference_field(row.get("Located Within"), location_lookup),
                     }
                 ),
                 "relatedEvents": resolve_reference_list([row.get("Events", "")], event_lookup),
@@ -809,8 +853,8 @@ def build_locations(
                         None,
                         [
                             title,
-                            pick_first(row, ["Type"]),
-                            pick_first(row, ["Notes"]),
+                            pick_first_clean(row, ["Type"]),
+                            pick_first_clean(row, ["Notes"]),
                             " ".join(item["name"] for item in resolve_reference_list([row.get("People / Orgs Linked To", "")], people_lookup)),
                         ],
                     )
@@ -835,8 +879,8 @@ def build_tags(
         title = pick_first(row, ["Tag", "Name"])
         if not record_id or not title:
             continue
-        summary = pick_first(row, ["Summary", "AI: Summary Analysis"])
-        subtitle = pick_first(row, ["Tagged Under", "AI: Information Category (Detailed)"])
+        summary = pick_first_clean(row, ["Summary", "AI: Summary Analysis"])
+        subtitle = pick_first_clean(row, ["AI: Information Category (Detailed)"]) or resolve_reference_field(row.get("Tagged Under"), tag_lookup)
         images = [
             media_builder.asset_for(item["url"], item["label"])
             for item in parse_attachment_field(row.get("Document Images"))
@@ -857,14 +901,14 @@ def build_tags(
                 "excerpt": markdown_excerpt(summary),
                 "images": images,
                 "primaryImage": images[0] if images else None,
-                "facts": build_facts({"Date": pick_first(row, ["Date"])}),
+                "facts": build_facts({"Date": pick_first_clean(row, ["Date"])}),
                 "relatedEvents": related_events,
                 "relatedPeople": resolve_reference_list([row.get("Related People", ""), row.get("Related People Names", "")], people_lookup),
                 "relatedLocations": resolve_reference_list([row.get("Locations", "")], location_lookup),
                 "relatedTags": resolve_reference_list([row.get("Tagged Under", "")], tag_lookup),
                 "downloads": build_download_links([("Documents", row.get("Related Documents"))]),
                 "relatedEventCount": len(related_events),
-                "searchText": " ".join([title, subtitle, summary]),
+                "searchText": " ".join(filter(None, [title, subtitle, summary])),
             }
         )
     return sorted(tags, key=lambda item: (-item["relatedEventCount"], normalize_key(item["title"])))
@@ -883,7 +927,12 @@ def build_download_links(definitions: list[tuple[str, Any]]) -> list[dict[str, s
 
 
 def build_facts(facts: dict[str, str]) -> list[dict[str, str]]:
-    return [{"label": label, "value": value} for label, value in facts.items() if normalize_text(value)]
+    output: list[dict[str, str]] = []
+    for label, value in facts.items():
+        clean_value = clean_structured_text(value)
+        if clean_value:
+            output.append({"label": label, "value": clean_value})
+    return output
 
 
 def build_coordinate_map_url(latitude: Any, longitude: Any) -> str:
@@ -1037,6 +1086,7 @@ def build_overview_payload(
     year_counts = Counter(item["year"] for item in events if item.get("year"))
     type_counts = Counter(item["type"] for item in events if item.get("type"))
     image_count = sum(len(item.get("images", [])) for item in [*events, *people, *locations, *tags])
+    mapped_locations = [item for item in locations if item.get("mapOpenUrl")]
     years = sorted(year_counts.keys())
     return {
         "generatedAt": shell["freshness"].get("generatedAt", ""),
@@ -1046,6 +1096,7 @@ def build_overview_payload(
             "locations": len(locations),
             "tags": len(tags),
             "images": image_count,
+            "mappedSites": len(mapped_locations),
             "years": {
                 "start": years[0] if years else None,
                 "end": years[-1] if years else None,
@@ -1056,6 +1107,7 @@ def build_overview_payload(
         "featuredPeople": [strip_record_for_overview(item) for item in people[:6]],
         "featuredLocations": [strip_record_for_overview(item) for item in locations[:6]],
         "featuredTags": [strip_record_for_overview(item) for item in tags[:6]],
+        "mappedLocations": [strip_record_for_overview(item) for item in mapped_locations[:8]],
         "freshness": {
             "label": shell["freshness"].get("generatedLabel", ""),
             "syncMode": shell["freshness"].get("syncMode", ""),
@@ -1099,6 +1151,7 @@ def strip_record_for_overview(item: dict[str, Any]) -> dict[str, Any]:
         "excerpt": item.get("excerpt", ""),
         "relatedEventCount": item.get("relatedEventCount", 0),
         "primaryImage": item.get("primaryImage"),
+        "mapOpenUrl": item.get("mapOpenUrl") or item.get("mapUrl", ""),
     }
 
 

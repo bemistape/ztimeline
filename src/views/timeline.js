@@ -1,5 +1,5 @@
 import { buildEmptyState, escapeHtml, flattenRefs, normalizeKey } from "../utils.js";
-import { renderArchiveCard, renderFacetMenu, renderFilterChips, renderSectionHeader } from "./components.js";
+import { renderFacetMenu, renderFilterChips, renderSectionHeader, renderTimelineEventCard } from "./components.js";
 
 export function renderTimeline({ eventsData, route, ui }) {
   if (!eventsData) {
@@ -12,8 +12,8 @@ export function renderTimeline({ eventsData, route, ui }) {
     <section class="timeline-view">
       ${renderSectionHeader({
         kicker: "Timeline",
-        title: "Chronology with layered detail",
-        copy: "Filter by year, type, people, location, tags, and media without losing direct event access.",
+        title: "Chronology first, context close behind",
+        copy: "Dates and times lead the page, while people, places, tags, and media stay one step away instead of competing with the timeline.",
       })}
 
       <section class="timeline-controls">
@@ -110,17 +110,16 @@ export function renderTimeline({ eventsData, route, ui }) {
                   (group) => `
                     <section class="year-group" id="year-${escapeHtml(String(group.year))}">
                       <header class="year-group-header">
-                        <h2>${escapeHtml(String(group.year))}</h2>
+                        <div>
+                          <p class="section-kicker">Year</p>
+                          <h2>${escapeHtml(String(group.year))}</h2>
+                        </div>
                         <p>${escapeHtml(String(group.items.length))} event${group.items.length === 1 ? "" : "s"}</p>
                       </header>
-                      <div class="timeline-card-grid">
-                        ${group.items
+                      <div class="timeline-day-stack">
+                        ${groupEventsByDate(group.items)
                           .map((item) =>
-                            renderArchiveCard(item, {
-                              actionLabel: route.selection.eventId && normalizeKey(route.selection.eventId) === normalizeKey(item.id || item.slug || item.title)
-                                ? "Event open"
-                                : "Open event",
-                            })
+                            renderDateGroup(item, route)
                           )
                           .join("")}
                       </div>
@@ -175,4 +174,66 @@ function groupEventsByYear(items) {
     current.items.push(item);
   });
   return groups;
+}
+
+function groupEventsByDate(items) {
+  const groups = [];
+  let current = null;
+  items.forEach((item) => {
+    const key = item.date || "unknown";
+    if (!current || current.key !== key) {
+      current = {
+        key,
+        ...splitDateLabel(item.dateLabel),
+        items: [],
+      };
+      groups.push(current);
+    }
+    current.items.push(item);
+  });
+  return groups;
+}
+
+function splitDateLabel(label) {
+  const cleanLabel = String(label || "Unknown date");
+  const match = cleanLabel.match(/^([^,]+),\s(.+),\s(\d{4})$/);
+  if (!match) {
+    return {
+      weekday: "",
+      monthDay: cleanLabel,
+      yearLabel: "",
+      fullLabel: cleanLabel,
+    };
+  }
+  return {
+    weekday: match[1],
+    monthDay: match[2],
+    yearLabel: match[3],
+    fullLabel: cleanLabel,
+  };
+}
+
+function renderDateGroup(group, route) {
+  return `
+    <section class="timeline-day-group">
+      <header class="timeline-day-header">
+        <div>
+          ${group.weekday ? `<p class="section-kicker">${escapeHtml(group.weekday)}</p>` : ""}
+          <h3>${escapeHtml(group.monthDay)}</h3>
+        </div>
+        <p>${escapeHtml(String(group.items.length))} event${group.items.length === 1 ? "" : "s"}</p>
+      </header>
+      <div class="timeline-event-list">
+        ${group.items
+          .map((item) =>
+            renderTimelineEventCard(item, {
+              actionLabel: route.selection.eventId && normalizeKey(route.selection.eventId) === normalizeKey(item.id || item.slug || item.title)
+                ? "Event open"
+                : "Open event",
+            })
+          )
+          .join("")}
+      </div>
+    </section>
+  `;
 }

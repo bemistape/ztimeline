@@ -8,7 +8,7 @@ export function renderAbout({ shell, overview }) {
       ${renderSectionHeader({
         kicker: "About",
         title: "Methodology and archive notes",
-        copy: "The redesign keeps the same information scope while making the archive easier to navigate.",
+        copy: "This build keeps the same information scope while reorganizing the archive around chronology, connected records, and map-accessible places.",
       })}
       <div class="about-grid">
         <article class="about-card">
@@ -17,7 +17,7 @@ export function renderAbout({ shell, overview }) {
         </article>
         <article class="about-card">
           <h2>Scope</h2>
-          <p>${escapeHtml(`This build currently exposes ${overview?.stats?.events || 0} events, ${overview?.stats?.people || 0} people, ${overview?.stats?.locations || 0} locations, and ${overview?.stats?.tags || 0} tags from the synced source tables.`)}</p>
+          <p>${escapeHtml(`This build currently exposes ${overview?.stats?.events || 0} events, ${overview?.stats?.people || 0} people, ${overview?.stats?.locations || 0} locations, ${overview?.stats?.tags || 0} tags, and ${overview?.stats?.mappedSites || 0} mapped location records from the synced source tables.`)}</p>
         </article>
         <article class="about-card">
           <h2>Refresh status</h2>
@@ -34,11 +34,6 @@ export function renderAbout({ shell, overview }) {
           `
           : ""
       }
-      <section class="about-card about-card-wide">
-        <h2>Legacy access</h2>
-        <p>The original single-page build is preserved unchanged for reference and comparison.</p>
-        <p><a href="${escapeHtml(shell?.legacyUrl || "/index_v1.html")}">Open the legacy v1 page</a></p>
-      </section>
     </section>
   `;
 }

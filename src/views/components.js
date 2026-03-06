@@ -78,13 +78,13 @@ export function renderHeader({ shell, route, searchState, searchGroups, activeRe
 export function renderFooter({ shell }) {
   const about = normalizeText(shell?.about);
   const legalBlocks = shell?.legalBlocks || [];
-  const footerLinks = uniqueFooterLinks(shell?.footerLinks || [], shell?.legacyUrl || "/index_v1.html");
+  const footerLinks = uniqueFooterLinks(shell?.footerLinks || []);
   return `
     <div class="footer-grid">
       <section class="footer-card">
         <p class="section-kicker">Archive</p>
         <h2>Reference-first, easier to navigate.</h2>
-        ${about ? `<p>${escapeHtml(about)}</p>` : "<p>Independent research archive linking events, people, locations, and tags.</p>"}
+        ${about ? `<p>${escapeHtml(about)}</p>` : "<p>Independent research archive linking events, people, locations, tags, and mapped sites.</p>"}
       </section>
       <section class="footer-card">
         <p class="section-kicker">Links</p>
@@ -108,10 +108,10 @@ export function renderFooter({ shell }) {
   `;
 }
 
-function uniqueFooterLinks(links, legacyUrl) {
+function uniqueFooterLinks(links) {
   const output = [];
   const seen = new Set();
-  [...links, { label: "Legacy v1", url: legacyUrl, external: false }].forEach((item) => {
+  [...links].forEach((item) => {
     const url = normalizeText(item?.url);
     const label = normalizeText(item?.label) || "Link";
     if (!url || seen.has(url)) {
@@ -364,6 +364,23 @@ export function renderDetailPanel({ selection, item, shell }) {
     return "";
   }
   const isEvent = item.kind === "event";
+  const eventFacts = isEvent
+    ? [
+        { label: "Date", value: item.dateLabel || "Unknown date" },
+        { label: "Time", value: item.timeLabel || "Time not specified" },
+        { label: "Type", value: item.type || "" },
+      ].filter((entry) => entry.value)
+    : [];
+  const mapLinks = [];
+  if (isEvent && item.mapUrl) {
+    mapLinks.push({ label: "Open in Google Maps", url: item.mapUrl });
+  }
+  if (!isEvent && item.mapOpenUrl) {
+    mapLinks.push({ label: "Open in Google Maps", url: item.mapOpenUrl });
+  }
+  const nonMapDownloads = (item.downloads || []).filter(
+    (link) => !mapLinks.some((mapLink) => normalizeKey(mapLink.url) === normalizeKey(link.url))
+  );
   const relatedButton = !isEvent
     ? `
         <button
@@ -391,7 +408,7 @@ export function renderDetailPanel({ selection, item, shell }) {
 
       ${relatedButton}
       ${item.summary || item.description ? renderRichText(item.summary || item.description, "detail-rich-text") : ""}
-      ${renderFacts(item.facts)}
+      ${renderFacts(isEvent ? eventFacts : item.facts)}
 
       ${
         isEvent
@@ -399,15 +416,12 @@ export function renderDetailPanel({ selection, item, shell }) {
             ${item.locations?.length ? `<section class="detail-section"><h3>Locations</h3>${renderRefButtons(item.locations, "location")}</section>` : ""}
             ${item.people?.length ? `<section class="detail-section"><h3>People</h3>${renderRefButtons(item.people, "person")}</section>` : ""}
             ${item.tags?.length ? `<section class="detail-section"><h3>Tags</h3>${renderRefButtons(item.tags, "tag")}</section>` : ""}
+            ${mapLinks.length ? renderLinks(mapLinks, "Map") : ""}
             ${renderMediaStrip(item.images, { contextKey: `event:${item.id}`, limit: 12 })}
             ${renderLinks(item.sources, "Sources")}
-            ${
-              item.mapUrl
-                ? `<section class="detail-section"><h3>Map</h3><a href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noopener noreferrer">Open in Google Maps</a></section>`
-                : ""
-            }
           `
           : `
+            ${mapLinks.length ? renderLinks(mapLinks, "Map") : ""}
             ${renderMediaStrip(item.images, { contextKey: `${item.kind}:${item.id}`, limit: 12 })}
             ${item.mapEmbedUrl ? `<section class="detail-section"><h3>Map</h3><iframe class="detail-map" loading="lazy" src="${escapeHtml(item.mapEmbedUrl)}" title="Map for ${escapeHtml(item.title)}"></iframe></section>` : ""}
             ${item.relatedPeople?.length ? `<section class="detail-section"><h3>People</h3>${renderRefButtons(item.relatedPeople, "person")}</section>` : ""}
@@ -438,13 +452,9 @@ export function renderDetailPanel({ selection, item, shell }) {
                 `
                 : ""
             }
-            ${renderLinks(item.downloads, "Links")}
+            ${renderLinks(nonMapDownloads, "Reference links")}
           `
       }
-
-      <section class="detail-section detail-legacy-link">
-        <a href="${escapeHtml(shell?.legacyUrl || "/index_v1.html")}">Open preserved legacy v1</a>
-      </section>
     </div>
   `;
 }
@@ -488,25 +498,32 @@ export function renderMediaDialog(mediaState) {
   `;
 }
 
-export function renderSectionList(items, kind) {
+export function renderSectionList(items, kind, options = {}) {
   return `
     <div class="overview-mini-list">
       ${items
         .map(
           (item) => `
-            <button
-              class="overview-mini-item"
-              type="button"
-              data-open-record-kind="${escapeHtml(kind)}"
-              data-open-record-id="${escapeHtml(item.id || item.slug || item.title)}"
-            >
-              <span>${escapeHtml(item.title)}</span>
+            <article class="overview-mini-item">
+              <button
+                class="overview-mini-main"
+                type="button"
+                data-open-record-kind="${escapeHtml(kind)}"
+                data-open-record-id="${escapeHtml(item.id || item.slug || item.title)}"
+              >
+                <span class="overview-mini-title">${escapeHtml(item.title)}</span>
+                ${
+                  item.relatedEventCount
+                    ? `<span class="overview-mini-meta">${escapeHtml(String(item.relatedEventCount))}</span>`
+                    : ""
+                }
+              </button>
               ${
-                item.relatedEventCount
-                  ? `<span class="overview-mini-meta">${escapeHtml(String(item.relatedEventCount))}</span>`
+                options.showMapLinks && item.mapOpenUrl
+                  ? `<a class="overview-mini-link" href="${escapeHtml(item.mapOpenUrl)}" target="_blank" rel="noopener noreferrer">Map</a>`
                   : ""
               }
-            </button>
+            </article>
           `
         )
         .join("")}
@@ -529,11 +546,12 @@ export function renderSectionCard({ kicker, title, copy, actionView, actionLabel
   `;
 }
 
-export function renderSectionHeader({ kicker, title, copy }) {
+export function renderSectionHeader({ kicker, title, copy, level = 1 }) {
+  const tag = Number(level) === 2 ? "h2" : "h1";
   return `
     <header class="view-header">
       <p class="section-kicker">${escapeHtml(kicker)}</p>
-      <h1>${escapeHtml(title)}</h1>
+      <${tag}>${escapeHtml(title)}</${tag}>
       <p>${escapeHtml(copy)}</p>
     </header>
   `;
@@ -568,6 +586,59 @@ export function renderMetaPills(values) {
   `;
 }
 
+export function renderTimelineEventCard(item, options = {}) {
+  const image = item.primaryImage || (item.images || [])[0];
+  const peopleCount = flattenRefs(item.people).length;
+  const locationNames = flattenRefs(item.locations);
+  const tagNames = flattenRefs(item.tags);
+  const contextLine = [
+    locationNames.slice(0, 2).join(" • "),
+    peopleCount ? formatCount(peopleCount, "person") : "",
+    tagNames.length ? formatCount(tagNames.length, "tag") : "",
+  ]
+    .filter(Boolean)
+    .join(" • ");
+  const copy = excerpt(item.summary || item.description || "", options.copyLimit || 260);
+  return `
+    <article class="timeline-event-card" data-event-card>
+      <div class="timeline-event-stamp">
+        <p class="timeline-event-stamp-label">Time</p>
+        <p class="timeline-event-stamp-value">${escapeHtml(item.timeLabel || "Unknown")}</p>
+        <p class="timeline-event-stamp-date">${escapeHtml(item.dateLabel || "Unknown date")}</p>
+      </div>
+      <div class="timeline-event-main">
+        <div class="timeline-event-head">
+          <p class="archive-card-kicker">${escapeHtml(item.type || "Event")}</p>
+          <h3>${escapeHtml(item.title)}</h3>
+          ${contextLine ? `<p class="timeline-event-context">${escapeHtml(contextLine)}</p>` : ""}
+        </div>
+        ${copy ? `<p class="timeline-event-copy">${escapeHtml(copy)}</p>` : ""}
+        <div class="timeline-event-meta">
+          ${renderMetaPills(
+            [
+              item.type,
+              item.timeLabel ? "" : "Time not specified",
+              item.images?.length ? formatCount(item.images.length, "image") : "",
+              item.sources?.length ? formatCount(item.sources.length, "source") : "",
+            ].filter(Boolean)
+          )}
+        </div>
+        <div class="archive-card-actions">
+          ${item.mapUrl ? `<a class="archive-card-link" href="${escapeHtml(item.mapUrl)}" target="_blank" rel="noopener noreferrer">Map</a>` : ""}
+          <button class="archive-card-action" type="button" data-open-event="${escapeHtml(item.id || item.slug || item.title)}">
+            ${options.actionLabel || "Open event"}
+          </button>
+        </div>
+      </div>
+      ${
+        image
+          ? `<img class="timeline-event-image" src="${escapeHtml(image.thumbUrl || image.originalUrl)}" alt="${escapeHtml(image.label || item.title)}" loading="lazy" />`
+          : ""
+      }
+    </article>
+  `;
+}
+
 export function renderArchiveCard(item, options = {}) {
   const image = item.primaryImage || (item.images || [])[0];
   const subtitle = item.subtitle || item.type || item.dateLabel || "";
@@ -576,10 +647,22 @@ export function renderArchiveCard(item, options = {}) {
     actionKind === "event"
       ? `data-open-event="${escapeHtml(item.id || item.slug || item.title)}"`
       : `data-open-record-kind="${escapeHtml(item.kind)}" data-open-record-id="${escapeHtml(item.id || item.slug || item.title)}"`;
-  const copy = item.excerpt || excerpt(item.summary || item.description || "", options.copyLimit || 160);
+  const fallbackCopy =
+    item.kind === "location"
+      ? "Place record with linked events, related people, and map context when available."
+      : item.kind === "tag"
+        ? "Thematic record connecting related events, people, locations, and source clusters."
+        : item.kind === "person"
+          ? "Research record with linked events, related places, and source material."
+          : "";
+  const copy = item.excerpt || excerpt(item.summary || item.description || "", options.copyLimit || 160) || fallbackCopy;
   const metaPills = item.kind === "event"
     ? [item.type, item.dateLabel, item.timeLabel].filter(Boolean)
-    : [item.subtitle, item.relatedEventCount ? formatCount(item.relatedEventCount, "event") : ""].filter(Boolean);
+    : [
+        item.subtitle,
+        item.relatedEventCount ? formatCount(item.relatedEventCount, "linked event") : "",
+        item.mapOpenUrl ? "Mapped site" : "",
+      ].filter(Boolean);
   return `
     <article class="archive-card ${options.compact ? "is-compact" : ""} ${item.kind === "event" ? "is-event" : ""}">
       ${
@@ -602,9 +685,16 @@ export function renderArchiveCard(item, options = {}) {
               ])
             : ""
         }
-        <button class="archive-card-action" type="button" ${actionAttrs}>
-          ${options.actionLabel || (item.kind === "event" ? "Open event" : `Open ${KIND_LABELS[item.kind] || "record"}`)}
-        </button>
+        <div class="archive-card-actions">
+          ${
+            item.kind === "location" && item.mapOpenUrl
+              ? `<a class="archive-card-link" href="${escapeHtml(item.mapOpenUrl)}" target="_blank" rel="noopener noreferrer">Map</a>`
+              : ""
+          }
+          <button class="archive-card-action" type="button" ${actionAttrs}>
+            ${options.actionLabel || (item.kind === "event" ? "Open event" : `Open ${KIND_LABELS[item.kind] || "record"}`)}
+          </button>
+        </div>
       </div>
     </article>
   `;
