@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install refresh dependencies
+        run: python3 -m pip install -r requirements-refresh.txt
+
       - name: Refresh Airtable export
         env:
           AIRTABLE_API_TOKEN: ${{ secrets.AIRTABLE_API_TOKEN }}

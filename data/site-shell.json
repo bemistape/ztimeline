@@ -1,0 +1,50 @@
+{
+  "title": "ZTimeline",
+  "subtitle": "Timeline",
+  "intro": "A web reference to the Zodiac Killer case.",
+  "about": "",
+  "heroMarkUrl": "assets/zodiac-header.png",
+  "navLinks": [
+    {
+      "key": "nav.home",
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "key": "nav.timeline",
+      "label": "Timeline",
+      "url": "/timeline"
+    },
+    {
+      "key": "nav.sources",
+      "label": "Sources",
+      "url": "/sources"
+    },
+    {
+      "key": "nav.about",
+      "label": "About",
+      "url": "/about"
+    }
+  ],
+  "footerLinks": [
+    {
+      "key": "legal.privacy",
+      "label": "Privacy Policy",
+      "url": "/privacy"
+    },
+    {
+      "key": "legal.terms",
+      "label": "Terms of Use",
+      "url": "/terms"
+    }
+  ],
+  "legalBlocks": [
+    "Content is provided for research and reference use and may include links to external sources."
+  ],
+  "legacyUrl": "/index_v1.html",
+  "freshness": {
+    "generatedAt": "2026-02-21T17:27:04.809338+00:00",
+    "generatedLabel": "Feb 21, 2026, 05:27 PM UTC",
+    "syncMode": "delta"
+  }
+}

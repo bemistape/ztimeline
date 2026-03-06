@@ -25,6 +25,8 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
+from build_site_data import BuildConfig, build_site_data_assets
+
 DEFAULT_BASE_ID = "appyDwtN9iiA9sjEe"
 DEFAULT_EVENTS_TABLE_ID = "tblxd8PLtQOl1dRa7"
 DEFAULT_EVENTS_VIEW_ID = "viwUWtXt3UUxE6LOC"
@@ -56,6 +58,14 @@ ROOT_FALLBACK_CSV_BY_TARGET = {
     "elements": "elements-elements-sync.csv",
 }
 BUNDLE_OUTPUT_JS_DEFAULT = "data-bundle.js"
+SITE_SHELL_OUTPUT_DEFAULT = "data/site-shell.json"
+OVERVIEW_OUTPUT_DEFAULT = "data/overview.json"
+SEARCH_OUTPUT_DEFAULT = "data/search-index.json"
+EVENTS_JSON_OUTPUT_DEFAULT = "data/events.json"
+PEOPLE_JSON_OUTPUT_DEFAULT = "data/people.json"
+LOCATIONS_JSON_OUTPUT_DEFAULT = "data/locations.json"
+TAGS_JSON_OUTPUT_DEFAULT = "data/tags.json"
+MEDIA_MANIFEST_OUTPUT_DEFAULT = "data/media-manifest.json"
 
 EVENTS_DEFAULT_HEADERS = [
     "Event Name",
@@ -175,6 +185,11 @@ def parse_args() -> argparse.Namespace:
         "--bundle-output-js",
         default=BUNDLE_OUTPUT_JS_DEFAULT,
         help="Path to write prebuilt site data bundle JavaScript.",
+    )
+    parser.add_argument(
+        "--skip-derivatives",
+        action="store_true",
+        help="Skip building thumbnail and medium derivative image assets for the redesigned site.",
     )
     parser.add_argument(
         "--sync-mode",
@@ -398,6 +413,29 @@ def main() -> int:
         sync_root_fallback_csv(target)
 
     write_site_data_bundle(bundle_output=Path(args.bundle_output_js), targets=targets)
+    build_site_data_assets(
+        BuildConfig(
+            repo_root=Path.cwd().resolve(),
+            media_dir=Path(args.media_dir).resolve(),
+            events_csv=Path(args.output_csv).resolve(),
+            people_csv=Path(args.people_output_csv).resolve(),
+            locations_csv=Path(args.location_output_csv).resolve(),
+            tags_csv=Path(args.tags_output_csv).resolve(),
+            elements_csv=Path(args.elements_output_csv).resolve(),
+            elements_fallback_csv=Path("data/elements-starter.csv").resolve(),
+            events_metadata_path=Path(args.metadata_path).resolve(),
+            shell_output=Path(SITE_SHELL_OUTPUT_DEFAULT).resolve(),
+            overview_output=Path(OVERVIEW_OUTPUT_DEFAULT).resolve(),
+            search_output=Path(SEARCH_OUTPUT_DEFAULT).resolve(),
+            events_output=Path(EVENTS_JSON_OUTPUT_DEFAULT).resolve(),
+            people_output=Path(PEOPLE_JSON_OUTPUT_DEFAULT).resolve(),
+            locations_output=Path(LOCATIONS_JSON_OUTPUT_DEFAULT).resolve(),
+            tags_output=Path(TAGS_JSON_OUTPUT_DEFAULT).resolve(),
+            media_manifest_output=Path(MEDIA_MANIFEST_OUTPUT_DEFAULT).resolve(),
+            enable_derivatives=not args.skip_derivatives,
+            legacy_url="/index_v1.html",
+        )
+    )
 
     if cache_media and args.prune_media:
         prune_stale_media(media_dir, used_media_files)

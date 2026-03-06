@@ -1,0 +1,366 @@
+{
+  "generatedAt": "2026-02-21T17:27:04.809338+00:00",
+  "stats": {
+    "events": 371,
+    "people": 301,
+    "locations": 312,
+    "tags": 41,
+    "images": 1426,
+    "years": {
+      "start": 1925,
+      "end": 2025
+    }
+  },
+  "featuredYears": [
+    {
+      "value": 1969,
+      "count": 139
+    },
+    {
+      "value": 1970,
+      "count": 28
+    },
+    {
+      "value": 1968,
+      "count": 27
+    },
+    {
+      "value": 1971,
+      "count": 21
+    },
+    {
+      "value": 1966,
+      "count": 14
+    },
+    {
+      "value": 1974,
+      "count": 12
+    }
+  ],
+  "featuredTypes": [
+    {
+      "value": "Suspect Event",
+      "count": 92
+    },
+    {
+      "value": "Case Event",
+      "count": 75
+    },
+    {
+      "value": "Victim Event",
+      "count": 47
+    },
+    {
+      "value": "Media Event",
+      "count": 30
+    },
+    {
+      "value": "Newspaper Article",
+      "count": 25
+    },
+    {
+      "value": "Disputed Z Communication",
+      "count": 21
+    }
+  ],
+  "featuredPeople": [
+    {
+      "id": "recGZwp9mtC6qB9Hd",
+      "slug": "zodiac",
+      "kind": "person",
+      "title": "Zodiac",
+      "subtitle": "Zodiac,Key Figure,Suspect,Unidentified",
+      "excerpt": "The killer. (And anyone who purports to be the killer.)",
+      "relatedEventCount": 51,
+      "primaryImage": {
+        "originalUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
+        "thumbUrl": "data/media/derived/thumb/attD0P2TkTV1TT5jO_image.png",
+        "mediumUrl": "data/media/derived/medium/attD0P2TkTV1TT5jO_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "rec5NLNj8q2bpKjm8",
+      "slug": "san-francisco-chronicle",
+      "kind": "person",
+      "title": "San Francisco Chronicle",
+      "subtitle": "Media,Organization,Key Figure",
+      "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
+      "relatedEventCount": 22,
+      "primaryImage": {
+        "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
+        "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
+        "mediumUrl": "data/media/derived/medium/attDPRuAsHTkVf6Yq_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recoOKTf4wXF3GBYn",
+      "slug": "marvin-merrill",
+      "kind": "person",
+      "title": "Marvin Merrill",
+      "subtitle": "Suspect,Military,Deceased",
+      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
+      "relatedEventCount": 21,
+      "primaryImage": {
+        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
+        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "derivativeState": "derived",
+        "label": "mendell002.jpeg"
+      }
+    },
+    {
+      "id": "rech3D7sonIMHkOft",
+      "slug": "arthur-leigh-allen",
+      "kind": "person",
+      "title": "Arthur Leigh Allen",
+      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
+      "excerpt": "Prime suspect for many years.",
+      "relatedEventCount": 18,
+      "primaryImage": {
+        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
+        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
+        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recIi4fFkzHRAIpD0",
+      "slug": "paul-lee-stine",
+      "kind": "person",
+      "title": "Paul Lee Stine",
+      "subtitle": "Canonical Victim,Deceased,Key Figure",
+      "excerpt": "San Francisco cab driver who was murdered by the Zodiac Killer in Presidio Heights. His death was the last confirmed Zodiac killing.",
+      "relatedEventCount": 18,
+      "primaryImage": {
+        "originalUrl": "data/media/attOej5khhm5IO5IH_image.png",
+        "thumbUrl": "data/media/derived/thumb/attOej5khhm5IO5IH_image.png",
+        "mediumUrl": "data/media/derived/medium/attOej5khhm5IO5IH_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recWCYPeTb61e4m3q",
+      "slug": "richard-gaikowski",
+      "kind": "person",
+      "title": "Richard Gaikowski",
+      "subtitle": "Suspect,Deceased",
+      "excerpt": "Counterculture journalist based in San Francisco.",
+      "relatedEventCount": 16,
+      "primaryImage": {
+        "originalUrl": "data/media/att7wDeera7I07iAe_image.png",
+        "thumbUrl": "data/media/derived/thumb/att7wDeera7I07iAe_image.png",
+        "mediumUrl": "data/media/derived/medium/att7wDeera7I07iAe_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    }
+  ],
+  "featuredLocations": [
+    {
+      "id": "recXWIp8s3P3TAYiu",
+      "slug": "san-francisco",
+      "kind": "location",
+      "title": "San Francisco",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 57,
+      "primaryImage": {
+        "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
+        "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
+        "mediumUrl": "data/media/derived/medium/attdDhYp8IaddoCn3_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recURm55M69p21vYN",
+      "slug": "vallejo-ca",
+      "kind": "location",
+      "title": "Vallejo, CA",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 37,
+      "primaryImage": null
+    },
+    {
+      "id": "reccuFwS3SQNJRVps",
+      "slug": "los-angeles-ca",
+      "kind": "location",
+      "title": "Los Angeles, CA",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 11,
+      "primaryImage": {
+        "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
+        "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+        "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "rec3SXc62X9TM4dMm",
+      "slug": "san-francisco-chronicle-offices",
+      "kind": "location",
+      "title": "San Francisco Chronicle offices",
+      "subtitle": "Business",
+      "excerpt": "",
+      "relatedEventCount": 10,
+      "primaryImage": null
+    },
+    {
+      "id": "recUJsymsZJwwCLW9",
+      "slug": "fairfield-ca",
+      "kind": "location",
+      "title": "Fairfield, CA",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 9,
+      "primaryImage": null
+    },
+    {
+      "id": "recxuIuPaJDKhXKo6",
+      "slug": "lake-berryessa",
+      "kind": "location",
+      "title": "Lake Berryessa",
+      "subtitle": "Site",
+      "excerpt": "",
+      "relatedEventCount": 9,
+      "primaryImage": null
+    }
+  ],
+  "featuredTags": [
+    {
+      "id": "recqHvlmSyXK7UYJo",
+      "slug": "zodiac-letters",
+      "kind": "tag",
+      "title": "Zodiac Letters",
+      "subtitle": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "excerpt": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "relatedEventCount": 38,
+      "primaryImage": {
+        "originalUrl": "data/media/atthrJGrInKipJE3p_image.png",
+        "thumbUrl": "data/media/derived/thumb/atthrJGrInKipJE3p_image.png",
+        "mediumUrl": "data/media/derived/medium/atthrJGrInKipJE3p_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recNDQiiKZS8J0t9h",
+      "slug": "paul-stine-s-taxi-murder",
+      "kind": "tag",
+      "title": "Paul Stine's Taxi Murder",
+      "subtitle": "{\"isStale\": true, \"state\": \"generated\", \"value\": \"Evidence: Crime Scene\"}",
+      "excerpt": "On October 11, 1969, cab driver Paul Stine was shot and killed in San Francisco. The Zodiac claimed responsibility, and the case is notable for the killer's interaction with police and the subsequent letter containing a…",
+      "relatedEventCount": 34,
+      "primaryImage": {
+        "originalUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
+        "thumbUrl": "data/media/derived/thumb/attR8KiwYtTpE8oLL_image.png",
+        "mediumUrl": "data/media/derived/medium/attR8KiwYtTpE8oLL_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recguCeqiWgWqR24q",
+      "slug": "attack-at-lake-berryessa",
+      "kind": "tag",
+      "title": "Attack at Lake Berryessa",
+      "subtitle": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "excerpt": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "relatedEventCount": 29,
+      "primaryImage": {
+        "originalUrl": "data/media/att2UPeGusw0o0lff_image.png",
+        "thumbUrl": "data/media/derived/thumb/att2UPeGusw0o0lff_image.png",
+        "mediumUrl": "data/media/derived/medium/att2UPeGusw0o0lff_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "recR0NFmznLOB0Nf6",
+      "slug": "murders-at-lake-herman-road",
+      "kind": "tag",
+      "title": "Murders at Lake Herman Road",
+      "subtitle": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "excerpt": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "relatedEventCount": 23,
+      "primaryImage": {
+        "originalUrl": "data/media/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
+        "thumbUrl": "data/media/derived/thumb/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
+        "mediumUrl": "data/media/derived/medium/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
+        "derivativeState": "derived",
+        "label": "lhr-crime_scene_sketch_4-redacted.jpg"
+      }
+    },
+    {
+      "id": "reci68Kc8tcfOciIO",
+      "slug": "arthur-leigh-allen",
+      "kind": "tag",
+      "title": "Arthur Leigh Allen",
+      "subtitle": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "excerpt": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "relatedEventCount": 20,
+      "primaryImage": {
+        "originalUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
+        "thumbUrl": "data/media/derived/thumb/attBe8HHBwoLJ1Cfm_image.png",
+        "mediumUrl": "data/media/derived/medium/attBe8HHBwoLJ1Cfm_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    },
+    {
+      "id": "rec8HlpeGk8KlrXoi",
+      "slug": "attack-at-blue-rock-springs-park",
+      "kind": "tag",
+      "title": "Attack at Blue Rock Springs Park",
+      "subtitle": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "excerpt": "{\"errorType\": \"emptyDependency\", \"isStale\": false, \"state\": \"error\", \"value\": null}",
+      "relatedEventCount": 17,
+      "primaryImage": {
+        "originalUrl": "data/media/attKPwnQEKHj561Xv_image.png",
+        "thumbUrl": "data/media/derived/thumb/attKPwnQEKHj561Xv_image.png",
+        "mediumUrl": "data/media/derived/medium/attKPwnQEKHj561Xv_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      }
+    }
+  ],
+  "freshness": {
+    "label": "Feb 21, 2026, 05:27 PM UTC",
+    "syncMode": "delta"
+  },
+  "method": {
+    "intro": "",
+    "disclaimer": "Content is provided for research and reference use and may include links to external sources."
+  },
+  "entryPoints": [
+    {
+      "view": "timeline",
+      "title": "Timeline",
+      "description": "371 dated events spanning 1925 to 2025."
+    },
+    {
+      "view": "people",
+      "title": "People",
+      "description": "301 linked people and organizations with related-event cross references."
+    },
+    {
+      "view": "locations",
+      "title": "Locations",
+      "description": "312 places connected to the archive, including mapped sites where data exists."
+    },
+    {
+      "view": "tags",
+      "title": "Tags",
+      "description": "41 thematic index records for grouping evidence and events."
+    }
+  ]
+}
