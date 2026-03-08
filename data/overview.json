@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-08T13:11:51.578253+00:00",
+  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
   "stats": {
-    "events": 405,
-    "people": 312,
+    "events": 412,
+    "people": 315,
     "locations": 332,
     "tags": 42,
-    "images": 1528,
+    "images": 1551,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -45,7 +45,7 @@
     },
     {
       "value": "Case Event",
-      "count": 83
+      "count": 85
     },
     {
       "value": "Victim Event",
@@ -53,11 +53,11 @@
     },
     {
       "value": "Media Event",
-      "count": 30
+      "count": 32
     },
     {
       "value": "Newspaper Article",
-      "count": 25
+      "count": 27
     },
     {
       "value": "Cultural Event",
@@ -100,6 +100,23 @@
       "mapOpenUrl": ""
     },
     {
+      "id": "rech3D7sonIMHkOft",
+      "slug": "arthur-leigh-allen",
+      "kind": "person",
+      "title": "Arthur Leigh Allen",
+      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
+      "excerpt": "The prime suspect.",
+      "relatedEventCount": 21,
+      "primaryImage": {
+        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
+        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
+        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recoOKTf4wXF3GBYn",
       "slug": "marvin-merrill",
       "kind": "person",
@@ -113,23 +130,6 @@
         "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
         "derivativeState": "derived",
         "label": "mendell002.jpeg"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "rech3D7sonIMHkOft",
-      "slug": "arthur-leigh-allen",
-      "kind": "person",
-      "title": "Arthur Leigh Allen",
-      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
-      "excerpt": "The prime suspect.",
-      "relatedEventCount": 20,
-      "primaryImage": {
-        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
-        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
-        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
       },
       "mapOpenUrl": ""
     },
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 57,
+      "relatedEventCount": 60,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -336,7 +336,7 @@
       "title": "Arthur Leigh Allen",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 20,
+      "relatedEventCount": 21,
       "primaryImage": {
         "originalUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
         "thumbUrl": "data/media/derived/thumb/attBe8HHBwoLJ1Cfm_image.png",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 08, 2026, 01:11 PM UTC",
+    "label": "Mar 08, 2026, 06:53 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,12 +484,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "405 dated events spanning 1925 to 2025."
+      "description": "412 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "312 linked people and organizations with related-event cross references."
+      "description": "315 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",

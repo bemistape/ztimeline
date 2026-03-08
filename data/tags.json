@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T13:11:51.578253+00:00",
+  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -3243,7 +3243,7 @@
       "facts": [
         {
           "label": "Date",
-          "value": "1933-12-17"
+          "value": "1933-12-18"
         }
       ],
       "relatedEvents": [
@@ -3343,6 +3343,11 @@
           "slug": "spinelli-surrenders-in-portland"
         },
         {
+          "id": "recOsfKewullleEry",
+          "name": "DNA evidence said to clear Arthur Leigh Allen",
+          "slug": "dna-evidence-said-to-clear-arthur-leigh-allen"
+        },
+        {
           "id": "recBB7oBXwy81jaFi",
           "name": "Ronald Allen hired by Santa Rosa, CA as landscape architect",
           "slug": "ronald-allen-hired-by-santa-rosa-ca-as-landscape-architect"
@@ -3389,7 +3394,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 20,
+      "relatedEventCount": 21,
       "searchText": "Arthur Leigh Allen"
     },
     {

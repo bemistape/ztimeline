@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T13:11:51.578253+00:00",
+  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -772,6 +772,415 @@
       "searchText": "San Francisco Chronicle San Francisco Chronicle The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco SF Bay Area California United States of America Eureka, CA Chicago San Francisco Chronicle offices Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
     },
     {
+      "id": "rech3D7sonIMHkOft",
+      "slug": "arthur-leigh-allen",
+      "kind": "person",
+      "title": "Arthur Leigh Allen",
+      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
+      "summary": "The prime suspect.",
+      "excerpt": "The prime suspect.",
+      "aliases": [
+        "Arthur Leigh Allen"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
+          "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
+          "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attPHCpAf5cVvqQ2h_image.png",
+          "thumbUrl": "data/media/derived/thumb/attPHCpAf5cVvqQ2h_image.png",
+          "mediumUrl": "data/media/derived/medium/attPHCpAf5cVvqQ2h_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
+        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
+        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1933-12-17"
+        },
+        {
+          "label": "Died",
+          "value": "1992-08-25"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Honolulu, Vallejo, CA, Burson, CA, Arthur Leigh Allen's trailer, 32 Fresno Street, Vallejo (Allen family home)"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recPBwwP4sg733WeY",
+          "name": "7/27/71 Mulanax Report on Arthur Leigh Allen",
+          "slug": "7-27-71-mulanax-report-on-arthur-leigh-allen"
+        },
+        {
+          "id": "recUaR76C89J0wwzI",
+          "name": "July 1971 ALA meeting with Toschi and Armstrong",
+          "slug": "july-1971-ala-meeting-with-toschi-and-armstrong"
+        },
+        {
+          "id": "recg1dUJ02MDrKqj7",
+          "name": "A.L. Allen Search Warrant (Santa Rosa)",
+          "slug": "a-l-allen-search-warrant-santa-rosa"
+        },
+        {
+          "id": "recOWHxTV9F6zdH62",
+          "name": "1991 search of Arthur Leigh Allen's home in Vallejo",
+          "slug": "1991-search-of-arthur-leigh-allen-s-home-in-vallejo"
+        },
+        {
+          "id": "recF2WE9VrdA5pIVr",
+          "name": "Arthur Leigh Allen alibi for Lake Berryessa",
+          "slug": "arthur-leigh-allen-alibi-for-lake-berryessa"
+        },
+        {
+          "id": "recdWp4tgkGyHVyCM",
+          "name": "Arthur Leigh Allen fired from Arco Service Station",
+          "slug": "arthur-leigh-allen-fired-from-arco-service-station"
+        },
+        {
+          "id": "recBAA9YBl43m7PYX",
+          "name": "Death of Arthur Leigh Allen's father",
+          "slug": "death-of-arthur-leigh-allen-s-father"
+        },
+        {
+          "id": "recY8uibcMAlgpNjH",
+          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
+          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
+        },
+        {
+          "id": "rec3bjjdMbsKQKHnJ",
+          "name": "Ronald Allen marries Karen Long",
+          "slug": "ronald-allen-marries-karen-long"
+        },
+        {
+          "id": "recDeNkyi136d3P4E",
+          "name": "Arthur Leigh Allen teaching trampoline class in Vallejo",
+          "slug": "arthur-leigh-allen-teaching-trampoline-class-in-vallejo"
+        },
+        {
+          "id": "recuBhlkcmZlBIIT6",
+          "name": "Arthur Leigh Allen is born",
+          "slug": "arthur-leigh-allen-is-born"
+        },
+        {
+          "id": "rec8ElxIeUrhapdLr",
+          "name": "Arthur Leigh Allen ushers for a friend's wedding",
+          "slug": "arthur-leigh-allen-ushers-for-a-friend-s-wedding"
+        },
+        {
+          "id": "recwcxNeKvutZunIR",
+          "name": "Ralph Spinelli claims he knows who Zodiac was",
+          "slug": "ralph-spinelli-claims-he-knows-who-zodiac-was"
+        },
+        {
+          "id": "rec8hogdM9wm1STXN",
+          "name": "Sonoma Sheriffs search ALA's trailer",
+          "slug": "sonoma-sheriffs-search-ala-s-trailer"
+        },
+        {
+          "id": "rect92Jr0FEeByRSu",
+          "name": "Michael Mageau identifies Arthur Leigh Allen",
+          "slug": "michael-mageau-identifies-arthur-leigh-allen"
+        },
+        {
+          "id": "recYqr42FdbksghyG",
+          "name": "Arthur Leigh Allen competes in Camellia Cup Regatta sailing competition",
+          "slug": "arthur-leigh-allen-competes-in-camellia-cup-regatta-sailing-competition"
+        },
+        {
+          "id": "recq0Zly0j1za56fW",
+          "name": "Arthur Leigh Allen is losing weight",
+          "slug": "arthur-leigh-allen-is-losing-weight"
+        },
+        {
+          "id": "recMRQypyLEGzH4Ey",
+          "name": "Arthur Leigh Allen dies",
+          "slug": "arthur-leigh-allen-dies"
+        },
+        {
+          "id": "recBzDi3hpunBuHiu",
+          "name": "Arthur Leigh Allen's family departs Hawaii for San Francisco",
+          "slug": "arthur-leigh-allen-s-family-departs-hawaii-for-san-francisco"
+        },
+        {
+          "id": "recjeDHR2yo6jVwmW",
+          "name": "Arthur Leigh Allen's family arrives in Los Angeles from Hawaii",
+          "slug": "arthur-leigh-allen-s-family-arrives-in-los-angeles-from-hawaii"
+        },
+        {
+          "id": "recOsfKewullleEry",
+          "name": "DNA evidence said to clear Arthur Leigh Allen",
+          "slug": "dna-evidence-said-to-clear-arthur-leigh-allen"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recv1F0hue1ynvbj5",
+          "name": "Rohnert Park, CA",
+          "slug": "rohnert-park-ca"
+        },
+        {
+          "id": "recW1ODoJpuqrqToL",
+          "name": "Salt Point Ranch (State Park)",
+          "slug": "salt-point-ranch-state-park"
+        },
+        {
+          "id": "recxuIuPaJDKhXKo6",
+          "name": "Lake Berryessa",
+          "slug": "lake-berryessa"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recKsFUcUEB0uMfpB",
+          "name": "Arco Service Station in Vallejo",
+          "slug": "arco-service-station-in-vallejo"
+        },
+        {
+          "id": "rechgeZ9A6h62DrRu",
+          "name": "Sonoma County, CA",
+          "slug": "sonoma-county-ca"
+        },
+        {
+          "id": "rec0s88W6nNyYJxjf",
+          "name": "32 Fresno Street, Vallejo (Allen family home)",
+          "slug": "32-fresno-street-vallejo-allen-family-home"
+        },
+        {
+          "id": "recGxfdF0XWgxnb7i",
+          "name": "Arthur Leigh Allen's trailer",
+          "slug": "arthur-leigh-allen-s-trailer"
+        },
+        {
+          "id": "recU6ndMaGe3yGcOi",
+          "name": "Santa Rosa, CA",
+          "slug": "santa-rosa-ca"
+        },
+        {
+          "id": "recklaWOSlKlu4sXv",
+          "name": "Burson, CA",
+          "slug": "burson-ca"
+        },
+        {
+          "id": "recMbpwvRygW2rZAr",
+          "name": "Calaveras County, CA",
+          "slug": "calaveras-county-ca"
+        },
+        {
+          "id": "recdLotFFevZ2yReD",
+          "name": "Valley Springs, CA",
+          "slug": "valley-springs-ca"
+        },
+        {
+          "id": "recoErp4l7Fu2B6lx",
+          "name": "Honolulu",
+          "slug": "honolulu"
+        },
+        {
+          "id": "recjgYEXN7C9peYFq",
+          "name": "Sunrise Memorial Cemetery",
+          "slug": "sunrise-memorial-cemetery"
+        },
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "recTtSgOnIWt7xB0c",
+          "name": "San Marino, CA",
+          "slug": "san-marino-ca"
+        },
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        },
+        {
+          "id": "reclf44XCEHjVBWFJ",
+          "name": "San Jose, CA",
+          "slug": "san-jose-ca"
+        },
+        {
+          "id": "recQdEdKh7CEP2mPw",
+          "name": "Santa Clara County Jail",
+          "slug": "santa-clara-county-jail"
+        },
+        {
+          "id": "rec0Qc5L0c4yAOk4l",
+          "name": "Ontario International Airport (San Bernardino)",
+          "slug": "ontario-international-airport-san-bernardino"
+        },
+        {
+          "id": "recqZNz1ev1HUrq4X",
+          "name": "Folsom Lake State Recreation Area",
+          "slug": "folsom-lake-state-recreation-area"
+        },
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recnRUiEh97LKZIBR",
+          "name": "Union Oil Refinery in Pinole",
+          "slug": "union-oil-refinery-in-pinole"
+        },
+        {
+          "id": "rec5sLMwfiMUYMmOS",
+          "name": "United States Navy",
+          "slug": "united-states-navy"
+        },
+        {
+          "id": "recCKtUMp3i2FG1Rk",
+          "name": "Vallejo High School",
+          "slug": "vallejo-high-school"
+        },
+        {
+          "id": "recbMFCIRZ4hHSZD2",
+          "name": "California Polytechnic State University (Cal Poly)",
+          "slug": "california-polytechnic-state-university-cal-poly"
+        },
+        {
+          "id": "recK3dd3M9TK98QFW",
+          "name": "Mare Island Naval Shipyard",
+          "slug": "mare-island-naval-shipyard"
+        },
+        {
+          "id": "recgR0rLBlzMUJQW7",
+          "name": "Highland Elementary School",
+          "slug": "highland-elementary-school"
+        },
+        {
+          "id": "recRMO9AuuRNqX0KG",
+          "name": "Valley Spring Elementary",
+          "slug": "valley-spring-elementary"
+        },
+        {
+          "id": "recpsTMf4JcuA7T0L",
+          "name": "Atascadero State Hospital",
+          "slug": "atascadero-state-hospital"
+        },
+        {
+          "id": "recIjxpNpt3Vb6fws",
+          "name": "Santa Rosa Elementary School (Atascadero, CA)",
+          "slug": "santa-rosa-elementary-school-atascadero-ca"
+        },
+        {
+          "id": "recSMUUHLT3M0dl2j",
+          "name": "Travis Elementary (Travis AFB)",
+          "slug": "travis-elementary-travis-afb"
+        },
+        {
+          "id": "recNyLlabNcbWFp1B",
+          "name": "Sonoma State University",
+          "slug": "sonoma-state-university"
+        },
+        {
+          "id": "reczvgTcvezzKWjlr",
+          "name": "Vallejo College",
+          "slug": "vallejo-college"
+        },
+        {
+          "id": "recmQ9moIGpjHOofr",
+          "name": "Ronald Gene Allen",
+          "slug": "ronald-gene-allen"
+        },
+        {
+          "id": "reczV15noceEWDHkD",
+          "name": "Ethan Warren Allen",
+          "slug": "ethan-warren-allen"
+        },
+        {
+          "id": "recPDmge198CzhGuq",
+          "name": "Bernice Allen",
+          "slug": "bernice-allen"
+        },
+        {
+          "id": "recntWl4qqP88Laha",
+          "name": "Karen Marie (Long) Allen",
+          "slug": "karen-marie-long-allen"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "reci68Kc8tcfOciIO",
+          "name": "Arthur Leigh Allen",
+          "slug": "arthur-leigh-allen"
+        },
+        {
+          "id": "recTMiG4WfngIFgng",
+          "name": "The 340 Cipher",
+          "slug": "the-340-cipher"
+        },
+        {
+          "id": "recARqcCrYYCA8P03",
+          "name": "Military",
+          "slug": "military"
+        },
+        {
+          "id": "reciWptHRCNOnXDUv",
+          "name": "Bombs, Explosives, and Demolition",
+          "slug": "bombs-explosives-and-demolition"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Arthur%20Leigh%20Allen&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Arthur%20Leigh%20Allen&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 21,
+      "searchText": "Arthur Leigh Allen Arthur Leigh Allen The prime suspect. Rohnert Park, CA Salt Point Ranch (State Park) Lake Berryessa California Solano County, CA Napa County, CA Vallejo, CA SF Bay Area United States of America Arco Service Station in Vallejo Sonoma County, CA 32 Fresno Street, Vallejo (Allen family home) Arthur Leigh Allen's trailer Santa Rosa, CA Burson, CA Calaveras County, CA Valley Springs, CA Honolulu Sunrise Memorial Cemetery Sacramento, CA San Marino, CA Berkeley, CA San Jose, CA Santa Clara County Jail Ontario International Airport (San Bernardino) Folsom Lake State Recreation Area Los Angeles"
+    },
+    {
       "id": "recoOKTf4wXF3GBYn",
       "slug": "marvin-merrill",
       "kind": "person",
@@ -1205,410 +1614,6 @@
       ],
       "relatedEventCount": 21,
       "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK"
-    },
-    {
-      "id": "rech3D7sonIMHkOft",
-      "slug": "arthur-leigh-allen",
-      "kind": "person",
-      "title": "Arthur Leigh Allen",
-      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
-      "summary": "The prime suspect.",
-      "excerpt": "The prime suspect.",
-      "aliases": [
-        "Arthur Leigh Allen"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
-          "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
-          "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attPHCpAf5cVvqQ2h_image.png",
-          "thumbUrl": "data/media/derived/thumb/attPHCpAf5cVvqQ2h_image.png",
-          "mediumUrl": "data/media/derived/medium/attPHCpAf5cVvqQ2h_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
-        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
-        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1933-12-17"
-        },
-        {
-          "label": "Died",
-          "value": "1992-08-25"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Honolulu, Vallejo, CA, Burson, CA, Arthur Leigh Allen's trailer, 32 Fresno Street, Vallejo (Allen family home)"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recPBwwP4sg733WeY",
-          "name": "7/27/71 Mulanax Report on Arthur Leigh Allen",
-          "slug": "7-27-71-mulanax-report-on-arthur-leigh-allen"
-        },
-        {
-          "id": "recUaR76C89J0wwzI",
-          "name": "July 1971 ALA meeting with Toschi and Armstrong",
-          "slug": "july-1971-ala-meeting-with-toschi-and-armstrong"
-        },
-        {
-          "id": "recg1dUJ02MDrKqj7",
-          "name": "A.L. Allen Search Warrant (Santa Rosa)",
-          "slug": "a-l-allen-search-warrant-santa-rosa"
-        },
-        {
-          "id": "recOWHxTV9F6zdH62",
-          "name": "1991 search of Arthur Leigh Allen's home in Vallejo",
-          "slug": "1991-search-of-arthur-leigh-allen-s-home-in-vallejo"
-        },
-        {
-          "id": "recF2WE9VrdA5pIVr",
-          "name": "Arthur Leigh Allen alibi for Lake Berryessa",
-          "slug": "arthur-leigh-allen-alibi-for-lake-berryessa"
-        },
-        {
-          "id": "recdWp4tgkGyHVyCM",
-          "name": "Arthur Leigh Allen fired from Arco Service Station",
-          "slug": "arthur-leigh-allen-fired-from-arco-service-station"
-        },
-        {
-          "id": "recBAA9YBl43m7PYX",
-          "name": "Death of Arthur Leigh Allen's father",
-          "slug": "death-of-arthur-leigh-allen-s-father"
-        },
-        {
-          "id": "recY8uibcMAlgpNjH",
-          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
-          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
-        },
-        {
-          "id": "rec3bjjdMbsKQKHnJ",
-          "name": "Ronald Allen marries Karen Long",
-          "slug": "ronald-allen-marries-karen-long"
-        },
-        {
-          "id": "recDeNkyi136d3P4E",
-          "name": "Arthur Leigh Allen teaching trampoline class in Vallejo",
-          "slug": "arthur-leigh-allen-teaching-trampoline-class-in-vallejo"
-        },
-        {
-          "id": "recuBhlkcmZlBIIT6",
-          "name": "Arthur Leigh Allen is born",
-          "slug": "arthur-leigh-allen-is-born"
-        },
-        {
-          "id": "rec8ElxIeUrhapdLr",
-          "name": "Arthur Leigh Allen ushers for a friend's wedding",
-          "slug": "arthur-leigh-allen-ushers-for-a-friend-s-wedding"
-        },
-        {
-          "id": "recwcxNeKvutZunIR",
-          "name": "Ralph Spinelli claims he knows who Zodiac was",
-          "slug": "ralph-spinelli-claims-he-knows-who-zodiac-was"
-        },
-        {
-          "id": "rec8hogdM9wm1STXN",
-          "name": "Sonoma Sheriffs search ALA's trailer",
-          "slug": "sonoma-sheriffs-search-ala-s-trailer"
-        },
-        {
-          "id": "rect92Jr0FEeByRSu",
-          "name": "Michael Mageau identifies Arthur Leigh Allen",
-          "slug": "michael-mageau-identifies-arthur-leigh-allen"
-        },
-        {
-          "id": "recYqr42FdbksghyG",
-          "name": "Arthur Leigh Allen competes in Camellia Cup Regatta sailing competition",
-          "slug": "arthur-leigh-allen-competes-in-camellia-cup-regatta-sailing-competition"
-        },
-        {
-          "id": "recq0Zly0j1za56fW",
-          "name": "Arthur Leigh Allen is losing weight",
-          "slug": "arthur-leigh-allen-is-losing-weight"
-        },
-        {
-          "id": "recMRQypyLEGzH4Ey",
-          "name": "Arthur Leigh Allen dies",
-          "slug": "arthur-leigh-allen-dies"
-        },
-        {
-          "id": "recBzDi3hpunBuHiu",
-          "name": "Arthur Leigh Allen's family departs Hawaii for San Francisco",
-          "slug": "arthur-leigh-allen-s-family-departs-hawaii-for-san-francisco"
-        },
-        {
-          "id": "recjeDHR2yo6jVwmW",
-          "name": "Arthur Leigh Allen's family arrives in Los Angeles from Hawaii",
-          "slug": "arthur-leigh-allen-s-family-arrives-in-los-angeles-from-hawaii"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recv1F0hue1ynvbj5",
-          "name": "Rohnert Park, CA",
-          "slug": "rohnert-park-ca"
-        },
-        {
-          "id": "recW1ODoJpuqrqToL",
-          "name": "Salt Point Ranch (State Park)",
-          "slug": "salt-point-ranch-state-park"
-        },
-        {
-          "id": "recxuIuPaJDKhXKo6",
-          "name": "Lake Berryessa",
-          "slug": "lake-berryessa"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recKsFUcUEB0uMfpB",
-          "name": "Arco Service Station in Vallejo",
-          "slug": "arco-service-station-in-vallejo"
-        },
-        {
-          "id": "rechgeZ9A6h62DrRu",
-          "name": "Sonoma County, CA",
-          "slug": "sonoma-county-ca"
-        },
-        {
-          "id": "rec0s88W6nNyYJxjf",
-          "name": "32 Fresno Street, Vallejo (Allen family home)",
-          "slug": "32-fresno-street-vallejo-allen-family-home"
-        },
-        {
-          "id": "recGxfdF0XWgxnb7i",
-          "name": "Arthur Leigh Allen's trailer",
-          "slug": "arthur-leigh-allen-s-trailer"
-        },
-        {
-          "id": "recU6ndMaGe3yGcOi",
-          "name": "Santa Rosa, CA",
-          "slug": "santa-rosa-ca"
-        },
-        {
-          "id": "recklaWOSlKlu4sXv",
-          "name": "Burson, CA",
-          "slug": "burson-ca"
-        },
-        {
-          "id": "recMbpwvRygW2rZAr",
-          "name": "Calaveras County, CA",
-          "slug": "calaveras-county-ca"
-        },
-        {
-          "id": "recdLotFFevZ2yReD",
-          "name": "Valley Springs, CA",
-          "slug": "valley-springs-ca"
-        },
-        {
-          "id": "recoErp4l7Fu2B6lx",
-          "name": "Honolulu",
-          "slug": "honolulu"
-        },
-        {
-          "id": "recjgYEXN7C9peYFq",
-          "name": "Sunrise Memorial Cemetery",
-          "slug": "sunrise-memorial-cemetery"
-        },
-        {
-          "id": "recbF7clima1I0zrq",
-          "name": "Sacramento, CA",
-          "slug": "sacramento-ca"
-        },
-        {
-          "id": "recTtSgOnIWt7xB0c",
-          "name": "San Marino, CA",
-          "slug": "san-marino-ca"
-        },
-        {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
-        },
-        {
-          "id": "reclf44XCEHjVBWFJ",
-          "name": "San Jose, CA",
-          "slug": "san-jose-ca"
-        },
-        {
-          "id": "recQdEdKh7CEP2mPw",
-          "name": "Santa Clara County Jail",
-          "slug": "santa-clara-county-jail"
-        },
-        {
-          "id": "rec0Qc5L0c4yAOk4l",
-          "name": "Ontario International Airport (San Bernardino)",
-          "slug": "ontario-international-airport-san-bernardino"
-        },
-        {
-          "id": "recqZNz1ev1HUrq4X",
-          "name": "Folsom Lake State Recreation Area",
-          "slug": "folsom-lake-state-recreation-area"
-        },
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recnRUiEh97LKZIBR",
-          "name": "Union Oil Refinery in Pinole",
-          "slug": "union-oil-refinery-in-pinole"
-        },
-        {
-          "id": "rec5sLMwfiMUYMmOS",
-          "name": "United States Navy",
-          "slug": "united-states-navy"
-        },
-        {
-          "id": "recCKtUMp3i2FG1Rk",
-          "name": "Vallejo High School",
-          "slug": "vallejo-high-school"
-        },
-        {
-          "id": "recbMFCIRZ4hHSZD2",
-          "name": "California Polytechnic State University (Cal Poly)",
-          "slug": "california-polytechnic-state-university-cal-poly"
-        },
-        {
-          "id": "recK3dd3M9TK98QFW",
-          "name": "Mare Island Naval Shipyard",
-          "slug": "mare-island-naval-shipyard"
-        },
-        {
-          "id": "recgR0rLBlzMUJQW7",
-          "name": "Highland Elementary School",
-          "slug": "highland-elementary-school"
-        },
-        {
-          "id": "recRMO9AuuRNqX0KG",
-          "name": "Valley Spring Elementary",
-          "slug": "valley-spring-elementary"
-        },
-        {
-          "id": "recpsTMf4JcuA7T0L",
-          "name": "Atascadero State Hospital",
-          "slug": "atascadero-state-hospital"
-        },
-        {
-          "id": "recIjxpNpt3Vb6fws",
-          "name": "Santa Rosa Elementary School (Atascadero, CA)",
-          "slug": "santa-rosa-elementary-school-atascadero-ca"
-        },
-        {
-          "id": "recSMUUHLT3M0dl2j",
-          "name": "Travis Elementary (Travis AFB)",
-          "slug": "travis-elementary-travis-afb"
-        },
-        {
-          "id": "recNyLlabNcbWFp1B",
-          "name": "Sonoma State University",
-          "slug": "sonoma-state-university"
-        },
-        {
-          "id": "reczvgTcvezzKWjlr",
-          "name": "Vallejo College",
-          "slug": "vallejo-college"
-        },
-        {
-          "id": "recmQ9moIGpjHOofr",
-          "name": "Ronald Gene Allen",
-          "slug": "ronald-gene-allen"
-        },
-        {
-          "id": "reczV15noceEWDHkD",
-          "name": "Ethan Warren Allen",
-          "slug": "ethan-warren-allen"
-        },
-        {
-          "id": "recPDmge198CzhGuq",
-          "name": "Bernice Allen",
-          "slug": "bernice-allen"
-        },
-        {
-          "id": "recntWl4qqP88Laha",
-          "name": "Karen Marie (Long) Allen",
-          "slug": "karen-marie-long-allen"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "reci68Kc8tcfOciIO",
-          "name": "Arthur Leigh Allen",
-          "slug": "arthur-leigh-allen"
-        },
-        {
-          "id": "recTMiG4WfngIFgng",
-          "name": "The 340 Cipher",
-          "slug": "the-340-cipher"
-        },
-        {
-          "id": "recARqcCrYYCA8P03",
-          "name": "Military",
-          "slug": "military"
-        },
-        {
-          "id": "reciWptHRCNOnXDUv",
-          "name": "Bombs, Explosives, and Demolition",
-          "slug": "bombs-explosives-and-demolition"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Arthur%20Leigh%20Allen&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Arthur%20Leigh%20Allen&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 20,
-      "searchText": "Arthur Leigh Allen Arthur Leigh Allen The prime suspect. Rohnert Park, CA Salt Point Ranch (State Park) Lake Berryessa California Solano County, CA Napa County, CA Vallejo, CA SF Bay Area United States of America Arco Service Station in Vallejo Sonoma County, CA 32 Fresno Street, Vallejo (Allen family home) Arthur Leigh Allen's trailer Santa Rosa, CA Burson, CA Calaveras County, CA Valley Springs, CA Honolulu Sunrise Memorial Cemetery Sacramento, CA San Marino, CA Berkeley, CA San Jose, CA Santa Clara County Jail Ontario International Airport (San Bernardino) Folsom Lake State Recreation Area Los Angeles"
     },
     {
       "id": "recIi4fFkzHRAIpD0",
@@ -4081,6 +4086,150 @@
       "searchText": "Darlene (Suennen) Ferrin Darlene (Suennen) Ferrin Only fatality in Blue Rock Springs Park case. Blue Rock Springs Park Vallejo, CA Home of Darlene Ferrin (January 1968) Solano County, CA California SF Bay Area United States of America Albany County, NY New York State Home of Darlene Ferrin (September 1969) Hogan High School (Vallejo, CA) Rosemead, CA Los Angeles County, CA Albany, NY Kaiser Hospital Twin Chapels Mortuary (Vallejo) Darlene Ferrin's parents home (1969) Reno, NV"
     },
     {
+      "id": "rechZGGRukF60iMfY",
+      "slug": "paul-avery",
+      "kind": "person",
+      "title": "Paul Avery",
+      "subtitle": "Media,Key Figure,Deceased",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Paul Avery"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
+          "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
+          "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attb5ON0dWnOcPsco_image.png",
+          "thumbUrl": "data/media/derived/thumb/attb5ON0dWnOcPsco_image.png",
+          "mediumUrl": "data/media/derived/medium/attb5ON0dWnOcPsco_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
+        "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
+        "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recizrRQXnSUiCjTN",
+          "name": "The Halloween Card",
+          "slug": "the-halloween-card"
+        },
+        {
+          "id": "recqhrDZc0vFnQ3hA",
+          "name": "The Sierra Club Postcard",
+          "slug": "the-sierra-club-postcard"
+        },
+        {
+          "id": "recbqZHt9IKbuEiz9",
+          "name": "The Exorcist Letter is published in the SF Chronicle",
+          "slug": "the-exorcist-letter-is-published-in-the-sf-chronicle"
+        },
+        {
+          "id": "recpRXga559CrkZK3",
+          "name": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders",
+          "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
+        },
+        {
+          "id": "rech0wvV5yOtV7EQl",
+          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
+          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
+        },
+        {
+          "id": "recx232Yd4vQml60O",
+          "name": "Riverside connection is published in SF Chronicle",
+          "slug": "riverside-connection-is-published-in-sf-chronicle"
+        },
+        {
+          "id": "recYh6IyIS3J1JDgA",
+          "name": "\"A Challenge for the Zodiac\" letter sent to Paul Avery",
+          "slug": "a-challenge-for-the-zodiac-letter-sent-to-paul-avery"
+        },
+        {
+          "id": "recgJ1EWqnfuw0hMi",
+          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
+          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
+        },
+        {
+          "id": "reczaA9PmWsLnLsjE",
+          "name": "Paul Avery dies",
+          "slug": "paul-avery-dies"
+        },
+        {
+          "id": "recVkmC71zHdSruSd",
+          "name": "20th anniversary coverage",
+          "slug": "20th-anniversary-coverage"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recUJsymsZJwwCLW9",
+          "name": "Fairfield, CA",
+          "slug": "fairfield-ca"
+        },
+        {
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
+        },
+        {
+          "id": "rec2AYAwnvhF93M0w",
+          "name": "Orcas Island",
+          "slug": "orcas-island"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 10,
+      "searchText": "Paul Avery Paul Avery  San Francisco SF Bay Area California United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
+    },
+    {
       "id": "recVvuvbfvZdCyti3",
       "slug": "betty-lou-jensen",
       "kind": "person",
@@ -4532,145 +4681,6 @@
       ],
       "relatedEventCount": 9,
       "searchText": "David Arthur Faraday David Arthur Faraday Male victim in Lake Herman Road crime. Lake Herman Road Zodiac Site Solano County, CA Vallejo, CA California SF Bay Area United States of America Lake Herman Road Benicia, CA Home of David Faraday San Rafael, CA Marin County, CA Vallejo General Hospital Tulocay Cemetery & Crematory Home of Sharon Henslin (1968) Home of Betty Lou Jensen Marshall Ranch"
-    },
-    {
-      "id": "rechZGGRukF60iMfY",
-      "slug": "paul-avery",
-      "kind": "person",
-      "title": "Paul Avery",
-      "subtitle": "Media,Key Figure,Deceased",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Paul Avery"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
-          "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
-          "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attb5ON0dWnOcPsco_image.png",
-          "thumbUrl": "data/media/derived/thumb/attb5ON0dWnOcPsco_image.png",
-          "mediumUrl": "data/media/derived/medium/attb5ON0dWnOcPsco_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
-        "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
-        "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recizrRQXnSUiCjTN",
-          "name": "The Halloween Card",
-          "slug": "the-halloween-card"
-        },
-        {
-          "id": "recqhrDZc0vFnQ3hA",
-          "name": "The Sierra Club Postcard",
-          "slug": "the-sierra-club-postcard"
-        },
-        {
-          "id": "recbqZHt9IKbuEiz9",
-          "name": "The Exorcist Letter is published in the SF Chronicle",
-          "slug": "the-exorcist-letter-is-published-in-the-sf-chronicle"
-        },
-        {
-          "id": "recpRXga559CrkZK3",
-          "name": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders",
-          "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
-        },
-        {
-          "id": "rech0wvV5yOtV7EQl",
-          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
-          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
-        },
-        {
-          "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
-        },
-        {
-          "id": "recYh6IyIS3J1JDgA",
-          "name": "\"A Challenge for the Zodiac\" letter sent to Paul Avery",
-          "slug": "a-challenge-for-the-zodiac-letter-sent-to-paul-avery"
-        },
-        {
-          "id": "recgJ1EWqnfuw0hMi",
-          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
-          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
-        },
-        {
-          "id": "reczaA9PmWsLnLsjE",
-          "name": "Paul Avery dies",
-          "slug": "paul-avery-dies"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recUJsymsZJwwCLW9",
-          "name": "Fairfield, CA",
-          "slug": "fairfield-ca"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
-        },
-        {
-          "id": "rec2AYAwnvhF93M0w",
-          "name": "Orcas Island",
-          "slug": "orcas-island"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 9,
-      "searchText": "Paul Avery Paul Avery  San Francisco SF Bay Area California United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
     },
     {
       "id": "recwRee0DtTX3tRVn",
@@ -5689,6 +5699,134 @@
       "searchText": "Louis (Louie) Joseph Myers Louis (Louie) Joseph Myers Suspect alleged to have confessed multiple times. Louis Myers' parents residence in late 1960s Vallejo, CA Solano County, CA California SF Bay Area United States of America Hogan High School (Vallejo, CA) West Germany"
     },
     {
+      "id": "recXJdTXSNJPLgeJ2",
+      "slug": "melvin-belli",
+      "kind": "person",
+      "title": "Melvin Belli",
+      "subtitle": "Key Figure,Other,Deceased",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Melvin Belli"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
+          "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
+          "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
+        "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
+        "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recy8o4AXk9zvM8sK",
+          "name": "The Belli Letter",
+          "slug": "the-belli-letter"
+        },
+        {
+          "id": "recxGz79HUu6CppHD",
+          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
+          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
+        },
+        {
+          "id": "recoCZBzqVEAptCbE",
+          "name": "The Belli Letter is published",
+          "slug": "the-belli-letter-is-published"
+        },
+        {
+          "id": "reccd7XPakkOugSk6",
+          "name": "Altamont Free Concert",
+          "slug": "altamont-free-concert"
+        },
+        {
+          "id": "recKFvrTEomZrRD6W",
+          "name": "\"Sam\" doesn't show up at Fairmont Hotel",
+          "slug": "sam-doesn-t-show-up-at-fairmont-hotel"
+        },
+        {
+          "id": "recqjXpshDLXC0Wfl",
+          "name": "“Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli",
+          "slug": "zodiac-call-to-oakland-pd-re-f-lee-bailey-and-melvin-belli"
+        },
+        {
+          "id": "recktcfKy0caNre6j",
+          "name": "Belli writes 20th anniversary letter to editor",
+          "slug": "belli-writes-20th-anniversary-letter-to-editor"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
+        },
+        {
+          "id": "recyZAyFBufsf5Us6",
+          "name": "Livermore, CA",
+          "slug": "livermore-ca"
+        },
+        {
+          "id": "recs7w51lbAk0oeE7",
+          "name": "Oakland, CA",
+          "slug": "oakland-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "reckeGmUh2Oxiy7Pr",
+          "name": "Zodiac Buttons",
+          "slug": "zodiac-buttons"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 7,
+      "searchText": "Melvin Belli Melvin Belli  San Francisco California United States of America SF Bay Area San Francisco Chronicle offices Livermore, CA Oakland, CA"
+    },
+    {
       "id": "recUj9VcE1TiYBWhk",
       "slug": "the-solano-napa-news-chronicle",
       "kind": "person",
@@ -5978,129 +6116,6 @@
       ],
       "relatedEventCount": 6,
       "searchText": "Jim Phillips Crabtree Jim Phillips Crabtree First husband of Darlene Ferrin. AKA James Phillips. Albany, NY Santa Barbara, CA Solano County, CA Vallejo, CA California SF Bay Area United States of America Albany County, NY Santa Barbara County, CA Fairfield, CA New York State Santa Cruz, CA Darlene Ferrin's parents home (1969) Reno, NV"
-    },
-    {
-      "id": "recXJdTXSNJPLgeJ2",
-      "slug": "melvin-belli",
-      "kind": "person",
-      "title": "Melvin Belli",
-      "subtitle": "Key Figure,Other,Deceased",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Melvin Belli"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
-          "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
-          "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
-        "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
-        "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recy8o4AXk9zvM8sK",
-          "name": "The Belli Letter",
-          "slug": "the-belli-letter"
-        },
-        {
-          "id": "recxGz79HUu6CppHD",
-          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
-          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
-        },
-        {
-          "id": "recoCZBzqVEAptCbE",
-          "name": "The Belli Letter is published",
-          "slug": "the-belli-letter-is-published"
-        },
-        {
-          "id": "reccd7XPakkOugSk6",
-          "name": "Altamont Free Concert",
-          "slug": "altamont-free-concert"
-        },
-        {
-          "id": "recKFvrTEomZrRD6W",
-          "name": "\"Sam\" doesn't show up at Fairmont Hotel",
-          "slug": "sam-doesn-t-show-up-at-fairmont-hotel"
-        },
-        {
-          "id": "recqjXpshDLXC0Wfl",
-          "name": "“Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli",
-          "slug": "zodiac-call-to-oakland-pd-re-f-lee-bailey-and-melvin-belli"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
-        },
-        {
-          "id": "recyZAyFBufsf5Us6",
-          "name": "Livermore, CA",
-          "slug": "livermore-ca"
-        },
-        {
-          "id": "recs7w51lbAk0oeE7",
-          "name": "Oakland, CA",
-          "slug": "oakland-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "reckeGmUh2Oxiy7Pr",
-          "name": "Zodiac Buttons",
-          "slug": "zodiac-buttons"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 6,
-      "searchText": "Melvin Belli Melvin Belli  San Francisco California United States of America SF Bay Area San Francisco Chronicle offices Livermore, CA Oakland, CA"
     },
     {
       "id": "recRqEatrDv8cGa4n",
@@ -7819,6 +7834,139 @@
       "searchText": "Ronald Gene Allen Ronald Gene Allen Brother of Arthur Leigh Allen, son of Ethan and Bernice Allen Solano County, CA Santa Rosa, CA Sonoma County, CA Vallejo, CA California SF Bay Area United States of America Pomona, CA Sunrise Memorial Cemetery San Marino, CA"
     },
     {
+      "id": "recnGQtKOfaGauwF5",
+      "slug": "sfpd",
+      "kind": "person",
+      "title": "SFPD",
+      "subtitle": "Law Enforcement,Organization,Key Figure",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "SFPD"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attyNyq049a4mWDkd_image.png",
+          "thumbUrl": "data/media/derived/thumb/attyNyq049a4mWDkd_image.png",
+          "mediumUrl": "data/media/derived/medium/attyNyq049a4mWDkd_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attyNyq049a4mWDkd_image.png",
+        "thumbUrl": "data/media/derived/thumb/attyNyq049a4mWDkd_image.png",
+        "mediumUrl": "data/media/derived/medium/attyNyq049a4mWDkd_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco, Golden Gate Park Police Station"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recxGz79HUu6CppHD",
+          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
+          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
+        },
+        {
+          "id": "recoa3PUngQgNc4d0",
+          "name": "First police sketch is released",
+          "slug": "first-police-sketch-is-released"
+        },
+        {
+          "id": "recv0lD33punv2RPf",
+          "name": "SFPD Park Station bombing",
+          "slug": "sfpd-park-station-bombing"
+        },
+        {
+          "id": "recYlgGaeVKouVQ7U",
+          "name": "SFPD deactivates Zodiac case",
+          "slug": "sfpd-deactivates-zodiac-case"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "receuSuhUHn9NBIHz",
+          "name": "SFPD Headquarters",
+          "slug": "sfpd-headquarters"
+        },
+        {
+          "id": "recgwFUhvmCVQeile",
+          "name": "Golden Gate Park Police Station",
+          "slug": "golden-gate-park-police-station"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recBksQ4rNpargfGq",
+          "name": "David Toschi",
+          "slug": "david-toschi"
+        },
+        {
+          "id": "recgiyRqeEkAMIyhg",
+          "name": "Charles Ellis",
+          "slug": "charles-ellis"
+        },
+        {
+          "id": "rect7IhMSzgPtNWCa",
+          "name": "Bill Armstrong",
+          "slug": "bill-armstrong"
+        },
+        {
+          "id": "recIVF2meBzFCkEkr",
+          "name": "Martin Lee",
+          "slug": "martin-lee"
+        },
+        {
+          "id": "recEyiOvHsnprdzFK",
+          "name": "Frank Peda",
+          "slug": "frank-peda"
+        },
+        {
+          "id": "recFln3D4VZwCWrv5",
+          "name": "Eric Zelms",
+          "slug": "eric-zelms"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=SFPD&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=SFPD&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 4,
+      "searchText": "SFPD SFPD  San Francisco California SF Bay Area United States of America SFPD Headquarters Golden Gate Park Police Station"
+    },
+    {
       "id": "recbxW2kT9BdoZ0Pa",
       "slug": "stella-e-borges-medeiros",
       "kind": "person",
@@ -9256,14 +9404,14 @@
           "slug": "napa-county-ca"
         },
         {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         },
         {
           "id": "recO5mW1mFKtK0hCE",
@@ -9304,7 +9452,7 @@
         }
       ],
       "relatedEventCount": 3,
-      "searchText": "James W. Reed James W. Reed Teen pipe bomber in Napa County. Napa County, CA SF Bay Area California United States of America Napa, CA Pay Phone at Main and Clinton Streets Napa Car Wash 1063 Elm St. (Napa)"
+      "searchText": "James W. Reed James W. Reed Teen pipe bomber in Napa County. Napa County, CA California SF Bay Area United States of America Napa, CA Pay Phone at Main and Clinton Streets Napa Car Wash 1063 Elm St. (Napa)"
     },
     {
       "id": "recb9DBCgGcF3eXXg",
@@ -10088,134 +10236,6 @@
       ],
       "relatedEventCount": 3,
       "searchText": "Raymond Davis Raymond Davis Cab driver murdered in Oceanside. Oceanside, CA San Diego County, CA California United States of America"
-    },
-    {
-      "id": "recnGQtKOfaGauwF5",
-      "slug": "sfpd",
-      "kind": "person",
-      "title": "SFPD",
-      "subtitle": "Law Enforcement,Organization,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "SFPD"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attyNyq049a4mWDkd_image.png",
-          "thumbUrl": "data/media/derived/thumb/attyNyq049a4mWDkd_image.png",
-          "mediumUrl": "data/media/derived/medium/attyNyq049a4mWDkd_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attyNyq049a4mWDkd_image.png",
-        "thumbUrl": "data/media/derived/thumb/attyNyq049a4mWDkd_image.png",
-        "mediumUrl": "data/media/derived/medium/attyNyq049a4mWDkd_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco, Golden Gate Park Police Station"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recxGz79HUu6CppHD",
-          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
-          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
-        },
-        {
-          "id": "recoa3PUngQgNc4d0",
-          "name": "First police sketch is released",
-          "slug": "first-police-sketch-is-released"
-        },
-        {
-          "id": "recv0lD33punv2RPf",
-          "name": "SFPD Park Station bombing",
-          "slug": "sfpd-park-station-bombing"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "receuSuhUHn9NBIHz",
-          "name": "SFPD Headquarters",
-          "slug": "sfpd-headquarters"
-        },
-        {
-          "id": "recgwFUhvmCVQeile",
-          "name": "Golden Gate Park Police Station",
-          "slug": "golden-gate-park-police-station"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recBksQ4rNpargfGq",
-          "name": "David Toschi",
-          "slug": "david-toschi"
-        },
-        {
-          "id": "recgiyRqeEkAMIyhg",
-          "name": "Charles Ellis",
-          "slug": "charles-ellis"
-        },
-        {
-          "id": "rect7IhMSzgPtNWCa",
-          "name": "Bill Armstrong",
-          "slug": "bill-armstrong"
-        },
-        {
-          "id": "recIVF2meBzFCkEkr",
-          "name": "Martin Lee",
-          "slug": "martin-lee"
-        },
-        {
-          "id": "recEyiOvHsnprdzFK",
-          "name": "Frank Peda",
-          "slug": "frank-peda"
-        },
-        {
-          "id": "recFln3D4VZwCWrv5",
-          "name": "Eric Zelms",
-          "slug": "eric-zelms"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=SFPD&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=SFPD&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 3,
-      "searchText": "SFPD SFPD  San Francisco California SF Bay Area United States of America SFPD Headquarters Golden Gate Park Police Station"
     },
     {
       "id": "rec1E36PYKH7RZjhY",
@@ -13323,6 +13343,74 @@
       ],
       "relatedEventCount": 2,
       "searchText": "Robert Domingos Robert Domingos  Gaviota Beach Santa Barbara County, CA"
+    },
+    {
+      "id": "recISBXi2eQAIWEO8",
+      "slug": "robert-graysmith",
+      "kind": "person",
+      "title": "Robert Graysmith",
+      "subtitle": "Key Figure,Researcher,Author",
+      "summary": "Author of Zodiac and Zodiac Unmasked.",
+      "excerpt": "Author of Zodiac and Zodiac Unmasked.",
+      "aliases": [
+        "Robert Graysmith"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attbkXtkgh1NZ1wQy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attbkXtkgh1NZ1wQy_image.png",
+          "mediumUrl": "data/media/derived/medium/attbkXtkgh1NZ1wQy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attbkXtkgh1NZ1wQy_image.png",
+        "thumbUrl": "data/media/derived/thumb/attbkXtkgh1NZ1wQy_image.png",
+        "mediumUrl": "data/media/derived/medium/attbkXtkgh1NZ1wQy_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recN8y4qL0Bafo7Fq",
+          "name": "Paperback of Robert Graysmith's 'Zodiac' set to be published",
+          "slug": "paperback-of-robert-graysmith-s-zodiac-set-to-be-published"
+        },
+        {
+          "id": "rec1Js0yixTEQkfvj",
+          "name": "Robert Graysmith's 'Zodiac' is published",
+          "slug": "robert-graysmith-s-zodiac-is-published"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec5NLNj8q2bpKjm8",
+          "name": "San Francisco Chronicle",
+          "slug": "san-francisco-chronicle"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Robert%20Graysmith&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Robert%20Graysmith&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Robert Graysmith Robert Graysmith Author of Zodiac and Zodiac Unmasked. United States of America"
     },
     {
       "id": "reclKt4S2kN1FZUGr",
@@ -18049,6 +18137,96 @@
       "searchText": "Harold Pierce Harold Pierce Pallbearer at David Faraday's funeral Tulocay Cemetery & Crematory"
     },
     {
+      "id": "recSH3t6JshE3eNXM",
+      "slug": "harvey-hines",
+      "kind": "person",
+      "title": "Harvey Hines",
+      "subtitle": "Law Enforcement",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Harvey Hines"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att5sQlYEPkrQ4lSj_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5sQlYEPkrQ4lSj_image.png",
+          "mediumUrl": "data/media/derived/medium/att5sQlYEPkrQ4lSj_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attQaHF7MFRAlLHfe_image.png",
+          "thumbUrl": "data/media/derived/thumb/attQaHF7MFRAlLHfe_image.png",
+          "mediumUrl": "data/media/derived/medium/attQaHF7MFRAlLHfe_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att5sQlYEPkrQ4lSj_image.png",
+        "thumbUrl": "data/media/derived/thumb/att5sQlYEPkrQ4lSj_image.png",
+        "mediumUrl": "data/media/derived/medium/att5sQlYEPkrQ4lSj_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Escalon, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec1Sj8XgYiEAz280",
+          "name": "Harvey Hines interview in Escalon",
+          "slug": "harvey-hines-interview-in-escalon"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recUHZEtJHqQWJpC8",
+          "name": "Escalon, CA",
+          "slug": "escalon-ca"
+        },
+        {
+          "id": "recxDfCb0gpbqdH7m",
+          "name": "San Joaquin County, CA",
+          "slug": "san-joaquin-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "rec8HlpeGk8KlrXoi",
+          "name": "Attack at Blue Rock Springs Park",
+          "slug": "attack-at-blue-rock-springs-park"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Harvey%20Hines&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Harvey%20Hines&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Harvey Hines Harvey Hines  Escalon, CA San Joaquin County, CA California United States of America"
+    },
+    {
       "id": "recBpIteJUoIzFok3",
       "slug": "helen-axe",
       "kind": "person",
@@ -20031,6 +20209,94 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Patterson Police Department Patterson Police Department Department Kathleen Johns reported incident to. Patterson, CA Stanislaus County, CA California United States of America"
+    },
+    {
+      "id": "recJfLeEtWSk1eZ6i",
+      "slug": "paul-holes",
+      "kind": "person",
+      "title": "Paul Holes",
+      "subtitle": "Law Enforcement,Living,Author",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Paul Holes"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attZyvwudIjsU6UPu_image.png",
+          "thumbUrl": "data/media/derived/thumb/attZyvwudIjsU6UPu_image.png",
+          "mediumUrl": "data/media/derived/medium/attZyvwudIjsU6UPu_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attZyvwudIjsU6UPu_image.png",
+        "thumbUrl": "data/media/derived/thumb/attZyvwudIjsU6UPu_image.png",
+        "mediumUrl": "data/media/derived/medium/attZyvwudIjsU6UPu_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Contra Costa County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recYlgGaeVKouVQ7U",
+          "name": "SFPD deactivates Zodiac case",
+          "slug": "sfpd-deactivates-zodiac-case"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recr2NkR1C9077Has",
+          "name": "Contra Costa County Sheriff's Office",
+          "slug": "contra-costa-county-sheriff-s-office"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Paul%20Holes&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Paul%20Holes&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Paul Holes Paul Holes  Contra Costa County, CA California SF Bay Area United States of America San Francisco"
     },
     {
       "id": "recu05TmvX8HQ9QvM",
@@ -22688,6 +22954,83 @@
       "searchText": "Charles Ellis Charles Ellis Lieutenant in SFPD. San Francisco California SF Bay Area United States of America"
     },
     {
+      "id": "recr2NkR1C9077Has",
+      "slug": "contra-costa-county-sheriff-s-office",
+      "kind": "person",
+      "title": "Contra Costa County Sheriff's Office",
+      "subtitle": "Law Enforcement",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Contra Costa County Sheriff's Office"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/atttLpFujiNeuYkui_image.png",
+          "thumbUrl": "data/media/derived/thumb/atttLpFujiNeuYkui_image.png",
+          "mediumUrl": "data/media/derived/medium/atttLpFujiNeuYkui_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/atttLpFujiNeuYkui_image.png",
+        "thumbUrl": "data/media/derived/thumb/atttLpFujiNeuYkui_image.png",
+        "mediumUrl": "data/media/derived/medium/atttLpFujiNeuYkui_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Contra Costa County, CA"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Contra%20Costa%20County%20Sheriff%27s%20Office&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Contra%20Costa%20County%20Sheriff%27s%20Office&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Contra Costa County Sheriff's Office Contra Costa County Sheriff's Office  Contra Costa County, CA California SF Bay Area United States of America"
+    },
+    {
       "id": "rec7wUOvJRIW5MXSD",
       "slug": "daniel-horan",
       "kind": "person",
@@ -23786,69 +24129,6 @@
       "searchText": "Harry Wogan Harry Wogan  Harry Wogan Beacon Station Vallejo, CA Solano County, CA California SF Bay Area United States of America"
     },
     {
-      "id": "recSH3t6JshE3eNXM",
-      "slug": "harvey-hines",
-      "kind": "person",
-      "title": "Harvey Hines",
-      "subtitle": "Law Enforcement",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Harvey Hines"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Escalon, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recUHZEtJHqQWJpC8",
-          "name": "Escalon, CA",
-          "slug": "escalon-ca"
-        },
-        {
-          "id": "recxDfCb0gpbqdH7m",
-          "name": "San Joaquin County, CA",
-          "slug": "san-joaquin-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "rec8HlpeGk8KlrXoi",
-          "name": "Attack at Blue Rock Springs Park",
-          "slug": "attack-at-blue-rock-springs-park"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Harvey%20Hines&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Harvey%20Hines&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Harvey Hines Harvey Hines  Escalon, CA San Joaquin County, CA California United States of America"
-    },
-    {
       "id": "recWUh14ApimVUpmt",
       "slug": "herb-caen",
       "kind": "person",
@@ -24177,6 +24457,37 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Jack Tarrance Jack Tarrance  "
+    },
+    {
+      "id": "recaHnYP7j7WyekBZ",
+      "slug": "jake-m-wark",
+      "kind": "person",
+      "title": "Jake M. Wark",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Jake M. Wark"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Jake%20M.%20Wark&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Jake%20M.%20Wark&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Jake M. Wark Jake M. Wark  "
     },
     {
       "id": "recY6AkIW5bQKt4ww",
@@ -26319,57 +26630,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Riverside Police Department Riverside Police Department Law enforcement responsible for investigating Bates murder. Riverside, CA Riverside County, CA California United States of America"
-    },
-    {
-      "id": "recISBXi2eQAIWEO8",
-      "slug": "robert-graysmith",
-      "kind": "person",
-      "title": "Robert Graysmith",
-      "subtitle": "Key Figure,Researcher,Author",
-      "summary": "Author of Zodiac and Zodiac Unmasked.",
-      "excerpt": "Author of Zodiac and Zodiac Unmasked.",
-      "aliases": [
-        "Robert Graysmith"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attbkXtkgh1NZ1wQy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attbkXtkgh1NZ1wQy_image.png",
-          "mediumUrl": "data/media/derived/medium/attbkXtkgh1NZ1wQy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attbkXtkgh1NZ1wQy_image.png",
-        "thumbUrl": "data/media/derived/thumb/attbkXtkgh1NZ1wQy_image.png",
-        "mediumUrl": "data/media/derived/medium/attbkXtkgh1NZ1wQy_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "rec5NLNj8q2bpKjm8",
-          "name": "San Francisco Chronicle",
-          "slug": "san-francisco-chronicle"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Robert%20Graysmith&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Robert%20Graysmith&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Robert Graysmith Robert Graysmith Author of Zodiac and Zodiac Unmasked. "
     },
     {
       "id": "rec1LH1rtQVgyyXrQ",

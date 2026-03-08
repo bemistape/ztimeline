@@ -24051,6 +24051,56 @@
       "searchText": "Donna Lass remains recovered Victim Event Donna Lass skull location near Camp Spaulding Donna Lass Non-Canonical Crimes The Donna Lass Murder"
     },
     {
+      "id": "rec1Js0yixTEQkfvj",
+      "slug": "robert-graysmith-s-zodiac-is-published",
+      "kind": "event",
+      "title": "Robert Graysmith's 'Zodiac' is published",
+      "date": "1986-02-02",
+      "dateLabel": "Sun, Feb 2, 1986",
+      "year": 1986,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1986-02-02-9999-00408",
+      "type": "Media Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "people": [
+        {
+          "id": "recISBXi2eQAIWEO8",
+          "name": "Robert Graysmith",
+          "slug": "robert-graysmith"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+          "thumbUrl": "data/media/derived/thumb/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+          "mediumUrl": "data/media/derived/medium/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1986_02_02_169.jpg"
+        },
+        {
+          "originalUrl": "data/media/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+          "thumbUrl": "data/media/derived/thumb/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+          "mediumUrl": "data/media/derived/medium/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1986_02_02_179.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Robert Graysmith's 'Zodiac' is published Media Event United States of America Robert Graysmith"
+    },
+    {
       "id": "recBT0fvhvz5pFRGb",
       "slug": "chester-klingel-iii-dies",
       "kind": "event",
@@ -24209,6 +24259,207 @@
       "mapUrl": "",
       "hasMedia": false,
       "searchText": "Ken Narlow runs for Napa County Sheriff Non-Zodiac Events Napa County, CA Napa County CA Ken Narlow"
+    },
+    {
+      "id": "recN8y4qL0Bafo7Fq",
+      "slug": "paperback-of-robert-graysmith-s-zodiac-set-to-be-published",
+      "kind": "event",
+      "title": "Paperback of Robert Graysmith's 'Zodiac' set to be published",
+      "date": "1986-11-27",
+      "dateLabel": "Thu, Nov 27, 1986",
+      "year": 1986,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1986-11-27-9999-00407",
+      "type": "Zodiac Related Events",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "people": [
+        {
+          "id": "recISBXi2eQAIWEO8",
+          "name": "Robert Graysmith",
+          "slug": "robert-graysmith"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+          "thumbUrl": "data/media/derived/thumb/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+          "mediumUrl": "data/media/derived/medium/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1986_11_27_89.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SF Chronicle via Newspapers.com",
+          "url": "https://www.newspapers.com/image/1224991373"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Paperback of Robert Graysmith's 'Zodiac' set to be published Zodiac Related Events United States of America Robert Graysmith"
+    },
+    {
+      "id": "rec1Sj8XgYiEAz280",
+      "slug": "harvey-hines-interview-in-escalon",
+      "kind": "event",
+      "title": "Harvey Hines interview in Escalon",
+      "date": "1988-06-01",
+      "dateLabel": "Wed, Jun 1, 1988",
+      "year": 1988,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1988-06-01-9999-00411",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recUHZEtJHqQWJpC8",
+          "name": "Escalon, CA",
+          "slug": "escalon-ca"
+        },
+        {
+          "id": "",
+          "name": "Escalon",
+          "slug": "escalon"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recSH3t6JshE3eNXM",
+          "name": "Harvey Hines",
+          "slug": "harvey-hines"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+          "mediumUrl": "data/media/derived/medium/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+          "derivativeState": "derived",
+          "label": "The_Escalon_Times_1988_06_01_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
+          "thumbUrl": "data/media/derived/thumb/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
+          "mediumUrl": "data/media/derived/medium/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
+          "derivativeState": "derived",
+          "label": "The_Escalon_Times_1988_06_01_11.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Harvey Hines interview in Escalon Newspaper Article Escalon, CA Escalon CA Harvey Hines"
+    },
+    {
+      "id": "recVkmC71zHdSruSd",
+      "slug": "20th-anniversary-coverage",
+      "kind": "event",
+      "title": "20th anniversary coverage",
+      "date": "1988-12-18",
+      "dateLabel": "Sun, Dec 18, 1988",
+      "year": 1988,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1988-12-18-9999-00409",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "rechZGGRukF60iMfY",
+          "name": "Paul Avery",
+          "slug": "paul-avery"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+          "thumbUrl": "data/media/derived/thumb/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+          "mediumUrl": "data/media/derived/medium/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1988_12_18_37.jpg"
+        },
+        {
+          "originalUrl": "data/media/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+          "thumbUrl": "data/media/derived/thumb/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+          "mediumUrl": "data/media/derived/medium/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1988_12_18_42.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "20th anniversary coverage Newspaper Article San Francisco Paul Avery"
+    },
+    {
+      "id": "recktcfKy0caNre6j",
+      "slug": "belli-writes-20th-anniversary-letter-to-editor",
+      "kind": "event",
+      "title": "Belli writes 20th anniversary letter to editor",
+      "date": "1988-12-28",
+      "dateLabel": "Wed, Dec 28, 1988",
+      "year": 1988,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1988-12-28-9999-00410",
+      "type": "Media Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "recXJdTXSNJPLgeJ2",
+          "name": "Melvin Belli",
+          "slug": "melvin-belli"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+          "thumbUrl": "data/media/derived/thumb/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+          "mediumUrl": "data/media/derived/medium/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1988_12_28_16.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Belli writes 20th anniversary letter to editor Media Event San Francisco Melvin Belli"
     },
     {
       "id": "recI6vIkLPZDkmpqQ",
@@ -25063,10 +25314,25 @@
         }
       ],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+          "thumbUrl": "data/media/derived/thumb/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+          "mediumUrl": "data/media/derived/medium/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1996_05_14_7.jpg"
+        },
+        {
+          "originalUrl": "data/media/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+          "thumbUrl": "data/media/derived/thumb/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+          "mediumUrl": "data/media/derived/medium/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1996_05_14_9.jpg"
+        }
+      ],
       "sources": [],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.77544+-122.40394",
-      "hasMedia": false,
+      "hasMedia": true,
       "searchText": "SFPD is looking into Kaczynski / Zodiac connection Suspect Event SFPD Headquarters Theodore Kaczynski"
     },
     {
@@ -25229,6 +25495,116 @@
       "searchText": "Happy New Year card of 2001 Disputed Z Communication San Francisco Chronicle offices San Francisco Chronicle Zodiac Letters"
     },
     {
+      "id": "recOsfKewullleEry",
+      "slug": "dna-evidence-said-to-clear-arthur-leigh-allen",
+      "kind": "event",
+      "title": "DNA evidence said to clear Arthur Leigh Allen",
+      "date": "2002-10-15",
+      "dateLabel": "Tue, Oct 15, 2002",
+      "year": 2002,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "2002-10-15-9999-00406",
+      "type": "Case Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "rech3D7sonIMHkOft",
+          "name": "Arthur Leigh Allen",
+          "slug": "arthur-leigh-allen"
+        }
+      ],
+      "tags": [
+        {
+          "id": "reci68Kc8tcfOciIO",
+          "name": "Arthur Leigh Allen",
+          "slug": "arthur-leigh-allen"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2002_10_15_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+          "thumbUrl": "data/media/derived/thumb/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+          "mediumUrl": "data/media/derived/medium/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2002_10_15_15.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "DNA evidence said to clear Arthur Leigh Allen Case Event Arthur Leigh Allen Arthur Leigh Allen"
+    },
+    {
+      "id": "recYlgGaeVKouVQ7U",
+      "slug": "sfpd-deactivates-zodiac-case",
+      "kind": "event",
+      "title": "SFPD deactivates Zodiac case",
+      "date": "2004-04-07",
+      "dateLabel": "Wed, Apr 7, 2004",
+      "year": 2004,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "2004-04-07-9999-00405",
+      "type": "Case Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "recnGQtKOfaGauwF5",
+          "name": "SFPD",
+          "slug": "sfpd"
+        },
+        {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2004_04_07_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+          "thumbUrl": "data/media/derived/thumb/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+          "mediumUrl": "data/media/derived/medium/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2004_04_07_7.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SF Chronicle via Newspapers.com",
+          "url": "https://www.newspapers.com/image/1245299388"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "SFPD deactivates Zodiac case Case Event San Francisco SFPD Paul Holes"
+    },
+    {
       "id": "recL6V2jjlEots0Jp",
       "slug": "david-fincher-s-zodiac-is-released",
       "kind": "event",
@@ -25346,7 +25722,7 @@
       "id": "recHmY4JSBTYywOwz",
       "slug": "vallejo-police-update-after-golden-state-killer-breakthrough",
       "kind": "event",
-      "title": "Vallejo Police Update after Golden State Killer breakthrough",
+      "title": "Vallejo Police update after Golden State Killer breakthrough",
       "date": "2018-05-03",
       "dateLabel": "Thu, May 3, 2018",
       "year": 2018,
@@ -25375,11 +25751,38 @@
       ],
       "people": [],
       "tags": [],
-      "images": [],
-      "sources": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2018_05_04_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+          "thumbUrl": "data/media/derived/thumb/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+          "mediumUrl": "data/media/derived/medium/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_2018_05_04_6.jpg"
+        },
+        {
+          "originalUrl": "data/media/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
+          "mediumUrl": "data/media/derived/medium/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-03-08_at_12.02.23_PM.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "VallejoPD.net",
+          "url": "https://www.vallejopd.net/common/pages/GetFile.ashx?key=ri8DAVLR"
+        }
+      ],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
-      "hasMedia": false,
-      "searchText": "Vallejo Police Update after Golden State Killer breakthrough Case Event Vallejo, CA Vallejo CA"
+      "hasMedia": true,
+      "searchText": "Vallejo Police update after Golden State Killer breakthrough Case Event Vallejo, CA Vallejo CA"
     },
     {
       "id": "recnmd867Ux51ETpf",
@@ -25780,6 +26183,14 @@
         "count": 2
       },
       {
+        "value": "2004",
+        "count": 1
+      },
+      {
+        "value": "2002",
+        "count": 1
+      },
+      {
         "value": "2001",
         "count": 1
       },
@@ -25812,8 +26223,12 @@
         "count": 4
       },
       {
-        "value": "1986",
+        "value": "1988",
         "count": 3
+      },
+      {
+        "value": "1986",
+        "count": 5
       },
       {
         "value": "1985",
@@ -26007,7 +26422,7 @@
       },
       {
         "value": "Case Event",
-        "count": 83
+        "count": 85
       },
       {
         "value": "Census Records",
@@ -26027,11 +26442,11 @@
       },
       {
         "value": "Media Event",
-        "count": 30
+        "count": 32
       },
       {
         "value": "Newspaper Article",
-        "count": 25
+        "count": 27
       },
       {
         "value": "Non-Zodiac Events",
@@ -26063,7 +26478,7 @@
       },
       {
         "value": "Zodiac Related Events",
-        "count": 5
+        "count": 6
       }
     ],
     "locations": [
@@ -26181,7 +26596,7 @@
       },
       {
         "value": "CA",
-        "count": 148
+        "count": 149
       },
       {
         "value": "CA)",
@@ -26237,6 +26652,14 @@
       },
       {
         "value": "Donna Lass skull location near Camp Spaulding",
+        "count": 1
+      },
+      {
+        "value": "Escalon",
+        "count": 1
+      },
+      {
+        "value": "Escalon, CA",
         "count": 1
       },
       {
@@ -26837,7 +27260,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 57
+        "count": 60
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -27041,7 +27464,7 @@
       },
       {
         "value": "United States of America",
-        "count": 7
+        "count": 9
       },
       {
         "value": "Vallejo",
@@ -27147,7 +27570,7 @@
       },
       {
         "value": "Arthur Leigh Allen",
-        "count": 20
+        "count": 21
       },
       {
         "value": "Audra Thelma (Busby Stine) Harrison",
@@ -27438,6 +27861,10 @@
         "count": 1
       },
       {
+        "value": "Harvey Hines",
+        "count": 1
+      },
+      {
         "value": "Helen Axe",
         "count": 1
       },
@@ -27623,7 +28050,7 @@
       },
       {
         "value": "Melvin Belli",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Melvin Nicolai",
@@ -27687,7 +28114,11 @@
       },
       {
         "value": "Paul Avery",
-        "count": 9
+        "count": 10
+      },
+      {
+        "value": "Paul Holes",
+        "count": 1
       },
       {
         "value": "Paul Lee Stine",
@@ -27774,6 +28205,10 @@
         "count": 2
       },
       {
+        "value": "Robert Graysmith",
+        "count": 2
+      },
+      {
         "value": "Robert W. Mageau",
         "count": 2
       },
@@ -27815,7 +28250,7 @@
       },
       {
         "value": "SFPD",
-        "count": 3
+        "count": 4
       },
       {
         "value": "Sgt. H.L. Homsher",
@@ -28001,7 +28436,7 @@
       },
       {
         "value": "Arthur Leigh Allen",
-        "count": 18
+        "count": 19
       },
       {
         "value": "Attack at Blue Rock Springs Park",

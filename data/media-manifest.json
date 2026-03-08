@@ -2646,6 +2646,18 @@
       "mediumUrl": "data/media/derived/medium/attovDpD9kki4DqHy_The_Fresno_Bee_1991_11_01_3.jpg",
       "derivativeState": "derived"
     },
+    "data/media/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg": {
+      "originalUrl": "data/media/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+      "thumbUrl": "data/media/derived/thumb/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+      "mediumUrl": "data/media/derived/medium/attEc73rbinuzhdVx_San_Francisco_Chronicle_1996_05_14_7.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg": {
+      "originalUrl": "data/media/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+      "thumbUrl": "data/media/derived/thumb/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+      "mediumUrl": "data/media/derived/medium/attpyIpxaPI9EOQOV_San_Francisco_Chronicle_1996_05_14_9.jpg",
+      "derivativeState": "derived"
+    },
     "data/media/attTp27BqiMVY7h6p_San_Francisco_Chronicle_1970_11_16_1.jpg": {
       "originalUrl": "data/media/attTp27BqiMVY7h6p_San_Francisco_Chronicle_1970_11_16_1.jpg",
       "thumbUrl": "data/media/derived/thumb/attTp27BqiMVY7h6p_San_Francisco_Chronicle_1970_11_16_1.jpg",
@@ -3022,6 +3034,24 @@
       "originalUrl": "data/media/attORBP5uZg2GEBwv_image.png",
       "thumbUrl": "data/media/derived/thumb/attORBP5uZg2GEBwv_image.png",
       "mediumUrl": "data/media/derived/medium/attORBP5uZg2GEBwv_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg": {
+      "originalUrl": "data/media/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+      "mediumUrl": "data/media/derived/medium/attRZO0Nrv3vRehzC_San_Francisco_Chronicle_2018_05_04_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg": {
+      "originalUrl": "data/media/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+      "thumbUrl": "data/media/derived/thumb/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+      "mediumUrl": "data/media/derived/medium/attaGkAGq2MhNejec_San_Francisco_Chronicle_2018_05_04_6.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png": {
+      "originalUrl": "data/media/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
+      "thumbUrl": "data/media/derived/thumb/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
+      "mediumUrl": "data/media/derived/medium/attITSLdDkVjfp0QS_Screenshot_2026-03-08_at_12.02.23_PM.png",
       "derivativeState": "derived"
     },
     "data/media/att4bX0pzVfisNHlI_image.png": {
@@ -3604,6 +3634,78 @@
       "originalUrl": "data/media/attWDtPFLFYGkSRE4_image.png",
       "thumbUrl": "data/media/derived/thumb/attWDtPFLFYGkSRE4_image.png",
       "mediumUrl": "data/media/derived/medium/attWDtPFLFYGkSRE4_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg": {
+      "originalUrl": "data/media/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+      "mediumUrl": "data/media/derived/medium/attZstW2pv2Fxht0X_San_Francisco_Chronicle_2004_04_07_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg": {
+      "originalUrl": "data/media/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+      "thumbUrl": "data/media/derived/thumb/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+      "mediumUrl": "data/media/derived/medium/attCRpXHMHR86LsdI_San_Francisco_Chronicle_2004_04_07_7.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg": {
+      "originalUrl": "data/media/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+      "mediumUrl": "data/media/derived/medium/attyLf4TfMRT65kms_San_Francisco_Chronicle_2002_10_15_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg": {
+      "originalUrl": "data/media/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+      "thumbUrl": "data/media/derived/thumb/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+      "mediumUrl": "data/media/derived/medium/attetIhofzaM6BCB7_San_Francisco_Chronicle_2002_10_15_15.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg": {
+      "originalUrl": "data/media/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+      "thumbUrl": "data/media/derived/thumb/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+      "mediumUrl": "data/media/derived/medium/attF3RNQak8J9y1kT_San_Francisco_Chronicle_1986_11_27_89.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg": {
+      "originalUrl": "data/media/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+      "thumbUrl": "data/media/derived/thumb/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+      "mediumUrl": "data/media/derived/medium/attGYcmNgNMDZVOSZ_San_Francisco_Chronicle_1986_02_02_169.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg": {
+      "originalUrl": "data/media/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+      "thumbUrl": "data/media/derived/thumb/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+      "mediumUrl": "data/media/derived/medium/attf1N9Lpr12f4HJr_San_Francisco_Chronicle_1986_02_02_179.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg": {
+      "originalUrl": "data/media/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+      "thumbUrl": "data/media/derived/thumb/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+      "mediumUrl": "data/media/derived/medium/att6nUS0MTUlWQZOV_San_Francisco_Chronicle_1988_12_18_37.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg": {
+      "originalUrl": "data/media/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+      "thumbUrl": "data/media/derived/thumb/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+      "mediumUrl": "data/media/derived/medium/attzC7IP9ysPiaRJR_San_Francisco_Chronicle_1988_12_18_42.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg": {
+      "originalUrl": "data/media/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+      "thumbUrl": "data/media/derived/thumb/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+      "mediumUrl": "data/media/derived/medium/attan9JcyeWthiNEI_The_San_Francisco_Examiner_1988_12_28_16.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg": {
+      "originalUrl": "data/media/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+      "mediumUrl": "data/media/derived/medium/att4kFmMr9NlthFuq_The_Escalon_Times_1988_06_01_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg": {
+      "originalUrl": "data/media/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
+      "thumbUrl": "data/media/derived/thumb/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
+      "mediumUrl": "data/media/derived/medium/attOiZRVYynBWmyZd_The_Escalon_Times_1988_06_01_11.jpg",
       "derivativeState": "derived"
     },
     "data/media/attD0P2TkTV1TT5jO_image.png": {
@@ -5106,6 +5208,18 @@
       "mediumUrl": "data/media/derived/medium/attkmE0YqSjsw3vbK_image.png",
       "derivativeState": "derived"
     },
+    "data/media/att5sQlYEPkrQ4lSj_image.png": {
+      "originalUrl": "data/media/att5sQlYEPkrQ4lSj_image.png",
+      "thumbUrl": "data/media/derived/thumb/att5sQlYEPkrQ4lSj_image.png",
+      "mediumUrl": "data/media/derived/medium/att5sQlYEPkrQ4lSj_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attQaHF7MFRAlLHfe_image.png": {
+      "originalUrl": "data/media/attQaHF7MFRAlLHfe_image.png",
+      "thumbUrl": "data/media/derived/thumb/attQaHF7MFRAlLHfe_image.png",
+      "mediumUrl": "data/media/derived/medium/attQaHF7MFRAlLHfe_image.png",
+      "derivativeState": "derived"
+    },
     "data/media/attbLSxCGC9mYp42w_image.png": {
       "originalUrl": "data/media/attbLSxCGC9mYp42w_image.png",
       "thumbUrl": "data/media/derived/thumb/attbLSxCGC9mYp42w_image.png",
@@ -5164,6 +5278,18 @@
       "originalUrl": "data/media/attvjmC5KuFfCfPuS_image.png",
       "thumbUrl": "data/media/derived/thumb/attvjmC5KuFfCfPuS_image.png",
       "mediumUrl": "data/media/derived/medium/attvjmC5KuFfCfPuS_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attZyvwudIjsU6UPu_image.png": {
+      "originalUrl": "data/media/attZyvwudIjsU6UPu_image.png",
+      "thumbUrl": "data/media/derived/thumb/attZyvwudIjsU6UPu_image.png",
+      "mediumUrl": "data/media/derived/medium/attZyvwudIjsU6UPu_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/atttLpFujiNeuYkui_image.png": {
+      "originalUrl": "data/media/atttLpFujiNeuYkui_image.png",
+      "thumbUrl": "data/media/derived/thumb/atttLpFujiNeuYkui_image.png",
+      "mediumUrl": "data/media/derived/medium/atttLpFujiNeuYkui_image.png",
       "derivativeState": "derived"
     },
     "data/media/attdDhYp8IaddoCn3_image.png": {
@@ -5238,6 +5364,12 @@
       "mediumUrl": "data/media/derived/medium/attVlTdQzFoqaxmJp_image.png",
       "derivativeState": "derived"
     },
+    "data/media/attYsgsY5g7bBs2Pk_image.png": {
+      "originalUrl": "data/media/attYsgsY5g7bBs2Pk_image.png",
+      "thumbUrl": "data/media/derived/thumb/attYsgsY5g7bBs2Pk_image.png",
+      "mediumUrl": "data/media/derived/medium/attYsgsY5g7bBs2Pk_image.png",
+      "derivativeState": "derived"
+    },
     "data/media/attD1R457mOpnjq2P_image.png": {
       "originalUrl": "data/media/attD1R457mOpnjq2P_image.png",
       "thumbUrl": "data/media/derived/thumb/attD1R457mOpnjq2P_image.png",
@@ -5284,6 +5416,12 @@
       "originalUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
       "thumbUrl": "data/media/derived/thumb/attYJ9P78Ljds0wh2_image.png",
       "mediumUrl": "data/media/derived/medium/attYJ9P78Ljds0wh2_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attEcLjuYImRS1CBE_image.png": {
+      "originalUrl": "data/media/attEcLjuYImRS1CBE_image.png",
+      "thumbUrl": "data/media/derived/thumb/attEcLjuYImRS1CBE_image.png",
+      "mediumUrl": "data/media/derived/medium/attEcLjuYImRS1CBE_image.png",
       "derivativeState": "derived"
     },
     "data/media/attRTKzo9k38Th0bb_image.png": {
