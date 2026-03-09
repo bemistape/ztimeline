@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
+  "generatedAt": "2026-03-09T19:12:19.240959+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -49,8 +49,8 @@
         },
         {
           "id": "reccPjrKfLC01M282",
-          "name": "Car Door Message",
-          "slug": "car-door-message"
+          "name": "Zodiac writes a message on Bryan Hartnell's car door",
+          "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door"
         },
         {
           "id": "recQuYLdGf36hNmut",
@@ -119,8 +119,8 @@
         },
         {
           "id": "recmQK2TtG43z2t8t",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
         },
         {
           "id": "rec7ir3vRKETmXfrI",
@@ -2182,6 +2182,261 @@
       "searchText": "Richard Gaikowski Richard Gaikowski Counterculture journalist based in San Francisco. San Francisco Albany, NY California SF Bay Area United States of America Albany County, NY New York State Fort Eustis Newport News, VA Virginia Aberdeen, SD Huron, SD Martinez, CA Watertown, SD"
     },
     {
+      "id": "recNoik0QhJTMc50o",
+      "slug": "bryan-calvin-hartnell",
+      "kind": "person",
+      "title": "Bryan Calvin Hartnell",
+      "subtitle": "Canonical Victim,Witness,Key Figure,Living",
+      "summary": "Male survivor of Lake Berryessa stabbings.",
+      "excerpt": "Male survivor of Lake Berryessa stabbings.",
+      "aliases": [
+        "Bryan Calvin Hartnell"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attU6rKGSvljMMmRD_image.png",
+          "thumbUrl": "data/media/derived/thumb/attU6rKGSvljMMmRD_image.png",
+          "mediumUrl": "data/media/derived/medium/attU6rKGSvljMMmRD_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attTPnuw4bZm9CivB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTPnuw4bZm9CivB_image.png",
+          "mediumUrl": "data/media/derived/medium/attTPnuw4bZm9CivB_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att4FkUarCGfYUeGu_image.png",
+          "thumbUrl": "data/media/derived/thumb/att4FkUarCGfYUeGu_image.png",
+          "mediumUrl": "data/media/derived/medium/att4FkUarCGfYUeGu_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attj41uL8ntDKyY49_image.png",
+          "thumbUrl": "data/media/derived/thumb/attj41uL8ntDKyY49_image.png",
+          "mediumUrl": "data/media/derived/medium/attj41uL8ntDKyY49_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attqmF8yu5TWIyvCh_image.png",
+          "thumbUrl": "data/media/derived/thumb/attqmF8yu5TWIyvCh_image.png",
+          "mediumUrl": "data/media/derived/medium/attqmF8yu5TWIyvCh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attU6rKGSvljMMmRD_image.png",
+        "thumbUrl": "data/media/derived/thumb/attU6rKGSvljMMmRD_image.png",
+        "mediumUrl": "data/media/derived/medium/attU6rKGSvljMMmRD_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1949-07-31"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Bryan Hartnell's college residence, Multnomah County, OR, Redlands, CA, Angwin, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recmQK2TtG43z2t8t",
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
+        },
+        {
+          "id": "reccPjrKfLC01M282",
+          "name": "Zodiac writes a message on Bryan Hartnell's car door",
+          "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door"
+        },
+        {
+          "id": "recZUA6MMNDn6uOqu",
+          "name": "Robertson interviews Bryan Hartnell at hospital",
+          "slug": "robertson-interviews-bryan-hartnell-at-hospital"
+        },
+        {
+          "id": "reccmPjGjzF5yyh8P",
+          "name": "Hartnell and Shepard leave Pacific Union College for rummage sale",
+          "slug": "hartnell-and-shepard-leave-pacific-union-college-for-rummage-sale"
+        },
+        {
+          "id": "recPgM3wK20NPqPCq",
+          "name": "Bryan Hartnell is born",
+          "slug": "bryan-hartnell-is-born"
+        },
+        {
+          "id": "rec0atFYQWhXlsRP4",
+          "name": "Hartnell's vehicle transported from Lake Berryessa",
+          "slug": "hartnell-s-vehicle-transported-from-lake-berryessa"
+        },
+        {
+          "id": "recGtwhRpLbkPeEUs",
+          "name": "Bryan Hartnell passes the bar",
+          "slug": "bryan-hartnell-passes-the-bar"
+        },
+        {
+          "id": "recEeZ3xtE5AKkYB8",
+          "name": "Bryan Hartnell practicing law in Redlands, CA",
+          "slug": "bryan-hartnell-practicing-law-in-redlands-ca"
+        },
+        {
+          "id": "reci7bQHvRR3sprhT",
+          "name": "Bryan Hartnell continuing to practice in San Bernardino in 2025",
+          "slug": "bryan-hartnell-continuing-to-practice-in-san-bernardino-in-2025"
+        },
+        {
+          "id": "recXxDLIgmYz4wa7V",
+          "name": "Bryan Hartnell's first public notice as attorney",
+          "slug": "bryan-hartnell-s-first-public-notice-as-attorney"
+        },
+        {
+          "id": "recU0UFoVx54lJSAh",
+          "name": "Bryan Hartnell wins first place ribbon at Pathfinder Club fair",
+          "slug": "bryan-hartnell-wins-first-place-ribbon-at-pathfinder-club-fair"
+        },
+        {
+          "id": "recv9Od2TcIzt5tKR",
+          "name": "Bryan Hartnell's summer camping in Bedrock Forest",
+          "slug": "bryan-hartnell-s-summer-camping-in-bedrock-forest"
+        },
+        {
+          "id": "recLsTFzmwRB66QTO",
+          "name": "Bryan Hartnell is discharged from hospital",
+          "slug": "bryan-hartnell-is-discharged-from-hospital"
+        },
+        {
+          "id": "recLyYPgzpXycFoeE",
+          "name": "Article on Mageau and Hartnell's description of Zodiac",
+          "slug": "article-on-mageau-and-hartnell-s-description-of-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recGa0aCpwMM0jQkt",
+          "name": "Queen of the Valley Hospital (Napa, CA)",
+          "slug": "queen-of-the-valley-hospital-napa-ca"
+        },
+        {
+          "id": "recKSNAauavnRjVVz",
+          "name": "Multnomah County, OR",
+          "slug": "multnomah-county-or"
+        },
+        {
+          "id": "recn6x8mz0MMfb6Je",
+          "name": "Oregon",
+          "slug": "oregon"
+        },
+        {
+          "id": "recyvZIPrkhBj44Ei",
+          "name": "Angwin, CA",
+          "slug": "angwin-ca"
+        },
+        {
+          "id": "recmY9ReKFWBSksP5",
+          "name": "Redlands, CA",
+          "slug": "redlands-ca"
+        },
+        {
+          "id": "recHA4DDJVtmmW5qa",
+          "name": "San Bernardino County, CA",
+          "slug": "san-bernardino-county-ca"
+        },
+        {
+          "id": "recxuIuPaJDKhXKo6",
+          "name": "Lake Berryessa",
+          "slug": "lake-berryessa"
+        },
+        {
+          "id": "reccno8wWTHdS0Go6",
+          "name": "Site of Lake Berryessa Zodiac Encounter",
+          "slug": "site-of-lake-berryessa-zodiac-encounter"
+        },
+        {
+          "id": "recHj1mWhEgPtsBK6",
+          "name": "St. Helena, CA",
+          "slug": "st-helena-ca"
+        },
+        {
+          "id": "recbHhU4d2UWXPrIl",
+          "name": "Lake Berryessa Park Headquarters",
+          "slug": "lake-berryessa-park-headquarters"
+        },
+        {
+          "id": "reciewuQM4JBxv2le",
+          "name": "San Bernardino, CA",
+          "slug": "san-bernardino-ca"
+        },
+        {
+          "id": "recxJPJUCmx4KZmmE",
+          "name": "Corvallis, OR",
+          "slug": "corvallis-or"
+        },
+        {
+          "id": "recl84URzlbR43lIf",
+          "name": "Dexter Lake",
+          "slug": "dexter-lake"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "recguCeqiWgWqR24q",
+          "name": "Attack at Lake Berryessa",
+          "slug": "attack-at-lake-berryessa"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Bryan%20Calvin%20Hartnell&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Bryan%20Calvin%20Hartnell&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 14,
+      "searchText": "Bryan Calvin Hartnell Bryan Calvin Hartnell Male survivor of Lake Berryessa stabbings. Napa, CA Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Multnomah County, OR Oregon Angwin, CA Redlands, CA San Bernardino County, CA Lake Berryessa Site of Lake Berryessa Zodiac Encounter St. Helena, CA Lake Berryessa Park Headquarters San Bernardino, CA Corvallis, OR Dexter Lake Vallejo, CA"
+    },
+    {
       "id": "rec4ZhSZpZfgCU6ng",
       "slug": "cheri-jo-bates",
       "kind": "person",
@@ -2639,251 +2894,6 @@
       "searchText": "Ken Narlow Ken Narlow  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA"
     },
     {
-      "id": "recNoik0QhJTMc50o",
-      "slug": "bryan-calvin-hartnell",
-      "kind": "person",
-      "title": "Bryan Calvin Hartnell",
-      "subtitle": "Canonical Victim,Witness,Key Figure,Living",
-      "summary": "Male survivor of Lake Berryessa stabbings.",
-      "excerpt": "Male survivor of Lake Berryessa stabbings.",
-      "aliases": [
-        "Bryan Calvin Hartnell"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attU6rKGSvljMMmRD_image.png",
-          "thumbUrl": "data/media/derived/thumb/attU6rKGSvljMMmRD_image.png",
-          "mediumUrl": "data/media/derived/medium/attU6rKGSvljMMmRD_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attTPnuw4bZm9CivB_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTPnuw4bZm9CivB_image.png",
-          "mediumUrl": "data/media/derived/medium/attTPnuw4bZm9CivB_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att4FkUarCGfYUeGu_image.png",
-          "thumbUrl": "data/media/derived/thumb/att4FkUarCGfYUeGu_image.png",
-          "mediumUrl": "data/media/derived/medium/att4FkUarCGfYUeGu_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attj41uL8ntDKyY49_image.png",
-          "thumbUrl": "data/media/derived/thumb/attj41uL8ntDKyY49_image.png",
-          "mediumUrl": "data/media/derived/medium/attj41uL8ntDKyY49_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attqmF8yu5TWIyvCh_image.png",
-          "thumbUrl": "data/media/derived/thumb/attqmF8yu5TWIyvCh_image.png",
-          "mediumUrl": "data/media/derived/medium/attqmF8yu5TWIyvCh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attU6rKGSvljMMmRD_image.png",
-        "thumbUrl": "data/media/derived/thumb/attU6rKGSvljMMmRD_image.png",
-        "mediumUrl": "data/media/derived/medium/attU6rKGSvljMMmRD_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1949-07-31"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Bryan Hartnell's college residence, Multnomah County, OR, Redlands, CA, Angwin, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recmQK2TtG43z2t8t",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
-        },
-        {
-          "id": "reccPjrKfLC01M282",
-          "name": "Car Door Message",
-          "slug": "car-door-message"
-        },
-        {
-          "id": "recZUA6MMNDn6uOqu",
-          "name": "Robertson interviews Bryan Hartnell at hospital",
-          "slug": "robertson-interviews-bryan-hartnell-at-hospital"
-        },
-        {
-          "id": "reccmPjGjzF5yyh8P",
-          "name": "Hartnell and Shepard leave Pacific Union College for rummage sale",
-          "slug": "hartnell-and-shepard-leave-pacific-union-college-for-rummage-sale"
-        },
-        {
-          "id": "recPgM3wK20NPqPCq",
-          "name": "Bryan Hartnell is born",
-          "slug": "bryan-hartnell-is-born"
-        },
-        {
-          "id": "rec0atFYQWhXlsRP4",
-          "name": "Hartnell's vehicle transported from Lake Berryessa",
-          "slug": "hartnell-s-vehicle-transported-from-lake-berryessa"
-        },
-        {
-          "id": "recGtwhRpLbkPeEUs",
-          "name": "Bryan Hartnell passes the bar",
-          "slug": "bryan-hartnell-passes-the-bar"
-        },
-        {
-          "id": "recEeZ3xtE5AKkYB8",
-          "name": "Bryan Hartnell practicing law in Redlands, CA",
-          "slug": "bryan-hartnell-practicing-law-in-redlands-ca"
-        },
-        {
-          "id": "reci7bQHvRR3sprhT",
-          "name": "Bryan Hartnell continuing to practice in San Bernardino in 2025",
-          "slug": "bryan-hartnell-continuing-to-practice-in-san-bernardino-in-2025"
-        },
-        {
-          "id": "recXxDLIgmYz4wa7V",
-          "name": "Bryan Hartnell's first public notice as attorney",
-          "slug": "bryan-hartnell-s-first-public-notice-as-attorney"
-        },
-        {
-          "id": "recU0UFoVx54lJSAh",
-          "name": "Bryan Hartnell wins first place ribbon at Pathfinder Club fair",
-          "slug": "bryan-hartnell-wins-first-place-ribbon-at-pathfinder-club-fair"
-        },
-        {
-          "id": "recv9Od2TcIzt5tKR",
-          "name": "Bryan Hartnell's summer camping in Bedrock Forest",
-          "slug": "bryan-hartnell-s-summer-camping-in-bedrock-forest"
-        },
-        {
-          "id": "recLsTFzmwRB66QTO",
-          "name": "Bryan Hartnell is discharged from hospital",
-          "slug": "bryan-hartnell-is-discharged-from-hospital"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recGa0aCpwMM0jQkt",
-          "name": "Queen of the Valley Hospital (Napa, CA)",
-          "slug": "queen-of-the-valley-hospital-napa-ca"
-        },
-        {
-          "id": "recKSNAauavnRjVVz",
-          "name": "Multnomah County, OR",
-          "slug": "multnomah-county-or"
-        },
-        {
-          "id": "recn6x8mz0MMfb6Je",
-          "name": "Oregon",
-          "slug": "oregon"
-        },
-        {
-          "id": "recyvZIPrkhBj44Ei",
-          "name": "Angwin, CA",
-          "slug": "angwin-ca"
-        },
-        {
-          "id": "recmY9ReKFWBSksP5",
-          "name": "Redlands, CA",
-          "slug": "redlands-ca"
-        },
-        {
-          "id": "recHA4DDJVtmmW5qa",
-          "name": "San Bernardino County, CA",
-          "slug": "san-bernardino-county-ca"
-        },
-        {
-          "id": "recxuIuPaJDKhXKo6",
-          "name": "Lake Berryessa",
-          "slug": "lake-berryessa"
-        },
-        {
-          "id": "reccno8wWTHdS0Go6",
-          "name": "Site of Lake Berryessa Zodiac Encounter",
-          "slug": "site-of-lake-berryessa-zodiac-encounter"
-        },
-        {
-          "id": "recHj1mWhEgPtsBK6",
-          "name": "St. Helena, CA",
-          "slug": "st-helena-ca"
-        },
-        {
-          "id": "recbHhU4d2UWXPrIl",
-          "name": "Lake Berryessa Park Headquarters",
-          "slug": "lake-berryessa-park-headquarters"
-        },
-        {
-          "id": "reciewuQM4JBxv2le",
-          "name": "San Bernardino, CA",
-          "slug": "san-bernardino-ca"
-        },
-        {
-          "id": "recxJPJUCmx4KZmmE",
-          "name": "Corvallis, OR",
-          "slug": "corvallis-or"
-        },
-        {
-          "id": "recl84URzlbR43lIf",
-          "name": "Dexter Lake",
-          "slug": "dexter-lake"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "recguCeqiWgWqR24q",
-          "name": "Attack at Lake Berryessa",
-          "slug": "attack-at-lake-berryessa"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Bryan%20Calvin%20Hartnell&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Bryan%20Calvin%20Hartnell&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 13,
-      "searchText": "Bryan Calvin Hartnell Bryan Calvin Hartnell Male survivor of Lake Berryessa stabbings. Napa, CA Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Multnomah County, OR Oregon Angwin, CA Redlands, CA San Bernardino County, CA Lake Berryessa Site of Lake Berryessa Zodiac Encounter St. Helena, CA Lake Berryessa Park Headquarters San Bernardino, CA Corvallis, OR Dexter Lake"
-    },
-    {
       "id": "recg462dI0mJi8KMB",
       "slug": "chester-clark-klingel-jr",
       "kind": "person",
@@ -3250,6 +3260,160 @@
       "searchText": "Chester Clark Klingel Jr. Chester Clark Klingel Jr. Suspected mailer of 1990 Christmas card. Linked via safe deposit box. Eureka, CA San Francisco Livermore, CA Amargosa Desert The Presidio Alameda County, CA Humboldt County, CA Alameda, CA Nye County, NV Mill Valley, CA Nevada Marin County, CA California SF Bay Area United States of America Vallejo, CA Guam Reno, NV Burley, ID Rupert, ID Hughson, CA Novato, CA Turlock, CA Stockton, CA Oakdale, CA Sausalito, CA"
     },
     {
+      "id": "reckQ2Se5cvoZCWrF",
+      "slug": "san-francisco-examiner",
+      "kind": "person",
+      "title": "San Francisco Examiner",
+      "subtitle": "Media,Organization,Key Figure",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "San Francisco Examiner"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
+          "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
+          "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attKuVqQLNz0GwDtB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attKuVqQLNz0GwDtB_image.png",
+          "mediumUrl": "data/media/derived/medium/attKuVqQLNz0GwDtB_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
+        "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec41zKBZHAjsOHgh",
+          "name": "SF Examiner article asking where Zodiac went",
+          "slug": "sf-examiner-article-asking-where-zodiac-went"
+        },
+        {
+          "id": "recAJjplezVzhY2GE",
+          "name": "Dr. D.C.B. Marsh dares Zodiac to reveal name",
+          "slug": "dr-d-c-b-marsh-dares-zodiac-to-reveal-name"
+        },
+        {
+          "id": "recjeT9bRoaxYfYnr",
+          "name": "SF Examiner: \"Zodiac Linked to Five Area Murders\"",
+          "slug": "sf-examiner-zodiac-linked-to-five-area-murders"
+        },
+        {
+          "id": "reczzkjwdRAGLscoO",
+          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
+        },
+        {
+          "id": "recx08FpJlmrzPtBQ",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
+        },
+        {
+          "id": "recWF58MhTEsTBbw4",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
+        },
+        {
+          "id": "recydf2XQtTWZyYG6",
+          "name": "Zodiac Press Coverage [8/4/1969]",
+          "slug": "zodiac-press-coverage-8-4-1969"
+        },
+        {
+          "id": "rec3QGsAcgzZtp3W0",
+          "name": "SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails",
+          "slug": "sf-chronicle-examiner-vallejo-mass-murder-threat-fails"
+        },
+        {
+          "id": "recTK2794ZdN7Hf7n",
+          "name": "Zodiac Press Coverage [8/1/1969]",
+          "slug": "zodiac-press-coverage-8-1-1969"
+        },
+        {
+          "id": "recsSkpukk5BzvWmx",
+          "name": "Zodiac Press Coverage [7/6/1969]",
+          "slug": "zodiac-press-coverage-7-6-1969"
+        },
+        {
+          "id": "recbcFgQiC5NONpiM",
+          "name": "Coverage of Bates murder in California newspapers on 10/31",
+          "slug": "coverage-of-bates-murder-in-california-newspapers-on-10-31"
+        },
+        {
+          "id": "recODGg6TqGQVorXf",
+          "name": "Coverage of Bates murder in California newspapers on 11/1",
+          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
+        },
+        {
+          "id": "recGNxtb5JlJHhurb",
+          "name": "SF Examiner's front page message to Zodiac",
+          "slug": "sf-examiner-s-front-page-message-to-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 13,
+      "searchText": "San Francisco Examiner San Francisco Examiner  California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA"
+    },
+    {
       "id": "recODpN1g6c3LOqmF",
       "slug": "paul-alfred-doerr-jr",
       "kind": "person",
@@ -3460,155 +3624,6 @@
       ],
       "relatedEventCount": 12,
       "searchText": "Paul Alfred Doerr, Jr. Paul Alfred Doerr, Jr. Recently emerged suspect. Fairfield, CA Suisun City, CA Sharon, PA Solano County, CA SF Bay Area Mercer County, PA Pennsylvania United States of America California Vallejo, CA Los Angeles Berkeley, CA San Francisco"
-    },
-    {
-      "id": "reckQ2Se5cvoZCWrF",
-      "slug": "san-francisco-examiner",
-      "kind": "person",
-      "title": "San Francisco Examiner",
-      "subtitle": "Media,Organization,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "San Francisco Examiner"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
-          "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
-          "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attKuVqQLNz0GwDtB_image.png",
-          "thumbUrl": "data/media/derived/thumb/attKuVqQLNz0GwDtB_image.png",
-          "mediumUrl": "data/media/derived/medium/attKuVqQLNz0GwDtB_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
-        "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
-        "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec41zKBZHAjsOHgh",
-          "name": "SF Examiner article asking where Zodiac went",
-          "slug": "sf-examiner-article-asking-where-zodiac-went"
-        },
-        {
-          "id": "recAJjplezVzhY2GE",
-          "name": "Dr. D.C.B. Marsh dares Zodiac to reveal name",
-          "slug": "dr-d-c-b-marsh-dares-zodiac-to-reveal-name"
-        },
-        {
-          "id": "recjeT9bRoaxYfYnr",
-          "name": "SF Examiner: \"Zodiac Linked to Five Area Murders\"",
-          "slug": "sf-examiner-zodiac-linked-to-five-area-murders"
-        },
-        {
-          "id": "reczzkjwdRAGLscoO",
-          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
-        },
-        {
-          "id": "recx08FpJlmrzPtBQ",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
-        },
-        {
-          "id": "recWF58MhTEsTBbw4",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
-        },
-        {
-          "id": "recydf2XQtTWZyYG6",
-          "name": "Zodiac Press Coverage [8/4/1969]",
-          "slug": "zodiac-press-coverage-8-4-1969"
-        },
-        {
-          "id": "rec3QGsAcgzZtp3W0",
-          "name": "SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails",
-          "slug": "sf-chronicle-examiner-vallejo-mass-murder-threat-fails"
-        },
-        {
-          "id": "recTK2794ZdN7Hf7n",
-          "name": "Zodiac Press Coverage [8/1/1969]",
-          "slug": "zodiac-press-coverage-8-1-1969"
-        },
-        {
-          "id": "recsSkpukk5BzvWmx",
-          "name": "Zodiac Press Coverage [7/6/1969]",
-          "slug": "zodiac-press-coverage-7-6-1969"
-        },
-        {
-          "id": "recbcFgQiC5NONpiM",
-          "name": "Coverage of Bates murder in California newspapers on 10/31",
-          "slug": "coverage-of-bates-murder-in-california-newspapers-on-10-31"
-        },
-        {
-          "id": "recODGg6TqGQVorXf",
-          "name": "Coverage of Bates murder in California newspapers on 11/1",
-          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 12,
-      "searchText": "San Francisco Examiner San Francisco Examiner  California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA"
     },
     {
       "id": "recl0KON6zx0orvbG",
@@ -4184,14 +4199,14 @@
           "slug": "san-francisco"
         },
         {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         },
         {
           "id": "recO5mW1mFKtK0hCE",
@@ -4227,7 +4242,7 @@
         }
       ],
       "relatedEventCount": 10,
-      "searchText": "Paul Avery Paul Avery  San Francisco SF Bay Area California United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
+      "searchText": "Paul Avery Paul Avery  San Francisco California SF Bay Area United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
     },
     {
       "id": "recVvuvbfvZdCyti3",
@@ -5211,13 +5226,13 @@
       "relatedEvents": [
         {
           "id": "recuOuUGfQpwjuGqq",
-          "name": "Death of Cecelia Shepard",
-          "slug": "death-of-cecelia-shepard"
+          "name": "Cecelia Shepard dies",
+          "slug": "cecelia-shepard-dies"
         },
         {
           "id": "recmQK2TtG43z2t8t",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
         },
         {
           "id": "recgg6pxV9DLvTKz3",
@@ -5780,14 +5795,14 @@
           "slug": "california"
         },
         {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
         },
         {
           "id": "rec3SXc62X9TM4dMm",
@@ -5824,7 +5839,202 @@
         }
       ],
       "relatedEventCount": 7,
-      "searchText": "Melvin Belli Melvin Belli  San Francisco California United States of America SF Bay Area San Francisco Chronicle offices Livermore, CA Oakland, CA"
+      "searchText": "Melvin Belli Melvin Belli  San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA"
+    },
+    {
+      "id": "recRqEatrDv8cGa4n",
+      "slug": "michael-renault-mageau",
+      "kind": "person",
+      "title": "Michael Renault Mageau",
+      "subtitle": "Canonical Victim,Living,Key Figure",
+      "summary": "Blue Rock Springs living victim",
+      "excerpt": "Blue Rock Springs living victim",
+      "aliases": [
+        "Michael Renault Mageau"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attkz3iYr4s3GdR5P_image.png",
+          "thumbUrl": "data/media/derived/thumb/attkz3iYr4s3GdR5P_image.png",
+          "mediumUrl": "data/media/derived/medium/attkz3iYr4s3GdR5P_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attuqsmgeC0dTk2nJ_image.png",
+          "thumbUrl": "data/media/derived/thumb/attuqsmgeC0dTk2nJ_image.png",
+          "mediumUrl": "data/media/derived/medium/attuqsmgeC0dTk2nJ_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attkz3iYr4s3GdR5P_image.png",
+        "thumbUrl": "data/media/derived/thumb/attkz3iYr4s3GdR5P_image.png",
+        "mediumUrl": "data/media/derived/medium/attkz3iYr4s3GdR5P_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1949-10-29"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Home of Michael Mageau (1969), Vallejo, CA, Highland, CA, Temecula, CA, Danville, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec3uFgjJT93kVKzX",
+          "name": "Blue Rock Springs Shooting",
+          "slug": "blue-rock-springs-shooting"
+        },
+        {
+          "id": "rec9QfzB1ppoybp1K",
+          "name": "Mageau interviewed in ICU",
+          "slug": "mageau-interviewed-in-icu"
+        },
+        {
+          "id": "recwgRaXmcykE4rB6",
+          "name": "Michael Mageau is born",
+          "slug": "michael-mageau-is-born"
+        },
+        {
+          "id": "recUAP70F3lrzODki",
+          "name": "Mageau's father interviewed by VPD",
+          "slug": "mageau-s-father-interviewed-by-vpd"
+        },
+        {
+          "id": "recV6cLHp3c0m8tXJ",
+          "name": "Michael Mageau's parents file for divorce",
+          "slug": "michael-mageau-s-parents-file-for-divorce"
+        },
+        {
+          "id": "recqMIhpBoTlT6hqk",
+          "name": "Mageau is given police protection",
+          "slug": "mageau-is-given-police-protection"
+        },
+        {
+          "id": "recLyYPgzpXycFoeE",
+          "name": "Article on Mageau and Hartnell's description of Zodiac",
+          "slug": "article-on-mageau-and-hartnell-s-description-of-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recMEZwnCFgLvvOBF",
+          "name": "Blue Rock Springs Park",
+          "slug": "blue-rock-springs-park"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "rec86QdIxhJX9ECbX",
+          "name": "Kaiser Hospital",
+          "slug": "kaiser-hospital"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recfV4TBVUDF2meHW",
+          "name": "Home of Michael Mageau (1969)",
+          "slug": "home-of-michael-mageau-1969"
+        },
+        {
+          "id": "recZOqh0TryCoQP8I",
+          "name": "Temecula, CA",
+          "slug": "temecula-ca"
+        },
+        {
+          "id": "recrwMyU669yUfeBS",
+          "name": "Riverside County, CA",
+          "slug": "riverside-county-ca"
+        },
+        {
+          "id": "recotyWxs2Vs7TmvA",
+          "name": "Danville, CA",
+          "slug": "danville-ca"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "reco8oEDAUmCPTKut",
+          "name": "Hogan High School",
+          "slug": "hogan-high-school"
+        },
+        {
+          "id": "recc5iJIGzONn2DHv",
+          "name": "Doyen Pest Control Service",
+          "slug": "doyen-pest-control-service"
+        },
+        {
+          "id": "reclKt4S2kN1FZUGr",
+          "name": "Robert W. Mageau",
+          "slug": "robert-w-mageau"
+        },
+        {
+          "id": "recjFSh5jxnAJq8AP",
+          "name": "Stephen Mageau",
+          "slug": "stephen-mageau"
+        },
+        {
+          "id": "rec0dOwJ1AL9UguKQ",
+          "name": "Carmen Elois Welch Mageau Vrana",
+          "slug": "carmen-elois-welch-mageau-vrana"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8HlpeGk8KlrXoi",
+          "name": "Attack at Blue Rock Springs Park",
+          "slug": "attack-at-blue-rock-springs-park"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Michael%20Renault%20Mageau&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20Renault%20Mageau&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 7,
+      "searchText": "Michael Renault Mageau Michael Renault Mageau Blue Rock Springs living victim Blue Rock Springs Park Vallejo, CA Kaiser Hospital Solano County, CA California SF Bay Area United States of America Home of Michael Mageau (1969) Temecula, CA Riverside County, CA Danville, CA Contra Costa County, CA Los Angeles"
     },
     {
       "id": "recUj9VcE1TiYBWhk",
@@ -6116,196 +6326,6 @@
       ],
       "relatedEventCount": 6,
       "searchText": "Jim Phillips Crabtree Jim Phillips Crabtree First husband of Darlene Ferrin. AKA James Phillips. Albany, NY Santa Barbara, CA Solano County, CA Vallejo, CA California SF Bay Area United States of America Albany County, NY Santa Barbara County, CA Fairfield, CA New York State Santa Cruz, CA Darlene Ferrin's parents home (1969) Reno, NV"
-    },
-    {
-      "id": "recRqEatrDv8cGa4n",
-      "slug": "michael-renault-mageau",
-      "kind": "person",
-      "title": "Michael Renault Mageau",
-      "subtitle": "Canonical Victim,Living,Key Figure",
-      "summary": "Blue Rock Springs living victim",
-      "excerpt": "Blue Rock Springs living victim",
-      "aliases": [
-        "Michael Renault Mageau"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attkz3iYr4s3GdR5P_image.png",
-          "thumbUrl": "data/media/derived/thumb/attkz3iYr4s3GdR5P_image.png",
-          "mediumUrl": "data/media/derived/medium/attkz3iYr4s3GdR5P_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attuqsmgeC0dTk2nJ_image.png",
-          "thumbUrl": "data/media/derived/thumb/attuqsmgeC0dTk2nJ_image.png",
-          "mediumUrl": "data/media/derived/medium/attuqsmgeC0dTk2nJ_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attkz3iYr4s3GdR5P_image.png",
-        "thumbUrl": "data/media/derived/thumb/attkz3iYr4s3GdR5P_image.png",
-        "mediumUrl": "data/media/derived/medium/attkz3iYr4s3GdR5P_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1949-10-29"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Home of Michael Mageau (1969), Vallejo, CA, Highland, CA, Temecula, CA, Danville, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec3uFgjJT93kVKzX",
-          "name": "Blue Rock Springs Shooting",
-          "slug": "blue-rock-springs-shooting"
-        },
-        {
-          "id": "rec9QfzB1ppoybp1K",
-          "name": "Mageau interviewed in ICU",
-          "slug": "mageau-interviewed-in-icu"
-        },
-        {
-          "id": "recwgRaXmcykE4rB6",
-          "name": "Michael Mageau is born",
-          "slug": "michael-mageau-is-born"
-        },
-        {
-          "id": "recUAP70F3lrzODki",
-          "name": "Mageau's father interviewed by VPD",
-          "slug": "mageau-s-father-interviewed-by-vpd"
-        },
-        {
-          "id": "recV6cLHp3c0m8tXJ",
-          "name": "Michael Mageau's parents file for divorce",
-          "slug": "michael-mageau-s-parents-file-for-divorce"
-        },
-        {
-          "id": "recqMIhpBoTlT6hqk",
-          "name": "Mageau is given police protection",
-          "slug": "mageau-is-given-police-protection"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recMEZwnCFgLvvOBF",
-          "name": "Blue Rock Springs Park",
-          "slug": "blue-rock-springs-park"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "rec86QdIxhJX9ECbX",
-          "name": "Kaiser Hospital",
-          "slug": "kaiser-hospital"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recfV4TBVUDF2meHW",
-          "name": "Home of Michael Mageau (1969)",
-          "slug": "home-of-michael-mageau-1969"
-        },
-        {
-          "id": "recZOqh0TryCoQP8I",
-          "name": "Temecula, CA",
-          "slug": "temecula-ca"
-        },
-        {
-          "id": "recrwMyU669yUfeBS",
-          "name": "Riverside County, CA",
-          "slug": "riverside-county-ca"
-        },
-        {
-          "id": "recotyWxs2Vs7TmvA",
-          "name": "Danville, CA",
-          "slug": "danville-ca"
-        },
-        {
-          "id": "recdrDPUFQyzI2Xjg",
-          "name": "Contra Costa County, CA",
-          "slug": "contra-costa-county-ca"
-        },
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "reco8oEDAUmCPTKut",
-          "name": "Hogan High School",
-          "slug": "hogan-high-school"
-        },
-        {
-          "id": "recc5iJIGzONn2DHv",
-          "name": "Doyen Pest Control Service",
-          "slug": "doyen-pest-control-service"
-        },
-        {
-          "id": "reclKt4S2kN1FZUGr",
-          "name": "Robert W. Mageau",
-          "slug": "robert-w-mageau"
-        },
-        {
-          "id": "recjFSh5jxnAJq8AP",
-          "name": "Stephen Mageau",
-          "slug": "stephen-mageau"
-        },
-        {
-          "id": "rec0dOwJ1AL9UguKQ",
-          "name": "Carmen Elois Welch Mageau Vrana",
-          "slug": "carmen-elois-welch-mageau-vrana"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8HlpeGk8KlrXoi",
-          "name": "Attack at Blue Rock Springs Park",
-          "slug": "attack-at-blue-rock-springs-park"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Michael%20Renault%20Mageau&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20Renault%20Mageau&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 6,
-      "searchText": "Michael Renault Mageau Michael Renault Mageau Blue Rock Springs living victim Blue Rock Springs Park Vallejo, CA Kaiser Hospital Solano County, CA California SF Bay Area United States of America Home of Michael Mageau (1969) Temecula, CA Riverside County, CA Danville, CA Contra Costa County, CA Los Angeles"
     },
     {
       "id": "recpJMrcs1l3WRn9j",
@@ -6892,6 +6912,174 @@
       "searchText": "Joseph C. Bates Joseph C. Bates Father of Cheri Jo Bates. Riverside, CA Riverside County, CA Home of Cheri Jo Bates California United States of America Bellevue, NE Waterloo, NY The Swiss Inn"
     },
     {
+      "id": "recSEKXCZ713pyThm",
+      "slug": "napa-county-sheriff-s-department",
+      "kind": "person",
+      "title": "Napa County Sheriff's Department",
+      "subtitle": "Law Enforcement,Organization,Key Figure",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Napa County Sheriff's Department"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attfTLz0EaYqmMZYy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfTLz0EaYqmMZYy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfTLz0EaYqmMZYy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attfTLz0EaYqmMZYy_image.png",
+        "thumbUrl": "data/media/derived/thumb/attfTLz0EaYqmMZYy_image.png",
+        "mediumUrl": "data/media/derived/medium/attfTLz0EaYqmMZYy_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Napa County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recZUA6MMNDn6uOqu",
+          "name": "Robertson interviews Bryan Hartnell at hospital",
+          "slug": "robertson-interviews-bryan-hartnell-at-hospital"
+        },
+        {
+          "id": "rechbYm0ZVeGYPHir",
+          "name": "Narlow and Lonergan arrive at Lake Berryessa scene",
+          "slug": "narlow-and-lonergan-arrive-at-lake-berryessa-scene"
+        },
+        {
+          "id": "recxe6aMh0cOSqXdy",
+          "name": "Napa Solano / Yolo County Investigator's Meeting",
+          "slug": "napa-solano-yolo-county-investigator-s-meeting"
+        },
+        {
+          "id": "recr9reUC5UBZAjns",
+          "name": "Lake Berryessa stabbing is reported at Berryessa headquarters",
+          "slug": "lake-berryessa-stabbing-is-reported-at-berryessa-headquarters"
+        },
+        {
+          "id": "recFiFUXzK8fkM7bG",
+          "name": "Ambulance requested at Lake Berryessa",
+          "slug": "ambulance-requested-at-lake-berryessa"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recGa0aCpwMM0jQkt",
+          "name": "Queen of the Valley Hospital (Napa, CA)",
+          "slug": "queen-of-the-valley-hospital-napa-ca"
+        },
+        {
+          "id": "reccno8wWTHdS0Go6",
+          "name": "Site of Lake Berryessa Zodiac Encounter",
+          "slug": "site-of-lake-berryessa-zodiac-encounter"
+        },
+        {
+          "id": "recbHhU4d2UWXPrIl",
+          "name": "Lake Berryessa Park Headquarters",
+          "slug": "lake-berryessa-park-headquarters"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recl0KON6zx0orvbG",
+          "name": "Hal Snook",
+          "slug": "hal-snook"
+        },
+        {
+          "id": "recwRee0DtTX3tRVn",
+          "name": "Richard Lonergan",
+          "slug": "richard-lonergan"
+        },
+        {
+          "id": "rec9Rz03i6ooOMXL0",
+          "name": "Eric William Ronback Jr.",
+          "slug": "eric-william-ronback-jr"
+        },
+        {
+          "id": "recUFwipmTQiXmhgF",
+          "name": "Donald Lee Stanley",
+          "slug": "donald-lee-stanley"
+        },
+        {
+          "id": "recRwdEhpUsMy0qxq",
+          "name": "William Munk",
+          "slug": "william-munk"
+        },
+        {
+          "id": "recGJXPjk8rPGQ9cl",
+          "name": "John Robertson",
+          "slug": "john-robertson"
+        },
+        {
+          "id": "recH8E9N7IaxgJGWH",
+          "name": "Tom E. Butler",
+          "slug": "tom-e-butler"
+        },
+        {
+          "id": "recSKySv9eT1r07Mb",
+          "name": "David Collins",
+          "slug": "david-collins"
+        },
+        {
+          "id": "recgQFSL86JXn8K7s",
+          "name": "Ray Land",
+          "slug": "ray-land"
+        },
+        {
+          "id": "recaQva0MW8dTOkOW",
+          "name": "William White",
+          "slug": "william-white"
+        },
+        {
+          "id": "recYfYBYA7KwMuX69",
+          "name": "Sheriff Earl Randol",
+          "slug": "sheriff-earl-randol"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Napa%20County%20Sheriff%27s%20Department&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Napa%20County%20Sheriff%27s%20Department&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 5,
+      "searchText": "Napa County Sheriff's Department Napa County Sheriff's Department  Napa County, CA United States of America California SF Bay Area Queen of the Valley Hospital (Napa, CA) Site of Lake Berryessa Zodiac Encounter Lake Berryessa Park Headquarters"
+    },
+    {
       "id": "recFjCYNvW74IINvL",
       "slug": "northern-california-renaissance-pleasure-faire",
       "kind": "person",
@@ -7242,8 +7430,8 @@
       "relatedEvents": [
         {
           "id": "recmQK2TtG43z2t8t",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
         },
         {
           "id": "recwejKFdO1CcOt3J",
@@ -9399,11 +9587,6 @@
       ],
       "relatedLocations": [
         {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -9417,6 +9600,11 @@
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
         },
         {
           "id": "recEKYdzhHISXUYQt",
@@ -9452,7 +9640,7 @@
         }
       ],
       "relatedEventCount": 3,
-      "searchText": "James W. Reed James W. Reed Teen pipe bomber in Napa County. Napa County, CA California SF Bay Area United States of America Napa, CA Pay Phone at Main and Clinton Streets Napa Car Wash 1063 Elm St. (Napa)"
+      "searchText": "James W. Reed James W. Reed Teen pipe bomber in Napa County. California SF Bay Area United States of America Napa County, CA Napa, CA Pay Phone at Main and Clinton Streets Napa Car Wash 1063 Elm St. (Napa)"
     },
     {
       "id": "recb9DBCgGcF3eXXg",
@@ -9896,159 +10084,6 @@
       "searchText": "KGO-TV KGO-TV  San Francisco California SF Bay Area United States of America Oakland, CA KGO-TV Headquarters"
     },
     {
-      "id": "recSEKXCZ713pyThm",
-      "slug": "napa-county-sheriff-s-department",
-      "kind": "person",
-      "title": "Napa County Sheriff's Department",
-      "subtitle": "Law Enforcement,Organization,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Napa County Sheriff's Department"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attfTLz0EaYqmMZYy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfTLz0EaYqmMZYy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfTLz0EaYqmMZYy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attfTLz0EaYqmMZYy_image.png",
-        "thumbUrl": "data/media/derived/thumb/attfTLz0EaYqmMZYy_image.png",
-        "mediumUrl": "data/media/derived/medium/attfTLz0EaYqmMZYy_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Napa County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recZUA6MMNDn6uOqu",
-          "name": "Robertson interviews Bryan Hartnell at hospital",
-          "slug": "robertson-interviews-bryan-hartnell-at-hospital"
-        },
-        {
-          "id": "rechbYm0ZVeGYPHir",
-          "name": "Narlow and Lonergan arrive at Lake Berryessa scene",
-          "slug": "narlow-and-lonergan-arrive-at-lake-berryessa-scene"
-        },
-        {
-          "id": "recxe6aMh0cOSqXdy",
-          "name": "Napa Solano / Yolo County Investigator's Meeting",
-          "slug": "napa-solano-yolo-county-investigator-s-meeting"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recGa0aCpwMM0jQkt",
-          "name": "Queen of the Valley Hospital (Napa, CA)",
-          "slug": "queen-of-the-valley-hospital-napa-ca"
-        },
-        {
-          "id": "reccno8wWTHdS0Go6",
-          "name": "Site of Lake Berryessa Zodiac Encounter",
-          "slug": "site-of-lake-berryessa-zodiac-encounter"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recl0KON6zx0orvbG",
-          "name": "Hal Snook",
-          "slug": "hal-snook"
-        },
-        {
-          "id": "recwRee0DtTX3tRVn",
-          "name": "Richard Lonergan",
-          "slug": "richard-lonergan"
-        },
-        {
-          "id": "rec9Rz03i6ooOMXL0",
-          "name": "Eric William Ronback Jr.",
-          "slug": "eric-william-ronback-jr"
-        },
-        {
-          "id": "recUFwipmTQiXmhgF",
-          "name": "Donald Lee Stanley",
-          "slug": "donald-lee-stanley"
-        },
-        {
-          "id": "recRwdEhpUsMy0qxq",
-          "name": "William Munk",
-          "slug": "william-munk"
-        },
-        {
-          "id": "recGJXPjk8rPGQ9cl",
-          "name": "John Robertson",
-          "slug": "john-robertson"
-        },
-        {
-          "id": "recH8E9N7IaxgJGWH",
-          "name": "Tom E. Butler",
-          "slug": "tom-e-butler"
-        },
-        {
-          "id": "recSKySv9eT1r07Mb",
-          "name": "David Collins",
-          "slug": "david-collins"
-        },
-        {
-          "id": "recgQFSL86JXn8K7s",
-          "name": "Ray Land",
-          "slug": "ray-land"
-        },
-        {
-          "id": "recaQva0MW8dTOkOW",
-          "name": "William White",
-          "slug": "william-white"
-        },
-        {
-          "id": "recYfYBYA7KwMuX69",
-          "name": "Sheriff Earl Randol",
-          "slug": "sheriff-earl-randol"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Napa%20County%20Sheriff%27s%20Department&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Napa%20County%20Sheriff%27s%20Department&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 3,
-      "searchText": "Napa County Sheriff's Department Napa County Sheriff's Department  Napa County, CA United States of America California SF Bay Area Queen of the Valley Hospital (Napa, CA) Site of Lake Berryessa Zodiac Encounter"
-    },
-    {
       "id": "rec0sRHJ9eLbQJYsJ",
       "slug": "rancho-monticello-resort",
       "kind": "person",
@@ -10238,6 +10273,156 @@
       "searchText": "Raymond Davis Raymond Davis Cab driver murdered in Oceanside. Oceanside, CA San Diego County, CA California United States of America"
     },
     {
+      "id": "rec5opHF6J5pu58Uu",
+      "slug": "sherwood-morrill",
+      "kind": "person",
+      "title": "Sherwood Morrill",
+      "subtitle": "Law Enforcement,Deceased,Key Figure",
+      "summary": "Questioned documents examiner",
+      "excerpt": "Questioned documents examiner",
+      "aliases": [
+        "Sherwood Morrill"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attWaZreoXQSZ3w66_image.png",
+          "thumbUrl": "data/media/derived/thumb/attWaZreoXQSZ3w66_image.png",
+          "mediumUrl": "data/media/derived/medium/attWaZreoXQSZ3w66_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att09WcFgPMBzoWYU_image.png",
+          "thumbUrl": "data/media/derived/thumb/att09WcFgPMBzoWYU_image.png",
+          "mediumUrl": "data/media/derived/medium/att09WcFgPMBzoWYU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
+          "thumbUrl": "data/media/derived/thumb/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
+          "mediumUrl": "data/media/derived/medium/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
+          "derivativeState": "derived",
+          "label": "sherwood_morill_obituary.jpg"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attWaZreoXQSZ3w66_image.png",
+        "thumbUrl": "data/media/derived/thumb/attWaZreoXQSZ3w66_image.png",
+        "mediumUrl": "data/media/derived/medium/attWaZreoXQSZ3w66_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Sherwood Mason Morrill"
+        },
+        {
+          "label": "Born",
+          "value": "1914-07-01"
+        },
+        {
+          "label": "Died",
+          "value": "1988-03-19"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Berkeley, CA, Sacramento, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recY8uibcMAlgpNjH",
+          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
+          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
+        },
+        {
+          "id": "rech0wvV5yOtV7EQl",
+          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
+          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
+        },
+        {
+          "id": "recQI63rzx7zDTI6U",
+          "name": "18th anniversary coverage, Morrill claims possible visit from Zodiac",
+          "slug": "18th-anniversary-coverage-morrill-claims-possible-visit-from-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        },
+        {
+          "id": "recvqiA6dpfU6HX68",
+          "name": "Sacramento County, CA",
+          "slug": "sacramento-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recQQnEmwWwpVACOp",
+          "name": "Alameda County, CA",
+          "slug": "alameda-county-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec7IuYqH9da4Q50b",
+          "name": "California Criminal Identification and Investigation (CII)",
+          "slug": "california-criminal-identification-and-investigation-cii"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recqHvlmSyXK7UYJo",
+          "name": "Zodiac Letters",
+          "slug": "zodiac-letters"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Sherwood%20Morrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Sherwood%20Morrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 3,
+      "searchText": "Sherwood Morrill Sherwood Morrill Questioned documents examiner Sacramento, CA Berkeley, CA Sacramento County, CA California United States of America Alameda County, CA SF Bay Area Vallejo, CA San Francisco"
+    },
+    {
       "id": "rec1E36PYKH7RZjhY",
       "slug": "the-napa-valley-register",
       "kind": "person",
@@ -10401,16 +10586,6 @@
       ],
       "relatedLocations": [
         {
-          "id": "recbF7clima1I0zrq",
-          "name": "Sacramento, CA",
-          "slug": "sacramento-ca"
-        },
-        {
-          "id": "recvqiA6dpfU6HX68",
-          "name": "Sacramento County, CA",
-          "slug": "sacramento-county-ca"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -10419,6 +10594,16 @@
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "recvqiA6dpfU6HX68",
+          "name": "Sacramento County, CA",
+          "slug": "sacramento-county-ca"
         },
         {
           "id": "recXWIp8s3P3TAYiu",
@@ -10439,7 +10624,7 @@
         }
       ],
       "relatedEventCount": 3,
-      "searchText": "The Sacramento Union The Sacramento Union  Sacramento, CA Sacramento County, CA California United States of America San Francisco"
+      "searchText": "The Sacramento Union The Sacramento Union  California United States of America Sacramento, CA Sacramento County, CA San Francisco"
     },
     {
       "id": "recC3nSZjcCKrCU4O",
@@ -12661,8 +12846,8 @@
       "relatedEvents": [
         {
           "id": "recmQK2TtG43z2t8t",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
         },
         {
           "id": "recQuYLdGf36hNmut",
@@ -13278,6 +13463,99 @@
       "searchText": "Richard Hoffman Richard Hoffman  Vallejo, CA Solano County, CA California SF Bay Area United States of America Blue Rock Springs Park"
     },
     {
+      "id": "recOmKi1yuY4EfI3d",
+      "slug": "riverside-city-college-library",
+      "kind": "person",
+      "title": "Riverside City College Library",
+      "subtitle": "Education",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Riverside City College Library"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attkmE0YqSjsw3vbK_image.png",
+          "thumbUrl": "data/media/derived/thumb/attkmE0YqSjsw3vbK_image.png",
+          "mediumUrl": "data/media/derived/medium/attkmE0YqSjsw3vbK_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attkmE0YqSjsw3vbK_image.png",
+        "thumbUrl": "data/media/derived/thumb/attkmE0YqSjsw3vbK_image.png",
+        "mediumUrl": "data/media/derived/medium/attkmE0YqSjsw3vbK_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Riverside, CA, Riverside City College Library"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "reccJRyTFt2xnQQkW",
+          "name": "Riverside City College Library reopens after hourlong break",
+          "slug": "riverside-city-college-library-reopens-after-hourlong-break"
+        },
+        {
+          "id": "recryKxapdsfWiZd6",
+          "name": "Reinactment of the night Cheri Jo Bates was killed",
+          "slug": "reinactment-of-the-night-cheri-jo-bates-was-killed"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recT2ynH7gNXP8Siv",
+          "name": "Riverside, CA",
+          "slug": "riverside-ca"
+        },
+        {
+          "id": "recrwMyU669yUfeBS",
+          "name": "Riverside County, CA",
+          "slug": "riverside-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recxYDr9ao84ifUn1",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recb7X6ZsOGFxprp9",
+          "name": "Cleophus Martin",
+          "slug": "cleophus-martin"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Riverside%20City%20College%20Library&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Riverside%20City%20College%20Library&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Riverside City College Library Riverside City College Library  Riverside, CA Riverside County, CA California United States of America Riverside City College Library"
+    },
+    {
       "id": "rectAXOi2qNQfdUFz",
       "slug": "robert-domingos",
       "kind": "person",
@@ -13683,147 +13961,6 @@
       ],
       "relatedEventCount": 2,
       "searchText": "Sheriff Earl Randol Sheriff Earl Randol Sheriff-Coroner of Napa County Tulocay Cemetery & Crematory California United States of America Napa County, CA SF Bay Area Napa, CA Riverside City College Library"
-    },
-    {
-      "id": "rec5opHF6J5pu58Uu",
-      "slug": "sherwood-mason-morrill",
-      "kind": "person",
-      "title": "Sherwood Mason Morrill",
-      "subtitle": "Law Enforcement,Deceased,Key Figure",
-      "summary": "Questioned Documents Examiner",
-      "excerpt": "Questioned Documents Examiner",
-      "aliases": [
-        "Sherwood Mason Morrill"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attWaZreoXQSZ3w66_image.png",
-          "thumbUrl": "data/media/derived/thumb/attWaZreoXQSZ3w66_image.png",
-          "mediumUrl": "data/media/derived/medium/attWaZreoXQSZ3w66_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att09WcFgPMBzoWYU_image.png",
-          "thumbUrl": "data/media/derived/thumb/att09WcFgPMBzoWYU_image.png",
-          "mediumUrl": "data/media/derived/medium/att09WcFgPMBzoWYU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
-          "thumbUrl": "data/media/derived/thumb/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
-          "mediumUrl": "data/media/derived/medium/attCbl7tp0mOmmUou_sherwood_morill_obituary.jpg",
-          "derivativeState": "derived",
-          "label": "sherwood_morill_obituary.jpg"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attWaZreoXQSZ3w66_image.png",
-        "thumbUrl": "data/media/derived/thumb/attWaZreoXQSZ3w66_image.png",
-        "mediumUrl": "data/media/derived/medium/attWaZreoXQSZ3w66_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1914-07-01"
-        },
-        {
-          "label": "Died",
-          "value": "1988-03-19"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Berkeley, CA, Sacramento, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recY8uibcMAlgpNjH",
-          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
-          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
-        },
-        {
-          "id": "rech0wvV5yOtV7EQl",
-          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
-          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recbF7clima1I0zrq",
-          "name": "Sacramento, CA",
-          "slug": "sacramento-ca"
-        },
-        {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
-        },
-        {
-          "id": "recvqiA6dpfU6HX68",
-          "name": "Sacramento County, CA",
-          "slug": "sacramento-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recQQnEmwWwpVACOp",
-          "name": "Alameda County, CA",
-          "slug": "alameda-county-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec7IuYqH9da4Q50b",
-          "name": "California Criminal Identification and Investigation (CII)",
-          "slug": "california-criminal-identification-and-investigation-cii"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recqHvlmSyXK7UYJo",
-          "name": "Zodiac Letters",
-          "slug": "zodiac-letters"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Sherwood%20Mason%20Morrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Sherwood%20Mason%20Morrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 2,
-      "searchText": "Sherwood Mason Morrill Sherwood Mason Morrill Questioned Documents Examiner Sacramento, CA Berkeley, CA Sacramento County, CA California United States of America Alameda County, CA SF Bay Area Vallejo, CA San Francisco"
     },
     {
       "id": "rec3ueBEFTdMXtcsX",
@@ -16189,6 +16326,49 @@
       "searchText": "Coroner of Solano County Coroner of Solano County  Solano County, CA California SF Bay Area United States of America Twin Chapels Mortuary (Vallejo)"
     },
     {
+      "id": "rec8pIzHYRJCXYsj1",
+      "slug": "dave-peterson",
+      "kind": "person",
+      "title": "Dave Peterson",
+      "subtitle": "Media",
+      "summary": "Crime reporter in Solano County",
+      "excerpt": "Crime reporter in Solano County",
+      "aliases": [
+        "Dave Peterson"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recLyYPgzpXycFoeE",
+          "name": "Article on Mageau and Hartnell's description of Zodiac",
+          "slug": "article-on-mageau-and-hartnell-s-description-of-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Dave%20Peterson&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Dave%20Peterson&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Dave Peterson Dave Peterson Crime reporter in Solano County Vallejo, CA"
+    },
+    {
       "id": "recR3w5CG2uxTzDEI",
       "slug": "dave-smith",
       "kind": "person",
@@ -17899,6 +18079,107 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Frank Peda Frank Peda Investigator in Stine murder case. California SF Bay Area United States of America San Francisco Site of Paul Stine's Murder"
+    },
+    {
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "kind": "person",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
+      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
+      "aliases": [
+        "Gareth Penn"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
+          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Vallejo, CA Solano County, CA Napa County, CA Napa, CA California United States of America SF Bay Area"
     },
     {
       "id": "recZs1JY7C1stCIgl",
@@ -19911,6 +20192,109 @@
       "searchText": "Michael Bates Michael Bates Brother of Cheri Jo Bates. Bellevue, NE"
     },
     {
+      "id": "recFaKMK2SMtmEMkK",
+      "slug": "michael-o-hare",
+      "kind": "person",
+      "title": "Michael O'Hare",
+      "subtitle": "Suspect,Living",
+      "summary": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
+      "excerpt": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
+      "aliases": [
+        "Michael O'Hare"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Berkeley, CA, Boston, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "recQQnEmwWwpVACOp",
+          "name": "Alameda County, CA",
+          "slug": "alameda-county-ca"
+        },
+        {
+          "id": "rec3j7ziSuI13OnhA",
+          "name": "Suffolk County, MA",
+          "slug": "suffolk-county-ma"
+        },
+        {
+          "id": "recQCUmzdimTBeYjB",
+          "name": "Massachusetts",
+          "slug": "massachusetts"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recTsOdMprpYMZiTt",
+          "name": "University of California, Berkeley",
+          "slug": "university-of-california-berkeley"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA Massachusetts California United States of America SF Bay Area"
+    },
+    {
       "id": "recP81qCXj3u1nsfR",
       "slug": "modesto-police",
       "kind": "person",
@@ -20061,6 +20445,117 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Nancy Slover (Ludine Jones Earp) Nancy Slover (Ludine Jones Earp)  Benicia, CA Vallejo, CA Solano County, CA California SF Bay Area United States of America Springs & Tuolumne Pay Phone"
+    },
+    {
+      "id": "recdtsR3QcR32lj8q",
+      "slug": "napa-d-a-james-boitano",
+      "kind": "person",
+      "title": "Napa D.A. James Boitano",
+      "subtitle": "Law Enforcement",
+      "summary": "Napa District Attorney from 1963 to 1983.",
+      "excerpt": "Napa District Attorney from 1963 to 1983.",
+      "aliases": [
+        "Napa D.A. James Boitano"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "mediumUrl": "data/media/derived/medium/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1969_10_01_6__2_.jpg"
+        },
+        {
+          "originalUrl": "data/media/attyk3hNsuNdR9H5y_The_Napa_Valley_Register_1997_12_13_15.jpg",
+          "thumbUrl": "data/media/derived/thumb/attyk3hNsuNdR9H5y_The_Napa_Valley_Register_1997_12_13_15.jpg",
+          "mediumUrl": "data/media/derived/medium/attyk3hNsuNdR9H5y_The_Napa_Valley_Register_1997_12_13_15.jpg",
+          "derivativeState": "derived",
+          "label": "The_Napa_Valley_Register_1997_12_13_15.jpg"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+        "thumbUrl": "data/media/derived/thumb/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+        "mediumUrl": "data/media/derived/medium/attL4VoVy79q4ksJ6_The_Times_Herald_1969_10_01_6__2_.jpg",
+        "derivativeState": "derived",
+        "label": "The_Times_Herald_1969_10_01_6__2_.jpg"
+      },
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "James D. Boitano"
+        },
+        {
+          "label": "Born",
+          "value": "1927-05-21"
+        },
+        {
+          "label": "Died",
+          "value": "1997-12-11"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Napa, CA, Tulocay Cemetery & Crematory"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recLyYPgzpXycFoeE",
+          "name": "Article on Mageau and Hartnell's description of Zodiac",
+          "slug": "article-on-mageau-and-hartnell-s-description-of-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recUj2059oNqhpwf7",
+          "name": "Tulocay Cemetery & Crematory",
+          "slug": "tulocay-cemetery-crematory"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Napa%20D.A.%20James%20Boitano&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Napa%20D.A.%20James%20Boitano&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Napa D.A. James Boitano Napa D.A. James Boitano Napa District Attorney from 1963 to 1983. Napa, CA Napa County, CA California SF Bay Area Tulocay Cemetery & Crematory United States of America Vallejo, CA"
     },
     {
       "id": "reck7E1blwhslA9ae",
@@ -20794,94 +21289,6 @@
       "searchText": "Rev. James O. Hulin Rev. James O. Hulin Did the funeral for David Faraday Solano County, CA Vallejo, CA California SF Bay Area United States of America Tulocay Cemetery & Crematory"
     },
     {
-      "id": "recOmKi1yuY4EfI3d",
-      "slug": "riverside-city-college-library",
-      "kind": "person",
-      "title": "Riverside City College Library",
-      "subtitle": "Education",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Riverside City College Library"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attkmE0YqSjsw3vbK_image.png",
-          "thumbUrl": "data/media/derived/thumb/attkmE0YqSjsw3vbK_image.png",
-          "mediumUrl": "data/media/derived/medium/attkmE0YqSjsw3vbK_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attkmE0YqSjsw3vbK_image.png",
-        "thumbUrl": "data/media/derived/thumb/attkmE0YqSjsw3vbK_image.png",
-        "mediumUrl": "data/media/derived/medium/attkmE0YqSjsw3vbK_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Riverside, CA, Riverside City College Library"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "reccJRyTFt2xnQQkW",
-          "name": "Riverside City College Library reopens after hourlong break",
-          "slug": "riverside-city-college-library-reopens-after-hourlong-break"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recT2ynH7gNXP8Siv",
-          "name": "Riverside, CA",
-          "slug": "riverside-ca"
-        },
-        {
-          "id": "recrwMyU669yUfeBS",
-          "name": "Riverside County, CA",
-          "slug": "riverside-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recxYDr9ao84ifUn1",
-          "name": "Riverside City College Library",
-          "slug": "riverside-city-college-library"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recb7X6ZsOGFxprp9",
-          "name": "Cleophus Martin",
-          "slug": "cleophus-martin"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Riverside%20City%20College%20Library&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Riverside%20City%20College%20Library&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 1,
-      "searchText": "Riverside City College Library Riverside City College Library  Riverside, CA Riverside County, CA California United States of America Riverside City College Library"
-    },
-    {
       "id": "rec5Sz6UL49AFPq8i",
       "slug": "riverside-community-college",
       "kind": "person",
@@ -20949,6 +21356,94 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Riverside Community College Riverside Community College College that potential Zodiac victim Cheri Jo Bates attended. Riverside, CA Riverside County, CA California United States of America"
+    },
+    {
+      "id": "recbUqUHTwHs7P7Ct",
+      "slug": "riverside-police-department",
+      "kind": "person",
+      "title": "Riverside Police Department",
+      "subtitle": "Law Enforcement",
+      "summary": "Law enforcement responsible for investigating Bates murder.",
+      "excerpt": "Law enforcement responsible for investigating Bates murder.",
+      "aliases": [
+        "Riverside Police Department"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attfw17233nU6Kd2t_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfw17233nU6Kd2t_image.png",
+          "mediumUrl": "data/media/derived/medium/attfw17233nU6Kd2t_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attfw17233nU6Kd2t_image.png",
+        "thumbUrl": "data/media/derived/thumb/attfw17233nU6Kd2t_image.png",
+        "mediumUrl": "data/media/derived/medium/attfw17233nU6Kd2t_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Riverside, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recryKxapdsfWiZd6",
+          "name": "Reinactment of the night Cheri Jo Bates was killed",
+          "slug": "reinactment-of-the-night-cheri-jo-bates-was-killed"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recT2ynH7gNXP8Siv",
+          "name": "Riverside, CA",
+          "slug": "riverside-ca"
+        },
+        {
+          "id": "recrwMyU669yUfeBS",
+          "name": "Riverside County, CA",
+          "slug": "riverside-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec787LD61gifWYhY",
+          "name": "Chief Lambert T. Kinkead",
+          "slug": "chief-lambert-t-kinkead"
+        },
+        {
+          "id": "reclURMsg3CwnpHXu",
+          "name": "Sgt. H.L. Homsher",
+          "slug": "sgt-h-l-homsher"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Riverside%20Police%20Department&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Riverside%20Police%20Department&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Riverside Police Department Riverside Police Department Law enforcement responsible for investigating Bates murder. Riverside, CA Riverside County, CA California United States of America"
     },
     {
       "id": "rec7qdQTGVCK6FGyg",
@@ -22388,6 +22883,68 @@
       "searchText": "Tom Voigt Tom Voigt  Portland, OR Multnomah County, OR Oregon United States of America The Internet"
     },
     {
+      "id": "recTFwOiCLdnVFRvm",
+      "slug": "washington-monthly",
+      "kind": "person",
+      "title": "Washington Monthly",
+      "subtitle": "Media",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Washington Monthly"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att7He5SgUurthUFM_image.png",
+          "thumbUrl": "data/media/derived/thumb/att7He5SgUurthUFM_image.png",
+          "mediumUrl": "data/media/derived/medium/att7He5SgUurthUFM_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att7He5SgUurthUFM_image.png",
+        "thumbUrl": "data/media/derived/thumb/att7He5SgUurthUFM_image.png",
+        "mediumUrl": "data/media/derived/medium/att7He5SgUurthUFM_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Washington, D.C."
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Washington%20Monthly&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Washington%20Monthly&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Washington Monthly Washington Monthly  United States of America"
+    },
+    {
       "id": "rec4jEahgyYMSXffW",
       "slug": "william-crow",
       "kind": "person",
@@ -22442,11 +22999,6 @@
           "slug": "vallejo-ca"
         },
         {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -22465,6 +23017,11 @@
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
         },
         {
           "id": "recRWDNC60oqK71SP",
@@ -22496,7 +23053,7 @@
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "William Crow William Crow Vallejo-based attorney who was briefly followed by blue car on Lake Herman Road prior to murders. Vallejo, CA Napa County, CA California SF Bay Area Solano County, CA United States of America Lake Herman Pumping Station Lake Herman Road"
+      "searchText": "William Crow William Crow Vallejo-based attorney who was briefly followed by blue car on Lake Herman Road prior to murders. Vallejo, CA California SF Bay Area Solano County, CA United States of America Napa County, CA Lake Herman Pumping Station Lake Herman Road"
     },
     {
       "id": "rec9bE0PxBpOGTpGq",
@@ -22804,8 +23361,8 @@
       "relatedPeople": [
         {
           "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
         }
       ],
       "relatedTags": [],
@@ -23784,101 +24341,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "First Presbyterian Church (Vallejo, CA) First Presbyterian Church (Vallejo, CA) Church that held Faraday funeral Vallejo, CA Solano County, CA California SF Bay Area United States of America"
-    },
-    {
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "kind": "person",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
-      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
-      "aliases": [
-        "Gareth Penn"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
-          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
-          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Vallejo, CA Solano County, CA Napa County, CA California SF Bay Area Napa, CA United States of America"
     },
     {
       "id": "recjmzrCQA7eH2HO3",
@@ -25620,103 +26082,6 @@
       "searchText": "Michael F. Cole Michael F. Cole  "
     },
     {
-      "id": "recFaKMK2SMtmEMkK",
-      "slug": "michael-o-hare",
-      "kind": "person",
-      "title": "Michael O'Hare",
-      "subtitle": "Suspect,Living",
-      "summary": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
-      "excerpt": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
-      "aliases": [
-        "Michael O'Hare"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Berkeley, CA, Boston, MA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
-        },
-        {
-          "id": "recYYObQ6rjCcjWSF",
-          "name": "Boston, MA",
-          "slug": "boston-ma"
-        },
-        {
-          "id": "recQQnEmwWwpVACOp",
-          "name": "Alameda County, CA",
-          "slug": "alameda-county-ca"
-        },
-        {
-          "id": "rec3j7ziSuI13OnhA",
-          "name": "Suffolk County, MA",
-          "slug": "suffolk-county-ma"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recQCUmzdimTBeYjB",
-          "name": "Massachusetts",
-          "slug": "massachusetts"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recTsOdMprpYMZiTt",
-          "name": "University of California, Berkeley",
-          "slug": "university-of-california-berkeley"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA California SF Bay Area Massachusetts United States of America"
-    },
-    {
       "id": "recdtQlpcTnH5dAc2",
       "slug": "mike-morford-morf13",
       "kind": "person",
@@ -26548,88 +26913,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Rick Marshall Rick Marshall **Richard (“Rick”) Marshall III** (March 13th 1926 - September 8th 2008) is a possible suspect mainly because of his location during the times of the Zodiac murders. He lived in Riverside around the time of the murder of Cheri Jo Bates, and he stayed at an apartment in San Francisco that was not far from the murder scene of Paul Stine. He also worked for the KTIM radio station, where the call letters supposedly look like the same cryptic symbols that the Zodiac used in his letters.\nMarshall's prints did not match the fingerprints that were collected from the Zodiac leters or crime scenes. However, this evidence can't conclusively rule him out as a suspect because we don't know everything. Marshall's handwriting had some notable similarities to that of the Zodiac.\n- <https://zodiackiller.fandom.com/wiki/Rick_Marshall> Home of Rick Marshall (1969) San Francisco California SF Bay Area United States of America Riverside, CA Riverside County, CA"
-    },
-    {
-      "id": "recbUqUHTwHs7P7Ct",
-      "slug": "riverside-police-department",
-      "kind": "person",
-      "title": "Riverside Police Department",
-      "subtitle": "Law Enforcement",
-      "summary": "Law enforcement responsible for investigating Bates murder.",
-      "excerpt": "Law enforcement responsible for investigating Bates murder.",
-      "aliases": [
-        "Riverside Police Department"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attfw17233nU6Kd2t_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfw17233nU6Kd2t_image.png",
-          "mediumUrl": "data/media/derived/medium/attfw17233nU6Kd2t_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attfw17233nU6Kd2t_image.png",
-        "thumbUrl": "data/media/derived/thumb/attfw17233nU6Kd2t_image.png",
-        "mediumUrl": "data/media/derived/medium/attfw17233nU6Kd2t_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Riverside, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recT2ynH7gNXP8Siv",
-          "name": "Riverside, CA",
-          "slug": "riverside-ca"
-        },
-        {
-          "id": "recrwMyU669yUfeBS",
-          "name": "Riverside County, CA",
-          "slug": "riverside-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec787LD61gifWYhY",
-          "name": "Chief Lambert T. Kinkead",
-          "slug": "chief-lambert-t-kinkead"
-        },
-        {
-          "id": "reclURMsg3CwnpHXu",
-          "name": "Sgt. H.L. Homsher",
-          "slug": "sgt-h-l-homsher"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Riverside%20Police%20Department&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Riverside%20Police%20Department&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Riverside Police Department Riverside Police Department Law enforcement responsible for investigating Bates murder. Riverside, CA Riverside County, CA California United States of America"
     },
     {
       "id": "rec1LH1rtQVgyyXrQ",

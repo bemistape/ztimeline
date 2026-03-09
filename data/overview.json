@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
+  "generatedAt": "2026-03-09T19:12:19.240959+00:00",
   "stats": {
-    "events": 412,
-    "people": 315,
-    "locations": 332,
+    "events": 419,
+    "people": 318,
+    "locations": 333,
     "tags": 42,
-    "images": 1551,
+    "images": 1588,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 147
+      "count": 151
     },
     {
       "value": 1970,
@@ -27,7 +27,7 @@
     },
     {
       "value": 1966,
-      "count": 22
+      "count": 23
     },
     {
       "value": 1971,
@@ -41,11 +41,11 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 96
+      "count": 97
     },
     {
       "value": "Case Event",
-      "count": 85
+      "count": 88
     },
     {
       "value": "Victim Event",
@@ -53,11 +53,11 @@
     },
     {
       "value": "Media Event",
-      "count": 32
+      "count": 33
     },
     {
       "value": "Newspaper Article",
-      "count": 27
+      "count": 29
     },
     {
       "value": "Cultural Event",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 60,
+      "relatedEventCount": 62,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -193,7 +193,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 37,
+      "relatedEventCount": 38,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -249,14 +249,20 @@
       "mapOpenUrl": ""
     },
     {
-      "id": "recUJsymsZJwwCLW9",
-      "slug": "fairfield-ca",
+      "id": "recO5mW1mFKtK0hCE",
+      "slug": "united-states-of-america",
       "kind": "location",
-      "title": "Fairfield, CA",
-      "subtitle": "City",
+      "title": "United States of America",
+      "subtitle": "Country",
       "excerpt": "",
-      "relatedEventCount": 9,
-      "primaryImage": null,
+      "relatedEventCount": 10,
+      "primaryImage": {
+        "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
+        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "mapOpenUrl": ""
     }
   ],
@@ -302,7 +308,7 @@
       "title": "Attack at Lake Berryessa",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 29,
+      "relatedEventCount": 32,
       "primaryImage": {
         "originalUrl": "data/media/att2UPeGusw0o0lff_image.png",
         "thumbUrl": "data/media/derived/thumb/att2UPeGusw0o0lff_image.png",
@@ -372,7 +378,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 37,
+      "relatedEventCount": 38,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -444,6 +450,17 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.12572790005277+-122.19040507512277"
     },
     {
+      "id": "recbHhU4d2UWXPrIl",
+      "slug": "lake-berryessa-park-headquarters",
+      "kind": "location",
+      "title": "Lake Berryessa Park Headquarters",
+      "subtitle": "",
+      "excerpt": "",
+      "relatedEventCount": 4,
+      "primaryImage": null,
+      "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.5507404+-122.231642"
+    },
+    {
       "id": "recvpVd5w3nvh1uTC",
       "slug": "pay-phone-at-main-and-clinton-streets",
       "kind": "location",
@@ -459,21 +476,10 @@
         "label": "image.png"
       },
       "mapOpenUrl": "https://maps.app.goo.gl/pRdBSdQor9B9T5jw8"
-    },
-    {
-      "id": "recxYDr9ao84ifUn1",
-      "slug": "riverside-city-college-library",
-      "kind": "location",
-      "title": "Riverside City College Library",
-      "subtitle": "Site",
-      "excerpt": "",
-      "relatedEventCount": 4,
-      "primaryImage": null,
-      "mapOpenUrl": "https://maps.app.goo.gl/DrJyoa3h1CMhzLaE9"
     }
   ],
   "freshness": {
-    "label": "Mar 08, 2026, 06:53 PM UTC",
+    "label": "Mar 09, 2026, 07:12 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,17 +490,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "412 dated events spanning 1925 to 2025."
+      "description": "419 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "315 linked people and organizations with related-event cross references."
+      "description": "318 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "332 places connected to the archive, including mapped sites where data exists."
+      "description": "333 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

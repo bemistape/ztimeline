@@ -4778,6 +4778,40 @@
       "searchText": "Cheri Jo Bates is buried > About 350 people crowded St. Catherine's Catholic Church this morning for the Requiem Mass for Cheri, whose body was discovered Monday morning on the Riverside City College campus.\n> SHE WAS BURIED this afternoon in Crestlawn Cemetery.\n\n– The Press Victim Event Crestlawn Memorial Park Cheri Jo Bates"
     },
     {
+      "id": "recryKxapdsfWiZd6",
+      "slug": "reinactment-of-the-night-cheri-jo-bates-was-killed",
+      "kind": "event",
+      "title": "Reinactment of the night Cheri Jo Bates was killed",
+      "date": "1966-11-14",
+      "dateLabel": "Mon, Nov 14, 1966",
+      "year": 1966,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1966-11-14-9999-00418",
+      "type": "Case Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recOmKi1yuY4EfI3d",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        },
+        {
+          "id": "recbUqUHTwHs7P7Ct",
+          "name": "Riverside Police Department",
+          "slug": "riverside-police-department"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Reinactment of the night Cheri Jo Bates was killed Case Event Riverside City College Library Riverside Police Department"
+    },
+    {
       "id": "rec3bjjdMbsKQKHnJ",
       "slug": "ronald-allen-marries-karen-long",
       "kind": "event",
@@ -10835,6 +10869,41 @@
       ],
       "images": [
         {
+          "originalUrl": "data/media/attrDBuvk5z9GIFLf_image.png",
+          "thumbUrl": "data/media/derived/thumb/attrDBuvk5z9GIFLf_image.png",
+          "mediumUrl": "data/media/derived/medium/attrDBuvk5z9GIFLf_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att3n2TPocUPT2PRM_image.png",
+          "thumbUrl": "data/media/derived/thumb/att3n2TPocUPT2PRM_image.png",
+          "mediumUrl": "data/media/derived/medium/att3n2TPocUPT2PRM_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attbItbnZVDBdldna_image.png",
+          "thumbUrl": "data/media/derived/thumb/attbItbnZVDBdldna_image.png",
+          "mediumUrl": "data/media/derived/medium/attbItbnZVDBdldna_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attwCn5trt7A5cC62_image.png",
+          "thumbUrl": "data/media/derived/thumb/attwCn5trt7A5cC62_image.png",
+          "mediumUrl": "data/media/derived/medium/attwCn5trt7A5cC62_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/atthVYqRyH0an0rk7_image.png",
+          "thumbUrl": "data/media/derived/thumb/atthVYqRyH0an0rk7_image.png",
+          "mediumUrl": "data/media/derived/medium/atthVYqRyH0an0rk7_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
           "originalUrl": "data/media/attO7RDFZdSh55K0m_image.png",
           "thumbUrl": "data/media/derived/thumb/attO7RDFZdSh55K0m_image.png",
           "mediumUrl": "data/media/derived/medium/attO7RDFZdSh55K0m_image.png",
@@ -10905,10 +10974,18 @@
       ],
       "people": [],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attsyhZkc1Y5ndZ1C_image.png",
+          "thumbUrl": "data/media/derived/thumb/attsyhZkc1Y5ndZ1C_image.png",
+          "mediumUrl": "data/media/derived/medium/attsyhZkc1Y5ndZ1C_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
       "sources": [],
       "mapUrl": "https://maps.app.goo.gl/kDTKxDc8WUMJCJLK7",
-      "hasMedia": false,
+      "hasMedia": true,
       "searchText": "Woodstock Music Festival Cultural Event Max Yasgur's Farm"
     },
     {
@@ -11185,9 +11262,9 @@
     },
     {
       "id": "recmQK2TtG43z2t8t",
-      "slug": "lake-berryessa-stabbings",
+      "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa",
       "kind": "event",
-      "title": "Lake Berryessa Stabbings",
+      "title": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
       "date": "1969-09-27",
       "dateLabel": "Sat, Sep 27, 1969",
       "year": 1969,
@@ -11244,6 +11321,20 @@
         }
       ],
       "images": [
+        {
+          "originalUrl": "data/media/attehwKZJAJImaWF2_image.png",
+          "thumbUrl": "data/media/derived/thumb/attehwKZJAJImaWF2_image.png",
+          "mediumUrl": "data/media/derived/medium/attehwKZJAJImaWF2_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att1cp4piSUFjhQV3_image.png",
+          "thumbUrl": "data/media/derived/thumb/att1cp4piSUFjhQV3_image.png",
+          "mediumUrl": "data/media/derived/medium/att1cp4piSUFjhQV3_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
         {
           "originalUrl": "data/media/att2UPeGusw0o0lff_image.png",
           "thumbUrl": "data/media/derived/thumb/att2UPeGusw0o0lff_image.png",
@@ -11540,7 +11631,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Lake Berryessa Stabbings Bryan Hartnell and Cecelia Shepard were bound and stabbed by a hooded assailant; the time “6:30” appears in the perpetrator’s car-door message; Hartnell survived, Shepard was gravely wounded. \n\n**FOR NAPA SHERIFF'S OFFICE - DIALOGUE BETWEEN AN UNKNOWN ASSAILANT AND BRYAN HARTNELL**\n**C:** What do you want?\n**A:** Now take it easy - all I want's your money. There is nothing to worry about - all I want is your money.\n**B:** O.K. - whatever you say. I want you to know now that I will cooperate so you don't have to worry - whatever you say we'll do. Do you want us to come up with our hands up or down?\n**A:** Just don't make any fast moves - come up slowly.\n**B:** But we don't have any money - all I have is 75¢.\n**A:** That doesn't matter - every little bit helps (pause) - I'm on my way to Mexico - I escaped from Deer Lodge Prison in Montana, Deer Lodge. I need some money to get there.\n**B:** You're welcome to the money I have, but isn't there something else I can do for you? Give you a check or get some more?\n**A:** No.\n**B:** I can give you my phone number and you can call me.\n**A:** (No reply)\n**B:** I want to get in contact with you. I am a sociology major and maybe I can even offer you more help than you think you need.\n**A:** No.\n**B:** Well, is there any other thing you need?\n**A:** Yes. One more thing - I want your car keys. My car is hot.\n**B:** (Reaching into pockets, then patting first front then back pockets) I guess in all the excitement I don't remember where I put them. Let's see. Are they in my shirt, in the ignition, on the blanket.... Say! Would you answer a question for me? I've always wondered. On T.V. movies and in an article in the Readers Digest they say that thieves really keep their guns loaded. Is yours?\n**A:** (excited slightly) Yes, it is! (then calm and matter-of-fact) I killed a couple of men before.\n**B:** What? I didn't hear you...\n**A:** I killed a couple of guards getting out of prison. And I'm not afraid to kill again.\n**C:** Bryan - do what he says!\n**A:** Now I want the girl to tie you up.\n**C:** (reaches for rope that he pulls from back pocket)\n**B:** This is really strange. I wonder why someone hasn't thought of this before. I'll bet there's good money in it.\n**A:** (no reply)\n**B:** What was the name of that prison?\n**A:** (no reply)\n**B:** No really, what did you say the name of it was? I'm just curious.\n**A:** (begrudgingly) Deer Lodge in Montana.\n(There must have been some dialogue at this point but I can't remember any until we are both tied up)\n**A:** Now I want you both to lay face down so I can tie up your feet.\n**B:** Come on - we could be out here for a long time and it could get cold at night.\n**A:** Come on - get down!\n**B:** Listen, I didn't complain when you tied our hands, but this is ridiculous!\n**A:** I told you....\n**B:** We aren't going anywhere - Anyway, I don't think that it's necessary (or - Aw, Come On - we don't want to.)\n**A:** (Pointing gun directly at me at point blank range) I told you to get down!\n(He ties me, then her)\n**B:** Your hands are shaking. Are you nervous?\n**A:** Yes, I guess so. (laughed in a very relaxed manner)\n**B:** Well, I suppose that I'd be nervous too.\n(Then after we were tied and hog-tied)\n**B:** Now that everything is all said and done, could you show me that your gun is loaded? (Or, and probably this: \"Now that all i11s said and done, was that gun really loaded?\")\n**A:** Yes, it was! (or) Sure, I'll show you.\n(He then opened cartridge or whatever)\n(That was the last thing I remember him saying.)\n(signed) BRYAN HARTNELL Canonical Zodiac Crime Lake Berryessa Site of Lake Berryessa Zodiac Encounter Bryan Calvin Hartnell Cecelia Ann Shepard Zodiac Napa Police Deer Lodge Prison Attack at Lake Berryessa"
+      "searchText": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa Bryan Hartnell and Cecelia Shepard were bound and stabbed by a hooded assailant; the time “6:30” appears in the perpetrator’s car-door message; Hartnell survived, Shepard was gravely wounded. \n\n**FOR NAPA SHERIFF'S OFFICE - DIALOGUE BETWEEN AN UNKNOWN ASSAILANT AND BRYAN HARTNELL**\n**C:** What do you want?\n**A:** Now take it easy - all I want's your money. There is nothing to worry about - all I want is your money.\n**B:** O.K. - whatever you say. I want you to know now that I will cooperate so you don't have to worry - whatever you say we'll do. Do you want us to come up with our hands up or down?\n**A:** Just don't make any fast moves - come up slowly.\n**B:** But we don't have any money - all I have is 75¢.\n**A:** That doesn't matter - every little bit helps (pause) - I'm on my way to Mexico - I escaped from Deer Lodge Prison in Montana, Deer Lodge. I need some money to get there.\n**B:** You're welcome to the money I have, but isn't there something else I can do for you? Give you a check or get some more?\n**A:** No.\n**B:** I can give you my phone number and you can call me.\n**A:** (No reply)\n**B:** I want to get in contact with you. I am a sociology major and maybe I can even offer you more help than you think you need.\n**A:** No.\n**B:** Well, is there any other thing you need?\n**A:** Yes. One more thing - I want your car keys. My car is hot.\n**B:** (Reaching into pockets, then patting first front then back pockets) I guess in all the excitement I don't remember where I put them. Let's see. Are they in my shirt, in the ignition, on the blanket.... Say! Would you answer a question for me? I've always wondered. On T.V. movies and in an article in the Readers Digest they say that thieves really keep their guns loaded. Is yours?\n**A:** (excited slightly) Yes, it is! (then calm and matter-of-fact) I killed a couple of men before.\n**B:** What? I didn't hear you...\n**A:** I killed a couple of guards getting out of prison. And I'm not afraid to kill again.\n**C:** Bryan - do what he says!\n**A:** Now I want the girl to tie you up.\n**C:** (reaches for rope that he pulls from back pocket)\n**B:** This is really strange. I wonder why someone hasn't thought of this before. I'll bet there's good money in it.\n**A:** (no reply)\n**B:** What was the name of that prison?\n**A:** (no reply)\n**B:** No really, what did you say the name of it was? I'm just curious.\n**A:** (begrudgingly) Deer Lodge in Montana.\n(There must have been some dialogue at this point but I can't remember any until we are both tied up)\n**A:** Now I want you both to lay face down so I can tie up your feet.\n**B:** Come on - we could be out here for a long time and it could get cold at night.\n**A:** Come on - get down!\n**B:** Listen, I didn't complain when you tied our hands, but this is ridiculous!\n**A:** I told you....\n**B:** We aren't going anywhere - Anyway, I don't think that it's necessary (or - Aw, Come On - we don't want to.)\n**A:** (Pointing gun directly at me at point blank range) I told you to get down!\n(He ties me, then her)\n**B:** Your hands are shaking. Are you nervous?\n**A:** Yes, I guess so. (laughed in a very relaxed manner)\n**B:** Well, I suppose that I'd be nervous too.\n(Then after we were tied and hog-tied)\n**B:** Now that everything is all said and done, could you show me that your gun is loaded? (Or, and probably this: \"Now that all i11s said and done, was that gun really loaded?\")\n**A:** Yes, it was! (or) Sure, I'll show you.\n(He then opened cartridge or whatever)\n(That was the last thing I remember him saying.)\n(signed) BRYAN HARTNELL Canonical Zodiac Crime Lake Berryessa Site of Lake Berryessa Zodiac Encounter Bryan Calvin Hartnell Cecelia Ann Shepard Zodiac Napa Police Deer Lodge Prison Attack at Lake Berryessa"
     },
     {
       "id": "reck7vmxrcURSt5gU",
@@ -11595,9 +11686,9 @@
     },
     {
       "id": "reccPjrKfLC01M282",
-      "slug": "car-door-message",
+      "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door",
       "kind": "event",
-      "title": "Car Door Message",
+      "title": "Zodiac writes a message on Bryan Hartnell's car door",
       "date": "1969-09-27",
       "dateLabel": "Sat, Sep 27, 1969",
       "year": 1969,
@@ -11650,7 +11741,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Car Door Message The killer wrote dates of prior attacks and “Sept 27 69 6:30 by knife” on Hartnell’s car door, attributing the stabbings. zodiackillerfacts.com Z Communication Lake Berryessa Zodiac Bryan Calvin Hartnell Attack at Lake Berryessa"
+      "searchText": "Zodiac writes a message on Bryan Hartnell's car door The killer wrote dates of prior attacks and “Sept 27 69 6:30 by knife” on Hartnell’s car door, attributing the stabbings. zodiackillerfacts.com Z Communication Lake Berryessa Zodiac Bryan Calvin Hartnell Attack at Lake Berryessa"
     },
     {
       "id": "rec1WiCt1FaTRIEch",
@@ -11691,6 +11782,106 @@
       "mapUrl": "",
       "hasMedia": false,
       "searchText": "William White told to respond to stabbing At 1320 hours 9/28/69, R/Os interviewed Ranger Sgt. William White at Lake Berryessa Park Headquarters. White was interviewed as to his activities before and during his part in locating the victims the night before. White stated at approximately 1855 hours 9/27/69 he was on routine patrol around the Lake Berryessa area when he received a call from Park Headquarters to proceed to the Rancho Monticello Resort where a person was reporting a possible stabbing. \nWhite stated he proceeded to the Rancho Monticello Resort where he was contacted by ARCHIE E. WHITE, MRS. ELIZABETH WHITE, and RONALD FONG. RONALD FONG advised him that he had seen a male and a female victim on the beach area south of Rancho Monticello Resort, hollering that they had been stabbed. Ranger Sgt. White, accompanied by ARCHIE WHITE, ELIZABETH WHITE, and RONALD FONG, proceeded to the beach area via speedboat owned by ARCHIE WHITE. When they arrived on the beach they observed a young female lying on the ground with what appeared to be numerous stab wounds. Ranger Sgt. White stated that the female appeared to be in a great deal of pain. White stated as they discovered the female victim, Ranger Dennis Land arrived at the scene in his pickup truck, carrying a male victim who also appeared to have numerous stab wounds. White stated he immediately radioed in and had Park Headquarters call the Sheriff's Office to dispatch an ambulance and a Deputy. White stated he attempted to interview both the boy and girl victims while awaiting arrival of the ambulance. According to White, the male victim said that a male subject approached them, wearing a hood, dressed in dark clothing. The subject was carrying what appeared to be an automatic pistol and stated that he wanted their money and car keys. According to White, the male victim related to him that the subject advised him he was an ex-con out of Colorado and was en route to Mexico. Suspect stated he had to tie them up, and after they were tied the responsible stated, \"I'm going to have to stab you.\" White further related that the male victim advised the responsible, \"Stab me first, I can't stand to see her stabbed first.\" The male victim then advised that the responsible stabbed him numerous times in the back and then stabbed the girl.\nThe female victim advised White that she could not see the responsible's face as a hood was covering all of his head. She also advised White that the suspect had what appeared to be clip-on sunglasses to cover his eyes. Ranger Sgt. White stated that this is the most he could get out of either victim as they were both in great shock and pain. White stated that he noticed a lot of blood near the girl's groin area. The interview with Ranger Sgt. White was terminated at that point. Case Event Lake Berryessa William White Rancho Monticello Resort"
+    },
+    {
+      "id": "recr9reUC5UBZAjns",
+      "slug": "lake-berryessa-stabbing-is-reported-at-berryessa-headquarters",
+      "kind": "event",
+      "title": "Lake Berryessa stabbing is reported at Berryessa headquarters",
+      "date": "1969-09-27",
+      "dateLabel": "Sat, Sep 27, 1969",
+      "year": 1969,
+      "timeLabel": "7:00 PM",
+      "sortTime": 1140,
+      "sortValue": "1969-09-27-1140-00416",
+      "type": "Case Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recbHhU4d2UWXPrIl",
+          "name": "Lake Berryessa Park Headquarters",
+          "slug": "lake-berryessa-park-headquarters"
+        }
+      ],
+      "people": [
+        {
+          "id": "recSEKXCZ713pyThm",
+          "name": "Napa County Sheriff's Department",
+          "slug": "napa-county-sheriff-s-department"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "thumbUrl": "data/media/derived/thumb/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "mediumUrl": "data/media/derived/medium/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "derivativeState": "derived",
+          "label": "9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png"
+        },
+        {
+          "originalUrl": "data/media/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "thumbUrl": "data/media/derived/thumb/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "mediumUrl": "data/media/derived/medium/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "derivativeState": "derived",
+          "label": "9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.5507404+-122.231642",
+      "hasMedia": true,
+      "searchText": "Lake Berryessa stabbing is reported at Berryessa headquarters Case Event Lake Berryessa Park Headquarters Napa County Sheriff's Department"
+    },
+    {
+      "id": "recFiFUXzK8fkM7bG",
+      "slug": "ambulance-requested-at-lake-berryessa",
+      "kind": "event",
+      "title": "Ambulance requested at Lake Berryessa",
+      "date": "1969-09-27",
+      "dateLabel": "Sat, Sep 27, 1969",
+      "year": 1969,
+      "timeLabel": "7:15 PM",
+      "sortTime": 1155,
+      "sortValue": "1969-09-27-1155-00417",
+      "type": "Case Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recbHhU4d2UWXPrIl",
+          "name": "Lake Berryessa Park Headquarters",
+          "slug": "lake-berryessa-park-headquarters"
+        }
+      ],
+      "people": [
+        {
+          "id": "recSEKXCZ713pyThm",
+          "name": "Napa County Sheriff's Department",
+          "slug": "napa-county-sheriff-s-department"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "thumbUrl": "data/media/derived/thumb/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "mediumUrl": "data/media/derived/medium/attyrOLiqK8sJs1mT_9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png",
+          "derivativeState": "derived",
+          "label": "9-27-1969-Lake_Berryessa_Napa_logs_Page_1.png"
+        },
+        {
+          "originalUrl": "data/media/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "thumbUrl": "data/media/derived/thumb/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "mediumUrl": "data/media/derived/medium/attBB6Sz0fufCJ8Hd_9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png",
+          "derivativeState": "derived",
+          "label": "9-27-1969-Lake_Berryessa_Napa_logs_Page_2.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.5507404+-122.231642",
+      "hasMedia": true,
+      "searchText": "Ambulance requested at Lake Berryessa Case Event Lake Berryessa Park Headquarters Napa County Sheriff's Department"
     },
     {
       "id": "recQuYLdGf36hNmut",
@@ -12628,6 +12819,69 @@
           "mediumUrl": "data/media/derived/medium/attFMI0bUmhOJxtfV_NCSD_Report_17.jpg",
           "derivativeState": "derived",
           "label": "NCSD_Report_17.jpg"
+        },
+        {
+          "originalUrl": "data/media/attZp2mYJfMzqVPPj_9-28-1969_lake_berryessa_interview_hartnell_Page_1.png",
+          "thumbUrl": "data/media/derived/thumb/attZp2mYJfMzqVPPj_9-28-1969_lake_berryessa_interview_hartnell_Page_1.png",
+          "mediumUrl": "data/media/derived/medium/attZp2mYJfMzqVPPj_9-28-1969_lake_berryessa_interview_hartnell_Page_1.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_1.png"
+        },
+        {
+          "originalUrl": "data/media/attxY03xPODGAYkhJ_9-28-1969_lake_berryessa_interview_hartnell_Page_2.png",
+          "thumbUrl": "data/media/derived/thumb/attxY03xPODGAYkhJ_9-28-1969_lake_berryessa_interview_hartnell_Page_2.png",
+          "mediumUrl": "data/media/derived/medium/attxY03xPODGAYkhJ_9-28-1969_lake_berryessa_interview_hartnell_Page_2.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_2.png"
+        },
+        {
+          "originalUrl": "data/media/att1Peye1fAzQnvaV_9-28-1969_lake_berryessa_interview_hartnell_Page_3.png",
+          "thumbUrl": "data/media/derived/thumb/att1Peye1fAzQnvaV_9-28-1969_lake_berryessa_interview_hartnell_Page_3.png",
+          "mediumUrl": "data/media/derived/medium/att1Peye1fAzQnvaV_9-28-1969_lake_berryessa_interview_hartnell_Page_3.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_3.png"
+        },
+        {
+          "originalUrl": "data/media/attesBxPqmvfaTvh1_9-28-1969_lake_berryessa_interview_hartnell_Page_4.png",
+          "thumbUrl": "data/media/derived/thumb/attesBxPqmvfaTvh1_9-28-1969_lake_berryessa_interview_hartnell_Page_4.png",
+          "mediumUrl": "data/media/derived/medium/attesBxPqmvfaTvh1_9-28-1969_lake_berryessa_interview_hartnell_Page_4.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_4.png"
+        },
+        {
+          "originalUrl": "data/media/att9iMzSq3Oh54ieP_9-28-1969_lake_berryessa_interview_hartnell_Page_6.png",
+          "thumbUrl": "data/media/derived/thumb/att9iMzSq3Oh54ieP_9-28-1969_lake_berryessa_interview_hartnell_Page_6.png",
+          "mediumUrl": "data/media/derived/medium/att9iMzSq3Oh54ieP_9-28-1969_lake_berryessa_interview_hartnell_Page_6.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_6.png"
+        },
+        {
+          "originalUrl": "data/media/attKJs9FqMpXzYFNW_9-28-1969_lake_berryessa_interview_hartnell_Page_7.png",
+          "thumbUrl": "data/media/derived/thumb/attKJs9FqMpXzYFNW_9-28-1969_lake_berryessa_interview_hartnell_Page_7.png",
+          "mediumUrl": "data/media/derived/medium/attKJs9FqMpXzYFNW_9-28-1969_lake_berryessa_interview_hartnell_Page_7.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_7.png"
+        },
+        {
+          "originalUrl": "data/media/attH3v5AW6jxiesOw_9-28-1969_lake_berryessa_interview_hartnell_Page_8.png",
+          "thumbUrl": "data/media/derived/thumb/attH3v5AW6jxiesOw_9-28-1969_lake_berryessa_interview_hartnell_Page_8.png",
+          "mediumUrl": "data/media/derived/medium/attH3v5AW6jxiesOw_9-28-1969_lake_berryessa_interview_hartnell_Page_8.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_8.png"
+        },
+        {
+          "originalUrl": "data/media/attNmM3WPFFir90IQ_9-28-1969_lake_berryessa_interview_hartnell_Page_9.png",
+          "thumbUrl": "data/media/derived/thumb/attNmM3WPFFir90IQ_9-28-1969_lake_berryessa_interview_hartnell_Page_9.png",
+          "mediumUrl": "data/media/derived/medium/attNmM3WPFFir90IQ_9-28-1969_lake_berryessa_interview_hartnell_Page_9.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_9.png"
+        },
+        {
+          "originalUrl": "data/media/attchQorC2F7Mp7hf_9-28-1969_lake_berryessa_interview_hartnell_Page_5.png",
+          "thumbUrl": "data/media/derived/thumb/attchQorC2F7Mp7hf_9-28-1969_lake_berryessa_interview_hartnell_Page_5.png",
+          "mediumUrl": "data/media/derived/medium/attchQorC2F7Mp7hf_9-28-1969_lake_berryessa_interview_hartnell_Page_5.png",
+          "derivativeState": "derived",
+          "label": "9-28-1969_lake_berryessa_interview_hartnell_Page_5.png"
         }
       ],
       "sources": [],
@@ -12998,9 +13252,9 @@
     },
     {
       "id": "recuOuUGfQpwjuGqq",
-      "slug": "death-of-cecelia-shepard",
+      "slug": "cecelia-shepard-dies",
       "kind": "event",
-      "title": "Death of Cecelia Shepard",
+      "title": "Cecelia Shepard dies",
       "date": "1969-09-29",
       "dateLabel": "Mon, Sep 29, 1969",
       "year": 1969,
@@ -13056,9 +13310,9 @@
           "url": "https://uncovered.com/cases/cecelia-shepard"
         }
       ],
-      "mapUrl": "",
+      "mapUrl": "https://maps.app.goo.gl/6yoirio3SJFzs787A",
       "hasMedia": true,
-      "searchText": "Death of Cecelia Shepard Shepard died two days after the attack at Queen of the Valley Hospital; multiple sources place her death on Sept. 29, ~3:45 p.m. Victim Event Queen of the Valley Hospital (Napa, CA) Queen of the Valley Hospital (Napa CA) Cecelia Ann Shepard Attack at Lake Berryessa"
+      "searchText": "Cecelia Shepard dies Shepard died two days after the attack at Queen of the Valley Hospital; multiple sources place her death on Sept. 29, ~3:45 p.m. Victim Event Queen of the Valley Hospital (Napa, CA) Queen of the Valley Hospital (Napa CA) Cecelia Ann Shepard Attack at Lake Berryessa"
     },
     {
       "id": "rec0atFYQWhXlsRP4",
@@ -13241,6 +13495,95 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Services are held for Cecelia Shepard at PUC Victim Event Pacific Union College Church Pacific Union College Cecelia Ann Shepard Pacific Union College Attack at Lake Berryessa"
+    },
+    {
+      "id": "recLyYPgzpXycFoeE",
+      "slug": "article-on-mageau-and-hartnell-s-description-of-zodiac",
+      "kind": "event",
+      "title": "Article on Mageau and Hartnell's description of Zodiac",
+      "date": "1969-10-01",
+      "dateLabel": "Wed, Oct 1, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-10-01-9999-00412",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "",
+          "name": "Vallejo",
+          "slug": "vallejo"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "rec8pIzHYRJCXYsj1",
+          "name": "Dave Peterson",
+          "slug": "dave-peterson"
+        },
+        {
+          "id": "recRqEatrDv8cGa4n",
+          "name": "Michael Renault Mageau",
+          "slug": "michael-renault-mageau"
+        },
+        {
+          "id": "recNoik0QhJTMc50o",
+          "name": "Bryan Calvin Hartnell",
+          "slug": "bryan-calvin-hartnell"
+        },
+        {
+          "id": "recdtsR3QcR32lj8q",
+          "name": "Napa D.A. James Boitano",
+          "slug": "napa-d-a-james-boitano"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attidTvFeRn2Vrt2U_you_re_welcome.jpg",
+          "thumbUrl": "data/media/derived/thumb/attidTvFeRn2Vrt2U_you_re_welcome.jpg",
+          "mediumUrl": "data/media/derived/medium/attidTvFeRn2Vrt2U_you_re_welcome.jpg",
+          "derivativeState": "derived",
+          "label": "you_re_welcome.jpg"
+        },
+        {
+          "originalUrl": "data/media/attLOxC2RgloYAWoE_The_Times_Herald_1969_10_01_6__1_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attLOxC2RgloYAWoE_The_Times_Herald_1969_10_01_6__1_.jpg",
+          "mediumUrl": "data/media/derived/medium/attLOxC2RgloYAWoE_The_Times_Herald_1969_10_01_6__1_.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1969_10_01_6__1_.jpg"
+        },
+        {
+          "originalUrl": "data/media/att5I2Ze3UwrGmWbI_The_Times_Herald_1969_10_01_6.jpg",
+          "thumbUrl": "data/media/derived/thumb/att5I2Ze3UwrGmWbI_The_Times_Herald_1969_10_01_6.jpg",
+          "mediumUrl": "data/media/derived/medium/att5I2Ze3UwrGmWbI_The_Times_Herald_1969_10_01_6.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1969_10_01_6.jpg"
+        },
+        {
+          "originalUrl": "data/media/attjimvtQgyfoJG73_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attjimvtQgyfoJG73_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "mediumUrl": "data/media/derived/medium/attjimvtQgyfoJG73_The_Times_Herald_1969_10_01_6__2_.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1969_10_01_6__2_.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
+      "hasMedia": true,
+      "searchText": "Article on Mageau and Hartnell's description of Zodiac Newspaper Article Vallejo, CA Vallejo CA Dave Peterson Michael Renault Mageau Bryan Calvin Hartnell Napa D.A. James Boitano"
     },
     {
       "id": "reclS4gm0ZetCaNPF",
@@ -15382,6 +15725,54 @@
       "searchText": "Riverside Police Chief writes memo on Bates murder to Napa Sheriff Transcript of October 20, 1969 memo from Riverside Police Chief to Napa Police Chief Earl Randol:\n\n> DEPARTMENT OF POLICE\n> L T KINKEAD\n> CHIEF\n> \n> INCORPORATED 1883\n> CITY OF RIVERSIDE\n> CALIFORNIA\n> \n> RADIO STATION KMB 401\n> \n> October 20, 1969\n> \n> REF: 352-481\n> \n> Earl Randol\n> Sheriff of Napa County\n> Napa, California 94558\n> \n> Attention Captain Donald A. Townsend\n> \n> [Stamp: RECEIVED Oct 22 10 59 AM '69 SHERIFF'S DEPT. NAPA COUNTY]\n> \n> Dear Sir:\n> \n> This letter is in reference to our telephone conversation of 10-17-69 regarding the similar M.O. of your \"Zodiac\" suspect and the suspect of our homicide File No. 352-481.\n> \n> It may aid you to have a brief synopsis of our homicide. It is as follows:\n> \n> On October 30, 1966, Cheri Jo Bates, a college student at Riverside City College, was brutally murdered. Our investigation revealed that the victim had gone to the city college campus to obtain some books from the library (the library was open on Sunday for the students' benefit). It was established that she had entered the library and checked out three books at approximately 6:00 PM. She returned to her vehicle, which was parked on a city street a short distance from the library, placed her books in the vehicle, and attempted to start her vehicle. The vehicle had been tampered with so it would not start. This was evidently done by the suspect to keep the victim near her vehicle so that the suspect could make his approach.\n> \n> Our victim then left her vehicle, accompanied by the suspect, and walked approximately 200 feet from her vehicle into a dirt driveway between two houses. These houses were vacant and a part of the school property, having recently been purchased by the city college. While in this driveway area, our victim was attacked with a knife and stabbed numerous times in the chest. She was also stabbed once in the back, and her throat was severly cut, almost to the extent where she was decapitated. In addition to the stab wounds, our victim had been beaten about the\n> \n> [Handwritten note: 10-24-69 Phoned Det Dorrington Gave info on Meneley - Narlow]\n> \n> ADDRESS ALL COMMUNICATIONS TO THE CHIEF OF POLICE - BOX 88\n> \n> Sheriff Earl Randol\n> Page 2\n> October 20, 1969\n> \n> face and had been choked. There was no evidence that the victim had been sexually attacked, as she was fully clothed and the clothing was not disarranged, There was nothing to indicate a motive of robbery, as our victim's purse and its contents were intact. From all indications, the knife used by the suspect was one of approximately a 1/2-inch width blade by 3-1/2 inches long.\n> \n> One month after the homicide, letters were received at the Press and our department written by the suspect of our homicide. The suspect used a black felt pen to address the envelopes and had used upper case print. The confession letter was typed. There are numerous errors in spelling, punctuation, etc., as you will notice.\n> \n> The person who wrote the confession letter is aware of facts about the homicide that only the killer would know. There is no doubt that the person who wrote the confession letter is our homicide suspect.\n> \n> The original of this letter was evidently destroyed or kept by the suspect, as the Press and our department received a carbon copy of the original. These carbon copies were a fourth or fifth copy and difficult to read. A photograph of this letter and the envelopes is attached. A reproduction of the confession letter is also attached. It should be noted that the copies received by the Press and our department were on plain white paper of poor quality. Width of the paper is 8 inches. The length of the paper is unknown, as the suspect (a peculiarity) tore off the bottom and top of the paper. (Refer to the photographs.)\n> \n> It might be worthwhile to note that just outside the city limits of Riverside is located March Air Force Base, a SAC base. Physical evidence found at the scene of our crime indicated that heel prints found near the body were made by a heel that was manufactured for military and other government agencies, including prisons.\n> \n> We were able to lift some latent fingerprints from the victim's vehicle. These prints were not identified. Our unidentified prints are on file with the FBI under the FBI File No. 32-27195, Latent Case No. 73096. Copies of the latent lifts from your homicide were obtained from CII and sent to the FBI for comparison with the latent lifts of our investigation.\n> \n> There are numerous similarities in your homicide and our Inv. 352-481. I thought you should be aware that we are working a similar-type homicide investigation. If you are able to determine by\n> \n> Sheriff Earl Randol\n> Page 3\n> October 20, 1969\n> \n> handwriting comparison or by any other means that your homicide suspect is the same as ours, please advise. I will notify you of the results in comparing your latent lifts with ours as soon as I hear from the FBI.\n> \n> I hope this information may aid you in your investigation. Please be assured of our complete cooperation in all matters of mutual interest.\n> \n> Yours very truly,\n> \n> L. T. KINKEAD\n> Chief of Police\n> \n> H. L. Homsher, Sergeant\n> Detective Division\n> \n> HLH:seb\n> \n> Attachments: 1. Two reproductions of the\n> confession letter.\n> \n> 2. Photograph of the envelope\n> received by the Press.\n> \n> 3. A photograph of the envelope\n> received by our department.\n> \n> 4. Two Xerox copies of envelopes\n> received (after having been\n> processed for fingerprints).\n> \n> Cy to: Chief of Police, San Francisco Police Department Case Event Riverside City College Library Cheri Jo Bates Sheriff Earl Randol Chief Lambert T. Kinkead Sgt. H.L. Homsher"
     },
     {
+      "id": "recGNxtb5JlJHhurb",
+      "slug": "sf-examiner-s-front-page-message-to-zodiac",
+      "kind": "event",
+      "title": "SF Examiner's front page message to Zodiac",
+      "date": "1969-10-21",
+      "dateLabel": "Tue, Oct 21, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-10-21-9999-00413",
+      "type": "Media Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attGjBfHqdYPZpqHZ_The_San_Francisco_Examiner_1969_10_21_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attGjBfHqdYPZpqHZ_The_San_Francisco_Examiner_1969_10_21_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attGjBfHqdYPZpqHZ_The_San_Francisco_Examiner_1969_10_21_1.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_10_21_1.jpg"
+        }
+      ],
+      "sources": [
+        {
+          "label": "SF Examiner via Newspapers.com",
+          "url": "https://www.newspapers.com/image/460241492"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "SF Examiner's front page message to Zodiac Media Event San Francisco San Francisco Examiner"
+    },
+    {
       "id": "recqjXpshDLXC0Wfl",
       "slug": "zodiac-call-to-oakland-pd-re-f-lee-bailey-and-melvin-belli",
       "kind": "event",
@@ -17233,13 +17624,18 @@
         },
         {
           "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
         },
         {
           "id": "recBFunBfr7WSmINW",
           "name": "Joost",
           "slug": "joost"
+        },
+        {
+          "id": "",
+          "name": "Sherwood Mason Morrill",
+          "slug": "sherwood-mason-morrill"
         }
       ],
       "tags": [],
@@ -17262,7 +17658,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event San Francisco Paul Avery Sherwood Mason Morrill Joost"
+      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event San Francisco Paul Avery Sherwood Morrill Joost Sherwood Mason Morrill"
     },
     {
       "id": "recWV9gWzMWp2x5bN",
@@ -20532,8 +20928,8 @@
         },
         {
           "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
         },
         {
           "id": "recGZwp9mtC6qB9Hd",
@@ -20549,6 +20945,11 @@
           "id": "rec9bE0PxBpOGTpGq",
           "name": "William Garlington",
           "slug": "william-garlington"
+        },
+        {
+          "id": "",
+          "name": "Sherwood Mason Morrill",
+          "slug": "sherwood-mason-morrill"
         }
       ],
       "tags": [
@@ -20582,7 +20983,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac Case Event Sacramento, CA Vallejo, CA Sacramento CA Vallejo Arthur Leigh Allen Melvin Nicolai Vallejo Police Sherwood Mason Morrill Zodiac California Department of Justice William Garlington Arthur Leigh Allen Zodiac Letters"
+      "searchText": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac Case Event Sacramento, CA Vallejo, CA Sacramento CA Vallejo Arthur Leigh Allen Melvin Nicolai Vallejo Police Sherwood Morrill Zodiac California Department of Justice William Garlington Sherwood Mason Morrill Arthur Leigh Allen Zodiac Letters"
     },
     {
       "id": "recFOjJLM2jGWMNya",
@@ -24309,6 +24710,63 @@
       "searchText": "Paperback of Robert Graysmith's 'Zodiac' set to be published Zodiac Related Events United States of America Robert Graysmith"
     },
     {
+      "id": "recQI63rzx7zDTI6U",
+      "slug": "18th-anniversary-coverage-morrill-claims-possible-visit-from-zodiac",
+      "kind": "event",
+      "title": "18th anniversary coverage, Morrill claims possible visit from Zodiac",
+      "date": "1986-12-21",
+      "dateLabel": "Sun, Dec 21, 1986",
+      "year": 1986,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1986-12-21-9999-00415",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "rec5opHF6J5pu58Uu",
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attl4O5jIOa6rIJTT_The_San_Francisco_Examiner_1986_12_21_147.jpg",
+          "thumbUrl": "data/media/derived/thumb/attl4O5jIOa6rIJTT_The_San_Francisco_Examiner_1986_12_21_147.jpg",
+          "mediumUrl": "data/media/derived/medium/attl4O5jIOa6rIJTT_The_San_Francisco_Examiner_1986_12_21_147.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1986_12_21_147.jpg"
+        },
+        {
+          "originalUrl": "data/media/attpINRFT9UUSGvZa_The_San_Francisco_Examiner_1986_12_21_148.jpg",
+          "thumbUrl": "data/media/derived/thumb/attpINRFT9UUSGvZa_The_San_Francisco_Examiner_1986_12_21_148.jpg",
+          "mediumUrl": "data/media/derived/medium/attpINRFT9UUSGvZa_The_San_Francisco_Examiner_1986_12_21_148.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1986_12_21_148.jpg"
+        },
+        {
+          "originalUrl": "data/media/attyeWNE77zRYCDk0_The_San_Francisco_Examiner_1986_12_21_148__1_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attyeWNE77zRYCDk0_The_San_Francisco_Examiner_1986_12_21_148__1_.jpg",
+          "mediumUrl": "data/media/derived/medium/attyeWNE77zRYCDk0_The_San_Francisco_Examiner_1986_12_21_148__1_.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1986_12_21_148__1_.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "18th anniversary coverage, Morrill claims possible visit from Zodiac Newspaper Article San Francisco Sherwood Morrill"
+    },
+    {
       "id": "rec1Sj8XgYiEAz280",
       "slug": "harvey-hines-interview-in-escalon",
       "kind": "event",
@@ -25719,6 +26177,64 @@
       "searchText": "Chester Klingel Jr. DNA tested Suspect Event Vallejo, CA Vallejo CA Vallejo Police Chester Clark Klingel Jr."
     },
     {
+      "id": "recXiiqpMPrezY5D3",
+      "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published",
+      "kind": "event",
+      "title": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+      "date": "2009-05-01",
+      "dateLabel": "Fri, May 1, 2009",
+      "year": 2009,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "2009-05-01-9999-00414",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "people": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        },
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        },
+        {
+          "id": "recTFwOiCLdnVFRvm",
+          "name": "Washington Monthly",
+          "slug": "washington-monthly"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attQiVHGEWlcBQ73b_Screenshot_2026-03-08_at_2.42.51_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attQiVHGEWlcBQ73b_Screenshot_2026-03-08_at_2.42.51_PM.png",
+          "mediumUrl": "data/media/derived/medium/attQiVHGEWlcBQ73b_Screenshot_2026-03-08_at_2.42.51_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-03-08_at_2.42.51_PM.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Washington Monthly",
+          "url": "https://washingtonmonthly.com/2009/05/01/confessions-of-a-nonserial-killer/"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Suspect Event United States of America Michael O'Hare Gareth Penn Washington Monthly"
+    },
+    {
       "id": "recHmY4JSBTYywOwz",
       "slug": "vallejo-police-update-after-golden-state-killer-breakthrough",
       "kind": "event",
@@ -26179,6 +26695,10 @@
         "count": 1
       },
       {
+        "value": "2009",
+        "count": 1
+      },
+      {
         "value": "2007",
         "count": 2
       },
@@ -26228,7 +26748,7 @@
       },
       {
         "value": "1986",
-        "count": 5
+        "count": 6
       },
       {
         "value": "1985",
@@ -26292,7 +26812,7 @@
       },
       {
         "value": "1969",
-        "count": 147
+        "count": 151
       },
       {
         "value": "1968",
@@ -26304,7 +26824,7 @@
       },
       {
         "value": "1966",
-        "count": 22
+        "count": 23
       },
       {
         "value": "1965",
@@ -26422,7 +26942,7 @@
       },
       {
         "value": "Case Event",
-        "count": 85
+        "count": 88
       },
       {
         "value": "Census Records",
@@ -26442,11 +26962,11 @@
       },
       {
         "value": "Media Event",
-        "count": 32
+        "count": 33
       },
       {
         "value": "Newspaper Article",
-        "count": 27
+        "count": 29
       },
       {
         "value": "Non-Zodiac Events",
@@ -26462,7 +26982,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 96
+        "count": 97
       },
       {
         "value": "Victim Event",
@@ -26596,7 +27116,7 @@
       },
       {
         "value": "CA",
-        "count": 149
+        "count": 150
       },
       {
         "value": "CA)",
@@ -26872,7 +27392,7 @@
       },
       {
         "value": "Lake Berryessa Park Headquarters",
-        "count": 2
+        "count": 4
       },
       {
         "value": "Lake Herman Pumping Station",
@@ -27260,7 +27780,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 60
+        "count": 62
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -27464,11 +27984,11 @@
       },
       {
         "value": "United States of America",
-        "count": 9
+        "count": 10
       },
       {
         "value": "Vallejo",
-        "count": 37
+        "count": 38
       },
       {
         "value": "Vallejo (Allen family home)",
@@ -27480,7 +28000,7 @@
       },
       {
         "value": "Vallejo, CA",
-        "count": 37
+        "count": 38
       },
       {
         "value": "Villa Montalvo (Saratoga",
@@ -27610,7 +28130,7 @@
       },
       {
         "value": "Bryan Calvin Hartnell",
-        "count": 13
+        "count": 14
       },
       {
         "value": "CA)",
@@ -27675,6 +28195,10 @@
       {
         "value": "Darlene (Suennen) Ferrin",
         "count": 10
+      },
+      {
+        "value": "Dave Peterson",
+        "count": 1
       },
       {
         "value": "Dave Smith",
@@ -27830,6 +28354,10 @@
       },
       {
         "value": "Frank Peda",
+        "count": 1
+      },
+      {
+        "value": "Gareth Penn",
         "count": 1
       },
       {
@@ -28061,8 +28589,12 @@
         "count": 1
       },
       {
+        "value": "Michael O'Hare",
+        "count": 1
+      },
+      {
         "value": "Michael Renault Mageau",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Modesto Police",
@@ -28074,7 +28606,11 @@
       },
       {
         "value": "Napa County Sheriff's Department",
-        "count": 3
+        "count": 5
+      },
+      {
+        "value": "Napa D.A. James Boitano",
+        "count": 1
       },
       {
         "value": "Napa Police",
@@ -28190,10 +28726,14 @@
       },
       {
         "value": "Riverside City College Library",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Riverside Community College",
+        "count": 1
+      },
+      {
+        "value": "Riverside Police Department",
         "count": 1
       },
       {
@@ -28242,7 +28782,7 @@
       },
       {
         "value": "San Francisco Examiner",
-        "count": 12
+        "count": 13
       },
       {
         "value": "Seventh Day Adventists",
@@ -28267,6 +28807,10 @@
       {
         "value": "Sherwood Mason Morrill",
         "count": 2
+      },
+      {
+        "value": "Sherwood Morrill",
+        "count": 3
       },
       {
         "value": "Shohei Shirai",
@@ -28391,6 +28935,10 @@
       {
         "value": "Virginia Lee (Blenderman) Jensen",
         "count": 2
+      },
+      {
+        "value": "Washington Monthly",
+        "count": 1
       },
       {
         "value": "William Crow",

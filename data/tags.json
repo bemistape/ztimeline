@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
+  "generatedAt": "2026-03-09T19:12:19.240959+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -985,8 +985,8 @@
         },
         {
           "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
         },
         {
           "id": "recBksQ4rNpargfGq",
@@ -997,6 +997,11 @@
           "id": "recWUh14ApimVUpmt",
           "name": "Herb Caen",
           "slug": "herb-caen"
+        },
+        {
+          "id": "",
+          "name": "Sherwood Mason Morrill",
+          "slug": "sherwood-mason-morrill"
         }
       ],
       "relatedLocations": [
@@ -2021,7 +2026,7 @@
       ],
       "relatedEvents": [
         {
-          "id": "recmQK2TtG43z2t8t",
+          "id": "",
           "name": "Lake Berryessa Stabbings",
           "slug": "lake-berryessa-stabbings"
         },
@@ -2031,7 +2036,7 @@
           "slug": "napa-pd-confession-call"
         },
         {
-          "id": "reccPjrKfLC01M282",
+          "id": "",
           "name": "Car Door Message",
           "slug": "car-door-message"
         },
@@ -2041,7 +2046,7 @@
           "slug": "arthur-leigh-allen-alibi-for-lake-berryessa"
         },
         {
-          "id": "recuOuUGfQpwjuGqq",
+          "id": "",
           "name": "Death of Cecelia Shepard",
           "slug": "death-of-cecelia-shepard"
         },
@@ -2154,6 +2159,21 @@
           "id": "rechIqE7sbnT374eP",
           "name": "Services are held for Cecelia Shepard at PUC",
           "slug": "services-are-held-for-cecelia-shepard-at-puc"
+        },
+        {
+          "id": "recmQK2TtG43z2t8t",
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
+        },
+        {
+          "id": "reccPjrKfLC01M282",
+          "name": "Zodiac writes a message on Bryan Hartnell's car door",
+          "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door"
+        },
+        {
+          "id": "recuOuUGfQpwjuGqq",
+          "name": "Cecelia Shepard dies",
+          "slug": "cecelia-shepard-dies"
         },
         {
           "id": "recwTrtPD3leL7NPJ",
@@ -2317,7 +2337,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 29,
+      "relatedEventCount": 32,
       "searchText": "Attack at Lake Berryessa"
     },
     {
