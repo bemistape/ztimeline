@@ -3,41 +3,157 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ZTimeline Archive</title>
+    <title>Zodiac Timeline Archive</title>
     <meta
       name="description"
-      content="Editorial archive for exploring the Zodiac case timeline, people, locations, tags, and source evidence."
+      content="Interactive timeline for the Zodiac case with collapsible date-grouped events and image galleries."
     />
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
     <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
     <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="google-maps-api" content="" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="site-backdrop" aria-hidden="true"></div>
-    <div class="site-shell">
-      <header id="site-header" class="site-header"></header>
-      <main id="app" class="app-shell"></main>
-      <footer id="site-footer" class="site-footer"></footer>
+    <div id="sticky-nav-shell" class="sticky-nav-shell">
+      <div class="sticky-nav-inner">
+        <span id="sticky-site-title" class="sticky-site-title">Zodiac Archive</span>
+        <nav id="sticky-site-nav" class="site-nav sticky-site-nav" aria-label="Primary quick navigation"></nav>
+      </div>
     </div>
 
-    <div id="detail-overlay" class="detail-overlay" hidden></div>
-    <aside id="detail-panel" class="detail-panel" hidden aria-live="polite"></aside>
+    <section class="hero-banner" aria-label="Site banner">
+      <img
+        class="hero-mark"
+        src="assets/zodiac-header.png"
+        alt="This is the Zodiac"
+        width="1867"
+        height="324"
+      />
+    </section>
 
-    <dialog id="media-dialog" class="media-dialog" aria-label="Media viewer"></dialog>
+    <main class="app-shell">
+      <header class="hero">
+        <p id="hero-eyebrow" class="eyebrow">Case Timeline Viewer</p>
+        <h1 id="hero-title">Zodiac Archive</h1>
+        <p id="hero-copy" class="hero-copy">Date-grouped timeline with collapsible events and source image evidence.</p>
+        <nav id="site-nav" class="site-nav" aria-label="Primary" hidden></nav>
+      </header>
 
-    <noscript>
-      <div class="noscript-banner">
-        JavaScript is required for the redesigned archive.
+      <details id="controls-panel" class="controls-panel" open>
+        <summary class="controls-panel-summary">Search / Filter</summary>
+        <section class="controls" aria-label="Timeline filters">
+          <div class="control control-search">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Event name, people, location, notes"
+              autocomplete="off"
+            />
+            <div class="search-actions">
+              <label class="check-control">
+                <input id="media-only-filter" type="checkbox" />
+                <span>Only events with media</span>
+              </label>
+              <button id="reset-filters" class="button reset" type="button">Reset</button>
+            </div>
+          </div>
+
+          <label class="control">
+            <span>Location</span>
+            <select id="location-filter" multiple size="6" title="Select one or more locations">
+            </select>
+          </label>
+
+          <label class="control">
+            <span>People</span>
+            <select id="people-filter" multiple size="6" title="Select one or more people">
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Tags</span>
+            <select id="tag-filter" multiple size="6" title="Select one or more tags">
+            </select>
+          </label>
+
+        </section>
+      </details>
+
+      <section class="timeline-section">
+        <ol id="timeline" class="timeline" aria-live="polite"></ol>
+      </section>
+
+      <footer id="site-footer" class="site-footer" hidden>
+        <section id="footer-about" class="footer-block" hidden></section>
+        <section id="footer-links" class="footer-block footer-links" hidden></section>
+        <section id="footer-legal" class="footer-block footer-legal" hidden></section>
+      </footer>
+      <p id="data-freshness" class="data-freshness data-freshness-bottom" hidden></p>
+    </main>
+
+    <dialog id="image-modal" class="image-modal" aria-label="Image preview">
+      <div class="modal-toolbar" role="toolbar" aria-label="Image viewer controls">
+        <button id="modal-zoom-in" class="modal-tool" type="button" aria-label="Zoom in">Zoom +</button>
+        <button id="modal-zoom-out" class="modal-tool" type="button" aria-label="Zoom out">Zoom -</button>
+        <button id="modal-reset-view" class="modal-tool" type="button" aria-label="Reset zoom and rotation">Reset</button>
+        <button id="modal-rotate" class="modal-tool" type="button" aria-label="Rotate image 90 degrees">Rotate</button>
+        <button id="modal-fullscreen" class="modal-tool" type="button" aria-label="Toggle fullscreen">Fullscreen</button>
       </div>
-    </noscript>
+      <button id="modal-close" class="modal-close" type="button" aria-label="Close image preview">
+        Close
+      </button>
+      <button id="modal-prev" class="modal-nav prev" type="button" aria-label="Previous image">
+        Prev
+      </button>
+      <figure id="modal-figure" class="modal-figure">
+        <img id="modal-image" alt="" />
+        <figcaption id="modal-caption"></figcaption>
+      </figure>
+      <button id="modal-next" class="modal-nav next" type="button" aria-label="Next image">
+        Next
+      </button>
+    </dialog>
 
-    <script type="module" src="app.js"></script>
+    <dialog id="record-modal" class="record-modal" aria-label="Record details">
+      <button id="record-modal-close" class="record-modal-close" type="button" aria-label="Close record details">
+        Close
+      </button>
+      <article class="record-modal-body">
+        <header class="record-modal-header">
+          <p id="record-modal-kind" class="record-modal-kind"></p>
+          <h2 id="record-modal-title" class="record-modal-title"></h2>
+          <p id="record-modal-subtitle" class="record-modal-subtitle"></p>
+        </header>
+        <div id="record-modal-content" class="record-modal-content"></div>
+      </article>
+    </dialog>
+
+    <dialog id="about-modal" class="about-modal" aria-label="About this timeline">
+      <button id="about-modal-close" class="about-modal-close" type="button" aria-label="Close about panel">
+        Close
+      </button>
+      <article class="about-modal-body">
+        <h2 id="about-modal-title" class="about-modal-title">About</h2>
+        <div id="about-modal-content" class="about-modal-content"></div>
+      </article>
+    </dialog>
+
+    <template id="empty-state-template">
+      <li class="empty-state">
+        <h2>No events match these filters.</h2>
+        <p>Try clearing one or more filters.</p>
+      </li>
+    </template>
+
+    <script src="data-bundle.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
