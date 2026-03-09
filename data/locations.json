@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-06T03:11:30.856593+00:00",
+  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -12,17 +12,17 @@
       "images": [
         {
           "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-          "thumbUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-          "mediumUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
+          "mediumUrl": "data/media/derived/medium/attdDhYp8IaddoCn3_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "thumbUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "mediumUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
+        "mediumUrl": "data/media/derived/medium/attdDhYp8IaddoCn3_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -316,6 +316,21 @@
           "id": "reclsWfSFCwmnmwnX",
           "name": "Chester Clark Klingel Jr. is certified as a seaman",
           "slug": "chester-clark-klingel-jr-is-certified-as-a-seaman"
+        },
+        {
+          "id": "recYlgGaeVKouVQ7U",
+          "name": "SFPD deactivates Zodiac case",
+          "slug": "sfpd-deactivates-zodiac-case"
+        },
+        {
+          "id": "recVkmC71zHdSruSd",
+          "name": "20th anniversary coverage",
+          "slug": "20th-anniversary-coverage"
+        },
+        {
+          "id": "recktcfKy0caNre6j",
+          "name": "Belli writes 20th anniversary letter to editor",
+          "slug": "belli-writes-20th-anniversary-letter-to-editor"
         }
       ],
       "relatedLocations": [
@@ -580,7 +595,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 57,
+      "relatedEventCount": 60,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Donna Lass Richard Gaikowski Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"
@@ -596,17 +611,17 @@
       "images": [
         {
           "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
-          "thumbUrl": "data/media/attgAhXS75r2btCyV_image.png",
-          "mediumUrl": "data/media/attgAhXS75r2btCyV_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
+          "mediumUrl": "data/media/derived/medium/attgAhXS75r2btCyV_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "thumbUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "mediumUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
+        "mediumUrl": "data/media/derived/medium/attgAhXS75r2btCyV_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -753,7 +768,7 @@
         },
         {
           "id": "recHmY4JSBTYywOwz",
-          "name": "Vallejo Police Update after Golden State Killer breakthrough",
+          "name": "Vallejo Police update after Golden State Killer breakthrough",
           "slug": "vallejo-police-update-after-golden-state-killer-breakthrough"
         },
         {
@@ -1335,17 +1350,17 @@
       "images": [
         {
           "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-          "thumbUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-          "mediumUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+          "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "thumbUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "mediumUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+        "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -1577,52 +1592,52 @@
       "images": [
         {
           "originalUrl": "data/media/attkivbmybaAngm0N_image.png",
-          "thumbUrl": "data/media/attkivbmybaAngm0N_image.png",
-          "mediumUrl": "data/media/attkivbmybaAngm0N_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attkivbmybaAngm0N_image.png",
+          "mediumUrl": "data/media/derived/medium/attkivbmybaAngm0N_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/atttkeeR9QYqG2YCC_image.png",
-          "thumbUrl": "data/media/atttkeeR9QYqG2YCC_image.png",
-          "mediumUrl": "data/media/atttkeeR9QYqG2YCC_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atttkeeR9QYqG2YCC_image.png",
+          "mediumUrl": "data/media/derived/medium/atttkeeR9QYqG2YCC_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/attIRAbg5JMlLIQcN_image.png",
-          "thumbUrl": "data/media/attIRAbg5JMlLIQcN_image.png",
-          "mediumUrl": "data/media/attIRAbg5JMlLIQcN_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attIRAbg5JMlLIQcN_image.png",
+          "mediumUrl": "data/media/derived/medium/attIRAbg5JMlLIQcN_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/atto1PfS6l7PQDLhv_image.png",
-          "thumbUrl": "data/media/atto1PfS6l7PQDLhv_image.png",
-          "mediumUrl": "data/media/atto1PfS6l7PQDLhv_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atto1PfS6l7PQDLhv_image.png",
+          "mediumUrl": "data/media/derived/medium/atto1PfS6l7PQDLhv_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/attZdl2u3PmaNmDI8_image.png",
-          "thumbUrl": "data/media/attZdl2u3PmaNmDI8_image.png",
-          "mediumUrl": "data/media/attZdl2u3PmaNmDI8_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attZdl2u3PmaNmDI8_image.png",
+          "mediumUrl": "data/media/derived/medium/attZdl2u3PmaNmDI8_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/att9BbjXWR0zQEpW6_image.png",
-          "thumbUrl": "data/media/att9BbjXWR0zQEpW6_image.png",
-          "mediumUrl": "data/media/att9BbjXWR0zQEpW6_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/att9BbjXWR0zQEpW6_image.png",
+          "mediumUrl": "data/media/derived/medium/att9BbjXWR0zQEpW6_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "thumbUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "mediumUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attkivbmybaAngm0N_image.png",
+        "mediumUrl": "data/media/derived/medium/attkivbmybaAngm0N_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -1863,173 +1878,6 @@
       "searchText": "Fairfield, CA City Paul Alfred Doerr, Jr. Jim Phillips Crabtree The Daily Republic Solano (Community) College Fairfield Police Department"
     },
     {
-      "id": "recWAiXUOtxO9qHI7",
-      "slug": "martinez-ca",
-      "kind": "location",
-      "title": "Martinez, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Contra Costa County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recFFSKEFx7Q5CKxl",
-          "name": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\"",
-          "slug": "daniel-williams-begins-receiving-threatening-phone-calls-from-zodiac"
-        },
-        {
-          "id": "recv0eSofvT2sLgp6",
-          "name": "Daniel Williams arsenic incident",
-          "slug": "daniel-williams-arsenic-incident"
-        },
-        {
-          "id": "recVUeAEw8Xz2pbV3",
-          "name": "SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident]",
-          "slug": "sf-examiner-zodiac-caller-tries-to-kill-teacher-with-arsenic-daniel-williams-incident"
-        },
-        {
-          "id": "recTh3BNNFqXrKK0E",
-          "name": "Gaikowski is managing editor of Martinez News-Gazette",
-          "slug": "gaikowski-is-managing-editor-of-martinez-news-gazette"
-        },
-        {
-          "id": "recpveXFUNpcxeKn1",
-          "name": "Gaikowski gets himself arrested, writes series about jail",
-          "slug": "gaikowski-gets-himself-arrested-writes-series-about-jail"
-        },
-        {
-          "id": "rec0GzmiHhIivRjo8",
-          "name": "Gaikowski leaves Martinez News-Gazette",
-          "slug": "gaikowski-leaves-martinez-news-gazette"
-        },
-        {
-          "id": "recYTHJjNeequBgC0",
-          "name": "Gaikowski selling furniture before Albany move",
-          "slug": "gaikowski-selling-furniture-before-albany-move"
-        },
-        {
-          "id": "recELayBVNFecSolc",
-          "name": "Daniel Williams' life threatened in call to police",
-          "slug": "daniel-williams-life-threatened-in-call-to-police"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "recGZww4h3NB4LFRY",
-          "name": "The Daniel Williams incident",
-          "slug": "the-daniel-williams-incident"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 8,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Martinez, CA City"
-    },
-    {
-      "id": "rec9eYWhCQCUgaGyg",
-      "slug": "lake-herman-road-zodiac-site",
-      "kind": "location",
-      "title": "Lake Herman Road Zodiac Site",
-      "subtitle": "Site",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Lake Herman Road, Solano County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recgJKENPX5dM7i8f",
-          "name": "Lake Herman Road Double Murder",
-          "slug": "lake-herman-road-double-murder"
-        },
-        {
-          "id": "recyjFt6i09xmtq46",
-          "name": "Stella Medeiros finds bodies",
-          "slug": "stella-medeiros-finds-bodies"
-        },
-        {
-          "id": "recBEk4S1Y1NEAXt5",
-          "name": "Helen Axe sees Faraday / Jensen at turnout with other car",
-          "slug": "helen-axe-sees-faraday-jensen-at-turnout-with-other-car"
-        },
-        {
-          "id": "recbVrvunnpDEQp2s",
-          "name": "Benicia police arrive on scene",
-          "slug": "benicia-police-arrive-on-scene"
-        },
-        {
-          "id": "rec7WCKo6rJMnzZ0y",
-          "name": "James Owen passes by crime scene, sees two cars",
-          "slug": "james-owen-passes-by-crime-scene-sees-two-cars"
-        },
-        {
-          "id": "recu4bDLu2lsBkv1G",
-          "name": "Det. Lundblad arrives at murder scene",
-          "slug": "det-lundblad-arrives-at-murder-scene"
-        },
-        {
-          "id": "rec6iK1tGR5UERtNN",
-          "name": "Homer and Peggy Your observe Faraday and Jensen",
-          "slug": "homer-and-peggy-your-observe-faraday-and-jensen"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
-          "id": "recYHJNyDqDUFw0ry",
-          "name": "David Arthur Faraday",
-          "slug": "david-arthur-faraday"
-        },
-        {
-          "id": "recVvuvbfvZdCyti3",
-          "name": "Betty Lou Jensen",
-          "slug": "betty-lou-jensen"
-        },
-        {
-          "id": "recXRPv8a8eOIXE5G",
-          "name": "Pierre Bidou",
-          "slug": "pierre-bidou"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recR0NFmznLOB0Nf6",
-          "name": "Murders at Lake Herman Road",
-          "slug": "murders-at-lake-herman-road"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Map",
-          "url": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7"
-        }
-      ],
-      "relatedEventCount": 7,
-      "mapOpenUrl": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7",
-      "mapEmbedUrl": "https://www.google.com/maps?q=38.094916,-122.144107&output=embed",
-      "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
-    },
-    {
       "id": "recO5mW1mFKtK0hCE",
       "slug": "united-states-of-america",
       "kind": "location",
@@ -2040,17 +1888,17 @@
       "images": [
         {
           "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-          "thumbUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-          "mediumUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
+          "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-        "thumbUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-        "mediumUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
+        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [],
@@ -2089,6 +1937,16 @@
           "id": "recL6V2jjlEots0Jp",
           "name": "David Fincher's ZODIAC is released",
           "slug": "david-fincher-s-zodiac-is-released"
+        },
+        {
+          "id": "recN8y4qL0Bafo7Fq",
+          "name": "Paperback of Robert Graysmith's 'Zodiac' set to be published",
+          "slug": "paperback-of-robert-graysmith-s-zodiac-set-to-be-published"
+        },
+        {
+          "id": "rec1Js0yixTEQkfvj",
+          "name": "Robert Graysmith's 'Zodiac' is published",
+          "slug": "robert-graysmith-s-zodiac-is-published"
         }
       ],
       "relatedLocations": [
@@ -2509,6 +2367,11 @@
         },
         {
           "id": "",
+          "name": "MAEssex County",
+          "slug": "maessex-county"
+        },
+        {
+          "id": "",
           "name": "MAParke County",
           "slug": "maparke-county"
         },
@@ -2595,14 +2458,14 @@
           "slug": "arthur-leigh-allen"
         },
         {
-          "id": "rec4ZhSZpZfgCU6ng",
-          "name": "Cheri Jo Bates",
-          "slug": "cheri-jo-bates"
-        },
-        {
           "id": "rec5NLNj8q2bpKjm8",
           "name": "San Francisco Chronicle",
           "slug": "san-francisco-chronicle"
+        },
+        {
+          "id": "rec4ZhSZpZfgCU6ng",
+          "name": "Cheri Jo Bates",
+          "slug": "cheri-jo-bates"
         },
         {
           "id": "reckQ2Se5cvoZCWrF",
@@ -2675,6 +2538,11 @@
           "slug": "vallejo-police"
         },
         {
+          "id": "recnGQtKOfaGauwF5",
+          "name": "SFPD",
+          "slug": "sfpd"
+        },
+        {
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
@@ -2683,11 +2551,6 @@
           "id": "recSEKXCZ713pyThm",
           "name": "Napa County Sheriff's Department",
           "slug": "napa-county-sheriff-s-department"
-        },
-        {
-          "id": "recnGQtKOfaGauwF5",
-          "name": "SFPD",
-          "slug": "sfpd"
         },
         {
           "id": "rec5opHF6J5pu58Uu",
@@ -3205,6 +3068,11 @@
           "slug": "letterman-general-hospital"
         },
         {
+          "id": "recfYued2JL1nHyRi",
+          "name": "James W. Reed",
+          "slug": "james-w-reed"
+        },
+        {
           "id": "rec0sRHJ9eLbQJYsJ",
           "name": "Rancho Monticello Resort",
           "slug": "rancho-monticello-resort"
@@ -3283,11 +3151,6 @@
           "id": "recGMiUq4iC8IyagZ",
           "name": "Yellow Cab Company (San Francisco)",
           "slug": "yellow-cab-company-san-francisco"
-        },
-        {
-          "id": "recfYued2JL1nHyRi",
-          "name": "James W. Reed",
-          "slug": "james-w-reed"
         },
         {
           "id": "rece50yKSif6qIJjD",
@@ -3393,6 +3256,11 @@
           "id": "recKnbyZoolHqPzqo",
           "name": "Patterson Police Department",
           "slug": "patterson-police-department"
+        },
+        {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
         },
         {
           "id": "recHSYzOkQQlT4kUl",
@@ -3515,6 +3383,11 @@
           "slug": "roy-conway"
         },
         {
+          "id": "recr2NkR1C9077Has",
+          "name": "Contra Costa County Sheriff's Office",
+          "slug": "contra-costa-county-sheriff-s-office"
+        },
+        {
           "id": "recpyUq3bcArUcC72",
           "name": "Ramona High School",
           "slug": "ramona-high-school"
@@ -3632,10 +3505,177 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 7,
+      "relatedEventCount": 9,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney The Los Angeles Times Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Tom Voigt Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Mason Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Donna Lass Elizabeth Short Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Ross Sullivan Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) James W. Reed Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Riverside City College Library Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Harvey Hines Roy Conway Ramona High School Atascadero State Hospital United States Army Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Riverside Police Department California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen San Francisco Chronicle Cheri Jo Bates San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney The Los Angeles Times Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Tom Voigt Armistead Maupin David Toschi Vallejo Police SFPD Melvin Belli Napa County Sheriff's Department Sherwood Mason Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Donna Lass Elizabeth Short Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Ross Sullivan Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Riverside City College Library Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Harvey Hines Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital United States Army Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Riverside Police Department California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+    },
+    {
+      "id": "recWAiXUOtxO9qHI7",
+      "slug": "martinez-ca",
+      "kind": "location",
+      "title": "Martinez, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Contra Costa County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recFFSKEFx7Q5CKxl",
+          "name": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\"",
+          "slug": "daniel-williams-begins-receiving-threatening-phone-calls-from-zodiac"
+        },
+        {
+          "id": "recv0eSofvT2sLgp6",
+          "name": "Daniel Williams arsenic incident",
+          "slug": "daniel-williams-arsenic-incident"
+        },
+        {
+          "id": "recVUeAEw8Xz2pbV3",
+          "name": "SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident]",
+          "slug": "sf-examiner-zodiac-caller-tries-to-kill-teacher-with-arsenic-daniel-williams-incident"
+        },
+        {
+          "id": "recTh3BNNFqXrKK0E",
+          "name": "Gaikowski is managing editor of Martinez News-Gazette",
+          "slug": "gaikowski-is-managing-editor-of-martinez-news-gazette"
+        },
+        {
+          "id": "recpveXFUNpcxeKn1",
+          "name": "Gaikowski gets himself arrested, writes series about jail",
+          "slug": "gaikowski-gets-himself-arrested-writes-series-about-jail"
+        },
+        {
+          "id": "rec0GzmiHhIivRjo8",
+          "name": "Gaikowski leaves Martinez News-Gazette",
+          "slug": "gaikowski-leaves-martinez-news-gazette"
+        },
+        {
+          "id": "recYTHJjNeequBgC0",
+          "name": "Gaikowski selling furniture before Albany move",
+          "slug": "gaikowski-selling-furniture-before-albany-move"
+        },
+        {
+          "id": "recELayBVNFecSolc",
+          "name": "Daniel Williams' life threatened in call to police",
+          "slug": "daniel-williams-life-threatened-in-call-to-police"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "recGZww4h3NB4LFRY",
+          "name": "The Daniel Williams incident",
+          "slug": "the-daniel-williams-incident"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 8,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Martinez, CA City"
+    },
+    {
+      "id": "rec9eYWhCQCUgaGyg",
+      "slug": "lake-herman-road-zodiac-site",
+      "kind": "location",
+      "title": "Lake Herman Road Zodiac Site",
+      "subtitle": "Site",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Lake Herman Road, Solano County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recgJKENPX5dM7i8f",
+          "name": "Lake Herman Road Double Murder",
+          "slug": "lake-herman-road-double-murder"
+        },
+        {
+          "id": "recyjFt6i09xmtq46",
+          "name": "Stella Medeiros finds bodies",
+          "slug": "stella-medeiros-finds-bodies"
+        },
+        {
+          "id": "recBEk4S1Y1NEAXt5",
+          "name": "Helen Axe sees Faraday / Jensen at turnout with other car",
+          "slug": "helen-axe-sees-faraday-jensen-at-turnout-with-other-car"
+        },
+        {
+          "id": "recbVrvunnpDEQp2s",
+          "name": "Benicia police arrive on scene",
+          "slug": "benicia-police-arrive-on-scene"
+        },
+        {
+          "id": "rec7WCKo6rJMnzZ0y",
+          "name": "James Owen passes by crime scene, sees two cars",
+          "slug": "james-owen-passes-by-crime-scene-sees-two-cars"
+        },
+        {
+          "id": "recu4bDLu2lsBkv1G",
+          "name": "Det. Lundblad arrives at murder scene",
+          "slug": "det-lundblad-arrives-at-murder-scene"
+        },
+        {
+          "id": "rec6iK1tGR5UERtNN",
+          "name": "Homer and Peggy Your observe Faraday and Jensen",
+          "slug": "homer-and-peggy-your-observe-faraday-and-jensen"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recGZwp9mtC6qB9Hd",
+          "name": "Zodiac",
+          "slug": "zodiac"
+        },
+        {
+          "id": "recYHJNyDqDUFw0ry",
+          "name": "David Arthur Faraday",
+          "slug": "david-arthur-faraday"
+        },
+        {
+          "id": "recVvuvbfvZdCyti3",
+          "name": "Betty Lou Jensen",
+          "slug": "betty-lou-jensen"
+        },
+        {
+          "id": "recXRPv8a8eOIXE5G",
+          "name": "Pierre Bidou",
+          "slug": "pierre-bidou"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recR0NFmznLOB0Nf6",
+          "name": "Murders at Lake Herman Road",
+          "slug": "murders-at-lake-herman-road"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Map",
+          "url": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7"
+        }
+      ],
+      "relatedEventCount": 7,
+      "mapOpenUrl": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7",
+      "mapEmbedUrl": "https://www.google.com/maps?q=38.094916,-122.144107&output=embed",
+      "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
     },
     {
       "id": "rec4uzkCoOurp4K2R",
@@ -4027,17 +4067,17 @@
       "images": [
         {
           "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-          "thumbUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-          "mediumUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
+          "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-        "thumbUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-        "mediumUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
+        "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -4630,17 +4670,17 @@
       "images": [
         {
           "originalUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-          "thumbUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-          "mediumUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atthQqGeCJNIjoLPi_image.png",
+          "mediumUrl": "data/media/derived/medium/atthQqGeCJNIjoLPi_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "thumbUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "mediumUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atthQqGeCJNIjoLPi_image.png",
+        "mediumUrl": "data/media/derived/medium/atthQqGeCJNIjoLPi_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -4889,17 +4929,17 @@
       "images": [
         {
           "originalUrl": "data/media/attEII8XD8UPATe7R_image.png",
-          "thumbUrl": "data/media/attEII8XD8UPATe7R_image.png",
-          "mediumUrl": "data/media/attEII8XD8UPATe7R_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attEII8XD8UPATe7R_image.png",
+          "mediumUrl": "data/media/derived/medium/attEII8XD8UPATe7R_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attEII8XD8UPATe7R_image.png",
-        "thumbUrl": "data/media/attEII8XD8UPATe7R_image.png",
-        "mediumUrl": "data/media/attEII8XD8UPATe7R_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attEII8XD8UPATe7R_image.png",
+        "mediumUrl": "data/media/derived/medium/attEII8XD8UPATe7R_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -5216,31 +5256,31 @@
       "images": [
         {
           "originalUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-          "thumbUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-          "mediumUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attAR3jB0UQUXhlr6_image.png",
+          "mediumUrl": "data/media/derived/medium/attAR3jB0UQUXhlr6_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/att5zklAbxM5AAcgU_image.png",
-          "thumbUrl": "data/media/att5zklAbxM5AAcgU_image.png",
-          "mediumUrl": "data/media/att5zklAbxM5AAcgU_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/att5zklAbxM5AAcgU_image.png",
+          "mediumUrl": "data/media/derived/medium/att5zklAbxM5AAcgU_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         },
         {
           "originalUrl": "data/media/attVlTdQzFoqaxmJp_image.png",
-          "thumbUrl": "data/media/attVlTdQzFoqaxmJp_image.png",
-          "mediumUrl": "data/media/attVlTdQzFoqaxmJp_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attVlTdQzFoqaxmJp_image.png",
+          "mediumUrl": "data/media/derived/medium/attVlTdQzFoqaxmJp_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "thumbUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "mediumUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attAR3jB0UQUXhlr6_image.png",
+        "mediumUrl": "data/media/derived/medium/attAR3jB0UQUXhlr6_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -5629,17 +5669,17 @@
       "images": [
         {
           "originalUrl": "data/media/attutXdvczCyUQFlc_image.png",
-          "thumbUrl": "data/media/attutXdvczCyUQFlc_image.png",
-          "mediumUrl": "data/media/attutXdvczCyUQFlc_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attutXdvczCyUQFlc_image.png",
+          "mediumUrl": "data/media/derived/medium/attutXdvczCyUQFlc_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attutXdvczCyUQFlc_image.png",
-        "thumbUrl": "data/media/attutXdvczCyUQFlc_image.png",
-        "mediumUrl": "data/media/attutXdvczCyUQFlc_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attutXdvczCyUQFlc_image.png",
+        "mediumUrl": "data/media/derived/medium/attutXdvczCyUQFlc_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -6329,17 +6369,17 @@
       "images": [
         {
           "originalUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-          "thumbUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-          "mediumUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atte3qeUhZZPUDMzn_image.png",
+          "mediumUrl": "data/media/derived/medium/atte3qeUhZZPUDMzn_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-        "thumbUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-        "mediumUrl": "data/media/atte3qeUhZZPUDMzn_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atte3qeUhZZPUDMzn_image.png",
+        "mediumUrl": "data/media/derived/medium/atte3qeUhZZPUDMzn_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -6644,17 +6684,17 @@
       "images": [
         {
           "originalUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-          "thumbUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-          "mediumUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attYJ9P78Ljds0wh2_image.png",
+          "mediumUrl": "data/media/derived/medium/attYJ9P78Ljds0wh2_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-        "thumbUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-        "mediumUrl": "data/media/attYJ9P78Ljds0wh2_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attYJ9P78Ljds0wh2_image.png",
+        "mediumUrl": "data/media/derived/medium/attYJ9P78Ljds0wh2_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -7931,6 +7971,11 @@
           "slug": "vallejo-police"
         },
         {
+          "id": "recnGQtKOfaGauwF5",
+          "name": "SFPD",
+          "slug": "sfpd"
+        },
+        {
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
@@ -7939,11 +7984,6 @@
           "id": "recSEKXCZ713pyThm",
           "name": "Napa County Sheriff's Department",
           "slug": "napa-county-sheriff-s-department"
-        },
-        {
-          "id": "recnGQtKOfaGauwF5",
-          "name": "SFPD",
-          "slug": "sfpd"
         },
         {
           "id": "rec5opHF6J5pu58Uu",
@@ -8316,6 +8356,11 @@
           "slug": "letterman-general-hospital"
         },
         {
+          "id": "recfYued2JL1nHyRi",
+          "name": "James W. Reed",
+          "slug": "james-w-reed"
+        },
+        {
           "id": "rec0sRHJ9eLbQJYsJ",
           "name": "Rancho Monticello Resort",
           "slug": "rancho-monticello-resort"
@@ -8471,6 +8516,11 @@
           "slug": "john-p-lynch"
         },
         {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
+        },
+        {
           "id": "rechlB2ckHI3rm1um",
           "name": "Jack E. Stiltz",
           "slug": "jack-e-stiltz"
@@ -8489,11 +8539,6 @@
           "id": "recgQFSL86JXn8K7s",
           "name": "Ray Land",
           "slug": "ray-land"
-        },
-        {
-          "id": "recfYued2JL1nHyRi",
-          "name": "James W. Reed",
-          "slug": "james-w-reed"
         },
         {
           "id": "recfKySo592JuV4kI",
@@ -8564,6 +8609,11 @@
           "id": "recRP5ef9yON710JY",
           "name": "Roy Conway",
           "slug": "roy-conway"
+        },
+        {
+          "id": "recr2NkR1C9077Has",
+          "name": "Contra Costa County Sheriff's Office",
+          "slug": "contra-costa-county-sheriff-s-office"
         },
         {
           "id": "reclhR72XzI2FR104",
@@ -8651,7 +8701,7 @@
       "relatedEventCount": 2,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "SF Bay Area Region The **San Francisco Bay Area**, commonly known as the **Bay Area**, is a [region of California](https://en.wikipedia.org/wiki/List_of_regions_of_California) surrounding and including [San Francisco Bay](https://en.wikipedia.org/wiki/San_Francisco_Bay), and anchored by the cities of [Oakland](https://en.wikipedia.org/wiki/Oakland), [San Francisco](https://en.wikipedia.org/wiki/San_Francisco), and [San Jose](https://en.wikipedia.org/wiki/San_Jose,_California).[[8]](https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#cite_note-8) The [Association of Bay Area Governments](https://en.wikipedia.org/wiki/Association_of_Bay_Area_Governments) defines the Bay Area as including the nine counties that border the [estuaries](https://en.wikipedia.org/wiki/Estuary) of San Francisco Bay, [San Pablo Bay](https://en.wikipedia.org/wiki/San_Pablo_Bay), and [Suisun Bay](https://en.wikipedia.org/wiki/Suisun_Bay): [Alameda](https://en.wikipedia.org/wiki/Alameda_County,_California), [Contra Costa](https://en.wikipedia.org/wiki/Contra_Costa_County,_California), [Marin](https://en.wikipedia.org/wiki/Marin_County,_California), [Napa](https://en.wikipedia.org/wiki/Napa_County,_California), [San Mateo](https://en.wikipedia.org/wiki/San_Mateo_County,_California), [Santa Clara](https://en.wikipedia.org/wiki/Santa_Clara_County,_California), [Solano](https://en.wikipedia.org/wiki/Solano_County,_California), [Sonoma](https://en.wikipedia.org/wiki/Sonoma_County,_California), and [San Francisco](https://en.wikipedia.org/wiki/San_Francisco). Other definitions may be either smaller or larger, and may include neighboring counties which are not officially part of the San Francisco Bay Area, such as the [Central Coast](https://en.wikipedia.org/wiki/Central_Coast_(California)) counties of [Santa Cruz](https://en.wikipedia.org/wiki/Santa_Cruz_County,_California), [San Benito](https://en.wikipedia.org/wiki/San_Benito_County,_California), and [Monterey](https://en.wikipedia.org/wiki/Monterey_County,_California), or the [Central Valley](https://en.wikipedia.org/wiki/Central_Valley_(California)) counties of [San Joaquin](https://en.wikipedia.org/wiki/San_Joaquin_County,_California), [Merced](https://en.wikipedia.org/wiki/Merced_County,_California), and [Stanislaus](https://en.wikipedia.org/wiki/Stanislaus_County,_California).[[9]](https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#cite_note-OMB-23-01-9) The Bay Area is known for its natural beauty, prominent universities, technology companies, and affluence. The Bay Area contains many cities, towns, airports, and associated regional, state, and national parks, connected by a complex [multimodal transportation](https://en.wikipedia.org/wiki/Multimodal_transport) network. Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Arthur Leigh Allen San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Mason Morrill Bill Armstrong Martin Lee Donna Lass Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield David Lee Rayfield Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV The Daily Republic Good Times (San Francisco alt-weekly) KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Leo Suennen Jr. Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Lake Berryessa Park Letterman General Hospital Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Fairmont Hotel John P. Lynch Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land James W. Reed Edward B. Pace Frank Peda Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Jarett Kobek Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Highland Elementary School Charles Ellis Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+      "searchText": "SF Bay Area Region The **San Francisco Bay Area**, commonly known as the **Bay Area**, is a [region of California](https://en.wikipedia.org/wiki/List_of_regions_of_California) surrounding and including [San Francisco Bay](https://en.wikipedia.org/wiki/San_Francisco_Bay), and anchored by the cities of [Oakland](https://en.wikipedia.org/wiki/Oakland), [San Francisco](https://en.wikipedia.org/wiki/San_Francisco), and [San Jose](https://en.wikipedia.org/wiki/San_Jose,_California).[[8]](https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#cite_note-8) The [Association of Bay Area Governments](https://en.wikipedia.org/wiki/Association_of_Bay_Area_Governments) defines the Bay Area as including the nine counties that border the [estuaries](https://en.wikipedia.org/wiki/Estuary) of San Francisco Bay, [San Pablo Bay](https://en.wikipedia.org/wiki/San_Pablo_Bay), and [Suisun Bay](https://en.wikipedia.org/wiki/Suisun_Bay): [Alameda](https://en.wikipedia.org/wiki/Alameda_County,_California), [Contra Costa](https://en.wikipedia.org/wiki/Contra_Costa_County,_California), [Marin](https://en.wikipedia.org/wiki/Marin_County,_California), [Napa](https://en.wikipedia.org/wiki/Napa_County,_California), [San Mateo](https://en.wikipedia.org/wiki/San_Mateo_County,_California), [Santa Clara](https://en.wikipedia.org/wiki/Santa_Clara_County,_California), [Solano](https://en.wikipedia.org/wiki/Solano_County,_California), [Sonoma](https://en.wikipedia.org/wiki/Sonoma_County,_California), and [San Francisco](https://en.wikipedia.org/wiki/San_Francisco). Other definitions may be either smaller or larger, and may include neighboring counties which are not officially part of the San Francisco Bay Area, such as the [Central Coast](https://en.wikipedia.org/wiki/Central_Coast_(California)) counties of [Santa Cruz](https://en.wikipedia.org/wiki/Santa_Cruz_County,_California), [San Benito](https://en.wikipedia.org/wiki/San_Benito_County,_California), and [Monterey](https://en.wikipedia.org/wiki/Monterey_County,_California), or the [Central Valley](https://en.wikipedia.org/wiki/Central_Valley_(California)) counties of [San Joaquin](https://en.wikipedia.org/wiki/San_Joaquin_County,_California), [Merced](https://en.wikipedia.org/wiki/Merced_County,_California), and [Stanislaus](https://en.wikipedia.org/wiki/Stanislaus_County,_California).[[9]](https://en.wikipedia.org/wiki/San_Francisco_Bay_Area#cite_note-OMB-23-01-9) The Bay Area is known for its natural beauty, prominent universities, technology companies, and affluence. The Bay Area contains many cities, towns, airports, and associated regional, state, and national parks, connected by a complex [multimodal transportation](https://en.wikipedia.org/wiki/Multimodal_transport) network. Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Arthur Leigh Allen San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Armistead Maupin David Toschi Vallejo Police SFPD Melvin Belli Napa County Sheriff's Department Sherwood Mason Morrill Bill Armstrong Martin Lee Donna Lass Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield David Lee Rayfield Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV The Daily Republic Good Times (San Francisco alt-weekly) KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Leo Suennen Jr. Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Fairmont Hotel John P. Lynch Paul Holes Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Jarett Kobek Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Highland Elementary School Charles Ellis Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
       "id": "rec8edd0yvQSGZsH0",
@@ -9096,17 +9146,17 @@
       "images": [
         {
           "originalUrl": "data/media/attfsyMlpszOySPrE_image.png",
-          "thumbUrl": "data/media/attfsyMlpszOySPrE_image.png",
-          "mediumUrl": "data/media/attfsyMlpszOySPrE_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attfsyMlpszOySPrE_image.png",
+          "mediumUrl": "data/media/derived/medium/attfsyMlpszOySPrE_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attfsyMlpszOySPrE_image.png",
-        "thumbUrl": "data/media/attfsyMlpszOySPrE_image.png",
-        "mediumUrl": "data/media/attfsyMlpszOySPrE_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attfsyMlpszOySPrE_image.png",
+        "mediumUrl": "data/media/derived/medium/attfsyMlpszOySPrE_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -9541,17 +9591,17 @@
       "images": [
         {
           "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
-          "thumbUrl": "data/media/attFLYch80MeydGKC_image.png",
-          "mediumUrl": "data/media/attFLYch80MeydGKC_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
+          "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
-        "thumbUrl": "data/media/attFLYch80MeydGKC_image.png",
-        "mediumUrl": "data/media/attFLYch80MeydGKC_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
+        "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -9645,6 +9695,58 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Donna Lass skull location near Camp Spaulding Donna Lass"
+    },
+    {
+      "id": "recUHZEtJHqQWJpC8",
+      "slug": "escalon-ca",
+      "kind": "location",
+      "title": "Escalon, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attEcLjuYImRS1CBE_image.png",
+          "thumbUrl": "data/media/derived/thumb/attEcLjuYImRS1CBE_image.png",
+          "mediumUrl": "data/media/derived/medium/attEcLjuYImRS1CBE_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attEcLjuYImRS1CBE_image.png",
+        "thumbUrl": "data/media/derived/thumb/attEcLjuYImRS1CBE_image.png",
+        "mediumUrl": "data/media/derived/medium/attEcLjuYImRS1CBE_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Joaquin County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec1Sj8XgYiEAz280",
+          "name": "Harvey Hines interview in Escalon",
+          "slug": "harvey-hines-interview-in-escalon"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recSH3t6JshE3eNXM",
+          "name": "Harvey Hines",
+          "slug": "harvey-hines"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Escalon, CA City Harvey Hines"
     },
     {
       "id": "recyAymRgxnrLtPne",
@@ -9903,17 +10005,17 @@
       "images": [
         {
           "originalUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-          "thumbUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-          "mediumUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atthMjt65pf8QxTWJ_image.png",
+          "mediumUrl": "data/media/derived/medium/atthMjt65pf8QxTWJ_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-        "thumbUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-        "mediumUrl": "data/media/atthMjt65pf8QxTWJ_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atthMjt65pf8QxTWJ_image.png",
+        "mediumUrl": "data/media/derived/medium/atthMjt65pf8QxTWJ_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -10669,17 +10771,17 @@
       "images": [
         {
           "originalUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-          "thumbUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-          "mediumUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
+          "mediumUrl": "data/media/derived/medium/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
+          "derivativeState": "derived",
           "label": "Screenshot_2026-01-04_at_12.09.39_PM.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-        "thumbUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-        "mediumUrl": "data/media/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
+        "mediumUrl": "data/media/derived/medium/attH1p9ZcpMow2Gpy_Screenshot_2026-01-04_at_12.09.39_PM.png",
+        "derivativeState": "derived",
         "label": "Screenshot_2026-01-04_at_12.09.39_PM.png"
       },
       "facts": [
@@ -11177,17 +11279,17 @@
       "images": [
         {
           "originalUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-          "thumbUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-          "mediumUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/att4yzRFrak0DGAIB_image.png",
+          "mediumUrl": "data/media/derived/medium/att4yzRFrak0DGAIB_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-        "thumbUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-        "mediumUrl": "data/media/att4yzRFrak0DGAIB_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/att4yzRFrak0DGAIB_image.png",
+        "mediumUrl": "data/media/derived/medium/att4yzRFrak0DGAIB_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -11567,17 +11669,17 @@
       "images": [
         {
           "originalUrl": "data/media/atto1byO28nUWZM1u_image.png",
-          "thumbUrl": "data/media/atto1byO28nUWZM1u_image.png",
-          "mediumUrl": "data/media/atto1byO28nUWZM1u_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/atto1byO28nUWZM1u_image.png",
+          "mediumUrl": "data/media/derived/medium/atto1byO28nUWZM1u_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/atto1byO28nUWZM1u_image.png",
-        "thumbUrl": "data/media/atto1byO28nUWZM1u_image.png",
-        "mediumUrl": "data/media/atto1byO28nUWZM1u_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atto1byO28nUWZM1u_image.png",
+        "mediumUrl": "data/media/derived/medium/atto1byO28nUWZM1u_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -12383,17 +12485,17 @@
       "images": [
         {
           "originalUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-          "thumbUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-          "mediumUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attEbRX1PoxRK8H50_image.png",
+          "mediumUrl": "data/media/derived/medium/attEbRX1PoxRK8H50_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-        "thumbUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-        "mediumUrl": "data/media/attEbRX1PoxRK8H50_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attEbRX1PoxRK8H50_image.png",
+        "mediumUrl": "data/media/derived/medium/attEbRX1PoxRK8H50_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -12438,17 +12540,17 @@
       "images": [
         {
           "originalUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-          "thumbUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-          "mediumUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/att9aOhe9PJrPl2UI_image.png",
+          "mediumUrl": "data/media/derived/medium/att9aOhe9PJrPl2UI_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-        "thumbUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-        "mediumUrl": "data/media/att9aOhe9PJrPl2UI_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/att9aOhe9PJrPl2UI_image.png",
+        "mediumUrl": "data/media/derived/medium/att9aOhe9PJrPl2UI_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -13332,17 +13434,17 @@
       "images": [
         {
           "originalUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-          "thumbUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-          "mediumUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attK2cXGFoih0T9GN_image.png",
+          "mediumUrl": "data/media/derived/medium/attK2cXGFoih0T9GN_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-        "thumbUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-        "mediumUrl": "data/media/attK2cXGFoih0T9GN_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attK2cXGFoih0T9GN_image.png",
+        "mediumUrl": "data/media/derived/medium/attK2cXGFoih0T9GN_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -14820,14 +14922,14 @@
           "slug": "arthur-leigh-allen"
         },
         {
-          "id": "rec4ZhSZpZfgCU6ng",
-          "name": "Cheri Jo Bates",
-          "slug": "cheri-jo-bates"
-        },
-        {
           "id": "rec5NLNj8q2bpKjm8",
           "name": "San Francisco Chronicle",
           "slug": "san-francisco-chronicle"
+        },
+        {
+          "id": "rec4ZhSZpZfgCU6ng",
+          "name": "Cheri Jo Bates",
+          "slug": "cheri-jo-bates"
         },
         {
           "id": "reckQ2Se5cvoZCWrF",
@@ -14895,6 +14997,11 @@
           "slug": "vallejo-police"
         },
         {
+          "id": "recnGQtKOfaGauwF5",
+          "name": "SFPD",
+          "slug": "sfpd"
+        },
+        {
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
@@ -14903,11 +15010,6 @@
           "id": "recSEKXCZ713pyThm",
           "name": "Napa County Sheriff's Department",
           "slug": "napa-county-sheriff-s-department"
-        },
-        {
-          "id": "recnGQtKOfaGauwF5",
-          "name": "SFPD",
-          "slug": "sfpd"
         },
         {
           "id": "rec5opHF6J5pu58Uu",
@@ -15380,6 +15482,11 @@
           "slug": "letterman-general-hospital"
         },
         {
+          "id": "recfYued2JL1nHyRi",
+          "name": "James W. Reed",
+          "slug": "james-w-reed"
+        },
+        {
           "id": "rec0sRHJ9eLbQJYsJ",
           "name": "Rancho Monticello Resort",
           "slug": "rancho-monticello-resort"
@@ -15458,11 +15565,6 @@
           "id": "recGMiUq4iC8IyagZ",
           "name": "Yellow Cab Company (San Francisco)",
           "slug": "yellow-cab-company-san-francisco"
-        },
-        {
-          "id": "recfYued2JL1nHyRi",
-          "name": "James W. Reed",
-          "slug": "james-w-reed"
         },
         {
           "id": "rece50yKSif6qIJjD",
@@ -15563,6 +15665,11 @@
           "id": "recKnbyZoolHqPzqo",
           "name": "Patterson Police Department",
           "slug": "patterson-police-department"
+        },
+        {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
         },
         {
           "id": "recHSYzOkQQlT4kUl",
@@ -15678,6 +15785,11 @@
           "id": "recRP5ef9yON710JY",
           "name": "Roy Conway",
           "slug": "roy-conway"
+        },
+        {
+          "id": "recr2NkR1C9077Has",
+          "name": "Contra Costa County Sheriff's Office",
+          "slug": "contra-costa-county-sheriff-s-office"
         },
         {
           "id": "recpyUq3bcArUcC72",
@@ -15806,7 +15918,7 @@
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "California State Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney The Los Angeles Times Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Mason Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Donna Lass Elizabeth Short Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield David Lee Rayfield Cleophus Martin Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Ross Sullivan Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Dave Smith The Modesto Bee Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Leo Suennen Jr. Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Lake Berryessa Park Letterman General Hospital Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) James W. Reed Verne Marion Jensen Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Riverside City College Library Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce John W. Nicoll Barbara Lowe William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Harvey Hines Roy Conway Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Riverside Police Department California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+      "searchText": "California State Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen San Francisco Chronicle Cheri Jo Bates San Francisco Examiner Vallejo Times-Herald Donald (Don) Cheney The Los Angeles Times Paul Avery Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Armistead Maupin David Toschi Vallejo Police SFPD Melvin Belli Napa County Sheriff's Department Sherwood Mason Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Donna Lass Elizabeth Short Richard Gaikowski Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield David Lee Rayfield Cleophus Martin Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet William Crow Archie E. White Ross Sullivan Rick Marshall Michael O'Hare Lorraine Osuna DeGroat Gareth Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Dave Smith The Modesto Bee Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Leo Suennen Jr. Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins John J. Ferdon Riverside City College Library Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce John W. Nicoll Barbara Lowe William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Harvey Hines Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service Riverside Police Department California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
       "id": "recHmZ39rWbWR7XAy",
@@ -16219,8 +16331,22 @@
       "subtitle": "County",
       "summary": "",
       "excerpt": "",
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/attYsgsY5g7bBs2Pk_image.png",
+          "thumbUrl": "data/media/derived/thumb/attYsgsY5g7bBs2Pk_image.png",
+          "mediumUrl": "data/media/derived/medium/attYsgsY5g7bBs2Pk_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attYsgsY5g7bBs2Pk_image.png",
+        "thumbUrl": "data/media/derived/thumb/attYsgsY5g7bBs2Pk_image.png",
+        "mediumUrl": "data/media/derived/medium/attYsgsY5g7bBs2Pk_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Located Within",
@@ -16340,6 +16466,16 @@
           "id": "rec0dOwJ1AL9UguKQ",
           "name": "Carmen Elois Welch Mageau Vrana",
           "slug": "carmen-elois-welch-mageau-vrana"
+        },
+        {
+          "id": "recJfLeEtWSk1eZ6i",
+          "name": "Paul Holes",
+          "slug": "paul-holes"
+        },
+        {
+          "id": "recr2NkR1C9077Has",
+          "name": "Contra Costa County Sheriff's Office",
+          "slug": "contra-costa-county-sheriff-s-office"
         }
       ],
       "relatedTags": [],
@@ -16347,7 +16483,7 @@
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Contra Costa County, CA County Michael Renault Mageau Daniel B. Williams Carmen Elois Welch Mageau Vrana"
+      "searchText": "Contra Costa County, CA County Michael Renault Mageau Daniel B. Williams Carmen Elois Welch Mageau Vrana Paul Holes Contra Costa County Sheriff's Office"
     },
     {
       "id": "rec8J4Q4Fc91cHzWg",
@@ -16713,38 +16849,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "El Dorado County, CA County Donna Lass"
-    },
-    {
-      "id": "recUHZEtJHqQWJpC8",
-      "slug": "escalon-ca",
-      "kind": "location",
-      "title": "Escalon, CA",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Joaquin County, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recSH3t6JshE3eNXM",
-          "name": "Harvey Hines",
-          "slug": "harvey-hines"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Escalon, CA Harvey Hines"
     },
     {
       "id": "rec3dOCBW52OyXY0Y",
@@ -18267,17 +18371,17 @@
       "images": [
         {
           "originalUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-          "thumbUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-          "mediumUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attyVfsYhiXMMPDEE_image.png",
+          "mediumUrl": "data/media/derived/medium/attyVfsYhiXMMPDEE_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-        "thumbUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-        "mediumUrl": "data/media/attyVfsYhiXMMPDEE_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attyVfsYhiXMMPDEE_image.png",
+        "mediumUrl": "data/media/derived/medium/attyVfsYhiXMMPDEE_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
@@ -18501,17 +18605,17 @@
       "images": [
         {
           "originalUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-          "thumbUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-          "mediumUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attFiAvFGGwgR8JW2_image.png",
+          "mediumUrl": "data/media/derived/medium/attFiAvFGGwgR8JW2_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-        "thumbUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-        "mediumUrl": "data/media/attFiAvFGGwgR8JW2_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attFiAvFGGwgR8JW2_image.png",
+        "mediumUrl": "data/media/derived/medium/attFiAvFGGwgR8JW2_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [],
@@ -19546,17 +19650,17 @@
       "images": [
         {
           "originalUrl": "data/media/attD1R457mOpnjq2P_image.png",
-          "thumbUrl": "data/media/attD1R457mOpnjq2P_image.png",
-          "mediumUrl": "data/media/attD1R457mOpnjq2P_image.png",
-          "derivativeState": "original",
+          "thumbUrl": "data/media/derived/thumb/attD1R457mOpnjq2P_image.png",
+          "mediumUrl": "data/media/derived/medium/attD1R457mOpnjq2P_image.png",
+          "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
         "originalUrl": "data/media/attD1R457mOpnjq2P_image.png",
-        "thumbUrl": "data/media/attD1R457mOpnjq2P_image.png",
-        "mediumUrl": "data/media/attD1R457mOpnjq2P_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attD1R457mOpnjq2P_image.png",
+        "mediumUrl": "data/media/derived/medium/attD1R457mOpnjq2P_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [

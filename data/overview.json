@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-06T03:11:30.856593+00:00",
+  "generatedAt": "2026-03-08T18:53:29.122964+00:00",
   "stats": {
-    "events": 405,
-    "people": 312,
+    "events": 412,
+    "people": 315,
     "locations": 332,
     "tags": 42,
-    "images": 1528,
+    "images": 1551,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -45,7 +45,7 @@
     },
     {
       "value": "Case Event",
-      "count": 83
+      "count": 85
     },
     {
       "value": "Victim Event",
@@ -53,11 +53,11 @@
     },
     {
       "value": "Media Event",
-      "count": 30
+      "count": 32
     },
     {
       "value": "Newspaper Article",
-      "count": 25
+      "count": 27
     },
     {
       "value": "Cultural Event",
@@ -75,9 +75,9 @@
       "relatedEventCount": 51,
       "primaryImage": {
         "originalUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
-        "thumbUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
-        "mediumUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attD0P2TkTV1TT5jO_image.png",
+        "mediumUrl": "data/media/derived/medium/attD0P2TkTV1TT5jO_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -92,9 +92,26 @@
       "relatedEventCount": 23,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
-        "thumbUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
-        "mediumUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
+        "mediumUrl": "data/media/derived/medium/attDPRuAsHTkVf6Yq_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
+      "id": "rech3D7sonIMHkOft",
+      "slug": "arthur-leigh-allen",
+      "kind": "person",
+      "title": "Arthur Leigh Allen",
+      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
+      "excerpt": "The prime suspect.",
+      "relatedEventCount": 21,
+      "primaryImage": {
+        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
+        "thumbUrl": "data/media/derived/thumb/attSrcn6JCVodffbz_image.png",
+        "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -109,27 +126,10 @@
       "relatedEventCount": 21,
       "primaryImage": {
         "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "thumbUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "mediumUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "derivativeState": "derived",
         "label": "mendell002.jpeg"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "rech3D7sonIMHkOft",
-      "slug": "arthur-leigh-allen",
-      "kind": "person",
-      "title": "Arthur Leigh Allen",
-      "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
-      "excerpt": "The prime suspect.",
-      "relatedEventCount": 20,
-      "primaryImage": {
-        "originalUrl": "data/media/attSrcn6JCVodffbz_image.png",
-        "thumbUrl": "data/media/attSrcn6JCVodffbz_image.png",
-        "mediumUrl": "data/media/attSrcn6JCVodffbz_image.png",
-        "derivativeState": "original",
-        "label": "image.png"
       },
       "mapOpenUrl": ""
     },
@@ -143,9 +143,9 @@
       "relatedEventCount": 18,
       "primaryImage": {
         "originalUrl": "data/media/attOej5khhm5IO5IH_image.png",
-        "thumbUrl": "data/media/attOej5khhm5IO5IH_image.png",
-        "mediumUrl": "data/media/attOej5khhm5IO5IH_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attOej5khhm5IO5IH_image.png",
+        "mediumUrl": "data/media/derived/medium/attOej5khhm5IO5IH_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -160,9 +160,9 @@
       "relatedEventCount": 16,
       "primaryImage": {
         "originalUrl": "data/media/att7wDeera7I07iAe_image.png",
-        "thumbUrl": "data/media/att7wDeera7I07iAe_image.png",
-        "mediumUrl": "data/media/att7wDeera7I07iAe_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/att7wDeera7I07iAe_image.png",
+        "mediumUrl": "data/media/derived/medium/att7wDeera7I07iAe_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -176,12 +176,12 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 57,
+      "relatedEventCount": 60,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "thumbUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "mediumUrl": "data/media/attdDhYp8IaddoCn3_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
+        "mediumUrl": "data/media/derived/medium/attdDhYp8IaddoCn3_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -196,9 +196,9 @@
       "relatedEventCount": 37,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "thumbUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "mediumUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
+        "mediumUrl": "data/media/derived/medium/attgAhXS75r2btCyV_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638"
@@ -213,9 +213,9 @@
       "relatedEventCount": 12,
       "primaryImage": {
         "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "thumbUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "mediumUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+        "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -241,9 +241,9 @@
       "relatedEventCount": 10,
       "primaryImage": {
         "originalUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "thumbUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "mediumUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attkivbmybaAngm0N_image.png",
+        "mediumUrl": "data/media/derived/medium/attkivbmybaAngm0N_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -271,9 +271,9 @@
       "relatedEventCount": 39,
       "primaryImage": {
         "originalUrl": "data/media/atthrJGrInKipJE3p_image.png",
-        "thumbUrl": "data/media/atthrJGrInKipJE3p_image.png",
-        "mediumUrl": "data/media/atthrJGrInKipJE3p_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atthrJGrInKipJE3p_image.png",
+        "mediumUrl": "data/media/derived/medium/atthrJGrInKipJE3p_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -288,9 +288,9 @@
       "relatedEventCount": 34,
       "primaryImage": {
         "originalUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
-        "thumbUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
-        "mediumUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attR8KiwYtTpE8oLL_image.png",
+        "mediumUrl": "data/media/derived/medium/attR8KiwYtTpE8oLL_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -305,9 +305,9 @@
       "relatedEventCount": 29,
       "primaryImage": {
         "originalUrl": "data/media/att2UPeGusw0o0lff_image.png",
-        "thumbUrl": "data/media/att2UPeGusw0o0lff_image.png",
-        "mediumUrl": "data/media/att2UPeGusw0o0lff_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/att2UPeGusw0o0lff_image.png",
+        "mediumUrl": "data/media/derived/medium/att2UPeGusw0o0lff_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -322,9 +322,9 @@
       "relatedEventCount": 24,
       "primaryImage": {
         "originalUrl": "data/media/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
-        "thumbUrl": "data/media/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
-        "mediumUrl": "data/media/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
+        "mediumUrl": "data/media/derived/medium/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
+        "derivativeState": "derived",
         "label": "lhr-crime_scene_sketch_4-redacted.jpg"
       },
       "mapOpenUrl": ""
@@ -336,12 +336,12 @@
       "title": "Arthur Leigh Allen",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 20,
+      "relatedEventCount": 21,
       "primaryImage": {
         "originalUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
-        "thumbUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
-        "mediumUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attBe8HHBwoLJ1Cfm_image.png",
+        "mediumUrl": "data/media/derived/medium/attBe8HHBwoLJ1Cfm_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -356,9 +356,9 @@
       "relatedEventCount": 17,
       "primaryImage": {
         "originalUrl": "data/media/attKPwnQEKHj561Xv_image.png",
-        "thumbUrl": "data/media/attKPwnQEKHj561Xv_image.png",
-        "mediumUrl": "data/media/attKPwnQEKHj561Xv_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attKPwnQEKHj561Xv_image.png",
+        "mediumUrl": "data/media/derived/medium/attKPwnQEKHj561Xv_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": ""
@@ -375,9 +375,9 @@
       "relatedEventCount": 37,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "thumbUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "mediumUrl": "data/media/attgAhXS75r2btCyV_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
+        "mediumUrl": "data/media/derived/medium/attgAhXS75r2btCyV_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638"
@@ -425,9 +425,9 @@
       "relatedEventCount": 5,
       "primaryImage": {
         "originalUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "thumbUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "mediumUrl": "data/media/atthQqGeCJNIjoLPi_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/atthQqGeCJNIjoLPi_image.png",
+        "mediumUrl": "data/media/derived/medium/atthQqGeCJNIjoLPi_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": "https://maps.app.goo.gl/6yoirio3SJFzs787A"
@@ -453,9 +453,9 @@
       "relatedEventCount": 4,
       "primaryImage": {
         "originalUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "thumbUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "mediumUrl": "data/media/attAR3jB0UQUXhlr6_image.png",
-        "derivativeState": "original",
+        "thumbUrl": "data/media/derived/thumb/attAR3jB0UQUXhlr6_image.png",
+        "mediumUrl": "data/media/derived/medium/attAR3jB0UQUXhlr6_image.png",
+        "derivativeState": "derived",
         "label": "image.png"
       },
       "mapOpenUrl": "https://maps.app.goo.gl/pRdBSdQor9B9T5jw8"
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 06, 2026, 03:11 AM UTC",
+    "label": "Mar 08, 2026, 06:53 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,12 +484,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "405 dated events spanning 1925 to 2025."
+      "description": "412 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "312 linked people and organizations with related-event cross references."
+      "description": "315 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
