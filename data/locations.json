@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T13:17:51.858799+00:00",
+  "generatedAt": "2026-03-15T19:00:31.065387+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -11905,8 +11905,8 @@
       "relatedEvents": [
         {
           "id": "rec1pRvTsUrpzImQh",
-          "name": "The Los Angeles Times Letter",
-          "slug": "the-los-angeles-times-letter"
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
         }
       ],
       "relatedLocations": [],
@@ -12562,8 +12562,8 @@
       "relatedEvents": [
         {
           "id": "recONwZtq8jscehjB",
-          "name": "Vallejo PD Confession Call",
-          "slug": "vallejo-pd-confession-call"
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         }
       ],
       "relatedLocations": [],

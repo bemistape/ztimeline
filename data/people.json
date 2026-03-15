@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T13:17:51.858799+00:00",
+  "generatedAt": "2026-03-15T19:00:31.065387+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -94,8 +94,8 @@
         },
         {
           "id": "rec1pRvTsUrpzImQh",
-          "name": "The Los Angeles Times Letter",
-          "slug": "the-los-angeles-times-letter"
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
         },
         {
           "id": "recgJKENPX5dM7i8f",
@@ -109,8 +109,8 @@
         },
         {
           "id": "recONwZtq8jscehjB",
-          "name": "Vallejo PD Confession Call",
-          "slug": "vallejo-pd-confession-call"
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         },
         {
           "id": "recfw0x9CSoAiFK41",
@@ -6486,8 +6486,8 @@
         },
         {
           "id": "recONwZtq8jscehjB",
-          "name": "Vallejo PD Confession Call",
-          "slug": "vallejo-pd-confession-call"
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         },
         {
           "id": "recPBwwP4sg733WeY",
@@ -20378,8 +20378,8 @@
       "relatedEvents": [
         {
           "id": "recONwZtq8jscehjB",
-          "name": "Vallejo PD Confession Call",
-          "slug": "vallejo-pd-confession-call"
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         }
       ],
       "relatedLocations": [

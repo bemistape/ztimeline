@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T13:17:51.858799+00:00",
+  "generatedAt": "2026-03-15T19:00:31.065387+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -873,8 +873,8 @@
         },
         {
           "id": "rec1pRvTsUrpzImQh",
-          "name": "The Los Angeles Times Letter",
-          "slug": "the-los-angeles-times-letter"
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
         },
         {
           "id": "recqhrDZc0vFnQ3hA",
@@ -2923,7 +2923,7 @@
           "slug": "lake-herman-road-double-murder"
         },
         {
-          "id": "recONwZtq8jscehjB",
+          "id": "",
           "name": "Vallejo PD Confession Call",
           "slug": "vallejo-pd-confession-call"
         },
@@ -3026,6 +3026,11 @@
           "id": "recs7F8wtLCbofE9J",
           "name": "Shooting of Matthew Burrell",
           "slug": "shooting-of-matthew-burrell"
+        },
+        {
+          "id": "recONwZtq8jscehjB",
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         },
         {
           "id": "rec7WCKo6rJMnzZ0y",
@@ -3184,7 +3189,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 24,
+      "relatedEventCount": 25,
       "searchText": "Murders at Lake Herman Road"
     },
     {
@@ -3769,7 +3774,7 @@
           "slug": "blue-rock-springs-shooting"
         },
         {
-          "id": "recONwZtq8jscehjB",
+          "id": "",
           "name": "Vallejo PD Confession Call",
           "slug": "vallejo-pd-confession-call"
         },
@@ -3847,6 +3852,11 @@
           "id": "rect92Jr0FEeByRSu",
           "name": "Michael Mageau identifies Arthur Leigh Allen",
           "slug": "michael-mageau-identifies-arthur-leigh-allen"
+        },
+        {
+          "id": "recONwZtq8jscehjB",
+          "name": "Zodiac calls the Vallejo Police Department",
+          "slug": "zodiac-calls-the-vallejo-police-department"
         }
       ],
       "relatedPeople": [
@@ -3975,7 +3985,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 17,
+      "relatedEventCount": 18,
       "searchText": "Attack at Blue Rock Springs Park"
     },
     {

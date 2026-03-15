@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T13:17:51.858799+00:00",
+  "generatedAt": "2026-03-15T19:00:31.065387+00:00",
   "stats": {
     "events": 419,
     "people": 318,
@@ -325,7 +325,7 @@
       "title": "Murders at Lake Herman Road",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 24,
+      "relatedEventCount": 25,
       "primaryImage": {
         "originalUrl": "data/media/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
         "thumbUrl": "data/media/derived/thumb/attIBboqSFUbWx6xK_lhr-crime_scene_sketch_4-redacted.jpg",
@@ -359,7 +359,7 @@
       "title": "Attack at Blue Rock Springs Park",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 17,
+      "relatedEventCount": 18,
       "primaryImage": {
         "originalUrl": "data/media/attKPwnQEKHj561Xv_image.png",
         "thumbUrl": "data/media/derived/thumb/attKPwnQEKHj561Xv_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 15, 2026, 01:17 PM UTC",
+    "label": "Mar 15, 2026, 07:00 PM UTC",
     "syncMode": "delta"
   },
   "method": {
