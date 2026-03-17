@@ -18163,7 +18163,29 @@
         }
       ],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1970_02_17_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+          "thumbUrl": "data/media/derived/thumb/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+          "mediumUrl": "data/media/derived/medium/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1970_02_17_16.jpg"
+        },
+        {
+          "originalUrl": "data/media/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
+          "thumbUrl": "data/media/derived/thumb/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
+          "mediumUrl": "data/media/derived/medium/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1970_02_17_2.jpg"
+        }
+      ],
       "sources": [
         {
           "label": "Wikipedia",
@@ -18171,7 +18193,7 @@
         }
       ],
       "mapUrl": "https://maps.app.goo.gl/MtzMJw2tg7ZHs8q88",
-      "hasMedia": false,
+      "hasMedia": true,
       "searchText": "SFPD Park Station bombing Via Wikipedia:\n> On February 16, 1970, a pipe bomb filled with [shrapnel](https://en.wikipedia.org/wiki/Fragmentation_(weaponry)) detonated on the ledge of a window at the [San Francisco Police Department](https://en.wikipedia.org/wiki/San_Francisco_Police_Department)'s [Upper Haight](https://en.wikipedia.org/wiki/Upper_Haight) Park substation in San Francisco, United States.[[1]](https://en.wikipedia.org/wiki/San_Francisco_Police_Department_Park_Station_bombing#cite_note-jzsfc-1) Brian V. McDonnell, a police [sergeant](https://en.wikipedia.org/wiki/Sergeant), was fatally wounded in its blast.[[2]](https://en.wikipedia.org/wiki/San_Francisco_Police_Department_Park_Station_bombing#cite_note-UPI_09-2) Robert Fogarty, another policeman, was severely wounded in his face and legs and was partially blinded.[[3]](https://en.wikipedia.org/wiki/San_Francisco_Police_Department_Park_Station_bombing#cite_note-3) In addition, eight other policemen were wounded.[[1]](https://en.wikipedia.org/wiki/San_Francisco_Police_Department_Park_Station_bombing#cite_note-jzsfc-1) The perpetrators were never caught. The prime suspect is [Bernadine Dohrn](https://en.wikipedia.org/wiki/Bernadine_Dohrn) of the [Weather Underground](https://en.wikipedia.org/wiki/Weather_Underground).[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)_] \n> In 2009 District Attorney [Kamala Harris](https://en.wikipedia.org/wiki/Kamala_Harris) and San Francisco Police Chief Heather Fong enforced a gag order on the open investigation. The gag order request came from President [Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama)’s Attorney General [Eric Holder](https://en.wikipedia.org/wiki/Eric_Holder) and the Justice Department.\n> Dohrn was pointed out by fellow Weather Underground leader [William Ayers](https://en.wikipedia.org/wiki/Bill_Ayers) as the bomber during a WU Central Committee Leader meeting in Buffalo, New York in 1970.[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed)_]\n> FBI informant Larry Grathwohl stated this account with Ayers, when he recalled that Ayers scolded leaders of the Cuban DGI and Soviet KGB backed organization for not doing more and making their foot soldiers carry out the bombings rather than the leaders.\n> The bomb at Park Station was constructed the same way as the Greenwich Village townhouse explosion, in New York City, three weeks later in March 1970. That bomb was to be used at Fort Dix, New Jersey to kill Army personnel and their wives at a Dance at the Non Commissioned Officers Club. WU members died in the detonation. Other Crimes Golden Gate Park Police Station SFPD"
     },
     {
@@ -18605,8 +18627,8 @@
       "sortTime": 1441,
       "sortValue": "1970-04-20-9999-00015",
       "type": "Z Communication",
-      "description": "Letter included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. zodiackillerfacts.com",
-      "excerpt": "Letter included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. zodiackillerfacts.com",
+      "description": "Letter postmarked on April 20th, 1970 to the San Francisco Chronicle that included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. \n> This is the Zodiac speaking\n> By the way have you cracked the last cipher I sent you?\n> My name is—\n> [Z13]\n> I am mildly cerous as to how much money you have on my head now. I hope you do not think that I was the one who wiped out that blue meannie with a bomb at the cop station. Even though I talked about killing school children with one. It just wouldn't doo to move in on someone elses teritory. But there is more glory in killing a cop than a cid because a cop can shoot back. I have killed ten people to date. It would have been a lot more except that my bus bomb was a dud. I was swamped out by the rain we had a while back.\n> The new bomb is set up like this\n> PS I hope you have fun trying to figgure out who I killed\n> ⌖=10\n> SFPD=0",
+      "excerpt": "Letter postmarked on April 20th, 1970 to the San Francisco Chronicle that included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. > This is the Zodiac speaking > By the way have you cracked the last cipher…",
       "locations": [
         {
           "id": "recXWIp8s3P3TAYiu",
@@ -18649,6 +18671,13 @@
           "label": "image.png"
         },
         {
+          "originalUrl": "data/media/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+          "thumbUrl": "data/media/derived/thumb/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+          "mediumUrl": "data/media/derived/medium/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+          "derivativeState": "derived",
+          "label": "Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png"
+        },
+        {
           "originalUrl": "data/media/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.PNG",
           "thumbUrl": "data/media/derived/thumb/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.png",
           "mediumUrl": "data/media/derived/medium/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.png",
@@ -18665,13 +18694,17 @@
       ],
       "sources": [
         {
-          "label": "Source 1",
+          "label": "ZodiacKiller.com",
+          "url": "https://www.zodiackiller.com/MyNameIsLetter.html"
+        },
+        {
+          "label": "ZodiacKillerFacts.com",
           "url": "https://zodiackillerfacts.com/gallery/thumbnails.php?album=11"
         }
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The \"My name is” / Z13 Letter Letter included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. zodiackillerfacts.com Z Communication San Francisco Zodiac Zodiac Letters Blue Meanies"
+      "searchText": "The \"My name is” / Z13 Letter Letter postmarked on April 20th, 1970 to the San Francisco Chronicle that included a 13-symbol cipher (“My name is …”) and a bus-bomb diagram. \n> This is the Zodiac speaking\n> By the way have you cracked the last cipher I sent you?\n> My name is—\n> [Z13]\n> I am mildly cerous as to how much money you have on my head now. I hope you do not think that I was the one who wiped out that blue meannie with a bomb at the cop station. Even though I talked about killing school children with one. It just wouldn't doo to move in on someone elses teritory. But there is more glory in killing a cop than a cid because a cop can shoot back. I have killed ten people to date. It would have been a lot more except that my bus bomb was a dud. I was swamped out by the rain we had a while back.\n> The new bomb is set up like this\n> PS I hope you have fun trying to figgure out who I killed\n> ⌖=10\n> SFPD=0 Z Communication San Francisco Zodiac Zodiac Letters Blue Meanies"
     },
     {
       "id": "recZObAEkKbE1SP3e",

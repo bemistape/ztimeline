@@ -954,6 +954,12 @@
       "mediumUrl": "data/media/derived/medium/atti2Xl6QieCocUPS_image.png",
       "derivativeState": "derived"
     },
+    "data/media/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png": {
+      "originalUrl": "data/media/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+      "thumbUrl": "data/media/derived/thumb/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+      "mediumUrl": "data/media/derived/medium/attBCY0TAwM0wfyzM_Batch_IV_24__My_name_is...__envelope_with_stamp_section_cut_out..png",
+      "derivativeState": "derived"
+    },
     "data/media/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.PNG": {
       "originalUrl": "data/media/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.PNG",
       "thumbUrl": "data/media/derived/thumb/attvmVK0P2CpGmkbz_My_Name_Is.._letter_Z13_.png",
@@ -3670,6 +3676,24 @@
       "originalUrl": "data/media/attrOKEOqCm3AqNK1_image.png",
       "thumbUrl": "data/media/derived/thumb/attrOKEOqCm3AqNK1_image.png",
       "mediumUrl": "data/media/derived/medium/attrOKEOqCm3AqNK1_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg": {
+      "originalUrl": "data/media/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+      "mediumUrl": "data/media/derived/medium/attNZUdDB79TvLSe8_San_Francisco_Chronicle_1970_02_17_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg": {
+      "originalUrl": "data/media/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+      "thumbUrl": "data/media/derived/thumb/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+      "mediumUrl": "data/media/derived/medium/att2iTl8Fog02Evuv_San_Francisco_Chronicle_1970_02_17_16.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg": {
+      "originalUrl": "data/media/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
+      "thumbUrl": "data/media/derived/thumb/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
+      "mediumUrl": "data/media/derived/medium/attaO4YegcSUJKArA_San_Francisco_Chronicle_1970_02_17_2.jpg",
       "derivativeState": "derived"
     },
     "data/media/att5kexltJhclAjfq_The_Napa_Valley_Register_1974_11_23_2.jpg": {
