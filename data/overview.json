@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
+  "generatedAt": "2026-03-25T07:30:42.924411+00:00",
   "stats": {
-    "events": 419,
+    "events": 420,
     "people": 318,
     "locations": 333,
     "tags": 42,
-    "images": 1592,
+    "images": 1594,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 97
+      "count": 98
     },
     {
       "value": "Case Event",
@@ -157,7 +157,7 @@
       "title": "Richard Gaikowski",
       "subtitle": "Suspect,Deceased",
       "excerpt": "Counterculture journalist based in San Francisco.",
-      "relatedEventCount": 16,
+      "relatedEventCount": 17,
       "primaryImage": {
         "originalUrl": "data/media/att7wDeera7I07iAe_image.png",
         "thumbUrl": "data/media/derived/thumb/att7wDeera7I07iAe_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 25, 2026, 03:20 AM UTC",
+    "label": "Mar 25, 2026, 07:30 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "419 dated events spanning 1925 to 2025."
+      "description": "420 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

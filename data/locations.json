@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
+  "generatedAt": "2026-03-25T07:30:42.924411+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -8947,6 +8947,43 @@
       "searchText": "Turlock, CA City"
     },
     {
+      "id": "recTqQ8e9l2IYkB7k",
+      "slug": "watertown-sd",
+      "kind": "location",
+      "title": "Watertown, SD",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Codington County, SD"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "reclLxD9LwMIurJZr",
+          "name": "Richard Gaikowski is born",
+          "slug": "richard-gaikowski-is-born"
+        },
+        {
+          "id": "rec0WRKnE1CLYuzb2",
+          "name": "Richard Gaikowski registers for the draft",
+          "slug": "richard-gaikowski-registers-for-the-draft"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Watertown, SD City"
+    },
+    {
       "id": "rec5R7ftIJZtyZpPV",
       "slug": "wellington-ks",
       "kind": "location",
@@ -13158,38 +13195,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Waterloo, NY City"
-    },
-    {
-      "id": "recTqQ8e9l2IYkB7k",
-      "slug": "watertown-sd",
-      "kind": "location",
-      "title": "Watertown, SD",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Codington County, SD"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "reclLxD9LwMIurJZr",
-          "name": "Richard Gaikowski is born",
-          "slug": "richard-gaikowski-is-born"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Watertown, SD City"
     },
     {
       "id": "recHYrGIlGd3YRFtm",

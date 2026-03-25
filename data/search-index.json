@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
+  "generatedAt": "2026-03-25T07:30:42.924411+00:00",
   "items": [
     {
       "kind": "event",
@@ -184,6 +184,14 @@
       "title": "Paul Stine graduates 8th grade",
       "subtitle": "Victim Event • Fri, Jun 5, 1953",
       "searchText": "Paul Stine graduates 8th grade Victim Event **Jamestown Will Graduate Ten**\n_McClatchy Newspapers Service_\n\n**JAMESTOWN —** The graduation exercises at Jamestown Elementary School will be conducted at 8:15 PM Friday when a class of 10 eighth graders receives diplomas.\n\nThe graduates will be addressed by Rev. Edgar Nelson, pastor of Sonora Methodist Church.\n\nThe valedictory address will be given by Mary Jasper, daughter of Mr. and Mrs. Edward M. Jasper of Jamestown.\n\n**The program follows:**\nProcessional march; invocation, Rev. Nelson; Pledge of Allegiance, led by Ernestina Meza and Peter Oehr; _The Star Spangled Banner_, sung by the audience; salutatory address, Louise Nau; baritone solo, Mary Jasper; song, _You’re A Grand Old Flag_, graduating class; address to the graduates, Rev. Nelson; presentation of American Legion school award by Carlos D. Arellano; presentation of class, Orville Nichols, principal; presentation of diplomas, Jay Gibbs, member of the board of trustees; benediction, Rev. Nelson; recessional.\n\n**The graduates include:** Glennon Bass, Timothy Bode Jr., Melvin Dale Cooper, Richard Raymond Gurley Jr., Louella Arline Hart, Mary Elizabeth Jasper, Peter John Lehr, Ernestina Meza, Louise Marie Nau, and **Paul L. Stine.** Paul Lee Stine Jamestown, CA Jamestown CA Paul Stine's Taxi Murder"
+    },
+    {
+      "kind": "event",
+      "id": "rec0WRKnE1CLYuzb2",
+      "slug": "richard-gaikowski-registers-for-the-draft",
+      "title": "Richard Gaikowski registers for the draft",
+      "subtitle": "Suspect Event • Wed, Mar 17, 1954",
+      "searchText": "Richard Gaikowski registers for the draft Suspect Event  Richard Gaikowski Watertown, SD Watertown SD Richard Gaikowski"
     },
     {
       "kind": "event",
@@ -2167,7 +2175,7 @@
       "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill",
       "title": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
       "subtitle": "Case Event • Mon, Nov 17, 1969",
-      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event  Paul Avery Sherwood Morrill Joost Sherwood Mason Morrill San Francisco "
+      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event  Paul Avery Sherwood Morrill Joost San Francisco "
     },
     {
       "kind": "event",
@@ -3399,7 +3407,7 @@
       "slug": "richard-gaikowski",
       "title": "Richard Gaikowski",
       "subtitle": "Suspect,Deceased",
-      "searchText": "Richard Gaikowski Suspect,Deceased Counterculture journalist based in San Francisco. Richard Gaikowski Gaikowski writes letter from US Army based in Virginia Gaikowski is regional director of Young Democrats Gaikowski becomes public relations director for South Dakota Farmers Union Gaikowski leaves South Dakota for graduate school in California Gaikowski is managing editor of Martinez News-Gazette Gaikowski gets himself arrested, writes series about jail Gaikowski leaves Martinez News-Gazette Gaikowski gets in car accident Gaikowski referenced in article Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets Gaikowski planned date of departure for Europe Gaikowski selling furniture before Albany move Gaikowski cited for speeding in Albany Richard Gaikowski is born Good Times (San Francisco alt-weekly) Albany Knickerbocker-News San Francisco Albany, NY California SF Bay Area United States of America Albany County, NY New York State Fort Eustis Newport News, VA Virginia Aberdeen, SD Huron, SD Martinez, CA Watertown, SD Richard Gaikowski"
+      "searchText": "Richard Gaikowski Suspect,Deceased Counterculture journalist based in San Francisco. Richard Gaikowski Gaikowski writes letter from US Army based in Virginia Gaikowski is regional director of Young Democrats Gaikowski becomes public relations director for South Dakota Farmers Union Gaikowski leaves South Dakota for graduate school in California Gaikowski is managing editor of Martinez News-Gazette Gaikowski gets himself arrested, writes series about jail Gaikowski leaves Martinez News-Gazette Gaikowski gets in car accident Gaikowski referenced in article Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets Gaikowski planned date of departure for Europe Gaikowski selling furniture before Albany move Gaikowski cited for speeding in Albany Richard Gaikowski is born Richard Gaikowski registers for the draft Good Times (San Francisco alt-weekly) Albany Knickerbocker-News San Francisco Albany, NY California SF Bay Area United States of America Albany County, NY New York State Fort Eustis Newport News, VA Virginia Aberdeen, SD Huron, SD Martinez, CA Watertown, SD Richard Gaikowski"
     },
     {
       "kind": "person",
@@ -6363,6 +6371,14 @@
     },
     {
       "kind": "location",
+      "id": "recTqQ8e9l2IYkB7k",
+      "slug": "watertown-sd",
+      "title": "Watertown, SD",
+      "subtitle": "City",
+      "searchText": "Watertown, SD City Richard Gaikowski is born Richard Gaikowski registers for the draft"
+    },
+    {
+      "kind": "location",
       "id": "rec5R7ftIJZtyZpPV",
       "slug": "wellington-ks",
       "title": "Wellington, KS",
@@ -7160,14 +7176,6 @@
       "title": "Waterloo, NY",
       "subtitle": "City",
       "searchText": "Waterloo, NY City Marriage of Cheri Jo Bates' parents"
-    },
-    {
-      "kind": "location",
-      "id": "recTqQ8e9l2IYkB7k",
-      "slug": "watertown-sd",
-      "title": "Watertown, SD",
-      "subtitle": "City",
-      "searchText": "Watertown, SD City Richard Gaikowski is born"
     },
     {
       "kind": "location",
@@ -8623,7 +8631,7 @@
       "slug": "richard-gaikowski",
       "title": "Richard Gaikowski",
       "subtitle": "",
-      "searchText": "Richard Gaikowski Gaikowski writes letter from US Army based in Virginia Gaikowski is regional director of Young Democrats Gaikowski becomes public relations director for South Dakota Farmers Union Gaikowski leaves South Dakota for graduate school in California Gaikowski is managing editor of Martinez News-Gazette Gaikowski gets in car accident Gaikowski gets himself arrested writes series about jail Gaikowski leaves Martinez News-Gazette Gaikowski referenced in article Gaikowski files for Daybreak business name Gaikowski planned date of departure for Europe Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's Festival of Bards short film about beat poets Gaikowski gets himself arrested, writes series about jail Gaikowski's \"Festival of Bards\" short film about beat poets Richard Gaikowski Martinez News-Gazette Richard Joseph Gaikowski Fort Eustis"
+      "searchText": "Richard Gaikowski Gaikowski writes letter from US Army based in Virginia Gaikowski is regional director of Young Democrats Gaikowski becomes public relations director for South Dakota Farmers Union Gaikowski leaves South Dakota for graduate school in California Gaikowski is managing editor of Martinez News-Gazette Gaikowski gets in car accident Gaikowski gets himself arrested writes series about jail Gaikowski leaves Martinez News-Gazette Gaikowski referenced in article Gaikowski files for Daybreak business name Gaikowski planned date of departure for Europe Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's Festival of Bards short film about beat poets Richard Gaikowski registers for the draft Gaikowski gets himself arrested, writes series about jail Gaikowski's \"Festival of Bards\" short film about beat poets Richard Gaikowski Martinez News-Gazette Fort Eustis"
     },
     {
       "kind": "tag",

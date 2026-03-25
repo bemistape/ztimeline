@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
+  "generatedAt": "2026-03-25T07:30:42.924411+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -4160,7 +4160,7 @@
       "facts": [
         {
           "label": "Date",
-          "value": "1956-05-01"
+          "value": "1954-03-17"
         }
       ],
       "relatedEvents": [
@@ -4235,6 +4235,11 @@
           "slug": "gaikowski-s-festival-of-bards-short-film-about-beat-poets"
         },
         {
+          "id": "rec0WRKnE1CLYuzb2",
+          "name": "Richard Gaikowski registers for the draft",
+          "slug": "richard-gaikowski-registers-for-the-draft"
+        },
+        {
           "id": "recpveXFUNpcxeKn1",
           "name": "Gaikowski gets himself arrested, writes series about jail",
           "slug": "gaikowski-gets-himself-arrested-writes-series-about-jail"
@@ -4255,11 +4260,6 @@
           "id": "recJWhnnvzrygRLCm",
           "name": "Martinez News-Gazette",
           "slug": "martinez-news-gazette"
-        },
-        {
-          "id": "",
-          "name": "Richard Joseph Gaikowski",
-          "slug": "richard-joseph-gaikowski"
         }
       ],
       "relatedLocations": [
@@ -4271,7 +4271,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 16,
+      "relatedEventCount": 17,
       "searchText": "Richard Gaikowski"
     },
     {

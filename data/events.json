@@ -1300,6 +1300,77 @@
       "searchText": "Paul Stine graduates 8th grade **Jamestown Will Graduate Ten**\n_McClatchy Newspapers Service_\n\n**JAMESTOWN —** The graduation exercises at Jamestown Elementary School will be conducted at 8:15 PM Friday when a class of 10 eighth graders receives diplomas.\n\nThe graduates will be addressed by Rev. Edgar Nelson, pastor of Sonora Methodist Church.\n\nThe valedictory address will be given by Mary Jasper, daughter of Mr. and Mrs. Edward M. Jasper of Jamestown.\n\n**The program follows:**\nProcessional march; invocation, Rev. Nelson; Pledge of Allegiance, led by Ernestina Meza and Peter Oehr; _The Star Spangled Banner_, sung by the audience; salutatory address, Louise Nau; baritone solo, Mary Jasper; song, _You’re A Grand Old Flag_, graduating class; address to the graduates, Rev. Nelson; presentation of American Legion school award by Carlos D. Arellano; presentation of class, Orville Nichols, principal; presentation of diplomas, Jay Gibbs, member of the board of trustees; benediction, Rev. Nelson; recessional.\n\n**The graduates include:** Glennon Bass, Timothy Bode Jr., Melvin Dale Cooper, Richard Raymond Gurley Jr., Louella Arline Hart, Mary Elizabeth Jasper, Peter John Lehr, Ernestina Meza, Louise Marie Nau, and **Paul L. Stine.** Victim Event Jamestown, CA Jamestown CA Paul Lee Stine Paul Stine's Taxi Murder"
     },
     {
+      "id": "rec0WRKnE1CLYuzb2",
+      "slug": "richard-gaikowski-registers-for-the-draft",
+      "kind": "event",
+      "title": "Richard Gaikowski registers for the draft",
+      "date": "1954-03-17",
+      "dateLabel": "Wed, Mar 17, 1954",
+      "year": 1954,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1954-03-17-9999-00419",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recTqQ8e9l2IYkB7k",
+          "name": "Watertown, SD",
+          "slug": "watertown-sd"
+        },
+        {
+          "id": "",
+          "name": "Watertown",
+          "slug": "watertown"
+        },
+        {
+          "id": "",
+          "name": "SD",
+          "slug": "sd"
+        }
+      ],
+      "people": [
+        {
+          "id": "recWCYPeTb61e4m3q",
+          "name": "Richard Gaikowski",
+          "slug": "richard-gaikowski"
+        }
+      ],
+      "tags": [
+        {
+          "id": "recmahrrdmpZNEgOw",
+          "name": "Richard Gaikowski",
+          "slug": "richard-gaikowski"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attBH9O7KYGUMF1w7_image.png",
+          "thumbUrl": "data/media/derived/thumb/attBH9O7KYGUMF1w7_image.png",
+          "mediumUrl": "data/media/derived/medium/attBH9O7KYGUMF1w7_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attTeHi15hqABU6jO_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTeHi15hqABU6jO_image.png",
+          "mediumUrl": "data/media/derived/medium/attTeHi15hqABU6jO_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "ZodiacKiller.com",
+          "url": "https://www.tapatalk.com/groups/zodiackillerfr/gaikowski-s-draft-registration-t11856.html#p296589"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Richard Gaikowski registers for the draft Suspect Event Watertown, SD Watertown SD Richard Gaikowski Richard Gaikowski"
+    },
+    {
       "id": "recXknCyKvIzH91gd",
       "slug": "paul-stine-s-father-teddy-is-mugged-for-2",
       "kind": "event",
@@ -17631,11 +17702,6 @@
           "id": "recBFunBfr7WSmINW",
           "name": "Joost",
           "slug": "joost"
-        },
-        {
-          "id": "",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
         }
       ],
       "tags": [],
@@ -17655,10 +17721,15 @@
           "label": "image.png"
         }
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "ZodiacKiller.com",
+          "url": "https://www.tapatalk.com/groups/zodiackillerfr/viewtopic.php?p=292042#p292042"
+        }
+      ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event San Francisco Paul Avery Sherwood Morrill Joost Sherwood Mason Morrill"
+      "searchText": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Case Event San Francisco Paul Avery Sherwood Morrill Joost"
     },
     {
       "id": "recWV9gWzMWp2x5bN",
@@ -26897,7 +26968,7 @@
       },
       {
         "value": "1954",
-        "count": 1
+        "count": 2
       },
       {
         "value": "1953",
@@ -27015,7 +27086,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 97
+        "count": 98
       },
       {
         "value": "Victim Event",
@@ -27897,7 +27968,7 @@
       },
       {
         "value": "SD",
-        "count": 5
+        "count": 6
       },
       {
         "value": "SF Bay Area",
@@ -28061,11 +28132,11 @@
       },
       {
         "value": "Watertown",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Watertown, SD",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Wellington",
@@ -28743,7 +28814,7 @@
       },
       {
         "value": "Richard Gaikowski",
-        "count": 16
+        "count": 17
       },
       {
         "value": "Richard Hoffman",
@@ -28839,7 +28910,7 @@
       },
       {
         "value": "Sherwood Mason Morrill",
-        "count": 2
+        "count": 1
       },
       {
         "value": "Sherwood Morrill",
@@ -29081,7 +29152,7 @@
       },
       {
         "value": "Richard Gaikowski",
-        "count": 13
+        "count": 14
       },
       {
         "value": "The 340 Cipher",

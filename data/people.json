@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
+  "generatedAt": "2026-03-25T07:30:42.924411+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -2075,6 +2075,11 @@
           "id": "reclLxD9LwMIurJZr",
           "name": "Richard Gaikowski is born",
           "slug": "richard-gaikowski-is-born"
+        },
+        {
+          "id": "rec0WRKnE1CLYuzb2",
+          "name": "Richard Gaikowski registers for the draft",
+          "slug": "richard-gaikowski-registers-for-the-draft"
         }
       ],
       "relatedLocations": [
@@ -2178,7 +2183,7 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Richard%20Gaikowski&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 16,
+      "relatedEventCount": 17,
       "searchText": "Richard Gaikowski Richard Gaikowski Counterculture journalist based in San Francisco. San Francisco Albany, NY California SF Bay Area United States of America Albany County, NY New York State Fort Eustis Newport News, VA Virginia Aberdeen, SD Huron, SD Martinez, CA Watertown, SD"
     },
     {
