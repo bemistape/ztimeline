@@ -20434,9 +20434,9 @@
       "excerpt": "",
       "locations": [
         {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
         }
       ],
       "people": [
@@ -20470,16 +20470,16 @@
       ],
       "images": [
         {
-          "originalUrl": "data/media/att7HrzPNdKR0QdLV_image.png",
-          "thumbUrl": "data/media/derived/thumb/att7HrzPNdKR0QdLV_image.png",
-          "mediumUrl": "data/media/derived/medium/att7HrzPNdKR0QdLV_image.png",
+          "originalUrl": "data/media/att0WIdLy0G9zIeZB_image.png",
+          "thumbUrl": "data/media/derived/thumb/att0WIdLy0G9zIeZB_image.png",
+          "mediumUrl": "data/media/derived/medium/att0WIdLy0G9zIeZB_image.png",
           "derivativeState": "derived",
           "label": "image.png"
         },
         {
-          "originalUrl": "data/media/att0WIdLy0G9zIeZB_image.png",
-          "thumbUrl": "data/media/derived/thumb/att0WIdLy0G9zIeZB_image.png",
-          "mediumUrl": "data/media/derived/medium/att0WIdLy0G9zIeZB_image.png",
+          "originalUrl": "data/media/att7HrzPNdKR0QdLV_image.png",
+          "thumbUrl": "data/media/derived/thumb/att7HrzPNdKR0QdLV_image.png",
+          "mediumUrl": "data/media/derived/medium/att7HrzPNdKR0QdLV_image.png",
           "derivativeState": "derived",
           "label": "image.png"
         },
@@ -20499,9 +20499,9 @@
         }
       ],
       "sources": [],
-      "mapUrl": "",
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
       "hasMedia": true,
-      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Zodiac San Francisco Chronicle Paul Avery Donna Lass Zodiac Letters"
+      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Chronicle offices Zodiac San Francisco Chronicle Paul Avery Donna Lass Zodiac Letters"
     },
     {
       "id": "rec2bN9YdG1bQJAHc",
@@ -27813,11 +27813,11 @@
       },
       {
         "value": "San Francisco",
-        "count": 62
+        "count": 61
       },
       {
         "value": "San Francisco Chronicle offices",
-        "count": 11
+        "count": 12
       },
       {
         "value": "San Jose",

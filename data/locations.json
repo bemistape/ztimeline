@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T19:31:59.981311+00:00",
+  "generatedAt": "2026-03-25T03:20:24.228307+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -41,11 +41,6 @@
           "id": "recizrRQXnSUiCjTN",
           "name": "The Halloween Card",
           "slug": "the-halloween-card"
-        },
-        {
-          "id": "recqhrDZc0vFnQ3hA",
-          "name": "The Sierra Club Postcard",
-          "slug": "the-sierra-club-postcard"
         },
         {
           "id": "rec7E9uhPbExvOStV",
@@ -605,7 +600,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 62,
+      "relatedEventCount": 61,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Donna Lass Richard Gaikowski Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"
@@ -1574,6 +1569,11 @@
           "id": "receCCZcvPywnql2Y",
           "name": "Happy New Year card of 2001",
           "slug": "happy-new-year-card-of-2001"
+        },
+        {
+          "id": "recqhrDZc0vFnQ3hA",
+          "name": "The Sierra Club Postcard",
+          "slug": "the-sierra-club-postcard"
         }
       ],
       "relatedLocations": [],
@@ -1591,7 +1591,7 @@
           "url": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
         }
       ],
-      "relatedEventCount": 11,
+      "relatedEventCount": 12,
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
       "mapEmbedUrl": "https://www.google.com/maps?q=37.7821582,-122.4065833&output=embed",
       "searchText": "San Francisco Chronicle offices Business"
