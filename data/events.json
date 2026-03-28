@@ -563,6 +563,41 @@
       "searchText": "Marriage of Cheri Jo Bates' parents Victim Event Waterloo, NY Waterloo NY Cheri Jo Bates Joseph C. Bates Irene Karolevitz"
     },
     {
+      "id": "recuesU95xefyrWki",
+      "slug": "william-mcduff-andrew-is-born",
+      "kind": "event",
+      "title": "William McDuff Andrew is born",
+      "date": "1945-02-14",
+      "dateLabel": "Wed, Feb 14, 1945",
+      "year": 1945,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1945-02-14-9999-00420",
+      "type": "Birthday",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "William McDuff Andrew is born Birthday San Francisco William McDuff Andrew"
+    },
+    {
       "id": "recmy5F1K1nbOMtwH",
       "slug": "marvin-merrill-margolis-registers-for-draft-post-war",
       "kind": "event",
@@ -3280,6 +3315,51 @@
       "searchText": "Paul Doerr listed on deed records in Solano County Suspect Event Solano County, CA Solano County CA Paul Alfred Doerr, Jr. Paul Alfred Doerr Jr. Paul Doerr"
     },
     {
+      "id": "rec5ZRAwVq6j3H700",
+      "slug": "william-mcduff-andrew-participates-in-masonic-temple-event-for-mother-s-day",
+      "kind": "event",
+      "title": "William McDuff Andrew participates in Masonic Temple event for Mother's Day",
+      "date": "1964-05-10",
+      "dateLabel": "Sun, May 10, 1964",
+      "year": 1964,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1964-05-10-9999-00424",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "",
+          "name": "Vallejo",
+          "slug": "vallejo"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
+      "hasMedia": false,
+      "searchText": "William McDuff Andrew participates in Masonic Temple event for Mother's Day Suspect Event Vallejo, CA Vallejo CA William McDuff Andrew"
+    },
+    {
       "id": "receULtlwlZA5dhhK",
       "slug": "chester-klingel-jr-in-bad-car-accident",
       "kind": "event",
@@ -5695,6 +5775,40 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Teen threatens Paul Doerr for liquor Suspect Event Fairfield, CA Fairfield CA Paul Alfred Doerr, Jr. Paul Alfred Doerr Jr. Paul Doerr"
+    },
+    {
+      "id": "rec37sgS3kxwwz5nq",
+      "slug": "william-mcduff-andrew-graduates-from-chico-state",
+      "kind": "event",
+      "title": "William McDuff Andrew graduates from Chico State",
+      "date": "1968-01-17",
+      "dateLabel": "Wed, Jan 17, 1968",
+      "year": 1968,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1968-01-17-9999-00425",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        },
+        {
+          "id": "recgih75kr3jjCDYC",
+          "name": "Chico State University",
+          "slug": "chico-state-university"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "William McDuff Andrew graduates from Chico State Suspect Event William McDuff Andrew Chico State University"
     },
     {
       "id": "recqgefA2MI9n05LD",
@@ -22396,6 +22510,43 @@
       "searchText": "The Badlands Letter is mailed Postcard criticizing the film Badlands, signed “a citizen.” (Mailing is a fact; authorship disputed by some researchers.)\n\nSirs—I would like to express~~ion~~ my ~~consternt~~ consternation concerning your poor taste & lack of sympathy for the public, as evidenced by your running of the ads for the movie \"Badlands,\" featuring the blurb—\"In 1959 most people were killing time. Kit & Holly were killing people.\" In light of recent events, this kind of murder-glorification can only be deplorable at best (not that glorification of violence was ever justifiable) why don't you show some concern for public sensibilities & cut the ad?\n\nA citizen Disputed Z Communication Oakland, CA San Francisco San Francisco Chronicle offices Oakland CA Zodiac Zodiac Letters"
     },
     {
+      "id": "rec9Dc8BVHgFEn3Sf",
+      "slug": "william-mcduff-andrew-s-engagement-announced",
+      "kind": "event",
+      "title": "William McDuff Andrew's engagement announced",
+      "date": "1974-06-16",
+      "dateLabel": "Sun, Jun 16, 1974",
+      "year": 1974,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1974-06-16-9999-00423",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attAUWmbyAGrsRSam_The_Times_Herald_1974_06_16_40.jpg",
+          "thumbUrl": "data/media/derived/thumb/attAUWmbyAGrsRSam_The_Times_Herald_1974_06_16_40.jpg",
+          "mediumUrl": "data/media/derived/medium/attAUWmbyAGrsRSam_The_Times_Herald_1974_06_16_40.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1974_06_16_40.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "William McDuff Andrew's engagement announced Suspect Event William McDuff Andrew"
+    },
+    {
       "id": "recj0L0bOP7SfRcaH",
       "slug": "marvin-merrill-s-daughter-has-bat-mitzvah",
       "kind": "event",
@@ -22922,6 +23073,43 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Sonoma Sheriffs search ALA's trailer Suspect Event Arthur Leigh Allen's trailer Arthur Leigh Allen Arthur Leigh Allen"
+    },
+    {
+      "id": "recIjeTyy7CuZGl1N",
+      "slug": "william-mcduff-andrew-marries",
+      "kind": "event",
+      "title": "William McDuff Andrew marries",
+      "date": "1974-10-12",
+      "dateLabel": "Sat, Oct 12, 1974",
+      "year": 1974,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1974-10-12-9999-00422",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att94OODpKxJmClN0_The_Times_Herald_1974_10_24_9.jpg",
+          "thumbUrl": "data/media/derived/thumb/att94OODpKxJmClN0_The_Times_Herald_1974_10_24_9.jpg",
+          "mediumUrl": "data/media/derived/medium/att94OODpKxJmClN0_The_Times_Herald_1974_10_24_9.jpg",
+          "derivativeState": "derived",
+          "label": "The_Times_Herald_1974_10_24_9.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "William McDuff Andrew marries Suspect Event William McDuff Andrew"
     },
     {
       "id": "recwANG8z0hx261Io",
@@ -26339,6 +26527,51 @@
       "searchText": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Suspect Event United States of America Michael O'Hare Gareth Penn Washington Monthly"
     },
     {
+      "id": "recswHR7jYitgbcBT",
+      "slug": "william-mcduff-andrew-dies",
+      "kind": "event",
+      "title": "William McDuff Andrew dies",
+      "date": "2014-11-16",
+      "dateLabel": "Sun, Nov 16, 2014",
+      "year": 2014,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "2014-11-16-9999-00421",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recy924oJAg9LYmWh",
+          "name": "Waldport, OR",
+          "slug": "waldport-or"
+        },
+        {
+          "id": "",
+          "name": "Waldport",
+          "slug": "waldport"
+        },
+        {
+          "id": "",
+          "name": "OR",
+          "slug": "or"
+        }
+      ],
+      "people": [
+        {
+          "id": "recZg7ktXgMjirr3T",
+          "name": "William McDuff Andrew",
+          "slug": "william-mcduff-andrew"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "William McDuff Andrew dies Suspect Event Waldport, OR Waldport OR William McDuff Andrew"
+    },
+    {
       "id": "recHmY4JSBTYywOwz",
       "slug": "vallejo-police-update-after-golden-state-killer-breakthrough",
       "kind": "event",
@@ -26799,6 +27032,10 @@
         "count": 1
       },
       {
+        "value": "2014",
+        "count": 1
+      },
+      {
         "value": "2009",
         "count": 1
       },
@@ -26896,7 +27133,7 @@
       },
       {
         "value": "1974",
-        "count": 17
+        "count": 19
       },
       {
         "value": "1973",
@@ -26920,7 +27157,7 @@
       },
       {
         "value": "1968",
-        "count": 27
+        "count": 28
       },
       {
         "value": "1967",
@@ -26936,7 +27173,7 @@
       },
       {
         "value": "1964",
-        "count": 2
+        "count": 3
       },
       {
         "value": "1963",
@@ -27000,7 +27237,7 @@
       },
       {
         "value": "1945",
-        "count": 1
+        "count": 2
       },
       {
         "value": "1944",
@@ -27038,7 +27275,7 @@
     "types": [
       {
         "value": "Birthday",
-        "count": 8
+        "count": 9
       },
       {
         "value": "Canonical Zodiac Crime",
@@ -27086,7 +27323,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 98
+        "count": 103
       },
       {
         "value": "Victim Event",
@@ -27220,7 +27457,7 @@
       },
       {
         "value": "CA",
-        "count": 150
+        "count": 151
       },
       {
         "value": "CA)",
@@ -27708,7 +27945,7 @@
       },
       {
         "value": "OR",
-        "count": 2
+        "count": 3
       },
       {
         "value": "Orcas Island",
@@ -27884,7 +28121,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 61
+        "count": 62
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -28092,7 +28329,7 @@
       },
       {
         "value": "Vallejo",
-        "count": 38
+        "count": 39
       },
       {
         "value": "Vallejo (Allen family home)",
@@ -28104,7 +28341,7 @@
       },
       {
         "value": "Vallejo, CA",
-        "count": 38
+        "count": 39
       },
       {
         "value": "Villa Montalvo (Saratoga",
@@ -28121,6 +28358,14 @@
       {
         "value": "Vista, CA",
         "count": 4
+      },
+      {
+        "value": "Waldport",
+        "count": 1
+      },
+      {
+        "value": "Waldport, OR",
+        "count": 1
       },
       {
         "value": "Waterloo",
@@ -28263,6 +28508,10 @@
       {
         "value": "Chester Clark Klingel Jr.",
         "count": 13
+      },
+      {
+        "value": "Chico State University",
+        "count": 1
       },
       {
         "value": "Chief Lambert T. Kinkead",
@@ -29059,6 +29308,10 @@
       {
         "value": "William Langley Beeman",
         "count": 2
+      },
+      {
+        "value": "William McDuff Andrew",
+        "count": 6
       },
       {
         "value": "William Munk",

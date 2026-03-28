@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-28T13:28:22.652549+00:00",
+  "generatedAt": "2026-03-28T19:02:30.080962+00:00",
   "stats": {
-    "events": 420,
-    "people": 318,
-    "locations": 333,
+    "events": 426,
+    "people": 320,
+    "locations": 337,
     "tags": 42,
-    "images": 1594,
+    "images": 1598,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -23,7 +23,7 @@
     },
     {
       "value": 1968,
-      "count": 27
+      "count": 28
     },
     {
       "value": 1966,
@@ -35,13 +35,13 @@
     },
     {
       "value": 1974,
-      "count": 17
+      "count": 19
     }
   ],
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 98
+      "count": 103
     },
     {
       "value": "Case Event",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 61,
+      "relatedEventCount": 62,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -193,7 +193,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 38,
+      "relatedEventCount": 39,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -378,7 +378,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 38,
+      "relatedEventCount": 39,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 28, 2026, 01:28 PM UTC",
+    "label": "Mar 28, 2026, 07:02 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,17 +490,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "420 dated events spanning 1925 to 2025."
+      "description": "426 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "318 linked people and organizations with related-event cross references."
+      "description": "320 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "333 places connected to the archive, including mapped sites where data exists."
+      "description": "337 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

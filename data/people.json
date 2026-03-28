@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T13:28:22.652549+00:00",
+  "generatedAt": "2026-03-28T19:02:30.080962+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -2084,29 +2084,9 @@
       ],
       "relatedLocations": [
         {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
           "id": "rec9AtxZsFD0xu5PL",
           "name": "Albany, NY",
           "slug": "albany-ny"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
         },
         {
           "id": "reckBjLdnUEv6g1I5",
@@ -2132,6 +2112,26 @@
           "id": "recSP3mpjZQ4A82Kl",
           "name": "Virginia",
           "slug": "virginia"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
         },
         {
           "id": "recGNVDaJF2H6XZzc",
@@ -2184,7 +2184,7 @@
         }
       ],
       "relatedEventCount": 17,
-      "searchText": "Richard Gaikowski Richard Gaikowski Counterculture journalist based in San Francisco. San Francisco Albany, NY California SF Bay Area United States of America Albany County, NY New York State Fort Eustis Newport News, VA Virginia Aberdeen, SD Huron, SD Martinez, CA Watertown, SD"
+      "searchText": "Richard Gaikowski Richard Gaikowski Counterculture journalist based in San Francisco. Albany, NY Albany County, NY New York State Fort Eustis Newport News, VA Virginia San Francisco California SF Bay Area United States of America Aberdeen, SD Huron, SD Martinez, CA Watertown, SD"
     },
     {
       "id": "recNoik0QhJTMc50o",
@@ -6630,6 +6630,131 @@
       "searchText": "Vallejo Police Vallejo Police  Vallejo, CA Blue Rock Springs Park Solano County, CA California SF Bay Area United States of America Springs & Tuolumne Pay Phone Sacramento, CA"
     },
     {
+      "id": "recZg7ktXgMjirr3T",
+      "slug": "william-mcduff-andrew",
+      "kind": "person",
+      "title": "William McDuff Andrew",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Favorite suspect of researcher and podcaster Mike Morford",
+      "excerpt": "Favorite suspect of researcher and podcaster Mike Morford",
+      "aliases": [
+        "William McDuff Andrew"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/atth00NqB60EUVdUu_image.png",
+          "thumbUrl": "data/media/derived/thumb/atth00NqB60EUVdUu_image.png",
+          "mediumUrl": "data/media/derived/medium/atth00NqB60EUVdUu_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/atth00NqB60EUVdUu_image.png",
+        "thumbUrl": "data/media/derived/thumb/atth00NqB60EUVdUu_image.png",
+        "mediumUrl": "data/media/derived/medium/atth00NqB60EUVdUu_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1945-02-14"
+        },
+        {
+          "label": "Died",
+          "value": "2014-11-16"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco, Vallejo, CA, Waldport, OR"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recuesU95xefyrWki",
+          "name": "William McDuff Andrew is born",
+          "slug": "william-mcduff-andrew-is-born"
+        },
+        {
+          "id": "recswHR7jYitgbcBT",
+          "name": "William McDuff Andrew dies",
+          "slug": "william-mcduff-andrew-dies"
+        },
+        {
+          "id": "recIjeTyy7CuZGl1N",
+          "name": "William McDuff Andrew marries",
+          "slug": "william-mcduff-andrew-marries"
+        },
+        {
+          "id": "rec9Dc8BVHgFEn3Sf",
+          "name": "William McDuff Andrew's engagement announced",
+          "slug": "william-mcduff-andrew-s-engagement-announced"
+        },
+        {
+          "id": "rec5ZRAwVq6j3H700",
+          "name": "William McDuff Andrew participates in Masonic Temple event for Mother's Day",
+          "slug": "william-mcduff-andrew-participates-in-masonic-temple-event-for-mother-s-day"
+        },
+        {
+          "id": "rec37sgS3kxwwz5nq",
+          "name": "William McDuff Andrew graduates from Chico State",
+          "slug": "william-mcduff-andrew-graduates-from-chico-state"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recy924oJAg9LYmWh",
+          "name": "Waldport, OR",
+          "slug": "waldport-or"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=William%20McDuff%20Andrew&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=William%20McDuff%20Andrew&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 6,
+      "searchText": "William McDuff Andrew William McDuff Andrew Favorite suspect of researcher and podcaster Mike Morford San Francisco Vallejo, CA California Solano County, CA SF Bay Area United States of America Waldport, OR"
+    },
+    {
       "id": "recBksQ4rNpargfGq",
       "slug": "david-toschi",
       "kind": "person",
@@ -6983,11 +7108,6 @@
           "slug": "napa-county-ca"
         },
         {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -6996,6 +7116,11 @@
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
         },
         {
           "id": "recGa0aCpwMM0jQkt",
@@ -7082,7 +7207,7 @@
         }
       ],
       "relatedEventCount": 5,
-      "searchText": "Napa County Sheriff's Department Napa County Sheriff's Department  Napa County, CA United States of America California SF Bay Area Queen of the Valley Hospital (Napa, CA) Site of Lake Berryessa Zodiac Encounter Lake Berryessa Park Headquarters"
+      "searchText": "Napa County Sheriff's Department Napa County Sheriff's Department  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Site of Lake Berryessa Zodiac Encounter Lake Berryessa Park Headquarters"
     },
     {
       "id": "recFjCYNvW74IINvL",
@@ -13524,6 +13649,11 @@
           "slug": "riverside-county-ca"
         },
         {
+          "id": "recxYDr9ao84ifUn1",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        },
+        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -13532,11 +13662,6 @@
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
-        },
-        {
-          "id": "recxYDr9ao84ifUn1",
-          "name": "Riverside City College Library",
-          "slug": "riverside-city-college-library"
         }
       ],
       "relatedPeople": [
@@ -13558,7 +13683,7 @@
         }
       ],
       "relatedEventCount": 2,
-      "searchText": "Riverside City College Library Riverside City College Library  Riverside, CA Riverside County, CA California United States of America Riverside City College Library"
+      "searchText": "Riverside City College Library Riverside City College Library  Riverside, CA Riverside County, CA Riverside City College Library California United States of America"
     },
     {
       "id": "rectAXOi2qNQfdUFz",
@@ -16060,6 +16185,62 @@
       "searchText": "California Highway Patrol California Highway Patrol  California United States of America Modesto, CA"
     },
     {
+      "id": "recgih75kr3jjCDYC",
+      "slug": "chico-state-university",
+      "kind": "person",
+      "title": "Chico State University",
+      "subtitle": "Education",
+      "summary": "Via Wikipedia:\n> **California State University, Chico** (**Chico State**[[7]](https://en.wikipedia.org/wiki/California_State_University,_Chico#cite_note-visual-identity-7)) is a [public university](https://en.wikipedia.org/wiki/Public_university) in [Chico, California](https://en.wikipedia.org/wiki/Chico,_California), United States. It was founded in 1887 as one of about 180 \"[normal schools](https://en.wikipedia.org/wiki/Normal_school)\" founded by state governments in the 19th century to train teachers for the rapidly growing public common schools. Some closed but most steadily expanded their role and became state colleges in the early 20th century and state universities in the late 20th century.[[9]](https://en.wikipedia.org/wiki/California_State_University,_Chico#cite_note-9) It is the second oldest campus in the [California State University](https://en.wikipedia.org/wiki/California_State_University) system. As of the fall 2020 semester, the university had a total enrollment of 16,630 students. The university offers 126 [bachelor's degree](https://en.wikipedia.org/wiki/Bachelor%27s_degree) programs, 35 [master's degree](https://en.wikipedia.org/wiki/Master%27s_degree) programs, and four types of [teaching credentials](https://en.wikipedia.org/wiki/Teaching_credential). Chico is a [Hispanic-serving institution](https://en.wikipedia.org/wiki/Hispanic-serving_institution) (HSI).",
+      "excerpt": "Via Wikipedia: > **California State University, Chico** (**Chico State**[[7]](https://en.wikipedia.org/wiki/California_State_University,_Chico#cite_note-visual-identity-7)) is a [public university](https://en.wikipedia.…",
+      "aliases": [
+        "Chico State University"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attMot1Y2cxdTNA9P_image.png",
+          "thumbUrl": "data/media/derived/thumb/attMot1Y2cxdTNA9P_image.png",
+          "mediumUrl": "data/media/derived/medium/attMot1Y2cxdTNA9P_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attMot1Y2cxdTNA9P_image.png",
+        "thumbUrl": "data/media/derived/thumb/attMot1Y2cxdTNA9P_image.png",
+        "mediumUrl": "data/media/derived/medium/attMot1Y2cxdTNA9P_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Chico, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec37sgS3kxwwz5nq",
+          "name": "William McDuff Andrew graduates from Chico State",
+          "slug": "william-mcduff-andrew-graduates-from-chico-state"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Chico%20State%20University&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Chico%20State%20University&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Chico State University Chico State University Via Wikipedia:\n> **California State University, Chico** (**Chico State**[[7]](https://en.wikipedia.org/wiki/California_State_University,_Chico#cite_note-visual-identity-7)) is a [public university](https://en.wikipedia.org/wiki/Public_university) in [Chico, California](https://en.wikipedia.org/wiki/Chico,_California), United States. It was founded in 1887 as one of about 180 \"[normal schools](https://en.wikipedia.org/wiki/Normal_school)\" founded by state governments in the 19th century to train teachers for the rapidly growing public common schools. Some closed but most steadily expanded their role and became state colleges in the early 20th century and state universities in the late 20th century.[[9]](https://en.wikipedia.org/wiki/California_State_University,_Chico#cite_note-9) It is the second oldest campus in the [California State University](https://en.wikipedia.org/wiki/California_State_University) system. As of the fall 2020 semester, the university had a total enrollment of 16,630 students. The university offers 126 [bachelor's degree](https://en.wikipedia.org/wiki/Bachelor%27s_degree) programs, 35 [master's degree](https://en.wikipedia.org/wiki/Master%27s_degree) programs, and four types of [teaching credentials](https://en.wikipedia.org/wiki/Teaching_credential). Chico is a [Hispanic-serving institution](https://en.wikipedia.org/wiki/Hispanic-serving_institution) (HSI). "
+    },
+    {
       "id": "rec787LD61gifWYhY",
       "slug": "chief-lambert-t-kinkead",
       "kind": "person",
@@ -18136,16 +18317,6 @@
       ],
       "relatedLocations": [
         {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
           "id": "rec4uzkCoOurp4K2R",
           "name": "Napa County, CA",
           "slug": "napa-county-ca"
@@ -18169,6 +18340,16 @@
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
         }
       ],
       "relatedPeople": [],
@@ -18184,7 +18365,7 @@
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Vallejo, CA Solano County, CA Napa County, CA Napa, CA California United States of America SF Bay Area"
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA California United States of America SF Bay Area Vallejo, CA Solano County, CA"
     },
     {
       "id": "recZs1JY7C1stCIgl",
