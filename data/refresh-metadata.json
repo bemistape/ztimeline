@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-28T19:02:30.080962+00:00",
+  "generated_at_utc": "2026-03-29T03:40:20.275723+00:00",
   "dataset": "events",
   "record_count": 426,
   "media_cached": true,
@@ -8,7 +8,7 @@
   "table_id": "tblxd8PLtQOl1dRa7",
   "view_id": "viwUWtXt3UUxE6LOC",
   "sync_mode": "delta",
-  "changed_records": 6,
+  "changed_records": 0,
   "published_field": "Published",
   "last_modified_field": "Last Modified",
   "sync_cursor_utc": "2026-03-28T16:38:32+00:00"
