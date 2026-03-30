@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-03-29T19:04:30.737317+00:00",
+  "generatedAt": "2026-03-30T03:45:28.588526+00:00",
   "stats": {
-    "events": 426,
-    "people": 320,
+    "events": 427,
+    "people": 321,
     "locations": 337,
     "tags": 42,
-    "images": 1598,
+    "images": 1601,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Mar 29, 2026, 07:04 PM UTC",
+    "label": "Mar 30, 2026, 03:45 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,12 +490,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "426 dated events spanning 1925 to 2025."
+      "description": "427 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "320 linked people and organizations with related-event cross references."
+      "description": "321 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",

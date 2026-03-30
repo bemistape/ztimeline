@@ -23436,6 +23436,35 @@
       "searchText": "Gaikowski files for Daybreak business name Suspect Event San Francisco Richard Gaikowski Richard Gaikowski"
     },
     {
+      "id": "recgzMtFxLgBYwBP2",
+      "slug": "fred-manalli-dies-in-accident",
+      "kind": "event",
+      "title": "Fred Manalli dies in accident",
+      "date": "1976-08-24",
+      "dateLabel": "Tue, Aug 24, 1976",
+      "year": 1976,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1976-08-24-9999-00426",
+      "type": "Uncategorized",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recSpeRzrXYfcSdGM",
+          "name": "Fredric Manalli",
+          "slug": "fredric-manalli"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Fred Manalli dies in accident Uncategorized Fredric Manalli"
+    },
+    {
       "id": "rec7k41MR4C8XL9dj",
       "slug": "vallejo-times-herald-article-on-toschi",
       "kind": "event",
@@ -27125,7 +27154,7 @@
       },
       {
         "value": "1976",
-        "count": 3
+        "count": 4
       },
       {
         "value": "1975",
@@ -27324,6 +27353,10 @@
       {
         "value": "Suspect Event",
         "count": 103
+      },
+      {
+        "value": "Uncategorized",
+        "count": 1
       },
       {
         "value": "Victim Event",
@@ -28707,6 +28740,10 @@
       },
       {
         "value": "Frank Peda",
+        "count": 1
+      },
+      {
+        "value": "Fredric Manalli",
         "count": 1
       },
       {

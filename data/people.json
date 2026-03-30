@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T19:04:30.737317+00:00",
+  "generatedAt": "2026-03-30T03:45:28.588526+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -6647,6 +6647,13 @@
           "mediumUrl": "data/media/derived/medium/atth00NqB60EUVdUu_image.png",
           "derivativeState": "derived",
           "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attcMqdg0HNvebplB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attcMqdg0HNvebplB_image.png",
+          "mediumUrl": "data/media/derived/medium/attcMqdg0HNvebplB_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
         }
       ],
       "primaryImage": {
@@ -6714,14 +6721,14 @@
           "slug": "vallejo-ca"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "recaz1wgcaqz0EFiQ",
           "name": "Solano County, CA",
           "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
         },
         {
           "id": "recT4sMRyAv9Sk1zs",
@@ -6752,7 +6759,7 @@
         }
       ],
       "relatedEventCount": 6,
-      "searchText": "William McDuff Andrew William McDuff Andrew Favorite suspect of researcher and podcaster Mike Morford San Francisco Vallejo, CA California Solano County, CA SF Bay Area United States of America Waldport, OR"
+      "searchText": "William McDuff Andrew William McDuff Andrew Favorite suspect of researcher and podcaster Mike Morford San Francisco Vallejo, CA Solano County, CA California SF Bay Area United States of America Waldport, OR"
     },
     {
       "id": "recBksQ4rNpargfGq",
@@ -18265,6 +18272,78 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Frank Peda Frank Peda Investigator in Stine murder case. California SF Bay Area United States of America San Francisco Site of Paul Stine's Murder"
+    },
+    {
+      "id": "recSpeRzrXYfcSdGM",
+      "slug": "fredric-manalli",
+      "kind": "person",
+      "title": "Fredric Manalli",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Suspect in Santa Rosa Hitchhiker Murders",
+      "excerpt": "Suspect in Santa Rosa Hitchhiker Murders",
+      "aliases": [
+        "Fredric Manalli"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Died",
+          "value": "1976-08-24"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Santa Rosa, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recgzMtFxLgBYwBP2",
+          "name": "Fred Manalli dies in accident",
+          "slug": "fred-manalli-dies-in-accident"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recU6ndMaGe3yGcOi",
+          "name": "Santa Rosa, CA",
+          "slug": "santa-rosa-ca"
+        },
+        {
+          "id": "rechgeZ9A6h62DrRu",
+          "name": "Sonoma County, CA",
+          "slug": "sonoma-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Fredric%20Manalli&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Fredric%20Manalli&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Fredric Manalli Fredric Manalli Suspect in Santa Rosa Hitchhiker Murders Santa Rosa, CA Sonoma County, CA California SF Bay Area United States of America"
     },
     {
       "id": "recbmC37Z7MsD78qO",
