@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-16T19:39:00.128790+00:00",
+  "generatedAt": "2026-04-17T03:47:13.786229+00:00",
   "stats": {
-    "events": 427,
-    "people": 321,
+    "events": 428,
+    "people": 325,
     "locations": 337,
-    "tags": 42,
-    "images": 1601,
+    "tags": 43,
+    "images": 1615,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -53,7 +53,7 @@
     },
     {
       "value": "Media Event",
-      "count": 33
+      "count": 34
     },
     {
       "value": "Newspaper Article",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 16, 2026, 07:39 PM UTC",
+    "label": "Apr 17, 2026, 03:47 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,12 +490,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "427 dated events spanning 1925 to 2025."
+      "description": "428 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "321 linked people and organizations with related-event cross references."
+      "description": "325 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
@@ -505,7 +505,7 @@
     {
       "view": "tags",
       "title": "Tags",
-      "description": "42 thematic index records for grouping evidence and events."
+      "description": "43 thematic index records for grouping evidence and events."
     }
   ]
 }

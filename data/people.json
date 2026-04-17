@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-16T19:39:00.128790+00:00",
+  "generatedAt": "2026-04-17T03:47:13.786229+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -8391,6 +8391,16 @@
           "slug": "united-states-of-america"
         },
         {
+          "id": "recTeObirXPYxOpxm",
+          "name": "Walnut Creek, CA",
+          "slug": "walnut-creek-ca"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
           "id": "rec9eYWhCQCUgaGyg",
           "name": "Lake Herman Road Zodiac Site",
           "slug": "lake-herman-road-zodiac-site"
@@ -8409,7 +8419,7 @@
         }
       ],
       "relatedEventCount": 4,
-      "searchText": "Stella E. (Borges) Medeiros Stella E. (Borges) Medeiros The first person to report the Lake Herman Road crime. All Souls Catholic Cemetery Benicia, CA Vallejo, CA Solano County, CA California SF Bay Area United States of America Lake Herman Road Zodiac Site"
+      "searchText": "Stella E. (Borges) Medeiros Stella E. (Borges) Medeiros The first person to report the Lake Herman Road crime. All Souls Catholic Cemetery Benicia, CA Vallejo, CA Solano County, CA California SF Bay Area United States of America Walnut Creek, CA Contra Costa County, CA Lake Herman Road Zodiac Site"
     },
     {
       "id": "recPqL3Y9XApsG18S",
@@ -12138,6 +12148,129 @@
       "searchText": "Eric Zelms Eric Zelms  Presidio Heights San Francisco"
     },
     {
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "kind": "person",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
+      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
+      "aliases": [
+        "Gareth Penn"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
+          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1941-01-01"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recCSF1fIrw68Th7U",
+          "name": "Gareth Penn writes article in California Magazine under pen name",
+          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America"
+    },
+    {
       "id": "recgSRXNEmfZT5Com",
       "slug": "george-bawart",
       "kind": "person",
@@ -14110,8 +14243,22 @@
       "aliases": [
         "Shohei Shirai"
       ],
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/attWqodcn5WJBxTN3_image.png",
+          "thumbUrl": "data/media/derived/thumb/attWqodcn5WJBxTN3_image.png",
+          "mediumUrl": "data/media/derived/medium/attWqodcn5WJBxTN3_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attWqodcn5WJBxTN3_image.png",
+        "thumbUrl": "data/media/derived/thumb/attWqodcn5WJBxTN3_image.png",
+        "mediumUrl": "data/media/derived/medium/attWqodcn5WJBxTN3_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Home / HQ",
@@ -14152,6 +14299,16 @@
           "slug": "united-states-of-america"
         },
         {
+          "id": "recTeObirXPYxOpxm",
+          "name": "Walnut Creek, CA",
+          "slug": "walnut-creek-ca"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
           "id": "rec28Qgx8wQm99u8m",
           "name": "Twin Chapels Mortuary (Vallejo)",
           "slug": "twin-chapels-mortuary-vallejo"
@@ -14187,7 +14344,7 @@
         }
       ],
       "relatedEventCount": 2,
-      "searchText": "Shohei Shirai Shohei Shirai Pathologist listed on Ferrin autopsy. Solano County, CA California SF Bay Area United States of America Twin Chapels Mortuary (Vallejo) Colonial Chapels"
+      "searchText": "Shohei Shirai Shohei Shirai Pathologist listed on Ferrin autopsy. Solano County, CA California SF Bay Area United States of America Walnut Creek, CA Contra Costa County, CA Twin Chapels Mortuary (Vallejo) Colonial Chapels"
     },
     {
       "id": "recI0gNFiQpY1lgkB",
@@ -18346,107 +18503,6 @@
       "searchText": "Fredric Manalli Fredric Manalli Suspect in Santa Rosa Hitchhiker Murders Santa Rosa, CA Sonoma County, CA California SF Bay Area United States of America"
     },
     {
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "kind": "person",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
-      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
-      "aliases": [
-        "Gareth Penn"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
-          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
-          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [],
-      "relatedEvents": [
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 1,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA California United States of America SF Bay Area Vallejo, CA Solano County, CA"
-    },
-    {
       "id": "recZs1JY7C1stCIgl",
       "slug": "gary-ronald-schilling",
       "kind": "person",
@@ -20462,8 +20518,8 @@
       "kind": "person",
       "title": "Michael O'Hare",
       "subtitle": "Suspect,Living",
-      "summary": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
-      "excerpt": "Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School",
+      "summary": "Zodiac suspect and Professor of Public Policy",
+      "excerpt": "Zodiac suspect and Professor of Public Policy",
       "aliases": [
         "Michael O'Hare"
       ],
@@ -20543,9 +20599,25 @@
           "id": "recTsOdMprpYMZiTt",
           "name": "University of California, Berkeley",
           "slug": "university-of-california-berkeley"
+        },
+        {
+          "id": "rec4i4VSg7Tk4sUUy",
+          "name": "Harvard University",
+          "slug": "harvard-university"
+        },
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
         }
       ],
-      "relatedTags": [],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
       "downloads": [
         {
           "label": "Google Search",
@@ -20557,7 +20629,7 @@
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Emeritus Professor of Public Policy, and Professor of the Graduate School Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA Massachusetts California United States of America SF Bay Area"
+      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA Massachusetts California United States of America SF Bay Area"
     },
     {
       "id": "recP81qCXj3u1nsfR",
@@ -23608,6 +23680,112 @@
       "searchText": "Berkeley Voice Berkeley Voice  Berkeley, CA Alameda County, CA California United States of America SF Bay Area"
     },
     {
+      "id": "recMYOFG2oXTk0Gwa",
+      "slug": "berta-margoulies",
+      "kind": "person",
+      "title": "Berta Margoulies",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "excerpt": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "aliases": [
+        "Berta Margoulies"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+          "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+        "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+        "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1907-09-07"
+        },
+        {
+          "label": "Died",
+          "value": "1996-03-20"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Walnut Creek, CA, New York City"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recTeObirXPYxOpxm",
+          "name": "Walnut Creek, CA",
+          "slug": "walnut-creek-ca"
+        },
+        {
+          "id": "reckDShDfDH9DW0Co",
+          "name": "New York City",
+          "slug": "new-york-city"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "reczk8ct3HpUUSnhh",
+          "name": "New York State",
+          "slug": "new-york-state"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America"
+    },
+    {
       "id": "rec7IuYqH9da4Q50b",
       "slug": "california-criminal-identification-and-investigation-cii",
       "kind": "person",
@@ -24856,6 +25034,43 @@
       "searchText": "Harry Wogan Harry Wogan  Harry Wogan Beacon Station Vallejo, CA Solano County, CA California SF Bay Area United States of America"
     },
     {
+      "id": "rec4i4VSg7Tk4sUUy",
+      "slug": "harvard-university",
+      "kind": "person",
+      "title": "Harvard University",
+      "subtitle": "Education,Organization",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Harvard University"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Harvard University Harvard University  "
+    },
+    {
       "id": "recWUh14ApimVUpmt",
       "slug": "herb-caen",
       "kind": "person",
@@ -24979,6 +25194,81 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Highland Elementary School Highland Elementary School Elementary of Arthur Leigh Allen Highland Elementary School (Vallejo, CA) Vallejo, CA Solano County, CA California SF Bay Area United States of America"
+    },
+    {
+      "id": "rec6qfvgItNNAztyn",
+      "slug": "hugh-penn",
+      "kind": "person",
+      "title": "Hugh Penn",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
+      "excerpt": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
+      "aliases": [
+        "Hugh Penn"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Hugh Scott Penn"
+        },
+        {
+          "label": "Born",
+          "value": "1913-10-19"
+        },
+        {
+          "label": "Died",
+          "value": "1995-06-18"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Sacramento, CA"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "recvqiA6dpfU6HX68",
+          "name": "Sacramento County, CA",
+          "slug": "sacramento-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Hugh Penn Hugh Penn Father of Gareth Penn and Zodiac suspect to Ray Davis Sacramento, CA Sacramento County, CA California United States of America"
     },
     {
       "id": "rec3ixoJoTAwLU48y",
@@ -27064,6 +27354,57 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Ramona High School Ramona High School  Riverside, CA Riverside County, CA California United States of America"
+    },
+    {
+      "id": "recjQcjMRG4TeVOI8",
+      "slug": "ray-grant",
+      "kind": "person",
+      "title": "Ray Grant",
+      "subtitle": "Researcher,Author,Living",
+      "summary": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
+      "excerpt": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
+      "aliases": [
+        "Ray Grant"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
+          "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
+          "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
+        "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
+        "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Ray Grant Ray Grant Researcher who promotes a theory that four people committed the murders as a conceptual art project. "
     },
     {
       "id": "recIPToWrud8BWT8F",
