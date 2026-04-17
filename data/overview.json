@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-17T03:47:13.786229+00:00",
+  "generatedAt": "2026-04-17T08:05:55.902814+00:00",
   "stats": {
-    "events": 428,
-    "people": 325,
-    "locations": 337,
+    "events": 431,
+    "people": 328,
+    "locations": 341,
     "tags": 43,
-    "images": 1615,
+    "images": 1617,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -53,11 +53,11 @@
     },
     {
       "value": "Media Event",
-      "count": 34
+      "count": 35
     },
     {
       "value": "Newspaper Article",
-      "count": 29
+      "count": 31
     },
     {
       "value": "Cultural Event",
@@ -89,7 +89,7 @@
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
       "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
-      "relatedEventCount": 23,
+      "relatedEventCount": 22,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
         "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 17, 2026, 03:47 AM UTC",
+    "label": "Apr 17, 2026, 08:05 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,17 +490,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "428 dated events spanning 1925 to 2025."
+      "description": "431 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "325 linked people and organizations with related-event cross references."
+      "description": "328 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "337 places connected to the archive, including mapped sites where data exists."
+      "description": "341 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

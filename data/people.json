@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-17T03:47:13.786229+00:00",
+  "generatedAt": "2026-04-17T08:05:55.902814+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -588,11 +588,6 @@
           "slug": "the-eureka-christmas-card"
         },
         {
-          "id": "recXDIgSuNNv0aEnx",
-          "name": "SF Chronicle coverage of case status",
-          "slug": "sf-chronicle-coverage-of-case-status"
-        },
-        {
           "id": "recXWIWFBz95hjA2J",
           "name": "Count Marco's Chicago letter referencing Red Phantom",
           "slug": "count-marco-s-chicago-letter-referencing-red-phantom"
@@ -705,6 +700,11 @@
           "slug": "united-states-of-america"
         },
         {
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
+        },
+        {
           "id": "recyAymRgxnrLtPne",
           "name": "Eureka, CA",
           "slug": "eureka-ca"
@@ -713,11 +713,6 @@
           "id": "recnog62LVFsETdfp",
           "name": "Chicago",
           "slug": "chicago"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
         },
         {
           "id": "recUJsymsZJwwCLW9",
@@ -768,8 +763,8 @@
           "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Chronicle&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 23,
-      "searchText": "San Francisco Chronicle San Francisco Chronicle The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco SF Bay Area California United States of America Eureka, CA Chicago San Francisco Chronicle offices Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
+      "relatedEventCount": 22,
+      "searchText": "San Francisco Chronicle San Francisco Chronicle The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco SF Bay Area California United States of America San Francisco Chronicle offices Eureka, CA Chicago Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
     },
     {
       "id": "rech3D7sonIMHkOft",
@@ -2187,6 +2182,212 @@
       "searchText": "Richard Gaikowski Richard Gaikowski Counterculture journalist based in San Francisco. Albany, NY Albany County, NY New York State Fort Eustis Newport News, VA Virginia San Francisco California SF Bay Area United States of America Aberdeen, SD Huron, SD Martinez, CA Watertown, SD"
     },
     {
+      "id": "rec7Fue7MIOL0uRL6",
+      "slug": "ken-narlow",
+      "kind": "person",
+      "title": "Ken Narlow",
+      "subtitle": "Law Enforcement,Deceased,Key Figure",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Ken Narlow"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
+          "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attLII8j0Dfo7AdDH_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLII8j0Dfo7AdDH_image.png",
+          "mediumUrl": "data/media/derived/medium/attLII8j0Dfo7AdDH_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attevcy1kt4AeXKRh_image.png",
+          "thumbUrl": "data/media/derived/thumb/attevcy1kt4AeXKRh_image.png",
+          "mediumUrl": "data/media/derived/medium/attevcy1kt4AeXKRh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
+        "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
+        "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Napa County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec5msPLuYq5kmtBS",
+          "name": "Hal Snook notified of stabbings, dispatches Narlow and Lonergan",
+          "slug": "hal-snook-notified-of-stabbings-dispatches-narlow-and-lonergan"
+        },
+        {
+          "id": "recWHabSfgEAq9vBK",
+          "name": "Hal Snook meets Narlow at Queen of the Valley Hospital",
+          "slug": "hal-snook-meets-narlow-at-queen-of-the-valley-hospital"
+        },
+        {
+          "id": "recGt8lxiIScGdDsZ",
+          "name": "Narlow and Lonergan leave hospital",
+          "slug": "narlow-and-lonergan-leave-hospital"
+        },
+        {
+          "id": "recJ0x1q0mKJ3HoOg",
+          "name": "Narlow and Lonergan interview Rayfields",
+          "slug": "narlow-and-lonergan-interview-rayfields"
+        },
+        {
+          "id": "rechbYm0ZVeGYPHir",
+          "name": "Narlow and Lonergan arrive at Lake Berryessa scene",
+          "slug": "narlow-and-lonergan-arrive-at-lake-berryessa-scene"
+        },
+        {
+          "id": "recgakvVJSzRguR75",
+          "name": "Narlow and Lonergan return to scene",
+          "slug": "narlow-and-lonergan-return-to-scene"
+        },
+        {
+          "id": "rec4dpflLMPfQPPof",
+          "name": "Narlow and Lonergan retrace Zodiac steps",
+          "slug": "narlow-and-lonergan-retrace-zodiac-steps"
+        },
+        {
+          "id": "recfFXCpUWTJPWG6K",
+          "name": "Narlow and Lonergan return to crime scene, assist Snook",
+          "slug": "narlow-and-lonergan-return-to-crime-scene-assist-snook"
+        },
+        {
+          "id": "rec0JuyGt6pYv6pJO",
+          "name": "Narlow and Lonergan interview William White",
+          "slug": "narlow-and-lonergan-interview-william-white"
+        },
+        {
+          "id": "recHQgFcpJHyKIHTf",
+          "name": "Narlow and Lonergan interview Rancho Monticello witnesses",
+          "slug": "narlow-and-lonergan-interview-rancho-monticello-witnesses"
+        },
+        {
+          "id": "recdkexjpcDhHsiyh",
+          "name": "Narlow contacted about three sunbathers",
+          "slug": "narlow-contacted-about-three-sunbathers"
+        },
+        {
+          "id": "recUJfYM261YwJhx6",
+          "name": "Ken Narlow runs for Napa County Sheriff",
+          "slug": "ken-narlow-runs-for-napa-county-sheriff"
+        },
+        {
+          "id": "recZ9ecbHQTAHvRlS",
+          "name": "Ken Narlow begins working for Justin-Siena High School",
+          "slug": "ken-narlow-begins-working-for-justin-siena-high-school"
+        },
+        {
+          "id": "recxe6aMh0cOSqXdy",
+          "name": "Napa Solano / Yolo County Investigator's Meeting",
+          "slug": "napa-solano-yolo-county-investigator-s-meeting"
+        },
+        {
+          "id": "recGDigROyNfU6rJ6",
+          "name": "Article on continued interest in Zodiac case",
+          "slug": "article-on-continued-interest-in-zodiac-case"
+        },
+        {
+          "id": "recWVJokIJNFaXSZF",
+          "name": "Police rule out link between trailside and Zodiac murders",
+          "slug": "police-rule-out-link-between-trailside-and-zodiac-murders"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recGa0aCpwMM0jQkt",
+          "name": "Queen of the Valley Hospital (Napa, CA)",
+          "slug": "queen-of-the-valley-hospital-napa-ca"
+        },
+        {
+          "id": "reccuA38cGngbIk8v",
+          "name": "Spanish Flat Coffee Shop",
+          "slug": "spanish-flat-coffee-shop"
+        },
+        {
+          "id": "reccno8wWTHdS0Go6",
+          "name": "Site of Lake Berryessa Zodiac Encounter",
+          "slug": "site-of-lake-berryessa-zodiac-encounter"
+        },
+        {
+          "id": "recxuIuPaJDKhXKo6",
+          "name": "Lake Berryessa",
+          "slug": "lake-berryessa"
+        },
+        {
+          "id": "recbHhU4d2UWXPrIl",
+          "name": "Lake Berryessa Park Headquarters",
+          "slug": "lake-berryessa-park-headquarters"
+        },
+        {
+          "id": "rec98vjxVJgVVbh1X",
+          "name": "Rancho Monticello Resort at Lake Berryessa",
+          "slug": "rancho-monticello-resort-at-lake-berryessa"
+        },
+        {
+          "id": "recyvZIPrkhBj44Ei",
+          "name": "Angwin, CA",
+          "slug": "angwin-ca"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Ken%20Narlow&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Ken%20Narlow&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 16,
+      "searchText": "Ken Narlow Ken Narlow  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA San Francisco"
+    },
+    {
       "id": "recNoik0QhJTMc50o",
       "slug": "bryan-calvin-hartnell",
       "kind": "person",
@@ -2706,197 +2907,6 @@
       ],
       "relatedEventCount": 14,
       "searchText": "Cheri Jo Bates Cheri Jo Bates Murder victim linked to Zodiac. Riverside, CA Riverside County, CA Omaha, NE Douglas County, NE Nebraska Home of Cheri Jo Bates California United States of America San Francisco Crestlawn Memorial Park Riverside City College Library Bellevue, NE Waterloo, NY"
-    },
-    {
-      "id": "rec7Fue7MIOL0uRL6",
-      "slug": "ken-narlow",
-      "kind": "person",
-      "title": "Ken Narlow",
-      "subtitle": "Law Enforcement,Deceased,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Ken Narlow"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
-          "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attLII8j0Dfo7AdDH_image.png",
-          "thumbUrl": "data/media/derived/thumb/attLII8j0Dfo7AdDH_image.png",
-          "mediumUrl": "data/media/derived/medium/attLII8j0Dfo7AdDH_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attevcy1kt4AeXKRh_image.png",
-          "thumbUrl": "data/media/derived/thumb/attevcy1kt4AeXKRh_image.png",
-          "mediumUrl": "data/media/derived/medium/attevcy1kt4AeXKRh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
-        "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
-        "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Napa County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec5msPLuYq5kmtBS",
-          "name": "Hal Snook notified of stabbings, dispatches Narlow and Lonergan",
-          "slug": "hal-snook-notified-of-stabbings-dispatches-narlow-and-lonergan"
-        },
-        {
-          "id": "recWHabSfgEAq9vBK",
-          "name": "Hal Snook meets Narlow at Queen of the Valley Hospital",
-          "slug": "hal-snook-meets-narlow-at-queen-of-the-valley-hospital"
-        },
-        {
-          "id": "recGt8lxiIScGdDsZ",
-          "name": "Narlow and Lonergan leave hospital",
-          "slug": "narlow-and-lonergan-leave-hospital"
-        },
-        {
-          "id": "recJ0x1q0mKJ3HoOg",
-          "name": "Narlow and Lonergan interview Rayfields",
-          "slug": "narlow-and-lonergan-interview-rayfields"
-        },
-        {
-          "id": "rechbYm0ZVeGYPHir",
-          "name": "Narlow and Lonergan arrive at Lake Berryessa scene",
-          "slug": "narlow-and-lonergan-arrive-at-lake-berryessa-scene"
-        },
-        {
-          "id": "recgakvVJSzRguR75",
-          "name": "Narlow and Lonergan return to scene",
-          "slug": "narlow-and-lonergan-return-to-scene"
-        },
-        {
-          "id": "rec4dpflLMPfQPPof",
-          "name": "Narlow and Lonergan retrace Zodiac steps",
-          "slug": "narlow-and-lonergan-retrace-zodiac-steps"
-        },
-        {
-          "id": "recfFXCpUWTJPWG6K",
-          "name": "Narlow and Lonergan return to crime scene, assist Snook",
-          "slug": "narlow-and-lonergan-return-to-crime-scene-assist-snook"
-        },
-        {
-          "id": "rec0JuyGt6pYv6pJO",
-          "name": "Narlow and Lonergan interview William White",
-          "slug": "narlow-and-lonergan-interview-william-white"
-        },
-        {
-          "id": "recHQgFcpJHyKIHTf",
-          "name": "Narlow and Lonergan interview Rancho Monticello witnesses",
-          "slug": "narlow-and-lonergan-interview-rancho-monticello-witnesses"
-        },
-        {
-          "id": "recdkexjpcDhHsiyh",
-          "name": "Narlow contacted about three sunbathers",
-          "slug": "narlow-contacted-about-three-sunbathers"
-        },
-        {
-          "id": "recUJfYM261YwJhx6",
-          "name": "Ken Narlow runs for Napa County Sheriff",
-          "slug": "ken-narlow-runs-for-napa-county-sheriff"
-        },
-        {
-          "id": "recZ9ecbHQTAHvRlS",
-          "name": "Ken Narlow begins working for Justin-Siena High School",
-          "slug": "ken-narlow-begins-working-for-justin-siena-high-school"
-        },
-        {
-          "id": "recxe6aMh0cOSqXdy",
-          "name": "Napa Solano / Yolo County Investigator's Meeting",
-          "slug": "napa-solano-yolo-county-investigator-s-meeting"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recGa0aCpwMM0jQkt",
-          "name": "Queen of the Valley Hospital (Napa, CA)",
-          "slug": "queen-of-the-valley-hospital-napa-ca"
-        },
-        {
-          "id": "reccuA38cGngbIk8v",
-          "name": "Spanish Flat Coffee Shop",
-          "slug": "spanish-flat-coffee-shop"
-        },
-        {
-          "id": "reccno8wWTHdS0Go6",
-          "name": "Site of Lake Berryessa Zodiac Encounter",
-          "slug": "site-of-lake-berryessa-zodiac-encounter"
-        },
-        {
-          "id": "recxuIuPaJDKhXKo6",
-          "name": "Lake Berryessa",
-          "slug": "lake-berryessa"
-        },
-        {
-          "id": "recbHhU4d2UWXPrIl",
-          "name": "Lake Berryessa Park Headquarters",
-          "slug": "lake-berryessa-park-headquarters"
-        },
-        {
-          "id": "rec98vjxVJgVVbh1X",
-          "name": "Rancho Monticello Resort at Lake Berryessa",
-          "slug": "rancho-monticello-resort-at-lake-berryessa"
-        },
-        {
-          "id": "recyvZIPrkhBj44Ei",
-          "name": "Angwin, CA",
-          "slug": "angwin-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Ken%20Narlow&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Ken%20Narlow&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 14,
-      "searchText": "Ken Narlow Ken Narlow  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA"
     },
     {
       "id": "recg462dI0mJi8KMB",
@@ -8275,6 +8285,11 @@
           "id": "recFln3D4VZwCWrv5",
           "name": "Eric Zelms",
           "slug": "eric-zelms"
+        },
+        {
+          "id": "recz5yyDgDY6wa608",
+          "name": "Jim Deasy",
+          "slug": "jim-deasy"
         }
       ],
       "relatedTags": [],
@@ -9478,6 +9493,139 @@
       ],
       "relatedEventCount": 3,
       "searchText": "FBI FBI  Butte, MT Silver Bow County, MT Montana United States of America Napa County, CA"
+    },
+    {
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "kind": "person",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
+      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
+      "aliases": [
+        "Gareth Penn"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
+          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1941-01-01"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recCSF1fIrw68Th7U",
+          "name": "Gareth Penn writes article in California Magazine under pen name",
+          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
+        },
+        {
+          "id": "recGDigROyNfU6rJ6",
+          "name": "Article on continued interest in Zodiac case",
+          "slug": "article-on-continued-interest-in-zodiac-case"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 3,
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco"
     },
     {
       "id": "rechQ8DiwyQxNXqRI",
@@ -12148,129 +12296,6 @@
       "searchText": "Eric Zelms Eric Zelms  Presidio Heights San Francisco"
     },
     {
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "kind": "person",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
-      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
-      "aliases": [
-        "Gareth Penn"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
-          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
-          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1941-01-01"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recCSF1fIrw68Th7U",
-          "name": "Gareth Penn writes article in California Magazine under pen name",
-          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec6qfvgItNNAztyn",
-          "name": "Hugh Penn",
-          "slug": "hugh-penn"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 2,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America"
-    },
-    {
       "id": "recgSRXNEmfZT5Com",
       "slug": "george-bawart",
       "kind": "person",
@@ -12645,6 +12670,65 @@
       ],
       "relatedEventCount": 2,
       "searchText": "Jack Steadman Beeman Jack Steadman Beeman Posthumously accused by attorney brother in 1991. Wichita, KS Sedgwick County, KS Vallejo, CA Kansas Solano County, CA California SF Bay Area United States of America The Internet"
+    },
+    {
+      "id": "recz5yyDgDY6wa608",
+      "slug": "jim-deasy",
+      "kind": "person",
+      "title": "Jim Deasy",
+      "subtitle": "Law Enforcement",
+      "summary": "Detective at SFPD",
+      "excerpt": "Detective at SFPD",
+      "aliases": [
+        "Jim Deasy"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "James Deasy"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recGDigROyNfU6rJ6",
+          "name": "Article on continued interest in Zodiac case",
+          "slug": "article-on-continued-interest-in-zodiac-case"
+        },
+        {
+          "id": "recWVJokIJNFaXSZF",
+          "name": "Police rule out link between trailside and Zodiac murders",
+          "slug": "police-rule-out-link-between-trailside-and-zodiac-murders"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recnGQtKOfaGauwF5",
+          "name": "SFPD",
+          "slug": "sfpd"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Jim%20Deasy&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Jim%20Deasy&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Jim Deasy Jim Deasy Detective at SFPD San Francisco"
     },
     {
       "id": "recTVZdXdkjGlTpSr",
@@ -15984,6 +16068,123 @@
       "searchText": "Bernie Johnson Bernie Johnson Pallbearer at David Faraday's funeral Tulocay Cemetery & Crematory"
     },
     {
+      "id": "recMYOFG2oXTk0Gwa",
+      "slug": "berta-margoulies",
+      "kind": "person",
+      "title": "Berta Margoulies",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "excerpt": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "aliases": [
+        "Berta Margoulies"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+          "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+        "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+        "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1907-09-07"
+        },
+        {
+          "label": "Died",
+          "value": "1996-03-20"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Walnut Creek, CA, New York City, Poland, Flanders, NJ"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec0xk8jRcZ4F18Nk",
+          "name": "Article on Berta Margoulies's career",
+          "slug": "article-on-berta-margoulies-s-career"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recTeObirXPYxOpxm",
+          "name": "Walnut Creek, CA",
+          "slug": "walnut-creek-ca"
+        },
+        {
+          "id": "reckDShDfDH9DW0Co",
+          "name": "New York City",
+          "slug": "new-york-city"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "reczk8ct3HpUUSnhh",
+          "name": "New York State",
+          "slug": "new-york-state"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America Boston, MA"
+    },
+    {
       "id": "recLS6oYJ6Lv8rJAB",
       "slug": "bettye-harden",
       "kind": "person",
@@ -16229,6 +16430,69 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Bob Luce Bob Luce ALA's former employer, owner of Arco Service Station in Vallejo. Arco Service Station in Vallejo Vallejo, CA Solano County, CA California SF Bay Area United States of America"
+    },
+    {
+      "id": "recJLC9aDDuTbSdEY",
+      "slug": "boston-globe",
+      "kind": "person",
+      "title": "Boston Globe",
+      "subtitle": "Media",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Boston Globe"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Boston, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec0xk8jRcZ4F18Nk",
+          "name": "Article on Berta Margoulies's career",
+          "slug": "article-on-berta-margoulies-s-career"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "rec3j7ziSuI13OnhA",
+          "name": "Suffolk County, MA",
+          "slug": "suffolk-county-ma"
+        },
+        {
+          "id": "recQCUmzdimTBeYjB",
+          "name": "Massachusetts",
+          "slug": "massachusetts"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Boston%20Globe&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Boston%20Globe&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Boston Globe Boston Globe  Boston, MA Suffolk County, MA Massachusetts United States of America"
     },
     {
       "id": "recVgzsjtQvTLJ7U0",
@@ -23220,6 +23484,43 @@
       "searchText": "Tom Voigt Tom Voigt  Portland, OR Multnomah County, OR Oregon United States of America The Internet"
     },
     {
+      "id": "recz1NnEBQrPCi7j6",
+      "slug": "upi",
+      "kind": "person",
+      "title": "UPI",
+      "subtitle": "Media",
+      "summary": "News agency",
+      "excerpt": "News agency",
+      "aliases": [
+        "UPI"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recWVJokIJNFaXSZF",
+          "name": "Police rule out link between trailside and Zodiac murders",
+          "slug": "police-rule-out-link-between-trailside-and-zodiac-murders"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=UPI&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=UPI&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "UPI UPI News agency "
+    },
+    {
       "id": "recTFwOiCLdnVFRvm",
       "slug": "washington-monthly",
       "kind": "person",
@@ -23678,112 +23979,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Berkeley Voice Berkeley Voice  Berkeley, CA Alameda County, CA California United States of America SF Bay Area"
-    },
-    {
-      "id": "recMYOFG2oXTk0Gwa",
-      "slug": "berta-margoulies",
-      "kind": "person",
-      "title": "Berta Margoulies",
-      "subtitle": "Suspect,Deceased",
-      "summary": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
-      "excerpt": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
-      "aliases": [
-        "Berta Margoulies"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
-          "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
-          "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
-        "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
-        "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1907-09-07"
-        },
-        {
-          "label": "Died",
-          "value": "1996-03-20"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Walnut Creek, CA, New York City"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recTeObirXPYxOpxm",
-          "name": "Walnut Creek, CA",
-          "slug": "walnut-creek-ca"
-        },
-        {
-          "id": "reckDShDfDH9DW0Co",
-          "name": "New York City",
-          "slug": "new-york-city"
-        },
-        {
-          "id": "recdrDPUFQyzI2Xjg",
-          "name": "Contra Costa County, CA",
-          "slug": "contra-costa-county-ca"
-        },
-        {
-          "id": "reczk8ct3HpUUSnhh",
-          "name": "New York State",
-          "slug": "new-york-state"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America"
     },
     {
       "id": "rec7IuYqH9da4Q50b",

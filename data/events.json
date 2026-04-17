@@ -24335,6 +24335,59 @@
       "searchText": "SF Chronicle coverage of case status Media Event San Francisco San Francisco Chronicle"
     },
     {
+      "id": "recGDigROyNfU6rJ6",
+      "slug": "article-on-continued-interest-in-zodiac-case",
+      "kind": "event",
+      "title": "Article on continued interest in Zodiac case",
+      "date": "1981-05-04",
+      "dateLabel": "Mon, May 4, 1981",
+      "year": 1981,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1981-05-04-9999-00429",
+      "type": "Media Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        },
+        {
+          "id": "rec7Fue7MIOL0uRL6",
+          "name": "Ken Narlow",
+          "slug": "ken-narlow"
+        },
+        {
+          "id": "recz5yyDgDY6wa608",
+          "name": "Jim Deasy",
+          "slug": "jim-deasy"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attckSm79sZbAejl4_San_Francisco_Chronicle_1981_05_04_5.jpg",
+          "thumbUrl": "data/media/derived/thumb/attckSm79sZbAejl4_San_Francisco_Chronicle_1981_05_04_5.jpg",
+          "mediumUrl": "data/media/derived/medium/attckSm79sZbAejl4_San_Francisco_Chronicle_1981_05_04_5.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1981_05_04_5.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Article on continued interest in Zodiac case Media Event San Francisco Gareth Penn Ken Narlow Jim Deasy"
+    },
+    {
       "id": "recPM1JmeFCtQn0pJ",
       "slug": "david-joseph-carpenter-arrested-for-trailside-killings",
       "kind": "event",
@@ -24368,6 +24421,45 @@
       "mapUrl": "",
       "hasMedia": false,
       "searchText": "David Joseph Carpenter arrested for Trailside Killings Non-Zodiac Events San Francisco David Joseph Carpenter (Trailside Killer)"
+    },
+    {
+      "id": "recWVJokIJNFaXSZF",
+      "slug": "police-rule-out-link-between-trailside-and-zodiac-murders",
+      "kind": "event",
+      "title": "Police rule out link between trailside and Zodiac murders",
+      "date": "1981-05-16",
+      "dateLabel": "Sat, May 16, 1981",
+      "year": 1981,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1981-05-16-9999-00430",
+      "type": "Newspaper Article",
+      "description": "SAN FRANCISCO -- The 'trailside killings' of eight Bay Area hikers bore an astonishing resemblance to the slayings of the boastful 'Zodiac' killer, but police have ruled out any link between the suspect arrested in the hiker deaths and the unsolved 'Zodiac' killings.\nPolice are still on the trail of the 'Zodiac killer,' a psychopath who killed six people and critically wounded two others between 1966 and 1969, then taunted police and the press with a series of cryptic notes and ciphers.\nBut investigators' hopes that David Carpenter, arrested Friday in the Marin and Santa Cruz county 'trailside slayings,' was their man quickly faded as more information about the suspect became available -- including the fact that he was in prison when three of the Zodiac murders occurred.\nIn addition, Carpenter was later serving a state prison sentence when the Zodiac sent several authenticated letters and post cards to newspapers -- which police said could not possibly have passed through prison censors.\nPolice in several Bay Area counties admitted last month that the similarity between the physical descriptions of the 'trailside killer' and the Zodiac was startling and that the details of the slayings also were very similar.\nBoth killers waylaid their victims in isolated areas and stabbed or shot them to death. In addition, both of the murderers forced some of their victims into submissive positions before slaying them. Moreover, authorities said that while in prison, Carpenter once boasted that he was the Zodiac killer.\nCapt. Ken Narlow of the Napa County sheriff's department, who has been dogging the Zodiac murderer's trail since July 1969, said news of the arrest 'really pricked up my ears.'\nNarlow said he checked his own files on the case Friday and found no mention of Carpenter but initially considered him a good prospect anyway.\nBut he said he then learned Carpenter was in federal prison from 1960 to April 1969, a period when three of the confirmed Zodiac murders were committed, 'so that tends to let him out as a suspect.'\nSan Francisco police Inspector Jim Deasy, another veteran Zodiac hunter, said when he first heard about Carpenter's arrest and saw a photo of the suspect, 'I really hoped that they had the Zodiac.'\nBut after checking the name through his own Zodiac files, he found that the suspect already had been eliminated from the investigation in the early '70s on the basis of fingerprints and handwriting samples.\n'We had received a call from a citizen raising Carpenter as a Zodiac suspect back then,' Deasy said, 'but we ruled him out on the basis of the evidence.'",
+      "excerpt": "SAN FRANCISCO -- The 'trailside killings' of eight Bay Area hikers bore an astonishing resemblance to the slayings of the boastful 'Zodiac' killer, but police have ruled out any link between the suspect arrested in the…",
+      "locations": [],
+      "people": [
+        {
+          "id": "rec7Fue7MIOL0uRL6",
+          "name": "Ken Narlow",
+          "slug": "ken-narlow"
+        },
+        {
+          "id": "recz5yyDgDY6wa608",
+          "name": "Jim Deasy",
+          "slug": "jim-deasy"
+        },
+        {
+          "id": "recz1NnEBQrPCi7j6",
+          "name": "UPI",
+          "slug": "upi"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Police rule out link between trailside and Zodiac murders SAN FRANCISCO -- The 'trailside killings' of eight Bay Area hikers bore an astonishing resemblance to the slayings of the boastful 'Zodiac' killer, but police have ruled out any link between the suspect arrested in the hiker deaths and the unsolved 'Zodiac' killings.\nPolice are still on the trail of the 'Zodiac killer,' a psychopath who killed six people and critically wounded two others between 1966 and 1969, then taunted police and the press with a series of cryptic notes and ciphers.\nBut investigators' hopes that David Carpenter, arrested Friday in the Marin and Santa Cruz county 'trailside slayings,' was their man quickly faded as more information about the suspect became available -- including the fact that he was in prison when three of the Zodiac murders occurred.\nIn addition, Carpenter was later serving a state prison sentence when the Zodiac sent several authenticated letters and post cards to newspapers -- which police said could not possibly have passed through prison censors.\nPolice in several Bay Area counties admitted last month that the similarity between the physical descriptions of the 'trailside killer' and the Zodiac was startling and that the details of the slayings also were very similar.\nBoth killers waylaid their victims in isolated areas and stabbed or shot them to death. In addition, both of the murderers forced some of their victims into submissive positions before slaying them. Moreover, authorities said that while in prison, Carpenter once boasted that he was the Zodiac killer.\nCapt. Ken Narlow of the Napa County sheriff's department, who has been dogging the Zodiac murderer's trail since July 1969, said news of the arrest 'really pricked up my ears.'\nNarlow said he checked his own files on the case Friday and found no mention of Carpenter but initially considered him a good prospect anyway.\nBut he said he then learned Carpenter was in federal prison from 1960 to April 1969, a period when three of the confirmed Zodiac murders were committed, 'so that tends to let him out as a suspect.'\nSan Francisco police Inspector Jim Deasy, another veteran Zodiac hunter, said when he first heard about Carpenter's arrest and saw a photo of the suspect, 'I really hoped that they had the Zodiac.'\nBut after checking the name through his own Zodiac files, he found that the suspect already had been eliminated from the investigation in the early '70s on the basis of fingerprints and handwriting samples.\n'We had received a call from a citizen raising Carpenter as a Zodiac suspect back then,' Deasy said, 'but we ruled him out on the basis of the evidence.' Newspaper Article Ken Narlow Jim Deasy UPI"
     },
     {
       "id": "recEeZ3xtE5AKkYB8",
@@ -25186,6 +25278,64 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "18th anniversary coverage, Morrill claims possible visit from Zodiac Newspaper Article San Francisco Sherwood Morrill"
+    },
+    {
+      "id": "rec0xk8jRcZ4F18Nk",
+      "slug": "article-on-berta-margoulies-s-career",
+      "kind": "event",
+      "title": "Article on Berta Margoulies's career",
+      "date": "1988-05-11",
+      "dateLabel": "Wed, May 11, 1988",
+      "year": 1988,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1988-05-11-9999-00428",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "",
+          "name": "Boston",
+          "slug": "boston"
+        },
+        {
+          "id": "",
+          "name": "MA",
+          "slug": "ma"
+        }
+      ],
+      "people": [
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        },
+        {
+          "id": "recJLC9aDDuTbSdEY",
+          "name": "Boston Globe",
+          "slug": "boston-globe"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attqSOkTi2XFK7H4B_The_Boston_Globe_1988_05_11_72.jpg",
+          "thumbUrl": "data/media/derived/thumb/attqSOkTi2XFK7H4B_The_Boston_Globe_1988_05_11_72.jpg",
+          "mediumUrl": "data/media/derived/medium/attqSOkTi2XFK7H4B_The_Boston_Globe_1988_05_11_72.jpg",
+          "derivativeState": "derived",
+          "label": "The_Boston_Globe_1988_05_11_72.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Article on Berta Margoulies's career Newspaper Article Boston, MA Boston MA Berta Margoulies Boston Globe"
     },
     {
       "id": "rec1Sj8XgYiEAz280",
@@ -27220,7 +27370,7 @@
       },
       {
         "value": "1988",
-        "count": 3
+        "count": 4
       },
       {
         "value": "1986",
@@ -27240,7 +27390,7 @@
       },
       {
         "value": "1981",
-        "count": 10
+        "count": 12
       },
       {
         "value": "1980",
@@ -27438,11 +27588,11 @@
       },
       {
         "value": "Media Event",
-        "count": 34
+        "count": 35
       },
       {
         "value": "Newspaper Article",
-        "count": 29
+        "count": 31
       },
       {
         "value": "Non-Zodiac Events",
@@ -27572,11 +27722,11 @@
       },
       {
         "value": "Boston",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Boston, MA",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Burley",
@@ -27920,7 +28070,7 @@
       },
       {
         "value": "MA",
-        "count": 2
+        "count": 3
       },
       {
         "value": "Manhattan",
@@ -28260,7 +28410,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 62
+        "count": 63
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -28601,6 +28751,10 @@
         "count": 1
       },
       {
+        "value": "Berta Margoulies",
+        "count": 1
+      },
+      {
         "value": "Betty Lou Jensen",
         "count": 9
       },
@@ -28614,6 +28768,10 @@
       },
       {
         "value": "Bob Luce",
+        "count": 1
+      },
+      {
+        "value": "Boston Globe",
         "count": 1
       },
       {
@@ -28854,7 +29012,7 @@
       },
       {
         "value": "Gareth Penn",
-        "count": 2
+        "count": 3
       },
       {
         "value": "Gary Francis Poste",
@@ -28931,6 +29089,10 @@
       {
         "value": "Jarl Van Eycke",
         "count": 1
+      },
+      {
+        "value": "Jim Deasy",
+        "count": 2
       },
       {
         "value": "Jim Dunbar",
@@ -29014,7 +29176,7 @@
       },
       {
         "value": "Ken Narlow",
-        "count": 14
+        "count": 16
       },
       {
         "value": "KGO-TV",
@@ -29414,6 +29576,10 @@
       },
       {
         "value": "Tom Voigt",
+        "count": 1
+      },
+      {
+        "value": "UPI",
         "count": 1
       },
       {
