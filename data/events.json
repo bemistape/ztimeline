@@ -18117,6 +18117,61 @@
       "searchText": "The Belli Letter is published Media Event San Francisco San Francisco Chronicle offices Zodiac Melvin Belli Zodiac Letters"
     },
     {
+      "id": "recQcTQCK2YbFjZPx",
+      "slug": "melvin-belli-makes-appeal-to-zodiac",
+      "kind": "event",
+      "title": "Melvin Belli makes appeal to Zodiac",
+      "date": "1969-12-29",
+      "dateLabel": "Mon, Dec 29, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-12-29-9999-00432",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "recXJdTXSNJPLgeJ2",
+          "name": "Melvin Belli",
+          "slug": "melvin-belli"
+        },
+        {
+          "id": "rechZGGRukF60iMfY",
+          "name": "Paul Avery",
+          "slug": "paul-avery"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att5PA7iUblHrSAE7_San_Francisco_Chronicle_1969_12_29_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/att5PA7iUblHrSAE7_San_Francisco_Chronicle_1969_12_29_1.jpg",
+          "mediumUrl": "data/media/derived/medium/att5PA7iUblHrSAE7_San_Francisco_Chronicle_1969_12_29_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1969_12_29_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attphirOE3eR1zhoE_San_Francisco_Chronicle_1969_12_29_18.jpg",
+          "thumbUrl": "data/media/derived/thumb/attphirOE3eR1zhoE_San_Francisco_Chronicle_1969_12_29_18.jpg",
+          "mediumUrl": "data/media/derived/medium/attphirOE3eR1zhoE_San_Francisco_Chronicle_1969_12_29_18.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1969_12_29_18.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Melvin Belli makes appeal to Zodiac Newspaper Article San Francisco Melvin Belli Paul Avery"
+    },
+    {
       "id": "recskalpbsFqpQEKB",
       "slug": "louie-myers-indicted-on-stolen-guns-charge",
       "kind": "event",
@@ -26315,6 +26370,70 @@
       "searchText": "Chester Klingel Jr.'s wife Blandina dies \"lived in Hughson for 20 years...\" Suspect Event Hughson, CA Turlock, CA Hughson CA Turlock Chester Clark Klingel Jr."
     },
     {
+      "id": "recRhyUJTuIrjjp60",
+      "slug": "hugh-penn-dies",
+      "kind": "event",
+      "title": "Hugh Penn dies",
+      "date": "1995-06-18",
+      "dateLabel": "Sun, Jun 18, 1995",
+      "year": 1995,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1995-06-18-9999-00431",
+      "type": "Suspect Event",
+      "description": "PENN, HUGH SCOTT In Sacramento, June 18, 1995. husband of Caroline. Loving father of Gareth Penn and Barbara Bell. Grandfather of Felix and Amanda Penn, Debra Terrance, Orvick and Christy Taglieri and Jenny and Edward Schwierzke and great grandfather of 13. Memorial and Reception on Saturday, July 1, 1995, 1 P.M to 5 P.M.\nat Club House, 10035 Mills Station Rd, Sacramento, CA.",
+      "excerpt": "PENN, HUGH SCOTT In Sacramento, June 18, 1995. husband of Caroline. Loving father of Gareth Penn and Barbara Bell. Grandfather of Felix and Amanda Penn, Debra Terrance, Orvick and Christy Taglieri and Jenny and Edward S…",
+      "locations": [
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "",
+          "name": "Sacramento",
+          "slug": "sacramento"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        },
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        }
+      ],
+      "tags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attiNUoH1EOKmZSCa_The_Sacramento_Bee_1995_06_21_23.jpg",
+          "thumbUrl": "data/media/derived/thumb/attiNUoH1EOKmZSCa_The_Sacramento_Bee_1995_06_21_23.jpg",
+          "mediumUrl": "data/media/derived/medium/attiNUoH1EOKmZSCa_The_Sacramento_Bee_1995_06_21_23.jpg",
+          "derivativeState": "derived",
+          "label": "The_Sacramento_Bee_1995_06_21_23.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Hugh Penn dies PENN, HUGH SCOTT In Sacramento, June 18, 1995. husband of Caroline. Loving father of Gareth Penn and Barbara Bell. Grandfather of Felix and Amanda Penn, Debra Terrance, Orvick and Christy Taglieri and Jenny and Edward Schwierzke and great grandfather of 13. Memorial and Reception on Saturday, July 1, 1995, 1 P.M to 5 P.M.\nat Club House, 10035 Mills Station Rd, Sacramento, CA. Suspect Event Sacramento, CA Sacramento CA Hugh Penn Gareth Penn Ray Grant's Zodiac Project Theory"
+    },
+    {
       "id": "rectCFafzTU3eqNbb",
       "slug": "sfpd-is-looking-into-kaczynski-zodiac-connection",
       "kind": "event",
@@ -27353,6 +27472,10 @@
         "count": 1
       },
       {
+        "value": "1995",
+        "count": 1
+      },
+      {
         "value": "1993",
         "count": 2
       },
@@ -27438,7 +27561,7 @@
       },
       {
         "value": "1969",
-        "count": 151
+        "count": 152
       },
       {
         "value": "1968",
@@ -27592,7 +27715,7 @@
       },
       {
         "value": "Newspaper Article",
-        "count": 31
+        "count": 32
       },
       {
         "value": "Non-Zodiac Events",
@@ -27608,7 +27731,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 103
+        "count": 104
       },
       {
         "value": "Uncategorized",
@@ -27746,7 +27869,7 @@
       },
       {
         "value": "CA",
-        "count": 151
+        "count": 152
       },
       {
         "value": "CA)",
@@ -28374,11 +28497,11 @@
       },
       {
         "value": "Sacramento",
-        "count": 5
+        "count": 6
       },
       {
         "value": "Sacramento, CA",
-        "count": 5
+        "count": 6
       },
       {
         "value": "Salt Point Ranch (State Park)",
@@ -28410,7 +28533,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 63
+        "count": 64
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -29012,7 +29135,7 @@
       },
       {
         "value": "Gareth Penn",
-        "count": 3
+        "count": 4
       },
       {
         "value": "Gary Francis Poste",
@@ -29056,6 +29179,10 @@
       },
       {
         "value": "Homer Your",
+        "count": 1
+      },
+      {
+        "value": "Hugh Penn",
         "count": 1
       },
       {
@@ -29236,7 +29363,7 @@
       },
       {
         "value": "Melvin Belli",
-        "count": 7
+        "count": 8
       },
       {
         "value": "Melvin Nicolai",
@@ -29308,7 +29435,7 @@
       },
       {
         "value": "Paul Avery",
-        "count": 10
+        "count": 11
       },
       {
         "value": "Paul Holes",
@@ -29710,7 +29837,7 @@
       },
       {
         "value": "Ray Grant's Zodiac Project Theory",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Renaissance Fairs",

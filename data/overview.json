@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-18T13:37:27.567189+00:00",
+  "generatedAt": "2026-04-18T19:11:41.345882+00:00",
   "stats": {
-    "events": 431,
+    "events": 433,
     "people": 328,
     "locations": 341,
     "tags": 43,
-    "images": 1617,
+    "images": 1620,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 151
+      "count": 152
     },
     {
       "value": 1970,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 103
+      "count": 104
     },
     {
       "value": "Case Event",
@@ -57,7 +57,7 @@
     },
     {
       "value": "Newspaper Article",
-      "count": 31
+      "count": 32
     },
     {
       "value": "Cultural Event",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 62,
+      "relatedEventCount": 63,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 18, 2026, 01:37 PM UTC",
+    "label": "Apr 18, 2026, 07:11 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "431 dated events spanning 1925 to 2025."
+      "description": "433 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

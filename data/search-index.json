@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:37:27.567189+00:00",
+  "generatedAt": "2026-04-18T19:11:41.345882+00:00",
   "items": [
     {
       "kind": "event",
@@ -2243,6 +2243,14 @@
     },
     {
       "kind": "event",
+      "id": "recQcTQCK2YbFjZPx",
+      "slug": "melvin-belli-makes-appeal-to-zodiac",
+      "title": "Melvin Belli makes appeal to Zodiac",
+      "subtitle": "Newspaper Article • Mon, Dec 29, 1969",
+      "searchText": "Melvin Belli makes appeal to Zodiac Newspaper Article  Melvin Belli Paul Avery San Francisco "
+    },
+    {
+      "kind": "event",
       "id": "recskalpbsFqpQEKB",
       "slug": "louie-myers-indicted-on-stolen-guns-charge",
       "title": "Louie Myers indicted on stolen guns charge",
@@ -3307,6 +3315,14 @@
     },
     {
       "kind": "event",
+      "id": "recRhyUJTuIrjjp60",
+      "slug": "hugh-penn-dies",
+      "title": "Hugh Penn dies",
+      "subtitle": "Suspect Event • Sun, Jun 18, 1995",
+      "searchText": "Hugh Penn dies Suspect Event PENN, HUGH SCOTT In Sacramento, June 18, 1995. husband of Caroline. Loving father of Gareth Penn and Barbara Bell. Grandfather of Felix and Amanda Penn, Debra Terrance, Orvick and Christy Taglieri and Jenny and Edward Schwierzke and great grandfather of 13. Memorial and Reception on Saturday, July 1, 1995, 1 P.M to 5 P.M.\nat Club House, 10035 Mills Station Rd, Sacramento, CA. Hugh Penn Gareth Penn Sacramento, CA Sacramento CA Ray Grant's Zodiac Project Theory"
+    },
+    {
+      "kind": "event",
       "id": "rectCFafzTU3eqNbb",
       "slug": "sfpd-is-looking-into-kaczynski-zodiac-connection",
       "title": "SFPD is looking into Kaczynski / Zodiac connection",
@@ -3555,19 +3571,19 @@
     },
     {
       "kind": "person",
+      "id": "rechZGGRukF60iMfY",
+      "slug": "paul-avery",
+      "title": "Paul Avery",
+      "subtitle": "Media,Key Figure,Deceased",
+      "searchText": "Paul Avery Media,Key Figure,Deceased Paul Avery The Halloween Card The Sierra Club Postcard The Exorcist Letter is published in the SF Chronicle Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Riverside connection is published in SF Chronicle \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" Paul Avery dies 20th anniversary coverage Melvin Belli makes appeal to Zodiac San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Fairfield, CA Orcas Island"
+    },
+    {
+      "kind": "person",
       "id": "rec0mHA5xfMB7wYES",
       "slug": "darlene-suennen-ferrin",
       "title": "Darlene (Suennen) Ferrin",
       "subtitle": "Canonical Victim,Deceased,Key Figure",
       "searchText": "Darlene (Suennen) Ferrin Canonical Victim,Deceased,Key Figure Only fatality in Blue Rock Springs Park case. Darlene (Suennen) Ferrin Blue Rock Springs Shooting Darlene Ferrin pronounced dead on arrival Autopsy of Darlene Ferrin Darlene (Suennen) Ferrin graduates Hogan High School Darlene Ferrin leaves home with Jim Phillips / Crabtree Darlene Suennen marries Jim Phillips Crabtree Darlene and Jim Phillips Crabtree return to Vallejo Darlene and Jim Phillips Crabtree divorce official The Painting Party Darlene Ferrin's sister Chris Suennen is 2nd runner-up in Miss Firecracker Terry's Restaurant Hogan High School Deena Lynn Ferrin Pontious Leo Suennen III Leo Suennen Jr. Norma Jean (Hightower) Suennen Jim Phillips Crabtree Pamela Jean Suennen Huckaby Dean Ferrin Christina Louise Suennen Linda Doris (Suennen) Del Buono Blue Rock Springs Park Vallejo, CA Home of Darlene Ferrin (January 1968) Solano County, CA California SF Bay Area United States of America Albany County, NY New York State Home of Darlene Ferrin (September 1969) Hogan High School (Vallejo, CA) Rosemead, CA Los Angeles County, CA Albany, NY Kaiser Hospital Twin Chapels Mortuary (Vallejo) Darlene Ferrin's parents home (1969) Reno, NV Attack at Blue Rock Springs Park The Painting Party"
-    },
-    {
-      "kind": "person",
-      "id": "rechZGGRukF60iMfY",
-      "slug": "paul-avery",
-      "title": "Paul Avery",
-      "subtitle": "Media,Key Figure,Deceased",
-      "searchText": "Paul Avery Media,Key Figure,Deceased Paul Avery The Halloween Card The Sierra Club Postcard The Exorcist Letter is published in the SF Chronicle Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Paul Avery discussed suspect \"Joost\" with Sherwood Morrill Riverside connection is published in SF Chronicle \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" Paul Avery dies 20th anniversary coverage San Francisco California SF Bay Area United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
     },
     {
       "kind": "person",
@@ -3603,6 +3619,14 @@
     },
     {
       "kind": "person",
+      "id": "recXJdTXSNJPLgeJ2",
+      "slug": "melvin-belli",
+      "title": "Melvin Belli",
+      "subtitle": "Key Figure,Other,Deceased",
+      "searchText": "Melvin Belli Key Figure,Other,Deceased Melvin Belli The Belli Letter \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Belli Letter is published Altamont Free Concert \"Sam\" doesn't show up at Fairmont Hotel “Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli Belli writes 20th anniversary letter to editor Melvin Belli makes appeal to Zodiac San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA Zodiac Buttons"
+    },
+    {
+      "kind": "person",
       "id": "recRnU2qlZ8hQDVp5",
       "slug": "ralph-spinelli",
       "title": "Ralph Spinelli",
@@ -3632,14 +3656,6 @@
       "title": "Louis (Louie) Joseph Myers",
       "subtitle": "Suspect,Deceased",
       "searchText": "Louis (Louie) Joseph Myers Suspect,Deceased Suspect alleged to have confessed multiple times. Louis (Louie) Joseph Myers Louie Myers indicted on stolen guns charge Louie Myers cleared in stolen guns charge Louis Myers arrested for alcohol/drugs at Hogan High School basketball game Louie Myers sentenced for marijuana possession Louie Myers serving in US Army in Germany Louis Myers arrested after traffic accident A (likely different) Louis Myers linked to burglary ring Hogan High School Louis Myers' parents residence in late 1960s Vallejo, CA Solano County, CA California SF Bay Area United States of America Hogan High School (Vallejo, CA) West Germany"
-    },
-    {
-      "kind": "person",
-      "id": "recXJdTXSNJPLgeJ2",
-      "slug": "melvin-belli",
-      "title": "Melvin Belli",
-      "subtitle": "Key Figure,Other,Deceased",
-      "searchText": "Melvin Belli Key Figure,Other,Deceased Melvin Belli The Belli Letter \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Belli Letter is published Altamont Free Concert \"Sam\" doesn't show up at Fairmont Hotel “Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli Belli writes 20th anniversary letter to editor San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA Zodiac Buttons"
     },
     {
       "kind": "person",
@@ -3744,6 +3760,14 @@
       "title": "Deer Lodge Prison",
       "subtitle": "Organization",
       "searchText": "Deer Lodge Prison Organization Possibly misheard prison Zodiac claimed to have escaped from. Deer Lodge Prison Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa Deer Lodge Prison mentioned in syndicated news clip Vallejo coverage of Deer Lodge escapees being recaptured Robertson interviews Bryan Hartnell at hospital Powell County, MT Montana United States of America Lake Berryessa Site of Lake Berryessa Zodiac Encounter Napa, CA Oakland, CA Deer Lodge, MT Vallejo, CA Queen of the Valley Hospital (Napa, CA) Attack at Lake Berryessa"
+    },
+    {
+      "kind": "person",
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "searchText": "Gareth Penn Author,Researcher,Suspect Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Gareth Penn Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Gareth Penn writes article in California Magazine under pen name Article on continued interest in Zodiac case Hugh Penn dies Hugh Penn Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Sacramento, CA Ray Grant's Zodiac Project Theory"
     },
     {
       "kind": "person",
@@ -3872,14 +3896,6 @@
       "title": "FBI",
       "subtitle": "Law Enforcement",
       "searchText": "FBI Law Enforcement FBI FBI Confirms Z340 Solved FBI in Butte, MT asked to investigate escapees FBI fingerprint analysis finds no matches on Berryessa latents Butte, MT Silver Bow County, MT Montana United States of America Napa County, CA"
-    },
-    {
-      "kind": "person",
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "searchText": "Gareth Penn Author,Researcher,Suspect Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Gareth Penn Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Gareth Penn writes article in California Magazine under pen name Article on continued interest in Zodiac case Hugh Penn Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Ray Grant's Zodiac Project Theory"
     },
     {
       "kind": "person",
@@ -4771,6 +4787,14 @@
     },
     {
       "kind": "person",
+      "id": "rec6qfvgItNNAztyn",
+      "slug": "hugh-penn",
+      "title": "Hugh Penn",
+      "subtitle": "Suspect,Deceased",
+      "searchText": "Hugh Penn Suspect,Deceased Father of Gareth Penn and Zodiac suspect to Ray Davis Hugh Penn Hugh Penn dies Gareth Penn Sacramento, CA Sacramento County, CA California United States of America"
+    },
+    {
+      "kind": "person",
       "id": "rechlB2ckHI3rm1um",
       "slug": "jack-e-stiltz",
       "title": "Jack E. Stiltz",
@@ -5491,14 +5515,6 @@
     },
     {
       "kind": "person",
-      "id": "rec6qfvgItNNAztyn",
-      "slug": "hugh-penn",
-      "title": "Hugh Penn",
-      "subtitle": "Suspect,Deceased",
-      "searchText": "Hugh Penn Suspect,Deceased Father of Gareth Penn and Zodiac suspect to Ray Davis Hugh Penn Gareth Penn Sacramento, CA Sacramento County, CA California United States of America"
-    },
-    {
-      "kind": "person",
       "id": "rec3ixoJoTAwLU48y",
       "slug": "hughson-union-high-school",
       "title": "Hughson Union High School",
@@ -6079,7 +6095,7 @@
       "slug": "san-francisco",
       "title": "San Francisco",
       "subtitle": "City",
-      "searchText": "San Francisco City \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Halloween Card The Button Letter, Z32, & Mt. Diablo Map The SLA Letter The Badlands Letter is mailed The Red Phantom Letter is mailed The Dragon Card The Exorcist Letter Vallejo Times-Herald article on Toschi The \"My name is” / Z13 Letter The Stine Letter w/ Shirt Piece David Joseph Carpenter arrested for Trailside Killings Lynn Swann lawsuit against SFPD over harassment SF Examiner article asking where Zodiac went Charlie Chan at Treasure Island airs in SF area in 1968 Charlie Chan at Treasure Island runs on Channel 44 Count Marco's Chicago letter referencing Red Phantom Count Marco's Happily Married letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle The Belli Letter is published Stine Letter is published, Zodiac linked Donna Lass disappearance publicized in San Francisco Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets \"Sam\" doesn't show up at Fairmont Hotel Paul Stine begins his shift Paul Stine receives final dispatch from Mason & Geary to Presidio Heights Paul Avery discussed suspect \"Joost\" with Sherwood Morrill The Dripping Pen Card & Z340 Cipher mailed Earl Van Best arrested for \"child stealing\" Earl Van Best sentenced for \"Ice Cream Romance\" Paul Stine funeral media coverage Schilling released; Toschi doubts as suspect Riverside connection is published in SF Chronicle Dr. D.C.B. Marsh dares Zodiac to reveal name Paul Doerr writes letter to editor referencing \"slaves\" Cabbie claims encounter with Zodiac Cabbie's story about mugging is publicized Fouke report on Stine murder \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" SF Examiner: \"Zodiac Linked to Five Area Murders\" SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Dick Tracy: Zodiac plotline (10/11/1969) copy Zodiac Press Coverage [8/4/1969] Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Chester Clark Klingel Jr. is certified as a seaman SFPD deactivates Zodiac case 20th anniversary coverage Belli writes 20th anniversary letter to editor SF Examiner's front page message to Zodiac 18th anniversary coverage, Morrill claims possible visit from Zodiac William McDuff Andrew is born Article on continued interest in Zodiac case Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis The Presidio SFPD Headquarters Daphne Funeral Service Paul Stine's home San Francisco Chronicle offices Home of Rick Marshall (1969) Mason & Geary (Union Square) First Unitarian Church (San Francisco) Presidio Heights RKO Golden Gate Theatre Golden Gate Park Police Station Site of Paul Stine's MurderThe PresidioSFPD HeadquartersDaphne Funeral ServicePaul Stine's homeSan Francisco Chronicle officesHome of Rick Marshall (1969)Mason & Geary (Union Square)First Unitarian Church (San Francisco)Presidio HeightsRKO Golden Gate TheatreGolden Gate Park Police Station Zodiac Letters"
+      "searchText": "San Francisco City \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Halloween Card The Button Letter, Z32, & Mt. Diablo Map The SLA Letter The Badlands Letter is mailed The Red Phantom Letter is mailed The Dragon Card The Exorcist Letter Vallejo Times-Herald article on Toschi The \"My name is” / Z13 Letter The Stine Letter w/ Shirt Piece David Joseph Carpenter arrested for Trailside Killings Lynn Swann lawsuit against SFPD over harassment SF Examiner article asking where Zodiac went Charlie Chan at Treasure Island airs in SF area in 1968 Charlie Chan at Treasure Island runs on Channel 44 Count Marco's Chicago letter referencing Red Phantom Count Marco's Happily Married letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle The Belli Letter is published Stine Letter is published, Zodiac linked Donna Lass disappearance publicized in San Francisco Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets \"Sam\" doesn't show up at Fairmont Hotel Paul Stine begins his shift Paul Stine receives final dispatch from Mason & Geary to Presidio Heights Paul Avery discussed suspect \"Joost\" with Sherwood Morrill The Dripping Pen Card & Z340 Cipher mailed Earl Van Best arrested for \"child stealing\" Earl Van Best sentenced for \"Ice Cream Romance\" Paul Stine funeral media coverage Schilling released; Toschi doubts as suspect Riverside connection is published in SF Chronicle Dr. D.C.B. Marsh dares Zodiac to reveal name Paul Doerr writes letter to editor referencing \"slaves\" Cabbie claims encounter with Zodiac Cabbie's story about mugging is publicized Fouke report on Stine murder \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" SF Examiner: \"Zodiac Linked to Five Area Murders\" SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Dick Tracy: Zodiac plotline (10/11/1969) copy Zodiac Press Coverage [8/4/1969] Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Chester Clark Klingel Jr. is certified as a seaman SFPD deactivates Zodiac case 20th anniversary coverage Belli writes 20th anniversary letter to editor SF Examiner's front page message to Zodiac 18th anniversary coverage, Morrill claims possible visit from Zodiac William McDuff Andrew is born Article on continued interest in Zodiac case Melvin Belli makes appeal to Zodiac Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis The Presidio SFPD Headquarters Daphne Funeral Service Paul Stine's home San Francisco Chronicle offices Home of Rick Marshall (1969) Mason & Geary (Union Square) First Unitarian Church (San Francisco) Presidio Heights RKO Golden Gate Theatre Golden Gate Park Police Station Site of Paul Stine's MurderThe PresidioSFPD HeadquartersDaphne Funeral ServicePaul Stine's homeSan Francisco Chronicle officesHome of Rick Marshall (1969)Mason & Geary (Union Square)First Unitarian Church (San Francisco)Presidio HeightsRKO Golden Gate TheatreGolden Gate Park Police Station Zodiac Letters"
     },
     {
       "kind": "location",
@@ -6171,6 +6187,14 @@
     },
     {
       "kind": "location",
+      "id": "recbF7clima1I0zrq",
+      "slug": "sacramento-ca",
+      "title": "Sacramento, CA",
+      "subtitle": "City",
+      "searchText": "Sacramento, CA City 1986 Letter Received Sherwood Morrill: ALA's handwriting doesn't match Zodiac Donna Lass disappearance publicized in Sacramento Donna Lass family offers reward Paul Stine's father Teddy is mugged for $2 Hugh Penn dies Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
+    },
+    {
+      "kind": "location",
       "id": "reccno8wWTHdS0Go6",
       "slug": "site-of-lake-berryessa-zodiac-encounter",
       "title": "Site of Lake Berryessa Zodiac Encounter",
@@ -6216,14 +6240,6 @@
       "title": "Queen of the Valley Hospital (Napa, CA)",
       "subtitle": "Hospital",
       "searchText": "Queen of the Valley Hospital (Napa, CA) Hospital Cecelia Shepard dies Hal Snook meets Narlow at Queen of the Valley Hospital Hal Snook returns to Sheriff's Dept. from Lake Berryessa Robertson interviews Bryan Hartnell at hospital Narlow and Lonergan leave hospital Bryan Calvin Hartnell Cecelia Ann Shepard Peter Gasser Attack at Lake Berryessa"
-    },
-    {
-      "kind": "location",
-      "id": "recbF7clima1I0zrq",
-      "slug": "sacramento-ca",
-      "title": "Sacramento, CA",
-      "subtitle": "City",
-      "searchText": "Sacramento, CA City 1986 Letter Received Sherwood Morrill: ALA's handwriting doesn't match Zodiac Donna Lass disappearance publicized in Sacramento Donna Lass family offers reward Paul Stine's father Teddy is mugged for $2 Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
     },
     {
       "kind": "location",
@@ -8939,6 +8955,14 @@
     },
     {
       "kind": "tag",
+      "id": "rec8LU7p4LGaQ2Uvz",
+      "slug": "ray-grant-s-zodiac-project-theory",
+      "title": "Ray Grant's Zodiac Project Theory",
+      "subtitle": "",
+      "searchText": "Ray Grant's Zodiac Project Theory Michael O'Hare's essay Confessions of a Non-Serial Killer is published Hugh Penn dies Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Ray Grant Gareth Penn Berta Margoulies Michael O'Hare"
+    },
+    {
+      "kind": "tag",
       "id": "rect44YEtF3jKtHcB",
       "slug": "the-408-cipher",
       "title": "The 408 Cipher",
@@ -8976,14 +9000,6 @@
       "title": "Domingos–Edwards Murders",
       "subtitle": "",
       "searchText": "Domingos–Edwards Murders Domingos–Edwards Murders Santa Barbara Sheriff Press Release on 1963 Case"
-    },
-    {
-      "kind": "tag",
-      "id": "rec8LU7p4LGaQ2Uvz",
-      "slug": "ray-grant-s-zodiac-project-theory",
-      "title": "Ray Grant's Zodiac Project Theory",
-      "subtitle": "",
-      "searchText": "Ray Grant's Zodiac Project Theory Michael O'Hare's essay Confessions of a Non-Serial Killer is published Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published Ray Grant Gareth Penn Berta Margoulies Michael O'Hare"
     },
     {
       "kind": "tag",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:37:27.567189+00:00",
+  "generatedAt": "2026-04-18T19:11:41.345882+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -3807,6 +3807,155 @@
       "searchText": "Hal Snook Hal Snook Detective and evidence technician for Napa County Sheriff's Department. Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Pay Phone at Main and Clinton Streets Lake Berryessa Site of Lake Berryessa Zodiac Encounter Lake Berryessa Park Headquarters"
     },
     {
+      "id": "rechZGGRukF60iMfY",
+      "slug": "paul-avery",
+      "kind": "person",
+      "title": "Paul Avery",
+      "subtitle": "Media,Key Figure,Deceased",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Paul Avery"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
+          "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
+          "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attb5ON0dWnOcPsco_image.png",
+          "thumbUrl": "data/media/derived/thumb/attb5ON0dWnOcPsco_image.png",
+          "mediumUrl": "data/media/derived/medium/attb5ON0dWnOcPsco_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
+        "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
+        "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recizrRQXnSUiCjTN",
+          "name": "The Halloween Card",
+          "slug": "the-halloween-card"
+        },
+        {
+          "id": "recqhrDZc0vFnQ3hA",
+          "name": "The Sierra Club Postcard",
+          "slug": "the-sierra-club-postcard"
+        },
+        {
+          "id": "recbqZHt9IKbuEiz9",
+          "name": "The Exorcist Letter is published in the SF Chronicle",
+          "slug": "the-exorcist-letter-is-published-in-the-sf-chronicle"
+        },
+        {
+          "id": "recpRXga559CrkZK3",
+          "name": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders",
+          "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
+        },
+        {
+          "id": "rech0wvV5yOtV7EQl",
+          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
+          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
+        },
+        {
+          "id": "recx232Yd4vQml60O",
+          "name": "Riverside connection is published in SF Chronicle",
+          "slug": "riverside-connection-is-published-in-sf-chronicle"
+        },
+        {
+          "id": "recYh6IyIS3J1JDgA",
+          "name": "\"A Challenge for the Zodiac\" letter sent to Paul Avery",
+          "slug": "a-challenge-for-the-zodiac-letter-sent-to-paul-avery"
+        },
+        {
+          "id": "recgJ1EWqnfuw0hMi",
+          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
+          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
+        },
+        {
+          "id": "reczaA9PmWsLnLsjE",
+          "name": "Paul Avery dies",
+          "slug": "paul-avery-dies"
+        },
+        {
+          "id": "recVkmC71zHdSruSd",
+          "name": "20th anniversary coverage",
+          "slug": "20th-anniversary-coverage"
+        },
+        {
+          "id": "recQcTQCK2YbFjZPx",
+          "name": "Melvin Belli makes appeal to Zodiac",
+          "slug": "melvin-belli-makes-appeal-to-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
+        },
+        {
+          "id": "recUJsymsZJwwCLW9",
+          "name": "Fairfield, CA",
+          "slug": "fairfield-ca"
+        },
+        {
+          "id": "rec2AYAwnvhF93M0w",
+          "name": "Orcas Island",
+          "slug": "orcas-island"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 11,
+      "searchText": "Paul Avery Paul Avery  San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Fairfield, CA Orcas Island"
+    },
+    {
       "id": "rec0mHA5xfMB7wYES",
       "slug": "darlene-suennen-ferrin",
       "kind": "person",
@@ -4114,150 +4263,6 @@
       ],
       "relatedEventCount": 10,
       "searchText": "Darlene (Suennen) Ferrin Darlene (Suennen) Ferrin Only fatality in Blue Rock Springs Park case. Blue Rock Springs Park Vallejo, CA Home of Darlene Ferrin (January 1968) Solano County, CA California SF Bay Area United States of America Albany County, NY New York State Home of Darlene Ferrin (September 1969) Hogan High School (Vallejo, CA) Rosemead, CA Los Angeles County, CA Albany, NY Kaiser Hospital Twin Chapels Mortuary (Vallejo) Darlene Ferrin's parents home (1969) Reno, NV"
-    },
-    {
-      "id": "rechZGGRukF60iMfY",
-      "slug": "paul-avery",
-      "kind": "person",
-      "title": "Paul Avery",
-      "subtitle": "Media,Key Figure,Deceased",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Paul Avery"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
-          "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
-          "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attb5ON0dWnOcPsco_image.png",
-          "thumbUrl": "data/media/derived/thumb/attb5ON0dWnOcPsco_image.png",
-          "mediumUrl": "data/media/derived/medium/attb5ON0dWnOcPsco_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attVOidYz8Fo8Gpp0_image.png",
-        "thumbUrl": "data/media/derived/thumb/attVOidYz8Fo8Gpp0_image.png",
-        "mediumUrl": "data/media/derived/medium/attVOidYz8Fo8Gpp0_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recizrRQXnSUiCjTN",
-          "name": "The Halloween Card",
-          "slug": "the-halloween-card"
-        },
-        {
-          "id": "recqhrDZc0vFnQ3hA",
-          "name": "The Sierra Club Postcard",
-          "slug": "the-sierra-club-postcard"
-        },
-        {
-          "id": "recbqZHt9IKbuEiz9",
-          "name": "The Exorcist Letter is published in the SF Chronicle",
-          "slug": "the-exorcist-letter-is-published-in-the-sf-chronicle"
-        },
-        {
-          "id": "recpRXga559CrkZK3",
-          "name": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders",
-          "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
-        },
-        {
-          "id": "rech0wvV5yOtV7EQl",
-          "name": "Paul Avery discussed suspect \"Joost\" with Sherwood Morrill",
-          "slug": "paul-avery-discussed-suspect-joost-with-sherwood-morrill"
-        },
-        {
-          "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
-        },
-        {
-          "id": "recYh6IyIS3J1JDgA",
-          "name": "\"A Challenge for the Zodiac\" letter sent to Paul Avery",
-          "slug": "a-challenge-for-the-zodiac-letter-sent-to-paul-avery"
-        },
-        {
-          "id": "recgJ1EWqnfuw0hMi",
-          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
-          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
-        },
-        {
-          "id": "reczaA9PmWsLnLsjE",
-          "name": "Paul Avery dies",
-          "slug": "paul-avery-dies"
-        },
-        {
-          "id": "recVkmC71zHdSruSd",
-          "name": "20th anniversary coverage",
-          "slug": "20th-anniversary-coverage"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recUJsymsZJwwCLW9",
-          "name": "Fairfield, CA",
-          "slug": "fairfield-ca"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
-        },
-        {
-          "id": "rec2AYAwnvhF93M0w",
-          "name": "Orcas Island",
-          "slug": "orcas-island"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Paul%20Avery&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 10,
-      "searchText": "Paul Avery Paul Avery  San Francisco California SF Bay Area United States of America Fairfield, CA San Francisco Chronicle offices Orcas Island"
     },
     {
       "id": "recVvuvbfvZdCyti3",
@@ -5025,6 +5030,139 @@
       "searchText": "Vallejo Times-Herald Vallejo Times-Herald  California United States of America SF Bay Area Vallejo, CA Solano County, CA San Francisco Deer Lodge, MT Oakland, CA Los Angeles"
     },
     {
+      "id": "recXJdTXSNJPLgeJ2",
+      "slug": "melvin-belli",
+      "kind": "person",
+      "title": "Melvin Belli",
+      "subtitle": "Key Figure,Other,Deceased",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Melvin Belli"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
+          "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
+          "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
+        "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
+        "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recy8o4AXk9zvM8sK",
+          "name": "The Belli Letter",
+          "slug": "the-belli-letter"
+        },
+        {
+          "id": "recxGz79HUu6CppHD",
+          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
+          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
+        },
+        {
+          "id": "recoCZBzqVEAptCbE",
+          "name": "The Belli Letter is published",
+          "slug": "the-belli-letter-is-published"
+        },
+        {
+          "id": "reccd7XPakkOugSk6",
+          "name": "Altamont Free Concert",
+          "slug": "altamont-free-concert"
+        },
+        {
+          "id": "recKFvrTEomZrRD6W",
+          "name": "\"Sam\" doesn't show up at Fairmont Hotel",
+          "slug": "sam-doesn-t-show-up-at-fairmont-hotel"
+        },
+        {
+          "id": "recqjXpshDLXC0Wfl",
+          "name": "“Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli",
+          "slug": "zodiac-call-to-oakland-pd-re-f-lee-bailey-and-melvin-belli"
+        },
+        {
+          "id": "recktcfKy0caNre6j",
+          "name": "Belli writes 20th anniversary letter to editor",
+          "slug": "belli-writes-20th-anniversary-letter-to-editor"
+        },
+        {
+          "id": "recQcTQCK2YbFjZPx",
+          "name": "Melvin Belli makes appeal to Zodiac",
+          "slug": "melvin-belli-makes-appeal-to-zodiac"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec3SXc62X9TM4dMm",
+          "name": "San Francisco Chronicle offices",
+          "slug": "san-francisco-chronicle-offices"
+        },
+        {
+          "id": "recyZAyFBufsf5Us6",
+          "name": "Livermore, CA",
+          "slug": "livermore-ca"
+        },
+        {
+          "id": "recs7w51lbAk0oeE7",
+          "name": "Oakland, CA",
+          "slug": "oakland-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "reckeGmUh2Oxiy7Pr",
+          "name": "Zodiac Buttons",
+          "slug": "zodiac-buttons"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 8,
+      "searchText": "Melvin Belli Melvin Belli  San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA"
+    },
+    {
       "id": "recRnU2qlZ8hQDVp5",
       "slug": "ralph-spinelli",
       "kind": "person",
@@ -5727,134 +5865,6 @@
       ],
       "relatedEventCount": 7,
       "searchText": "Louis (Louie) Joseph Myers Louis (Louie) Joseph Myers Suspect alleged to have confessed multiple times. Louis Myers' parents residence in late 1960s Vallejo, CA Solano County, CA California SF Bay Area United States of America Hogan High School (Vallejo, CA) West Germany"
-    },
-    {
-      "id": "recXJdTXSNJPLgeJ2",
-      "slug": "melvin-belli",
-      "kind": "person",
-      "title": "Melvin Belli",
-      "subtitle": "Key Figure,Other,Deceased",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Melvin Belli"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
-          "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
-          "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attPH0jh5dWpp25A3_image.png",
-        "thumbUrl": "data/media/derived/thumb/attPH0jh5dWpp25A3_image.png",
-        "mediumUrl": "data/media/derived/medium/attPH0jh5dWpp25A3_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recy8o4AXk9zvM8sK",
-          "name": "The Belli Letter",
-          "slug": "the-belli-letter"
-        },
-        {
-          "id": "recxGz79HUu6CppHD",
-          "name": "\"Sam\" calls in to Jim Dunbar episode with Melvin Belli",
-          "slug": "sam-calls-in-to-jim-dunbar-episode-with-melvin-belli"
-        },
-        {
-          "id": "recoCZBzqVEAptCbE",
-          "name": "The Belli Letter is published",
-          "slug": "the-belli-letter-is-published"
-        },
-        {
-          "id": "reccd7XPakkOugSk6",
-          "name": "Altamont Free Concert",
-          "slug": "altamont-free-concert"
-        },
-        {
-          "id": "recKFvrTEomZrRD6W",
-          "name": "\"Sam\" doesn't show up at Fairmont Hotel",
-          "slug": "sam-doesn-t-show-up-at-fairmont-hotel"
-        },
-        {
-          "id": "recqjXpshDLXC0Wfl",
-          "name": "“Zodiac” call to Oakland PD re: F. Lee Bailey and Melvin Belli",
-          "slug": "zodiac-call-to-oakland-pd-re-f-lee-bailey-and-melvin-belli"
-        },
-        {
-          "id": "recktcfKy0caNre6j",
-          "name": "Belli writes 20th anniversary letter to editor",
-          "slug": "belli-writes-20th-anniversary-letter-to-editor"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
-        },
-        {
-          "id": "recyZAyFBufsf5Us6",
-          "name": "Livermore, CA",
-          "slug": "livermore-ca"
-        },
-        {
-          "id": "recs7w51lbAk0oeE7",
-          "name": "Oakland, CA",
-          "slug": "oakland-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "reckeGmUh2Oxiy7Pr",
-          "name": "Zodiac Buttons",
-          "slug": "zodiac-buttons"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Melvin%20Belli&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 7,
-      "searchText": "Melvin Belli Melvin Belli  San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA"
     },
     {
       "id": "recRqEatrDv8cGa4n",
@@ -7668,6 +7678,149 @@
       ],
       "relatedEventCount": 4,
       "searchText": "Deer Lodge Prison Deer Lodge Prison Possibly misheard prison Zodiac claimed to have escaped from. Powell County, MT Montana United States of America Lake Berryessa Site of Lake Berryessa Zodiac Encounter Napa, CA Oakland, CA Deer Lodge, MT Vallejo, CA Queen of the Valley Hospital (Napa, CA)"
+    },
+    {
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "kind": "person",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
+      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
+      "aliases": [
+        "Gareth Penn"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
+          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1941-01-01"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recCSF1fIrw68Th7U",
+          "name": "Gareth Penn writes article in California Magazine under pen name",
+          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
+        },
+        {
+          "id": "recGDigROyNfU6rJ6",
+          "name": "Article on continued interest in Zodiac case",
+          "slug": "article-on-continued-interest-in-zodiac-case"
+        },
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 4,
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Sacramento, CA"
     },
     {
       "id": "recfaGz7ecM0l0K1x",
@@ -9493,139 +9646,6 @@
       ],
       "relatedEventCount": 3,
       "searchText": "FBI FBI  Butte, MT Silver Bow County, MT Montana United States of America Napa County, CA"
-    },
-    {
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "kind": "person",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
-      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
-      "aliases": [
-        "Gareth Penn"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
-          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
-          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1941-01-01"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recCSF1fIrw68Th7U",
-          "name": "Gareth Penn writes article in California Magazine under pen name",
-          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
-        },
-        {
-          "id": "recGDigROyNfU6rJ6",
-          "name": "Article on continued interest in Zodiac case",
-          "slug": "article-on-continued-interest-in-zodiac-case"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec6qfvgItNNAztyn",
-          "name": "Hugh Penn",
-          "slug": "hugh-penn"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 3,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco"
     },
     {
       "id": "rechQ8DiwyQxNXqRI",
@@ -19189,6 +19209,87 @@
       "searchText": "Homer Your Homer Your  Lake Herman Road Zodiac Site Lake Herman Road Marshall Ranch"
     },
     {
+      "id": "rec6qfvgItNNAztyn",
+      "slug": "hugh-penn",
+      "kind": "person",
+      "title": "Hugh Penn",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
+      "excerpt": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
+      "aliases": [
+        "Hugh Penn"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Hugh Scott Penn"
+        },
+        {
+          "label": "Born",
+          "value": "1913-10-19"
+        },
+        {
+          "label": "Died",
+          "value": "1995-06-18"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Sacramento, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "recvqiA6dpfU6HX68",
+          "name": "Sacramento County, CA",
+          "slug": "sacramento-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Hugh Penn Hugh Penn Father of Gareth Penn and Zodiac suspect to Ray Davis Sacramento, CA Sacramento County, CA California United States of America"
+    },
+    {
       "id": "rechlB2ckHI3rm1um",
       "slug": "jack-e-stiltz",
       "kind": "person",
@@ -25389,81 +25490,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Highland Elementary School Highland Elementary School Elementary of Arthur Leigh Allen Highland Elementary School (Vallejo, CA) Vallejo, CA Solano County, CA California SF Bay Area United States of America"
-    },
-    {
-      "id": "rec6qfvgItNNAztyn",
-      "slug": "hugh-penn",
-      "kind": "person",
-      "title": "Hugh Penn",
-      "subtitle": "Suspect,Deceased",
-      "summary": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
-      "excerpt": "Father of Gareth Penn and Zodiac suspect to Ray Davis",
-      "aliases": [
-        "Hugh Penn"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Extended Name",
-          "value": "Hugh Scott Penn"
-        },
-        {
-          "label": "Born",
-          "value": "1913-10-19"
-        },
-        {
-          "label": "Died",
-          "value": "1995-06-18"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Sacramento, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recbF7clima1I0zrq",
-          "name": "Sacramento, CA",
-          "slug": "sacramento-ca"
-        },
-        {
-          "id": "recvqiA6dpfU6HX68",
-          "name": "Sacramento County, CA",
-          "slug": "sacramento-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recbmC37Z7MsD78qO",
-          "name": "Gareth Penn",
-          "slug": "gareth-penn"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Hugh%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Hugh Penn Hugh Penn Father of Gareth Penn and Zodiac suspect to Ray Davis Sacramento, CA Sacramento County, CA California United States of America"
     },
     {
       "id": "rec3ixoJoTAwLU48y",

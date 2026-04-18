@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:37:27.567189+00:00",
+  "generatedAt": "2026-04-18T19:11:41.345882+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -341,6 +341,11 @@
           "id": "recGDigROyNfU6rJ6",
           "name": "Article on continued interest in Zodiac case",
           "slug": "article-on-continued-interest-in-zodiac-case"
+        },
+        {
+          "id": "recQcTQCK2YbFjZPx",
+          "name": "Melvin Belli makes appeal to Zodiac",
+          "slug": "melvin-belli-makes-appeal-to-zodiac"
         }
       ],
       "relatedLocations": [
@@ -610,7 +615,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 62,
+      "relatedEventCount": 63,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"
@@ -4316,6 +4321,108 @@
       "searchText": "Riverside, CA City Cecelia Ann Shepard Cheri Jo Bates Cleophus Martin Ross Sullivan Rick Marshall Riverside City College Library Sgt. H.L. Homsher Chief Lambert T. Kinkead Riverside Community College Ramona High School Dr. Byron Thomas Sanford Riverside Police Department Joseph C. Bates"
     },
     {
+      "id": "recbF7clima1I0zrq",
+      "slug": "sacramento-ca",
+      "kind": "location",
+      "title": "Sacramento, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/att0UyuKH4iKUieE1_image.png",
+          "thumbUrl": "data/media/derived/thumb/att0UyuKH4iKUieE1_image.png",
+          "mediumUrl": "data/media/derived/medium/att0UyuKH4iKUieE1_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att0UyuKH4iKUieE1_image.png",
+        "thumbUrl": "data/media/derived/thumb/att0UyuKH4iKUieE1_image.png",
+        "mediumUrl": "data/media/derived/medium/att0UyuKH4iKUieE1_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Sacramento County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recz9YByxXoFgGev6",
+          "name": "1986 Letter Received",
+          "slug": "1986-letter-received"
+        },
+        {
+          "id": "recY8uibcMAlgpNjH",
+          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
+          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
+        },
+        {
+          "id": "reckvwcBAloLsUTty",
+          "name": "Donna Lass disappearance publicized in Sacramento",
+          "slug": "donna-lass-disappearance-publicized-in-sacramento"
+        },
+        {
+          "id": "recrG37nAYJMMtYh6",
+          "name": "Donna Lass family offers reward",
+          "slug": "donna-lass-family-offers-reward"
+        },
+        {
+          "id": "recXknCyKvIzH91gd",
+          "name": "Paul Stine's father Teddy is mugged for $2",
+          "slug": "paul-stine-s-father-teddy-is-mugged-for-2"
+        },
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "rec5opHF6J5pu58Uu",
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
+        },
+        {
+          "id": "recHAUWE3twddRu2F",
+          "name": "The Sacramento Union",
+          "slug": "the-sacramento-union"
+        },
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        },
+        {
+          "id": "recZR4bvZKAmYMZig",
+          "name": "Sacramento Bee",
+          "slug": "sacramento-bee"
+        },
+        {
+          "id": "recHSYzOkQQlT4kUl",
+          "name": "Teddy (Theodore) Milford Stine",
+          "slug": "teddy-theodore-milford-stine"
+        },
+        {
+          "id": "rech3JueleNinpQ3d",
+          "name": "Melvin Nicolai",
+          "slug": "melvin-nicolai"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 6,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Sacramento, CA City Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
+    },
+    {
       "id": "reccno8wWTHdS0Go6",
       "slug": "site-of-lake-berryessa-zodiac-encounter",
       "kind": "location",
@@ -4869,103 +4976,6 @@
       "mapOpenUrl": "https://maps.app.goo.gl/6yoirio3SJFzs787A",
       "mapEmbedUrl": "",
       "searchText": "Queen of the Valley Hospital (Napa, CA) Hospital Bryan Calvin Hartnell Cecelia Ann Shepard Peter Gasser"
-    },
-    {
-      "id": "recbF7clima1I0zrq",
-      "slug": "sacramento-ca",
-      "kind": "location",
-      "title": "Sacramento, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [
-        {
-          "originalUrl": "data/media/att0UyuKH4iKUieE1_image.png",
-          "thumbUrl": "data/media/derived/thumb/att0UyuKH4iKUieE1_image.png",
-          "mediumUrl": "data/media/derived/medium/att0UyuKH4iKUieE1_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/att0UyuKH4iKUieE1_image.png",
-        "thumbUrl": "data/media/derived/thumb/att0UyuKH4iKUieE1_image.png",
-        "mediumUrl": "data/media/derived/medium/att0UyuKH4iKUieE1_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Sacramento County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recz9YByxXoFgGev6",
-          "name": "1986 Letter Received",
-          "slug": "1986-letter-received"
-        },
-        {
-          "id": "recY8uibcMAlgpNjH",
-          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
-          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
-        },
-        {
-          "id": "reckvwcBAloLsUTty",
-          "name": "Donna Lass disappearance publicized in Sacramento",
-          "slug": "donna-lass-disappearance-publicized-in-sacramento"
-        },
-        {
-          "id": "recrG37nAYJMMtYh6",
-          "name": "Donna Lass family offers reward",
-          "slug": "donna-lass-family-offers-reward"
-        },
-        {
-          "id": "recXknCyKvIzH91gd",
-          "name": "Paul Stine's father Teddy is mugged for $2",
-          "slug": "paul-stine-s-father-teddy-is-mugged-for-2"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Morrill",
-          "slug": "sherwood-morrill"
-        },
-        {
-          "id": "recHAUWE3twddRu2F",
-          "name": "The Sacramento Union",
-          "slug": "the-sacramento-union"
-        },
-        {
-          "id": "rec6qfvgItNNAztyn",
-          "name": "Hugh Penn",
-          "slug": "hugh-penn"
-        },
-        {
-          "id": "recZR4bvZKAmYMZig",
-          "name": "Sacramento Bee",
-          "slug": "sacramento-bee"
-        },
-        {
-          "id": "recHSYzOkQQlT4kUl",
-          "name": "Teddy (Theodore) Milford Stine",
-          "slug": "teddy-theodore-milford-stine"
-        },
-        {
-          "id": "rech3JueleNinpQ3d",
-          "name": "Melvin Nicolai",
-          "slug": "melvin-nicolai"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 5,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Sacramento, CA City Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
     },
     {
       "id": "reclf44XCEHjVBWFJ",
