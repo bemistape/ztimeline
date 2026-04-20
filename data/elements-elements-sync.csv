@@ -1,12 +1,12 @@
-﻿_Airtable Record ID,Element Key,Element Type,Label,Body,Sort Order,Published,Locale,Notes,Link Label,Link URL
-recsGJcSvEg9zik7V,site.title,text,Site Title,ZTimeline,10,true,en-US,Primary site title shown in hero and browser metadata.,,
-recwLf3UMSOfwZceJ,site.subtitle,text,Site Subtitle,Timeline,20,true,en-US,Short eyebrow copy.,,
-recPqFHXjXvcpC7nY,site.intro,rich_text,Intro Copy,A web reference to the Zodiac Killer case.,30,true,en-US,Main intro paragraph.,,
-rec7nhbA0RECu0KrM,site.about_blurb,rich_text,About Blurb,"Independent research archive organizing timeline, people, locations, and source evidence for reference.",40,true,en-US,Short About module on homepage.,,
-recnngaU4dUrLpoIH,nav.home,nav_link,Home,,50,true,en-US,Primary navigation item.,Home,/
-recHHSZwfznYDguTQ,nav.timeline,nav_link,Timeline,,60,true,en-US,Primary navigation item.,Timeline,/timeline
-reckk4h7YxVerWgFD,nav.sources,nav_link,Sources,,70,true,en-US,Primary navigation item.,Sources,/sources
-rec1ynZDmlZRZ88Ns,nav.about,nav_link,About,,80,true,en-US,Primary navigation item.,About,/about
-recsCtKltOLhFRa1y,legal.privacy,link,Privacy Policy,,100,true,en-US,Legal link.,Privacy Policy,/privacy
-recNjca4G0efVL0li,legal.terms,link,Terms of Use,,110,true,en-US,Legal link.,Terms of Use,/terms
-recbw7BduvncjBwo5,legal.disclaimer,rich_text,Research Disclaimer,Content is provided for research and reference use and may include links to external sources.,120,true,en-US,Footer legal/disclaimer block.,,
+﻿_Airtable Record ID,Locale,Notes,Body,Published,Element Key,Sort Order,Label,Element Type,Link URL,Link Label
+recsGJcSvEg9zik7V,en-US,Primary site title shown in hero and browser metadata.,ZTimeline,true,site.title,10,Site Title,text,,
+recwLf3UMSOfwZceJ,en-US,Short eyebrow copy.,Timeline,true,site.subtitle,20,Site Subtitle,text,,
+recPqFHXjXvcpC7nY,en-US,Main intro paragraph.,A web reference to the Zodiac Killer case.,true,site.intro,30,Intro Copy,rich_text,,
+rec7nhbA0RECu0KrM,en-US,Short About module on homepage.,"Independent research archive organizing timeline, people, locations, and source evidence for reference.",true,site.about_blurb,40,About Blurb,rich_text,,
+recnngaU4dUrLpoIH,en-US,Primary navigation item.,,true,nav.home,50,Home,nav_link,/,Home
+recHHSZwfznYDguTQ,en-US,Primary navigation item.,,true,nav.timeline,60,Timeline,nav_link,/timeline,Timeline
+reckk4h7YxVerWgFD,en-US,Primary navigation item.,,true,nav.sources,70,Sources,nav_link,/sources,Sources
+rec1ynZDmlZRZ88Ns,en-US,Primary navigation item.,,true,nav.about,80,About,nav_link,/about,About
+recsCtKltOLhFRa1y,en-US,Legal link.,,true,legal.privacy,100,Privacy Policy,link,/privacy,Privacy Policy
+recNjca4G0efVL0li,en-US,Legal link.,,true,legal.terms,110,Terms of Use,link,/terms,Terms of Use
+recbw7BduvncjBwo5,en-US,Footer legal/disclaimer block.,Content is provided for research and reference use and may include links to external sources.,true,legal.disclaimer,120,Research Disclaimer,rich_text,,
