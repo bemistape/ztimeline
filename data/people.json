@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T19:35:57.893473+00:00",
+  "generatedAt": "2026-04-21T03:47:57.591572+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -44,8 +44,8 @@
         },
         {
           "id": "recEScQ8VjX0U0XWA",
-          "name": "\"This is the Zodiac speaking...\"  Letter",
-          "slug": "this-is-the-zodiac-speaking--letter"
+          "name": "This is the Zodiac speaking...  Letter",
+          "slug": "this-is-the-zodiac-speaking-letter"
         },
         {
           "id": "reccPjrKfLC01M282",
@@ -69,8 +69,8 @@
         },
         {
           "id": "recUbqdTlUUzuMoZC",
-          "name": "The Bus Bomb Letter",
-          "slug": "the-bus-bomb-letter"
+          "name": "The Death Machine Letter",
+          "slug": "the-death-machine-letter"
         },
         {
           "id": "recy8o4AXk9zvM8sK",
@@ -79,8 +79,8 @@
         },
         {
           "id": "recGynjEPcYPDzu8f",
-          "name": "The \"My name is” / Z13 Letter",
-          "slug": "the-my-name-is-z13-letter"
+          "name": "The Z13 Letter",
+          "slug": "the-z13-letter"
         },
         {
           "id": "recejkzV1a7rkom6H",
@@ -676,6 +676,11 @@
           "id": "receCCZcvPywnql2Y",
           "name": "Happy New Year card of 2001",
           "slug": "happy-new-year-card-of-2001"
+        },
+        {
+          "id": "recPYJADv8EJWdYzd",
+          "name": "The Cipher Letters and the Z408",
+          "slug": "the-cipher-letters-and-the-z408"
         }
       ],
       "relatedLocations": [
@@ -763,7 +768,7 @@
           "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Chronicle&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 22,
+      "relatedEventCount": 23,
       "searchText": "San Francisco Chronicle San Francisco Chronicle The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco SF Bay Area California United States of America San Francisco Chronicle offices Eureka, CA Chicago Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
     },
     {
@@ -2388,6 +2393,282 @@
       "searchText": "Ken Narlow Ken Narlow  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA San Francisco"
     },
     {
+      "id": "rec4ZhSZpZfgCU6ng",
+      "slug": "cheri-jo-bates",
+      "kind": "person",
+      "title": "Cheri Jo Bates",
+      "subtitle": "Possible Victim,Deceased,Key Figure",
+      "summary": "Murder victim linked to Zodiac.",
+      "excerpt": "Murder victim linked to Zodiac.",
+      "aliases": [
+        "Cheri Jo Bates"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attMn6trGXYcRbNdx_image.png",
+          "thumbUrl": "data/media/derived/thumb/attMn6trGXYcRbNdx_image.png",
+          "mediumUrl": "data/media/derived/medium/attMn6trGXYcRbNdx_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
+          "thumbUrl": "data/media/derived/thumb/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
+          "mediumUrl": "data/media/derived/medium/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
+          "derivativeState": "derived",
+          "label": "sid_1728_1964_0112.jpg"
+        },
+        {
+          "originalUrl": "data/media/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
+          "thumbUrl": "data/media/derived/thumb/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
+          "mediumUrl": "data/media/derived/medium/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
+          "derivativeState": "derived",
+          "label": "sid_1728_1964_0138.jpg"
+        },
+        {
+          "originalUrl": "data/media/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
+          "thumbUrl": "data/media/derived/thumb/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
+          "mediumUrl": "data/media/derived/medium/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
+          "derivativeState": "derived",
+          "label": "sid_1728_1966_0048.jpg"
+        },
+        {
+          "originalUrl": "data/media/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
+          "thumbUrl": "data/media/derived/thumb/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
+          "mediumUrl": "data/media/derived/medium/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
+          "derivativeState": "derived",
+          "label": "sid_1728_1965_0391.jpg"
+        },
+        {
+          "originalUrl": "data/media/attTH8pCorBP5CLXR_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTH8pCorBP5CLXR_image.png",
+          "mediumUrl": "data/media/derived/medium/attTH8pCorBP5CLXR_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attMn6trGXYcRbNdx_image.png",
+        "thumbUrl": "data/media/derived/thumb/attMn6trGXYcRbNdx_image.png",
+        "mediumUrl": "data/media/derived/medium/attMn6trGXYcRbNdx_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Cheri Josephine Bates"
+        },
+        {
+          "label": "Born",
+          "value": "1948-02-04"
+        },
+        {
+          "label": "Died",
+          "value": "1966-10-30"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Home of Cheri Jo Bates, Omaha, NE"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recygMQrhavJKZ2Qz",
+          "name": "Cheri Jo Bates is murdered in Riverside",
+          "slug": "cheri-jo-bates-is-murdered-in-riverside"
+        },
+        {
+          "id": "recMWZ6w3JJmVXsmd",
+          "name": "Bates Had to Die Letters",
+          "slug": "bates-had-to-die-letters"
+        },
+        {
+          "id": "recUglzi449My3zuL",
+          "name": "Bates desktop poem discovered",
+          "slug": "bates-desktop-poem-discovered"
+        },
+        {
+          "id": "recx232Yd4vQml60O",
+          "name": "Riverside connection is published in SF Chronicle",
+          "slug": "riverside-connection-is-published-in-sf-chronicle"
+        },
+        {
+          "id": "reciftflcnfzSgVzi",
+          "name": "Friends notice Cheri Jo Bates' car is in her driveway",
+          "slug": "friends-notice-cheri-jo-bates-car-is-in-her-driveway"
+        },
+        {
+          "id": "recGoVt4undOFe6aW",
+          "name": "Cheri Jo Bates is buried",
+          "slug": "cheri-jo-bates-is-buried"
+        },
+        {
+          "id": "rec7UwITtPBJEVsJS",
+          "name": "Cheri Jo Bates checks out three books at the library",
+          "slug": "cheri-jo-bates-checks-out-three-books-at-the-library"
+        },
+        {
+          "id": "recy3aMMjLp9WDvJe",
+          "name": "Riverside Police Chief writes memo on Bates murder to Napa Sheriff",
+          "slug": "riverside-police-chief-writes-memo-on-bates-murder-to-napa-sheriff"
+        },
+        {
+          "id": "rec6YUBWvRVLvau1p",
+          "name": "Cleophus Martin discovers Cheri Jo Bates' body",
+          "slug": "cleophus-martin-discovers-cheri-jo-bates-body"
+        },
+        {
+          "id": "receUwNt6c615xVFv",
+          "name": "Screams are heard near Bates murder site around 10:30pm",
+          "slug": "screams-are-heard-near-bates-murder-site-around-10-30pm"
+        },
+        {
+          "id": "recYeZnBvBaUFFnTs",
+          "name": "Cheri Jo Bates asks Stefani Guttman to go to the library",
+          "slug": "cheri-jo-bates-asks-stefani-guttman-to-go-to-the-library"
+        },
+        {
+          "id": "recnchtetA2daPRfn",
+          "name": "Cheri Jo Bates and family in the 1950 Census",
+          "slug": "cheri-jo-bates-and-family-in-the-1950-census"
+        },
+        {
+          "id": "recCYxMYvazVmJP35",
+          "name": "Marriage of Cheri Jo Bates' parents",
+          "slug": "marriage-of-cheri-jo-bates-parents"
+        },
+        {
+          "id": "rectX76GM7ddaOzlR",
+          "name": "Joseph Bates checks on Cheri Jo with her friend Stefani Guttman",
+          "slug": "joseph-bates-checks-on-cheri-jo-with-her-friend-stefani-guttman"
+        },
+        {
+          "id": "rec1pRvTsUrpzImQh",
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recT2ynH7gNXP8Siv",
+          "name": "Riverside, CA",
+          "slug": "riverside-ca"
+        },
+        {
+          "id": "recrwMyU669yUfeBS",
+          "name": "Riverside County, CA",
+          "slug": "riverside-county-ca"
+        },
+        {
+          "id": "rec1cX3GNnbujxmxJ",
+          "name": "Omaha, NE",
+          "slug": "omaha-ne"
+        },
+        {
+          "id": "recR4Swz5E1zVMDcZ",
+          "name": "Douglas County, NE",
+          "slug": "douglas-county-ne"
+        },
+        {
+          "id": "rec5fLiniTx8ApcTa",
+          "name": "Nebraska",
+          "slug": "nebraska"
+        },
+        {
+          "id": "rec6evH12LhXgAkIW",
+          "name": "Home of Cheri Jo Bates",
+          "slug": "home-of-cheri-jo-bates"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recb1NGObFPb1KXOX",
+          "name": "Crestlawn Memorial Park",
+          "slug": "crestlawn-memorial-park"
+        },
+        {
+          "id": "recxYDr9ao84ifUn1",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        },
+        {
+          "id": "recYK5ViyNMVvznOH",
+          "name": "Bellevue, NE",
+          "slug": "bellevue-ne"
+        },
+        {
+          "id": "recy2CnK9Rr6cKAZU",
+          "name": "Waterloo, NY",
+          "slug": "waterloo-ny"
+        },
+        {
+          "id": "recUbfsCFzzvyKfkr",
+          "name": "Pleasanton, CA",
+          "slug": "pleasanton-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec5Sz6UL49AFPq8i",
+          "name": "Riverside Community College",
+          "slug": "riverside-community-college"
+        },
+        {
+          "id": "recpyUq3bcArUcC72",
+          "name": "Ramona High School",
+          "slug": "ramona-high-school"
+        },
+        {
+          "id": "rec4UJx84ksxEPIEx",
+          "name": "Joseph C. Bates",
+          "slug": "joseph-c-bates"
+        },
+        {
+          "id": "rec5yuXisB6zzv9L6",
+          "name": "Irene Karolevitz",
+          "slug": "irene-karolevitz"
+        },
+        {
+          "id": "recox66XkkjM3UimZ",
+          "name": "Michael Bates",
+          "slug": "michael-bates"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recwxwoDT5hxnv9eo",
+          "name": "The Murder of Cheri Jo Bates",
+          "slug": "the-murder-of-cheri-jo-bates"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Cheri%20Jo%20Bates&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Cheri%20Jo%20Bates&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 15,
+      "searchText": "Cheri Jo Bates Cheri Jo Bates Murder victim linked to Zodiac. Riverside, CA Riverside County, CA Omaha, NE Douglas County, NE Nebraska Home of Cheri Jo Bates California United States of America San Francisco Crestlawn Memorial Park Riverside City College Library Bellevue, NE Waterloo, NY Pleasanton, CA"
+    },
+    {
       "id": "recNoik0QhJTMc50o",
       "slug": "bryan-calvin-hartnell",
       "kind": "person",
@@ -2643,188 +2924,118 @@
       "searchText": "Bryan Calvin Hartnell Bryan Calvin Hartnell Male survivor of Lake Berryessa stabbings. Napa, CA Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Multnomah County, OR Oregon Angwin, CA Redlands, CA San Bernardino County, CA Lake Berryessa Site of Lake Berryessa Zodiac Encounter St. Helena, CA Lake Berryessa Park Headquarters San Bernardino, CA Corvallis, OR Dexter Lake Vallejo, CA"
     },
     {
-      "id": "rec4ZhSZpZfgCU6ng",
-      "slug": "cheri-jo-bates",
+      "id": "reckQ2Se5cvoZCWrF",
+      "slug": "san-francisco-examiner",
       "kind": "person",
-      "title": "Cheri Jo Bates",
-      "subtitle": "Possible Victim,Deceased,Key Figure",
-      "summary": "Murder victim linked to Zodiac.",
-      "excerpt": "Murder victim linked to Zodiac.",
+      "title": "San Francisco Examiner",
+      "subtitle": "Media,Organization,Key Figure",
+      "summary": "",
+      "excerpt": "",
       "aliases": [
-        "Cheri Jo Bates"
+        "San Francisco Examiner"
       ],
       "images": [
         {
-          "originalUrl": "data/media/attMn6trGXYcRbNdx_image.png",
-          "thumbUrl": "data/media/derived/thumb/attMn6trGXYcRbNdx_image.png",
-          "mediumUrl": "data/media/derived/medium/attMn6trGXYcRbNdx_image.png",
+          "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
+          "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
+          "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
           "derivativeState": "derived",
           "label": "image.png"
         },
         {
-          "originalUrl": "data/media/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
-          "thumbUrl": "data/media/derived/thumb/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
-          "mediumUrl": "data/media/derived/medium/att9XWw5czRLamEuq_sid_1728_1964_0112.jpg",
-          "derivativeState": "derived",
-          "label": "sid_1728_1964_0112.jpg"
-        },
-        {
-          "originalUrl": "data/media/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
-          "thumbUrl": "data/media/derived/thumb/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
-          "mediumUrl": "data/media/derived/medium/atttNNzKFvNSGS8ZB_sid_1728_1964_0138.jpg",
-          "derivativeState": "derived",
-          "label": "sid_1728_1964_0138.jpg"
-        },
-        {
-          "originalUrl": "data/media/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
-          "thumbUrl": "data/media/derived/thumb/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
-          "mediumUrl": "data/media/derived/medium/attjBym9Ly0d979bE_sid_1728_1966_0048.jpg",
-          "derivativeState": "derived",
-          "label": "sid_1728_1966_0048.jpg"
-        },
-        {
-          "originalUrl": "data/media/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
-          "thumbUrl": "data/media/derived/thumb/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
-          "mediumUrl": "data/media/derived/medium/att4CE5MejTaRP5gl_sid_1728_1965_0391.jpg",
-          "derivativeState": "derived",
-          "label": "sid_1728_1965_0391.jpg"
-        },
-        {
-          "originalUrl": "data/media/attTH8pCorBP5CLXR_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTH8pCorBP5CLXR_image.png",
-          "mediumUrl": "data/media/derived/medium/attTH8pCorBP5CLXR_image.png",
+          "originalUrl": "data/media/attKuVqQLNz0GwDtB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attKuVqQLNz0GwDtB_image.png",
+          "mediumUrl": "data/media/derived/medium/attKuVqQLNz0GwDtB_image.png",
           "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
-        "originalUrl": "data/media/attMn6trGXYcRbNdx_image.png",
-        "thumbUrl": "data/media/derived/thumb/attMn6trGXYcRbNdx_image.png",
-        "mediumUrl": "data/media/derived/medium/attMn6trGXYcRbNdx_image.png",
+        "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
+        "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
         "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
         {
-          "label": "Extended Name",
-          "value": "Cheri Josephine Bates"
-        },
-        {
-          "label": "Born",
-          "value": "1948-02-04"
-        },
-        {
-          "label": "Died",
-          "value": "1966-10-30"
-        },
-        {
           "label": "Home / HQ",
-          "value": "Home of Cheri Jo Bates, Omaha, NE"
+          "value": "San Francisco"
         }
       ],
       "relatedEvents": [
         {
-          "id": "recygMQrhavJKZ2Qz",
-          "name": "Cheri Jo Bates is murdered in Riverside",
-          "slug": "cheri-jo-bates-is-murdered-in-riverside"
+          "id": "rec41zKBZHAjsOHgh",
+          "name": "SF Examiner article asking where Zodiac went",
+          "slug": "sf-examiner-article-asking-where-zodiac-went"
         },
         {
-          "id": "recMWZ6w3JJmVXsmd",
-          "name": "Bates Had to Die Letters",
-          "slug": "bates-had-to-die-letters"
+          "id": "recAJjplezVzhY2GE",
+          "name": "Dr. D.C.B. Marsh dares Zodiac to reveal name",
+          "slug": "dr-d-c-b-marsh-dares-zodiac-to-reveal-name"
         },
         {
-          "id": "recUglzi449My3zuL",
-          "name": "Bates desktop poem discovered",
-          "slug": "bates-desktop-poem-discovered"
+          "id": "recjeT9bRoaxYfYnr",
+          "name": "SF Examiner: \"Zodiac Linked to Five Area Murders\"",
+          "slug": "sf-examiner-zodiac-linked-to-five-area-murders"
         },
         {
-          "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
+          "id": "reczzkjwdRAGLscoO",
+          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
         },
         {
-          "id": "reciftflcnfzSgVzi",
-          "name": "Friends notice Cheri Jo Bates' car is in her driveway",
-          "slug": "friends-notice-cheri-jo-bates-car-is-in-her-driveway"
+          "id": "recx08FpJlmrzPtBQ",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
         },
         {
-          "id": "recGoVt4undOFe6aW",
-          "name": "Cheri Jo Bates is buried",
-          "slug": "cheri-jo-bates-is-buried"
+          "id": "recWF58MhTEsTBbw4",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
         },
         {
-          "id": "rec7UwITtPBJEVsJS",
-          "name": "Cheri Jo Bates checks out three books at the library",
-          "slug": "cheri-jo-bates-checks-out-three-books-at-the-library"
+          "id": "recydf2XQtTWZyYG6",
+          "name": "Zodiac Press Coverage [8/4/1969]",
+          "slug": "zodiac-press-coverage-8-4-1969"
         },
         {
-          "id": "recy3aMMjLp9WDvJe",
-          "name": "Riverside Police Chief writes memo on Bates murder to Napa Sheriff",
-          "slug": "riverside-police-chief-writes-memo-on-bates-murder-to-napa-sheriff"
+          "id": "rec3QGsAcgzZtp3W0",
+          "name": "SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails",
+          "slug": "sf-chronicle-examiner-vallejo-mass-murder-threat-fails"
         },
         {
-          "id": "rec6YUBWvRVLvau1p",
-          "name": "Cleophus Martin discovers Cheri Jo Bates' body",
-          "slug": "cleophus-martin-discovers-cheri-jo-bates-body"
+          "id": "recTK2794ZdN7Hf7n",
+          "name": "Zodiac Press Coverage [8/1/1969]",
+          "slug": "zodiac-press-coverage-8-1-1969"
         },
         {
-          "id": "receUwNt6c615xVFv",
-          "name": "Screams are heard near Bates murder site around 10:30pm",
-          "slug": "screams-are-heard-near-bates-murder-site-around-10-30pm"
+          "id": "recsSkpukk5BzvWmx",
+          "name": "Zodiac Press Coverage [7/6/1969]",
+          "slug": "zodiac-press-coverage-7-6-1969"
         },
         {
-          "id": "recYeZnBvBaUFFnTs",
-          "name": "Cheri Jo Bates asks Stefani Guttman to go to the library",
-          "slug": "cheri-jo-bates-asks-stefani-guttman-to-go-to-the-library"
+          "id": "recbcFgQiC5NONpiM",
+          "name": "Coverage of Bates murder in California newspapers on 10/31",
+          "slug": "coverage-of-bates-murder-in-california-newspapers-on-10-31"
         },
         {
-          "id": "recnchtetA2daPRfn",
-          "name": "Cheri Jo Bates and family in the 1950 Census",
-          "slug": "cheri-jo-bates-and-family-in-the-1950-census"
+          "id": "recODGg6TqGQVorXf",
+          "name": "Coverage of Bates murder in California newspapers on 11/1",
+          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
         },
         {
-          "id": "recCYxMYvazVmJP35",
-          "name": "Marriage of Cheri Jo Bates' parents",
-          "slug": "marriage-of-cheri-jo-bates-parents"
+          "id": "recGNxtb5JlJHhurb",
+          "name": "SF Examiner's front page message to Zodiac",
+          "slug": "sf-examiner-s-front-page-message-to-zodiac"
         },
         {
-          "id": "rectX76GM7ddaOzlR",
-          "name": "Joseph Bates checks on Cheri Jo with her friend Stefani Guttman",
-          "slug": "joseph-bates-checks-on-cheri-jo-with-her-friend-stefani-guttman"
+          "id": "recPYJADv8EJWdYzd",
+          "name": "The Cipher Letters and the Z408",
+          "slug": "the-cipher-letters-and-the-z408"
         }
       ],
       "relatedLocations": [
-        {
-          "id": "recT2ynH7gNXP8Siv",
-          "name": "Riverside, CA",
-          "slug": "riverside-ca"
-        },
-        {
-          "id": "recrwMyU669yUfeBS",
-          "name": "Riverside County, CA",
-          "slug": "riverside-county-ca"
-        },
-        {
-          "id": "rec1cX3GNnbujxmxJ",
-          "name": "Omaha, NE",
-          "slug": "omaha-ne"
-        },
-        {
-          "id": "recR4Swz5E1zVMDcZ",
-          "name": "Douglas County, NE",
-          "slug": "douglas-county-ne"
-        },
-        {
-          "id": "rec5fLiniTx8ApcTa",
-          "name": "Nebraska",
-          "slug": "nebraska"
-        },
-        {
-          "id": "rec6evH12LhXgAkIW",
-          "name": "Home of Cheri Jo Bates",
-          "slug": "home-of-cheri-jo-bates"
-        },
         {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
@@ -2841,72 +3052,35 @@
           "slug": "san-francisco"
         },
         {
-          "id": "recb1NGObFPb1KXOX",
-          "name": "Crestlawn Memorial Park",
-          "slug": "crestlawn-memorial-park"
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         },
         {
-          "id": "recxYDr9ao84ifUn1",
-          "name": "Riverside City College Library",
-          "slug": "riverside-city-college-library"
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
         },
         {
-          "id": "recYK5ViyNMVvznOH",
-          "name": "Bellevue, NE",
-          "slug": "bellevue-ne"
-        },
-        {
-          "id": "recy2CnK9Rr6cKAZU",
-          "name": "Waterloo, NY",
-          "slug": "waterloo-ny"
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
         }
       ],
-      "relatedPeople": [
-        {
-          "id": "rec5Sz6UL49AFPq8i",
-          "name": "Riverside Community College",
-          "slug": "riverside-community-college"
-        },
-        {
-          "id": "recpyUq3bcArUcC72",
-          "name": "Ramona High School",
-          "slug": "ramona-high-school"
-        },
-        {
-          "id": "rec4UJx84ksxEPIEx",
-          "name": "Joseph C. Bates",
-          "slug": "joseph-c-bates"
-        },
-        {
-          "id": "rec5yuXisB6zzv9L6",
-          "name": "Irene Karolevitz",
-          "slug": "irene-karolevitz"
-        },
-        {
-          "id": "recox66XkkjM3UimZ",
-          "name": "Michael Bates",
-          "slug": "michael-bates"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recwxwoDT5hxnv9eo",
-          "name": "The Murder of Cheri Jo Bates",
-          "slug": "the-murder-of-cheri-jo-bates"
-        }
-      ],
+      "relatedPeople": [],
+      "relatedTags": [],
       "downloads": [
         {
           "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Cheri%20Jo%20Bates&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+          "url": "https://www.google.com/search?as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
         },
         {
           "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Cheri%20Jo%20Bates&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+          "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
       "relatedEventCount": 14,
-      "searchText": "Cheri Jo Bates Cheri Jo Bates Murder victim linked to Zodiac. Riverside, CA Riverside County, CA Omaha, NE Douglas County, NE Nebraska Home of Cheri Jo Bates California United States of America San Francisco Crestlawn Memorial Park Riverside City College Library Bellevue, NE Waterloo, NY"
+      "searchText": "San Francisco Examiner San Francisco Examiner  California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA"
     },
     {
       "id": "recg462dI0mJi8KMB",
@@ -3273,160 +3447,6 @@
       ],
       "relatedEventCount": 13,
       "searchText": "Chester Clark Klingel Jr. Chester Clark Klingel Jr. Suspected mailer of 1990 Christmas card. Linked via safe deposit box. Eureka, CA San Francisco Livermore, CA Amargosa Desert The Presidio Alameda County, CA Humboldt County, CA Alameda, CA Nye County, NV Mill Valley, CA Nevada Marin County, CA California SF Bay Area United States of America Vallejo, CA Guam Reno, NV Burley, ID Rupert, ID Hughson, CA Novato, CA Turlock, CA Stockton, CA Oakdale, CA Sausalito, CA"
-    },
-    {
-      "id": "reckQ2Se5cvoZCWrF",
-      "slug": "san-francisco-examiner",
-      "kind": "person",
-      "title": "San Francisco Examiner",
-      "subtitle": "Media,Organization,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "San Francisco Examiner"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
-          "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
-          "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attKuVqQLNz0GwDtB_image.png",
-          "thumbUrl": "data/media/derived/thumb/attKuVqQLNz0GwDtB_image.png",
-          "mediumUrl": "data/media/derived/medium/attKuVqQLNz0GwDtB_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
-        "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
-        "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec41zKBZHAjsOHgh",
-          "name": "SF Examiner article asking where Zodiac went",
-          "slug": "sf-examiner-article-asking-where-zodiac-went"
-        },
-        {
-          "id": "recAJjplezVzhY2GE",
-          "name": "Dr. D.C.B. Marsh dares Zodiac to reveal name",
-          "slug": "dr-d-c-b-marsh-dares-zodiac-to-reveal-name"
-        },
-        {
-          "id": "recjeT9bRoaxYfYnr",
-          "name": "SF Examiner: \"Zodiac Linked to Five Area Murders\"",
-          "slug": "sf-examiner-zodiac-linked-to-five-area-murders"
-        },
-        {
-          "id": "reczzkjwdRAGLscoO",
-          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
-        },
-        {
-          "id": "recx08FpJlmrzPtBQ",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
-        },
-        {
-          "id": "recWF58MhTEsTBbw4",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
-        },
-        {
-          "id": "recydf2XQtTWZyYG6",
-          "name": "Zodiac Press Coverage [8/4/1969]",
-          "slug": "zodiac-press-coverage-8-4-1969"
-        },
-        {
-          "id": "rec3QGsAcgzZtp3W0",
-          "name": "SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails",
-          "slug": "sf-chronicle-examiner-vallejo-mass-murder-threat-fails"
-        },
-        {
-          "id": "recTK2794ZdN7Hf7n",
-          "name": "Zodiac Press Coverage [8/1/1969]",
-          "slug": "zodiac-press-coverage-8-1-1969"
-        },
-        {
-          "id": "recsSkpukk5BzvWmx",
-          "name": "Zodiac Press Coverage [7/6/1969]",
-          "slug": "zodiac-press-coverage-7-6-1969"
-        },
-        {
-          "id": "recbcFgQiC5NONpiM",
-          "name": "Coverage of Bates murder in California newspapers on 10/31",
-          "slug": "coverage-of-bates-murder-in-california-newspapers-on-10-31"
-        },
-        {
-          "id": "recODGg6TqGQVorXf",
-          "name": "Coverage of Bates murder in California newspapers on 11/1",
-          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
-        },
-        {
-          "id": "recGNxtb5JlJHhurb",
-          "name": "SF Examiner's front page message to Zodiac",
-          "slug": "sf-examiner-s-front-page-message-to-zodiac"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=San%20Francisco%20Examiner&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 13,
-      "searchText": "San Francisco Examiner San Francisco Examiner  California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA"
     },
     {
       "id": "recODpN1g6c3LOqmF",
@@ -6062,6 +6082,134 @@
       "searchText": "Michael Renault Mageau Michael Renault Mageau Blue Rock Springs living victim Blue Rock Springs Park Vallejo, CA Kaiser Hospital Solano County, CA California SF Bay Area United States of America Home of Michael Mageau (1969) Temecula, CA Riverside County, CA Danville, CA Contra Costa County, CA Los Angeles"
     },
     {
+      "id": "recpJMrcs1l3WRn9j",
+      "slug": "the-los-angeles-times",
+      "kind": "person",
+      "title": "The Los Angeles Times",
+      "subtitle": "Media,Organization,Key Figure",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "The Los Angeles Times"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att0BOL95JWj3lyri_image.png",
+          "thumbUrl": "data/media/derived/thumb/att0BOL95JWj3lyri_image.png",
+          "mediumUrl": "data/media/derived/medium/att0BOL95JWj3lyri_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att0BOL95JWj3lyri_image.png",
+        "thumbUrl": "data/media/derived/thumb/att0BOL95JWj3lyri_image.png",
+        "mediumUrl": "data/media/derived/medium/att0BOL95JWj3lyri_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Los Angeles"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec5ZeOhYb9d1pYNI",
+          "name": "Zodiac Press Coverage [10/16/1969]",
+          "slug": "zodiac-press-coverage-10-16-1969"
+        },
+        {
+          "id": "rec1K8cI3g4n6Mn4I",
+          "name": "Zodiac Press Coverage [10/15/1969]",
+          "slug": "zodiac-press-coverage-10-15-1969"
+        },
+        {
+          "id": "reczzkjwdRAGLscoO",
+          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
+        },
+        {
+          "id": "recx08FpJlmrzPtBQ",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
+        },
+        {
+          "id": "recWF58MhTEsTBbw4",
+          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
+          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
+        },
+        {
+          "id": "recODGg6TqGQVorXf",
+          "name": "Coverage of Bates murder in California newspapers on 11/1",
+          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
+        },
+        {
+          "id": "rec1pRvTsUrpzImQh",
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        },
+        {
+          "id": "recsy2H1tkbzi1aP5",
+          "name": "Los Angeles County, CA",
+          "slug": "los-angeles-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recUbfsCFzzvyKfkr",
+          "name": "Pleasanton, CA",
+          "slug": "pleasanton-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recR3w5CG2uxTzDEI",
+          "name": "Dave Smith",
+          "slug": "dave-smith"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=The%20Los%20Angeles%20Times&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=The%20Los%20Angeles%20Times&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 7,
+      "searchText": "The Los Angeles Times The Los Angeles Times  Los Angeles Los Angeles County, CA California United States of America Vallejo, CA San Francisco Pleasanton, CA"
+    },
+    {
       "id": "recUj9VcE1TiYBWhk",
       "slug": "the-solano-napa-news-chronicle",
       "kind": "person",
@@ -6351,124 +6499,6 @@
       ],
       "relatedEventCount": 6,
       "searchText": "Jim Phillips Crabtree Jim Phillips Crabtree First husband of Darlene Ferrin. AKA James Phillips. Albany, NY Santa Barbara, CA Solano County, CA Vallejo, CA California SF Bay Area United States of America Albany County, NY Santa Barbara County, CA Fairfield, CA New York State Santa Cruz, CA Darlene Ferrin's parents home (1969) Reno, NV"
-    },
-    {
-      "id": "recpJMrcs1l3WRn9j",
-      "slug": "the-los-angeles-times",
-      "kind": "person",
-      "title": "The Los Angeles Times",
-      "subtitle": "Media,Organization,Key Figure",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "The Los Angeles Times"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/att0BOL95JWj3lyri_image.png",
-          "thumbUrl": "data/media/derived/thumb/att0BOL95JWj3lyri_image.png",
-          "mediumUrl": "data/media/derived/medium/att0BOL95JWj3lyri_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/att0BOL95JWj3lyri_image.png",
-        "thumbUrl": "data/media/derived/thumb/att0BOL95JWj3lyri_image.png",
-        "mediumUrl": "data/media/derived/medium/att0BOL95JWj3lyri_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Los Angeles"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec5ZeOhYb9d1pYNI",
-          "name": "Zodiac Press Coverage [10/16/1969]",
-          "slug": "zodiac-press-coverage-10-16-1969"
-        },
-        {
-          "id": "rec1K8cI3g4n6Mn4I",
-          "name": "Zodiac Press Coverage [10/15/1969]",
-          "slug": "zodiac-press-coverage-10-15-1969"
-        },
-        {
-          "id": "reczzkjwdRAGLscoO",
-          "name": "Dick Tracy: Zodiac plotline (10/12/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-12-1969"
-        },
-        {
-          "id": "recx08FpJlmrzPtBQ",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969"
-        },
-        {
-          "id": "recWF58MhTEsTBbw4",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
-        },
-        {
-          "id": "recODGg6TqGQVorXf",
-          "name": "Coverage of Bates murder in California newspapers on 11/1",
-          "slug": "coverage-of-bates-murder-in-california-newspapers-on-11-1"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        },
-        {
-          "id": "recsy2H1tkbzi1aP5",
-          "name": "Los Angeles County, CA",
-          "slug": "los-angeles-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recR3w5CG2uxTzDEI",
-          "name": "Dave Smith",
-          "slug": "dave-smith"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=The%20Los%20Angeles%20Times&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=The%20Los%20Angeles%20Times&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 6,
-      "searchText": "The Los Angeles Times The Los Angeles Times  Los Angeles Los Angeles County, CA California United States of America Vallejo, CA San Francisco"
     },
     {
       "id": "rec5ZMZlwchZ0IHSr",

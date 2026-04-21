@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T19:35:57.893473+00:00",
+  "generatedAt": "2026-04-21T03:47:57.591572+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -792,7 +792,7 @@
           "slug": "the-z408-cipher-solved"
         },
         {
-          "id": "",
+          "id": "recEScQ8VjX0U0XWA",
           "name": "This is the Zodiac speaking...  Letter",
           "slug": "this-is-the-zodiac-speaking-letter"
         },
@@ -817,7 +817,7 @@
           "slug": "the-stine-letter-w-shirt-piece"
         },
         {
-          "id": "recUbqdTlUUzuMoZC",
+          "id": "",
           "name": "The Bus Bomb Letter",
           "slug": "the-bus-bomb-letter"
         },
@@ -832,14 +832,14 @@
           "slug": "the-my-name-is-z13-letter-the-dragon-card-the-button-letter-z32-mt-diablo-map-the-johns-letter-the-little-list-letter-13-hole-punch-postcard-is-mailed-the-halloween-card-the-los-angeles-times-letter-the-sierra-club-postcard-the-exorcist-letter-the-sla-letter-the-badlands-letter-is-mailed-the-red-phantom-letter-is-mailed-the-confession-letters-sent-to-riverside-police-bates-had-to-die-letters-the-1978-i-am-back-with-you-letter-1978-channel-nine-letter-the-albany-letter-the-eureka-christmas-card-sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac-the-celebrity-cypher-postcard-the-concerned-citizen-card-the-exorcist-letter-is-published-in-the-sf-chronicle-the-belli-letter-is-published-stine-letter-is-published-zodiac-linked-dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders-a-challenge-for-the-zodiac-letter-sent-to-paul-avery-happy-new-year-card-of-2001"
         },
         {
-          "id": "recEScQ8VjX0U0XWA",
-          "name": "\"This is the Zodiac speaking...\"  Letter",
-          "slug": "this-is-the-zodiac-speaking--letter"
+          "id": "recUbqdTlUUzuMoZC",
+          "name": "The Death Machine Letter",
+          "slug": "the-death-machine-letter"
         },
         {
           "id": "recGynjEPcYPDzu8f",
-          "name": "The \"My name is” / Z13 Letter",
-          "slug": "the-my-name-is-z13-letter"
+          "name": "The Z13 Letter",
+          "slug": "the-z13-letter"
         },
         {
           "id": "rec1MFx5IegvNCUk7",
@@ -1581,7 +1581,7 @@
           "slug": "july-1971-ala-meeting-with-toschi-and-armstrong"
         },
         {
-          "id": "recUbqdTlUUzuMoZC",
+          "id": "",
           "name": "The Bus Bomb Letter",
           "slug": "the-bus-bomb-letter"
         },
@@ -1619,6 +1619,11 @@
           "id": "reciUigM6gBvGSlbn",
           "name": "Suspicious \"Aroused\" letter to Modesto Bee re: Joe Stine",
           "slug": "suspicious-aroused-letter-to-modesto-bee-re-joe-stine"
+        },
+        {
+          "id": "recUbqdTlUUzuMoZC",
+          "name": "The Death Machine Letter",
+          "slug": "the-death-machine-letter"
         }
       ],
       "relatedPeople": [
@@ -1662,7 +1667,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 34,
+      "relatedEventCount": 35,
       "searchText": "Paul Stine's Taxi Murder Evidence: Crime Scene On October 11, 1969, cab driver Paul Stine was shot and killed in San Francisco. The Zodiac claimed responsibility, and the case is notable for the killer's interaction with police and the subsequent letter containing a piece of Stine's shirt."
     },
     {
@@ -4317,6 +4322,20 @@
           "mediumUrl": "data/media/derived/medium/attOJLcRRbB4Rwqte_image.png",
           "derivativeState": "derived",
           "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attayZ2SI36fW6ea7_image.png",
+          "thumbUrl": "data/media/derived/thumb/attayZ2SI36fW6ea7_image.png",
+          "mediumUrl": "data/media/derived/medium/attayZ2SI36fW6ea7_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attOpOJ7pMnohqpGG_image.png",
+          "thumbUrl": "data/media/derived/thumb/attOpOJ7pMnohqpGG_image.png",
+          "mediumUrl": "data/media/derived/medium/attOpOJ7pMnohqpGG_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
         }
       ],
       "primaryImage": {
@@ -4407,6 +4426,11 @@
           "id": "recHjpndeI9KhHbtL",
           "name": "Death of Cheri Jo Bates' mother",
           "slug": "death-of-cheri-jo-bates-mother"
+        },
+        {
+          "id": "rec1pRvTsUrpzImQh",
+          "name": "The LA Times letter",
+          "slug": "the-la-times-letter"
         }
       ],
       "relatedPeople": [
@@ -4430,7 +4454,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 15,
+      "relatedEventCount": 16,
       "searchText": "The Murder of Cheri Jo Bates"
     },
     {
@@ -5126,8 +5150,8 @@
         },
         {
           "id": "recGynjEPcYPDzu8f",
-          "name": "The \"My name is” / Z13 Letter",
-          "slug": "the-my-name-is-z13-letter"
+          "name": "The Z13 Letter",
+          "slug": "the-z13-letter"
         },
         {
           "id": "recVjurhso0tAiEcG",
@@ -5599,6 +5623,124 @@
       "searchText": "The Murder of Ray Davis Non-Canonical Crimes"
     },
     {
+      "id": "reciWptHRCNOnXDUv",
+      "slug": "bombs-explosives-and-demolition",
+      "kind": "tag",
+      "title": "Bombs, Explosives, and Demolition",
+      "subtitle": "Themes",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/att2u52YdTJqdz4bQ_image.png",
+          "thumbUrl": "data/media/derived/thumb/att2u52YdTJqdz4bQ_image.png",
+          "mediumUrl": "data/media/derived/medium/att2u52YdTJqdz4bQ_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att618pP7OsPiCiPq_bbl2hr.jpg",
+          "thumbUrl": "data/media/derived/thumb/att618pP7OsPiCiPq_bbl2hr.jpg",
+          "mediumUrl": "data/media/derived/medium/att618pP7OsPiCiPq_bbl2hr.jpg",
+          "derivativeState": "derived",
+          "label": "bbl2hr.jpg"
+        },
+        {
+          "originalUrl": "data/media/att2aL5UgCOim4Yes_bbl3hr.jpg",
+          "thumbUrl": "data/media/derived/thumb/att2aL5UgCOim4Yes_bbl3hr.jpg",
+          "mediumUrl": "data/media/derived/medium/att2aL5UgCOim4Yes_bbl3hr.jpg",
+          "derivativeState": "derived",
+          "label": "bbl3hr.jpg"
+        },
+        {
+          "originalUrl": "data/media/att9zqWQsGVpIhYaV_bbl4hr.jpg",
+          "thumbUrl": "data/media/derived/thumb/att9zqWQsGVpIhYaV_bbl4hr.jpg",
+          "mediumUrl": "data/media/derived/medium/att9zqWQsGVpIhYaV_bbl4hr.jpg",
+          "derivativeState": "derived",
+          "label": "bbl4hr.jpg"
+        },
+        {
+          "originalUrl": "data/media/attRRUyYTiqNE1dUb_bbl5hr.jpg",
+          "thumbUrl": "data/media/derived/thumb/attRRUyYTiqNE1dUb_bbl5hr.jpg",
+          "mediumUrl": "data/media/derived/medium/attRRUyYTiqNE1dUb_bbl5hr.jpg",
+          "derivativeState": "derived",
+          "label": "bbl5hr.jpg"
+        },
+        {
+          "originalUrl": "data/media/attLnEGOE6cknWmQD_1969-11-8_9-06.PNG",
+          "thumbUrl": "data/media/derived/thumb/attLnEGOE6cknWmQD_1969-11-8_9-06.png",
+          "mediumUrl": "data/media/derived/medium/attLnEGOE6cknWmQD_1969-11-8_9-06.png",
+          "derivativeState": "derived",
+          "label": "1969-11-8_9-06.PNG"
+        },
+        {
+          "originalUrl": "data/media/att5AqmN3qqj3uz4Q_1969-11-8_9_07.PNG",
+          "thumbUrl": "data/media/derived/thumb/att5AqmN3qqj3uz4Q_1969-11-8_9_07.png",
+          "mediumUrl": "data/media/derived/medium/att5AqmN3qqj3uz4Q_1969-11-8_9_07.png",
+          "derivativeState": "derived",
+          "label": "1969-11-8_9_07.PNG"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att2u52YdTJqdz4bQ_image.png",
+        "thumbUrl": "data/media/derived/thumb/att2u52YdTJqdz4bQ_image.png",
+        "mediumUrl": "data/media/derived/medium/att2u52YdTJqdz4bQ_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1969-11-09"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "",
+          "name": "The Bus Bomb Letter",
+          "slug": "the-bus-bomb-letter"
+        },
+        {
+          "id": "recUbqdTlUUzuMoZC",
+          "name": "The Death Machine Letter",
+          "slug": "the-death-machine-letter"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rech3D7sonIMHkOft",
+          "name": "Arthur Leigh Allen",
+          "slug": "arthur-leigh-allen"
+        },
+        {
+          "id": "recODpN1g6c3LOqmF",
+          "name": "Paul Alfred Doerr, Jr.",
+          "slug": "paul-alfred-doerr-jr"
+        },
+        {
+          "id": "",
+          "name": "Paul Alfred Doerr",
+          "slug": "paul-alfred-doerr"
+        },
+        {
+          "id": "",
+          "name": "Jr.",
+          "slug": "jr"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [
+        {
+          "id": "recvNePFbNBhJtDJI",
+          "name": "Themes",
+          "slug": "themes"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "searchText": "Bombs, Explosives, and Demolition Themes"
+    },
+    {
       "id": "recRx5DpBWH57bV5x",
       "slug": "cryptography",
       "kind": "tag",
@@ -5906,119 +6048,6 @@
       "downloads": [],
       "relatedEventCount": 1,
       "searchText": "1950 Census"
-    },
-    {
-      "id": "reciWptHRCNOnXDUv",
-      "slug": "bombs-explosives-and-demolition",
-      "kind": "tag",
-      "title": "Bombs, Explosives, and Demolition",
-      "subtitle": "Themes",
-      "summary": "",
-      "excerpt": "",
-      "images": [
-        {
-          "originalUrl": "data/media/att2u52YdTJqdz4bQ_image.png",
-          "thumbUrl": "data/media/derived/thumb/att2u52YdTJqdz4bQ_image.png",
-          "mediumUrl": "data/media/derived/medium/att2u52YdTJqdz4bQ_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att618pP7OsPiCiPq_bbl2hr.jpg",
-          "thumbUrl": "data/media/derived/thumb/att618pP7OsPiCiPq_bbl2hr.jpg",
-          "mediumUrl": "data/media/derived/medium/att618pP7OsPiCiPq_bbl2hr.jpg",
-          "derivativeState": "derived",
-          "label": "bbl2hr.jpg"
-        },
-        {
-          "originalUrl": "data/media/att2aL5UgCOim4Yes_bbl3hr.jpg",
-          "thumbUrl": "data/media/derived/thumb/att2aL5UgCOim4Yes_bbl3hr.jpg",
-          "mediumUrl": "data/media/derived/medium/att2aL5UgCOim4Yes_bbl3hr.jpg",
-          "derivativeState": "derived",
-          "label": "bbl3hr.jpg"
-        },
-        {
-          "originalUrl": "data/media/att9zqWQsGVpIhYaV_bbl4hr.jpg",
-          "thumbUrl": "data/media/derived/thumb/att9zqWQsGVpIhYaV_bbl4hr.jpg",
-          "mediumUrl": "data/media/derived/medium/att9zqWQsGVpIhYaV_bbl4hr.jpg",
-          "derivativeState": "derived",
-          "label": "bbl4hr.jpg"
-        },
-        {
-          "originalUrl": "data/media/attRRUyYTiqNE1dUb_bbl5hr.jpg",
-          "thumbUrl": "data/media/derived/thumb/attRRUyYTiqNE1dUb_bbl5hr.jpg",
-          "mediumUrl": "data/media/derived/medium/attRRUyYTiqNE1dUb_bbl5hr.jpg",
-          "derivativeState": "derived",
-          "label": "bbl5hr.jpg"
-        },
-        {
-          "originalUrl": "data/media/attLnEGOE6cknWmQD_1969-11-8_9-06.PNG",
-          "thumbUrl": "data/media/derived/thumb/attLnEGOE6cknWmQD_1969-11-8_9-06.png",
-          "mediumUrl": "data/media/derived/medium/attLnEGOE6cknWmQD_1969-11-8_9-06.png",
-          "derivativeState": "derived",
-          "label": "1969-11-8_9-06.PNG"
-        },
-        {
-          "originalUrl": "data/media/att5AqmN3qqj3uz4Q_1969-11-8_9_07.PNG",
-          "thumbUrl": "data/media/derived/thumb/att5AqmN3qqj3uz4Q_1969-11-8_9_07.png",
-          "mediumUrl": "data/media/derived/medium/att5AqmN3qqj3uz4Q_1969-11-8_9_07.png",
-          "derivativeState": "derived",
-          "label": "1969-11-8_9_07.PNG"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/att2u52YdTJqdz4bQ_image.png",
-        "thumbUrl": "data/media/derived/thumb/att2u52YdTJqdz4bQ_image.png",
-        "mediumUrl": "data/media/derived/medium/att2u52YdTJqdz4bQ_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1969-11-09"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recUbqdTlUUzuMoZC",
-          "name": "The Bus Bomb Letter",
-          "slug": "the-bus-bomb-letter"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rech3D7sonIMHkOft",
-          "name": "Arthur Leigh Allen",
-          "slug": "arthur-leigh-allen"
-        },
-        {
-          "id": "recODpN1g6c3LOqmF",
-          "name": "Paul Alfred Doerr, Jr.",
-          "slug": "paul-alfred-doerr-jr"
-        },
-        {
-          "id": "",
-          "name": "Paul Alfred Doerr",
-          "slug": "paul-alfred-doerr"
-        },
-        {
-          "id": "",
-          "name": "Jr.",
-          "slug": "jr"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [
-        {
-          "id": "recvNePFbNBhJtDJI",
-          "name": "Themes",
-          "slug": "themes"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "searchText": "Bombs, Explosives, and Demolition Themes"
     },
     {
       "id": "recARqcCrYYCA8P03",

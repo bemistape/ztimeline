@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-20T19:35:57.893473+00:00",
+  "generatedAt": "2026-04-21T03:47:57.591572+00:00",
   "stats": {
     "events": 433,
     "people": 328,
     "locations": 341,
     "tags": 43,
-    "images": 1620,
+    "images": 1624,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -89,7 +89,7 @@
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
       "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
-      "relatedEventCount": 22,
+      "relatedEventCount": 23,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
         "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
@@ -291,7 +291,7 @@
       "title": "Paul Stine's Taxi Murder",
       "subtitle": "Evidence: Crime Scene",
       "excerpt": "On October 11, 1969, cab driver Paul Stine was shot and killed in San Francisco. The Zodiac claimed responsibility, and the case is notable for the killer's interaction with police and the subsequent letter containing a…",
-      "relatedEventCount": 34,
+      "relatedEventCount": 35,
       "primaryImage": {
         "originalUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
         "thumbUrl": "data/media/derived/thumb/attR8KiwYtTpE8oLL_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 20, 2026, 07:35 PM UTC",
+    "label": "Apr 21, 2026, 03:47 AM UTC",
     "syncMode": "delta"
   },
   "method": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T19:35:57.893473+00:00",
+  "generatedAt": "2026-04-21T03:47:57.591572+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -79,8 +79,8 @@
         },
         {
           "id": "recGynjEPcYPDzu8f",
-          "name": "The \"My name is” / Z13 Letter",
-          "slug": "the-my-name-is-z13-letter"
+          "name": "The Z13 Letter",
+          "slug": "the-z13-letter"
         },
         {
           "id": "recATdf0n9etcTyEl",
@@ -12042,11 +12042,32 @@
       "slug": "pleasanton-ca",
       "kind": "location",
       "title": "Pleasanton, CA",
-      "subtitle": "",
+      "subtitle": "City",
       "summary": "Site of Los Angeles Times letter postmark.",
       "excerpt": "Site of Los Angeles Times letter postmark.",
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/attXHSCrhoGIpkvSd_image.png",
+          "thumbUrl": "data/media/derived/thumb/attXHSCrhoGIpkvSd_image.png",
+          "mediumUrl": "data/media/derived/medium/attXHSCrhoGIpkvSd_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
+          "thumbUrl": "data/media/derived/thumb/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
+          "mediumUrl": "data/media/derived/medium/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-09-05_at_1.16.34_AM.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attXHSCrhoGIpkvSd_image.png",
+        "thumbUrl": "data/media/derived/thumb/attXHSCrhoGIpkvSd_image.png",
+        "mediumUrl": "data/media/derived/medium/attXHSCrhoGIpkvSd_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Located Within",
@@ -12073,7 +12094,7 @@
       "relatedEventCount": 1,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Pleasanton, CA Site of Los Angeles Times letter postmark. Zodiac"
+      "searchText": "Pleasanton, CA City Site of Los Angeles Times letter postmark. Zodiac"
     },
     {
       "id": "recfKxhQaRoDsn3k3",
