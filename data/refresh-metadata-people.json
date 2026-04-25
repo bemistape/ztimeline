@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-04-24T19:14:59.153150+00:00",
+  "generated_at_utc": "2026-04-25T03:34:14.402896+00:00",
   "dataset": "people",
-  "record_count": 328,
+  "record_count": 329,
   "media_cached": true,
-  "media_files_in_use": 944,
+  "media_files_in_use": 945,
   "base_id": "appyDwtN9iiA9sjEe",
   "table_id": "tblpcpi1xL4Kbajqv",
   "view_id": "viwlBBAjb87ucn0ni",
   "sync_mode": "delta",
-  "changed_records": 0,
+  "changed_records": 1,
   "published_field": "Published",
   "last_modified_field": "Last Modified",
-  "sync_cursor_utc": "2026-04-21T02:57:15+00:00"
+  "sync_cursor_utc": "2026-04-25T02:56:07+00:00"
 }

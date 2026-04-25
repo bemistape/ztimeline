@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T19:14:58.790236+00:00",
+  "generatedAt": "2026-04-25T03:34:13.721782+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -13503,6 +13503,32 @@
       "searchText": "(Frank) Gasser Ranch Residence Frank Gasser"
     },
     {
+      "id": "recrGQ49z9K1Pfs0y",
+      "slug": "akron-oh",
+      "kind": "location",
+      "title": "Akron, OH",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Summit County, OH"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Akron, OH City"
+    },
+    {
       "id": "recQQnEmwWwpVACOp",
       "slug": "alameda-county-ca",
       "kind": "location",
@@ -20489,14 +20515,29 @@
           "slug": "franklin-county-oh"
         },
         {
+          "id": "recGJDv0uEy8z4mFh",
+          "name": "Summit County, OH",
+          "slug": "summit-county-oh"
+        },
+        {
           "id": "",
           "name": "Columbus",
           "slug": "columbus"
         },
         {
           "id": "",
+          "name": "OHAkron",
+          "slug": "ohakron"
+        },
+        {
+          "id": "",
           "name": "OHFranklin County",
           "slug": "ohfranklin-county"
+        },
+        {
+          "id": "",
+          "name": "OHSummit County",
+          "slug": "ohsummit-county"
         },
         {
           "id": "",
@@ -20507,6 +20548,11 @@
           "id": "",
           "name": "Franklin County",
           "slug": "franklin-county"
+        },
+        {
+          "id": "",
+          "name": "Summit County",
+          "slug": "summit-county"
         }
       ],
       "relatedPeople": [],
@@ -23382,6 +23428,48 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Sullivan County, NY County"
+    },
+    {
+      "id": "recGJDv0uEy8z4mFh",
+      "slug": "summit-county-oh",
+      "kind": "location",
+      "title": "Summit County, OH",
+      "subtitle": "County",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Ohio"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recrGQ49z9K1Pfs0y",
+          "name": "Akron, OH",
+          "slug": "akron-oh"
+        },
+        {
+          "id": "",
+          "name": "Akron",
+          "slug": "akron"
+        },
+        {
+          "id": "",
+          "name": "OH",
+          "slug": "oh"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Summit County, OH County"
     },
     {
       "id": "rech2JvuIjeqTTdSG",

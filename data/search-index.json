@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T19:14:58.790236+00:00",
+  "generatedAt": "2026-04-25T03:34:13.721782+00:00",
   "items": [
     {
       "kind": "event",
@@ -5427,6 +5427,14 @@
     },
     {
       "kind": "person",
+      "id": "recoxxdDGIMJpmICC",
+      "slug": "edward-edwards",
+      "title": "Edward Edwards",
+      "subtitle": "Suspect,Deceased",
+      "searchText": "Edward Edwards Suspect,Deceased Edward Edwards"
+    },
+    {
+      "kind": "person",
       "id": "recsizDHmGt0ubNMX",
       "slug": "fairfield-police-department",
       "title": "Fairfield Police Department",
@@ -7395,6 +7403,14 @@
     },
     {
       "kind": "location",
+      "id": "recrGQ49z9K1Pfs0y",
+      "slug": "akron-oh",
+      "title": "Akron, OH",
+      "subtitle": "City",
+      "searchText": "Akron, OH City"
+    },
+    {
+      "kind": "location",
       "id": "recQQnEmwWwpVACOp",
       "slug": "alameda-county-ca",
       "title": "Alameda County, CA",
@@ -8223,7 +8239,7 @@
       "slug": "ohio",
       "title": "Ohio",
       "subtitle": "State",
-      "searchText": "Ohio State Franklin County, OH Columbus OHFranklin County OH Franklin County"
+      "searchText": "Ohio State Franklin County, OH Summit County, OH Columbus OHAkron OHFranklin County OHSummit County OH Franklin County Summit County"
     },
     {
       "kind": "location",
@@ -8640,6 +8656,14 @@
       "title": "Sullivan County, NY",
       "subtitle": "County",
       "searchText": "Sullivan County, NY County Bethel, NY Max Yasgur's FarmBethel NY Bethel"
+    },
+    {
+      "kind": "location",
+      "id": "recGJDv0uEy8z4mFh",
+      "slug": "summit-county-oh",
+      "title": "Summit County, OH",
+      "subtitle": "County",
+      "searchText": "Summit County, OH County Akron, OH Akron OH"
     },
     {
       "kind": "location",

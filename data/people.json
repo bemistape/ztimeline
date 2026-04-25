@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T19:14:58.790236+00:00",
+  "generatedAt": "2026-04-25T03:34:13.721782+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -24911,6 +24911,64 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Edith Bernstein (Margolis) Merrill Edith Bernstein (Margolis) Merrill  Chicago Atlanta, GA Cook County, IL Georgia Illinois United States of America Fulton County, GA"
+    },
+    {
+      "id": "recoxxdDGIMJpmICC",
+      "slug": "edward-edwards",
+      "kind": "person",
+      "title": "Edward Edwards",
+      "subtitle": "Suspect,Deceased",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Edward Edwards"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attEmcnwXngZOJoar_image.png",
+          "thumbUrl": "data/media/derived/thumb/attEmcnwXngZOJoar_image.png",
+          "mediumUrl": "data/media/derived/medium/attEmcnwXngZOJoar_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attEmcnwXngZOJoar_image.png",
+        "thumbUrl": "data/media/derived/thumb/attEmcnwXngZOJoar_image.png",
+        "mediumUrl": "data/media/derived/medium/attEmcnwXngZOJoar_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1933-06-14"
+        },
+        {
+          "label": "Died",
+          "value": "2011-04-07"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Akron, OH"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Edward%20Edwards&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Edward%20Edwards&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 0,
+      "searchText": "Edward Edwards Edward Edwards  "
     },
     {
       "id": "recsizDHmGt0ubNMX",

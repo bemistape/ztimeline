@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-24T19:14:58.790236+00:00",
+  "generatedAt": "2026-04-25T03:34:13.721782+00:00",
   "stats": {
     "events": 433,
-    "people": 328,
-    "locations": 341,
+    "people": 329,
+    "locations": 343,
     "tags": 43,
-    "images": 1624,
+    "images": 1625,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 24, 2026, 07:14 PM UTC",
+    "label": "Apr 25, 2026, 03:34 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -495,12 +495,12 @@
     {
       "view": "people",
       "title": "People",
-      "description": "328 linked people and organizations with related-event cross references."
+      "description": "329 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "341 places connected to the archive, including mapped sites where data exists."
+      "description": "343 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",
