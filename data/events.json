@@ -25772,6 +25772,66 @@
       "searchText": "Harvey Hines interview in Escalon Newspaper Article Escalon, CA Escalon CA Harvey Hines"
     },
     {
+      "id": "rec9WuHi5UJXZvGGy",
+      "slug": "gareth-penn-receives-st-petersburg-postcard",
+      "kind": "event",
+      "title": "Gareth Penn receives St. Petersburg postcard",
+      "date": "1988-09-06",
+      "dateLabel": "Tue, Sep 6, 1988",
+      "year": 1988,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1988-09-06-9999-00439",
+      "type": "Suspect Event",
+      "description": "On September 6, 1988, an anonymous writer had mailed Gareth Penn a post card from St. Petersburg, Florida. This card was presumably sent to Gareth by Michael O’Hare, a kind of private Zodiac letter. Michael O’Hare’s academic resume includes the information that he is fluent in French; I myself took four years of French in high school and was never accused by my teachers of being fluent in it. Note that the letter includes an echo of the final public Zodiac message, The Count Marco Letter of July 9, 1974, in which the writer suggests that the subject of the letter, Marco Spinelli, see a psychiatrist, or “shrink”. The author, who is presumably Michael O’Hare, quotes a line from Shakespeare’s Julius Caesar. It is a quote from Cassius, speaking to Brutus.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition.",
+      "excerpt": "On September 6, 1988, an anonymous writer had mailed Gareth Penn a post card from St. Petersburg, Florida. This card was presumably sent to Gareth by Michael O’Hare, a kind of private Zodiac letter. Michael O’Hare’s aca…",
+      "locations": [
+        {
+          "id": "rec5A1IAX1TN6Tn51",
+          "name": "San Rafael, CA",
+          "slug": "san-rafael-ca"
+        },
+        {
+          "id": "",
+          "name": "San Rafael",
+          "slug": "san-rafael"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attk7RQPdzYo9rBX9_Screenshot_2026-04-30_at_11.39.02_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attk7RQPdzYo9rBX9_Screenshot_2026-04-30_at_11.39.02_PM.png",
+          "mediumUrl": "data/media/derived/medium/attk7RQPdzYo9rBX9_Screenshot_2026-04-30_at_11.39.02_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-04-30_at_11.39.02_PM.png"
+        },
+        {
+          "originalUrl": "data/media/att2tc9InXhvT2J3S_Screenshot_2026-04-30_at_11.38.22_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att2tc9InXhvT2J3S_Screenshot_2026-04-30_at_11.38.22_PM.png",
+          "mediumUrl": "data/media/derived/medium/att2tc9InXhvT2J3S_Screenshot_2026-04-30_at_11.38.22_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-04-30_at_11.38.22_PM.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Gareth Penn receives St. Petersburg postcard On September 6, 1988, an anonymous writer had mailed Gareth Penn a post card from St. Petersburg, Florida. This card was presumably sent to Gareth by Michael O’Hare, a kind of private Zodiac letter. Michael O’Hare’s academic resume includes the information that he is fluent in French; I myself took four years of French in high school and was never accused by my teachers of being fluent in it. Note that the letter includes an echo of the final public Zodiac message, The Count Marco Letter of July 9, 1974, in which the writer suggests that the subject of the letter, Marco Spinelli, see a psychiatrist, or “shrink”. The author, who is presumably Michael O’Hare, quotes a line from Shakespeare’s Julius Caesar. It is a quote from Cassius, speaking to Brutus.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition. Suspect Event San Rafael, CA San Rafael CA Gareth Penn"
+    },
+    {
       "id": "recVkmC71zHdSruSd",
       "slug": "20th-anniversary-coverage",
       "kind": "event",
@@ -25926,7 +25986,7 @@
       "sortTime": 1441,
       "sortValue": "1989-08-11-9999-00437",
       "type": "Zodiac Related Events",
-      "description": "> 14 December 1986 \n> One of my latest self-starting assistants fired off a ream of crazy-sounding and arrogant letters to everybody from Ed Meese to the mayor of San Francisco. His fundamental thesis is that Z. is going to wipe out 122 people at one stroke in 1989. \nI’ve been the recipient and curator of lots of Gareth Penn prose, a significant fraction of which is apparently unique to our correspondence. Of all the paragraphs contained in that collection, this one may be the most revealing. Gareth was trying to discourage me from contacting anyone in government about the Michael O’Hare situation. \nI suspect that, though he wanted the public to be informed about The Zodiac Project, he didn’t necessarily want them to actually do anything about it, since that could conceivably interfere with its endgame. He knew that I didn’t have a clue about that endgame—he’d offered me clues, but I hadn’t picked up on them yet—but it was still possible that I’d accidentally create an obstacle for the conspirators that they hadn’t anticipated. In the course of doing that, he offhandedly mentions a mass murder scheduled to take place in 1989, which is exactly what “The Zodiac” correspondence pointed toward—The Terminus Event of August 11, 1989.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition.",
+      "description": "> 14 December 1986 \n> One of my latest self-starting assistants fired off a ream of crazy-sounding and arrogant letters to everybody from Ed Meese to the mayor of San Francisco. His fundamental thesis is that Z. is going to wipe out 122 people at one stroke in 1989. \nI’ve been the recipient and curator of lots of Gareth Penn prose, a significant fraction of which is apparently unique to our correspondence. Of all the paragraphs contained in that collection, this one may be the most revealing. Gareth was trying to discourage me from contacting anyone in government about the Michael O’Hare situation. \nI suspect that, though he wanted the public to be informed about The Zodiac Project, he didn’t necessarily want them to actually do anything about it, since that could conceivably interfere with its endgame. He knew that I didn’t have a clue about that endgame—he’d offered me clues, but I hadn’t picked up on them yet—but it was still possible that I’d accidentally create an obstacle for the conspirators that they hadn’t anticipated. In the course of doing that, he offhandedly mentions a mass murder scheduled to take place in 1989, which is exactly what “The Zodiac” correspondence pointed toward—The Terminus Event of August 11, 1989.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition. \n\n\nThe first thing I did was to digitize The St. Pete Card, converting letters to Morse code digits, with 1 for dash and 0 for dot, and then searched the digital text for months. I found only one present in full: AUGUST. There seemed little doubt that AUGUST was intended, since none of the other months was present, and at least two other months (May and June) were much more likely to appear statistically. I tried to imagine what day in August might be the most appropriate within the confines of The Zodiac Project, and only one date occurred to me: August 11, 1989 The Terminus was 2-23, and August 11 would be Day 223 of 1989. I found passages on page 202 of Times 17 which seemed to suggest it: The meat must be in the next call, which was recorded at 2:23. There must be something about the number 223 that would tell me something. I went back to the calendar. The Zodiac counts the passage of time in days, not years or months. On 11 August, we got the call that appeared to be the jumping-off point for this new pattern The calls of Day 223 served as the title for this composition . . . I went back to Day 223 and looked carefully at the way the information was expressed. August 11 would also be appropriate since it was a Friday, and October 30, 1966 had been a Sunday. The span of days spent in Hell in Dante’s Inferno was Friday to Sunday, so the span of days in The Zodiac Project, beginning on a Sunday and ending on a Friday, would be a mirror-image of that. There were several other cryptographic suggestions that August 11th was the target date. I will discuss them in Chapters 18 and 19. In the meantime, I was reasonably sure that Friday, August 11, 1989 was D-Day for The Terminus Event.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition.",
       "excerpt": "> 14 December 1986 > One of my latest self-starting assistants fired off a ream of crazy-sounding and arrogant letters to everybody from Ed Meese to the mayor of San Francisco. His fundamental thesis is that Z. is going…",
       "locations": [],
       "people": [],
@@ -25935,7 +25995,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": false,
-      "searchText": "The Terminus Event > 14 December 1986 \n> One of my latest self-starting assistants fired off a ream of crazy-sounding and arrogant letters to everybody from Ed Meese to the mayor of San Francisco. His fundamental thesis is that Z. is going to wipe out 122 people at one stroke in 1989. \nI’ve been the recipient and curator of lots of Gareth Penn prose, a significant fraction of which is apparently unique to our correspondence. Of all the paragraphs contained in that collection, this one may be the most revealing. Gareth was trying to discourage me from contacting anyone in government about the Michael O’Hare situation. \nI suspect that, though he wanted the public to be informed about The Zodiac Project, he didn’t necessarily want them to actually do anything about it, since that could conceivably interfere with its endgame. He knew that I didn’t have a clue about that endgame—he’d offered me clues, but I hadn’t picked up on them yet—but it was still possible that I’d accidentally create an obstacle for the conspirators that they hadn’t anticipated. In the course of doing that, he offhandedly mentions a mass murder scheduled to take place in 1989, which is exactly what “The Zodiac” correspondence pointed toward—The Terminus Event of August 11, 1989.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition. Zodiac Related Events"
+      "searchText": "The Terminus Event > 14 December 1986 \n> One of my latest self-starting assistants fired off a ream of crazy-sounding and arrogant letters to everybody from Ed Meese to the mayor of San Francisco. His fundamental thesis is that Z. is going to wipe out 122 people at one stroke in 1989. \nI’ve been the recipient and curator of lots of Gareth Penn prose, a significant fraction of which is apparently unique to our correspondence. Of all the paragraphs contained in that collection, this one may be the most revealing. Gareth was trying to discourage me from contacting anyone in government about the Michael O’Hare situation. \nI suspect that, though he wanted the public to be informed about The Zodiac Project, he didn’t necessarily want them to actually do anything about it, since that could conceivably interfere with its endgame. He knew that I didn’t have a clue about that endgame—he’d offered me clues, but I hadn’t picked up on them yet—but it was still possible that I’d accidentally create an obstacle for the conspirators that they hadn’t anticipated. In the course of doing that, he offhandedly mentions a mass murder scheduled to take place in 1989, which is exactly what “The Zodiac” correspondence pointed toward—The Terminus Event of August 11, 1989.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition. \n\n\nThe first thing I did was to digitize The St. Pete Card, converting letters to Morse code digits, with 1 for dash and 0 for dot, and then searched the digital text for months. I found only one present in full: AUGUST. There seemed little doubt that AUGUST was intended, since none of the other months was present, and at least two other months (May and June) were much more likely to appear statistically. I tried to imagine what day in August might be the most appropriate within the confines of The Zodiac Project, and only one date occurred to me: August 11, 1989 The Terminus was 2-23, and August 11 would be Day 223 of 1989. I found passages on page 202 of Times 17 which seemed to suggest it: The meat must be in the next call, which was recorded at 2:23. There must be something about the number 223 that would tell me something. I went back to the calendar. The Zodiac counts the passage of time in days, not years or months. On 11 August, we got the call that appeared to be the jumping-off point for this new pattern The calls of Day 223 served as the title for this composition . . . I went back to Day 223 and looked carefully at the way the information was expressed. August 11 would also be appropriate since it was a Friday, and October 30, 1966 had been a Sunday. The span of days spent in Hell in Dante’s Inferno was Friday to Sunday, so the span of days in The Zodiac Project, beginning on a Sunday and ending on a Friday, would be a mirror-image of that. There were several other cryptographic suggestions that August 11th was the target date. I will discuss them in Chapters 18 and 19. In the meantime, I was reasonably sure that Friday, August 11, 1989 was D-Day for The Terminus Event.\n\nGrant, Ray. ZODIAC KILLER SOLVED: a detailed solution to the most infamous serial murder case of the 20th century (Function). Kindle Edition. Zodiac Related Events"
     },
     {
       "id": "recI6vIkLPZDkmpqQ",
@@ -27889,7 +27949,7 @@
       },
       {
         "value": "1988",
-        "count": 4
+        "count": 5
       },
       {
         "value": "1986",
@@ -28127,7 +28187,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 105
+        "count": 106
       },
       {
         "value": "Uncategorized",
@@ -28265,7 +28325,7 @@
       },
       {
         "value": "CA",
-        "count": 154
+        "count": 155
       },
       {
         "value": "CA)",
@@ -28969,11 +29029,11 @@
       },
       {
         "value": "San Rafael",
-        "count": 1
+        "count": 2
       },
       {
         "value": "San Rafael, CA",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Santa Barbara",
@@ -29547,7 +29607,7 @@
       },
       {
         "value": "Gareth Penn",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Gary Francis Poste",

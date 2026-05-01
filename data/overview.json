@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
+  "generatedAt": "2026-05-01T08:26:17.959818+00:00",
   "stats": {
-    "events": 439,
+    "events": 440,
     "people": 331,
     "locations": 345,
     "tags": 43,
-    "images": 1635,
+    "images": 1638,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 105
+      "count": 106
     },
     {
       "value": "Case Event",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 01, 2026, 04:31 AM UTC",
+    "label": "May 01, 2026, 08:26 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "439 dated events spanning 1925 to 2025."
+      "description": "440 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

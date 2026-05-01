@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
+  "generatedAt": "2026-05-01T08:26:17.959818+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -7603,6 +7603,73 @@
       "searchText": "San Bernardino, CA City The San Bernardino County Sun"
     },
     {
+      "id": "rec5A1IAX1TN6Tn51",
+      "slug": "san-rafael-ca",
+      "kind": "location",
+      "title": "San Rafael, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attydcI594ZiTb6XO_image.png",
+          "thumbUrl": "data/media/derived/thumb/attydcI594ZiTb6XO_image.png",
+          "mediumUrl": "data/media/derived/medium/attydcI594ZiTb6XO_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attydcI594ZiTb6XO_image.png",
+        "thumbUrl": "data/media/derived/thumb/attydcI594ZiTb6XO_image.png",
+        "mediumUrl": "data/media/derived/medium/attydcI594ZiTb6XO_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Marin County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec9Ova6sFyt8OeiW",
+          "name": "David Faraday born in San Rafael",
+          "slug": "david-faraday-born-in-san-rafael"
+        },
+        {
+          "id": "rec9WuHi5UJXZvGGy",
+          "name": "Gareth Penn receives St. Petersburg postcard",
+          "slug": "gareth-penn-receives-st-petersburg-postcard"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recYHJNyDqDUFw0ry",
+          "name": "David Arthur Faraday",
+          "slug": "david-arthur-faraday"
+        },
+        {
+          "id": "recm5zE9cKRwpHKrN",
+          "name": "KTIM Radio",
+          "slug": "ktim-radio"
+        },
+        {
+          "id": "recFjCYNvW74IINvL",
+          "name": "Northern California Renaissance Pleasure Faire",
+          "slug": "northern-california-renaissance-pleasure-faire"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "San Rafael, CA City David Arthur Faraday KTIM Radio Northern California Renaissance Pleasure Faire"
+    },
+    {
       "id": "rec3cKa9wcQXYHwl4",
       "slug": "santa-barbara-county-ca",
       "kind": "location",
@@ -12537,54 +12604,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Marino, CA City"
-    },
-    {
-      "id": "rec5A1IAX1TN6Tn51",
-      "slug": "san-rafael-ca",
-      "kind": "location",
-      "title": "San Rafael, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Marin County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec9Ova6sFyt8OeiW",
-          "name": "David Faraday born in San Rafael",
-          "slug": "david-faraday-born-in-san-rafael"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recYHJNyDqDUFw0ry",
-          "name": "David Arthur Faraday",
-          "slug": "david-arthur-faraday"
-        },
-        {
-          "id": "recm5zE9cKRwpHKrN",
-          "name": "KTIM Radio",
-          "slug": "ktim-radio"
-        },
-        {
-          "id": "recFjCYNvW74IINvL",
-          "name": "Northern California Renaissance Pleasure Faire",
-          "slug": "northern-california-renaissance-pleasure-faire"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "San Rafael, CA City David Arthur Faraday KTIM Radio Northern California Renaissance Pleasure Faire"
     },
     {
       "id": "recTurFS1LAxjM40a",
