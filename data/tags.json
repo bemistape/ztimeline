@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T19:51:29.958628+00:00",
+  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -4996,6 +4996,77 @@
       "searchText": "The Daniel Williams incident Non-Canonical Crimes"
     },
     {
+      "id": "rec8LU7p4LGaQ2Uvz",
+      "slug": "ray-grant-s-zodiac-project-theory",
+      "kind": "tag",
+      "title": "Ray Grant's Zodiac Project Theory",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1972-08-17"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "",
+          "name": "Michael O'Hare's essay Confessions of a Non-Serial Killer is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        },
+        {
+          "id": "recEgj1bRx7qI6Ird",
+          "name": "Firefighters Stem Napa Valley Blaze",
+          "slug": "firefighters-stem-napa-valley-blaze"
+        },
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        },
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recjQcjMRG4TeVOI8",
+          "name": "Ray Grant",
+          "slug": "ray-grant"
+        },
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        },
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        },
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 5,
+      "searchText": "Ray Grant's Zodiac Project Theory"
+    },
+    {
       "id": "recTMiG4WfngIFgng",
       "slug": "the-340-cipher",
       "kind": "tag",
@@ -5237,67 +5308,6 @@
       "downloads": [],
       "relatedEventCount": 4,
       "searchText": "Cultural References The Mikado, Blue Meanies"
-    },
-    {
-      "id": "rec8LU7p4LGaQ2Uvz",
-      "slug": "ray-grant-s-zodiac-project-theory",
-      "kind": "tag",
-      "title": "Ray Grant's Zodiac Project Theory",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1995-06-18"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "",
-          "name": "Michael O'Hare's essay Confessions of a Non-Serial Killer is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recRhyUJTuIrjjp60",
-          "name": "Hugh Penn dies",
-          "slug": "hugh-penn-dies"
-        },
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recjQcjMRG4TeVOI8",
-          "name": "Ray Grant",
-          "slug": "ray-grant"
-        },
-        {
-          "id": "recbmC37Z7MsD78qO",
-          "name": "Gareth Penn",
-          "slug": "gareth-penn"
-        },
-        {
-          "id": "recMYOFG2oXTk0Gwa",
-          "name": "Berta Margoulies",
-          "slug": "berta-margoulies"
-        },
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 3,
-      "searchText": "Ray Grant's Zodiac Project Theory"
     },
     {
       "id": "rect44YEtF3jKtHcB",

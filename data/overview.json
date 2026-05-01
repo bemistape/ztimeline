@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-30T19:51:29.958628+00:00",
+  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
   "stats": {
-    "events": 433,
-    "people": 329,
-    "locations": 343,
+    "events": 439,
+    "people": 331,
+    "locations": 345,
     "tags": 43,
-    "images": 1625,
+    "images": 1635,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -18,12 +18,12 @@
       "count": 152
     },
     {
-      "value": 1970,
+      "value": 1968,
       "count": 29
     },
     {
-      "value": 1968,
-      "count": 28
+      "value": 1970,
+      "count": 29
     },
     {
       "value": 1966,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 104
+      "count": 105
     },
     {
       "value": "Case Event",
@@ -57,7 +57,7 @@
     },
     {
       "value": "Newspaper Article",
-      "count": 32
+      "count": 34
     },
     {
       "value": "Cultural Event",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "Apr 30, 2026, 07:51 PM UTC",
+    "label": "May 01, 2026, 04:31 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,17 +490,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "433 dated events spanning 1925 to 2025."
+      "description": "439 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "329 linked people and organizations with related-event cross references."
+      "description": "331 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "343 places connected to the archive, including mapped sites where data exists."
+      "description": "345 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T19:51:29.958628+00:00",
+  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -6332,6 +6332,164 @@
       "searchText": "The Solano-Napa News Chronicle The Solano-Napa News Chronicle  Vallejo, CA Solano County, CA California SF Bay Area United States of America Los Angeles San Francisco"
     },
     {
+      "id": "recbmC37Z7MsD78qO",
+      "slug": "gareth-penn",
+      "kind": "person",
+      "title": "Gareth Penn",
+      "subtitle": "Author,Researcher,Suspect",
+      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
+      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
+      "aliases": [
+        "Gareth Penn"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
+          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
+          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
+          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
+        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1941-01-01"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recCSF1fIrw68Th7U",
+          "name": "Gareth Penn writes article in California Magazine under pen name",
+          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
+        },
+        {
+          "id": "recGDigROyNfU6rJ6",
+          "name": "Article on continued interest in Zodiac case",
+          "slug": "article-on-continued-interest-in-zodiac-case"
+        },
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        },
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "recaz1wgcaqz0EFiQ",
+          "name": "Solano County, CA",
+          "slug": "solano-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recbF7clima1I0zrq",
+          "name": "Sacramento, CA",
+          "slug": "sacramento-ca"
+        },
+        {
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 6,
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Sacramento, CA MIT Earth Sciences Building 54"
+    },
+    {
       "id": "recBcRszrpzCKM2UO",
       "slug": "jim-phillips-crabtree",
       "kind": "person",
@@ -7710,149 +7868,6 @@
       "searchText": "Deer Lodge Prison Deer Lodge Prison Possibly misheard prison Zodiac claimed to have escaped from. Powell County, MT Montana United States of America Lake Berryessa Site of Lake Berryessa Zodiac Encounter Napa, CA Oakland, CA Deer Lodge, MT Vallejo, CA Queen of the Valley Hospital (Napa, CA)"
     },
     {
-      "id": "recbmC37Z7MsD78qO",
-      "slug": "gareth-penn",
-      "kind": "person",
-      "title": "Gareth Penn",
-      "subtitle": "Author,Researcher,Suspect",
-      "summary": "Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/",
-      "excerpt": "Author of \"Times 17\" Personal website: https://d550.blogspot.com/",
-      "aliases": [
-        "Gareth Penn"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-          "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-          "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/att5ahv7fotkpOIvh_image.png",
-          "thumbUrl": "data/media/derived/thumb/att5ahv7fotkpOIvh_image.png",
-          "mediumUrl": "data/media/derived/medium/att5ahv7fotkpOIvh_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        },
-        {
-          "originalUrl": "data/media/attfUze7gY1vxvRdy_image.png",
-          "thumbUrl": "data/media/derived/thumb/attfUze7gY1vxvRdy_image.png",
-          "mediumUrl": "data/media/derived/medium/attfUze7gY1vxvRdy_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attTHgtEVtVtbjkgU_image.png",
-        "thumbUrl": "data/media/derived/thumb/attTHgtEVtVtbjkgU_image.png",
-        "mediumUrl": "data/media/derived/medium/attTHgtEVtVtbjkgU_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1941-01-01"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recCSF1fIrw68Th7U",
-          "name": "Gareth Penn writes article in California Magazine under pen name",
-          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
-        },
-        {
-          "id": "recGDigROyNfU6rJ6",
-          "name": "Article on continued interest in Zodiac case",
-          "slug": "article-on-continued-interest-in-zodiac-case"
-        },
-        {
-          "id": "recRhyUJTuIrjjp60",
-          "name": "Hugh Penn dies",
-          "slug": "hugh-penn-dies"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recURm55M69p21vYN",
-          "name": "Vallejo, CA",
-          "slug": "vallejo-ca"
-        },
-        {
-          "id": "recaz1wgcaqz0EFiQ",
-          "name": "Solano County, CA",
-          "slug": "solano-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recXWIp8s3P3TAYiu",
-          "name": "San Francisco",
-          "slug": "san-francisco"
-        },
-        {
-          "id": "recbF7clima1I0zrq",
-          "name": "Sacramento, CA",
-          "slug": "sacramento-ca"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec6qfvgItNNAztyn",
-          "name": "Hugh Penn",
-          "slug": "hugh-penn"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Gareth%20Penn&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 4,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Sacramento, CA"
-    },
-    {
       "id": "recfaGz7ecM0l0K1x",
       "slug": "joe-charles-stine",
       "kind": "person",
@@ -8211,6 +8226,155 @@
       ],
       "relatedEventCount": 4,
       "searchText": "Kathleen Johns Kathleen Johns Possibly kidnapped Zodiac Patterson, CA Stanislaus County, CA California United States of America Modesto, CA Hwy 132"
+    },
+    {
+      "id": "recFaKMK2SMtmEMkK",
+      "slug": "michael-o-hare",
+      "kind": "person",
+      "title": "Michael O'Hare",
+      "subtitle": "Suspect,Living",
+      "summary": "Zodiac suspect and Professor of Public Policy",
+      "excerpt": "Zodiac suspect and Professor of Public Policy",
+      "aliases": [
+        "Michael O'Hare"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Berkeley, CA, Boston, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        },
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "recQQnEmwWwpVACOp",
+          "name": "Alameda County, CA",
+          "slug": "alameda-county-ca"
+        },
+        {
+          "id": "rec3j7ziSuI13OnhA",
+          "name": "Suffolk County, MA",
+          "slug": "suffolk-county-ma"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recQCUmzdimTBeYjB",
+          "name": "Massachusetts",
+          "slug": "massachusetts"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recT5UMd9o61gJhFr",
+          "name": "Flanders, NJ",
+          "slug": "flanders-nj"
+        },
+        {
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recTsOdMprpYMZiTt",
+          "name": "University of California, Berkeley",
+          "slug": "university-of-california-berkeley"
+        },
+        {
+          "id": "rec4i4VSg7Tk4sUUy",
+          "name": "Harvard University",
+          "slug": "harvard-university"
+        },
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 4,
+      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA California SF Bay Area Massachusetts United States of America Napa County, CA Flanders, NJ MIT Earth Sciences Building 54"
     },
     {
       "id": "recmQ9moIGpjHOofr",
@@ -11441,6 +11605,133 @@
       "searchText": "Allan Brambrink Allan Brambrink Sheriff's Deputy in Napa County Lake Berryessa Napa County, CA Queen of the Valley Hospital (Napa, CA) Site of Lake Berryessa Zodiac Encounter"
     },
     {
+      "id": "recMYOFG2oXTk0Gwa",
+      "slug": "berta-margoulies",
+      "kind": "person",
+      "title": "Berta Margoulies",
+      "subtitle": "Suspect,Deceased",
+      "summary": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "excerpt": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
+      "aliases": [
+        "Berta Margoulies"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+          "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
+        "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
+        "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1907-09-07"
+        },
+        {
+          "label": "Died",
+          "value": "1996-03-20"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Walnut Creek, CA, New York City, Poland, Flanders, NJ"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec0xk8jRcZ4F18Nk",
+          "name": "Article on Berta Margoulies's career",
+          "slug": "article-on-berta-margoulies-s-career"
+        },
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recTeObirXPYxOpxm",
+          "name": "Walnut Creek, CA",
+          "slug": "walnut-creek-ca"
+        },
+        {
+          "id": "reckDShDfDH9DW0Co",
+          "name": "New York City",
+          "slug": "new-york-city"
+        },
+        {
+          "id": "recdrDPUFQyzI2Xjg",
+          "name": "Contra Costa County, CA",
+          "slug": "contra-costa-county-ca"
+        },
+        {
+          "id": "reczk8ct3HpUUSnhh",
+          "name": "New York State",
+          "slug": "new-york-state"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "recT5UMd9o61gJhFr",
+          "name": "Flanders, NJ",
+          "slug": "flanders-nj"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America Boston, MA Flanders, NJ"
+    },
+    {
       "id": "rec0dOwJ1AL9UguKQ",
       "slug": "carmen-elois-welch-mageau-vrana",
       "kind": "person",
@@ -13754,6 +14045,79 @@
       ],
       "relatedEventCount": 2,
       "searchText": "R. Clifton Rayfield R. Clifton Rayfield Witness at Lake Berryessa. Los Gatos, CA Santa Clara County, CA SF Bay Area California United States of America Lake Berryessa Spanish Flat Coffee Shop"
+    },
+    {
+      "id": "recjQcjMRG4TeVOI8",
+      "slug": "ray-grant",
+      "kind": "person",
+      "title": "Ray Grant",
+      "subtitle": "Researcher,Author,Living",
+      "summary": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
+      "excerpt": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
+      "aliases": [
+        "Ray Grant"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
+          "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
+          "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
+        "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
+        "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Zodiac Project Theory",
+          "slug": "ray-grant-s-zodiac-project-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 2,
+      "searchText": "Ray Grant Ray Grant Researcher who promotes a theory that four people committed the murders as a conceptual art project. Napa County, CA MIT Earth Sciences Building 54"
     },
     {
       "id": "recrgtrzf0W38VYXG",
@@ -16116,123 +16480,6 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Bernie Johnson Bernie Johnson Pallbearer at David Faraday's funeral Tulocay Cemetery & Crematory"
-    },
-    {
-      "id": "recMYOFG2oXTk0Gwa",
-      "slug": "berta-margoulies",
-      "kind": "person",
-      "title": "Berta Margoulies",
-      "subtitle": "Suspect,Deceased",
-      "summary": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
-      "excerpt": "Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy.",
-      "aliases": [
-        "Berta Margoulies"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
-          "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
-          "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attLGpbyuig8C2T28_image.png",
-        "thumbUrl": "data/media/derived/thumb/attLGpbyuig8C2T28_image.png",
-        "mediumUrl": "data/media/derived/medium/attLGpbyuig8C2T28_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1907-09-07"
-        },
-        {
-          "label": "Died",
-          "value": "1996-03-20"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Walnut Creek, CA, New York City, Poland, Flanders, NJ"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec0xk8jRcZ4F18Nk",
-          "name": "Article on Berta Margoulies's career",
-          "slug": "article-on-berta-margoulies-s-career"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recTeObirXPYxOpxm",
-          "name": "Walnut Creek, CA",
-          "slug": "walnut-creek-ca"
-        },
-        {
-          "id": "reckDShDfDH9DW0Co",
-          "name": "New York City",
-          "slug": "new-york-city"
-        },
-        {
-          "id": "recdrDPUFQyzI2Xjg",
-          "name": "Contra Costa County, CA",
-          "slug": "contra-costa-county-ca"
-        },
-        {
-          "id": "reczk8ct3HpUUSnhh",
-          "name": "New York State",
-          "slug": "new-york-state"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recYYObQ6rjCcjWSF",
-          "name": "Boston, MA",
-          "slug": "boston-ma"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Berta%20Margoulies&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 1,
-      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America Boston, MA"
     },
     {
       "id": "recLS6oYJ6Lv8rJAB",
@@ -20908,65 +21155,59 @@
       "searchText": "Michael Bates Michael Bates Brother of Cheri Jo Bates. Bellevue, NE"
     },
     {
-      "id": "recFaKMK2SMtmEMkK",
-      "slug": "michael-o-hare",
+      "id": "rec49Rt6IDDTANADK",
+      "slug": "mit",
       "kind": "person",
-      "title": "Michael O'Hare",
-      "subtitle": "Suspect,Living",
-      "summary": "Zodiac suspect and Professor of Public Policy",
-      "excerpt": "Zodiac suspect and Professor of Public Policy",
+      "title": "MIT",
+      "subtitle": "Organization,Education",
+      "summary": "",
+      "excerpt": "",
       "aliases": [
-        "Michael O'Hare"
+        "MIT"
       ],
       "images": [
         {
-          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+          "originalUrl": "data/media/attF7Kg8ugADP61R8_image.png",
+          "thumbUrl": "data/media/derived/thumb/attF7Kg8ugADP61R8_image.png",
+          "mediumUrl": "data/media/derived/medium/attF7Kg8ugADP61R8_image.png",
           "derivativeState": "derived",
           "label": "image.png"
         }
       ],
       "primaryImage": {
-        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+        "originalUrl": "data/media/attF7Kg8ugADP61R8_image.png",
+        "thumbUrl": "data/media/derived/thumb/attF7Kg8ugADP61R8_image.png",
+        "mediumUrl": "data/media/derived/medium/attF7Kg8ugADP61R8_image.png",
         "derivativeState": "derived",
         "label": "image.png"
       },
       "facts": [
         {
+          "label": "Extended Name",
+          "value": "Massachusetts Institute of Technology (MIT)"
+        },
+        {
           "label": "Home / HQ",
-          "value": "Berkeley, CA, Boston, MA"
+          "value": "Cambridge, MA"
         }
       ],
       "relatedEvents": [
         {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
         }
       ],
       "relatedLocations": [
         {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
+          "id": "recFsyte095GIHhHt",
+          "name": "Cambridge, MA",
+          "slug": "cambridge-ma"
         },
         {
-          "id": "recYYObQ6rjCcjWSF",
-          "name": "Boston, MA",
-          "slug": "boston-ma"
-        },
-        {
-          "id": "recQQnEmwWwpVACOp",
-          "name": "Alameda County, CA",
-          "slug": "alameda-county-ca"
-        },
-        {
-          "id": "rec3j7ziSuI13OnhA",
-          "name": "Suffolk County, MA",
-          "slug": "suffolk-county-ma"
+          "id": "recPjtayjV5Fi5IlS",
+          "name": "Middlesex County, MA",
+          "slug": "middlesex-county-ma"
         },
         {
           "id": "recQCUmzdimTBeYjB",
@@ -20974,57 +21215,30 @@
           "slug": "massachusetts"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
         },
         {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
         }
       ],
-      "relatedPeople": [
-        {
-          "id": "recTsOdMprpYMZiTt",
-          "name": "University of California, Berkeley",
-          "slug": "university-of-california-berkeley"
-        },
-        {
-          "id": "rec4i4VSg7Tk4sUUy",
-          "name": "Harvard University",
-          "slug": "harvard-university"
-        },
-        {
-          "id": "recMYOFG2oXTk0Gwa",
-          "name": "Berta Margoulies",
-          "slug": "berta-margoulies"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
+      "relatedPeople": [],
+      "relatedTags": [],
       "downloads": [
         {
           "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+          "url": "https://www.google.com/search?as_q=MIT&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
         },
         {
           "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+          "url": "https://www.google.com/search?as_st=y&as_q=MIT&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA Massachusetts California United States of America SF Bay Area"
+      "searchText": "MIT MIT  Cambridge, MA Middlesex County, MA Massachusetts United States of America MIT Earth Sciences Building 54"
     },
     {
       "id": "recP81qCXj3u1nsfR",
@@ -21577,6 +21791,110 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Peggy Your Peggy Your  Lake Herman Road Zodiac Site Lake Herman Road Marshall Ranch"
+    },
+    {
+      "id": "recrqrgr0v20CdvFG",
+      "slug": "peter-gasser",
+      "kind": "person",
+      "title": "Peter Gasser",
+      "subtitle": "Tied to Witness",
+      "summary": "Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown.",
+      "excerpt": "Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers wer…",
+      "aliases": [
+        "Peter Gasser"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attU0C5vbSc3QFwHo_image.png",
+          "thumbUrl": "data/media/derived/thumb/attU0C5vbSc3QFwHo_image.png",
+          "mediumUrl": "data/media/derived/medium/attU0C5vbSc3QFwHo_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        },
+        {
+          "originalUrl": "data/media/attxdHaun6B9sUhK8_gasser_motors.jpg",
+          "thumbUrl": "data/media/derived/thumb/attxdHaun6B9sUhK8_gasser_motors.jpg",
+          "mediumUrl": "data/media/derived/medium/attxdHaun6B9sUhK8_gasser_motors.jpg",
+          "derivativeState": "derived",
+          "label": "gasser_motors.jpg"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attU0C5vbSc3QFwHo_image.png",
+        "thumbUrl": "data/media/derived/thumb/attU0C5vbSc3QFwHo_image.png",
+        "mediumUrl": "data/media/derived/medium/attU0C5vbSc3QFwHo_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Died",
+          "value": "1982-05-22"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Napa, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recGa0aCpwMM0jQkt",
+          "name": "Queen of the Valley Hospital (Napa, CA)",
+          "slug": "queen-of-the-valley-hospital-napa-ca"
+        },
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recvaKNpColXeadv6",
+          "name": "Frank Gasser",
+          "slug": "frank-gasser"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Peter%20Gasser&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Peter%20Gasser&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Peter Gasser Peter Gasser Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown. Queen of the Valley Hospital (Napa, CA) Napa, CA California Napa County, CA SF Bay Area United States of America"
     },
     {
       "id": "rec7KaU666bCC1u0T",
@@ -23349,6 +23667,83 @@
       "searchText": "The Modesto Bee The Modesto Bee  Modesto, CA Stanislaus County, CA California United States of America"
     },
     {
+      "id": "recjFfE8G7gEIbB7r",
+      "slug": "the-new-york-times",
+      "kind": "person",
+      "title": "The New York Times",
+      "subtitle": "Media",
+      "summary": "The American newspaper of record.",
+      "excerpt": "The American newspaper of record.",
+      "aliases": [
+        "The New York Times"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att5NFmSNggHGf3jY_image.png",
+          "thumbUrl": "data/media/derived/thumb/att5NFmSNggHGf3jY_image.png",
+          "mediumUrl": "data/media/derived/medium/att5NFmSNggHGf3jY_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att5NFmSNggHGf3jY_image.png",
+        "thumbUrl": "data/media/derived/thumb/att5NFmSNggHGf3jY_image.png",
+        "mediumUrl": "data/media/derived/medium/att5NFmSNggHGf3jY_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "New York City"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recEgj1bRx7qI6Ird",
+          "name": "Firefighters Stem Napa Valley Blaze",
+          "slug": "firefighters-stem-napa-valley-blaze"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "reckDShDfDH9DW0Co",
+          "name": "New York City",
+          "slug": "new-york-city"
+        },
+        {
+          "id": "reczk8ct3HpUUSnhh",
+          "name": "New York State",
+          "slug": "new-york-state"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=The%20New%20York%20Times&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=The%20New%20York%20Times&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "The New York Times The New York Times The American newspaper of record. New York City New York State United States of America Napa County, CA"
+    },
+    {
       "id": "rec7c5R1JL9xmtyRY",
       "slug": "thomas-v-o-donnell",
       "kind": "person",
@@ -23613,6 +24008,106 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Tom Voigt Tom Voigt  Portland, OR Multnomah County, OR Oregon United States of America The Internet"
+    },
+    {
+      "id": "recM454vnmOnqX3rD",
+      "slug": "united-states-army",
+      "kind": "person",
+      "title": "United States Army",
+      "subtitle": "Military",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "United States Army"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "United States of America"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec1t8AV1Mqsd9c4F",
+          "name": "The Presidio Mutiny",
+          "slug": "the-presidio-mutiny"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rechnHjtuRckiFotk",
+          "name": "Fort Eustis",
+          "slug": "fort-eustis"
+        },
+        {
+          "id": "reccvkhL1emsnT8BU",
+          "name": "Newport News, VA",
+          "slug": "newport-news-va"
+        },
+        {
+          "id": "recSP3mpjZQ4A82Kl",
+          "name": "Virginia",
+          "slug": "virginia"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recr2O2FNPzPjrHUd",
+          "name": "The Presidio",
+          "slug": "the-presidio"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recg462dI0mJi8KMB",
+          "name": "Chester Clark Klingel Jr.",
+          "slug": "chester-clark-klingel-jr"
+        },
+        {
+          "id": "recFHhgCwG2mlpb3H",
+          "name": "Dennis Land",
+          "slug": "dennis-land"
+        },
+        {
+          "id": "rece50yKSif6qIJjD",
+          "name": "Verne Marion Jensen",
+          "slug": "verne-marion-jensen"
+        },
+        {
+          "id": "recE0OBRoXJWRUuyP",
+          "name": "William Joseph Grant",
+          "slug": "william-joseph-grant"
+        },
+        {
+          "id": "recBksQ4rNpargfGq",
+          "name": "David Toschi",
+          "slug": "david-toschi"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recARqcCrYYCA8P03",
+          "name": "Military",
+          "slug": "military"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=United%20States%20Army&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=United%20States%20Army&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "United States Army United States Army  Fort Eustis Newport News, VA Virginia United States of America The Presidio"
     },
     {
       "id": "recz1NnEBQrPCi7j6",
@@ -27458,79 +27953,6 @@
       "searchText": "Petaluma Argus-Courier Petaluma Argus-Courier  Petaluma, CA Sonoma County, CA California SF Bay Area United States of America"
     },
     {
-      "id": "recrqrgr0v20CdvFG",
-      "slug": "peter-gasser",
-      "kind": "person",
-      "title": "Peter Gasser",
-      "subtitle": "Tied to Witness",
-      "summary": "Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown.",
-      "excerpt": "Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers wer…",
-      "aliases": [
-        "Peter Gasser"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Napa, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recGa0aCpwMM0jQkt",
-          "name": "Queen of the Valley Hospital (Napa, CA)",
-          "slug": "queen-of-the-valley-hospital-napa-ca"
-        },
-        {
-          "id": "recEKYdzhHISXUYQt",
-          "name": "Napa, CA",
-          "slug": "napa-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recvaKNpColXeadv6",
-          "name": "Frank Gasser",
-          "slug": "frank-gasser"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Peter%20Gasser&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Peter%20Gasser&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Peter Gasser Peter Gasser Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown. Queen of the Valley Hospital (Napa, CA) Napa, CA California Napa County, CA SF Bay Area United States of America"
-    },
-    {
       "id": "recX0myVdy6ktrviR",
       "slug": "progress-bulletin",
       "kind": "person",
@@ -27663,57 +28085,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Ramona High School Ramona High School  Riverside, CA Riverside County, CA California United States of America"
-    },
-    {
-      "id": "recjQcjMRG4TeVOI8",
-      "slug": "ray-grant",
-      "kind": "person",
-      "title": "Ray Grant",
-      "subtitle": "Researcher,Author,Living",
-      "summary": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
-      "excerpt": "Researcher who promotes a theory that four people committed the murders as a conceptual art project.",
-      "aliases": [
-        "Ray Grant"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
-          "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
-          "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/att7jOLU19Vngf91n_image.png",
-        "thumbUrl": "data/media/derived/thumb/att7jOLU19Vngf91n_image.png",
-        "mediumUrl": "data/media/derived/medium/att7jOLU19Vngf91n_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Ray%20Grant&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Ray Grant Ray Grant Researcher who promotes a theory that four people committed the murders as a conceptual art project. "
     },
     {
       "id": "recIPToWrud8BWT8F",
@@ -29309,95 +29680,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "United States Air Force United States Air Force  "
-    },
-    {
-      "id": "recM454vnmOnqX3rD",
-      "slug": "united-states-army",
-      "kind": "person",
-      "title": "United States Army",
-      "subtitle": "Military",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "United States Army"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "United States of America"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "rechnHjtuRckiFotk",
-          "name": "Fort Eustis",
-          "slug": "fort-eustis"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "reccvkhL1emsnT8BU",
-          "name": "Newport News, VA",
-          "slug": "newport-news-va"
-        },
-        {
-          "id": "recSP3mpjZQ4A82Kl",
-          "name": "Virginia",
-          "slug": "virginia"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recg462dI0mJi8KMB",
-          "name": "Chester Clark Klingel Jr.",
-          "slug": "chester-clark-klingel-jr"
-        },
-        {
-          "id": "recFHhgCwG2mlpb3H",
-          "name": "Dennis Land",
-          "slug": "dennis-land"
-        },
-        {
-          "id": "rece50yKSif6qIJjD",
-          "name": "Verne Marion Jensen",
-          "slug": "verne-marion-jensen"
-        },
-        {
-          "id": "recE0OBRoXJWRUuyP",
-          "name": "William Joseph Grant",
-          "slug": "william-joseph-grant"
-        },
-        {
-          "id": "recBksQ4rNpargfGq",
-          "name": "David Toschi",
-          "slug": "david-toschi"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recARqcCrYYCA8P03",
-          "name": "Military",
-          "slug": "military"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=United%20States%20Army&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=United%20States%20Army&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "United States Army United States Army  Fort Eustis United States of America Newport News, VA Virginia"
     },
     {
       "id": "rec5sLMwfiMUYMmOS",

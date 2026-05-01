@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-30T19:51:29.958628+00:00",
+  "generatedAt": "2026-05-01T04:31:50.628796+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -2359,6 +2359,11 @@
         },
         {
           "id": "",
+          "name": "OHSummit County",
+          "slug": "ohsummit-county"
+        },
+        {
+          "id": "",
           "name": "OHGuamCaliforniaNew York StateIllinoisIdahoMontanaGeorgiaPennsylvaniaNevadaOklahomaArizonaOregonColoradoNebraskaVirginiaSouth DakotaMassachusettsMichiganIndianaHawaiiKansasWest VirginiaFloridaOhioWashington",
           "slug": "ohguamcalifornianew-york-stateillinoisidahomontanageorgiapennsylvanianevadaoklahomaarizonaoregoncoloradonebraskavirginiasouth-dakotamassachusettsmichiganindianahawaiikansaswest-virginiafloridaohiowashington"
         },
@@ -2425,14 +2430,14 @@
           "slug": "arthur-leigh-allen"
         },
         {
-          "id": "rec5NLNj8q2bpKjm8",
-          "name": "San Francisco Chronicle",
-          "slug": "san-francisco-chronicle"
-        },
-        {
           "id": "rec4ZhSZpZfgCU6ng",
           "name": "Cheri Jo Bates",
           "slug": "cheri-jo-bates"
+        },
+        {
+          "id": "rec5NLNj8q2bpKjm8",
+          "name": "San Francisco Chronicle",
+          "slug": "san-francisco-chronicle"
         },
         {
           "id": "reckQ2Se5cvoZCWrF",
@@ -2450,14 +2455,14 @@
           "slug": "paul-avery"
         },
         {
-          "id": "receQedHFngoWJQ3i",
-          "name": "Donald (Don) Cheney",
-          "slug": "donald-don-cheney"
-        },
-        {
           "id": "recpJMrcs1l3WRn9j",
           "name": "The Los Angeles Times",
           "slug": "the-los-angeles-times"
+        },
+        {
+          "id": "receQedHFngoWJQ3i",
+          "name": "Donald (Don) Cheney",
+          "slug": "donald-don-cheney"
         },
         {
           "id": "recrgtrzf0W38VYXG",
@@ -2470,6 +2475,11 @@
           "slug": "nancy-slover-ludine-jones-earp"
         },
         {
+          "id": "rec7Fue7MIOL0uRL6",
+          "name": "Ken Narlow",
+          "slug": "ken-narlow"
+        },
+        {
           "id": "recb9DBCgGcF3eXXg",
           "name": "Jim Dunbar",
           "slug": "jim-dunbar"
@@ -2478,11 +2488,6 @@
           "id": "rec7mWjRsgHKOVGuk",
           "name": "Count Marco (Marc H. Spinelli)",
           "slug": "count-marco-marc-h-spinelli"
-        },
-        {
-          "id": "rec7Fue7MIOL0uRL6",
-          "name": "Ken Narlow",
-          "slug": "ken-narlow"
         },
         {
           "id": "recYrvybWgT8qcCXj",
@@ -2505,14 +2510,14 @@
           "slug": "vallejo-police"
         },
         {
-          "id": "recSEKXCZ713pyThm",
-          "name": "Napa County Sheriff's Department",
-          "slug": "napa-county-sheriff-s-department"
-        },
-        {
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
+        },
+        {
+          "id": "recSEKXCZ713pyThm",
+          "name": "Napa County Sheriff's Department",
+          "slug": "napa-county-sheriff-s-department"
         },
         {
           "id": "recnGQtKOfaGauwF5",
@@ -2615,6 +2620,11 @@
           "slug": "william-mcduff-andrew"
         },
         {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        },
+        {
           "id": "recBcRszrpzCKM2UO",
           "name": "Jim Phillips Crabtree",
           "slug": "jim-phillips-crabtree"
@@ -2628,6 +2638,11 @@
           "id": "recUj9VcE1TiYBWhk",
           "name": "The Solano-Napa News Chronicle",
           "slug": "the-solano-napa-news-chronicle"
+        },
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
         },
         {
           "id": "recbxW2kT9BdoZ0Pa",
@@ -2665,6 +2680,11 @@
           "slug": "linda-l-jensen-sunbather"
         },
         {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        },
+        {
           "id": "recIgEVcAF0n18DST",
           "name": "R. Clifton Rayfield",
           "slug": "r-clifton-rayfield"
@@ -2678,11 +2698,6 @@
           "id": "reccRBkzVCjHazVUW",
           "name": "David Lee Rayfield",
           "slug": "david-lee-rayfield"
-        },
-        {
-          "id": "recbmC37Z7MsD78qO",
-          "name": "Gareth Penn",
-          "slug": "gareth-penn"
         },
         {
           "id": "recb7X6ZsOGFxprp9",
@@ -2745,11 +2760,6 @@
           "slug": "redlands-daily-facts"
         },
         {
-          "id": "recMYOFG2oXTk0Gwa",
-          "name": "Berta Margoulies",
-          "slug": "berta-margoulies"
-        },
-        {
           "id": "recg7IidjFRbEeyLC",
           "name": "Sharon Henslin (Adolfo Stutsman)",
           "slug": "sharon-henslin-adolfo-stutsman"
@@ -2760,14 +2770,14 @@
           "slug": "dennis-land"
         },
         {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        },
-        {
           "id": "recd5q3JwYg9l0yOy",
           "name": "LeRoy Sweet",
           "slug": "leroy-sweet"
+        },
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
         },
         {
           "id": "rec4jEahgyYMSXffW",
@@ -2793,11 +2803,6 @@
           "id": "recDZacUguFYsaiA1",
           "name": "Lorraine Osuna DeGroat",
           "slug": "lorraine-osuna-degroat"
-        },
-        {
-          "id": "rec6qfvgItNNAztyn",
-          "name": "Hugh Penn",
-          "slug": "hugh-penn"
         },
         {
           "id": "rec1E36PYKH7RZjhY",
@@ -2838,6 +2843,11 @@
           "id": "recJLC9aDDuTbSdEY",
           "name": "Boston Globe",
           "slug": "boston-globe"
+        },
+        {
+          "id": "recjFfE8G7gEIbB7r",
+          "name": "The New York Times",
+          "slug": "the-new-york-times"
         },
         {
           "id": "recgW2ZeMQ6VPyHCi",
@@ -2930,6 +2940,11 @@
           "slug": "hal-snook"
         },
         {
+          "id": "recrqrgr0v20CdvFG",
+          "name": "Peter Gasser",
+          "slug": "peter-gasser"
+        },
+        {
           "id": "recmQ9moIGpjHOofr",
           "name": "Ronald Gene Allen",
           "slug": "ronald-gene-allen"
@@ -2943,11 +2958,6 @@
           "id": "recwRee0DtTX3tRVn",
           "name": "Richard Lonergan",
           "slug": "richard-lonergan"
-        },
-        {
-          "id": "recrqrgr0v20CdvFG",
-          "name": "Peter Gasser",
-          "slug": "peter-gasser"
         },
         {
           "id": "recPDmge198CzhGuq",
@@ -3008,6 +3018,11 @@
           "id": "rec9PcIzFWEAQpNgB",
           "name": "Stanford University",
           "slug": "stanford-university"
+        },
+        {
+          "id": "rec49Rt6IDDTANADK",
+          "name": "MIT",
+          "slug": "mit"
         },
         {
           "id": "recPqL3Y9XApsG18S",
@@ -3235,6 +3250,11 @@
           "slug": "fairmont-hotel"
         },
         {
+          "id": "recM454vnmOnqX3rD",
+          "name": "United States Army",
+          "slug": "united-states-army"
+        },
+        {
           "id": "reclURMsg3CwnpHXu",
           "name": "Sgt. H.L. Homsher",
           "slug": "sgt-h-l-homsher"
@@ -3400,11 +3420,6 @@
           "slug": "atascadero-state-hospital"
         },
         {
-          "id": "recM454vnmOnqX3rD",
-          "name": "United States Army",
-          "slug": "united-states-army"
-        },
-        {
           "id": "reclhR72XzI2FR104",
           "name": "Dr. Byron Thomas Sanford",
           "slug": "dr-byron-thomas-sanford"
@@ -3505,7 +3520,7 @@
       "relatedEventCount": 10,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen San Francisco Chronicle Cheri Jo Bates San Francisco Examiner Vallejo Times-Herald Paul Avery Donald (Don) Cheney The Los Angeles Times Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Tom Voigt Armistead Maupin David Toschi Vallejo Police Napa County Sheriff's Department Melvin Belli SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers William McDuff Andrew Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield William Joseph Grant David Lee Rayfield Gareth Penn Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Berta Margoulies Sharon Henslin (Adolfo Stutsman) Dennis Land Michael O'Hare LeRoy Sweet William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat Hugh Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Boston Globe Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital United States Army Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Paul Avery The Los Angeles Times Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Ken Narlow Jim Dunbar Count Marco (Marc H. Spinelli) Tom Voigt Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers William McDuff Andrew Gareth Penn Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Michael O'Hare Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) Berta Margoulies R. Clifton Rayfield William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet Hugh Penn William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Boston Globe The New York Times Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Peter Gasser Ronald Gene Allen Ethan Warren Allen Richard Lonergan Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University MIT The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel United States Army Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
       "id": "recUJsymsZJwwCLW9",
@@ -3679,100 +3694,6 @@
       "searchText": "Martinez, CA City"
     },
     {
-      "id": "rec9eYWhCQCUgaGyg",
-      "slug": "lake-herman-road-zodiac-site",
-      "kind": "location",
-      "title": "Lake Herman Road Zodiac Site",
-      "subtitle": "Site",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Lake Herman Road, Solano County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recgJKENPX5dM7i8f",
-          "name": "Lake Herman Road Double Murder",
-          "slug": "lake-herman-road-double-murder"
-        },
-        {
-          "id": "recyjFt6i09xmtq46",
-          "name": "Stella Medeiros finds bodies",
-          "slug": "stella-medeiros-finds-bodies"
-        },
-        {
-          "id": "recBEk4S1Y1NEAXt5",
-          "name": "Helen Axe sees Faraday / Jensen at turnout with other car",
-          "slug": "helen-axe-sees-faraday-jensen-at-turnout-with-other-car"
-        },
-        {
-          "id": "recbVrvunnpDEQp2s",
-          "name": "Benicia police arrive on scene",
-          "slug": "benicia-police-arrive-on-scene"
-        },
-        {
-          "id": "rec7WCKo6rJMnzZ0y",
-          "name": "James Owen passes by crime scene, sees two cars",
-          "slug": "james-owen-passes-by-crime-scene-sees-two-cars"
-        },
-        {
-          "id": "recu4bDLu2lsBkv1G",
-          "name": "Det. Lundblad arrives at murder scene",
-          "slug": "det-lundblad-arrives-at-murder-scene"
-        },
-        {
-          "id": "rec6iK1tGR5UERtNN",
-          "name": "Homer and Peggy Your observe Faraday and Jensen",
-          "slug": "homer-and-peggy-your-observe-faraday-and-jensen"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
-          "id": "recYHJNyDqDUFw0ry",
-          "name": "David Arthur Faraday",
-          "slug": "david-arthur-faraday"
-        },
-        {
-          "id": "recVvuvbfvZdCyti3",
-          "name": "Betty Lou Jensen",
-          "slug": "betty-lou-jensen"
-        },
-        {
-          "id": "recXRPv8a8eOIXE5G",
-          "name": "Pierre Bidou",
-          "slug": "pierre-bidou"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recR0NFmznLOB0Nf6",
-          "name": "Murders at Lake Herman Road",
-          "slug": "murders-at-lake-herman-road"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Map",
-          "url": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7"
-        }
-      ],
-      "relatedEventCount": 7,
-      "mapOpenUrl": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7",
-      "mapEmbedUrl": "https://www.google.com/maps?q=38.094916,-122.144107&output=embed",
-      "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
-    },
-    {
       "id": "rec4uzkCoOurp4K2R",
       "slug": "napa-county-ca",
       "kind": "location",
@@ -3818,6 +3739,16 @@
           "id": "recZ9ecbHQTAHvRlS",
           "name": "Ken Narlow begins working for Justin-Siena High School",
           "slug": "ken-narlow-begins-working-for-justin-siena-high-school"
+        },
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recEgj1bRx7qI6Ird",
+          "name": "Firefighters Stem Napa Valley Blaze",
+          "slug": "firefighters-stem-napa-valley-blaze"
         }
       ],
       "relatedLocations": [
@@ -4077,10 +4008,104 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 6,
+      "relatedEventCount": 8,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Napa County, CA County Zodiac Bryan Calvin Hartnell Cecelia Ann Shepard Arthur Leigh Allen Ken Narlow Napa County Sheriff's Department Joanne (Sunbather) Linda L. Jensen (Sunbather) David Lee Rayfield Linda (Sunbather) David Slaight Frank Gasser Lake Berryessa Sniper Elizabeth White Dennis Land William Crow Archie E. White Gareth Penn The Napa Valley Register Hal Snook Richard Lonergan Peter Gasser Pacific Union College Lake Berryessa Park James W. Reed Rancho Monticello Resort Sheriff Earl Randol Napa Police Donald Lee Stanley Les Lundblad David Collins Tom E. Butler Ray Land Edward B. Pace Napa D.A. James Boitano Napa High School Napa Junior College"
+    },
+    {
+      "id": "rec9eYWhCQCUgaGyg",
+      "slug": "lake-herman-road-zodiac-site",
+      "kind": "location",
+      "title": "Lake Herman Road Zodiac Site",
+      "subtitle": "Site",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Lake Herman Road, Solano County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recgJKENPX5dM7i8f",
+          "name": "Lake Herman Road Double Murder",
+          "slug": "lake-herman-road-double-murder"
+        },
+        {
+          "id": "recyjFt6i09xmtq46",
+          "name": "Stella Medeiros finds bodies",
+          "slug": "stella-medeiros-finds-bodies"
+        },
+        {
+          "id": "recBEk4S1Y1NEAXt5",
+          "name": "Helen Axe sees Faraday / Jensen at turnout with other car",
+          "slug": "helen-axe-sees-faraday-jensen-at-turnout-with-other-car"
+        },
+        {
+          "id": "recbVrvunnpDEQp2s",
+          "name": "Benicia police arrive on scene",
+          "slug": "benicia-police-arrive-on-scene"
+        },
+        {
+          "id": "rec7WCKo6rJMnzZ0y",
+          "name": "James Owen passes by crime scene, sees two cars",
+          "slug": "james-owen-passes-by-crime-scene-sees-two-cars"
+        },
+        {
+          "id": "recu4bDLu2lsBkv1G",
+          "name": "Det. Lundblad arrives at murder scene",
+          "slug": "det-lundblad-arrives-at-murder-scene"
+        },
+        {
+          "id": "rec6iK1tGR5UERtNN",
+          "name": "Homer and Peggy Your observe Faraday and Jensen",
+          "slug": "homer-and-peggy-your-observe-faraday-and-jensen"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recGZwp9mtC6qB9Hd",
+          "name": "Zodiac",
+          "slug": "zodiac"
+        },
+        {
+          "id": "recYHJNyDqDUFw0ry",
+          "name": "David Arthur Faraday",
+          "slug": "david-arthur-faraday"
+        },
+        {
+          "id": "recVvuvbfvZdCyti3",
+          "name": "Betty Lou Jensen",
+          "slug": "betty-lou-jensen"
+        },
+        {
+          "id": "recXRPv8a8eOIXE5G",
+          "name": "Pierre Bidou",
+          "slug": "pierre-bidou"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recR0NFmznLOB0Nf6",
+          "name": "Murders at Lake Herman Road",
+          "slug": "murders-at-lake-herman-road"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Map",
+          "url": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7"
+        }
+      ],
+      "relatedEventCount": 7,
+      "mapOpenUrl": "https://maps.app.goo.gl/RoTxRexSrpkouXWk7",
+      "mapEmbedUrl": "https://www.google.com/maps?q=38.094916,-122.144107&output=embed",
+      "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
     },
     {
       "id": "recb0X8kEnkBnJw0f",
@@ -8981,6 +9006,99 @@
       "searchText": "The Internet"
     },
     {
+      "id": "recr2O2FNPzPjrHUd",
+      "slug": "the-presidio",
+      "kind": "location",
+      "title": "The Presidio",
+      "subtitle": "Neighborhood",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attzvxm8VTj4TTe8N_image.png",
+          "thumbUrl": "data/media/derived/thumb/attzvxm8VTj4TTe8N_image.png",
+          "mediumUrl": "data/media/derived/medium/attzvxm8VTj4TTe8N_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attzvxm8VTj4TTe8N_image.png",
+        "thumbUrl": "data/media/derived/thumb/attzvxm8VTj4TTe8N_image.png",
+        "mediumUrl": "data/media/derived/medium/attzvxm8VTj4TTe8N_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recrX8VnPhVyFUOtL",
+          "name": "Perimeter search of Presidio begins",
+          "slug": "perimeter-search-of-presidio-begins"
+        },
+        {
+          "id": "rec1t8AV1Mqsd9c4F",
+          "name": "The Presidio Mutiny",
+          "slug": "the-presidio-mutiny"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recpYcIBzsr6Mp7xT",
+          "name": "Site of Paul Stine's Murder",
+          "slug": "site-of-paul-stine-s-murder"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recGZwp9mtC6qB9Hd",
+          "name": "Zodiac",
+          "slug": "zodiac"
+        },
+        {
+          "id": "recIi4fFkzHRAIpD0",
+          "name": "Paul Lee Stine",
+          "slug": "paul-lee-stine"
+        },
+        {
+          "id": "recpeSHGaAhZPttuI",
+          "name": "Donna Lass",
+          "slug": "donna-lass"
+        },
+        {
+          "id": "recg462dI0mJi8KMB",
+          "name": "Chester Clark Klingel Jr.",
+          "slug": "chester-clark-klingel-jr"
+        },
+        {
+          "id": "recSyoW4HIkwhzwyN",
+          "name": "Fireman's Fund Insurance",
+          "slug": "fireman-s-fund-insurance"
+        },
+        {
+          "id": "rechgO6oN0QOyFJ8L",
+          "name": "Letterman General Hospital",
+          "slug": "letterman-general-hospital"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Map",
+          "url": "https://maps.app.goo.gl/SHWAP6G5wrH7qwSy6"
+        }
+      ],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "https://maps.app.goo.gl/SHWAP6G5wrH7qwSy6",
+      "mapEmbedUrl": "",
+      "searchText": "The Presidio Neighborhood Zodiac Paul Lee Stine Donna Lass Chester Clark Klingel Jr. Fireman's Fund Insurance Letterman General Hospital"
+    },
+    {
       "id": "recUj2059oNqhpwf7",
       "slug": "tulocay-cemetery-crematory",
       "kind": "location",
@@ -10143,6 +10261,38 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "First Unitarian Church (San Francisco) Site"
+    },
+    {
+      "id": "recT5UMd9o61gJhFr",
+      "slug": "flanders-nj",
+      "kind": "location",
+      "title": "Flanders, NJ",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Morris County, NJ"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Flanders, NJ City"
     },
     {
       "id": "recqZNz1ev1HUrq4X",
@@ -11530,6 +11680,42 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Mill Valley, CA Chester Clark Klingel Jr."
+    },
+    {
+      "id": "rec4PjXRAoG5FSQga",
+      "slug": "mit-earth-sciences-building-54",
+      "kind": "location",
+      "title": "MIT Earth Sciences Building 54",
+      "subtitle": "Site",
+      "summary": "The **Cecil and Ida Green Building**, also called the **Green Building** or **Building 54**, is an academic and research building at the [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology) (MIT) in [Cambridge, Massachusetts](https://en.wikipedia.org/wiki/Cambridge,_Massachusetts). The building houses the Department of Earth, Atmospheric, and Planetary Sciences (EAPS). It is one of the [tallest buildings in Cambridge](https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures_in_Cambridge,_Massachusetts).",
+      "excerpt": "The **Cecil and Ida Green Building**, also called the **Green Building** or **Building 54**, is an academic and research building at the [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusett…",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Address",
+          "value": "The Green, Green Bldg, 77 Massachusetts Ave, Cambridge, MA 02139"
+        },
+        {
+          "label": "Located Within",
+          "value": "Cambridge, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "MIT Earth Sciences Building 54 Site The **Cecil and Ida Green Building**, also called the **Green Building** or **Building 54**, is an academic and research building at the [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology) (MIT) in [Cambridge, Massachusetts](https://en.wikipedia.org/wiki/Cambridge,_Massachusetts). The building houses the Department of Earth, Atmospheric, and Planetary Sciences (EAPS). It is one of the [tallest buildings in Cambridge](https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures_in_Cambridge,_Massachusetts)."
     },
     {
       "id": "recKc0HtBWlBy7ufV",
@@ -13039,80 +13225,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "The Moon Site"
-    },
-    {
-      "id": "recr2O2FNPzPjrHUd",
-      "slug": "the-presidio",
-      "kind": "location",
-      "title": "The Presidio",
-      "subtitle": "Neighborhood",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recrX8VnPhVyFUOtL",
-          "name": "Perimeter search of Presidio begins",
-          "slug": "perimeter-search-of-presidio-begins"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recpYcIBzsr6Mp7xT",
-          "name": "Site of Paul Stine's Murder",
-          "slug": "site-of-paul-stine-s-murder"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
-          "id": "recIi4fFkzHRAIpD0",
-          "name": "Paul Lee Stine",
-          "slug": "paul-lee-stine"
-        },
-        {
-          "id": "recpeSHGaAhZPttuI",
-          "name": "Donna Lass",
-          "slug": "donna-lass"
-        },
-        {
-          "id": "recg462dI0mJi8KMB",
-          "name": "Chester Clark Klingel Jr.",
-          "slug": "chester-clark-klingel-jr"
-        },
-        {
-          "id": "recSyoW4HIkwhzwyN",
-          "name": "Fireman's Fund Insurance",
-          "slug": "fireman-s-fund-insurance"
-        },
-        {
-          "id": "rechgO6oN0QOyFJ8L",
-          "name": "Letterman General Hospital",
-          "slug": "letterman-general-hospital"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Map",
-          "url": "https://maps.app.goo.gl/SHWAP6G5wrH7qwSy6"
-        }
-      ],
-      "relatedEventCount": 1,
-      "mapOpenUrl": "https://maps.app.goo.gl/SHWAP6G5wrH7qwSy6",
-      "mapEmbedUrl": "",
-      "searchText": "The Presidio Neighborhood Zodiac Paul Lee Stine Donna Lass Chester Clark Klingel Jr. Fireman's Fund Insurance Letterman General Hospital"
     },
     {
       "id": "recaL5IYJuZgB9cEd",
@@ -16293,6 +16405,44 @@
       "searchText": "California State Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen San Francisco Chronicle Cheri Jo Bates San Francisco Examiner Vallejo Times-Herald Paul Avery Donald (Don) Cheney The Los Angeles Times Richard Hoffman Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Ken Narlow Armistead Maupin David Toschi Vallejo Police Napa County Sheriff's Department Melvin Belli SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Louis (Louie) Joseph Myers William McDuff Andrew Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) R. Clifton Rayfield David Lee Rayfield Gareth Penn Cleophus Martin Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land Michael O'Hare LeRoy Sweet William Crow Archie E. White Ross Sullivan Berta Margoulies Rick Marshall Lorraine Osuna DeGroat Hugh Penn The Napa Valley Register Xenophon Lusby Anthony KGO-TV Dave Smith The Modesto Bee Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Ronald Gene Allen Ethan Warren Allen Richard Lonergan Peter Gasser Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Leo Suennen Jr. Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University The Manson Family San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
+      "id": "recFsyte095GIHhHt",
+      "slug": "cambridge-ma",
+      "kind": "location",
+      "title": "Cambridge, MA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Middlesex County, MA"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec49Rt6IDDTANADK",
+          "name": "MIT",
+          "slug": "mit"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Cambridge, MA City MIT"
+    },
+    {
       "id": "recHmZ39rWbWR7XAy",
       "slug": "carlsbad-ca",
       "kind": "location",
@@ -17304,32 +17454,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Essex County, MA County"
-    },
-    {
-      "id": "recT5UMd9o61gJhFr",
-      "slug": "flanders-nj",
-      "kind": "location",
-      "title": "Flanders, NJ",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Morris County, NJ"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Flanders, NJ City"
     },
     {
       "id": "recuFzDnzG9lFupEB",
@@ -19308,6 +19432,11 @@
         },
         {
           "id": "",
+          "name": "MACambridge",
+          "slug": "macambridge"
+        },
+        {
+          "id": "",
           "name": "MASaugus",
           "slug": "masaugus"
         },
@@ -19349,19 +19478,24 @@
       ],
       "relatedPeople": [
         {
-          "id": "recE0OBRoXJWRUuyP",
-          "name": "William Joseph Grant",
-          "slug": "william-joseph-grant"
-        },
-        {
           "id": "recFaKMK2SMtmEMkK",
           "name": "Michael O'Hare",
           "slug": "michael-o-hare"
         },
         {
+          "id": "recE0OBRoXJWRUuyP",
+          "name": "William Joseph Grant",
+          "slug": "william-joseph-grant"
+        },
+        {
           "id": "recJLC9aDDuTbSdEY",
           "name": "Boston Globe",
           "slug": "boston-globe"
+        },
+        {
+          "id": "rec49Rt6IDDTANADK",
+          "name": "MIT",
+          "slug": "mit"
         }
       ],
       "relatedTags": [],
@@ -19369,7 +19503,7 @@
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Massachusetts State William Joseph Grant Michael O'Hare Boston Globe"
+      "searchText": "Massachusetts State Michael O'Hare William Joseph Grant Boston Globe MIT"
     },
     {
       "id": "recF46OTlCMNQ4978",
@@ -19537,23 +19671,49 @@
           "slug": "marlborough-ma"
         },
         {
+          "id": "recFsyte095GIHhHt",
+          "name": "Cambridge, MA",
+          "slug": "cambridge-ma"
+        },
+        {
+          "id": "",
+          "name": "MIT Earth Sciences Building 54Marlborough",
+          "slug": "mit-earth-sciences-building-54marlborough"
+        },
+        {
+          "id": "",
+          "name": "MACambridge",
+          "slug": "macambridge"
+        },
+        {
+          "id": "",
+          "name": "MA",
+          "slug": "ma"
+        },
+        {
           "id": "",
           "name": "Marlborough",
           "slug": "marlborough"
         },
         {
           "id": "",
-          "name": "MA",
-          "slug": "ma"
+          "name": "Cambridge",
+          "slug": "cambridge"
         }
       ],
-      "relatedPeople": [],
+      "relatedPeople": [
+        {
+          "id": "rec49Rt6IDDTANADK",
+          "name": "MIT",
+          "slug": "mit"
+        }
+      ],
       "relatedTags": [],
       "downloads": [],
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Middlesex County, MA County"
+      "searchText": "Middlesex County, MA County MIT"
     },
     {
       "id": "recxWffKpFRsMx0UC",
@@ -20211,6 +20371,11 @@
           "id": "recMYOFG2oXTk0Gwa",
           "name": "Berta Margoulies",
           "slug": "berta-margoulies"
+        },
+        {
+          "id": "recjFfE8G7gEIbB7r",
+          "name": "The New York Times",
+          "slug": "the-new-york-times"
         }
       ],
       "relatedTags": [],
@@ -20218,7 +20383,7 @@
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "New York City City Berta Margoulies"
+      "searchText": "New York City City Berta Margoulies The New York Times"
     },
     {
       "id": "reczk8ct3HpUUSnhh",
@@ -20338,6 +20503,11 @@
           "id": "recMkUBZgCDrp33JJ",
           "name": "Albany Times-Union",
           "slug": "albany-times-union"
+        },
+        {
+          "id": "recjFfE8G7gEIbB7r",
+          "name": "The New York Times",
+          "slug": "the-new-york-times"
         }
       ],
       "relatedTags": [],
@@ -20345,7 +20515,7 @@
       "relatedEventCount": 0,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "New York State State Darlene (Suennen) Ferrin Richard Gaikowski Jim Phillips Crabtree Berta Margoulies Albany Knickerbocker-News Albany Times-Union"
+      "searchText": "New York State State Darlene (Suennen) Ferrin Richard Gaikowski Jim Phillips Crabtree Berta Margoulies Albany Knickerbocker-News Albany Times-Union The New York Times"
     },
     {
       "id": "reccvkhL1emsnT8BU",
