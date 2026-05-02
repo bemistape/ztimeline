@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-01T19:42:01.742577+00:00",
+  "generatedAt": "2026-05-02T03:54:39.678249+00:00",
   "stats": {
-    "events": 440,
-    "people": 331,
+    "events": 448,
+    "people": 332,
     "locations": 345,
     "tags": 43,
-    "images": 1638,
+    "images": 1644,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,14 +15,14 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 152
-    },
-    {
-      "value": 1968,
-      "count": 29
+      "count": 157
     },
     {
       "value": 1970,
+      "count": 30
+    },
+    {
+      "value": 1968,
       "count": 29
     },
     {
@@ -49,15 +49,15 @@
     },
     {
       "value": "Victim Event",
-      "count": 51
-    },
-    {
-      "value": "Media Event",
-      "count": 35
+      "count": 52
     },
     {
       "value": "Newspaper Article",
-      "count": 34
+      "count": 38
+    },
+    {
+      "value": "Media Event",
+      "count": 37
     },
     {
       "value": "Cultural Event",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 63,
+      "relatedEventCount": 64,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -232,6 +232,23 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
     },
     {
+      "id": "recO5mW1mFKtK0hCE",
+      "slug": "united-states-of-america",
+      "kind": "location",
+      "title": "United States of America",
+      "subtitle": "Country",
+      "excerpt": "",
+      "relatedEventCount": 12,
+      "primaryImage": {
+        "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
+        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recxuIuPaJDKhXKo6",
       "slug": "lake-berryessa",
       "kind": "location",
@@ -243,23 +260,6 @@
         "originalUrl": "data/media/attkivbmybaAngm0N_image.png",
         "thumbUrl": "data/media/derived/thumb/attkivbmybaAngm0N_image.png",
         "mediumUrl": "data/media/derived/medium/attkivbmybaAngm0N_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "recO5mW1mFKtK0hCE",
-      "slug": "united-states-of-america",
-      "kind": "location",
-      "title": "United States of America",
-      "subtitle": "Country",
-      "excerpt": "",
-      "relatedEventCount": 10,
-      "primaryImage": {
-        "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
-        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
         "derivativeState": "derived",
         "label": "image.png"
       },
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 01, 2026, 07:42 PM UTC",
+    "label": "May 02, 2026, 03:54 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,12 +490,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "440 dated events spanning 1925 to 2025."
+      "description": "448 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "331 linked people and organizations with related-event cross references."
+      "description": "332 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",

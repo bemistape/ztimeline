@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T19:42:01.742577+00:00",
+  "generatedAt": "2026-05-02T03:54:39.678249+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -2322,6 +2322,11 @@
           "slug": "napa-county-ca"
         },
         {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -2330,11 +2335,6 @@
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
         },
         {
           "id": "recGa0aCpwMM0jQkt",
@@ -2390,7 +2390,7 @@
         }
       ],
       "relatedEventCount": 16,
-      "searchText": "Ken Narlow Ken Narlow  Napa County, CA California SF Bay Area United States of America Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA San Francisco"
+      "searchText": "Ken Narlow Ken Narlow  Napa County, CA United States of America California SF Bay Area Queen of the Valley Hospital (Napa, CA) Spanish Flat Coffee Shop Site of Lake Berryessa Zodiac Encounter Lake Berryessa Lake Berryessa Park Headquarters Rancho Monticello Resort at Lake Berryessa Angwin, CA San Francisco"
     },
     {
       "id": "rec4ZhSZpZfgCU6ng",
@@ -2581,14 +2581,14 @@
           "slug": "home-of-cheri-jo-bates"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
         },
         {
           "id": "recXWIp8s3P3TAYiu",
@@ -2666,7 +2666,7 @@
         }
       ],
       "relatedEventCount": 15,
-      "searchText": "Cheri Jo Bates Cheri Jo Bates Murder victim linked to Zodiac. Riverside, CA Riverside County, CA Omaha, NE Douglas County, NE Nebraska Home of Cheri Jo Bates California United States of America San Francisco Crestlawn Memorial Park Riverside City College Library Bellevue, NE Waterloo, NY Pleasanton, CA"
+      "searchText": "Cheri Jo Bates Cheri Jo Bates Murder victim linked to Zodiac. Riverside, CA Riverside County, CA Omaha, NE Douglas County, NE Nebraska Home of Cheri Jo Bates United States of America California San Francisco Crestlawn Memorial Park Riverside City College Library Bellevue, NE Waterloo, NY Pleasanton, CA"
     },
     {
       "id": "recNoik0QhJTMc50o",
@@ -5131,6 +5131,11 @@
           "slug": "san-francisco"
         },
         {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -5139,11 +5144,6 @@
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
         },
         {
           "id": "rec3SXc62X9TM4dMm",
@@ -5180,7 +5180,7 @@
         }
       ],
       "relatedEventCount": 8,
-      "searchText": "Melvin Belli Melvin Belli  San Francisco California SF Bay Area United States of America San Francisco Chronicle offices Livermore, CA Oakland, CA"
+      "searchText": "Melvin Belli Melvin Belli  San Francisco United States of America California SF Bay Area San Francisco Chronicle offices Livermore, CA Oakland, CA"
     },
     {
       "id": "recRnU2qlZ8hQDVp5",
@@ -5838,11 +5838,6 @@
           "slug": "napa-ca"
         },
         {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
           "id": "recURm55M69p21vYN",
           "name": "Vallejo, CA",
           "slug": "vallejo-ca"
@@ -5856,6 +5851,11 @@
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         },
         {
           "id": "recO5mW1mFKtK0hCE",
@@ -5908,7 +5908,7 @@
         }
       ],
       "relatedEventCount": 7,
-      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA SF Bay Area Vallejo, CA Solano County, CA California United States of America San Francisco Sacramento, CA MIT Earth Sciences Building 54 San Rafael, CA"
+      "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa County, CA Napa, CA Vallejo, CA Solano County, CA California SF Bay Area United States of America San Francisco Sacramento, CA MIT Earth Sciences Building 54 San Rafael, CA"
     },
     {
       "id": "recc6hamJAag6Gpsg",
@@ -6331,14 +6331,14 @@
           "slug": "los-angeles-county-ca"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
         },
         {
           "id": "recURm55M69p21vYN",
@@ -6375,7 +6375,7 @@
         }
       ],
       "relatedEventCount": 7,
-      "searchText": "The Los Angeles Times The Los Angeles Times  Los Angeles Los Angeles County, CA California United States of America Vallejo, CA San Francisco Pleasanton, CA"
+      "searchText": "The Los Angeles Times The Los Angeles Times  Los Angeles Los Angeles County, CA United States of America California Vallejo, CA San Francisco Pleasanton, CA"
     },
     {
       "id": "recUj9VcE1TiYBWhk",
@@ -7548,6 +7548,116 @@
       "searchText": "Northern California Renaissance Pleasure Faire Northern California Renaissance Pleasure Faire <https://marinmagazine.com/community/history/history-of-the-renaissance-pleasure-faire/>\nIF YOU CAME of age in California in the 1960s and were fortunate in your life choices, you no doubt at one time or another experienced the [Renaissance Pleasure Faire](http://renfair.com/socal/). Although it originated in 1963 in Southern California’s Agoura Hills (over 3,000 people attended), the [Northern California Renaissance Pleasure Faire](https://www.norcalrenfaire.com/) also had a memorable run. That one started at [Marin’s China Camp State Park](http://www.parks.ca.gov/?page_id=466) in 1967 and by 1970 had moved to Novato’s hilly Black Point area, where the above photo was taken.\nOf course, the fair was headlined as taking place at Black Pointe Forest, for more authentic 16th-century English country flavor. Fair personnel, all 2,500 of them on average, attended 30 different classes and workshops in Elizabethan style and folklore and, once the fair began, wore period attire, including ruffs, jerkins and snoods. Booths in pastoral settings sold handicrafts of the bygone era, madrigal singers entertained and food stands offered fattened turkey legs and tankards of dark ale.\nThe Renaissance Pleasure Faire was born in the minds of Ron and Phyllis Patterson, an art director and art teacher, respectively; both were adamant that Renaissance history and customs be presented as accurately as possible. The couple lived for many years in Marin and divorced in 1980, and their brainchild was sold in 1994; today, imitator renaissance fairs are held throughout the world. Ron died at age 80 in 2011 while living in a Sausalito floating home; Phyllis, who lived in a log cabin in Novato, passed away in 2014 at 82. Their son Kevin, who grew up during the Renaissance Pleasure Faire’s most successful years and later was active in the business, still lives in Marin. He and his family manage [San Francisco’s annual Dickens Christmas Fair.](https://dickensfair.com/mobile/) China Camp (Renaissance Pleasure Faire Site) San Rafael, CA Marin County, CA California SF Bay Area United States of America"
     },
     {
+      "id": "rec9CNWrMOEyxnmN2",
+      "slug": "shelly-irene-holmboe",
+      "kind": "person",
+      "title": "Shelly Irene Holmboe",
+      "subtitle": "Possible Victim",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Shelly Irene Holmboe"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attz5R1ocnhwr3UiJ_image.png",
+          "thumbUrl": "data/media/derived/thumb/attz5R1ocnhwr3UiJ_image.png",
+          "mediumUrl": "data/media/derived/medium/attz5R1ocnhwr3UiJ_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attz5R1ocnhwr3UiJ_image.png",
+        "thumbUrl": "data/media/derived/thumb/attz5R1ocnhwr3UiJ_image.png",
+        "mediumUrl": "data/media/derived/medium/attz5R1ocnhwr3UiJ_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1967-11-02"
+        },
+        {
+          "label": "Died",
+          "value": "1969-10-19"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Los Gatos, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec8acGqsO7AhhyQT",
+          "name": "Shelley Holmboe is found",
+          "slug": "shelley-holmboe-is-found"
+        },
+        {
+          "id": "rec4DoXt4xv2wLAZU",
+          "name": "Reporting on 9mm gun, Zodiac conference, potential Shelley Holmboe connection",
+          "slug": "reporting-on-9mm-gun-zodiac-conference-potential-shelley-holmboe-connection"
+        },
+        {
+          "id": "rec9p7ngvkBU7ponH",
+          "name": "Reports on preliminary autopsy of Shelley Holmboe",
+          "slug": "reports-on-preliminary-autopsy-of-shelley-holmboe"
+        },
+        {
+          "id": "recNg3ejFjNm6qoTL",
+          "name": "Police think dogs might have killed Shelley Holmboe",
+          "slug": "police-think-dogs-might-have-killed-shelley-holmboe"
+        },
+        {
+          "id": "recwdQLdYpvkD4uqL",
+          "name": "Coroner says dog attack killed Shelley Holmboe",
+          "slug": "coroner-says-dog-attack-killed-shelley-holmboe"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recZy73bkRhdG8P35",
+          "name": "Los Gatos, CA",
+          "slug": "los-gatos-ca"
+        },
+        {
+          "id": "rec2HoYzKVN2rIaAm",
+          "name": "Santa Clara County, CA",
+          "slug": "santa-clara-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Shelly%20Irene%20Holmboe&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Shelly%20Irene%20Holmboe&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 5,
+      "searchText": "Shelly Irene Holmboe Shelly Irene Holmboe  Los Gatos, CA Santa Clara County, CA California SF Bay Area United States of America"
+    },
+    {
       "id": "recQtG7CYhL21Bmxw",
       "slug": "daniel-b-williams",
       "kind": "person",
@@ -8314,16 +8424,6 @@
           "slug": "suffolk-county-ma"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
           "id": "recQCUmzdimTBeYjB",
           "name": "Massachusetts",
           "slug": "massachusetts"
@@ -8332,6 +8432,16 @@
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         },
         {
           "id": "rec4uzkCoOurp4K2R",
@@ -8384,7 +8494,7 @@
         }
       ],
       "relatedEventCount": 4,
-      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA California SF Bay Area Massachusetts United States of America Napa County, CA Flanders, NJ MIT Earth Sciences Building 54"
+      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Alameda County, CA Suffolk County, MA Massachusetts United States of America California SF Bay Area Napa County, CA Flanders, NJ MIT Earth Sciences Building 54"
     },
     {
       "id": "recmQ9moIGpjHOofr",
@@ -11689,6 +11799,11 @@
           "slug": "new-york-state"
         },
         {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
           "id": "recioUzi4gjitPDzS",
           "name": "California",
           "slug": "california"
@@ -11697,11 +11812,6 @@
           "id": "recT4sMRyAv9Sk1zs",
           "name": "SF Bay Area",
           "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
         },
         {
           "id": "recYYObQ6rjCcjWSF",
@@ -11739,7 +11849,7 @@
         }
       ],
       "relatedEventCount": 2,
-      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State California SF Bay Area United States of America Boston, MA Flanders, NJ"
+      "searchText": "Berta Margoulies Berta Margoulies Noted sculptor, mother of Michael O'Hare, accused by Ray Grant of Zodiac Project conspiracy. Walnut Creek, CA New York City Contra Costa County, CA New York State United States of America California SF Bay Area Boston, MA Flanders, NJ"
     },
     {
       "id": "rec0dOwJ1AL9UguKQ",
@@ -12288,6 +12398,16 @@
           "slug": "united-states-of-america"
         },
         {
+          "id": "recZy73bkRhdG8P35",
+          "name": "Los Gatos, CA",
+          "slug": "los-gatos-ca"
+        },
+        {
+          "id": "rec2HoYzKVN2rIaAm",
+          "name": "Santa Clara County, CA",
+          "slug": "santa-clara-county-ca"
+        },
+        {
           "id": "recxuIuPaJDKhXKo6",
           "name": "Lake Berryessa",
           "slug": "lake-berryessa"
@@ -12318,7 +12438,7 @@
         }
       ],
       "relatedEventCount": 2,
-      "searchText": "David Lee Rayfield David Lee Rayfield Witness at Lake Berryessa. Spanish Flat Coffee Shop Napa, CA Napa County, CA California SF Bay Area United States of America Lake Berryessa"
+      "searchText": "David Lee Rayfield David Lee Rayfield Witness at Lake Berryessa. Spanish Flat Coffee Shop Napa, CA Napa County, CA California SF Bay Area United States of America Los Gatos, CA Santa Clara County, CA Lake Berryessa"
     },
     {
       "id": "rec8vVQxAKyefczsg",
@@ -19545,14 +19665,14 @@
           "slug": "sacramento-county-ca"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
         }
       ],
       "relatedPeople": [
@@ -19574,7 +19694,7 @@
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "Hugh Penn Hugh Penn Father of Gareth Penn and Zodiac suspect to Ray Davis Sacramento, CA Sacramento County, CA California United States of America"
+      "searchText": "Hugh Penn Hugh Penn Father of Gareth Penn and Zodiac suspect to Ray Davis Sacramento, CA Sacramento County, CA United States of America California"
     },
     {
       "id": "rechlB2ckHI3rm1um",
@@ -21865,24 +21985,24 @@
           "slug": "napa-ca"
         },
         {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
           "id": "rec4uzkCoOurp4K2R",
           "name": "Napa County, CA",
           "slug": "napa-county-ca"
         },
         {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
           "id": "recO5mW1mFKtK0hCE",
           "name": "United States of America",
           "slug": "united-states-of-america"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
         }
       ],
       "relatedPeople": [
@@ -21904,7 +22024,7 @@
         }
       ],
       "relatedEventCount": 1,
-      "searchText": "Peter Gasser Peter Gasser Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown. Queen of the Valley Hospital (Napa, CA) Napa, CA California Napa County, CA SF Bay Area United States of America"
+      "searchText": "Peter Gasser Peter Gasser Born at home in Napa in 1905, Pete Gasser was one of six children of Swiss immigrants Henry Gasser and Mary Crotta, who had come to the United States in the 1880’s and 90’s. Like most of their neighbors, the Gassers were farmers, and for many years his father was the head dairyman at Napa State Hospital. At their ranch in Coombsville, the family had their own prune orchard, raised turkeys and chickens, and operated a dairy with goats and cows. The Gasser dairy was known for neatness and modern methods of operation, and working in it throughout his childhood taught the young Peter plenty about hard work. In high school, he was annoyed when other boys teased him about his rustic clothes, and left after ninth grade, but he soon went on to earn a banking certificate in San Francisco. He began working for the Bank of Italy (which was to become the Bank of America) in 1925.\nPete’s new job brought him into contact with bankers, local business owners, and other men of influence and power. It also allowed him to dress the part of the promising young businessman, and he impressed the young widow Vernice Wilson, whom he began escorting around Napa. The two were married in 1934. Pete Gasser soon left banking, telling friends that the Bank of America “wouldn’t let him run it the way he wanted to,” and went into business selling used cars in Napa, perhaps with his father’s help. After a rocky beginning he opened his own Dodge agency, promoted with a splashy opening that featured live vaudeville, free movies and branded souvenirs. The agency also sponsored a winning basketball team, who were provided with fine uniforms and chauffeured to the games in shiny late model Dodge cars. Pete Gasser was a natural business promoter, and became known around Napa as the man to talk to for a good deal on an automobile. But Napa suffered big losses during the Depression, and Mr. Gasser felt that the town needed direction from the Chamber of Commerce, which had lost drive and membership, in order to recover and prosper.\nAs his own business gradually gathered momentum, Pete Gasser gave the Chamber of Commerce new vitality and purpose. Starting as a member-at-large in 1938, he soon moved up to president from 1941-45, and remained influential for a long time afterward. With the national economy beginning to recover, and the possibility of another war in Europe on the horizon, Mr. Gasser insisted that the group take an active part in improving the city – pressuring for annexation of surrounding areas to accommodate new workers, arranging construction of infrastructure, and asking members to build housing for the booming population. The Chamber’s powerful voice was effective in directing Napa development before and during World War II. Under their auspices, Gasser facilitated the widening of Highway 29 between Napa and Vallejo and helped envisage the Napa airport. He was influential in negotiating with the federal government to construct wartime housing, and lobbied for dredging the channel from Carquinez Straits to Napa. At the same time he expanded his own business dealings into heavy trucks and other vehicles. He invested in other local businesses, notably Basalt Rock Company, bought more real estate, and brokered deals for the city.\nThough he never ran for elected office, Gasser himself was a major force for change in Napa, with business and civic projects that became almost too numerous to track between 1940 and 1975. His opinions influenced the mayor, supervisors and newspaper, and his influence, or lack of it, could make a project succeed or fail. As president of the Chamber, he was War Fund chairman for the American Red Cross, and was cited for distinguished achievement in raising funds for the group to support troops overseas. He helped bring the Oakland Oaks baseball team to Napa for spring training.\nGasser served on the advisory boards of the Bank of America, Silverado Council of the Boy Scouts, Napa Farm Bureau, and Native Sons of the Golden West, and promoted their interests through the Chamber of Commerce. He presided over the establishment of Robert Louis Stevenson State Park. Following his predecessor Nathan Coombs, Mr. Gasser served on the Golden Gate Bridge Authority, and represented Napa interests to the mayor and supervisors of San Francisco for twenty years. He became director of the Redwood Empire Association, and acted as co-chairman of fundraising efforts to build Queen of the Valley Hospital. He was a generous benefactor of Justin-Siena School. In later years, he helped expedite construction of the Southern Crossing via the Butler bridge south of Napa, a major transit project. In 1965, he sold Gasser Motors to devote himself to real estate and Napa Valley development. The Napa Register’s story quoted him saying that the development of the Napa Valley was “in its infancy,” and that “tremendous growth would be coming to the area in the very near future, after such needs as sanitation, adequate water for industry and domestic use and recreational needs were solved.” With increasing financial resources at hand, Pete Gasser purchased land for many more projects, including the remainder of the 145 acre site of today’s South Napa Marketplace. He envisioned the area along Soscol Avenue between Napa State Hospital and downtown as a major shopping area for the city, and began looking for businesses to make his dream a reality.\nThroughout the years, Pete Gasser approached relaxation as he did business–with gusto, in the company of many colleagues and friends. He was known for his “big” personality, and success allowed him to enjoy himself in the rollicking style of his era. An enthusiastic hunter and fisherman who loved the outdoors, he had special fences constructed on his property to accommodate the native deer, and was a major supporter of Ducks Unlimited. He had his pond stocked with rainbow trout, hunted deer in Nevada, and took a state senator salmon fishing in Alaska; he even hunted a polar bear. He also greatly enjoyed golf and was a charter member and the first president of the Silverado Country Club. While keeping his finger on the pulse of Napa, he became the larger than life figure that he clearly wanted to be.\nThere were the ranch hands he bailed out of jail; the employee with bad credit whom he still backed. Success did not rob him of the pleasure of doing favors for his friends. Yet more than anything else he was an astute businessman who relished envisioning projects and bringing them to fruition. He enjoyed knowing the right people to get things done, and working with them to accomplish the job. In his later days Gasser told a friend that he “hoped to leave something to the world so that I’ll be remembered.” The Gassers had no children, and as Pete had made his money in Napa, he wanted his inheritance to benefit the Napa community. He directed that his legacy be planned in the same way he had lived: carefully, strategically, and with Napa interests at heart. The Gasser Foundation continues the work that Pete would have done himself by contributing to all levels of the Napa community, because–to the end–Pete Gasser believed in Napa, and insisted that this commitment also be put “in black and white.”\nThe Gasser Foundation, surely, is something wonderfully generous for all Napa citizens to remember him by. Napa native Vernice Gasser was a daughter of the prominent Stoddard family, who arrived in California by wagon train from Michigan in 1871. Her grandfather, William Stoddard, settled in Napa in 1880, and with his sons soon established a prosperous grain and feed business which became one of the largest in the region, milling barley and corn. Vernice’s father, William Stoddard, Jr., died when she was only eleven, leaving her French-born mother Isabelle Ilos Stoddard to carry on the milling business. Though placed in an unusual position for a woman of her time, Mrs. Stoddard proved to be an outstanding manager of business affairs. She became a mortgage lender, began to acquire real estate, and advised other businesses on matters of finance; she worked at Napa’s department store (Albert’s), taught knitting there and in her home, and did volunteer work at the hospital.\nIn many ways Vernice, who preferred to be called Pat, was to follow her mother in her civic and business interests. Women of her era were beginning to assume greater responsibilities outside the home, and participating, though often behind the scenes, in business decisions. She attended business school in Oakland, where she received a certificate in bookkeeping and typing, and took her first job at Mare Island Naval Yard in 1920. She married John Wilson of Suisun, but after his sudden death in 1930 she returned to Napa and worked as office manager at Albert’s department store. Four years later, she married the up-and-coming young businessman Pete Gasser, and in 1937, the two opened Gasser Motors Dodge Cars & Trucks’ new showroom with a staff of thirty-one. Mrs. Gasser was in charge of bookkeeping and managed the office.\nShe had done volunteer work during World War I, and when World War II came she again became involved with the Red Cross and other charities. One of them began as “Bundles for Britain”, a war relief organization supporting British servicemen early in World War II; it later supported U.S. servicemen. Pat and other volunteers opened a salvage shop that proved to be such a fundraising success that the group continued to operate after the war on behalf of the Napa community. Pat Gasser was a founding member of the group, now known as Community Projects, and it became her major focus. Over the years she served in the capacities of CP president, treasurer, thrift shop chairman and hospital auxiliary chair, and under her direction an invitation to join CP became a coveted honor. She also spearheaded the purchase of CP’s current location as an investment for the organization. The organization made her a life member in 1986. Outside of Community Projects, Pat Gasser helped raise funds and served as trustee for the Queen of the Valley Hospital Foundation, and was named Woman of the Year by the Napa Business and Professional Women’s Club in recognition of her work for the town.\nPat was an enthusiastic gardener, regularly winning ribbons for her flowers at the Napa Town & Country Fair. She retained a childhood love of horses, and in 1939 helped to organize the Napa Valley Horsemen’s Association. Known around town as a stylish dresser with a taste for beautiful things, she was also an adventurous world traveler, venturing abroad to Asia, South America, and several regions of Africa. Though at heart the dynamic Mrs. Gasser and her husband Pete were intensely private individuals, both felt a lifelong affection for Napa. Mrs. Gasser agreed that establishing the Gasser Foundation as a charitable entity would be the finest and most enduring legacy they could leave their community. When she died in 1989, seven years after her husband, Mrs. Gasser had made sure that these dreams would become a reality. As in life, her closest and most abiding connection was with her hometown. Queen of the Valley Hospital (Napa, CA) Napa, CA Napa County, CA United States of America California SF Bay Area"
     },
     {
       "id": "rec7KaU666bCC1u0T",
