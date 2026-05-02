@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T03:54:39.678249+00:00",
+  "generatedAt": "2026-05-02T08:00:58.210005+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -21285,6 +21285,63 @@
       "searchText": "Michael Bates Michael Bates Brother of Cheri Jo Bates. Bellevue, NE"
     },
     {
+      "id": "recPmLzWpsEjwhSnM",
+      "slug": "michael-butterfield",
+      "kind": "person",
+      "title": "Michael Butterfield",
+      "subtitle": "Researcher,Author,Living",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Michael Butterfield"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att1Non1B6pI5vVGZ_image.png",
+          "thumbUrl": "data/media/derived/thumb/att1Non1B6pI5vVGZ_image.png",
+          "mediumUrl": "data/media/derived/medium/att1Non1B6pI5vVGZ_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att1Non1B6pI5vVGZ_image.png",
+        "thumbUrl": "data/media/derived/thumb/att1Non1B6pI5vVGZ_image.png",
+        "mediumUrl": "data/media/derived/medium/att1Non1B6pI5vVGZ_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "reczMukhLsbdrk1ig",
+          "name": "Case Reopened: The Zodiac airs on The Learning Channel",
+          "slug": "case-reopened-the-zodiac-airs-on-the-learning-channel"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Michael%20Butterfield&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20Butterfield&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Michael Butterfield Michael Butterfield  United States of America"
+    },
+    {
       "id": "rec49Rt6IDDTANADK",
       "slug": "mit",
       "kind": "person",
@@ -27507,37 +27564,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Merchant Marines Merchant Marines The Merchant Marine primarily transports domestic and international cargo and passengers during peacetime, and operate and maintain deep-sea merchant ships. "
-    },
-    {
-      "id": "recPmLzWpsEjwhSnM",
-      "slug": "michael-butterfield",
-      "kind": "person",
-      "title": "Michael Butterfield",
-      "subtitle": "Researcher,Author,Living",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Michael Butterfield"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Michael%20Butterfield&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20Butterfield&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Michael Butterfield Michael Butterfield  "
     },
     {
       "id": "reccU5HsBeIZmeJKU",

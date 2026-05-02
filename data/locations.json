@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-02T03:54:39.678249+00:00",
+  "generatedAt": "2026-05-02T08:00:58.210005+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -1380,253 +1380,6 @@
       "searchText": "Vallejo, CA City Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Ed Rust Thomas Arthur Faraday Hogan High School Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Roy Conway Mare Island Naval Shipyard Highland Elementary School Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
-      "id": "reccuFwS3SQNJRVps",
-      "slug": "los-angeles",
-      "kind": "location",
-      "title": "Los Angeles",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [
-        {
-          "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-          "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
-          "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
-        "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
-        "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Los Angeles County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recU8zaEz4bvXWcIF",
-          "name": "1978 Channel Nine Letter",
-          "slug": "1978-channel-nine-letter"
-        },
-        {
-          "id": "recKP7PIxLRtb4HrK",
-          "name": "Hearst Family letter from SLA member",
-          "slug": "hearst-family-letter-from-sla-member"
-        },
-        {
-          "id": "recTHCK7fa4H69Xpz",
-          "name": "LaBianca Murders",
-          "slug": "labianca-murders"
-        },
-        {
-          "id": "recFPTLm3bVKppGjp",
-          "name": "Tate Murders",
-          "slug": "tate-murders"
-        },
-        {
-          "id": "recWV9gWzMWp2x5bN",
-          "name": "Manson Family revealed as Tate-LaBianca suspects",
-          "slug": "manson-family-revealed-as-tate-labianca-suspects"
-        },
-        {
-          "id": "recvjCB7Z9SwnY4Yi",
-          "name": "Paul Doerr promoted as Suspect (LA Mag)",
-          "slug": "paul-doerr-promoted-as-suspect-la-mag"
-        },
-        {
-          "id": "recsHX0ADK53cHAsg",
-          "name": "Marvin (Merrill) Margolis marries first wife Edith Bernstein",
-          "slug": "marvin-merrill-margolis-marries-first-wife-edith-bernstein"
-        },
-        {
-          "id": "rec0OzAVw6RpeMgmr",
-          "name": "Marvin Merrill's wife said to be living in Los Angeles",
-          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
-        },
-        {
-          "id": "recwgRaXmcykE4rB6",
-          "name": "Michael Mageau is born",
-          "slug": "michael-mageau-is-born"
-        },
-        {
-          "id": "rec5ZeOhYb9d1pYNI",
-          "name": "Zodiac Press Coverage [10/16/1969]",
-          "slug": "zodiac-press-coverage-10-16-1969"
-        },
-        {
-          "id": "rec1K8cI3g4n6Mn4I",
-          "name": "Zodiac Press Coverage [10/15/1969]",
-          "slug": "zodiac-press-coverage-10-15-1969"
-        },
-        {
-          "id": "recjeDHR2yo6jVwmW",
-          "name": "Arthur Leigh Allen's family arrives in Los Angeles from Hawaii",
-          "slug": "arthur-leigh-allen-s-family-arrives-in-los-angeles-from-hawaii"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec59H5NtSrIvaiUJ",
-          "name": "Location of Elizabeth Short disposal",
-          "slug": "location-of-elizabeth-short-disposal"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recpJMrcs1l3WRn9j",
-          "name": "The Los Angeles Times",
-          "slug": "the-los-angeles-times"
-        },
-        {
-          "id": "reck9mzheu3yuoDWi",
-          "name": "Elizabeth Short",
-          "slug": "elizabeth-short"
-        },
-        {
-          "id": "recR3w5CG2uxTzDEI",
-          "name": "Dave Smith",
-          "slug": "dave-smith"
-        },
-        {
-          "id": "recx1031ESHMEmOG5",
-          "name": "KHJ-TV",
-          "slug": "khj-tv"
-        },
-        {
-          "id": "recPqL3Y9XApsG18S",
-          "name": "The Manson Family",
-          "slug": "the-manson-family"
-        },
-        {
-          "id": "recjFSh5jxnAJq8AP",
-          "name": "Stephen Mageau",
-          "slug": "stephen-mageau"
-        },
-        {
-          "id": "rec0dOwJ1AL9UguKQ",
-          "name": "Carmen Elois Welch Mageau Vrana",
-          "slug": "carmen-elois-welch-mageau-vrana"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "reckyY4Jj8pzIulRc",
-          "name": "The Manson Family",
-          "slug": "the-manson-family"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 12,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Los Angeles City The Los Angeles Times Elizabeth Short Dave Smith KHJ-TV The Manson Family Stephen Mageau Carmen Elois Welch Mageau Vrana"
-    },
-    {
-      "id": "rec3SXc62X9TM4dMm",
-      "slug": "san-francisco-chronicle-offices",
-      "kind": "location",
-      "title": "San Francisco Chronicle offices",
-      "subtitle": "Business",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Francisco"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec7E9uhPbExvOStV",
-          "name": "The Button Letter, Z32, & Mt. Diablo Map",
-          "slug": "the-button-letter-z32-mt-diablo-map"
-        },
-        {
-          "id": "reccwnrY4xyeYm6Tq",
-          "name": "The SLA Letter",
-          "slug": "the-sla-letter"
-        },
-        {
-          "id": "recuG31SWMp2Pm4zt",
-          "name": "The Badlands Letter is mailed",
-          "slug": "the-badlands-letter-is-mailed"
-        },
-        {
-          "id": "recISLlMUV2t4GZ0s",
-          "name": "The Red Phantom Letter is mailed",
-          "slug": "the-red-phantom-letter-is-mailed"
-        },
-        {
-          "id": "rectm9Z1y7eQJEcgZ",
-          "name": "The 1978 “I am back with you” Letter",
-          "slug": "the-1978-i-am-back-with-you-letter"
-        },
-        {
-          "id": "rec1MFx5IegvNCUk7",
-          "name": "The Dragon Card",
-          "slug": "the-dragon-card"
-        },
-        {
-          "id": "recsYrwJjfsR7hAet",
-          "name": "Red Phantom letter and Badlands letter are published in SF Chronicle",
-          "slug": "red-phantom-letter-and-badlands-letter-are-published-in-sf-chronicle"
-        },
-        {
-          "id": "recr1weKUcPTDZIuX",
-          "name": "The Exorcist Letter",
-          "slug": "the-exorcist-letter"
-        },
-        {
-          "id": "recoCZBzqVEAptCbE",
-          "name": "The Belli Letter is published",
-          "slug": "the-belli-letter-is-published"
-        },
-        {
-          "id": "recgJ1EWqnfuw0hMi",
-          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
-          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
-        },
-        {
-          "id": "receCCZcvPywnql2Y",
-          "name": "Happy New Year card of 2001",
-          "slug": "happy-new-year-card-of-2001"
-        },
-        {
-          "id": "recqhrDZc0vFnQ3hA",
-          "name": "The Sierra Club Postcard",
-          "slug": "the-sierra-club-postcard"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [
-        {
-          "id": "recqHvlmSyXK7UYJo",
-          "name": "Zodiac Letters",
-          "slug": "zodiac-letters"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Map",
-          "url": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
-        }
-      ],
-      "relatedEventCount": 12,
-      "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
-      "mapEmbedUrl": "https://www.google.com/maps?q=37.7821582,-122.4065833&output=embed",
-      "searchText": "San Francisco Chronicle offices Business"
-    },
-    {
       "id": "recO5mW1mFKtK0hCE",
       "slug": "united-states-of-america",
       "kind": "location",
@@ -1704,13 +1457,18 @@
         },
         {
           "id": "recxpak9QiTmMRyeg",
-          "name": "Haunting Evidence: The Zodiac Killer",
-          "slug": "haunting-evidence-the-zodiac-killer"
+          "name": "Haunting Evidence: The Zodiac Killer airs on Court TV",
+          "slug": "haunting-evidence-the-zodiac-killer-airs-on-court-tv"
         },
         {
           "id": "reczMukhLsbdrk1ig",
-          "name": "Case Reopened: The Zodiac",
-          "slug": "case-reopened-the-zodiac"
+          "name": "Case Reopened: The Zodiac airs on The Learning Channel",
+          "slug": "case-reopened-the-zodiac-airs-on-the-learning-channel"
+        },
+        {
+          "id": "recCS0XEPvSpjITsS",
+          "name": "MysteryQuest: San Francisco Slaughter airs on History Channel",
+          "slug": "mysteryquest-san-francisco-slaughter-airs-on-history-channel"
         }
       ],
       "relatedLocations": [
@@ -3339,10 +3097,257 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 12,
+      "relatedEventCount": 13,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Paul Avery The Los Angeles Times Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Ken Narlow Jim Dunbar Count Marco (Marc H. Spinelli) Tom Voigt Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Shelly Irene Holmboe Louis (Louie) Joseph Myers Gareth Penn William McDuff Andrew Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Michael O'Hare Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski The Sacramento Union The San Bernardino County Sun Joanne (Sunbather) Linda L. Jensen (Sunbather) Berta Margoulies R. Clifton Rayfield William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet Hugh Penn William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Boston Globe The New York Times Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Peter Gasser Ronald Gene Allen Ethan Warren Allen Richard Lonergan Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University MIT The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel United States Army Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+    },
+    {
+      "id": "reccuFwS3SQNJRVps",
+      "slug": "los-angeles",
+      "kind": "location",
+      "title": "Los Angeles",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+          "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attLI1DdngFbT6HNj_image.png",
+        "thumbUrl": "data/media/derived/thumb/attLI1DdngFbT6HNj_image.png",
+        "mediumUrl": "data/media/derived/medium/attLI1DdngFbT6HNj_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Los Angeles County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recU8zaEz4bvXWcIF",
+          "name": "1978 Channel Nine Letter",
+          "slug": "1978-channel-nine-letter"
+        },
+        {
+          "id": "recKP7PIxLRtb4HrK",
+          "name": "Hearst Family letter from SLA member",
+          "slug": "hearst-family-letter-from-sla-member"
+        },
+        {
+          "id": "recTHCK7fa4H69Xpz",
+          "name": "LaBianca Murders",
+          "slug": "labianca-murders"
+        },
+        {
+          "id": "recFPTLm3bVKppGjp",
+          "name": "Tate Murders",
+          "slug": "tate-murders"
+        },
+        {
+          "id": "recWV9gWzMWp2x5bN",
+          "name": "Manson Family revealed as Tate-LaBianca suspects",
+          "slug": "manson-family-revealed-as-tate-labianca-suspects"
+        },
+        {
+          "id": "recvjCB7Z9SwnY4Yi",
+          "name": "Paul Doerr promoted as Suspect (LA Mag)",
+          "slug": "paul-doerr-promoted-as-suspect-la-mag"
+        },
+        {
+          "id": "recsHX0ADK53cHAsg",
+          "name": "Marvin (Merrill) Margolis marries first wife Edith Bernstein",
+          "slug": "marvin-merrill-margolis-marries-first-wife-edith-bernstein"
+        },
+        {
+          "id": "rec0OzAVw6RpeMgmr",
+          "name": "Marvin Merrill's wife said to be living in Los Angeles",
+          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
+        },
+        {
+          "id": "recwgRaXmcykE4rB6",
+          "name": "Michael Mageau is born",
+          "slug": "michael-mageau-is-born"
+        },
+        {
+          "id": "rec5ZeOhYb9d1pYNI",
+          "name": "Zodiac Press Coverage [10/16/1969]",
+          "slug": "zodiac-press-coverage-10-16-1969"
+        },
+        {
+          "id": "rec1K8cI3g4n6Mn4I",
+          "name": "Zodiac Press Coverage [10/15/1969]",
+          "slug": "zodiac-press-coverage-10-15-1969"
+        },
+        {
+          "id": "recjeDHR2yo6jVwmW",
+          "name": "Arthur Leigh Allen's family arrives in Los Angeles from Hawaii",
+          "slug": "arthur-leigh-allen-s-family-arrives-in-los-angeles-from-hawaii"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec59H5NtSrIvaiUJ",
+          "name": "Location of Elizabeth Short disposal",
+          "slug": "location-of-elizabeth-short-disposal"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recpJMrcs1l3WRn9j",
+          "name": "The Los Angeles Times",
+          "slug": "the-los-angeles-times"
+        },
+        {
+          "id": "reck9mzheu3yuoDWi",
+          "name": "Elizabeth Short",
+          "slug": "elizabeth-short"
+        },
+        {
+          "id": "recR3w5CG2uxTzDEI",
+          "name": "Dave Smith",
+          "slug": "dave-smith"
+        },
+        {
+          "id": "recx1031ESHMEmOG5",
+          "name": "KHJ-TV",
+          "slug": "khj-tv"
+        },
+        {
+          "id": "recPqL3Y9XApsG18S",
+          "name": "The Manson Family",
+          "slug": "the-manson-family"
+        },
+        {
+          "id": "recjFSh5jxnAJq8AP",
+          "name": "Stephen Mageau",
+          "slug": "stephen-mageau"
+        },
+        {
+          "id": "rec0dOwJ1AL9UguKQ",
+          "name": "Carmen Elois Welch Mageau Vrana",
+          "slug": "carmen-elois-welch-mageau-vrana"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "reckyY4Jj8pzIulRc",
+          "name": "The Manson Family",
+          "slug": "the-manson-family"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 12,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Los Angeles City The Los Angeles Times Elizabeth Short Dave Smith KHJ-TV The Manson Family Stephen Mageau Carmen Elois Welch Mageau Vrana"
+    },
+    {
+      "id": "rec3SXc62X9TM4dMm",
+      "slug": "san-francisco-chronicle-offices",
+      "kind": "location",
+      "title": "San Francisco Chronicle offices",
+      "subtitle": "Business",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Francisco"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec7E9uhPbExvOStV",
+          "name": "The Button Letter, Z32, & Mt. Diablo Map",
+          "slug": "the-button-letter-z32-mt-diablo-map"
+        },
+        {
+          "id": "reccwnrY4xyeYm6Tq",
+          "name": "The SLA Letter",
+          "slug": "the-sla-letter"
+        },
+        {
+          "id": "recuG31SWMp2Pm4zt",
+          "name": "The Badlands Letter is mailed",
+          "slug": "the-badlands-letter-is-mailed"
+        },
+        {
+          "id": "recISLlMUV2t4GZ0s",
+          "name": "The Red Phantom Letter is mailed",
+          "slug": "the-red-phantom-letter-is-mailed"
+        },
+        {
+          "id": "rectm9Z1y7eQJEcgZ",
+          "name": "The 1978 “I am back with you” Letter",
+          "slug": "the-1978-i-am-back-with-you-letter"
+        },
+        {
+          "id": "rec1MFx5IegvNCUk7",
+          "name": "The Dragon Card",
+          "slug": "the-dragon-card"
+        },
+        {
+          "id": "recsYrwJjfsR7hAet",
+          "name": "Red Phantom letter and Badlands letter are published in SF Chronicle",
+          "slug": "red-phantom-letter-and-badlands-letter-are-published-in-sf-chronicle"
+        },
+        {
+          "id": "recr1weKUcPTDZIuX",
+          "name": "The Exorcist Letter",
+          "slug": "the-exorcist-letter"
+        },
+        {
+          "id": "recoCZBzqVEAptCbE",
+          "name": "The Belli Letter is published",
+          "slug": "the-belli-letter-is-published"
+        },
+        {
+          "id": "recgJ1EWqnfuw0hMi",
+          "name": "SF Chronicle: \"Cops No Closer on Zodiac Identity\"",
+          "slug": "sf-chronicle-cops-no-closer-on-zodiac-identity"
+        },
+        {
+          "id": "receCCZcvPywnql2Y",
+          "name": "Happy New Year card of 2001",
+          "slug": "happy-new-year-card-of-2001"
+        },
+        {
+          "id": "recqhrDZc0vFnQ3hA",
+          "name": "The Sierra Club Postcard",
+          "slug": "the-sierra-club-postcard"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "recqHvlmSyXK7UYJo",
+          "name": "Zodiac Letters",
+          "slug": "zodiac-letters"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Map",
+          "url": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
+        }
+      ],
+      "relatedEventCount": 12,
+      "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
+      "mapEmbedUrl": "https://www.google.com/maps?q=37.7821582,-122.4065833&output=embed",
+      "searchText": "San Francisco Chronicle offices Business"
     },
     {
       "id": "recxuIuPaJDKhXKo6",

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-02T03:54:39.678249+00:00",
+  "generatedAt": "2026-05-02T08:00:58.210005+00:00",
   "stats": {
-    "events": 448,
+    "events": 450,
     "people": 332,
     "locations": 345,
     "tags": 43,
-    "images": 1644,
+    "images": 1646,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 157
+      "count": 158
     },
     {
       "value": 1970,
@@ -52,12 +52,12 @@
       "count": 52
     },
     {
-      "value": "Newspaper Article",
-      "count": 38
+      "value": "Media Event",
+      "count": 39
     },
     {
-      "value": "Media Event",
-      "count": 37
+      "value": "Newspaper Article",
+      "count": 38
     },
     {
       "value": "Cultural Event",
@@ -204,6 +204,23 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638"
     },
     {
+      "id": "recO5mW1mFKtK0hCE",
+      "slug": "united-states-of-america",
+      "kind": "location",
+      "title": "United States of America",
+      "subtitle": "Country",
+      "excerpt": "",
+      "relatedEventCount": 13,
+      "primaryImage": {
+        "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
+        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "reccuFwS3SQNJRVps",
       "slug": "los-angeles",
       "kind": "location",
@@ -230,23 +247,6 @@
       "relatedEventCount": 12,
       "primaryImage": null,
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
-    },
-    {
-      "id": "recO5mW1mFKtK0hCE",
-      "slug": "united-states-of-america",
-      "kind": "location",
-      "title": "United States of America",
-      "subtitle": "Country",
-      "excerpt": "",
-      "relatedEventCount": 12,
-      "primaryImage": {
-        "originalUrl": "data/media/attRTKzo9k38Th0bb_image.png",
-        "thumbUrl": "data/media/derived/thumb/attRTKzo9k38Th0bb_image.png",
-        "mediumUrl": "data/media/derived/medium/attRTKzo9k38Th0bb_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "mapOpenUrl": ""
     },
     {
       "id": "recxuIuPaJDKhXKo6",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 02, 2026, 03:54 AM UTC",
+    "label": "May 02, 2026, 08:00 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "448 dated events spanning 1925 to 2025."
+      "description": "450 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
