@@ -1500,7 +1500,13 @@
           "slug": "ga"
         }
       ],
-      "people": [],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
       "tags": [
         {
           "id": "recnyN76pwtLF9eBJ",
@@ -1525,7 +1531,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's in-laws visit in Atlanta Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children. Suspect Event Atlanta, GA Atlanta GA Marvin Margolis"
+      "searchText": "Marvin Merrill's in-laws visit in Atlanta Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children. Suspect Event Atlanta, GA Atlanta GA Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recPgYIXBepgFUtiw",
@@ -8811,6 +8817,70 @@
       "searchText": "Officer Richard Hoffman checks park Case Event Blue Rock Springs Park Richard Hoffman Attack at Blue Rock Springs Park"
     },
     {
+      "id": "recsGm4yN1bVwmMNr",
+      "slug": "merrill-advertises-for-business-partner-in-vista-press",
+      "kind": "event",
+      "title": "Merrill advertises for business partner in Vista Press",
+      "date": "1969-07-04",
+      "dateLabel": "Fri, Jul 4, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-07-04-9999-00450",
+      "type": "Suspect Event",
+      "description": "￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspaper of the city _where he resides_.\n\nThis ad runs several other times that month, so hopefully he rushes home to receive the calls he solicited. By the way, this is, ostensibly, when he is supposedly working for _Intel_, his reason to even be in the Bay Area during the crimes. (It seems fairly certain that _if_ he worked at Intel, it isn't until the late 1970s.)",
+      "excerpt": "￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspape…",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "tags": [
+        {
+          "id": "recnyN76pwtLF9eBJ",
+          "name": "Marvin Margolis",
+          "slug": "marvin-margolis"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attF166A6joi7odwK_Screenshot_2026-05-04_at_10.29.23_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attF166A6joi7odwK_Screenshot_2026-05-04_at_10.29.23_PM.png",
+          "mediumUrl": "data/media/derived/medium/attF166A6joi7odwK_Screenshot_2026-05-04_at_10.29.23_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-05-04_at_10.29.23_PM.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vista Historical Society",
+          "url": "https://www.vistahistoricalsociety.com/archive/the-vista-press-archives/1969/1969-07-04-06"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Merrill advertises for business partner in Vista Press ￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspaper of the city _where he resides_.\n\nThis ad runs several other times that month, so hopefully he rushes home to receive the calls he solicited. By the way, this is, ostensibly, when he is supposedly working for _Intel_, his reason to even be in the Bay Area during the crimes. (It seems fairly certain that _if_ he worked at Intel, it isn't until the late 1970s.) Suspect Event Vista, CA Vista CA Marvin Merrill Marvin Margolis"
+    },
+    {
       "id": "rec3uFgjJT93kVKzX",
       "slug": "blue-rock-springs-shooting",
       "kind": "event",
@@ -11302,6 +11372,64 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Mageau is given police protection Victim Event Michael Renault Mageau"
+    },
+    {
+      "id": "recBaof7Bg5qbQCYl",
+      "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning",
+      "kind": "event",
+      "title": "Marvin Merrill quoted in article about Vista school board zoning",
+      "date": "1969-08-27",
+      "dateLabel": "Wed, Aug 27, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-08-27-9999-00451",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attZlDmIKkLnXQEou_Screenshot_2026-05-04_at_10.42.09_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attZlDmIKkLnXQEou_Screenshot_2026-05-04_at_10.42.09_PM.png",
+          "mediumUrl": "data/media/derived/medium/attZlDmIKkLnXQEou_Screenshot_2026-05-04_at_10.42.09_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-05-04_at_10.42.09_PM.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vista Historical Society",
+          "url": "https://www.vistahistoricalsociety.com/archive/the-vista-press-archives/1969/1969-08-27"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin Merrill quoted in article about Vista school board zoning Suspect Event Vista, CA Vista CA Marvin Merrill"
     },
     {
       "id": "recFFGBi0xbFbusla",
@@ -18231,6 +18359,64 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Altamont Free Concert Non-Zodiac Events Livermore, CA Livermore CA Melvin Belli"
+    },
+    {
+      "id": "recxk09B0xp90KPp0",
+      "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca",
+      "kind": "event",
+      "title": "Merrill referenced in search for family dog in Vista, CA",
+      "date": "1969-12-14",
+      "dateLabel": "Sun, Dec 14, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-12-14-9999-00452",
+      "type": "Suspect Event",
+      "description": "Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will need to return to the Bay Area soon to mail the Belli Letter on or around December 20th.",
+      "excerpt": "Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will…",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attLuiu8YgxDu7kQ9_image.png",
+          "thumbUrl": "data/media/derived/thumb/attLuiu8YgxDu7kQ9_image.png",
+          "mediumUrl": "data/media/derived/medium/attLuiu8YgxDu7kQ9_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Vista Historical Society",
+          "url": "https://www.vistahistoricalsociety.com/archive/the-vista-press-archives/1969/1969-12-14"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Merrill referenced in search for family dog in Vista, CA Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will need to return to the Bay Area soon to mail the Belli Letter on or around December 20th. Suspect Event Vista, CA Vista CA Marvin Merrill"
     },
     {
       "id": "recq0Zly0j1za56fW",
@@ -28362,7 +28548,7 @@
       },
       {
         "value": "1969",
-        "count": 158
+        "count": 161
       },
       {
         "value": "1968",
@@ -28532,7 +28718,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 106
+        "count": 109
       },
       {
         "value": "Uncategorized",
@@ -28670,7 +28856,7 @@
       },
       {
         "value": "CA",
-        "count": 155
+        "count": 158
       },
       {
         "value": "CA)",
@@ -29582,11 +29768,11 @@
       },
       {
         "value": "Vista",
-        "count": 4
+        "count": 7
       },
       {
         "value": "Vista, CA",
-        "count": 4
+        "count": 7
       },
       {
         "value": "Waldport",
@@ -30172,7 +30358,7 @@
       },
       {
         "value": "Marvin Merrill",
-        "count": 21
+        "count": 25
       },
       {
         "value": "Matthew Burrell",
@@ -30654,7 +30840,7 @@
       },
       {
         "value": "Marvin Margolis",
-        "count": 13
+        "count": 14
       },
       {
         "value": "Military",

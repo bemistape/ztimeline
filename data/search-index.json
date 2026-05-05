@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:57:31.214113+00:00",
+  "generatedAt": "2026-05-05T03:52:35.515339+00:00",
   "items": [
     {
       "kind": "event",
@@ -215,7 +215,7 @@
       "slug": "marvin-merrill-s-in-laws-visit-in-atlanta",
       "title": "Marvin Merrill's in-laws visit in Atlanta",
       "subtitle": "Suspect Event • Sat, Sep 3, 1955",
-      "searchText": "Marvin Merrill's in-laws visit in Atlanta Suspect Event Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children.  Atlanta, GA Atlanta GA Marvin Margolis"
+      "searchText": "Marvin Merrill's in-laws visit in Atlanta Suspect Event Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children. Marvin Merrill Atlanta, GA Atlanta GA Marvin Margolis"
     },
     {
       "kind": "event",
@@ -1171,6 +1171,14 @@
     },
     {
       "kind": "event",
+      "id": "recsGm4yN1bVwmMNr",
+      "slug": "merrill-advertises-for-business-partner-in-vista-press",
+      "title": "Merrill advertises for business partner in Vista Press",
+      "subtitle": "Suspect Event • Fri, Jul 4, 1969",
+      "searchText": "Merrill advertises for business partner in Vista Press Suspect Event ￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspaper of the city _where he resides_.\n\nThis ad runs several other times that month, so hopefully he rushes home to receive the calls he solicited. By the way, this is, ostensibly, when he is supposedly working for _Intel_, his reason to even be in the Bay Area during the crimes. (It seems fairly certain that _if_ he worked at Intel, it isn't until the late 1970s.) Marvin Merrill Vista, CA Vista CA Marvin Margolis"
+    },
+    {
+      "kind": "event",
       "id": "rec3uFgjJT93kVKzX",
       "slug": "blue-rock-springs-shooting",
       "title": "Blue Rock Springs Shooting",
@@ -1432,6 +1440,14 @@
       "title": "Mageau is given police protection",
       "subtitle": "Victim Event • Sat, Aug 23, 1969",
       "searchText": "Mageau is given police protection Victim Event  Michael Renault Mageau  "
+    },
+    {
+      "kind": "event",
+      "id": "recBaof7Bg5qbQCYl",
+      "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning",
+      "title": "Marvin Merrill quoted in article about Vista school board zoning",
+      "subtitle": "Suspect Event • Wed, Aug 27, 1969",
+      "searchText": "Marvin Merrill quoted in article about Vista school board zoning Suspect Event  Marvin Merrill Vista, CA Vista CA "
     },
     {
       "kind": "event",
@@ -2272,6 +2288,14 @@
       "title": "Altamont Free Concert",
       "subtitle": "Non-Zodiac Events • Mon, Dec 8, 1969",
       "searchText": "Altamont Free Concert Non-Zodiac Events  Melvin Belli Livermore, CA Livermore CA "
+    },
+    {
+      "kind": "event",
+      "id": "recxk09B0xp90KPp0",
+      "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca",
+      "title": "Merrill referenced in search for family dog in Vista, CA",
+      "subtitle": "Suspect Event • Sun, Dec 14, 1969",
+      "searchText": "Merrill referenced in search for family dog in Vista, CA Suspect Event Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will need to return to the Bay Area soon to mail the Belli Letter on or around December 20th. Marvin Merrill Vista, CA Vista CA "
     },
     {
       "kind": "event",
@@ -3611,6 +3635,14 @@
     },
     {
       "kind": "person",
+      "id": "recoOKTf4wXF3GBYn",
+      "slug": "marvin-merrill",
+      "title": "Marvin Merrill",
+      "subtitle": "Suspect,Military,Deceased",
+      "searchText": "Marvin Merrill Suspect,Military,Deceased Black Dahlia suspect, accused of Zodiac crimes in 2025. Marvin Merrill Marvin Margolis gets marriage license as M. Skipton Merrill Merrill still owns land in San Diego County in 1977 Marvin Merrill's wife sells vehicles Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista, CA school location Marvin (Merrill) Margolis marries first wife Edith Bernstein Marvin Merrill's wife said to be living in Los Angeles Marvin Merrill's daughter has bat mitzvah Marvin Merrill is jailed Skipton Merrill's Wellington Art Association announces art show Donna Merrill files for divorce from Marvin Merrill Marvin Merrill declares homestead in San Diego County Marvin Merrill and wife involved in \"Project Devel Corp\" Marvin Merrill is sued in small claims court Marvin (Margolis) Merrill dies Marvin Merrill's father Isadore dies Marvin (Merrill) Margolis registers for draft post-war Article in Wellington, Kansas newspaper Merrill sells two paintings to Medford, OK furniture company Marvin Merrill referenced in Atlanta synagogue Marvin Margolis is born Merrill advertises for business partner in Vista Press Marvin Merrill quoted in article about Vista school board zoning Merrill referenced in search for family dog in Vista, CA Marvin Merrill's in-laws visit in Atlanta United States Navy Donna Faye McEachern Merrill Edith Bernstein (Margolis) Merrill Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Marvin Margolis"
+    },
+    {
+      "kind": "person",
       "id": "rec5NLNj8q2bpKjm8",
       "slug": "san-francisco-chronicle",
       "title": "San Francisco Chronicle",
@@ -3624,14 +3656,6 @@
       "title": "Arthur Leigh Allen",
       "subtitle": "Suspect,Deceased,Key Figure,Pop Culture",
       "searchText": "Arthur Leigh Allen Suspect,Deceased,Key Figure,Pop Culture The prime suspect. Arthur Leigh Allen 7/27/71 Mulanax Report on Arthur Leigh Allen July 1971 ALA meeting with Toschi and Armstrong A.L. Allen Search Warrant (Santa Rosa) 1991 search of Arthur Leigh Allen's home in Vallejo Arthur Leigh Allen alibi for Lake Berryessa Arthur Leigh Allen fired from Arco Service Station Death of Arthur Leigh Allen's father Sherwood Morrill: ALA's handwriting doesn't match Zodiac Ronald Allen marries Karen Long Arthur Leigh Allen teaching trampoline class in Vallejo Arthur Leigh Allen is born Arthur Leigh Allen ushers for a friend's wedding Ralph Spinelli claims he knows who Zodiac was Sonoma Sheriffs search ALA's trailer Michael Mageau identifies Arthur Leigh Allen Arthur Leigh Allen competes in Camellia Cup Regatta sailing competition Arthur Leigh Allen is losing weight Arthur Leigh Allen dies Arthur Leigh Allen's family departs Hawaii for San Francisco Arthur Leigh Allen's family arrives in Los Angeles from Hawaii DNA evidence said to clear Arthur Leigh Allen Union Oil Refinery in Pinole United States Navy Vallejo High School California Polytechnic State University (Cal Poly) Mare Island Naval Shipyard Highland Elementary School Valley Spring Elementary Atascadero State Hospital Santa Rosa Elementary School (Atascadero, CA) Travis Elementary (Travis AFB) Sonoma State University Vallejo College Ronald Gene Allen Ethan Warren Allen Bernice Allen Karen Marie (Long) Allen Rohnert Park, CA Salt Point Ranch (State Park) Lake Berryessa California Solano County, CA Napa County, CA Vallejo, CA SF Bay Area United States of America Arco Service Station in Vallejo Sonoma County, CA 32 Fresno Street, Vallejo (Allen family home) Arthur Leigh Allen's trailer Santa Rosa, CA Burson, CA Calaveras County, CA Valley Springs, CA Honolulu Sunrise Memorial Cemetery Sacramento, CA San Marino, CA Berkeley, CA San Jose, CA Santa Clara County Jail Ontario International Airport (San Bernardino) Folsom Lake State Recreation Area Los Angeles Arthur Leigh Allen The 340 Cipher Military Bombs, Explosives, and Demolition"
-    },
-    {
-      "kind": "person",
-      "id": "recoOKTf4wXF3GBYn",
-      "slug": "marvin-merrill",
-      "title": "Marvin Merrill",
-      "subtitle": "Suspect,Military,Deceased",
-      "searchText": "Marvin Merrill Suspect,Military,Deceased Black Dahlia suspect, accused of Zodiac crimes in 2025. Marvin Merrill Marvin Margolis gets marriage license as M. Skipton Merrill Merrill still owns land in San Diego County in 1977 Marvin Merrill's wife sells vehicles Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista, CA school location Marvin (Merrill) Margolis marries first wife Edith Bernstein Marvin Merrill's wife said to be living in Los Angeles Marvin Merrill's daughter has bat mitzvah Marvin Merrill is jailed Skipton Merrill's Wellington Art Association announces art show Donna Merrill files for divorce from Marvin Merrill Marvin Merrill declares homestead in San Diego County Marvin Merrill and wife involved in \"Project Devel Corp\" Marvin Merrill is sued in small claims court Marvin (Margolis) Merrill dies Marvin Merrill's father Isadore dies Marvin (Merrill) Margolis registers for draft post-war Article in Wellington, Kansas newspaper Merrill sells two paintings to Medford, OK furniture company Marvin Merrill referenced in Atlanta synagogue Marvin Margolis is born United States Navy Donna Faye McEachern Merrill Edith Bernstein (Margolis) Merrill Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Marvin Margolis"
     },
     {
       "kind": "person",
@@ -6339,6 +6363,14 @@
     },
     {
       "kind": "location",
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "searchText": "Vista, CA City Merrill still owns land in San Diego County in 1977 Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista, CA school location Marvin Merrill's daughter has bat mitzvah Merrill advertises for business partner in Vista Press Marvin Merrill quoted in article about Vista school board zoning Merrill referenced in search for family dog in Vista, CA Marvin Merrill"
+    },
+    {
+      "kind": "location",
       "id": "recb0X8kEnkBnJw0f",
       "slug": "oceanside-ca",
       "title": "Oceanside, CA",
@@ -6504,14 +6536,6 @@
       "title": "Solano County, CA",
       "subtitle": "County",
       "searchText": "Solano County, CA County Paul Doerr listed on deed records in Solano County Paul and Rose Doerr purchase different property in Solano County Paul Doerr's final deed record in Solano County SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin James A. Owen Frank Gasser Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat The Daily Republic Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Solano (Community) College Benicia Police Department Karl F. Werner Daniel Pitta Ed Rust Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Dr. Byron Thomas Sanford Mare Island Naval Shipyard Highland Elementary School Humble Oil / Exxon / Valero Refinery Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious Benicia, CA Vallejo, CA Fairfield, CA Vacaville, CA Marshall Ranch Lake Herman Road Zodiac Site Suisun City, CA Travis AFB, CA Lake Herman Road(Frank) Gasser RanchLake Herman Pumping StationBlue Rock Springs ParkSprings & Tuolumne Pay PhoneHarry Wogan Beacon StationArco Service Station in Vallejo32 Fresno Street Vallejo (Allen family home)Home of David FaradayHome of Darlene Ferrin (September 1969)Home of Betty Lou JensenKaiser HospitalTwin Chapels Mortuary (Vallejo)Skyview Memorial Lawn [Abbey Memorial Mausoleum]Sunrise Memorial CemeteryHome of Sharon Henslin (1968)Highland Elementary School (Vallejo CA)Darlene Ferrin's parents home (1969)All Souls Catholic CemeteryColonial ChapelsHogan High School (Vallejo CA)Home of Darlene Ferrin (January 1968)Home of Michael Mageau (1969)Vallejo General HospitalLouis Myers' parents residence in late 1960sBenicia CAVallejo CAFairfield CAVacaville CAMarshall RanchLake Herman Road Zodiac SiteSuisun City CATravis AFB CA Benicia Vallejo Fairfield Vacaville Suisun City Travis AFB Murders at Lake Herman Road Zodiac Letters"
-    },
-    {
-      "kind": "location",
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "searchText": "Vista, CA City Merrill still owns land in San Diego County in 1977 Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista, CA school location Marvin Merrill's daughter has bat mitzvah Marvin Merrill"
     },
     {
       "kind": "location",
@@ -9071,7 +9095,7 @@
       "slug": "marvin-margolis",
       "title": "Marvin Margolis",
       "subtitle": "",
-      "searchText": "Marvin Margolis Elizabeth Short's body is found Marvin Margolis gets marriage license as M. Skipton Merrill Marvin Merrill is jailed Merrill still owns land in San Diego County in 1977 Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista CA school location Marvin Merrill's wife sells vehicles Skipton Merrill's Wellington Art Association announces art show Marvin Merrill is sued in small claims court Marvin Merrill's wife Donna remarries Merrill sells two paintings to Medford OK furniture company Marvin Merrill referenced in Atlanta synagogue Marvin Merrill's in-laws visit in Atlanta Likely reference to Marvin Merrill in article about Vista, CA school location Merrill sells two paintings to Medford, OK furniture company Marvin Merrill Elizabeth Short Donna Faye McEachern Merrill Marvin Skipton Margolis Merrill"
+      "searchText": "Marvin Margolis Elizabeth Short's body is found Marvin Margolis gets marriage license as M. Skipton Merrill Marvin Merrill is jailed Merrill still owns land in San Diego County in 1977 Marvin Merrill endorses failed rezoning effort Likely reference to Marvin Merrill in article about Vista CA school location Marvin Merrill's wife sells vehicles Skipton Merrill's Wellington Art Association announces art show Marvin Merrill is sued in small claims court Marvin Merrill's wife Donna remarries Merrill sells two paintings to Medford OK furniture company Marvin Merrill referenced in Atlanta synagogue Marvin Merrill's in-laws visit in Atlanta Merrill advertises for business partner in Vista Press Likely reference to Marvin Merrill in article about Vista, CA school location Merrill sells two paintings to Medford, OK furniture company Marvin Merrill Elizabeth Short Donna Faye McEachern Merrill"
     },
     {
       "kind": "tag",

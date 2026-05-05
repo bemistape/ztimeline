@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:57:31.214113+00:00",
+  "generatedAt": "2026-05-05T03:52:35.515339+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -525,6 +525,461 @@
       ],
       "relatedEventCount": 51,
       "searchText": "Zodiac Zodiac The killer. (And anyone who purports to be the killer.) Springs & Tuolumne Pay Phone Lake Berryessa Pay Phone at Main and Clinton Streets Pleasanton, CA San Francisco The Presidio Site of Paul Stine's Murder California Lake Herman Road Zodiac Site Solano County, CA Napa County, CA Vallejo, CA Blue Rock Springs Park SF Bay Area Napa, CA United States of America Lake Herman Road Alameda County, CA Benicia, CA Site of Lake Berryessa Zodiac Encounter San Francisco Chronicle offices Riverside, CA SFPD Headquarters Mt. Diablo Santa Barbara County, CA Oakland, CA Marin County, CA Modesto, CA Hwy 132 Patterson, CA Eureka, CA Sacramento, CA Atlanta, GA Martinez, CA Mason & Geary (Union Square)"
+    },
+    {
+      "id": "recoOKTf4wXF3GBYn",
+      "slug": "marvin-merrill",
+      "kind": "person",
+      "title": "Marvin Merrill",
+      "subtitle": "Suspect,Military,Deceased",
+      "summary": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
+      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
+      "aliases": [
+        "Marvin Merrill"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
+          "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+          "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+          "derivativeState": "derived",
+          "label": "mendell002.jpeg"
+        },
+        {
+          "originalUrl": "data/media/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "thumbUrl": "data/media/derived/thumb/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "mediumUrl": "data/media/derived/medium/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "derivativeState": "derived",
+          "label": "Merrill_marriage.jpg"
+        },
+        {
+          "originalUrl": "data/media/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "thumbUrl": "data/media/derived/thumb/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "mediumUrl": "data/media/derived/medium/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "derivativeState": "derived",
+          "label": "49241561432_986593044f_o.jpg"
+        },
+        {
+          "originalUrl": "data/media/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
+          "thumbUrl": "data/media/derived/thumb/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
+          "mediumUrl": "data/media/derived/medium/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
+          "derivativeState": "derived",
+          "label": "49241066596_c3e29554da_o.jpg"
+        },
+        {
+          "originalUrl": "data/media/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
+          "thumbUrl": "data/media/derived/thumb/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
+          "mediumUrl": "data/media/derived/medium/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
+          "derivativeState": "derived",
+          "label": "49241382932_9ef6508eff_o.png"
+        },
+        {
+          "originalUrl": "data/media/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpeg",
+          "thumbUrl": "data/media/derived/thumb/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
+          "mediumUrl": "data/media/derived/medium/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
+          "derivativeState": "derived",
+          "label": "3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpeg"
+        },
+        {
+          "originalUrl": "data/media/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
+          "thumbUrl": "data/media/derived/thumb/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
+          "mediumUrl": "data/media/derived/medium/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
+          "derivativeState": "derived",
+          "label": "Daily_Times_Advocate_1972_04_09_33.jpg"
+        },
+        {
+          "originalUrl": "data/media/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
+          "thumbUrl": "data/media/derived/thumb/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
+          "mediumUrl": "data/media/derived/medium/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
+          "derivativeState": "derived",
+          "label": "Ramona_Sentinel_1979_03_15_18.jpg"
+        },
+        {
+          "originalUrl": "data/media/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
+          "thumbUrl": "data/media/derived/thumb/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
+          "mediumUrl": "data/media/derived/medium/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
+          "derivativeState": "derived",
+          "label": "Marvin_Merrill_business.jpg"
+        },
+        {
+          "originalUrl": "data/media/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
+          "thumbUrl": "data/media/derived/thumb/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
+          "mediumUrl": "data/media/derived/medium/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
+          "derivativeState": "derived",
+          "label": "Marvin_Merrill_jailed.jpg"
+        },
+        {
+          "originalUrl": "data/media/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
+          "mediumUrl": "data/media/derived/medium/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-01-04_at_12.58.36_PM.png"
+        },
+        {
+          "originalUrl": "data/media/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
+          "mediumUrl": "data/media/derived/medium/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-01-04_at_12.58.07_PM.png"
+        },
+        {
+          "originalUrl": "data/media/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
+          "thumbUrl": "data/media/derived/thumb/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
+          "mediumUrl": "data/media/derived/medium/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
+          "derivativeState": "derived",
+          "label": "Skip_Merrill_art_show.jpg"
+        },
+        {
+          "originalUrl": "data/media/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
+          "thumbUrl": "data/media/derived/thumb/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
+          "mediumUrl": "data/media/derived/medium/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
+          "derivativeState": "derived",
+          "label": "Skip_Merrill_feature_article.jpg"
+        },
+        {
+          "originalUrl": "data/media/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
+          "mediumUrl": "data/media/derived/medium/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-01-06_at_8.19.01_PM.png"
+        },
+        {
+          "originalUrl": "data/media/attAwa68RI7xAzXSk_margolis_injury_record.png",
+          "thumbUrl": "data/media/derived/thumb/attAwa68RI7xAzXSk_margolis_injury_record.png",
+          "mediumUrl": "data/media/derived/medium/attAwa68RI7xAzXSk_margolis_injury_record.png",
+          "derivativeState": "derived",
+          "label": "margolis_injury_record.png"
+        },
+        {
+          "originalUrl": "data/media/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
+          "thumbUrl": "data/media/derived/thumb/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
+          "mediumUrl": "data/media/derived/medium/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
+          "derivativeState": "derived",
+          "label": "32456_1220705235_0010-00589.jpg"
+        },
+        {
+          "originalUrl": "data/media/attc6towcqokqGx3T_33068_269468-00044.jpg",
+          "thumbUrl": "data/media/derived/thumb/attc6towcqokqGx3T_33068_269468-00044.jpg",
+          "mediumUrl": "data/media/derived/medium/attc6towcqokqGx3T_33068_269468-00044.jpg",
+          "derivativeState": "derived",
+          "label": "33068_269468-00044.jpg"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
+        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "derivativeState": "derived",
+        "label": "mendell002.jpeg"
+      },
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Marvin Skipton Margolis Merrill"
+        },
+        {
+          "label": "Born",
+          "value": "1925-03-25"
+        },
+        {
+          "label": "Died",
+          "value": "1993-07-22"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Wichita, KS, Oceanside, CA, Chicago, Vista, CA, Carlsbad, CA, Santa Barbara, CA, Atlanta, GA, Jacksonville, FL"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recuLlpHkGvMXeEeQ",
+          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
+          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
+        },
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "rec1ItC2hUR9ajXWE",
+          "name": "Marvin Merrill's wife sells vehicles",
+          "slug": "marvin-merrill-s-wife-sells-vehicles"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recsHX0ADK53cHAsg",
+          "name": "Marvin (Merrill) Margolis marries first wife Edith Bernstein",
+          "slug": "marvin-merrill-margolis-marries-first-wife-edith-bernstein"
+        },
+        {
+          "id": "rec0OzAVw6RpeMgmr",
+          "name": "Marvin Merrill's wife said to be living in Los Angeles",
+          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
+        },
+        {
+          "id": "recj0L0bOP7SfRcaH",
+          "name": "Marvin Merrill's daughter has bat mitzvah",
+          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
+        },
+        {
+          "id": "recuedkkLZd51Nd8x",
+          "name": "Marvin Merrill is jailed",
+          "slug": "marvin-merrill-is-jailed"
+        },
+        {
+          "id": "recwV2KcxNP5fVVZN",
+          "name": "Skipton Merrill's Wellington Art Association announces art show",
+          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
+        },
+        {
+          "id": "recuodXC00lNolxWt",
+          "name": "Donna Merrill files for divorce from Marvin Merrill",
+          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
+        },
+        {
+          "id": "recqd0UxXer0YT3Fs",
+          "name": "Marvin Merrill declares homestead in San Diego County",
+          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
+        },
+        {
+          "id": "recat0ikBRBor98HZ",
+          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
+          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
+        },
+        {
+          "id": "recSO0r5G4dBjGcVr",
+          "name": "Marvin Merrill is sued in small claims court",
+          "slug": "marvin-merrill-is-sued-in-small-claims-court"
+        },
+        {
+          "id": "rec5sL9hC0CU6qw1r",
+          "name": "Marvin (Margolis) Merrill dies",
+          "slug": "marvin-margolis-merrill-dies"
+        },
+        {
+          "id": "recPpPAlK985mGxvA",
+          "name": "Marvin Merrill's father Isadore dies",
+          "slug": "marvin-merrill-s-father-isadore-dies"
+        },
+        {
+          "id": "recmy5F1K1nbOMtwH",
+          "name": "Marvin (Merrill) Margolis registers for draft post-war",
+          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+        },
+        {
+          "id": "recmo3WyzFVuLvMli",
+          "name": "Article in Wellington, Kansas newspaper",
+          "slug": "article-in-wellington-kansas-newspaper"
+        },
+        {
+          "id": "recaLXBXGk2YnpEP0",
+          "name": "Merrill sells two paintings to Medford, OK furniture company",
+          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
+        },
+        {
+          "id": "recPgYIXBepgFUtiw",
+          "name": "Marvin Merrill referenced in Atlanta synagogue",
+          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
+        },
+        {
+          "id": "recfqoBnnqTH0eyNr",
+          "name": "Marvin Margolis is born",
+          "slug": "marvin-margolis-is-born"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recBaof7Bg5qbQCYl",
+          "name": "Marvin Merrill quoted in article about Vista school board zoning",
+          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
+        },
+        {
+          "id": "recxk09B0xp90KPp0",
+          "name": "Merrill referenced in search for family dog in Vista, CA",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
+        },
+        {
+          "id": "recZ4772B9Dt5m0EN",
+          "name": "Marvin Merrill's in-laws visit in Atlanta",
+          "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recrH8mYy6Oyhsol6",
+          "name": "Wichita, KS",
+          "slug": "wichita-ks"
+        },
+        {
+          "id": "recWDkxvqnXtKTfw3",
+          "name": "Sedgwick County, KS",
+          "slug": "sedgwick-county-ks"
+        },
+        {
+          "id": "rec6dNi2OgiD6guXU",
+          "name": "Kansas",
+          "slug": "kansas"
+        },
+        {
+          "id": "recnog62LVFsETdfp",
+          "name": "Chicago",
+          "slug": "chicago"
+        },
+        {
+          "id": "rec8J4Q4Fc91cHzWg",
+          "name": "Cook County, IL",
+          "slug": "cook-county-il"
+        },
+        {
+          "id": "rec0TM5QrB7hacouQ",
+          "name": "Illinois",
+          "slug": "illinois"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "rec8k66sFQrJMlyJJ",
+          "name": "Atlanta, GA",
+          "slug": "atlanta-ga"
+        },
+        {
+          "id": "recAmMEBuIR0HzXrt",
+          "name": "Georgia",
+          "slug": "georgia"
+        },
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "recHmZ39rWbWR7XAy",
+          "name": "Carlsbad, CA",
+          "slug": "carlsbad-ca"
+        },
+        {
+          "id": "recTurFS1LAxjM40a",
+          "name": "Santa Barbara, CA",
+          "slug": "santa-barbara-ca"
+        },
+        {
+          "id": "recMF9LEIynuCu2gF",
+          "name": "Jacksonville, FL",
+          "slug": "jacksonville-fl"
+        },
+        {
+          "id": "recW384s2m6sCR5Yz",
+          "name": "San Diego County, CA",
+          "slug": "san-diego-county-ca"
+        },
+        {
+          "id": "rec3cKa9wcQXYHwl4",
+          "name": "Santa Barbara County, CA",
+          "slug": "santa-barbara-county-ca"
+        },
+        {
+          "id": "recKy6i0QdfcGaqr0",
+          "name": "Duval County, FL",
+          "slug": "duval-county-fl"
+        },
+        {
+          "id": "rec5n419ioeJg2k2t",
+          "name": "Fulton County, GA",
+          "slug": "fulton-county-ga"
+        },
+        {
+          "id": "recuFzDnzG9lFupEB",
+          "name": "Florida",
+          "slug": "florida"
+        },
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        },
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "rec5R7ftIJZtyZpPV",
+          "name": "Wellington, KS",
+          "slug": "wellington-ks"
+        },
+        {
+          "id": "recoLzKMHQnKBY2jl",
+          "name": "Phoenix, AZ",
+          "slug": "phoenix-az"
+        },
+        {
+          "id": "recn1vGzIWa4yRodT",
+          "name": "Medford, OK",
+          "slug": "medford-ok"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "rec5sLMwfiMUYMmOS",
+          "name": "United States Navy",
+          "slug": "united-states-navy"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        },
+        {
+          "id": "rec2BmtZQGx9ht2an",
+          "name": "Edith Bernstein (Margolis) Merrill",
+          "slug": "edith-bernstein-margolis-merrill"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recnyN76pwtLF9eBJ",
+          "name": "Marvin Margolis",
+          "slug": "marvin-margolis"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 25,
+      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK"
     },
     {
       "id": "rec5NLNj8q2bpKjm8",
@@ -1179,441 +1634,6 @@
       ],
       "relatedEventCount": 21,
       "searchText": "Arthur Leigh Allen Arthur Leigh Allen The prime suspect. Rohnert Park, CA Salt Point Ranch (State Park) Lake Berryessa California Solano County, CA Napa County, CA Vallejo, CA SF Bay Area United States of America Arco Service Station in Vallejo Sonoma County, CA 32 Fresno Street, Vallejo (Allen family home) Arthur Leigh Allen's trailer Santa Rosa, CA Burson, CA Calaveras County, CA Valley Springs, CA Honolulu Sunrise Memorial Cemetery Sacramento, CA San Marino, CA Berkeley, CA San Jose, CA Santa Clara County Jail Ontario International Airport (San Bernardino) Folsom Lake State Recreation Area Los Angeles"
-    },
-    {
-      "id": "recoOKTf4wXF3GBYn",
-      "slug": "marvin-merrill",
-      "kind": "person",
-      "title": "Marvin Merrill",
-      "subtitle": "Suspect,Military,Deceased",
-      "summary": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "aliases": [
-        "Marvin Merrill"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-          "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-          "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
-          "derivativeState": "derived",
-          "label": "mendell002.jpeg"
-        },
-        {
-          "originalUrl": "data/media/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "thumbUrl": "data/media/derived/thumb/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "mediumUrl": "data/media/derived/medium/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "derivativeState": "derived",
-          "label": "Merrill_marriage.jpg"
-        },
-        {
-          "originalUrl": "data/media/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "thumbUrl": "data/media/derived/thumb/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "mediumUrl": "data/media/derived/medium/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "derivativeState": "derived",
-          "label": "49241561432_986593044f_o.jpg"
-        },
-        {
-          "originalUrl": "data/media/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
-          "thumbUrl": "data/media/derived/thumb/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
-          "mediumUrl": "data/media/derived/medium/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
-          "derivativeState": "derived",
-          "label": "49241066596_c3e29554da_o.jpg"
-        },
-        {
-          "originalUrl": "data/media/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
-          "thumbUrl": "data/media/derived/thumb/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
-          "mediumUrl": "data/media/derived/medium/attWFnnKb52cIVM3Y_49241382932_9ef6508eff_o.png",
-          "derivativeState": "derived",
-          "label": "49241382932_9ef6508eff_o.png"
-        },
-        {
-          "originalUrl": "data/media/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpeg",
-          "thumbUrl": "data/media/derived/thumb/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
-          "mediumUrl": "data/media/derived/medium/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
-          "derivativeState": "derived",
-          "label": "3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpeg"
-        },
-        {
-          "originalUrl": "data/media/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
-          "thumbUrl": "data/media/derived/thumb/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
-          "mediumUrl": "data/media/derived/medium/attBoJ2p08q7RygRP_Daily_Times_Advocate_1972_04_09_33.jpg",
-          "derivativeState": "derived",
-          "label": "Daily_Times_Advocate_1972_04_09_33.jpg"
-        },
-        {
-          "originalUrl": "data/media/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
-          "thumbUrl": "data/media/derived/thumb/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
-          "mediumUrl": "data/media/derived/medium/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
-          "derivativeState": "derived",
-          "label": "Ramona_Sentinel_1979_03_15_18.jpg"
-        },
-        {
-          "originalUrl": "data/media/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
-          "thumbUrl": "data/media/derived/thumb/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
-          "mediumUrl": "data/media/derived/medium/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
-          "derivativeState": "derived",
-          "label": "Marvin_Merrill_business.jpg"
-        },
-        {
-          "originalUrl": "data/media/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
-          "thumbUrl": "data/media/derived/thumb/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
-          "mediumUrl": "data/media/derived/medium/attFhO3vlphj7N1lK_Marvin_Merrill_jailed.jpg",
-          "derivativeState": "derived",
-          "label": "Marvin_Merrill_jailed.jpg"
-        },
-        {
-          "originalUrl": "data/media/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
-          "thumbUrl": "data/media/derived/thumb/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
-          "mediumUrl": "data/media/derived/medium/attI26lqsxH3QEqY9_Screenshot_2026-01-04_at_12.58.36_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2026-01-04_at_12.58.36_PM.png"
-        },
-        {
-          "originalUrl": "data/media/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
-          "thumbUrl": "data/media/derived/thumb/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
-          "mediumUrl": "data/media/derived/medium/attme302rAlqF9JLZ_Screenshot_2026-01-04_at_12.58.07_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2026-01-04_at_12.58.07_PM.png"
-        },
-        {
-          "originalUrl": "data/media/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
-          "thumbUrl": "data/media/derived/thumb/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
-          "mediumUrl": "data/media/derived/medium/attLIOweIQZsWeD2v_Skip_Merrill_art_show.jpg",
-          "derivativeState": "derived",
-          "label": "Skip_Merrill_art_show.jpg"
-        },
-        {
-          "originalUrl": "data/media/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
-          "thumbUrl": "data/media/derived/thumb/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
-          "mediumUrl": "data/media/derived/medium/attWqoiNaE4EuRP7P_Skip_Merrill_feature_article.jpg",
-          "derivativeState": "derived",
-          "label": "Skip_Merrill_feature_article.jpg"
-        },
-        {
-          "originalUrl": "data/media/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
-          "thumbUrl": "data/media/derived/thumb/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
-          "mediumUrl": "data/media/derived/medium/att6G2245cBlusPbU_Screenshot_2026-01-06_at_8.19.01_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2026-01-06_at_8.19.01_PM.png"
-        },
-        {
-          "originalUrl": "data/media/attAwa68RI7xAzXSk_margolis_injury_record.png",
-          "thumbUrl": "data/media/derived/thumb/attAwa68RI7xAzXSk_margolis_injury_record.png",
-          "mediumUrl": "data/media/derived/medium/attAwa68RI7xAzXSk_margolis_injury_record.png",
-          "derivativeState": "derived",
-          "label": "margolis_injury_record.png"
-        },
-        {
-          "originalUrl": "data/media/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
-          "thumbUrl": "data/media/derived/thumb/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
-          "mediumUrl": "data/media/derived/medium/attZsks3VXVwVzjrx_32456_1220705235_0010-00589.jpg",
-          "derivativeState": "derived",
-          "label": "32456_1220705235_0010-00589.jpg"
-        },
-        {
-          "originalUrl": "data/media/attc6towcqokqGx3T_33068_269468-00044.jpg",
-          "thumbUrl": "data/media/derived/thumb/attc6towcqokqGx3T_33068_269468-00044.jpg",
-          "mediumUrl": "data/media/derived/medium/attc6towcqokqGx3T_33068_269468-00044.jpg",
-          "derivativeState": "derived",
-          "label": "33068_269468-00044.jpg"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
-        "derivativeState": "derived",
-        "label": "mendell002.jpeg"
-      },
-      "facts": [
-        {
-          "label": "Extended Name",
-          "value": "Marvin Skipton Margolis Merrill"
-        },
-        {
-          "label": "Born",
-          "value": "1925-03-25"
-        },
-        {
-          "label": "Died",
-          "value": "1993-07-22"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Wichita, KS, Oceanside, CA, Chicago, Vista, CA, Carlsbad, CA, Santa Barbara, CA, Atlanta, GA, Jacksonville, FL"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recuLlpHkGvMXeEeQ",
-          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
-          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
-        },
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "rec1ItC2hUR9ajXWE",
-          "name": "Marvin Merrill's wife sells vehicles",
-          "slug": "marvin-merrill-s-wife-sells-vehicles"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recsHX0ADK53cHAsg",
-          "name": "Marvin (Merrill) Margolis marries first wife Edith Bernstein",
-          "slug": "marvin-merrill-margolis-marries-first-wife-edith-bernstein"
-        },
-        {
-          "id": "rec0OzAVw6RpeMgmr",
-          "name": "Marvin Merrill's wife said to be living in Los Angeles",
-          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
-        },
-        {
-          "id": "recj0L0bOP7SfRcaH",
-          "name": "Marvin Merrill's daughter has bat mitzvah",
-          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
-        },
-        {
-          "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
-        },
-        {
-          "id": "recwV2KcxNP5fVVZN",
-          "name": "Skipton Merrill's Wellington Art Association announces art show",
-          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
-        },
-        {
-          "id": "recuodXC00lNolxWt",
-          "name": "Donna Merrill files for divorce from Marvin Merrill",
-          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
-        },
-        {
-          "id": "recqd0UxXer0YT3Fs",
-          "name": "Marvin Merrill declares homestead in San Diego County",
-          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
-        },
-        {
-          "id": "recat0ikBRBor98HZ",
-          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
-          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
-        },
-        {
-          "id": "recSO0r5G4dBjGcVr",
-          "name": "Marvin Merrill is sued in small claims court",
-          "slug": "marvin-merrill-is-sued-in-small-claims-court"
-        },
-        {
-          "id": "rec5sL9hC0CU6qw1r",
-          "name": "Marvin (Margolis) Merrill dies",
-          "slug": "marvin-margolis-merrill-dies"
-        },
-        {
-          "id": "recPpPAlK985mGxvA",
-          "name": "Marvin Merrill's father Isadore dies",
-          "slug": "marvin-merrill-s-father-isadore-dies"
-        },
-        {
-          "id": "recmy5F1K1nbOMtwH",
-          "name": "Marvin (Merrill) Margolis registers for draft post-war",
-          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
-        },
-        {
-          "id": "recmo3WyzFVuLvMli",
-          "name": "Article in Wellington, Kansas newspaper",
-          "slug": "article-in-wellington-kansas-newspaper"
-        },
-        {
-          "id": "recaLXBXGk2YnpEP0",
-          "name": "Merrill sells two paintings to Medford, OK furniture company",
-          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
-        },
-        {
-          "id": "recPgYIXBepgFUtiw",
-          "name": "Marvin Merrill referenced in Atlanta synagogue",
-          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
-        },
-        {
-          "id": "recfqoBnnqTH0eyNr",
-          "name": "Marvin Margolis is born",
-          "slug": "marvin-margolis-is-born"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recrH8mYy6Oyhsol6",
-          "name": "Wichita, KS",
-          "slug": "wichita-ks"
-        },
-        {
-          "id": "recWDkxvqnXtKTfw3",
-          "name": "Sedgwick County, KS",
-          "slug": "sedgwick-county-ks"
-        },
-        {
-          "id": "rec6dNi2OgiD6guXU",
-          "name": "Kansas",
-          "slug": "kansas"
-        },
-        {
-          "id": "recnog62LVFsETdfp",
-          "name": "Chicago",
-          "slug": "chicago"
-        },
-        {
-          "id": "rec8J4Q4Fc91cHzWg",
-          "name": "Cook County, IL",
-          "slug": "cook-county-il"
-        },
-        {
-          "id": "rec0TM5QrB7hacouQ",
-          "name": "Illinois",
-          "slug": "illinois"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "rec8k66sFQrJMlyJJ",
-          "name": "Atlanta, GA",
-          "slug": "atlanta-ga"
-        },
-        {
-          "id": "recAmMEBuIR0HzXrt",
-          "name": "Georgia",
-          "slug": "georgia"
-        },
-        {
-          "id": "recb0X8kEnkBnJw0f",
-          "name": "Oceanside, CA",
-          "slug": "oceanside-ca"
-        },
-        {
-          "id": "recS1hWCS7jNh8Gsb",
-          "name": "Vista, CA",
-          "slug": "vista-ca"
-        },
-        {
-          "id": "recHmZ39rWbWR7XAy",
-          "name": "Carlsbad, CA",
-          "slug": "carlsbad-ca"
-        },
-        {
-          "id": "recTurFS1LAxjM40a",
-          "name": "Santa Barbara, CA",
-          "slug": "santa-barbara-ca"
-        },
-        {
-          "id": "recMF9LEIynuCu2gF",
-          "name": "Jacksonville, FL",
-          "slug": "jacksonville-fl"
-        },
-        {
-          "id": "recW384s2m6sCR5Yz",
-          "name": "San Diego County, CA",
-          "slug": "san-diego-county-ca"
-        },
-        {
-          "id": "rec3cKa9wcQXYHwl4",
-          "name": "Santa Barbara County, CA",
-          "slug": "santa-barbara-county-ca"
-        },
-        {
-          "id": "recKy6i0QdfcGaqr0",
-          "name": "Duval County, FL",
-          "slug": "duval-county-fl"
-        },
-        {
-          "id": "rec5n419ioeJg2k2t",
-          "name": "Fulton County, GA",
-          "slug": "fulton-county-ga"
-        },
-        {
-          "id": "recuFzDnzG9lFupEB",
-          "name": "Florida",
-          "slug": "florida"
-        },
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        },
-        {
-          "id": "recmc2ZGx4Zoy8cz8",
-          "name": "San Diego, CA",
-          "slug": "san-diego-ca"
-        },
-        {
-          "id": "rec5R7ftIJZtyZpPV",
-          "name": "Wellington, KS",
-          "slug": "wellington-ks"
-        },
-        {
-          "id": "recoLzKMHQnKBY2jl",
-          "name": "Phoenix, AZ",
-          "slug": "phoenix-az"
-        },
-        {
-          "id": "recn1vGzIWa4yRodT",
-          "name": "Medford, OK",
-          "slug": "medford-ok"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec5sLMwfiMUYMmOS",
-          "name": "United States Navy",
-          "slug": "united-states-navy"
-        },
-        {
-          "id": "recDGLrzZDACdBeH6",
-          "name": "Donna Faye McEachern Merrill",
-          "slug": "donna-faye-mceachern-merrill"
-        },
-        {
-          "id": "rec2BmtZQGx9ht2an",
-          "name": "Edith Bernstein (Margolis) Merrill",
-          "slug": "edith-bernstein-margolis-merrill"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recnyN76pwtLF9eBJ",
-          "name": "Marvin Margolis",
-          "slug": "marvin-margolis"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 21,
-      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK"
     },
     {
       "id": "recIi4fFkzHRAIpD0",

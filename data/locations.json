@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:57:31.214113+00:00",
+  "generatedAt": "2026-05-05T03:52:35.515339+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -4133,6 +4133,74 @@
       "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
     },
     {
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "kind": "location",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Diego County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recj0L0bOP7SfRcaH",
+          "name": "Marvin Merrill's daughter has bat mitzvah",
+          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recBaof7Bg5qbQCYl",
+          "name": "Marvin Merrill quoted in article about Vista school board zoning",
+          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
+        },
+        {
+          "id": "recxk09B0xp90KPp0",
+          "name": "Merrill referenced in search for family dog in Vista, CA",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 7,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Vista, CA City Marvin Merrill"
+    },
+    {
       "id": "recb0X8kEnkBnJw0f",
       "slug": "oceanside-ca",
       "kind": "location",
@@ -6496,59 +6564,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Solano County, CA County Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin James A. Owen Frank Gasser Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat The Daily Republic Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Solano (Community) College Benicia Police Department Karl F. Werner Daniel Pitta Ed Rust Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Dr. Byron Thomas Sanford Mare Island Naval Shipyard Highland Elementary School Humble Oil / Exxon / Valero Refinery Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
-    },
-    {
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "kind": "location",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Diego County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recj0L0bOP7SfRcaH",
-          "name": "Marvin Merrill's daughter has bat mitzvah",
-          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 4,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Vista, CA City Marvin Merrill"
     },
     {
       "id": "recnog62LVFsETdfp",

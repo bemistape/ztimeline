@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-04T19:57:31.214113+00:00",
+  "generatedAt": "2026-05-05T03:52:35.515339+00:00",
   "stats": {
-    "events": 450,
+    "events": 453,
     "people": 332,
     "locations": 345,
     "tags": 43,
-    "images": 1646,
+    "images": 1649,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 158
+      "count": 161
     },
     {
       "value": 1970,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 106
+      "count": 109
     },
     {
       "value": "Case Event",
@@ -83,6 +83,23 @@
       "mapOpenUrl": ""
     },
     {
+      "id": "recoOKTf4wXF3GBYn",
+      "slug": "marvin-merrill",
+      "kind": "person",
+      "title": "Marvin Merrill",
+      "subtitle": "Suspect,Military,Deceased",
+      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
+      "relatedEventCount": 25,
+      "primaryImage": {
+        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
+        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "derivativeState": "derived",
+        "label": "mendell002.jpeg"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "rec5NLNj8q2bpKjm8",
       "slug": "san-francisco-chronicle",
       "kind": "person",
@@ -113,23 +130,6 @@
         "mediumUrl": "data/media/derived/medium/attSrcn6JCVodffbz_image.png",
         "derivativeState": "derived",
         "label": "image.png"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "recoOKTf4wXF3GBYn",
-      "slug": "marvin-merrill",
-      "kind": "person",
-      "title": "Marvin Merrill",
-      "subtitle": "Suspect,Military,Deceased",
-      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 21,
-      "primaryImage": {
-        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
-        "derivativeState": "derived",
-        "label": "mendell002.jpeg"
       },
       "mapOpenUrl": ""
     },
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 04, 2026, 07:57 PM UTC",
+    "label": "May 05, 2026, 03:52 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "450 dated events spanning 1925 to 2025."
+      "description": "453 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

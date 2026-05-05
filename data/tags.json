@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-04T19:57:31.214113+00:00",
+  "generatedAt": "2026-05-05T03:52:35.515339+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -4086,6 +4086,11 @@
           "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
         },
         {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
           "id": "reckBlXfwOEPHVuzI",
           "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
           "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
@@ -4111,17 +4116,12 @@
           "id": "recDGLrzZDACdBeH6",
           "name": "Donna Faye McEachern Merrill",
           "slug": "donna-faye-mceachern-merrill"
-        },
-        {
-          "id": "",
-          "name": "Marvin Skipton Margolis Merrill",
-          "slug": "marvin-skipton-margolis-merrill"
         }
       ],
       "relatedLocations": [],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 17,
+      "relatedEventCount": 18,
       "searchText": "Marvin Margolis"
     },
     {
