@@ -10851,11 +10851,6 @@
       "locations": [],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "recHXVfggUxX8lL6s",
           "name": "Donald Harden",
           "slug": "donald-harden"
@@ -11009,7 +11004,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The Z408 Cipher Solved North Salinas teacher Donald Harden and his wife Bettye cracked the 408; FBI records reference an Aug. 9, 1969 Times-Herald item noting Harden’s claim; other sources place the solution on Aug. 8. Case Event Zodiac Donald Harden Bettye Harden Zodiac Letters The 408 Cipher"
+      "searchText": "The Z408 Cipher Solved North Salinas teacher Donald Harden and his wife Bettye cracked the 408; FBI records reference an Aug. 9, 1969 Times-Herald item noting Harden’s claim; other sources place the solution on Aug. 8. Case Event Donald Harden Bettye Harden Zodiac Letters The 408 Cipher"
     },
     {
       "id": "recFPTLm3bVKppGjp",
@@ -15361,11 +15356,6 @@
       ],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "recIi4fFkzHRAIpD0",
           "name": "Paul Lee Stine",
           "slug": "paul-lee-stine"
@@ -15409,7 +15399,7 @@
       "sources": [],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.77544+-122.40394",
       "hasMedia": true,
-      "searchText": "First police sketch is released **Sketch Made Of Killer in Taxi Slaying**\n\n_Police sketch of suspect in cab driver’s slaying._\n\nA composite drawing of the suspect wanted in the Saturday night slaying of Yellow Cab driver **Paul Lee Stine** has been released by Homicide Inspectors **William Armstrong** and **David Tosche**.\n\nThe suspect who got $10 or $11 is described as a white man, 25–30 years old, 5’8” or 5’9” tall, weighing 150 pounds. He has reddish brown hair which he wears in a crew cut, and was wearing **heavy-rimmed glasses** and a navy blue or black jacket at the time of the slaying.\n\nStine, of **1842 Fell St.**, was 29 years old. He had been working 9 p.m.–5 a.m. as a Yellow Cab driver for the last several months to pay his way through **San Francisco State College**, where he was a Ph.D. candidate in English.\n\nHe was also a part-time insurance agent. Case Event SFPD Headquarters Zodiac Paul Lee Stine SFPD Paul Stine's Taxi Murder"
+      "searchText": "First police sketch is released **Sketch Made Of Killer in Taxi Slaying**\n\n_Police sketch of suspect in cab driver’s slaying._\n\nA composite drawing of the suspect wanted in the Saturday night slaying of Yellow Cab driver **Paul Lee Stine** has been released by Homicide Inspectors **William Armstrong** and **David Tosche**.\n\nThe suspect who got $10 or $11 is described as a white man, 25–30 years old, 5’8” or 5’9” tall, weighing 150 pounds. He has reddish brown hair which he wears in a crew cut, and was wearing **heavy-rimmed glasses** and a navy blue or black jacket at the time of the slaying.\n\nStine, of **1842 Fell St.**, was 29 years old. He had been working 9 p.m.–5 a.m. as a Yellow Cab driver for the last several months to pay his way through **San Francisco State College**, where he was a Ph.D. candidate in English.\n\nHe was also a part-time insurance agent. Case Event SFPD Headquarters Paul Lee Stine SFPD Paul Stine's Taxi Murder"
     },
     {
       "id": "recFO9ZjcS8Ha1r6g",
@@ -15906,13 +15896,7 @@
           "slug": "sfpd-headquarters"
         }
       ],
-      "people": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        }
-      ],
+      "people": [],
       "tags": [],
       "images": [
         {
@@ -15931,7 +15915,7 @@
       ],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.77544+-122.40394",
       "hasMedia": true,
-      "searchText": "SFPD Wanted Poster / Composite Released SFPD issued an October 1969 wanted poster with composite sketches after the Paul Stine murder. Commons page lists Date: 18 October 1969. Case Event SFPD Headquarters Zodiac"
+      "searchText": "SFPD Wanted Poster / Composite Released SFPD issued an October 1969 wanted poster with composite sketches after the Paul Stine murder. Commons page lists Date: 18 October 1969. Case Event SFPD Headquarters"
     },
     {
       "id": "recCtxg7bs49zCxb6",
@@ -16071,13 +16055,7 @@
       "description": "Contemporary coverage (photo/caption) records a county-to-county task force meeting on Oct 20, 1969 to share intelligence on Zodiac.",
       "excerpt": "Contemporary coverage (photo/caption) records a county-to-county task force meeting on Oct 20, 1969 to share intelligence on Zodiac.",
       "locations": [],
-      "people": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        }
-      ],
+      "people": [],
       "tags": [],
       "images": [],
       "sources": [
@@ -16088,7 +16066,7 @@
       ],
       "mapUrl": "",
       "hasMedia": false,
-      "searchText": "Multi-Agency Zodiac Task Force Meeting Contemporary coverage (photo/caption) records a county-to-county task force meeting on Oct 20, 1969 to share intelligence on Zodiac. Case Event Zodiac"
+      "searchText": "Multi-Agency Zodiac Task Force Meeting Contemporary coverage (photo/caption) records a county-to-county task force meeting on Oct 20, 1969 to share intelligence on Zodiac. Case Event"
     },
     {
       "id": "recy3aMMjLp9WDvJe",
@@ -16566,11 +16544,6 @@
           "id": "recfaGz7ecM0l0K1x",
           "name": "Joe Charles Stine",
           "slug": "joe-charles-stine"
-        },
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
         }
       ],
       "tags": [
@@ -16584,7 +16557,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": false,
-      "searchText": "Joe Stine challenges Zodiac Media Event Modesto, CA Modesto CA Joe Charles Stine Zodiac Paul Stine's Taxi Murder"
+      "searchText": "Joe Stine challenges Zodiac Media Event Modesto, CA Modesto CA Joe Charles Stine Paul Stine's Taxi Murder"
     },
     {
       "id": "recAJjplezVzhY2GE",
@@ -18564,11 +18537,6 @@
       ],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
@@ -18593,7 +18561,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The Belli Letter is published Media Event San Francisco San Francisco Chronicle offices Zodiac Melvin Belli Zodiac Letters"
+      "searchText": "The Belli Letter is published Media Event San Francisco San Francisco Chronicle offices Melvin Belli Zodiac Letters"
     },
     {
       "id": "recQcTQCK2YbFjZPx",
@@ -21746,11 +21714,6 @@
           "slug": "sherwood-morrill"
         },
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "recVgzsjtQvTLJ7U0",
           "name": "California Department of Justice",
           "slug": "california-department-of-justice"
@@ -21759,11 +21722,6 @@
           "id": "rec9bE0PxBpOGTpGq",
           "name": "William Garlington",
           "slug": "william-garlington"
-        },
-        {
-          "id": "",
-          "name": "Sherwood Mason Morrill",
-          "slug": "sherwood-mason-morrill"
         }
       ],
       "tags": [
@@ -21797,7 +21755,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac Case Event Sacramento, CA Vallejo, CA Sacramento CA Vallejo Arthur Leigh Allen Melvin Nicolai Vallejo Police Sherwood Morrill Zodiac California Department of Justice William Garlington Sherwood Mason Morrill Arthur Leigh Allen Zodiac Letters"
+      "searchText": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac Case Event Sacramento, CA Vallejo, CA Sacramento CA Vallejo Arthur Leigh Allen Melvin Nicolai Vallejo Police Sherwood Morrill California Department of Justice William Garlington Arthur Leigh Allen Zodiac Letters"
     },
     {
       "id": "recFOjJLM2jGWMNya",
@@ -22451,11 +22409,6 @@
       ],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "rectAXOi2qNQfdUFz",
           "name": "Robert Domingos",
           "slug": "robert-domingos"
@@ -22490,7 +22443,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Santa Barbara Sheriff Press Release on 1963 Case Sheriff John Carpenter’s 1972 press materials stated a “high degree of probability” the Zodiac committed the Domingos–Edwards murders; covered by local press in Nov 1972. Case Event Santa Barbara County, CA Santa Barbara County CA Zodiac Robert Domingos Linda Edwards Domingos–Edwards Murders"
+      "searchText": "Santa Barbara Sheriff Press Release on 1963 Case Sheriff John Carpenter’s 1972 press materials stated a “high degree of probability” the Zodiac committed the Domingos–Edwards murders; covered by local press in Nov 1972. Case Event Santa Barbara County, CA Santa Barbara County CA Robert Domingos Linda Edwards Domingos–Edwards Murders"
     },
     {
       "id": "rec17vXR0TnJZZO96",
@@ -30613,10 +30566,6 @@
         "count": 2
       },
       {
-        "value": "Sherwood Mason Morrill",
-        "count": 1
-      },
-      {
         "value": "Sherwood Morrill",
         "count": 3
       },
@@ -30798,7 +30747,7 @@
       },
       {
         "value": "Zodiac",
-        "count": 51
+        "count": 43
       }
     ],
     "tags": [

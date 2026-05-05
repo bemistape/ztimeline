@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T08:29:13.605071+00:00",
+  "generatedAt": "2026-05-05T19:58:02.343276+00:00",
   "stats": {
     "events": 453,
     "people": 332,
@@ -72,7 +72,7 @@
       "title": "Zodiac",
       "subtitle": "Zodiac,Key Figure,Suspect,Unidentified",
       "excerpt": "The killer. (And anyone who purports to be the killer.)",
-      "relatedEventCount": 51,
+      "relatedEventCount": 43,
       "primaryImage": {
         "originalUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
         "thumbUrl": "data/media/derived/thumb/attD0P2TkTV1TT5jO_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 05, 2026, 08:29 AM UTC",
+    "label": "May 05, 2026, 07:58 PM UTC",
     "syncMode": "delta"
   },
   "method": {

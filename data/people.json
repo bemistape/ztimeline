@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T08:29:13.605071+00:00",
+  "generatedAt": "2026-05-05T19:58:02.343276+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -113,11 +113,6 @@
           "slug": "zodiac-calls-the-vallejo-police-department"
         },
         {
-          "id": "recfw0x9CSoAiFK41",
-          "name": "The Z408 Cipher Solved",
-          "slug": "the-z408-cipher-solved"
-        },
-        {
           "id": "recmQK2TtG43z2t8t",
           "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
           "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
@@ -158,24 +153,9 @@
           "slug": "bates-had-to-die-letters"
         },
         {
-          "id": "rechdYTpYdMlsXRMM",
-          "name": "SFPD Wanted Poster / Composite Released",
-          "slug": "sfpd-wanted-poster-composite-released"
-        },
-        {
-          "id": "recJX6Xt2kl2jlup0",
-          "name": "Multi-Agency Zodiac Task Force Meeting",
-          "slug": "multi-agency-zodiac-task-force-meeting"
-        },
-        {
           "id": "rec7E9uhPbExvOStV",
           "name": "The Button Letter, Z32, & Mt. Diablo Map",
           "slug": "the-button-letter-z32-mt-diablo-map"
-        },
-        {
-          "id": "recRxAv9VVqh1W1Sb",
-          "name": "Santa Barbara Sheriff Press Release on 1963 Case",
-          "slug": "santa-barbara-sheriff-press-release-on-1963-case"
         },
         {
           "id": "reccwnrY4xyeYm6Tq",
@@ -238,11 +218,6 @@
           "slug": "zodiac-referenced-in-atlanta-child-killings-coverage"
         },
         {
-          "id": "recY8uibcMAlgpNjH",
-          "name": "Sherwood Morrill: ALA's handwriting doesn't match Zodiac",
-          "slug": "sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac"
-        },
-        {
           "id": "rec3Dgbv7gzxm994m",
           "name": "The Celebrity Cypher Postcard",
           "slug": "the-celebrity-cypher-postcard"
@@ -251,11 +226,6 @@
           "id": "reckxMexr8sa80qXX",
           "name": "The Concerned Citizen Card",
           "slug": "the-concerned-citizen-card"
-        },
-        {
-          "id": "recoCZBzqVEAptCbE",
-          "name": "The Belli Letter is published",
-          "slug": "the-belli-letter-is-published"
         },
         {
           "id": "reczWfmvvVX3Hr9oM",
@@ -278,19 +248,9 @@
           "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
         },
         {
-          "id": "recPi2JfcqYezenoB",
-          "name": "Joe Stine challenges Zodiac",
-          "slug": "joe-stine-challenges-zodiac"
-        },
-        {
           "id": "rec4kqiUdO856Aagg",
           "name": "Paul Stine picks up Zodiac at Mason & Geary",
           "slug": "paul-stine-picks-up-zodiac-at-mason-geary"
-        },
-        {
-          "id": "recoa3PUngQgNc4d0",
-          "name": "First police sketch is released",
-          "slug": "first-police-sketch-is-released"
         }
       ],
       "relatedLocations": [
@@ -405,19 +365,9 @@
           "slug": "riverside-ca"
         },
         {
-          "id": "receuSuhUHn9NBIHz",
-          "name": "SFPD Headquarters",
-          "slug": "sfpd-headquarters"
-        },
-        {
           "id": "recrAkbKlDhOn2F5L",
           "name": "Mt. Diablo",
           "slug": "mt-diablo"
-        },
-        {
-          "id": "rec3cKa9wcQXYHwl4",
-          "name": "Santa Barbara County, CA",
-          "slug": "santa-barbara-county-ca"
         },
         {
           "id": "recs7w51lbAk0oeE7",
@@ -523,8 +473,8 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Zodiac&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 51,
-      "searchText": "Zodiac Zodiac The killer. (And anyone who purports to be the killer.) Springs & Tuolumne Pay Phone Lake Berryessa Pay Phone at Main and Clinton Streets Pleasanton, CA San Francisco The Presidio Site of Paul Stine's Murder California Lake Herman Road Zodiac Site Solano County, CA Napa County, CA Vallejo, CA Blue Rock Springs Park SF Bay Area Napa, CA United States of America Lake Herman Road Alameda County, CA Benicia, CA Site of Lake Berryessa Zodiac Encounter San Francisco Chronicle offices Riverside, CA SFPD Headquarters Mt. Diablo Santa Barbara County, CA Oakland, CA Marin County, CA Modesto, CA Hwy 132 Patterson, CA Eureka, CA Sacramento, CA Atlanta, GA Martinez, CA Mason & Geary (Union Square)"
+      "relatedEventCount": 43,
+      "searchText": "Zodiac Zodiac The killer. (And anyone who purports to be the killer.) Springs & Tuolumne Pay Phone Lake Berryessa Pay Phone at Main and Clinton Streets Pleasanton, CA San Francisco The Presidio Site of Paul Stine's Murder California Lake Herman Road Zodiac Site Solano County, CA Napa County, CA Vallejo, CA Blue Rock Springs Park SF Bay Area Napa, CA United States of America Lake Herman Road Alameda County, CA Benicia, CA Site of Lake Berryessa Zodiac Encounter San Francisco Chronicle offices Riverside, CA Mt. Diablo Oakland, CA Marin County, CA Modesto, CA Hwy 132 Patterson, CA Eureka, CA Sacramento, CA Atlanta, GA Martinez, CA Mason & Geary (Union Square)"
     },
     {
       "id": "recoOKTf4wXF3GBYn",
