@@ -12096,7 +12096,7 @@
       "timeLabel": "6:45 PM",
       "sortTime": 1125,
       "sortValue": "1969-09-27-1125-00007",
-      "type": "Z Communication",
+      "type": "Case Event",
       "description": "After stabbing Hartnell and Shepard at Lake Berryessa, Zodiac scrawled a message on the door of Hartnell's Karmen Ghia.\n\n⌖\nVallejo\n12-20-68\n7-4-69\nSept 27-69-6:30\nby knife",
       "excerpt": "After stabbing Hartnell and Shepard at Lake Berryessa, Zodiac scrawled a message on the door of Hartnell's Karmen Ghia. ⌖ Vallejo 12-20-68 7-4-69 Sept 27-69-6:30 by knife",
       "locations": [
@@ -12146,7 +12146,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Zodiac writes a message on Bryan Hartnell's car door After stabbing Hartnell and Shepard at Lake Berryessa, Zodiac scrawled a message on the door of Hartnell's Karmen Ghia.\n\n⌖\nVallejo\n12-20-68\n7-4-69\nSept 27-69-6:30\nby knife Z Communication Lake Berryessa Zodiac Bryan Calvin Hartnell Attack at Lake Berryessa"
+      "searchText": "Zodiac writes a message on Bryan Hartnell's car door After stabbing Hartnell and Shepard at Lake Berryessa, Zodiac scrawled a message on the door of Hartnell's Karmen Ghia.\n\n⌖\nVallejo\n12-20-68\n7-4-69\nSept 27-69-6:30\nby knife Case Event Lake Berryessa Zodiac Bryan Calvin Hartnell Attack at Lake Berryessa"
     },
     {
       "id": "rec1WiCt1FaTRIEch",
@@ -22641,7 +22641,7 @@
       "timeLabel": "",
       "sortTime": 1441,
       "sortValue": "1974-01-29-9999-00020",
-      "type": "Disputed Z Communication",
+      "type": "Z Communication",
       "description": "Short letter (opening “I saw and think ‘The Exorcist’ was the best saterical comidy…”) is part of the recognized Zodiac corpus. \n\n> I saw and think \"The Exorcist\" was the best saterical comidy that I have ever seen.\n> Signed, yours truley:\n> He plunged himself into the billowy wave\n> and an echo arose from the suicide's grave\n> titwillo titwillo titwillo\n> PS.\n> If I do not see this note in your paper, I will do something nasty, which you know I'm capable of doing.\n> \n> \n> Me - 37\n> SFPD - 0",
       "excerpt": "Short letter (opening “I saw and think ‘The Exorcist’ was the best saterical comidy…”) is part of the recognized Zodiac corpus. > I saw and think \"The Exorcist\" was the best saterical comidy that I have ever seen. > Sig…",
       "locations": [
@@ -22727,7 +22727,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The Exorcist Letter Short letter (opening “I saw and think ‘The Exorcist’ was the best saterical comidy…”) is part of the recognized Zodiac corpus. \n\n> I saw and think \"The Exorcist\" was the best saterical comidy that I have ever seen.\n> Signed, yours truley:\n> He plunged himself into the billowy wave\n> and an echo arose from the suicide's grave\n> titwillo titwillo titwillo\n> PS.\n> If I do not see this note in your paper, I will do something nasty, which you know I'm capable of doing.\n> \n> \n> Me - 37\n> SFPD - 0 Disputed Z Communication San Francisco San Francisco Chronicle offices Zodiac Zodiac Letters Possible Pseudonymous Zodiac"
+      "searchText": "The Exorcist Letter Short letter (opening “I saw and think ‘The Exorcist’ was the best saterical comidy…”) is part of the recognized Zodiac corpus. \n\n> I saw and think \"The Exorcist\" was the best saterical comidy that I have ever seen.\n> Signed, yours truley:\n> He plunged himself into the billowy wave\n> and an echo arose from the suicide's grave\n> titwillo titwillo titwillo\n> PS.\n> If I do not see this note in your paper, I will do something nasty, which you know I'm capable of doing.\n> \n> \n> Me - 37\n> SFPD - 0 Z Communication San Francisco San Francisco Chronicle offices Zodiac Zodiac Letters Possible Pseudonymous Zodiac"
     },
     {
       "id": "recbqZHt9IKbuEiz9",
@@ -28631,7 +28631,7 @@
       },
       {
         "value": "Case Event",
-        "count": 88
+        "count": 89
       },
       {
         "value": "Census Records",
@@ -28643,7 +28643,7 @@
       },
       {
         "value": "Disputed Z Communication",
-        "count": 23
+        "count": 22
       },
       {
         "value": "Disputed Z Crime",
