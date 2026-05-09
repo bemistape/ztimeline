@@ -15191,9 +15191,9 @@
     },
     {
       "id": "recATdf0n9etcTyEl",
-      "slug": "the-stine-letter-w-shirt-piece",
+      "slug": "the-stine-letter-is-sent",
       "kind": "event",
-      "title": "The Stine Letter w/ Shirt Piece",
+      "title": "The Stine Letter is sent",
       "date": "1969-10-13",
       "dateLabel": "Mon, Oct 13, 1969",
       "year": 1969,
@@ -15283,7 +15283,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The Stine Letter w/ Shirt Piece This is the Zodiac speaking.\nI am the murderer of the taxi driver over by Washington St & Maple St last night, to prove this here is a blood stained piece of his shirt. I am the same man who did in the people in the north bay area.\nThe S.F. Police could have caught me last night if they had searched the park properly instead of holding road races with their motorcicles seeing who could make the most noise. The car drivers should have just parked their cars and sat there quietly waiting for me to come out of cover.\nSchool children make nice targets, I think I shall wipe out a school bus some morning. Just shoot out the front tire & then pick off the kiddies as they come bouncing out. Z Communication San Francisco Zodiac Paul Lee Stine Zodiac Letters Paul Stine's Taxi Murder"
+      "searchText": "The Stine Letter is sent This is the Zodiac speaking.\nI am the murderer of the taxi driver over by Washington St & Maple St last night, to prove this here is a blood stained piece of his shirt. I am the same man who did in the people in the north bay area.\nThe S.F. Police could have caught me last night if they had searched the park properly instead of holding road races with their motorcicles seeing who could make the most noise. The car drivers should have just parked their cars and sat there quietly waiting for me to come out of cover.\nSchool children make nice targets, I think I shall wipe out a school bus some morning. Just shoot out the front tire & then pick off the kiddies as they come bouncing out. Z Communication San Francisco Zodiac Paul Lee Stine Zodiac Letters Paul Stine's Taxi Murder"
     },
     {
       "id": "recT6bmq9yk5rkCV1",
@@ -15609,11 +15609,6 @@
       ],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "recIi4fFkzHRAIpD0",
           "name": "Paul Lee Stine",
           "slug": "paul-lee-stine"
@@ -15669,7 +15664,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Stine Letter is published, Zodiac linked Media Event San Francisco Zodiac Paul Lee Stine San Francisco Chronicle Paul Stine's Taxi Murder Zodiac Letters"
+      "searchText": "Stine Letter is published, Zodiac linked Media Event San Francisco Paul Lee Stine San Francisco Chronicle Paul Stine's Taxi Murder Zodiac Letters"
     },
     {
       "id": "rec1K8cI3g4n6Mn4I",
@@ -16787,6 +16782,67 @@
       "searchText": "FBI fingerprint analysis finds no matches on Berryessa latents Case Event Napa County, CA Napa County CA Hal Snook Sheriff Earl Randol FBI Attack at Lake Berryessa"
     },
     {
+      "id": "recFFSKEFx7Q5CKxl",
+      "slug": "daniel-williams-begins-receiving-threatening-phone-calls-from-zodiac",
+      "kind": "event",
+      "title": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\"",
+      "date": "1969-10-23",
+      "dateLabel": "Thu, Oct 23, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-10-23-9999-00184",
+      "type": "Possible Zodiac Crime",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recWAiXUOtxO9qHI7",
+          "name": "Martinez, CA",
+          "slug": "martinez-ca"
+        },
+        {
+          "id": "",
+          "name": "Martinez",
+          "slug": "martinez"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recGZwp9mtC6qB9Hd",
+          "name": "Zodiac",
+          "slug": "zodiac"
+        },
+        {
+          "id": "recQtG7CYhL21Bmxw",
+          "name": "Daniel B. Williams",
+          "slug": "daniel-b-williams"
+        }
+      ],
+      "tags": [
+        {
+          "id": "receWYqyZXkYs9n2J",
+          "name": "Non-Canonical Crimes",
+          "slug": "non-canonical-crimes"
+        },
+        {
+          "id": "recGZww4h3NB4LFRY",
+          "name": "The Daniel Williams incident",
+          "slug": "the-daniel-williams-incident"
+        }
+      ],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\" Possible Zodiac Crime Martinez, CA Martinez CA Zodiac Daniel B. Williams Non-Canonical Crimes The Daniel Williams incident"
+    },
+    {
       "id": "recnsGwXewX9ogHhc",
       "slug": "modesto-police-guarding-school-buses",
       "kind": "event",
@@ -17180,67 +17236,6 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Cabbie's story about mugging is publicized Case Event San Francisco Yellow Cab Company (San Francisco)"
-    },
-    {
-      "id": "recFFSKEFx7Q5CKxl",
-      "slug": "daniel-williams-begins-receiving-threatening-phone-calls-from-zodiac",
-      "kind": "event",
-      "title": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\"",
-      "date": "1969-11-02",
-      "dateLabel": "Sun, Nov 2, 1969",
-      "year": 1969,
-      "timeLabel": "9:00 PM",
-      "sortTime": 1260,
-      "sortValue": "1969-11-02-1260-00184",
-      "type": "Possible Zodiac Crime",
-      "description": "",
-      "excerpt": "",
-      "locations": [
-        {
-          "id": "recWAiXUOtxO9qHI7",
-          "name": "Martinez, CA",
-          "slug": "martinez-ca"
-        },
-        {
-          "id": "",
-          "name": "Martinez",
-          "slug": "martinez"
-        },
-        {
-          "id": "",
-          "name": "CA",
-          "slug": "ca"
-        }
-      ],
-      "people": [
-        {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
-          "id": "recQtG7CYhL21Bmxw",
-          "name": "Daniel B. Williams",
-          "slug": "daniel-b-williams"
-        }
-      ],
-      "tags": [
-        {
-          "id": "receWYqyZXkYs9n2J",
-          "name": "Non-Canonical Crimes",
-          "slug": "non-canonical-crimes"
-        },
-        {
-          "id": "recGZww4h3NB4LFRY",
-          "name": "The Daniel Williams incident",
-          "slug": "the-daniel-williams-incident"
-        }
-      ],
-      "images": [],
-      "sources": [],
-      "mapUrl": "",
-      "hasMedia": false,
-      "searchText": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\" Possible Zodiac Crime Martinez, CA Martinez CA Zodiac Daniel B. Williams Non-Canonical Crimes The Daniel Williams incident"
     },
     {
       "id": "recv0eSofvT2sLgp6",
@@ -17923,11 +17918,6 @@
       ],
       "people": [
         {
-          "id": "recGZwp9mtC6qB9Hd",
-          "name": "Zodiac",
-          "slug": "zodiac"
-        },
-        {
           "id": "rec5NLNj8q2bpKjm8",
           "name": "San Francisco Chronicle",
           "slug": "san-francisco-chronicle"
@@ -18041,7 +18031,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Media Event San Francisco Zodiac San Francisco Chronicle Paul Avery Zodiac Letters"
+      "searchText": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Media Event San Francisco San Francisco Chronicle Paul Avery Zodiac Letters"
     },
     {
       "id": "recuNImVktLs4oKzk",
@@ -24258,7 +24248,13 @@
           "slug": "san-diego-county"
         }
       ],
-      "people": [],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
       "tags": [],
       "images": [
         {
@@ -24272,7 +24268,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill is advertising services as a retired architect Suspect Event Vista, CA San Diego County, CA Vista CA San Diego County"
+      "searchText": "Marvin Merrill is advertising services as a retired architect Suspect Event Vista, CA San Diego County, CA Vista CA San Diego County Marvin Merrill"
     },
     {
       "id": "rec5SntU205sl4Qgb",
@@ -24747,6 +24743,51 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Gaikowski's \"Festival of Bards\" short film about beat poets Suspect Event San Francisco Richard Gaikowski Richard Gaikowski"
+    },
+    {
+      "id": "recNx4oUXQjksYjJc",
+      "slug": "marvin-merrill-as-skip-merrill-possibly-living-in-san-jose",
+      "kind": "event",
+      "title": "Marvin Merrill (as Skip Merrill) possibly living in San Jose",
+      "date": "1979-01-01",
+      "dateLabel": "Mon, Jan 1, 1979",
+      "year": 1979,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1979-01-01-9999-00458",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "reclf44XCEHjVBWFJ",
+          "name": "San Jose, CA",
+          "slug": "san-jose-ca"
+        },
+        {
+          "id": "",
+          "name": "San Jose",
+          "slug": "san-jose"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Marvin Merrill (as Skip Merrill) possibly living in San Jose Suspect Event San Jose, CA San Jose CA Marvin Merrill"
     },
     {
       "id": "rectHY4t0Vh2zDty9",
@@ -28767,7 +28808,7 @@
       },
       {
         "value": "1979",
-        "count": 2
+        "count": 3
       },
       {
         "value": "1978",
@@ -28977,7 +29018,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 114
+        "count": 115
       },
       {
         "value": "Uncategorized",
@@ -29123,7 +29164,7 @@
       },
       {
         "value": "CA",
-        "count": 163
+        "count": 164
       },
       {
         "value": "CA)",
@@ -29819,11 +29860,11 @@
       },
       {
         "value": "San Jose",
-        "count": 5
+        "count": 6
       },
       {
         "value": "San Jose, CA",
-        "count": 5
+        "count": 6
       },
       {
         "value": "San Marino",
@@ -30633,7 +30674,7 @@
       },
       {
         "value": "Marvin Merrill",
-        "count": 29
+        "count": 31
       },
       {
         "value": "Matthew Burrell",
@@ -31069,7 +31110,7 @@
       },
       {
         "value": "Zodiac",
-        "count": 43
+        "count": 41
       }
     ],
     "tags": [

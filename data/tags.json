@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T13:55:28.960774+00:00",
+  "generatedAt": "2026-05-09T19:36:08.256678+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -812,7 +812,7 @@
           "slug": "z340-cipher-solved-announced"
         },
         {
-          "id": "recATdf0n9etcTyEl",
+          "id": "",
           "name": "The Stine Letter w/ Shirt Piece",
           "slug": "the-stine-letter-w-shirt-piece"
         },
@@ -830,6 +830,11 @@
           "id": "",
           "name": "The My name is” / Z13 Letter, The Dragon Card, The Button Letter, Z32, & Mt. Diablo Map, The Johns Letter, The Little List Letter, 13-Hole Punch Postcard is mailed, The Halloween Card, The Los Angeles Times Letter, The Sierra Club Postcard, The Exorcist Letter, The SLA Letter, The Badlands Letter is mailed, The Red Phantom Letter is mailed, The Confession Letters sent to Riverside Police, Bates Had to Die Letters, The 1978 “I am back with you” Letter, 1978 Channel Nine Letter, The Albany Letter, The Eureka Christmas Card, Sherwood Morrill: ALA's handwriting doesn't match Zodiac, The Celebrity Cypher Postcard, The Concerned Citizen Card, The Exorcist Letter is published in the SF Chronicle, The Belli Letter is published, Stine Letter is published, Zodiac linked, Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders, A Challenge for the Zodiac letter sent to Paul Avery, Happy New Year card of 2001",
           "slug": "the-my-name-is-z13-letter-the-dragon-card-the-button-letter-z32-mt-diablo-map-the-johns-letter-the-little-list-letter-13-hole-punch-postcard-is-mailed-the-halloween-card-the-los-angeles-times-letter-the-sierra-club-postcard-the-exorcist-letter-the-sla-letter-the-badlands-letter-is-mailed-the-red-phantom-letter-is-mailed-the-confession-letters-sent-to-riverside-police-bates-had-to-die-letters-the-1978-i-am-back-with-you-letter-1978-channel-nine-letter-the-albany-letter-the-eureka-christmas-card-sherwood-morrill-ala-s-handwriting-doesn-t-match-zodiac-the-celebrity-cypher-postcard-the-concerned-citizen-card-the-exorcist-letter-is-published-in-the-sf-chronicle-the-belli-letter-is-published-stine-letter-is-published-zodiac-linked-dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders-a-challenge-for-the-zodiac-letter-sent-to-paul-avery-happy-new-year-card-of-2001"
+        },
+        {
+          "id": "recATdf0n9etcTyEl",
+          "name": "The Stine Letter is sent",
+          "slug": "the-stine-letter-is-sent"
         },
         {
           "id": "recUbqdTlUUzuMoZC",
@@ -1038,7 +1043,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 39,
+      "relatedEventCount": 40,
       "searchText": "Zodiac Letters"
     },
     {
@@ -1506,7 +1511,7 @@
           "slug": "paul-stine-cremation"
         },
         {
-          "id": "recATdf0n9etcTyEl",
+          "id": "",
           "name": "The Stine Letter w/ Shirt Piece",
           "slug": "the-stine-letter-w-shirt-piece"
         },
@@ -1616,6 +1621,11 @@
           "slug": "paul-stine-bumps-sleeping-soldier"
         },
         {
+          "id": "recATdf0n9etcTyEl",
+          "name": "The Stine Letter is sent",
+          "slug": "the-stine-letter-is-sent"
+        },
+        {
           "id": "reciUigM6gBvGSlbn",
           "name": "Suspicious \"Aroused\" letter to Modesto Bee re: Joe Stine",
           "slug": "suspicious-aroused-letter-to-modesto-bee-re-joe-stine"
@@ -1667,7 +1677,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 35,
+      "relatedEventCount": 36,
       "searchText": "Paul Stine's Taxi Murder Evidence: Crime Scene On October 11, 1969, cab driver Paul Stine was shot and killed in San Francisco. The Zodiac claimed responsibility, and the case is notable for the killer's interaction with police and the subsequent letter containing a piece of Stine's shirt."
     },
     {

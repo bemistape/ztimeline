@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-09T13:55:28.960774+00:00",
+  "generatedAt": "2026-05-09T19:36:08.256678+00:00",
   "stats": {
-    "events": 458,
+    "events": 459,
     "people": 332,
     "locations": 345,
     "tags": 43,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 114
+      "count": 115
     },
     {
       "value": "Case Event",
@@ -72,7 +72,7 @@
       "title": "Zodiac",
       "subtitle": "Zodiac,Key Figure,Suspect,Unidentified",
       "excerpt": "The killer. (And anyone who purports to be the killer.)",
-      "relatedEventCount": 43,
+      "relatedEventCount": 41,
       "primaryImage": {
         "originalUrl": "data/media/attD0P2TkTV1TT5jO_image.png",
         "thumbUrl": "data/media/derived/thumb/attD0P2TkTV1TT5jO_image.png",
@@ -89,7 +89,7 @@
       "title": "Marvin Merrill",
       "subtitle": "Suspect,Military,Deceased",
       "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 29,
+      "relatedEventCount": 31,
       "primaryImage": {
         "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
         "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
@@ -274,7 +274,7 @@
       "title": "Zodiac Letters",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 39,
+      "relatedEventCount": 40,
       "primaryImage": {
         "originalUrl": "data/media/atthrJGrInKipJE3p_image.png",
         "thumbUrl": "data/media/derived/thumb/atthrJGrInKipJE3p_image.png",
@@ -291,7 +291,7 @@
       "title": "Paul Stine's Taxi Murder",
       "subtitle": "Evidence: Crime Scene",
       "excerpt": "On October 11, 1969, cab driver Paul Stine was shot and killed in San Francisco. The Zodiac claimed responsibility, and the case is notable for the killer's interaction with police and the subsequent letter containing a…",
-      "relatedEventCount": 35,
+      "relatedEventCount": 36,
       "primaryImage": {
         "originalUrl": "data/media/attR8KiwYtTpE8oLL_image.png",
         "thumbUrl": "data/media/derived/thumb/attR8KiwYtTpE8oLL_image.png",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 09, 2026, 01:55 PM UTC",
+    "label": "May 09, 2026, 07:36 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "458 dated events spanning 1925 to 2025."
+      "description": "459 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

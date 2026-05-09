@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T13:55:28.960774+00:00",
+  "generatedAt": "2026-05-09T19:36:08.256678+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -59,8 +59,8 @@
         },
         {
           "id": "recATdf0n9etcTyEl",
-          "name": "The Stine Letter w/ Shirt Piece",
-          "slug": "the-stine-letter-w-shirt-piece"
+          "name": "The Stine Letter is sent",
+          "slug": "the-stine-letter-is-sent"
         },
         {
           "id": "recN6S562eBCWkheW",
@@ -228,11 +228,6 @@
           "slug": "the-concerned-citizen-card"
         },
         {
-          "id": "reczWfmvvVX3Hr9oM",
-          "name": "Stine Letter is published, Zodiac linked",
-          "slug": "stine-letter-is-published-zodiac-linked"
-        },
-        {
           "id": "recv0eSofvT2sLgp6",
           "name": "Daniel Williams arsenic incident",
           "slug": "daniel-williams-arsenic-incident"
@@ -241,11 +236,6 @@
           "id": "recFFSKEFx7Q5CKxl",
           "name": "Daniel Williams begins receiving threatening phone calls from \"Zodiac\"",
           "slug": "daniel-williams-begins-receiving-threatening-phone-calls-from-zodiac"
-        },
-        {
-          "id": "recpRXga559CrkZK3",
-          "name": "Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders",
-          "slug": "dripping-pen-z340-bus-bomb-letter-published-linked-to-san-jose-murders"
         },
         {
           "id": "rec4kqiUdO856Aagg",
@@ -473,7 +463,7 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Zodiac&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 43,
+      "relatedEventCount": 41,
       "searchText": "Zodiac Zodiac The killer. (And anyone who purports to be the killer.) Springs & Tuolumne Pay Phone Lake Berryessa Pay Phone at Main and Clinton Streets Pleasanton, CA San Francisco The Presidio Site of Paul Stine's Murder California Lake Herman Road Zodiac Site Solano County, CA Napa County, CA Vallejo, CA Blue Rock Springs Park SF Bay Area Napa, CA United States of America Lake Herman Road Alameda County, CA Benicia, CA Site of Lake Berryessa Zodiac Encounter San Francisco Chronicle offices Riverside, CA Mt. Diablo Oakland, CA Marin County, CA Modesto, CA Hwy 132 Patterson, CA Eureka, CA Sacramento, CA Atlanta, GA Martinez, CA Mason & Geary (Union Square)"
     },
     {
@@ -785,6 +775,16 @@
           "id": "recpRHdOWqbe8Rpbc",
           "name": "Marvin Merrill's home in Vista is being sold",
           "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
+        },
+        {
+          "id": "recNx4oUXQjksYjJc",
+          "name": "Marvin Merrill (as Skip Merrill) possibly living in San Jose",
+          "slug": "marvin-merrill-as-skip-merrill-possibly-living-in-san-jose"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
         }
       ],
       "relatedLocations": [
@@ -917,6 +917,11 @@
           "id": "recWZBzvg1ndmy27m",
           "name": "Atascadero, CA",
           "slug": "atascadero-ca"
+        },
+        {
+          "id": "reclf44XCEHjVBWFJ",
+          "name": "San Jose, CA",
+          "slug": "san-jose-ca"
         }
       ],
       "relatedPeople": [
@@ -953,8 +958,8 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 29,
-      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Atascadero, CA"
+      "relatedEventCount": 31,
+      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Atascadero, CA San Jose, CA"
     },
     {
       "id": "rec5NLNj8q2bpKjm8",
@@ -1694,8 +1699,8 @@
         },
         {
           "id": "recATdf0n9etcTyEl",
-          "name": "The Stine Letter w/ Shirt Piece",
-          "slug": "the-stine-letter-w-shirt-piece"
+          "name": "The Stine Letter is sent",
+          "slug": "the-stine-letter-is-sent"
         },
         {
           "id": "recy8o4AXk9zvM8sK",

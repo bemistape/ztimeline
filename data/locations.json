@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T13:55:28.960774+00:00",
+  "generatedAt": "2026-05-09T19:36:08.256678+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -84,8 +84,8 @@
         },
         {
           "id": "recATdf0n9etcTyEl",
-          "name": "The Stine Letter w/ Shirt Piece",
-          "slug": "the-stine-letter-w-shirt-piece"
+          "name": "The Stine Letter is sent",
+          "slug": "the-stine-letter-is-sent"
         },
         {
           "id": "recPM1JmeFCtQn0pJ",
@@ -4556,6 +4556,95 @@
       "searchText": "Sacramento, CA City Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
     },
     {
+      "id": "reclf44XCEHjVBWFJ",
+      "slug": "san-jose-ca",
+      "kind": "location",
+      "title": "San Jose, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Santa Clara County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recwcxNeKvutZunIR",
+          "name": "Ralph Spinelli claims he knows who Zodiac was",
+          "slug": "ralph-spinelli-claims-he-knows-who-zodiac-was"
+        },
+        {
+          "id": "recNV3OvwkJSY83yz",
+          "name": "Informants against Karl Werner receive reward money in Snoozy / Furlong case",
+          "slug": "informants-against-karl-werner-receive-reward-money-in-snoozy-furlong-case"
+        },
+        {
+          "id": "recYfhOakaNNPgmBe",
+          "name": "Snoozy / Furlong murders are publicized",
+          "slug": "snoozy-furlong-murders-are-publicized"
+        },
+        {
+          "id": "recd3jmev1n3xECmn",
+          "name": "Continued search for Snoozy / Furlong killer",
+          "slug": "continued-search-for-snoozy-furlong-killer"
+        },
+        {
+          "id": "reci14eBrDklIwDrA",
+          "name": "Coroner speaks about Snoozy / Furlong killings",
+          "slug": "coroner-speaks-about-snoozy-furlong-killings"
+        },
+        {
+          "id": "recNx4oUXQjksYjJc",
+          "name": "Marvin Merrill (as Skip Merrill) possibly living in San Jose",
+          "slug": "marvin-merrill-as-skip-merrill-possibly-living-in-san-jose"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recQdEdKh7CEP2mPw",
+          "name": "Santa Clara County Jail",
+          "slug": "santa-clara-county-jail"
+        },
+        {
+          "id": "recGlyXZAN3QLJcwp",
+          "name": "Almaden Valley (San Jose)",
+          "slug": "almaden-valley-san-jose"
+        },
+        {
+          "id": "",
+          "name": "Santa Clara County JailAlmaden Valley (San Jose)",
+          "slug": "santa-clara-county-jailalmaden-valley-san-jose"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recXhJcraRKigyqAc",
+          "name": "Kathie Reyne Snoozy",
+          "slug": "kathie-reyne-snoozy"
+        },
+        {
+          "id": "recBvr7GCaKfh1JL0",
+          "name": "Debra Gaye Furlong",
+          "slug": "debra-gaye-furlong"
+        },
+        {
+          "id": "rec2Gku7IlpjwiSvG",
+          "name": "Archie E. White",
+          "slug": "archie-e-white"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 6,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "San Jose, CA City Kathie Reyne Snoozy Debra Gaye Furlong Archie E. White"
+    },
+    {
       "id": "reccno8wWTHdS0Go6",
       "slug": "site-of-lake-berryessa-zodiac-encounter",
       "kind": "location",
@@ -5239,90 +5328,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
-    },
-    {
-      "id": "reclf44XCEHjVBWFJ",
-      "slug": "san-jose-ca",
-      "kind": "location",
-      "title": "San Jose, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Santa Clara County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recwcxNeKvutZunIR",
-          "name": "Ralph Spinelli claims he knows who Zodiac was",
-          "slug": "ralph-spinelli-claims-he-knows-who-zodiac-was"
-        },
-        {
-          "id": "recNV3OvwkJSY83yz",
-          "name": "Informants against Karl Werner receive reward money in Snoozy / Furlong case",
-          "slug": "informants-against-karl-werner-receive-reward-money-in-snoozy-furlong-case"
-        },
-        {
-          "id": "recYfhOakaNNPgmBe",
-          "name": "Snoozy / Furlong murders are publicized",
-          "slug": "snoozy-furlong-murders-are-publicized"
-        },
-        {
-          "id": "recd3jmev1n3xECmn",
-          "name": "Continued search for Snoozy / Furlong killer",
-          "slug": "continued-search-for-snoozy-furlong-killer"
-        },
-        {
-          "id": "reci14eBrDklIwDrA",
-          "name": "Coroner speaks about Snoozy / Furlong killings",
-          "slug": "coroner-speaks-about-snoozy-furlong-killings"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recQdEdKh7CEP2mPw",
-          "name": "Santa Clara County Jail",
-          "slug": "santa-clara-county-jail"
-        },
-        {
-          "id": "recGlyXZAN3QLJcwp",
-          "name": "Almaden Valley (San Jose)",
-          "slug": "almaden-valley-san-jose"
-        },
-        {
-          "id": "",
-          "name": "Santa Clara County JailAlmaden Valley (San Jose)",
-          "slug": "santa-clara-county-jailalmaden-valley-san-jose"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recXhJcraRKigyqAc",
-          "name": "Kathie Reyne Snoozy",
-          "slug": "kathie-reyne-snoozy"
-        },
-        {
-          "id": "recBvr7GCaKfh1JL0",
-          "name": "Debra Gaye Furlong",
-          "slug": "debra-gaye-furlong"
-        },
-        {
-          "id": "rec2Gku7IlpjwiSvG",
-          "name": "Archie E. White",
-          "slug": "archie-e-white"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 5,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "San Jose, CA City Kathie Reyne Snoozy Debra Gaye Furlong Archie E. White"
     },
     {
       "id": "rec9AtxZsFD0xu5PL",
