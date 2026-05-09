@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-09T03:59:00.778733+00:00",
+  "generatedAt": "2026-05-09T08:13:19.087311+00:00",
   "stats": {
-    "events": 455,
+    "events": 458,
     "people": 332,
     "locations": 345,
     "tags": 43,
-    "images": 1652,
+    "images": 1655,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 111
+      "count": 114
     },
     {
       "value": "Case Event",
@@ -89,7 +89,7 @@
       "title": "Marvin Merrill",
       "subtitle": "Suspect,Military,Deceased",
       "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 27,
+      "relatedEventCount": 29,
       "primaryImage": {
         "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
         "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
@@ -479,7 +479,7 @@
     }
   ],
   "freshness": {
-    "label": "May 09, 2026, 03:59 AM UTC",
+    "label": "May 09, 2026, 08:13 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +490,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "455 dated events spanning 1925 to 2025."
+      "description": "458 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

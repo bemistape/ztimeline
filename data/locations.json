@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-09T03:59:00.778733+00:00",
+  "generatedAt": "2026-05-09T08:13:19.087311+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -3646,6 +3646,84 @@
       "searchText": "Fairfield, CA City Paul Alfred Doerr, Jr. Jim Phillips Crabtree The Daily Republic Solano (Community) College Fairfield Police Department"
     },
     {
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "kind": "location",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Diego County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recj0L0bOP7SfRcaH",
+          "name": "Marvin Merrill's daughter has bat mitzvah",
+          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recBaof7Bg5qbQCYl",
+          "name": "Marvin Merrill quoted in article about Vista school board zoning",
+          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
+        },
+        {
+          "id": "recxk09B0xp90KPp0",
+          "name": "Merrill referenced in search for family dog in Vista, CA",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
+        },
+        {
+          "id": "recpRHdOWqbe8Rpbc",
+          "name": "Marvin Merrill's home in Vista is being sold",
+          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 9,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Vista, CA City Marvin Merrill"
+    },
+    {
       "id": "recWAiXUOtxO9qHI7",
       "slug": "martinez-ca",
       "kind": "location",
@@ -4133,74 +4211,6 @@
       "searchText": "Lake Herman Road Zodiac Site Site Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
     },
     {
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "kind": "location",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Diego County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recj0L0bOP7SfRcaH",
-          "name": "Marvin Merrill's daughter has bat mitzvah",
-          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
-        },
-        {
-          "id": "recsGm4yN1bVwmMNr",
-          "name": "Merrill advertises for business partner in Vista Press",
-          "slug": "merrill-advertises-for-business-partner-in-vista-press"
-        },
-        {
-          "id": "recBaof7Bg5qbQCYl",
-          "name": "Marvin Merrill quoted in article about Vista school board zoning",
-          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
-        },
-        {
-          "id": "recxk09B0xp90KPp0",
-          "name": "Merrill referenced in search for family dog in Vista, CA",
-          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 7,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Vista, CA City Marvin Merrill"
-    },
-    {
       "id": "recb0X8kEnkBnJw0f",
       "slug": "oceanside-ca",
       "kind": "location",
@@ -4246,6 +4256,11 @@
           "id": "recdWDlUyGaTqu29y",
           "name": "Merrill still owns land in San Diego County in 1977",
           "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recc9zfA8j55eRHaH",
+          "name": "Merrill's engine shop is being sold",
+          "slug": "merrill-s-engine-shop-is-being-sold"
         }
       ],
       "relatedLocations": [],
@@ -4269,7 +4284,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 6,
+      "relatedEventCount": 7,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Oceanside, CA City Marvin Merrill Raymond Davis"
@@ -5096,6 +5111,136 @@
       "searchText": "Queen of the Valley Hospital (Napa, CA) Hospital Bryan Calvin Hartnell Cecelia Ann Shepard Peter Gasser"
     },
     {
+      "id": "recW384s2m6sCR5Yz",
+      "slug": "san-diego-county-ca",
+      "kind": "location",
+      "title": "San Diego County, CA",
+      "subtitle": "County",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "California"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recuodXC00lNolxWt",
+          "name": "Donna Merrill files for divorce from Marvin Merrill",
+          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
+        },
+        {
+          "id": "recqd0UxXer0YT3Fs",
+          "name": "Marvin Merrill declares homestead in San Diego County",
+          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
+        },
+        {
+          "id": "recat0ikBRBor98HZ",
+          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
+          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
+        },
+        {
+          "id": "recSO0r5G4dBjGcVr",
+          "name": "Marvin Merrill is sued in small claims court",
+          "slug": "marvin-merrill-is-sued-in-small-claims-court"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "recHmZ39rWbWR7XAy",
+          "name": "Carlsbad, CA",
+          "slug": "carlsbad-ca"
+        },
+        {
+          "id": "",
+          "name": "Oceanside",
+          "slug": "oceanside"
+        },
+        {
+          "id": "",
+          "name": "CASan Diego",
+          "slug": "casan-diego"
+        },
+        {
+          "id": "",
+          "name": "CAVista",
+          "slug": "cavista"
+        },
+        {
+          "id": "",
+          "name": "CACarlsbad",
+          "slug": "cacarlsbad"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        },
+        {
+          "id": "",
+          "name": "San Diego",
+          "slug": "san-diego"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "Carlsbad",
+          "slug": "carlsbad"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        },
+        {
+          "id": "rec3AUDM0qROLgURJ",
+          "name": "Raymond Davis",
+          "slug": "raymond-davis"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recVg2H8YXjWXz7GQ",
+          "name": "The Murder of Ray Davis",
+          "slug": "the-murder-of-ray-davis"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 5,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
+    },
+    {
       "id": "reclf44XCEHjVBWFJ",
       "slug": "san-jose-ca",
       "kind": "location",
@@ -5726,131 +5871,6 @@
       "mapOpenUrl": "https://maps.app.goo.gl/DrJyoa3h1CMhzLaE9",
       "mapEmbedUrl": "",
       "searchText": "Riverside City College Library Site Cleophus Martin Riverside City College Library"
-    },
-    {
-      "id": "recW384s2m6sCR5Yz",
-      "slug": "san-diego-county-ca",
-      "kind": "location",
-      "title": "San Diego County, CA",
-      "subtitle": "County",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "California"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recuodXC00lNolxWt",
-          "name": "Donna Merrill files for divorce from Marvin Merrill",
-          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
-        },
-        {
-          "id": "recqd0UxXer0YT3Fs",
-          "name": "Marvin Merrill declares homestead in San Diego County",
-          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
-        },
-        {
-          "id": "recat0ikBRBor98HZ",
-          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
-          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
-        },
-        {
-          "id": "recSO0r5G4dBjGcVr",
-          "name": "Marvin Merrill is sued in small claims court",
-          "slug": "marvin-merrill-is-sued-in-small-claims-court"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recb0X8kEnkBnJw0f",
-          "name": "Oceanside, CA",
-          "slug": "oceanside-ca"
-        },
-        {
-          "id": "recmc2ZGx4Zoy8cz8",
-          "name": "San Diego, CA",
-          "slug": "san-diego-ca"
-        },
-        {
-          "id": "recS1hWCS7jNh8Gsb",
-          "name": "Vista, CA",
-          "slug": "vista-ca"
-        },
-        {
-          "id": "recHmZ39rWbWR7XAy",
-          "name": "Carlsbad, CA",
-          "slug": "carlsbad-ca"
-        },
-        {
-          "id": "",
-          "name": "Oceanside",
-          "slug": "oceanside"
-        },
-        {
-          "id": "",
-          "name": "CASan Diego",
-          "slug": "casan-diego"
-        },
-        {
-          "id": "",
-          "name": "CAVista",
-          "slug": "cavista"
-        },
-        {
-          "id": "",
-          "name": "CACarlsbad",
-          "slug": "cacarlsbad"
-        },
-        {
-          "id": "",
-          "name": "CA",
-          "slug": "ca"
-        },
-        {
-          "id": "",
-          "name": "San Diego",
-          "slug": "san-diego"
-        },
-        {
-          "id": "",
-          "name": "Vista",
-          "slug": "vista"
-        },
-        {
-          "id": "",
-          "name": "Carlsbad",
-          "slug": "carlsbad"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        },
-        {
-          "id": "rec3AUDM0qROLgURJ",
-          "name": "Raymond Davis",
-          "slug": "raymond-davis"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recVg2H8YXjWXz7GQ",
-          "name": "The Murder of Ray Davis",
-          "slug": "the-murder-of-ray-davis"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 4,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
     },
     {
       "id": "recmc2ZGx4Zoy8cz8",
