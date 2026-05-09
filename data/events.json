@@ -2270,6 +2270,13 @@
       ],
       "images": [
         {
+          "originalUrl": "data/media/atteD4s5WhTAbHu4j_Donna_and_Skip_Merrill_marriage_certificate.jpg",
+          "thumbUrl": "data/media/derived/thumb/atteD4s5WhTAbHu4j_Donna_and_Skip_Merrill_marriage_certificate.jpg",
+          "mediumUrl": "data/media/derived/medium/atteD4s5WhTAbHu4j_Donna_and_Skip_Merrill_marriage_certificate.jpg",
+          "derivativeState": "derived",
+          "label": "Donna_and_Skip_Merrill_marriage_certificate.jpg"
+        },
+        {
           "originalUrl": "data/media/attlS0ivrdtWjLWdw_Merrill_marriage.jpg",
           "thumbUrl": "data/media/derived/thumb/attlS0ivrdtWjLWdw_Merrill_marriage.jpg",
           "mediumUrl": "data/media/derived/medium/attlS0ivrdtWjLWdw_Merrill_marriage.jpg",
@@ -2277,7 +2284,12 @@
           "label": "Merrill_marriage.jpg"
         }
       ],
-      "sources": [],
+      "sources": [
+        {
+          "label": "Ancestry",
+          "url": "https://www.ancestry.com/sharing/60701578?mark=7b22746f6b656e223a22485a44556f3249786b78434741413176586161672f394b70645a47765579356e473055456c475474716d593d222c22746f6b656e5f76657273696f6e223a225632227d"
+        }
+      ],
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Marvin Margolis gets marriage license as M. Skipton Merrill Suspect Event Wichita, KS Wichita KS Marvin Merrill Marvin Margolis"
@@ -3364,6 +3376,74 @@
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
       "hasMedia": false,
       "searchText": "William McDuff Andrew participates in Masonic Temple event for Mother's Day Suspect Event Vallejo, CA Vallejo CA William McDuff Andrew"
+    },
+    {
+      "id": "rec1ajtzGcjktpatB",
+      "slug": "marvin-merrill-writes-letter-to-the-editor",
+      "kind": "event",
+      "title": "Marvin Merrill writes letter to the editor",
+      "date": "1964-09-09",
+      "dateLabel": "Wed, Sep 9, 1964",
+      "year": 1964,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1964-09-09-9999-00453",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "recHmZ39rWbWR7XAy",
+          "name": "Carlsbad, CA",
+          "slug": "carlsbad-ca"
+        },
+        {
+          "id": "",
+          "name": "San Diego",
+          "slug": "san-diego"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        },
+        {
+          "id": "",
+          "name": "Carlsbad",
+          "slug": "carlsbad"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attvMlj7iDkxBy5ZN_image.png",
+          "thumbUrl": "data/media/derived/thumb/attvMlj7iDkxBy5ZN_image.png",
+          "mediumUrl": "data/media/derived/medium/attvMlj7iDkxBy5ZN_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Killer in the Code, episode 3 page",
+          "url": "https://killerinthecode.com/chapter-3"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin Merrill writes letter to the editor Suspect Event San Diego, CA Carlsbad, CA San Diego CA Carlsbad Marvin Merrill"
     },
     {
       "id": "receULtlwlZA5dhhK",
@@ -25565,6 +25645,64 @@
       "searchText": "Joan Webster's wallet found in Saugus, MA Via [justiceforjoanwebster.com](https://www.justiceforjoanwebster.com/contents-of-purse.php)\n> On December 2, 1981, Anthony Belmonte discovered Joan Webster's wallet.\n> \n> The location was in a marsh area on the southbound side of Route 107 in Saugus, MA.\n> \n> Based on the location of the items, authorities speculated the item was tossed from a vehicle headed south toward Logan Airport. Case Event Saugus, MA Saugus MA Joan Webster"
     },
     {
+      "id": "rechqk9QUDG3VQ0Nw",
+      "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero",
+      "kind": "event",
+      "title": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+      "date": "1981-12-10",
+      "dateLabel": "Thu, Dec 10, 1981",
+      "year": 1981,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1981-12-10-9999-00454",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recWZBzvg1ndmy27m",
+          "name": "Atascadero, CA",
+          "slug": "atascadero-ca"
+        },
+        {
+          "id": "",
+          "name": "Atascadero",
+          "slug": "atascadero"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attFCk8YzBF64rtOo_Marvin_and_Donna_Merrill_assets_sold.jpg",
+          "thumbUrl": "data/media/derived/thumb/attFCk8YzBF64rtOo_Marvin_and_Donna_Merrill_assets_sold.jpg",
+          "mediumUrl": "data/media/derived/medium/attFCk8YzBF64rtOo_Marvin_and_Donna_Merrill_assets_sold.jpg",
+          "derivativeState": "derived",
+          "label": "Marvin_and_Donna_Merrill_assets_sold.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero Suspect Event Atascadero, CA Atascadero CA Marvin Merrill Donna Faye McEachern Merrill"
+    },
+    {
       "id": "recE5E7zyNhLgfnBV",
       "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station",
       "kind": "event",
@@ -28453,7 +28591,7 @@
       },
       {
         "value": "1981",
-        "count": 14
+        "count": 15
       },
       {
         "value": "1980",
@@ -28521,7 +28659,7 @@
       },
       {
         "value": "1964",
-        "count": 3
+        "count": 4
       },
       {
         "value": "1963",
@@ -28671,7 +28809,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 109
+        "count": 111
       },
       {
         "value": "Uncategorized",
@@ -28744,6 +28882,14 @@
         "count": 1
       },
       {
+        "value": "Atascadero",
+        "count": 1
+      },
+      {
+        "value": "Atascadero, CA",
+        "count": 1
+      },
+      {
         "value": "Atlanta",
         "count": 4
       },
@@ -28809,11 +28955,19 @@
       },
       {
         "value": "CA",
-        "count": 158
+        "count": 160
       },
       {
         "value": "CA)",
         "count": 8
+      },
+      {
+        "value": "Carlsbad",
+        "count": 1
+      },
+      {
+        "value": "Carlsbad, CA",
+        "count": 1
       },
       {
         "value": "Chicago",
@@ -29473,7 +29627,7 @@
       },
       {
         "value": "San Diego",
-        "count": 3
+        "count": 4
       },
       {
         "value": "San Diego County",
@@ -29485,7 +29639,7 @@
       },
       {
         "value": "San Diego, CA",
-        "count": 3
+        "count": 4
       },
       {
         "value": "San Francisco",
@@ -30015,7 +30169,7 @@
       },
       {
         "value": "Donna Faye McEachern Merrill",
-        "count": 3
+        "count": 4
       },
       {
         "value": "Donna Lass",
@@ -30311,7 +30465,7 @@
       },
       {
         "value": "Marvin Merrill",
-        "count": 25
+        "count": 27
       },
       {
         "value": "Matthew Burrell",

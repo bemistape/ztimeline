@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T19:46:52.056855+00:00",
+  "generatedAt": "2026-05-09T03:59:00.778733+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -765,6 +765,16 @@
           "id": "recZ4772B9Dt5m0EN",
           "name": "Marvin Merrill's in-laws visit in Atlanta",
           "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
+        },
+        {
+          "id": "rec1ajtzGcjktpatB",
+          "name": "Marvin Merrill writes letter to the editor",
+          "slug": "marvin-merrill-writes-letter-to-the-editor"
+        },
+        {
+          "id": "rechqk9QUDG3VQ0Nw",
+          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
         }
       ],
       "relatedLocations": [
@@ -892,6 +902,11 @@
           "id": "recn1vGzIWa4yRodT",
           "name": "Medford, OK",
           "slug": "medford-ok"
+        },
+        {
+          "id": "recWZBzvg1ndmy27m",
+          "name": "Atascadero, CA",
+          "slug": "atascadero-ca"
         }
       ],
       "relatedPeople": [
@@ -928,8 +943,8 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 25,
-      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK"
+      "relatedEventCount": 27,
+      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Atascadero, CA"
     },
     {
       "id": "rec5NLNj8q2bpKjm8",
@@ -7958,6 +7973,91 @@
       "searchText": "Deer Lodge Prison Deer Lodge Prison Possibly misheard prison Zodiac claimed to have escaped from. Powell County, MT Montana United States of America Lake Berryessa Site of Lake Berryessa Zodiac Encounter Napa, CA Oakland, CA Deer Lodge, MT Vallejo, CA Queen of the Valley Hospital (Napa, CA)"
     },
     {
+      "id": "recDGLrzZDACdBeH6",
+      "slug": "donna-faye-mceachern-merrill",
+      "kind": "person",
+      "title": "Donna Faye McEachern Merrill",
+      "subtitle": "Tied to Suspect",
+      "summary": "Second wife of Marvin Margolis / Merrill",
+      "excerpt": "Second wife of Marvin Margolis / Merrill",
+      "aliases": [
+        "Donna Faye McEachern Merrill"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "rec1ItC2hUR9ajXWE",
+          "name": "Marvin Merrill's wife sells vehicles",
+          "slug": "marvin-merrill-s-wife-sells-vehicles"
+        },
+        {
+          "id": "rec0OzAVw6RpeMgmr",
+          "name": "Marvin Merrill's wife said to be living in Los Angeles",
+          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
+        },
+        {
+          "id": "recp7VSk50ch4MQEh",
+          "name": "Marvin Merrill's wife Donna remarries",
+          "slug": "marvin-merrill-s-wife-donna-remarries"
+        },
+        {
+          "id": "rechqk9QUDG3VQ0Nw",
+          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        },
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "recWZBzvg1ndmy27m",
+          "name": "Atascadero, CA",
+          "slug": "atascadero-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recnyN76pwtLF9eBJ",
+          "name": "Marvin Margolis",
+          "slug": "marvin-margolis"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 4,
+      "searchText": "Donna Faye McEachern Merrill Donna Faye McEachern Merrill Second wife of Marvin Margolis / Merrill Oceanside, CA Los Angeles San Diego, CA Atascadero, CA"
+    },
+    {
       "id": "recfaGz7ecM0l0K1x",
       "slug": "joe-charles-stine",
       "kind": "person",
@@ -9495,81 +9595,6 @@
       ],
       "relatedEventCount": 3,
       "searchText": "Dick Tracy Dick Tracy Fictional detective. San Francisco"
-    },
-    {
-      "id": "recDGLrzZDACdBeH6",
-      "slug": "donna-faye-mceachern-merrill",
-      "kind": "person",
-      "title": "Donna Faye McEachern Merrill",
-      "subtitle": "Tied to Suspect",
-      "summary": "Second wife of Marvin Margolis / Merrill",
-      "excerpt": "Second wife of Marvin Margolis / Merrill",
-      "aliases": [
-        "Donna Faye McEachern Merrill"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [],
-      "relatedEvents": [
-        {
-          "id": "rec1ItC2hUR9ajXWE",
-          "name": "Marvin Merrill's wife sells vehicles",
-          "slug": "marvin-merrill-s-wife-sells-vehicles"
-        },
-        {
-          "id": "rec0OzAVw6RpeMgmr",
-          "name": "Marvin Merrill's wife said to be living in Los Angeles",
-          "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles"
-        },
-        {
-          "id": "recp7VSk50ch4MQEh",
-          "name": "Marvin Merrill's wife Donna remarries",
-          "slug": "marvin-merrill-s-wife-donna-remarries"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recb0X8kEnkBnJw0f",
-          "name": "Oceanside, CA",
-          "slug": "oceanside-ca"
-        },
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        },
-        {
-          "id": "recmc2ZGx4Zoy8cz8",
-          "name": "San Diego, CA",
-          "slug": "san-diego-ca"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recnyN76pwtLF9eBJ",
-          "name": "Marvin Margolis",
-          "slug": "marvin-margolis"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 3,
-      "searchText": "Donna Faye McEachern Merrill Donna Faye McEachern Merrill Second wife of Marvin Margolis / Merrill Oceanside, CA Los Angeles San Diego, CA"
     },
     {
       "id": "recxAEfk4t1zG79nB",

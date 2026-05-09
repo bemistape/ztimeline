@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T19:46:52.056855+00:00",
+  "generatedAt": "2026-05-09T03:59:00.778733+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -5853,6 +5853,53 @@
       "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
     },
     {
+      "id": "recmc2ZGx4Zoy8cz8",
+      "slug": "san-diego-ca",
+      "kind": "location",
+      "title": "San Diego, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Diego County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recuedkkLZd51Nd8x",
+          "name": "Marvin Merrill is jailed",
+          "slug": "marvin-merrill-is-jailed"
+        },
+        {
+          "id": "recp7VSk50ch4MQEh",
+          "name": "Marvin Merrill's wife Donna remarries",
+          "slug": "marvin-merrill-s-wife-donna-remarries"
+        },
+        {
+          "id": "recbzPsFeZqlFnUpY",
+          "name": "Linda L. Gillinger abducted and released in San Diego",
+          "slug": "linda-l-gillinger-abducted-and-released-in-san-diego"
+        },
+        {
+          "id": "rec1ajtzGcjktpatB",
+          "name": "Marvin Merrill writes letter to the editor",
+          "slug": "marvin-merrill-writes-letter-to-the-editor"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 4,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "San Diego, CA City"
+    },
+    {
       "id": "receuSuhUHn9NBIHz",
       "slug": "sfpd-headquarters",
       "kind": "location",
@@ -6895,48 +6942,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Redlands, CA City Bryan Calvin Hartnell Redlands Daily Facts"
-    },
-    {
-      "id": "recmc2ZGx4Zoy8cz8",
-      "slug": "san-diego-ca",
-      "kind": "location",
-      "title": "San Diego, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Diego County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
-        },
-        {
-          "id": "recp7VSk50ch4MQEh",
-          "name": "Marvin Merrill's wife Donna remarries",
-          "slug": "marvin-merrill-s-wife-donna-remarries"
-        },
-        {
-          "id": "recbzPsFeZqlFnUpY",
-          "name": "Linda L. Gillinger abducted and released in San Diego",
-          "slug": "linda-l-gillinger-abducted-and-released-in-san-diego"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 3,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "San Diego, CA City"
     },
     {
       "id": "recyvZIPrkhBj44Ei",
@@ -9667,6 +9672,49 @@
       "searchText": "Arthur Leigh Allen's trailer Residence Arthur Leigh Allen"
     },
     {
+      "id": "recWZBzvg1ndmy27m",
+      "slug": "atascadero-ca",
+      "kind": "location",
+      "title": "Atascadero, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Luis Obispo County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rechqk9QUDG3VQ0Nw",
+          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recpsTMf4JcuA7T0L",
+          "name": "Atascadero State Hospital",
+          "slug": "atascadero-state-hospital"
+        },
+        {
+          "id": "recIjxpNpt3Vb6fws",
+          "name": "Santa Rosa Elementary School (Atascadero, CA)",
+          "slug": "santa-rosa-elementary-school-atascadero-ca"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Atascadero, CA City Atascadero State Hospital Santa Rosa Elementary School (Atascadero, CA)"
+    },
+    {
       "id": "recYK5ViyNMVvznOH",
       "slug": "bellevue-ne",
       "kind": "location",
@@ -9916,6 +9964,44 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Butte, MT FBI"
+    },
+    {
+      "id": "recHmZ39rWbWR7XAy",
+      "slug": "carlsbad-ca",
+      "kind": "location",
+      "title": "Carlsbad, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Diego County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec1ajtzGcjktpatB",
+          "name": "Marvin Merrill writes letter to the editor",
+          "slug": "marvin-merrill-writes-letter-to-the-editor"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Carlsbad, CA City Marvin Merrill"
     },
     {
       "id": "recjznYbNAjBw59v1",
@@ -14128,43 +14214,6 @@
       "searchText": "Arizona Archie E. White Donald C. B. Marsh"
     },
     {
-      "id": "recWZBzvg1ndmy27m",
-      "slug": "atascadero-ca",
-      "kind": "location",
-      "title": "Atascadero, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Luis Obispo County, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recpsTMf4JcuA7T0L",
-          "name": "Atascadero State Hospital",
-          "slug": "atascadero-state-hospital"
-        },
-        {
-          "id": "recIjxpNpt3Vb6fws",
-          "name": "Santa Rosa Elementary School (Atascadero, CA)",
-          "slug": "santa-rosa-elementary-school-atascadero-ca"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Atascadero, CA City Atascadero State Hospital Santa Rosa Elementary School (Atascadero, CA)"
-    },
-    {
       "id": "recZEKrkV4LLyV1CU",
       "slug": "bakersfield-ca",
       "kind": "location",
@@ -16510,38 +16559,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Cambridge, MA City MIT"
-    },
-    {
-      "id": "recHmZ39rWbWR7XAy",
-      "slug": "carlsbad-ca",
-      "kind": "location",
-      "title": "Carlsbad, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Diego County, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Carlsbad, CA City Marvin Merrill"
     },
     {
       "id": "recixuatPsH8bqa9N",
