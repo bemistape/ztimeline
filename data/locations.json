@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T19:35:56.198041+00:00",
+  "generatedAt": "2026-05-11T04:39:01.879236+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -4244,8 +4244,8 @@
         },
         {
           "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
         },
         {
           "id": "rec1ItC2hUR9ajXWE",
@@ -4288,6 +4288,146 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Oceanside, CA City Marvin Merrill Raymond Davis"
+    },
+    {
+      "id": "recW384s2m6sCR5Yz",
+      "slug": "san-diego-county-ca",
+      "kind": "location",
+      "title": "San Diego County, CA",
+      "subtitle": "County",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "California"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recuodXC00lNolxWt",
+          "name": "Donna Merrill files for divorce from Marvin Merrill",
+          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
+        },
+        {
+          "id": "recqd0UxXer0YT3Fs",
+          "name": "Marvin Merrill declares homestead in San Diego County",
+          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
+        },
+        {
+          "id": "recat0ikBRBor98HZ",
+          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
+          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
+        },
+        {
+          "id": "recSO0r5G4dBjGcVr",
+          "name": "Marvin Merrill is sued in small claims court",
+          "slug": "marvin-merrill-is-sued-in-small-claims-court"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        },
+        {
+          "id": "rec8PpVKQ9uouFf1R",
+          "name": "Marvin Merrill (as Mendell) Bonded Engine settlement with David T. Keith",
+          "slug": "marvin-merrill-as-mendell-bonded-engine-settlement-with-david-t-keith"
+        },
+        {
+          "id": "recggvAiwTw1JfRVe",
+          "name": "Marvin Merrill's Project Development Corporation property is released",
+          "slug": "marvin-merrill-s-project-development-corporation-property-is-released"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "recHmZ39rWbWR7XAy",
+          "name": "Carlsbad, CA",
+          "slug": "carlsbad-ca"
+        },
+        {
+          "id": "",
+          "name": "Oceanside",
+          "slug": "oceanside"
+        },
+        {
+          "id": "",
+          "name": "CASan Diego",
+          "slug": "casan-diego"
+        },
+        {
+          "id": "",
+          "name": "CAVista",
+          "slug": "cavista"
+        },
+        {
+          "id": "",
+          "name": "CACarlsbad",
+          "slug": "cacarlsbad"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        },
+        {
+          "id": "",
+          "name": "San Diego",
+          "slug": "san-diego"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "Carlsbad",
+          "slug": "carlsbad"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        },
+        {
+          "id": "rec3AUDM0qROLgURJ",
+          "name": "Raymond Davis",
+          "slug": "raymond-davis"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recVg2H8YXjWXz7GQ",
+          "name": "The Murder of Ray Davis",
+          "slug": "the-murder-of-ray-davis"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 7,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
     },
     {
       "id": "recT2ynH7gNXP8Siv",
@@ -5200,136 +5340,6 @@
       "searchText": "Queen of the Valley Hospital (Napa, CA) Hospital Bryan Calvin Hartnell Cecelia Ann Shepard Peter Gasser"
     },
     {
-      "id": "recW384s2m6sCR5Yz",
-      "slug": "san-diego-county-ca",
-      "kind": "location",
-      "title": "San Diego County, CA",
-      "subtitle": "County",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "California"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recuodXC00lNolxWt",
-          "name": "Donna Merrill files for divorce from Marvin Merrill",
-          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
-        },
-        {
-          "id": "recqd0UxXer0YT3Fs",
-          "name": "Marvin Merrill declares homestead in San Diego County",
-          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
-        },
-        {
-          "id": "recat0ikBRBor98HZ",
-          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
-          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
-        },
-        {
-          "id": "recSO0r5G4dBjGcVr",
-          "name": "Marvin Merrill is sued in small claims court",
-          "slug": "marvin-merrill-is-sued-in-small-claims-court"
-        },
-        {
-          "id": "recejl2agGVbNQPgb",
-          "name": "Marvin Merrill is advertising services as a retired architect",
-          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recb0X8kEnkBnJw0f",
-          "name": "Oceanside, CA",
-          "slug": "oceanside-ca"
-        },
-        {
-          "id": "recmc2ZGx4Zoy8cz8",
-          "name": "San Diego, CA",
-          "slug": "san-diego-ca"
-        },
-        {
-          "id": "recS1hWCS7jNh8Gsb",
-          "name": "Vista, CA",
-          "slug": "vista-ca"
-        },
-        {
-          "id": "recHmZ39rWbWR7XAy",
-          "name": "Carlsbad, CA",
-          "slug": "carlsbad-ca"
-        },
-        {
-          "id": "",
-          "name": "Oceanside",
-          "slug": "oceanside"
-        },
-        {
-          "id": "",
-          "name": "CASan Diego",
-          "slug": "casan-diego"
-        },
-        {
-          "id": "",
-          "name": "CAVista",
-          "slug": "cavista"
-        },
-        {
-          "id": "",
-          "name": "CACarlsbad",
-          "slug": "cacarlsbad"
-        },
-        {
-          "id": "",
-          "name": "CA",
-          "slug": "ca"
-        },
-        {
-          "id": "",
-          "name": "San Diego",
-          "slug": "san-diego"
-        },
-        {
-          "id": "",
-          "name": "Vista",
-          "slug": "vista"
-        },
-        {
-          "id": "",
-          "name": "Carlsbad",
-          "slug": "carlsbad"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        },
-        {
-          "id": "rec3AUDM0qROLgURJ",
-          "name": "Raymond Davis",
-          "slug": "raymond-davis"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recVg2H8YXjWXz7GQ",
-          "name": "The Murder of Ray Davis",
-          "slug": "the-murder-of-ray-davis"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 5,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
-    },
-    {
       "id": "rec9AtxZsFD0xu5PL",
       "slug": "albany-ny",
       "kind": "location",
@@ -5657,6 +5667,69 @@
       "searchText": "Blue Rock Springs Park Site Zodiac Darlene (Suennen) Ferrin Michael Renault Mageau Vallejo Police"
     },
     {
+      "id": "recnog62LVFsETdfp",
+      "slug": "chicago",
+      "kind": "location",
+      "title": "Chicago",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Cook County, IL"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXWIWFBz95hjA2J",
+          "name": "Count Marco's Chicago letter referencing Red Phantom",
+          "slug": "count-marco-s-chicago-letter-referencing-red-phantom"
+        },
+        {
+          "id": "recmy5F1K1nbOMtwH",
+          "name": "Marvin (Merrill) Margolis registers for draft post-war",
+          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+        },
+        {
+          "id": "recfqoBnnqTH0eyNr",
+          "name": "Marvin Margolis is born",
+          "slug": "marvin-margolis-is-born"
+        },
+        {
+          "id": "recDkkq5yIUao8uq3",
+          "name": "Marvin Merrill (Marvin Margolis) opens Motive Supply in Chicago",
+          "slug": "marvin-merrill-marvin-margolis-opens-motive-supply-in-chicago"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recb9DBCgGcF3eXXg",
+          "name": "Jim Dunbar",
+          "slug": "jim-dunbar"
+        },
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        },
+        {
+          "id": "rec2BmtZQGx9ht2an",
+          "name": "Edith Bernstein (Margolis) Merrill",
+          "slug": "edith-bernstein-margolis-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 4,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Chicago City Jim Dunbar Marvin Merrill Edith Bernstein (Margolis) Merrill"
+    },
+    {
       "id": "recbHhU4d2UWXPrIl",
       "slug": "lake-berryessa-park-headquarters",
       "kind": "location",
@@ -5896,8 +5969,8 @@
       "relatedEvents": [
         {
           "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
         },
         {
           "id": "recp7VSk50ch4MQEh",
@@ -6636,64 +6709,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Solano County, CA County Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin James A. Owen Frank Gasser Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat The Daily Republic Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Solano (Community) College Benicia Police Department Karl F. Werner Daniel Pitta Ed Rust Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Dr. Byron Thomas Sanford Mare Island Naval Shipyard Highland Elementary School Humble Oil / Exxon / Valero Refinery Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
-    },
-    {
-      "id": "recnog62LVFsETdfp",
-      "slug": "chicago",
-      "kind": "location",
-      "title": "Chicago",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Cook County, IL"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recXWIWFBz95hjA2J",
-          "name": "Count Marco's Chicago letter referencing Red Phantom",
-          "slug": "count-marco-s-chicago-letter-referencing-red-phantom"
-        },
-        {
-          "id": "recmy5F1K1nbOMtwH",
-          "name": "Marvin (Merrill) Margolis registers for draft post-war",
-          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
-        },
-        {
-          "id": "recfqoBnnqTH0eyNr",
-          "name": "Marvin Margolis is born",
-          "slug": "marvin-margolis-is-born"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recb9DBCgGcF3eXXg",
-          "name": "Jim Dunbar",
-          "slug": "jim-dunbar"
-        },
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        },
-        {
-          "id": "rec2BmtZQGx9ht2an",
-          "name": "Edith Bernstein (Margolis) Merrill",
-          "slug": "edith-bernstein-margolis-merrill"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 3,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Chicago City Jim Dunbar Marvin Merrill Edith Bernstein (Margolis) Merrill"
     },
     {
       "id": "rec6evH12LhXgAkIW",
@@ -12769,8 +12784,22 @@
       "subtitle": "City",
       "summary": "",
       "excerpt": "",
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/attoFoq2O14ePmPMK_image.png",
+          "thumbUrl": "data/media/derived/thumb/attoFoq2O14ePmPMK_image.png",
+          "mediumUrl": "data/media/derived/medium/attoFoq2O14ePmPMK_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attoFoq2O14ePmPMK_image.png",
+        "thumbUrl": "data/media/derived/thumb/attoFoq2O14ePmPMK_image.png",
+        "mediumUrl": "data/media/derived/medium/attoFoq2O14ePmPMK_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Located Within",
@@ -12784,7 +12813,13 @@
           "slug": "marvin-margolis-merrill-dies"
         }
       ],
-      "relatedLocations": [],
+      "relatedLocations": [
+        {
+          "id": "recIPrhsjjcR4KdN9",
+          "name": "St. Francis Medical Center",
+          "slug": "st-francis-medical-center"
+        }
+      ],
       "relatedPeople": [
         {
           "id": "recoOKTf4wXF3GBYn",
@@ -13118,6 +13153,38 @@
       "mapOpenUrl": "https://maps.app.goo.gl/GAMNgF4v4ngkXMup8",
       "mapEmbedUrl": "",
       "searchText": "Springs & Tuolumne Pay Phone Site Zodiac"
+    },
+    {
+      "id": "recIPrhsjjcR4KdN9",
+      "slug": "st-francis-medical-center",
+      "kind": "location",
+      "title": "St. Francis Medical Center",
+      "subtitle": "Hospital",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Santa Barbara, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec5sL9hC0CU6qw1r",
+          "name": "Marvin (Margolis) Merrill dies",
+          "slug": "marvin-margolis-merrill-dies"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "St. Francis Medical Center Hospital"
     },
     {
       "id": "recGpxelN5RwYwaTB",

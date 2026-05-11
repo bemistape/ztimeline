@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-10T19:35:56.198041+00:00",
+  "generatedAt": "2026-05-11T04:39:01.879236+00:00",
   "stats": {
-    "events": 459,
+    "events": 463,
     "people": 332,
-    "locations": 345,
+    "locations": 346,
     "tags": 43,
-    "images": 1655,
+    "images": 1663,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 161
+      "count": 162
     },
     {
       "value": 1970,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 115
+      "count": 119
     },
     {
       "value": "Case Event",
@@ -89,13 +89,13 @@
       "title": "Marvin Merrill",
       "subtitle": "Suspect,Military,Deceased",
       "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 31,
+      "relatedEventCount": 35,
       "primaryImage": {
-        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "mediumUrl": "data/media/derived/medium/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
         "derivativeState": "derived",
-        "label": "mendell002.jpeg"
+        "label": "Screenshot_2026-05-10_at_9.18.17_PM.png"
       },
       "mapOpenUrl": ""
     },
@@ -353,20 +353,14 @@
       "mapOpenUrl": ""
     },
     {
-      "id": "rec8HlpeGk8KlrXoi",
-      "slug": "attack-at-blue-rock-springs-park",
+      "id": "recnyN76pwtLF9eBJ",
+      "slug": "marvin-margolis",
       "kind": "tag",
-      "title": "Attack at Blue Rock Springs Park",
+      "title": "Marvin Margolis",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 18,
-      "primaryImage": {
-        "originalUrl": "data/media/attKPwnQEKHj561Xv_image.png",
-        "thumbUrl": "data/media/derived/thumb/attKPwnQEKHj561Xv_image.png",
-        "mediumUrl": "data/media/derived/medium/attKPwnQEKHj561Xv_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
+      "relatedEventCount": 19,
+      "primaryImage": null,
       "mapOpenUrl": ""
     }
   ],
@@ -479,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 10, 2026, 07:35 PM UTC",
+    "label": "May 11, 2026, 04:39 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -490,7 +484,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "459 dated events spanning 1925 to 2025."
+      "description": "463 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
@@ -500,7 +494,7 @@
     {
       "view": "locations",
       "title": "Locations",
-      "description": "345 places connected to the archive, including mapped sites where data exists."
+      "description": "346 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

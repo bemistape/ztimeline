@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T19:35:56.198041+00:00",
+  "generatedAt": "2026-05-11T04:39:01.879236+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -479,25 +479,11 @@
       ],
       "images": [
         {
-          "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-          "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-          "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+          "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+          "mediumUrl": "data/media/derived/medium/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
           "derivativeState": "derived",
-          "label": "mendell002.jpeg"
-        },
-        {
-          "originalUrl": "data/media/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "thumbUrl": "data/media/derived/thumb/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "mediumUrl": "data/media/derived/medium/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
-          "derivativeState": "derived",
-          "label": "Merrill_marriage.jpg"
-        },
-        {
-          "originalUrl": "data/media/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "thumbUrl": "data/media/derived/thumb/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "mediumUrl": "data/media/derived/medium/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
-          "derivativeState": "derived",
-          "label": "49241561432_986593044f_o.jpg"
+          "label": "Screenshot_2026-05-10_at_9.18.17_PM.png"
         },
         {
           "originalUrl": "data/media/attjXpggzLNTfFIUk_49241066596_c3e29554da_o.jpg",
@@ -514,6 +500,13 @@
           "label": "49241382932_9ef6508eff_o.png"
         },
         {
+          "originalUrl": "data/media/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "thumbUrl": "data/media/derived/thumb/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "mediumUrl": "data/media/derived/medium/atttbJSyfysjeEpo5_Merrill_marriage.jpg",
+          "derivativeState": "derived",
+          "label": "Merrill_marriage.jpg"
+        },
+        {
           "originalUrl": "data/media/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpeg",
           "thumbUrl": "data/media/derived/thumb/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
           "mediumUrl": "data/media/derived/medium/attL5wJ8Vyy04aK9u_3B47EF87-63EF-41A7-A944-ED2CA6B85AF0.jpg",
@@ -528,11 +521,25 @@
           "label": "Daily_Times_Advocate_1972_04_09_33.jpg"
         },
         {
+          "originalUrl": "data/media/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "thumbUrl": "data/media/derived/thumb/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "mediumUrl": "data/media/derived/medium/attMcWku4nyMoGAmp_49241561432_986593044f_o.jpg",
+          "derivativeState": "derived",
+          "label": "49241561432_986593044f_o.jpg"
+        },
+        {
           "originalUrl": "data/media/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
           "thumbUrl": "data/media/derived/thumb/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
           "mediumUrl": "data/media/derived/medium/attLdYMgE34vFGiu3_Ramona_Sentinel_1979_03_15_18.jpg",
           "derivativeState": "derived",
           "label": "Ramona_Sentinel_1979_03_15_18.jpg"
+        },
+        {
+          "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
+          "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
+          "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+          "derivativeState": "derived",
+          "label": "mendell002.jpeg"
         },
         {
           "originalUrl": "data/media/attbifxLlWDMENmBr_Marvin_Merrill_business.jpg",
@@ -606,11 +613,11 @@
         }
       ],
       "primaryImage": {
-        "originalUrl": "data/media/att9ZthIfJLCsCesd_mendell002.jpeg",
-        "thumbUrl": "data/media/derived/thumb/att9ZthIfJLCsCesd_mendell002.jpg",
-        "mediumUrl": "data/media/derived/medium/att9ZthIfJLCsCesd_mendell002.jpg",
+        "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "mediumUrl": "data/media/derived/medium/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
         "derivativeState": "derived",
-        "label": "mendell002.jpeg"
+        "label": "Screenshot_2026-05-10_at_9.18.17_PM.png"
       },
       "facts": [
         {
@@ -673,8 +680,8 @@
         },
         {
           "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
         },
         {
           "id": "recwV2KcxNP5fVVZN",
@@ -785,6 +792,26 @@
           "id": "recejl2agGVbNQPgb",
           "name": "Marvin Merrill is advertising services as a retired architect",
           "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        },
+        {
+          "id": "recDkkq5yIUao8uq3",
+          "name": "Marvin Merrill (Marvin Margolis) opens Motive Supply in Chicago",
+          "slug": "marvin-merrill-marvin-margolis-opens-motive-supply-in-chicago"
+        },
+        {
+          "id": "recDF0Kktq2fffSCs",
+          "name": "Marvin Merrill (Margolis) arrested for running confidence game",
+          "slug": "marvin-merrill-margolis-arrested-for-running-confidence-game"
+        },
+        {
+          "id": "rec8PpVKQ9uouFf1R",
+          "name": "Marvin Merrill (as Mendell) Bonded Engine settlement with David T. Keith",
+          "slug": "marvin-merrill-as-mendell-bonded-engine-settlement-with-david-t-keith"
+        },
+        {
+          "id": "recggvAiwTw1JfRVe",
+          "name": "Marvin Merrill's Project Development Corporation property is released",
+          "slug": "marvin-merrill-s-project-development-corporation-property-is-released"
         }
       ],
       "relatedLocations": [
@@ -904,6 +931,11 @@
           "slug": "wellington-ks"
         },
         {
+          "id": "recIPrhsjjcR4KdN9",
+          "name": "St. Francis Medical Center",
+          "slug": "st-francis-medical-center"
+        },
+        {
           "id": "recoLzKMHQnKBY2jl",
           "name": "Phoenix, AZ",
           "slug": "phoenix-az"
@@ -958,8 +990,8 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 31,
-      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS Phoenix, AZ Medford, OK Atascadero, CA San Jose, CA"
+      "relatedEventCount": 35,
+      "searchText": "Marvin Merrill Marvin Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS St. Francis Medical Center Phoenix, AZ Medford, OK Atascadero, CA San Jose, CA"
     },
     {
       "id": "rec5NLNj8q2bpKjm8",

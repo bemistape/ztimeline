@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T19:35:56.198041+00:00",
+  "generatedAt": "2026-05-11T04:39:01.879236+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -3438,6 +3438,142 @@
       "searchText": "Arthur Leigh Allen"
     },
     {
+      "id": "recnyN76pwtLF9eBJ",
+      "slug": "marvin-margolis",
+      "kind": "tag",
+      "title": "Marvin Margolis",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1947-01-15"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recxNREAEkp81YHhh",
+          "name": "Elizabeth Short's body is found",
+          "slug": "elizabeth-short-s-body-is-found"
+        },
+        {
+          "id": "recuLlpHkGvMXeEeQ",
+          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
+          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
+        },
+        {
+          "id": "",
+          "name": "Marvin Merrill is jailed",
+          "slug": "marvin-merrill-is-jailed"
+        },
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "",
+          "name": "Likely reference to Marvin Merrill in article about Vista",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista"
+        },
+        {
+          "id": "",
+          "name": "CA school location",
+          "slug": "ca-school-location"
+        },
+        {
+          "id": "rec1ItC2hUR9ajXWE",
+          "name": "Marvin Merrill's wife sells vehicles",
+          "slug": "marvin-merrill-s-wife-sells-vehicles"
+        },
+        {
+          "id": "recwV2KcxNP5fVVZN",
+          "name": "Skipton Merrill's Wellington Art Association announces art show",
+          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
+        },
+        {
+          "id": "recSO0r5G4dBjGcVr",
+          "name": "Marvin Merrill is sued in small claims court",
+          "slug": "marvin-merrill-is-sued-in-small-claims-court"
+        },
+        {
+          "id": "recp7VSk50ch4MQEh",
+          "name": "Marvin Merrill's wife Donna remarries",
+          "slug": "marvin-merrill-s-wife-donna-remarries"
+        },
+        {
+          "id": "",
+          "name": "Merrill sells two paintings to Medford",
+          "slug": "merrill-sells-two-paintings-to-medford"
+        },
+        {
+          "id": "",
+          "name": "OK furniture company",
+          "slug": "ok-furniture-company"
+        },
+        {
+          "id": "recPgYIXBepgFUtiw",
+          "name": "Marvin Merrill referenced in Atlanta synagogue",
+          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
+        },
+        {
+          "id": "recZ4772B9Dt5m0EN",
+          "name": "Marvin Merrill's in-laws visit in Atlanta",
+          "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recuedkkLZd51Nd8x",
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recaLXBXGk2YnpEP0",
+          "name": "Merrill sells two paintings to Medford, OK furniture company",
+          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
+        },
+        {
+          "id": "reck9mzheu3yuoDWi",
+          "name": "Elizabeth Short",
+          "slug": "elizabeth-short"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 19,
+      "searchText": "Marvin Margolis"
+    },
+    {
       "id": "rec8HlpeGk8KlrXoi",
       "slug": "attack-at-blue-rock-springs-park",
       "kind": "tag",
@@ -4002,137 +4138,6 @@
       "downloads": [],
       "relatedEventCount": 18,
       "searchText": "Attack at Blue Rock Springs Park"
-    },
-    {
-      "id": "recnyN76pwtLF9eBJ",
-      "slug": "marvin-margolis",
-      "kind": "tag",
-      "title": "Marvin Margolis",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1947-01-15"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recxNREAEkp81YHhh",
-          "name": "Elizabeth Short's body is found",
-          "slug": "elizabeth-short-s-body-is-found"
-        },
-        {
-          "id": "recuLlpHkGvMXeEeQ",
-          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
-          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
-        },
-        {
-          "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
-        },
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "",
-          "name": "Likely reference to Marvin Merrill in article about Vista",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista"
-        },
-        {
-          "id": "",
-          "name": "CA school location",
-          "slug": "ca-school-location"
-        },
-        {
-          "id": "rec1ItC2hUR9ajXWE",
-          "name": "Marvin Merrill's wife sells vehicles",
-          "slug": "marvin-merrill-s-wife-sells-vehicles"
-        },
-        {
-          "id": "recwV2KcxNP5fVVZN",
-          "name": "Skipton Merrill's Wellington Art Association announces art show",
-          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
-        },
-        {
-          "id": "recSO0r5G4dBjGcVr",
-          "name": "Marvin Merrill is sued in small claims court",
-          "slug": "marvin-merrill-is-sued-in-small-claims-court"
-        },
-        {
-          "id": "recp7VSk50ch4MQEh",
-          "name": "Marvin Merrill's wife Donna remarries",
-          "slug": "marvin-merrill-s-wife-donna-remarries"
-        },
-        {
-          "id": "",
-          "name": "Merrill sells two paintings to Medford",
-          "slug": "merrill-sells-two-paintings-to-medford"
-        },
-        {
-          "id": "",
-          "name": "OK furniture company",
-          "slug": "ok-furniture-company"
-        },
-        {
-          "id": "recPgYIXBepgFUtiw",
-          "name": "Marvin Merrill referenced in Atlanta synagogue",
-          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
-        },
-        {
-          "id": "recZ4772B9Dt5m0EN",
-          "name": "Marvin Merrill's in-laws visit in Atlanta",
-          "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
-        },
-        {
-          "id": "recsGm4yN1bVwmMNr",
-          "name": "Merrill advertises for business partner in Vista Press",
-          "slug": "merrill-advertises-for-business-partner-in-vista-press"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recaLXBXGk2YnpEP0",
-          "name": "Merrill sells two paintings to Medford, OK furniture company",
-          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
-        },
-        {
-          "id": "reck9mzheu3yuoDWi",
-          "name": "Elizabeth Short",
-          "slug": "elizabeth-short"
-        },
-        {
-          "id": "recDGLrzZDACdBeH6",
-          "name": "Donna Faye McEachern Merrill",
-          "slug": "donna-faye-mceachern-merrill"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 18,
-      "searchText": "Marvin Margolis"
     },
     {
       "id": "recmahrrdmpZNEgOw",
