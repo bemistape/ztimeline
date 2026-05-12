@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T04:09:22.693872+00:00",
+  "generatedAt": "2026-05-12T09:13:25.353246+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -7783,6 +7783,157 @@
       ],
       "relatedEventCount": 5,
       "searchText": "Shelly Irene Holmboe Shelly Irene Holmboe  Los Gatos, CA Santa Clara County, CA California SF Bay Area United States of America"
+    },
+    {
+      "id": "recYTDt4h8BubtgqQ",
+      "slug": "alex-baber",
+      "kind": "person",
+      "title": "Alex Baber",
+      "subtitle": "Researcher,Living,Media",
+      "summary": "Operator of CCCOA",
+      "excerpt": "Operator of CCCOA",
+      "aliases": [
+        "Alex Baber"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attwjwMGj3s4860gg_alex-baber.jpg",
+          "thumbUrl": "data/media/derived/thumb/attwjwMGj3s4860gg_alex-baber.jpg",
+          "mediumUrl": "data/media/derived/medium/attwjwMGj3s4860gg_alex-baber.jpg",
+          "derivativeState": "derived",
+          "label": "alex-baber.jpg"
+        },
+        {
+          "originalUrl": "data/media/attgwCZnQj4I7gJsf_maxresdefault.jpg",
+          "thumbUrl": "data/media/derived/thumb/attgwCZnQj4I7gJsf_maxresdefault.jpg",
+          "mediumUrl": "data/media/derived/medium/attgwCZnQj4I7gJsf_maxresdefault.jpg",
+          "derivativeState": "derived",
+          "label": "maxresdefault.jpg"
+        },
+        {
+          "originalUrl": "data/media/attTMNxIbtN7VGbsN_images__3_.jpeg",
+          "thumbUrl": "data/media/derived/thumb/attTMNxIbtN7VGbsN_images__3_.jpg",
+          "mediumUrl": "data/media/derived/medium/attTMNxIbtN7VGbsN_images__3_.jpg",
+          "derivativeState": "derived",
+          "label": "images__3_.jpeg"
+        },
+        {
+          "originalUrl": "data/media/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
+          "mediumUrl": "data/media/derived/medium/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
+          "derivativeState": "derived",
+          "label": "maxresdefault__1_.jpg"
+        },
+        {
+          "originalUrl": "data/media/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
+          "mediumUrl": "data/media/derived/medium/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-29_at_4.27.58_PM.png"
+        },
+        {
+          "originalUrl": "data/media/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
+          "mediumUrl": "data/media/derived/medium/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-29_at_4.46.14_PM.png"
+        },
+        {
+          "originalUrl": "data/media/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
+          "mediumUrl": "data/media/derived/medium/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-29_at_4.46.00_PM.png"
+        },
+        {
+          "originalUrl": "data/media/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
+          "mediumUrl": "data/media/derived/medium/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-29_at_5.19.15_PM.png"
+        },
+        {
+          "originalUrl": "data/media/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
+          "thumbUrl": "data/media/derived/thumb/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
+          "mediumUrl": "data/media/derived/medium/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
+          "derivativeState": "derived",
+          "label": "497731844_24408460468755531_7913737674106806185_n.jpg"
+        },
+        {
+          "originalUrl": "data/media/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
+          "mediumUrl": "data/media/derived/medium/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-30_at_11.41.52_PM.png"
+        },
+        {
+          "originalUrl": "data/media/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
+          "mediumUrl": "data/media/derived/medium/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2025-12-30_at_11.45.46_PM.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attwjwMGj3s4860gg_alex-baber.jpg",
+        "thumbUrl": "data/media/derived/thumb/attwjwMGj3s4860gg_alex-baber.jpg",
+        "mediumUrl": "data/media/derived/medium/attwjwMGj3s4860gg_alex-baber.jpg",
+        "derivativeState": "derived",
+        "label": "alex-baber.jpg"
+      },
+      "facts": [
+        {
+          "label": "Born",
+          "value": "1975-06-16"
+        },
+        {
+          "label": "Home / HQ",
+          "value": "Newtown Square, PA, West Virginia, Coburn, PA, Bellefonte, PA, Port Richey, FL, Columbus, OH, New Castle, DE, Lititz, PA, Wilmington, DE"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recUUPJQVxzawEzaB",
+          "name": "Alex Baber files for trademark on \"Alex Baber\"",
+          "slug": "alex-baber-files-for-trademark-on-alex-baber"
+        },
+        {
+          "id": "recx5B3a952OYXmy7",
+          "name": "Press release announces CCCOA launch",
+          "slug": "press-release-announces-cccoa-launch"
+        },
+        {
+          "id": "recP6MSNJKpy2r8Jx",
+          "name": "Press release from CCCOA touts serial killer letter database",
+          "slug": "press-release-from-cccoa-touts-serial-killer-letter-database"
+        },
+        {
+          "id": "reckL6kasfuJKfSSH",
+          "name": "Alex Baber interview on Metro Record about Wayne Williams, Circleville, Zodiac",
+          "slug": "alex-baber-interview-on-metro-record-about-wayne-williams-circleville-zodiac"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "reczJ95c0APSQ1620",
+          "name": "Jamie Lynn Cox Baber",
+          "slug": "jamie-lynn-cox-baber"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Alex%20Baber&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Alex%20Baber&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 4,
+      "searchText": "Alex Baber Alex Baber Operator of CCCOA "
     },
     {
       "id": "recQtG7CYhL21Bmxw",
@@ -16161,142 +16312,6 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Albany Times-Union Albany Times-Union Recipient of 1971 disputed Zodiac letter. Albany, NY Albany County, NY New York State United States of America"
-    },
-    {
-      "id": "recYTDt4h8BubtgqQ",
-      "slug": "alex-baber",
-      "kind": "person",
-      "title": "Alex Baber",
-      "subtitle": "Researcher,Living,Media",
-      "summary": "Operator of CCCOA",
-      "excerpt": "Operator of CCCOA",
-      "aliases": [
-        "Alex Baber"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attwjwMGj3s4860gg_alex-baber.jpg",
-          "thumbUrl": "data/media/derived/thumb/attwjwMGj3s4860gg_alex-baber.jpg",
-          "mediumUrl": "data/media/derived/medium/attwjwMGj3s4860gg_alex-baber.jpg",
-          "derivativeState": "derived",
-          "label": "alex-baber.jpg"
-        },
-        {
-          "originalUrl": "data/media/attgwCZnQj4I7gJsf_maxresdefault.jpg",
-          "thumbUrl": "data/media/derived/thumb/attgwCZnQj4I7gJsf_maxresdefault.jpg",
-          "mediumUrl": "data/media/derived/medium/attgwCZnQj4I7gJsf_maxresdefault.jpg",
-          "derivativeState": "derived",
-          "label": "maxresdefault.jpg"
-        },
-        {
-          "originalUrl": "data/media/attTMNxIbtN7VGbsN_images__3_.jpeg",
-          "thumbUrl": "data/media/derived/thumb/attTMNxIbtN7VGbsN_images__3_.jpg",
-          "mediumUrl": "data/media/derived/medium/attTMNxIbtN7VGbsN_images__3_.jpg",
-          "derivativeState": "derived",
-          "label": "images__3_.jpeg"
-        },
-        {
-          "originalUrl": "data/media/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
-          "thumbUrl": "data/media/derived/thumb/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
-          "mediumUrl": "data/media/derived/medium/attyK4jzmpiiwrcw6_maxresdefault__1_.jpg",
-          "derivativeState": "derived",
-          "label": "maxresdefault__1_.jpg"
-        },
-        {
-          "originalUrl": "data/media/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
-          "thumbUrl": "data/media/derived/thumb/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
-          "mediumUrl": "data/media/derived/medium/attyPZhcHoSOGQqCK_Screenshot_2025-12-29_at_4.27.58_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-29_at_4.27.58_PM.png"
-        },
-        {
-          "originalUrl": "data/media/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
-          "thumbUrl": "data/media/derived/thumb/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
-          "mediumUrl": "data/media/derived/medium/attBHF28pwPzd5Nua_Screenshot_2025-12-29_at_4.46.14_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-29_at_4.46.14_PM.png"
-        },
-        {
-          "originalUrl": "data/media/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
-          "thumbUrl": "data/media/derived/thumb/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
-          "mediumUrl": "data/media/derived/medium/attl9wp6J4RssIgkD_Screenshot_2025-12-29_at_4.46.00_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-29_at_4.46.00_PM.png"
-        },
-        {
-          "originalUrl": "data/media/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
-          "thumbUrl": "data/media/derived/thumb/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
-          "mediumUrl": "data/media/derived/medium/att5EaznlIe3h9N17_Screenshot_2025-12-29_at_5.19.15_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-29_at_5.19.15_PM.png"
-        },
-        {
-          "originalUrl": "data/media/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
-          "thumbUrl": "data/media/derived/thumb/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
-          "mediumUrl": "data/media/derived/medium/att0i7DDZOWLFlXTG_497731844_24408460468755531_7913737674106806185_n.jpg",
-          "derivativeState": "derived",
-          "label": "497731844_24408460468755531_7913737674106806185_n.jpg"
-        },
-        {
-          "originalUrl": "data/media/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
-          "thumbUrl": "data/media/derived/thumb/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
-          "mediumUrl": "data/media/derived/medium/att8hzoX8tiio81Yb_Screenshot_2025-12-30_at_11.41.52_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-30_at_11.41.52_PM.png"
-        },
-        {
-          "originalUrl": "data/media/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
-          "thumbUrl": "data/media/derived/thumb/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
-          "mediumUrl": "data/media/derived/medium/att4V1mnvPhP3uHnG_Screenshot_2025-12-30_at_11.45.46_PM.png",
-          "derivativeState": "derived",
-          "label": "Screenshot_2025-12-30_at_11.45.46_PM.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attwjwMGj3s4860gg_alex-baber.jpg",
-        "thumbUrl": "data/media/derived/thumb/attwjwMGj3s4860gg_alex-baber.jpg",
-        "mediumUrl": "data/media/derived/medium/attwjwMGj3s4860gg_alex-baber.jpg",
-        "derivativeState": "derived",
-        "label": "alex-baber.jpg"
-      },
-      "facts": [
-        {
-          "label": "Born",
-          "value": "1975-06-16"
-        },
-        {
-          "label": "Home / HQ",
-          "value": "Newtown Square, PA, West Virginia, Coburn, PA, Bellefonte, PA, Port Richey, FL, Columbus, OH, New Castle, DE, Lititz, PA, Wilmington, DE"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recUUPJQVxzawEzaB",
-          "name": "Alex Baber files for trademark on \"Alex Baber\"",
-          "slug": "alex-baber-files-for-trademark-on-alex-baber"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "reczJ95c0APSQ1620",
-          "name": "Jamie Lynn Cox Baber",
-          "slug": "jamie-lynn-cox-baber"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Alex%20Baber&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Alex%20Baber&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 1,
-      "searchText": "Alex Baber Alex Baber Operator of CCCOA "
     },
     {
       "id": "recSSU3Hx8U3H6Lhj",

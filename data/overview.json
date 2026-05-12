@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-05-12T04:09:22.693872+00:00",
+  "generatedAt": "2026-05-12T09:13:25.353246+00:00",
   "stats": {
-    "events": 463,
+    "events": 466,
     "people": 332,
     "locations": 346,
     "tags": 43,
@@ -53,7 +53,7 @@
     },
     {
       "value": "Media Event",
-      "count": 39
+      "count": 42
     },
     {
       "value": "Newspaper Article",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 12, 2026, 04:09 AM UTC",
+    "label": "May 12, 2026, 09:13 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,7 +484,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "463 dated events spanning 1925 to 2025."
+      "description": "466 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
