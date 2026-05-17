@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T13:59:47.217293+00:00",
+  "generatedAt": "2026-05-17T19:39:08.676464+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -276,11 +276,6 @@
           "id": "recx08FpJlmrzPtBQ",
           "name": "Dick Tracy: Zodiac plotline (10/11/1969)",
           "slug": "dick-tracy-zodiac-plotline-10-11-1969"
-        },
-        {
-          "id": "recWF58MhTEsTBbw4",
-          "name": "Dick Tracy: Zodiac plotline (10/11/1969) copy",
-          "slug": "dick-tracy-zodiac-plotline-10-11-1969-copy"
         },
         {
           "id": "recydf2XQtTWZyYG6",
@@ -620,7 +615,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 64,
+      "relatedEventCount": 63,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"
@@ -4290,6 +4285,175 @@
       "searchText": "Oceanside, CA City Marvin Merrill Raymond Davis"
     },
     {
+      "id": "recT2ynH7gNXP8Siv",
+      "slug": "riverside-ca",
+      "kind": "location",
+      "title": "Riverside, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
+          "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
+          "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
+        "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
+        "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Riverside County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recygMQrhavJKZ2Qz",
+          "name": "Cheri Jo Bates is murdered in Riverside",
+          "slug": "cheri-jo-bates-is-murdered-in-riverside"
+        },
+        {
+          "id": "recytWrpVgR2gwLQU",
+          "name": "The Confession Letters sent to Riverside Police",
+          "slug": "the-confession-letters-sent-to-riverside-police"
+        },
+        {
+          "id": "recMWZ6w3JJmVXsmd",
+          "name": "Bates Had to Die Letters",
+          "slug": "bates-had-to-die-letters"
+        },
+        {
+          "id": "recUglzi449My3zuL",
+          "name": "Bates desktop poem discovered",
+          "slug": "bates-desktop-poem-discovered"
+        },
+        {
+          "id": "recbzPsFeZqlFnUpY",
+          "name": "Linda L. Gillinger abducted and released in San Diego",
+          "slug": "linda-l-gillinger-abducted-and-released-in-san-diego"
+        },
+        {
+          "id": "rec6gSr1pQnVkShRG",
+          "name": "Sundown on the night of Cheri Jo Bates' death",
+          "slug": "sundown-on-the-night-of-cheri-jo-bates-death"
+        },
+        {
+          "id": "rec3kINLWbyeHtMhV",
+          "name": "Bates connection to Gillinger kidnapping is explored",
+          "slug": "bates-connection-to-gillinger-kidnapping-is-explored"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recxYDr9ao84ifUn1",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        },
+        {
+          "id": "recb1NGObFPb1KXOX",
+          "name": "Crestlawn Memorial Park",
+          "slug": "crestlawn-memorial-park"
+        },
+        {
+          "id": "recaL5IYJuZgB9cEd",
+          "name": "The Swiss Inn",
+          "slug": "the-swiss-inn"
+        },
+        {
+          "id": "",
+          "name": "Riverside City College LibraryCrestlawn Memorial ParkThe Swiss Inn",
+          "slug": "riverside-city-college-librarycrestlawn-memorial-parkthe-swiss-inn"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recUo1Le1hDtuiGV0",
+          "name": "Cecelia Ann Shepard",
+          "slug": "cecelia-ann-shepard"
+        },
+        {
+          "id": "rec4ZhSZpZfgCU6ng",
+          "name": "Cheri Jo Bates",
+          "slug": "cheri-jo-bates"
+        },
+        {
+          "id": "recb7X6ZsOGFxprp9",
+          "name": "Cleophus Martin",
+          "slug": "cleophus-martin"
+        },
+        {
+          "id": "recTwipLP6sp7Www9",
+          "name": "Ross Sullivan",
+          "slug": "ross-sullivan"
+        },
+        {
+          "id": "recIPToWrud8BWT8F",
+          "name": "Rick Marshall",
+          "slug": "rick-marshall"
+        },
+        {
+          "id": "recOmKi1yuY4EfI3d",
+          "name": "Riverside City College Library",
+          "slug": "riverside-city-college-library"
+        },
+        {
+          "id": "reclURMsg3CwnpHXu",
+          "name": "Sgt. H.L. Homsher",
+          "slug": "sgt-h-l-homsher"
+        },
+        {
+          "id": "rec787LD61gifWYhY",
+          "name": "Chief Lambert T. Kinkead",
+          "slug": "chief-lambert-t-kinkead"
+        },
+        {
+          "id": "rec5Sz6UL49AFPq8i",
+          "name": "Riverside Community College",
+          "slug": "riverside-community-college"
+        },
+        {
+          "id": "recpyUq3bcArUcC72",
+          "name": "Ramona High School",
+          "slug": "ramona-high-school"
+        },
+        {
+          "id": "reclhR72XzI2FR104",
+          "name": "Dr. Byron Thomas Sanford",
+          "slug": "dr-byron-thomas-sanford"
+        },
+        {
+          "id": "recbUqUHTwHs7P7Ct",
+          "name": "Riverside Police Department",
+          "slug": "riverside-police-department"
+        },
+        {
+          "id": "rec4UJx84ksxEPIEx",
+          "name": "Joseph C. Bates",
+          "slug": "joseph-c-bates"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recwxwoDT5hxnv9eo",
+          "name": "The Murder of Cheri Jo Bates",
+          "slug": "the-murder-of-cheri-jo-bates"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 7,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Riverside, CA City Cecelia Ann Shepard Cheri Jo Bates Cleophus Martin Ross Sullivan Rick Marshall Riverside City College Library Sgt. H.L. Homsher Chief Lambert T. Kinkead Riverside Community College Ramona High School Dr. Byron Thomas Sanford Riverside Police Department Joseph C. Bates"
+    },
+    {
       "id": "recW384s2m6sCR5Yz",
       "slug": "san-diego-county-ca",
       "kind": "location",
@@ -4428,170 +4592,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Diego County, CA County Marvin Merrill Raymond Davis"
-    },
-    {
-      "id": "recT2ynH7gNXP8Siv",
-      "slug": "riverside-ca",
-      "kind": "location",
-      "title": "Riverside, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [
-        {
-          "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-          "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
-          "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
-        "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
-        "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Riverside County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recygMQrhavJKZ2Qz",
-          "name": "Cheri Jo Bates is murdered in Riverside",
-          "slug": "cheri-jo-bates-is-murdered-in-riverside"
-        },
-        {
-          "id": "recytWrpVgR2gwLQU",
-          "name": "The Confession Letters sent to Riverside Police",
-          "slug": "the-confession-letters-sent-to-riverside-police"
-        },
-        {
-          "id": "recMWZ6w3JJmVXsmd",
-          "name": "Bates Had to Die Letters",
-          "slug": "bates-had-to-die-letters"
-        },
-        {
-          "id": "recUglzi449My3zuL",
-          "name": "Bates desktop poem discovered",
-          "slug": "bates-desktop-poem-discovered"
-        },
-        {
-          "id": "recbzPsFeZqlFnUpY",
-          "name": "Linda L. Gillinger abducted and released in San Diego",
-          "slug": "linda-l-gillinger-abducted-and-released-in-san-diego"
-        },
-        {
-          "id": "rec6gSr1pQnVkShRG",
-          "name": "Sundown on the night of Cheri Jo Bates' death",
-          "slug": "sundown-on-the-night-of-cheri-jo-bates-death"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recxYDr9ao84ifUn1",
-          "name": "Riverside City College Library",
-          "slug": "riverside-city-college-library"
-        },
-        {
-          "id": "recb1NGObFPb1KXOX",
-          "name": "Crestlawn Memorial Park",
-          "slug": "crestlawn-memorial-park"
-        },
-        {
-          "id": "recaL5IYJuZgB9cEd",
-          "name": "The Swiss Inn",
-          "slug": "the-swiss-inn"
-        },
-        {
-          "id": "",
-          "name": "Riverside City College LibraryCrestlawn Memorial ParkThe Swiss Inn",
-          "slug": "riverside-city-college-librarycrestlawn-memorial-parkthe-swiss-inn"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recUo1Le1hDtuiGV0",
-          "name": "Cecelia Ann Shepard",
-          "slug": "cecelia-ann-shepard"
-        },
-        {
-          "id": "rec4ZhSZpZfgCU6ng",
-          "name": "Cheri Jo Bates",
-          "slug": "cheri-jo-bates"
-        },
-        {
-          "id": "recb7X6ZsOGFxprp9",
-          "name": "Cleophus Martin",
-          "slug": "cleophus-martin"
-        },
-        {
-          "id": "recTwipLP6sp7Www9",
-          "name": "Ross Sullivan",
-          "slug": "ross-sullivan"
-        },
-        {
-          "id": "recIPToWrud8BWT8F",
-          "name": "Rick Marshall",
-          "slug": "rick-marshall"
-        },
-        {
-          "id": "recOmKi1yuY4EfI3d",
-          "name": "Riverside City College Library",
-          "slug": "riverside-city-college-library"
-        },
-        {
-          "id": "reclURMsg3CwnpHXu",
-          "name": "Sgt. H.L. Homsher",
-          "slug": "sgt-h-l-homsher"
-        },
-        {
-          "id": "rec787LD61gifWYhY",
-          "name": "Chief Lambert T. Kinkead",
-          "slug": "chief-lambert-t-kinkead"
-        },
-        {
-          "id": "rec5Sz6UL49AFPq8i",
-          "name": "Riverside Community College",
-          "slug": "riverside-community-college"
-        },
-        {
-          "id": "recpyUq3bcArUcC72",
-          "name": "Ramona High School",
-          "slug": "ramona-high-school"
-        },
-        {
-          "id": "reclhR72XzI2FR104",
-          "name": "Dr. Byron Thomas Sanford",
-          "slug": "dr-byron-thomas-sanford"
-        },
-        {
-          "id": "recbUqUHTwHs7P7Ct",
-          "name": "Riverside Police Department",
-          "slug": "riverside-police-department"
-        },
-        {
-          "id": "rec4UJx84ksxEPIEx",
-          "name": "Joseph C. Bates",
-          "slug": "joseph-c-bates"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recwxwoDT5hxnv9eo",
-          "name": "The Murder of Cheri Jo Bates",
-          "slug": "the-murder-of-cheri-jo-bates"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 6,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Riverside, CA City Cecelia Ann Shepard Cheri Jo Bates Cleophus Martin Ross Sullivan Rick Marshall Riverside City College Library Sgt. H.L. Homsher Chief Lambert T. Kinkead Riverside Community College Ramona High School Dr. Byron Thomas Sanford Riverside Police Department Joseph C. Bates"
     },
     {
       "id": "recbF7clima1I0zrq",

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-17T13:59:47.217293+00:00",
+  "generatedAt": "2026-05-17T19:39:08.676464+00:00",
   "stats": {
-    "events": 466,
-    "people": 332,
+    "events": 467,
+    "people": 333,
     "locations": 346,
     "tags": 43,
     "images": 1663,
@@ -27,7 +27,7 @@
     },
     {
       "value": 1966,
-      "count": 23
+      "count": 24
     },
     {
       "value": 1971,
@@ -57,7 +57,7 @@
     },
     {
       "value": "Newspaper Article",
-      "count": 38
+      "count": 39
     },
     {
       "value": "Cultural Event",
@@ -106,7 +106,7 @@
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
       "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
-      "relatedEventCount": 23,
+      "relatedEventCount": 22,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
         "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 64,
+      "relatedEventCount": 63,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 17, 2026, 01:59 PM UTC",
+    "label": "May 17, 2026, 07:39 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,12 +484,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "466 dated events spanning 1925 to 2025."
+      "description": "467 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "332 linked people and organizations with related-event cross references."
+      "description": "333 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",

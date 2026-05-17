@@ -5427,7 +5427,13 @@
           "slug": "san-diego"
         }
       ],
-      "people": [],
+      "people": [
+        {
+          "id": "recER7HAHF2DVweQF",
+          "name": "Linda Lee Gillinger",
+          "slug": "linda-lee-gillinger"
+        }
+      ],
       "tags": [
         {
           "id": "recwxwoDT5hxnv9eo",
@@ -5447,7 +5453,62 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Linda L. Gillinger abducted and released in San Diego **Kidnap-Murder Connection Is Being Probed**\nRiverside homicide detectives last night were investigating the possible connection between the abduction Wednesday of a 19-year-old girl and the Oct. 30 murder of Cheri Jo Bates.\nThe girl, Linda L. Gillinger, was released unharmed in San Diego, after her abductor forced her to drive there at gunpoint after waiting for her in the back of her car.\nShe described her kidnaper as a young, college - looking man with short brown hair and medium build. Miss Bates was stabbed to death on the Riverside City College campus by a man who waited by her car.\nMiss Gillinger told detectives the man tried to kiss her, but she slapped him and he slapped her back. He ordered her out of the car, locked it, and threw the keys away.\n\"Now you have as good a chance as I do,\" the man said. They both ran in opposite directions from the car. She reached the San Diego Police Department about 2 a.m. Zodiac Related Events Riverside, CA San Diego, CA Riverside CA San Diego The Murder of Cheri Jo Bates"
+      "searchText": "Linda L. Gillinger abducted and released in San Diego **Kidnap-Murder Connection Is Being Probed**\nRiverside homicide detectives last night were investigating the possible connection between the abduction Wednesday of a 19-year-old girl and the Oct. 30 murder of Cheri Jo Bates.\nThe girl, Linda L. Gillinger, was released unharmed in San Diego, after her abductor forced her to drive there at gunpoint after waiting for her in the back of her car.\nShe described her kidnaper as a young, college - looking man with short brown hair and medium build. Miss Bates was stabbed to death on the Riverside City College campus by a man who waited by her car.\nMiss Gillinger told detectives the man tried to kiss her, but she slapped him and he slapped her back. He ordered her out of the car, locked it, and threw the keys away.\n\"Now you have as good a chance as I do,\" the man said. They both ran in opposite directions from the car. She reached the San Diego Police Department about 2 a.m. Zodiac Related Events Riverside, CA San Diego, CA Riverside CA San Diego Linda Lee Gillinger The Murder of Cheri Jo Bates"
+    },
+    {
+      "id": "rec3kINLWbyeHtMhV",
+      "slug": "bates-connection-to-gillinger-kidnapping-is-explored",
+      "kind": "event",
+      "title": "Bates connection to Gillinger kidnapping is explored",
+      "date": "1966-12-09",
+      "dateLabel": "Fri, Dec 9, 1966",
+      "year": 1966,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1966-12-09-9999-00466",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recT2ynH7gNXP8Siv",
+          "name": "Riverside, CA",
+          "slug": "riverside-ca"
+        },
+        {
+          "id": "",
+          "name": "Riverside",
+          "slug": "riverside"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recER7HAHF2DVweQF",
+          "name": "Linda Lee Gillinger",
+          "slug": "linda-lee-gillinger"
+        },
+        {
+          "id": "recC3nSZjcCKrCU4O",
+          "name": "The San Bernardino County Sun",
+          "slug": "the-san-bernardino-county-sun"
+        },
+        {
+          "id": "rec4ZhSZpZfgCU6ng",
+          "name": "Cheri Jo Bates",
+          "slug": "cheri-jo-bates"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Bates connection to Gillinger kidnapping is explored Newspaper Article Riverside, CA Riverside CA Linda Lee Gillinger The San Bernardino County Sun Cheri Jo Bates"
     },
     {
       "id": "recu9xta5DWnDSaRC",
@@ -29161,7 +29222,7 @@
       },
       {
         "value": "1966",
-        "count": 23
+        "count": 24
       },
       {
         "value": "1965",
@@ -29303,7 +29364,7 @@
       },
       {
         "value": "Newspaper Article",
-        "count": 38
+        "count": 39
       },
       {
         "value": "Non-Zodiac Events",
@@ -29465,7 +29526,7 @@
       },
       {
         "value": "CA",
-        "count": 166
+        "count": 167
       },
       {
         "value": "CA)",
@@ -30093,7 +30154,7 @@
       },
       {
         "value": "Riverside",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Riverside City College Library",
@@ -30101,7 +30162,7 @@
       },
       {
         "value": "Riverside, CA",
-        "count": 6
+        "count": 7
       },
       {
         "value": "RKO Golden Gate Theatre",
@@ -30547,7 +30608,7 @@
       },
       {
         "value": "Cheri Jo Bates",
-        "count": 15
+        "count": 16
       },
       {
         "value": "Chester Clark Klingel Jr.",
@@ -30962,6 +31023,10 @@
         "count": 2
       },
       {
+        "value": "Linda Lee Gillinger",
+        "count": 2
+      },
+      {
         "value": "Louis (Louie) Joseph Myers",
         "count": 7
       },
@@ -31315,7 +31380,7 @@
       },
       {
         "value": "The San Bernardino County Sun",
-        "count": 3
+        "count": 4
       },
       {
         "value": "The SLA",
