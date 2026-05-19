@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-18T20:03:13.405191+00:00",
+  "generatedAt": "2026-05-19T04:35:28.984115+00:00",
   "stats": {
-    "events": 467,
-    "people": 333,
+    "events": 470,
+    "people": 335,
     "locations": 346,
     "tags": 43,
-    "images": 1663,
+    "images": 1665,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 119
+      "count": 120
     },
     {
       "value": "Case Event",
@@ -53,7 +53,7 @@
     },
     {
       "value": "Media Event",
-      "count": 42
+      "count": 43
     },
     {
       "value": "Newspaper Article",
@@ -106,7 +106,7 @@
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
       "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
-      "relatedEventCount": 22,
+      "relatedEventCount": 23,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
         "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
@@ -151,17 +151,17 @@
       "mapOpenUrl": ""
     },
     {
-      "id": "recWCYPeTb61e4m3q",
-      "slug": "richard-gaikowski",
+      "id": "rec7Fue7MIOL0uRL6",
+      "slug": "ken-narlow",
       "kind": "person",
-      "title": "Richard Gaikowski",
-      "subtitle": "Suspect,Deceased",
-      "excerpt": "Counterculture journalist based in San Francisco.",
+      "title": "Ken Narlow",
+      "subtitle": "Law Enforcement,Deceased,Key Figure",
+      "excerpt": "",
       "relatedEventCount": 17,
       "primaryImage": {
-        "originalUrl": "data/media/att7wDeera7I07iAe_image.png",
-        "thumbUrl": "data/media/derived/thumb/att7wDeera7I07iAe_image.png",
-        "mediumUrl": "data/media/derived/medium/att7wDeera7I07iAe_image.png",
+        "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
+        "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
+        "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
         "derivativeState": "derived",
         "label": "image.png"
       },
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 63,
+      "relatedEventCount": 64,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 18, 2026, 08:03 PM UTC",
+    "label": "May 19, 2026, 04:35 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,12 +484,12 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "467 dated events spanning 1925 to 2025."
+      "description": "470 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "333 linked people and organizations with related-event cross references."
+      "description": "335 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
