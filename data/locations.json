@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T20:06:26.140259+00:00",
+  "generatedAt": "2026-05-20T04:38:51.679618+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -214,8 +214,8 @@
         },
         {
           "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
+          "name": "Avery publishes Riverside connection in SF Chronicle",
+          "slug": "avery-publishes-riverside-connection-in-sf-chronicle"
         },
         {
           "id": "recAJjplezVzhY2GE",
@@ -7462,11 +7462,25 @@
       "slug": "patterson-ca",
       "kind": "location",
       "title": "Patterson, CA",
-      "subtitle": "",
+      "subtitle": "City",
       "summary": "",
       "excerpt": "",
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/att2UXuceWR0iUJEU_image.png",
+          "thumbUrl": "data/media/derived/thumb/att2UXuceWR0iUJEU_image.png",
+          "mediumUrl": "data/media/derived/medium/att2UXuceWR0iUJEU_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att2UXuceWR0iUJEU_image.png",
+        "thumbUrl": "data/media/derived/thumb/att2UXuceWR0iUJEU_image.png",
+        "mediumUrl": "data/media/derived/medium/att2UXuceWR0iUJEU_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Located Within",
@@ -7508,7 +7522,7 @@
       "relatedEventCount": 2,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Patterson, CA Kathleen Johns Patterson Police Department Stanislaus County Sheriff's Department"
+      "searchText": "Patterson, CA City Kathleen Johns Patterson Police Department Stanislaus County Sheriff's Department"
     },
     {
       "id": "recdTT14IJ2ThhtD8",

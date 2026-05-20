@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-19T20:06:26.140259+00:00",
+  "generatedAt": "2026-05-20T04:38:51.679618+00:00",
   "stats": {
     "events": 470,
-    "people": 335,
+    "people": 336,
     "locations": 346,
     "tags": 43,
-    "images": 1665,
+    "images": 1668,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 19, 2026, 08:06 PM UTC",
+    "label": "May 20, 2026, 04:38 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -489,7 +489,7 @@
     {
       "view": "people",
       "title": "People",
-      "description": "335 linked people and organizations with related-event cross references."
+      "description": "336 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",

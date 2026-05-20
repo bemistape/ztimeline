@@ -2772,6 +2772,18 @@
       "mediumUrl": "data/media/derived/medium/attR6UVrYUdLRfAU8_San_Francisco_Chronicle_1970_11_16_4.jpg",
       "derivativeState": "derived"
     },
+    "data/media/att5AThsZlhNBfZdD_San_Francisco_Chronicle_1970_11_16_1__1_.jpg": {
+      "originalUrl": "data/media/att5AThsZlhNBfZdD_San_Francisco_Chronicle_1970_11_16_1__1_.jpg",
+      "thumbUrl": "data/media/derived/thumb/att5AThsZlhNBfZdD_San_Francisco_Chronicle_1970_11_16_1__1_.jpg",
+      "mediumUrl": "data/media/derived/medium/att5AThsZlhNBfZdD_San_Francisco_Chronicle_1970_11_16_1__1_.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attUpGjne1j94o5j6_San_Francisco_Chronicle_1970_11_16_4__1_.jpg": {
+      "originalUrl": "data/media/attUpGjne1j94o5j6_San_Francisco_Chronicle_1970_11_16_4__1_.jpg",
+      "thumbUrl": "data/media/derived/thumb/attUpGjne1j94o5j6_San_Francisco_Chronicle_1970_11_16_4__1_.jpg",
+      "mediumUrl": "data/media/derived/medium/attUpGjne1j94o5j6_San_Francisco_Chronicle_1970_11_16_4__1_.jpg",
+      "derivativeState": "derived"
+    },
     "data/media/attJpFVrNGlx4AQ6y_Marsh_Dares_Zodiac.jpg": {
       "originalUrl": "data/media/attJpFVrNGlx4AQ6y_Marsh_Dares_Zodiac.jpg",
       "thumbUrl": "data/media/derived/thumb/attJpFVrNGlx4AQ6y_Marsh_Dares_Zodiac.jpg",
@@ -6004,6 +6016,12 @@
       "originalUrl": "data/media/attAOit5HsYvcyt9U_image.png",
       "thumbUrl": "data/media/derived/thumb/attAOit5HsYvcyt9U_image.png",
       "mediumUrl": "data/media/derived/medium/attAOit5HsYvcyt9U_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/att2UXuceWR0iUJEU_image.png": {
+      "originalUrl": "data/media/att2UXuceWR0iUJEU_image.png",
+      "thumbUrl": "data/media/derived/thumb/att2UXuceWR0iUJEU_image.png",
+      "mediumUrl": "data/media/derived/medium/att2UXuceWR0iUJEU_image.png",
       "derivativeState": "derived"
     },
     "data/media/attp5zzTcZIyttl6z_image.png": {

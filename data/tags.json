@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T20:06:26.140259+00:00",
+  "generatedAt": "2026-05-20T04:38:51.679618+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -4388,7 +4388,7 @@
           "slug": "bates-desktop-poem-discovered"
         },
         {
-          "id": "recx232Yd4vQml60O",
+          "id": "",
           "name": "Riverside connection is published in SF Chronicle",
           "slug": "riverside-connection-is-published-in-sf-chronicle"
         },
@@ -4446,6 +4446,11 @@
           "id": "rec1pRvTsUrpzImQh",
           "name": "The LA Times letter",
           "slug": "the-la-times-letter"
+        },
+        {
+          "id": "recx232Yd4vQml60O",
+          "name": "Avery publishes Riverside connection in SF Chronicle",
+          "slug": "avery-publishes-riverside-connection-in-sf-chronicle"
         }
       ],
       "relatedPeople": [
@@ -4469,7 +4474,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 16,
+      "relatedEventCount": 17,
       "searchText": "The Murder of Cheri Jo Bates"
     },
     {

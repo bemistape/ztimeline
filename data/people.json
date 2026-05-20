@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T20:06:26.140259+00:00",
+  "generatedAt": "2026-05-20T04:38:51.679618+00:00",
   "items": [
     {
       "id": "recGZwp9mtC6qB9Hd",
@@ -1081,8 +1081,8 @@
         },
         {
           "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
+          "name": "Avery publishes Riverside connection in SF Chronicle",
+          "slug": "avery-publishes-riverside-connection-in-sf-chronicle"
         },
         {
           "id": "recYh6IyIS3J1JDgA",
@@ -2527,8 +2527,8 @@
         },
         {
           "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
+          "name": "Avery publishes Riverside connection in SF Chronicle",
+          "slug": "avery-publishes-riverside-connection-in-sf-chronicle"
         },
         {
           "id": "reciftflcnfzSgVzi",
@@ -3931,8 +3931,8 @@
         },
         {
           "id": "recx232Yd4vQml60O",
-          "name": "Riverside connection is published in SF Chronicle",
-          "slug": "riverside-connection-is-published-in-sf-chronicle"
+          "name": "Avery publishes Riverside connection in SF Chronicle",
+          "slug": "avery-publishes-riverside-connection-in-sf-chronicle"
         },
         {
           "id": "recYh6IyIS3J1JDgA",
@@ -22910,6 +22910,49 @@
       ],
       "relatedEventCount": 1,
       "searchText": "Robert Connelly Robert Connelly  Lake Herman Pumping Station"
+    },
+    {
+      "id": "recrGGXK6qxnkPStG",
+      "slug": "robert-salem",
+      "kind": "person",
+      "title": "Robert Salem",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Robert Salem"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recOmaHlSFQamXT3v",
+          "name": "Robert Salem's dead body is found",
+          "slug": "robert-salem-s-dead-body-is-found"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Robert%20Salem&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Robert%20Salem&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Robert Salem Robert Salem  San Francisco"
     },
     {
       "id": "recODGzJlkA13FVo1",
