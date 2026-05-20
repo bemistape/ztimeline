@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-20T09:55:29.975698+00:00",
+  "generatedAt": "2026-05-20T15:59:12.408607+00:00",
   "stats": {
-    "events": 470,
-    "people": 336,
-    "locations": 346,
+    "events": 471,
+    "people": 338,
+    "locations": 352,
     "tags": 43,
-    "images": 1668,
+    "images": 1673,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -41,11 +41,11 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 120
+      "count": 121
     },
     {
       "value": "Case Event",
-      "count": 89
+      "count": 90
     },
     {
       "value": "Victim Event",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 20, 2026, 09:55 AM UTC",
+    "label": "May 20, 2026, 03:59 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,17 +484,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "470 dated events spanning 1925 to 2025."
+      "description": "471 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "336 linked people and organizations with related-event cross references."
+      "description": "338 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "346 places connected to the archive, including mapped sites where data exists."
+      "description": "352 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

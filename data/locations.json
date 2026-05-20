@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T09:55:29.975698+00:00",
+  "generatedAt": "2026-05-20T15:59:12.408607+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -1598,6 +1598,11 @@
           "slug": "washington-d-c"
         },
         {
+          "id": "recsRrv4mWSjeVDTq",
+          "name": "Texas",
+          "slug": "texas"
+        },
+        {
           "id": "",
           "name": "Solano County",
           "slug": "solano-county"
@@ -1939,18 +1944,28 @@
         },
         {
           "id": "",
-          "name": "OHGuamCaliforniaNew York StateIllinoisIdahoMontanaGeorgiaPennsylvaniaNevadaOklahomaArizonaOregonColoradoNebraskaVirginiaSouth DakotaMassachusettsMichiganIndianaHawaiiKansasWest VirginiaFloridaOhioWashington",
-          "slug": "ohguamcalifornianew-york-stateillinoisidahomontanageorgiapennsylvanianevadaoklahomaarizonaoregoncoloradonebraskavirginiasouth-dakotamassachusettsmichiganindianahawaiikansaswest-virginiafloridaohiowashington"
+          "name": "OHTravis County",
+          "slug": "ohtravis-county"
         },
         {
           "id": "",
-          "name": "D.C.",
-          "slug": "d-c"
+          "name": "TXGuamCaliforniaNew York StateIllinoisIdahoMontanaGeorgiaPennsylvaniaNevadaOklahomaArizonaOregonColoradoNebraskaVirginiaSouth DakotaMassachusettsMichiganIndianaHawaiiKansasWest VirginiaFloridaOhioWashington",
+          "slug": "txguamcalifornianew-york-stateillinoisidahomontanageorgiapennsylvanianevadaoklahomaarizonaoregoncoloradonebraskavirginiasouth-dakotamassachusettsmichiganindianahawaiikansaswest-virginiafloridaohiowashington"
+        },
+        {
+          "id": "",
+          "name": "D.C.Texas",
+          "slug": "d-c-texas"
         },
         {
           "id": "recYHEuEKYp3n0Gva",
           "name": "Washington",
           "slug": "washington"
+        },
+        {
+          "id": "",
+          "name": "D.C.",
+          "slug": "d-c"
         }
       ],
       "relatedPeople": [
@@ -2215,14 +2230,14 @@
           "slug": "harry-wogan"
         },
         {
-          "id": "recUj9VcE1TiYBWhk",
-          "name": "The Solano-Napa News Chronicle",
-          "slug": "the-solano-napa-news-chronicle"
-        },
-        {
           "id": "recFaKMK2SMtmEMkK",
           "name": "Michael O'Hare",
           "slug": "michael-o-hare"
+        },
+        {
+          "id": "recUj9VcE1TiYBWhk",
+          "name": "The Solano-Napa News Chronicle",
+          "slug": "the-solano-napa-news-chronicle"
         },
         {
           "id": "recC3nSZjcCKrCU4O",
@@ -2795,6 +2810,11 @@
           "slug": "coroner-of-solano-county"
         },
         {
+          "id": "recxEj7MJb7soxp3u",
+          "name": "Kim Rossmo",
+          "slug": "kim-rossmo"
+        },
+        {
           "id": "recuTwEDTrFEH2LV9",
           "name": "Rev. James O. Hulin",
           "slug": "rev-james-o-hulin"
@@ -3100,7 +3120,7 @@
       "relatedEventCount": 13,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Paul Avery Donald (Don) Cheney The Los Angeles Times Richard Hoffman Ken Narlow Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Tom Voigt Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Shelly Irene Holmboe Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Gareth Penn Louis (Louie) Joseph Myers William McDuff Andrew Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Michael O'Hare The San Bernardino County Sun Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski Joanne (Sunbather) Linda L. Jensen (Sunbather) Berta Margoulies R. Clifton Rayfield The Sacramento Union William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet Hugh Penn William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Boston Globe The New York Times Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Peter Gasser Ronald Gene Allen Ethan Warren Allen Richard Lonergan Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University MIT The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel United States Army Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+      "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen Cheri Jo Bates San Francisco Chronicle San Francisco Examiner Vallejo Times-Herald Paul Avery Donald (Don) Cheney The Los Angeles Times Richard Hoffman Ken Narlow Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Tom Voigt Armistead Maupin David Toschi Vallejo Police Melvin Belli Napa County Sheriff's Department SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Shelly Irene Holmboe Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Gareth Penn Louis (Louie) Joseph Myers William McDuff Andrew Jim Phillips Crabtree Harry Wogan Michael O'Hare The Solano-Napa News Chronicle The San Bernardino County Sun Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski Joanne (Sunbather) Linda L. Jensen (Sunbather) Berta Margoulies R. Clifton Rayfield The Sacramento Union William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) Gary Ronald Schilling David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet Hugh Penn William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Dave Smith Albany Times-Union The Modesto Bee Boston Globe The New York Times Golden Daily Transcript Sacramento Bee KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Peter Gasser Ronald Gene Allen Ethan Warren Allen Richard Lonergan Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University MIT The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Kim Rossmo Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel United States Army Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
       "id": "reccuFwS3SQNJRVps",
@@ -7543,8 +7563,8 @@
       "relatedEvents": [
         {
           "id": "rec5GoyI3M52m5F5q",
-          "name": "Donna Lass disappears",
-          "slug": "donna-lass-disappears"
+          "name": "Donna Lass is seen for the last time",
+          "slug": "donna-lass-is-seen-for-the-last-time"
         },
         {
           "id": "recxbSe8LCILJR4x4",
@@ -13073,8 +13093,8 @@
       "relatedEvents": [
         {
           "id": "rec5GoyI3M52m5F5q",
-          "name": "Donna Lass disappears",
-          "slug": "donna-lass-disappears"
+          "name": "Donna Lass is seen for the last time",
+          "slug": "donna-lass-is-seen-for-the-last-time"
         }
       ],
       "relatedLocations": [],
@@ -13347,8 +13367,8 @@
       "relatedEvents": [
         {
           "id": "rec5GoyI3M52m5F5q",
-          "name": "Donna Lass disappears",
-          "slug": "donna-lass-disappears"
+          "name": "Donna Lass is seen for the last time",
+          "slug": "donna-lass-is-seen-for-the-last-time"
         }
       ],
       "relatedLocations": [],
@@ -14325,6 +14345,38 @@
       "searchText": "Arizona Archie E. White Donald C. B. Marsh"
     },
     {
+      "id": "recOiLwRy8ta786XP",
+      "slug": "austin-tx",
+      "kind": "location",
+      "title": "Austin, TX",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Travis County, TX"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recxEj7MJb7soxp3u",
+          "name": "Kim Rossmo",
+          "slug": "kim-rossmo"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Austin, TX City Kim Rossmo"
+    },
+    {
       "id": "recZEKrkV4LLyV1CU",
       "slug": "bakersfield-ca",
       "kind": "location",
@@ -14529,6 +14581,62 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Bethel, NY City"
+    },
+    {
+      "id": "recW9W3pO6iSQHyqY",
+      "slug": "british-columbia",
+      "kind": "location",
+      "title": "British Columbia",
+      "subtitle": "State",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attMdnxtLdRd7P3wB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attMdnxtLdRd7P3wB_image.png",
+          "mediumUrl": "data/media/derived/medium/attMdnxtLdRd7P3wB_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attMdnxtLdRd7P3wB_image.png",
+        "thumbUrl": "data/media/derived/thumb/attMdnxtLdRd7P3wB_image.png",
+        "mediumUrl": "data/media/derived/medium/attMdnxtLdRd7P3wB_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Canada"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "rec38FN1FeF5cKyZV",
+          "name": "Vancouver, BC",
+          "slug": "vancouver-bc"
+        },
+        {
+          "id": "",
+          "name": "Vancouver",
+          "slug": "vancouver"
+        },
+        {
+          "id": "",
+          "name": "BC",
+          "slug": "bc"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "British Columbia State"
     },
     {
       "id": "rec9rKIeoqHilBSOC",
@@ -16670,6 +16778,57 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Cambridge, MA City MIT"
+    },
+    {
+      "id": "rec9JzRVLFfnBMaXw",
+      "slug": "canada",
+      "kind": "location",
+      "title": "Canada",
+      "subtitle": "Country",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attrPxBSmQV2csvlZ_image.png",
+          "thumbUrl": "data/media/derived/thumb/attrPxBSmQV2csvlZ_image.png",
+          "mediumUrl": "data/media/derived/medium/attrPxBSmQV2csvlZ_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attrPxBSmQV2csvlZ_image.png",
+        "thumbUrl": "data/media/derived/thumb/attrPxBSmQV2csvlZ_image.png",
+        "mediumUrl": "data/media/derived/medium/attrPxBSmQV2csvlZ_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recW9W3pO6iSQHyqY",
+          "name": "British Columbia",
+          "slug": "british-columbia"
+        },
+        {
+          "id": "",
+          "name": "Vancouver",
+          "slug": "vancouver"
+        },
+        {
+          "id": "",
+          "name": "BCBritish Columbia",
+          "slug": "bcbritish-columbia"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Canada Country"
     },
     {
       "id": "recixuatPsH8bqa9N",
@@ -23933,6 +24092,64 @@
       "searchText": "Temecula, CA City Michael Renault Mageau Carmen Elois Welch Mageau Vrana"
     },
     {
+      "id": "recsRrv4mWSjeVDTq",
+      "slug": "texas",
+      "kind": "location",
+      "title": "Texas",
+      "subtitle": "State",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "United States of America"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "rece5GwVUJBLzq418",
+          "name": "Travis County, TX",
+          "slug": "travis-county-tx"
+        },
+        {
+          "id": "",
+          "name": "Austin",
+          "slug": "austin"
+        },
+        {
+          "id": "",
+          "name": "TXTravis County",
+          "slug": "txtravis-county"
+        },
+        {
+          "id": "",
+          "name": "TX",
+          "slug": "tx"
+        },
+        {
+          "id": "",
+          "name": "Travis County",
+          "slug": "travis-county"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recxEj7MJb7soxp3u",
+          "name": "Kim Rossmo",
+          "slug": "kim-rossmo"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Texas State Kim Rossmo"
+    },
+    {
       "id": "rec5dO6rQpEIZwUcL",
       "slug": "travis-afb-ca",
       "kind": "location",
@@ -23957,6 +24174,54 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Travis AFB, CA City"
+    },
+    {
+      "id": "rece5GwVUJBLzq418",
+      "slug": "travis-county-tx",
+      "kind": "location",
+      "title": "Travis County, TX",
+      "subtitle": "County",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Texas"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recOiLwRy8ta786XP",
+          "name": "Austin, TX",
+          "slug": "austin-tx"
+        },
+        {
+          "id": "",
+          "name": "Austin",
+          "slug": "austin"
+        },
+        {
+          "id": "",
+          "name": "TX",
+          "slug": "tx"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recxEj7MJb7soxp3u",
+          "name": "Kim Rossmo",
+          "slug": "kim-rossmo"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Travis County, TX County Kim Rossmo"
     },
     {
       "id": "recsW8zGm0yH7XKh1",
@@ -24295,6 +24560,46 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Valley Springs, CA City Arthur Leigh Allen Valley Spring Elementary"
+    },
+    {
+      "id": "rec38FN1FeF5cKyZV",
+      "slug": "vancouver-bc",
+      "kind": "location",
+      "title": "Vancouver, BC",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/att53UAJ45KZp9zOo_image.png",
+          "thumbUrl": "data/media/derived/thumb/att53UAJ45KZp9zOo_image.png",
+          "mediumUrl": "data/media/derived/medium/att53UAJ45KZp9zOo_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/att53UAJ45KZp9zOo_image.png",
+        "thumbUrl": "data/media/derived/thumb/att53UAJ45KZp9zOo_image.png",
+        "mediumUrl": "data/media/derived/medium/att53UAJ45KZp9zOo_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "British Columbia"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Vancouver, BC City"
     },
     {
       "id": "rech0ZMIOguKzF9vj",
