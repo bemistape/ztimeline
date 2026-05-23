@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T20:13:33.569055+00:00",
+  "generatedAt": "2026-05-23T04:10:26.006045+00:00",
   "items": [
     {
       "kind": "event",
@@ -2556,10 +2556,10 @@
     {
       "kind": "event",
       "id": "recU4ePZ6EkEMchfl",
-      "slug": "donna-lass-disappearance-publicized-in-san-francisco",
-      "title": "Donna Lass disappearance publicized in San Francisco",
+      "slug": "donna-lass-disappearance-published-in-san-francisco",
+      "title": "Donna Lass disappearance published in San Francisco",
       "subtitle": "Victim Event • Sat, Sep 26, 1970",
-      "searchText": "Donna Lass disappearance publicized in San Francisco Victim Event  Donna Lass San Francisco "
+      "searchText": "Donna Lass disappearance published in San Francisco Victim Event  Donna Lass San Francisco "
     },
     {
       "kind": "event",
@@ -2659,6 +2659,14 @@
     },
     {
       "kind": "event",
+      "id": "reco4lEqEdbnZ8MAO",
+      "slug": "la-times-letter-is-published-in-sf-chronicle-text-fragment-from-sierra-club-card",
+      "title": "LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card",
+      "subtitle": "Newspaper Article • Tue, Mar 16, 1971",
+      "searchText": "LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card Newspaper Article  San Francisco Chronicle San Francisco "
+    },
+    {
+      "kind": "event",
       "id": "recBAA9YBl43m7PYX",
       "slug": "death-of-arthur-leigh-allen-s-father",
       "title": "Death of Arthur Leigh Allen's father",
@@ -2667,11 +2675,19 @@
     },
     {
       "kind": "event",
+      "id": "recsmEDf5uowUBKju",
+      "slug": "forest-pines-at-incline-advertisement-runs-in-sf-chronicle-examiner",
+      "title": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner",
+      "subtitle": "Newspaper Article • Fri, Mar 19, 1971",
+      "searchText": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner Newspaper Article Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee. San Francisco Chronicle San Francisco Examiner Sacramento Bee San Francisco "
+    },
+    {
+      "kind": "event",
       "id": "recqhrDZc0vFnQ3hA",
       "slug": "the-sierra-club-postcard",
       "title": "The Sierra Club Postcard",
       "subtitle": "Disputed Z Communication • Mon, Mar 22, 1971",
-      "searchText": "The Sierra Club Postcard Disputed Z Communication  Zodiac San Francisco Chronicle Paul Avery Donna Lass San Francisco Chronicle offices Zodiac Letters"
+      "searchText": "The Sierra Club Postcard Disputed Z Communication  Zodiac San Francisco Chronicle Paul Avery The Los Angeles Times San Francisco Examiner San Francisco Chronicle offices Zodiac Letters"
     },
     {
       "kind": "event",
@@ -3791,7 +3807,7 @@
       "slug": "san-francisco-chronicle",
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
-      "searchText": "San Francisco Chronicle Media,Organization,Key Figure The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco Chronicle The Halloween Card The Sierra Club Postcard The Dripping Pen Card & Z340 Cipher mailed The Eureka Christmas Card Count Marco's Chicago letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle Stine Letter is published, Zodiac linked Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Avery publishes Riverside connection in SF Chronicle \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" Zodiac Press Coverage [10/15/1969] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [7/6/1969] Coverage of Bates murder in California newspapers on 11/1 Happy New Year card of 2001 The Cipher Letters and the Z408 Gareth Penn complains about \"garbled theory\" in letter to editor Robert Graysmith Herb Caen Keith Power San Francisco SF Bay Area California United States of America San Francisco Chronicle offices Eureka, CA Chicago Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
+      "searchText": "San Francisco Chronicle Media,Organization,Key Figure The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dramatic Chronicle. It adopted its current name in 1869 and, as San Francisco grew, the Chronicle became one of the largest newspapers on the West Coast by the 1880s ([en.wikipedia.org](https://en.wikipedia.org/wiki/San_Francisco_Chronicle#:~:text=The%20San%20Francisco%20Chronicle%20is,the%20%2085%20by%201880)). Now owned by Hearst Communications, the broadsheet remains the dominant daily newspaper in San Francisco.\nThe Chronicle is inextricably linked to the Zodiac case because the killer used the newspaper as his main conduit to the public. On July 31 1969, a letter arrived at the Chronicle in which a person claimed responsibility for the Lake Herman Road and Blue Rock Springs murders and enclosed a portion of a cipher; the other two parts were mailed to the Vallejo Times‑Herald and the San Francisco Examiner. Over the next several years the killer sent a string of taunting letters, cards and cryptograms to newspapers — 17 of the 22 known communications were delivered to the Chronicle ([www.sfchronicle.com](https://www.sfchronicle.com/nation/article/zodiac-killer-case-how-the-san-francisco-13464935.php#:~:text=Zodiac%20Letter%20The%20Chronicle%20One,Zodiac%20Killer)). Among them were a letter containing part of taxi driver Paul Stine’s shirt, and a Halloween card that threatened Chronicle reporter Paul Avery. The Chronicle published many of these communications and played a central role in reporting on the case, but there is no evidence that anyone at the paper had any connection to the crimes; its involvement was as a journalistic intermediary between the killer and the public. San Francisco Chronicle The Halloween Card The Sierra Club Postcard The Dripping Pen Card & Z340 Cipher mailed The Eureka Christmas Card Count Marco's Chicago letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle Stine Letter is published, Zodiac linked Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Avery publishes Riverside connection in SF Chronicle \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" Zodiac Press Coverage [10/15/1969] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [7/6/1969] Coverage of Bates murder in California newspapers on 11/1 Happy New Year card of 2001 The Cipher Letters and the Z408 Gareth Penn complains about \"garbled theory\" in letter to editor Forest Pines at Incline advertisement runs in SF Chronicle & Examiner LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card Robert Graysmith Herb Caen Keith Power San Francisco SF Bay Area California United States of America San Francisco Chronicle offices Eureka, CA Chicago Fairfield, CA Los Angeles Vallejo, CA Solano County, CA"
     },
     {
       "kind": "person",
@@ -3835,6 +3851,14 @@
     },
     {
       "kind": "person",
+      "id": "reckQ2Se5cvoZCWrF",
+      "slug": "san-francisco-examiner",
+      "title": "San Francisco Examiner",
+      "subtitle": "Media,Organization,Key Figure",
+      "searchText": "San Francisco Examiner Media,Organization,Key Figure San Francisco Examiner SF Examiner article asking where Zodiac went Dr. D.C.B. Marsh dares Zodiac to reveal name SF Examiner: \"Zodiac Linked to Five Area Murders\" Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Zodiac Press Coverage [8/4/1969] SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Coverage of Bates murder in California newspapers on 10/31 Coverage of Bates murder in California newspapers on 11/1 SF Examiner's front page message to Zodiac The Cipher Letters and the Z408 Forest Pines at Incline advertisement runs in SF Chronicle & Examiner The Sierra Club Postcard California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA San Francisco Chronicle offices"
+    },
+    {
+      "kind": "person",
       "id": "recNoik0QhJTMc50o",
       "slug": "bryan-calvin-hartnell",
       "title": "Bryan Calvin Hartnell",
@@ -3848,14 +3872,6 @@
       "title": "Chester Clark Klingel Jr.",
       "subtitle": "Suspect,Deceased",
       "searchText": "Chester Clark Klingel Jr. Suspect,Deceased Suspected mailer of 1990 Christmas card. Linked via safe deposit box. Chester Clark Klingel Jr. The Eureka Christmas Card Chester Klingel Jr. DNA tested Chester Klingel Jr. promoted to message center chief in US Army Chester Klingel Jr. marries third wife Blandina Chester Klingel III dies Chester Klingel Jr. starts satellite business Chester Klingel III arrested for pot Chester Klingel Jr.'s wife Blandina dies Chester Klinger Jr.'s second wedding Chester Klingel Jr.'s first wife dies Chester Klingel Jr. in bad car accident Chester Clark Klingel Jr. is certified as a seaman Chester Clark Klingel Jr. applies for Social Security number Merchant Marines Fireman's Fund Insurance United States Army Eureka, CA San Francisco Livermore, CA Amargosa Desert The Presidio Alameda County, CA Humboldt County, CA Alameda, CA Nye County, NV Mill Valley, CA Nevada Marin County, CA California SF Bay Area United States of America Vallejo, CA Guam Reno, NV Burley, ID Rupert, ID Hughson, CA Novato, CA Turlock, CA Stockton, CA Oakdale, CA Sausalito, CA Cryptography Military"
-    },
-    {
-      "kind": "person",
-      "id": "reckQ2Se5cvoZCWrF",
-      "slug": "san-francisco-examiner",
-      "title": "San Francisco Examiner",
-      "subtitle": "Media,Organization,Key Figure",
-      "searchText": "San Francisco Examiner Media,Organization,Key Figure San Francisco Examiner SF Examiner article asking where Zodiac went Dr. D.C.B. Marsh dares Zodiac to reveal name SF Examiner: \"Zodiac Linked to Five Area Murders\" Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Zodiac Press Coverage [8/4/1969] SF Chronicle/Examiner: Vallejo Mass Murder Threat Fails Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Coverage of Bates murder in California newspapers on 10/31 Coverage of Bates murder in California newspapers on 11/1 SF Examiner's front page message to Zodiac The Cipher Letters and the Z408 California United States of America San Francisco SF Bay Area Vallejo, CA Solano County, CA"
     },
     {
       "kind": "person",
@@ -3955,14 +3971,6 @@
     },
     {
       "kind": "person",
-      "id": "recpeSHGaAhZPttuI",
-      "slug": "donna-lass",
-      "title": "Donna Lass",
-      "subtitle": "Possible Victim,Deceased",
-      "searchText": "Donna Lass Possible Victim,Deceased Possible Zodiac victim in Nevada Donna Lass Donna Lass is seen for the last time Donna Lass remains recovered Donna Lass remains identified The Sierra Club Postcard Donna Lass disappearance publicized in Sacramento Donna Lass disappearance publicized in San Francisco Donna Lass family offers reward Sahara Tahoe Letterman General Hospital South Lake Tahoe, CA Stateline, NV Placer County, CA Donna Lass skull location near Camp Spaulding The Presidio San Francisco California SF Bay Area United States of America El Dorado County, CA Douglas County, NV Nevada Sacramento, CA The Donna Lass Murder"
-    },
-    {
-      "kind": "person",
       "id": "recc6hamJAag6Gpsg",
       "slug": "louis-louie-joseph-myers",
       "title": "Louis (Louie) Joseph Myers",
@@ -3979,6 +3987,14 @@
     },
     {
       "kind": "person",
+      "id": "recpJMrcs1l3WRn9j",
+      "slug": "the-los-angeles-times",
+      "title": "The Los Angeles Times",
+      "subtitle": "Media,Organization,Key Figure",
+      "searchText": "The Los Angeles Times Media,Organization,Key Figure The Los Angeles Times Zodiac Press Coverage [10/16/1969] Zodiac Press Coverage [10/15/1969] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Coverage of Bates murder in California newspapers on 11/1 The LA Times letter The Sierra Club Postcard Dave Smith Los Angeles Los Angeles County, CA United States of America California Vallejo, CA San Francisco Pleasanton, CA San Francisco Chronicle offices"
+    },
+    {
+      "kind": "person",
       "id": "recUj9VcE1TiYBWhk",
       "slug": "the-solano-napa-news-chronicle",
       "title": "The Solano-Napa News Chronicle",
@@ -3987,19 +4003,19 @@
     },
     {
       "kind": "person",
+      "id": "recpeSHGaAhZPttuI",
+      "slug": "donna-lass",
+      "title": "Donna Lass",
+      "subtitle": "Possible Victim,Deceased",
+      "searchText": "Donna Lass Possible Victim,Deceased Possible Zodiac victim in Nevada Donna Lass Donna Lass is seen for the last time Donna Lass remains recovered Donna Lass remains identified Donna Lass disappearance publicized in Sacramento Donna Lass disappearance published in San Francisco Donna Lass family offers reward Sahara Tahoe Letterman General Hospital South Lake Tahoe, CA Stateline, NV Placer County, CA Donna Lass skull location near Camp Spaulding The Presidio San Francisco California SF Bay Area United States of America El Dorado County, CA Douglas County, NV Nevada Sacramento, CA The Donna Lass Murder"
+    },
+    {
+      "kind": "person",
       "id": "recBcRszrpzCKM2UO",
       "slug": "jim-phillips-crabtree",
       "title": "Jim Phillips Crabtree",
       "subtitle": "Tied to Victim,Suspect",
       "searchText": "Jim Phillips Crabtree Tied to Victim,Suspect First husband of Darlene Ferrin. AKA James Phillips. Jim Phillips Crabtree Jim Phillips Crabtree interviewed by Vallejo Police Darlene Ferrin leaves home with Jim Phillips / Crabtree Darlene Suennen marries Jim Phillips Crabtree Darlene and Jim Phillips Crabtree return to Vallejo Darlene and Jim Phillips Crabtree divorce official Jim Phillips Crabtree employed at Knickbocker at the same time as Gaikowski Albany Knickerbocker-News Darlene (Suennen) Ferrin Albany, NY Santa Barbara, CA Solano County, CA Vallejo, CA California SF Bay Area United States of America Albany County, NY Santa Barbara County, CA Fairfield, CA New York State Santa Cruz, CA Darlene Ferrin's parents home (1969) Reno, NV Attack at Blue Rock Springs Park"
-    },
-    {
-      "kind": "person",
-      "id": "recpJMrcs1l3WRn9j",
-      "slug": "the-los-angeles-times",
-      "title": "The Los Angeles Times",
-      "subtitle": "Media,Organization,Key Figure",
-      "searchText": "The Los Angeles Times Media,Organization,Key Figure The Los Angeles Times Zodiac Press Coverage [10/16/1969] Zodiac Press Coverage [10/15/1969] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Coverage of Bates murder in California newspapers on 11/1 The LA Times letter Dave Smith Los Angeles Los Angeles County, CA United States of America California Vallejo, CA San Francisco Pleasanton, CA"
     },
     {
       "kind": "person",
@@ -5507,6 +5523,14 @@
     },
     {
       "kind": "person",
+      "id": "recZR4bvZKAmYMZig",
+      "slug": "sacramento-bee",
+      "title": "Sacramento Bee",
+      "subtitle": "Media",
+      "searchText": "Sacramento Bee Media Sacramento Bee Forest Pines at Incline advertisement runs in SF Chronicle & Examiner Sacramento, CA Sacramento County, CA California United States of America San Francisco"
+    },
+    {
+      "kind": "person",
       "id": "recEUoxgOoSQP91WI",
       "slug": "sahara-tahoe",
       "title": "Sahara Tahoe",
@@ -6219,14 +6243,6 @@
     },
     {
       "kind": "person",
-      "id": "recZR4bvZKAmYMZig",
-      "slug": "sacramento-bee",
-      "title": "Sacramento Bee",
-      "subtitle": "Media",
-      "searchText": "Sacramento Bee Media Sacramento Bee Sacramento, CA Sacramento County, CA California United States of America"
-    },
-    {
-      "kind": "person",
       "id": "recVObaigFF3aeJZ4",
       "slug": "san-francisco-state-university",
       "title": "San Francisco State University",
@@ -6479,7 +6495,7 @@
       "slug": "san-francisco",
       "title": "San Francisco",
       "subtitle": "City",
-      "searchText": "San Francisco City \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Halloween Card The Button Letter, Z32, & Mt. Diablo Map The SLA Letter The Badlands Letter is mailed The Red Phantom Letter is mailed The Dragon Card The Exorcist Letter Vallejo Times-Herald article on Toschi The Z13 Letter The Stine Letter is sent David Joseph Carpenter arrested for Trailside Killings Lynn Swann lawsuit against SFPD over harassment SF Examiner article asking where Zodiac went Charlie Chan at Treasure Island airs in SF area in 1968 Charlie Chan at Treasure Island runs on Channel 44 Count Marco's Chicago letter referencing Red Phantom Count Marco's Happily Married letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle The Belli Letter is published Stine Letter is published, Zodiac linked Donna Lass disappearance publicized in San Francisco Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets \"Sam\" doesn't show up at Fairmont Hotel Paul Stine begins his shift Paul Stine receives final dispatch from Mason & Geary to Presidio Heights Paul Avery discussed suspect \"Joost\" with Sherwood Morrill The Dripping Pen Card & Z340 Cipher mailed Earl Van Best arrested for \"child stealing\" Earl Van Best sentenced for \"Ice Cream Romance\" Paul Stine funeral media coverage Schilling released; Toschi doubts as suspect Avery publishes Riverside connection in SF Chronicle Dr. D.C.B. Marsh dares Zodiac to reveal name Paul Doerr writes letter to editor referencing \"slaves\" Cabbie claims encounter with Zodiac Cabbie's story about mugging is publicized Fouke report on Stine murder \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" SF Examiner: \"Zodiac Linked to Five Area Murders\" SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Zodiac Press Coverage [8/4/1969] Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Chester Clark Klingel Jr. is certified as a seaman SFPD deactivates Zodiac case 20th anniversary coverage Belli writes 20th anniversary letter to editor SF Examiner's front page message to Zodiac 18th anniversary coverage, Morrill claims possible visit from Zodiac William McDuff Andrew is born Article on continued interest in Zodiac case Melvin Belli makes appeal to Zodiac Robert Salem's dead body is found Gareth Penn complains about \"garbled theory\" in letter to editor Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis The Presidio SFPD Headquarters Daphne Funeral Service Paul Stine's home San Francisco Chronicle offices Home of Rick Marshall (1969) Mason & Geary (Union Square) First Unitarian Church (San Francisco) Presidio Heights RKO Golden Gate Theatre Golden Gate Park Police Station Site of Paul Stine's MurderThe PresidioSFPD HeadquartersDaphne Funeral ServicePaul Stine's homeSan Francisco Chronicle officesHome of Rick Marshall (1969)Mason & Geary (Union Square)First Unitarian Church (San Francisco)Presidio HeightsRKO Golden Gate TheatreGolden Gate Park Police Station Zodiac Letters"
+      "searchText": "San Francisco City \"Sam\" calls in to Jim Dunbar episode with Melvin Belli The Halloween Card The Button Letter, Z32, & Mt. Diablo Map The SLA Letter The Badlands Letter is mailed The Red Phantom Letter is mailed The Dragon Card The Exorcist Letter Vallejo Times-Herald article on Toschi The Z13 Letter The Stine Letter is sent David Joseph Carpenter arrested for Trailside Killings Lynn Swann lawsuit against SFPD over harassment SF Examiner article asking where Zodiac went Charlie Chan at Treasure Island airs in SF area in 1968 Charlie Chan at Treasure Island runs on Channel 44 Count Marco's Chicago letter referencing Red Phantom Count Marco's Happily Married letter referencing Red Phantom Red Phantom letter and Badlands letter are published in SF Chronicle The Exorcist Letter is published in the SF Chronicle The Belli Letter is published Stine Letter is published, Zodiac linked Donna Lass disappearance published in San Francisco Dripping Pen / Z340 / Bus Bomb Letter published, linked to San Jose murders Gaikowski files for Daybreak business name Gaikowski quoted in article about midnight movies re: the Roxie Gaikowski's \"Festival of Bards\" short film about beat poets \"Sam\" doesn't show up at Fairmont Hotel Paul Stine begins his shift Paul Stine receives final dispatch from Mason & Geary to Presidio Heights Paul Avery discussed suspect \"Joost\" with Sherwood Morrill The Dripping Pen Card & Z340 Cipher mailed Earl Van Best arrested for \"child stealing\" Earl Van Best sentenced for \"Ice Cream Romance\" Paul Stine funeral media coverage Schilling released; Toschi doubts as suspect Avery publishes Riverside connection in SF Chronicle Dr. D.C.B. Marsh dares Zodiac to reveal name Paul Doerr writes letter to editor referencing \"slaves\" Cabbie claims encounter with Zodiac Cabbie's story about mugging is publicized Fouke report on Stine murder \"A Challenge for the Zodiac\" letter sent to Paul Avery SF Chronicle: \"Cops No Closer on Zodiac Identity\" SF Chronicle: \"Bay Killer's Shrinking Timetable\" SF Examiner: \"Zodiac Linked to Five Area Murders\" SF Examiner: \"Zodiac Caller Tries to Kill Teacher With Arsenic\" [Daniel Williams incident] Dick Tracy: Zodiac plotline (10/12/1969) Dick Tracy: Zodiac plotline (10/11/1969) Zodiac Press Coverage [8/4/1969] Zodiac Press Coverage [8/2/1969] Zodiac Press Coverage [8/1/1969] Zodiac Press Coverage [7/6/1969] Chester Clark Klingel Jr. is certified as a seaman SFPD deactivates Zodiac case 20th anniversary coverage Belli writes 20th anniversary letter to editor SF Examiner's front page message to Zodiac 18th anniversary coverage, Morrill claims possible visit from Zodiac William McDuff Andrew is born Article on continued interest in Zodiac case Melvin Belli makes appeal to Zodiac Robert Salem's dead body is found Gareth Penn complains about \"garbled theory\" in letter to editor Forest Pines at Incline advertisement runs in SF Chronicle & Examiner LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis The Presidio SFPD Headquarters Daphne Funeral Service Paul Stine's home San Francisco Chronicle offices Home of Rick Marshall (1969) Mason & Geary (Union Square) First Unitarian Church (San Francisco) Presidio Heights RKO Golden Gate Theatre Golden Gate Park Police Station Site of Paul Stine's MurderThe PresidioSFPD HeadquartersDaphne Funeral ServicePaul Stine's homeSan Francisco Chronicle officesHome of Rick Marshall (1969)Mason & Geary (Union Square)First Unitarian Church (San Francisco)Presidio HeightsRKO Golden Gate TheatreGolden Gate Park Police Station Zodiac Letters"
     },
     {
       "kind": "location",

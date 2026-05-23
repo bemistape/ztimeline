@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T20:13:33.569055+00:00",
+  "generatedAt": "2026-05-23T04:10:26.006045+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -144,8 +144,8 @@
         },
         {
           "id": "recU4ePZ6EkEMchfl",
-          "name": "Donna Lass disappearance publicized in San Francisco",
-          "slug": "donna-lass-disappearance-publicized-in-san-francisco"
+          "name": "Donna Lass disappearance published in San Francisco",
+          "slug": "donna-lass-disappearance-published-in-san-francisco"
         },
         {
           "id": "recpRXga559CrkZK3",
@@ -351,6 +351,16 @@
           "id": "rec0GvFUy25svZOsK",
           "name": "Gareth Penn complains about \"garbled theory\" in letter to editor",
           "slug": "gareth-penn-complains-about-garbled-theory-in-letter-to-editor"
+        },
+        {
+          "id": "recsmEDf5uowUBKju",
+          "name": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner",
+          "slug": "forest-pines-at-incline-advertisement-runs-in-sf-chronicle-examiner"
+        },
+        {
+          "id": "reco4lEqEdbnZ8MAO",
+          "name": "LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card",
+          "slug": "la-times-letter-is-published-in-sf-chronicle-text-fragment-from-sierra-club-card"
         }
       ],
       "relatedLocations": [
@@ -620,7 +630,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 64,
+      "relatedEventCount": 66,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"

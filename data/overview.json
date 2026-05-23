@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-22T20:13:33.569055+00:00",
+  "generatedAt": "2026-05-23T04:10:26.006045+00:00",
   "stats": {
-    "events": 471,
+    "events": 473,
     "people": 338,
     "locations": 352,
     "tags": 43,
-    "images": 1673,
+    "images": 1679,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -31,7 +31,7 @@
     },
     {
       "value": 1971,
-      "count": 21
+      "count": 23
     },
     {
       "value": 1974,
@@ -57,7 +57,7 @@
     },
     {
       "value": "Newspaper Article",
-      "count": 39
+      "count": 41
     },
     {
       "value": "Cultural Event",
@@ -106,7 +106,7 @@
       "title": "San Francisco Chronicle",
       "subtitle": "Media,Organization,Key Figure",
       "excerpt": "The San Francisco Chronicle is an American daily newspaper serving the San Francisco Bay Area. It traces its roots to January 16, 1865, when teenage brothers Charles and M. H. de Young founded the paper as the Daily Dra…",
-      "relatedEventCount": 23,
+      "relatedEventCount": 25,
       "primaryImage": {
         "originalUrl": "data/media/attDPRuAsHTkVf6Yq_image.png",
         "thumbUrl": "data/media/derived/thumb/attDPRuAsHTkVf6Yq_image.png",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 64,
+      "relatedEventCount": 66,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 22, 2026, 08:13 PM UTC",
+    "label": "May 23, 2026, 04:10 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,7 +484,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "471 dated events spanning 1925 to 2025."
+      "description": "473 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

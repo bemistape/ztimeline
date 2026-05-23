@@ -20523,17 +20523,25 @@
         }
       ],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attq7WDXkX9snTxYy_The_Sacramento_Bee_1970_09_22_18.jpg",
+          "thumbUrl": "data/media/derived/thumb/attq7WDXkX9snTxYy_The_Sacramento_Bee_1970_09_22_18.jpg",
+          "mediumUrl": "data/media/derived/medium/attq7WDXkX9snTxYy_The_Sacramento_Bee_1970_09_22_18.jpg",
+          "derivativeState": "derived",
+          "label": "The_Sacramento_Bee_1970_09_22_18.jpg"
+        }
+      ],
       "sources": [],
       "mapUrl": "",
-      "hasMedia": false,
+      "hasMedia": true,
       "searchText": "Donna Lass disappearance publicized in Sacramento Victim Event Sacramento, CA Sacramento CA Donna Lass"
     },
     {
       "id": "recU4ePZ6EkEMchfl",
-      "slug": "donna-lass-disappearance-publicized-in-san-francisco",
+      "slug": "donna-lass-disappearance-published-in-san-francisco",
       "kind": "event",
-      "title": "Donna Lass disappearance publicized in San Francisco",
+      "title": "Donna Lass disappearance published in San Francisco",
       "date": "1970-09-26",
       "dateLabel": "Sat, Sep 26, 1970",
       "year": 1970,
@@ -20558,11 +20566,19 @@
         }
       ],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attcPTeRJiYAfts4W_San_Francisco_Chronicle_1970_09_26_3.jpg",
+          "thumbUrl": "data/media/derived/thumb/attcPTeRJiYAfts4W_San_Francisco_Chronicle_1970_09_26_3.jpg",
+          "mediumUrl": "data/media/derived/medium/attcPTeRJiYAfts4W_San_Francisco_Chronicle_1970_09_26_3.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1970_09_26_3.jpg"
+        }
+      ],
       "sources": [],
       "mapUrl": "",
-      "hasMedia": false,
-      "searchText": "Donna Lass disappearance publicized in San Francisco Victim Event San Francisco Donna Lass"
+      "hasMedia": true,
+      "searchText": "Donna Lass disappearance published in San Francisco Victim Event San Francisco Donna Lass"
     },
     {
       "id": "recmu7dXCG3eyaBtf",
@@ -21420,6 +21436,63 @@
       "searchText": "The LA Times letter Letter mailed to the L.A. Times referencing the case and prior Riverside discussion.\n\nThis is the Zodiac speaking\nLike I have allways said, I am crack proof. If the Blue Meannies are evere going to catch me, they had best get off their fat asses & do something. Because the longer they fiddle & fart around, the more slaves I will collect for my after life. I do have to give them credit for stumbling across my riverside activity, but they are only finding the easy ones, there are a hell of a lot more down there. The reason I'm writing to the Times is this, They don't bury me on the back pages like some of the others.\nSFPD-0 Z Communication Pleasanton, CA Pleasanton CA Zodiac Cheri Jo Bates The Los Angeles Times Zodiac Letters The Murder of Cheri Jo Bates"
     },
     {
+      "id": "reco4lEqEdbnZ8MAO",
+      "slug": "la-times-letter-is-published-in-sf-chronicle-text-fragment-from-sierra-club-card",
+      "kind": "event",
+      "title": "LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card",
+      "date": "1971-03-16",
+      "dateLabel": "Tue, Mar 16, 1971",
+      "year": 1971,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1971-03-16-9999-00472",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "rec5NLNj8q2bpKjm8",
+          "name": "San Francisco Chronicle",
+          "slug": "san-francisco-chronicle"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att3AuGepj1CI6Bsd_San_Francisco_Chronicle_1971_03_16_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/att3AuGepj1CI6Bsd_San_Francisco_Chronicle_1971_03_16_1.jpg",
+          "mediumUrl": "data/media/derived/medium/att3AuGepj1CI6Bsd_San_Francisco_Chronicle_1971_03_16_1.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1971_03_16_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attwnAQyFaVRllVAb_San_Francisco_Chronicle_1971_03_16_16.jpg",
+          "thumbUrl": "data/media/derived/thumb/attwnAQyFaVRllVAb_San_Francisco_Chronicle_1971_03_16_16.jpg",
+          "mediumUrl": "data/media/derived/medium/attwnAQyFaVRllVAb_San_Francisco_Chronicle_1971_03_16_16.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1971_03_16_16.jpg"
+        },
+        {
+          "originalUrl": "data/media/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
+          "thumbUrl": "data/media/derived/thumb/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
+          "mediumUrl": "data/media/derived/medium/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1971_03_16_14.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "LA Times Letter is published in SF Chronicle + text fragment from Sierra Club card Newspaper Article San Francisco San Francisco Chronicle"
+    },
+    {
       "id": "recBAA9YBl43m7PYX",
       "slug": "death-of-arthur-leigh-allen-s-father",
       "kind": "event",
@@ -21476,6 +21549,59 @@
       "searchText": "Death of Arthur Leigh Allen's father Suspect Event Sunrise Memorial Cemetery Ethan Warren Allen Arthur Leigh Allen Bernice Allen Ronald Gene Allen Arthur Leigh Allen"
     },
     {
+      "id": "recsmEDf5uowUBKju",
+      "slug": "forest-pines-at-incline-advertisement-runs-in-sf-chronicle-examiner",
+      "kind": "event",
+      "title": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner",
+      "date": "1971-03-19",
+      "dateLabel": "Fri, Mar 19, 1971",
+      "year": 1971,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1971-03-19-9999-00471",
+      "type": "Newspaper Article",
+      "description": "Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee.",
+      "excerpt": "Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee.",
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        }
+      ],
+      "people": [
+        {
+          "id": "rec5NLNj8q2bpKjm8",
+          "name": "San Francisco Chronicle",
+          "slug": "san-francisco-chronicle"
+        },
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
+        },
+        {
+          "id": "recZR4bvZKAmYMZig",
+          "name": "Sacramento Bee",
+          "slug": "sacramento-bee"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attihpLYsKC2xY0fT_San_Francisco_Chronicle_1971_03_19_37.jpg",
+          "thumbUrl": "data/media/derived/thumb/attihpLYsKC2xY0fT_San_Francisco_Chronicle_1971_03_19_37.jpg",
+          "mediumUrl": "data/media/derived/medium/attihpLYsKC2xY0fT_San_Francisco_Chronicle_1971_03_19_37.jpg",
+          "derivativeState": "derived",
+          "label": "San_Francisco_Chronicle_1971_03_19_37.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee. Newspaper Article San Francisco San Francisco Chronicle San Francisco Examiner Sacramento Bee"
+    },
+    {
       "id": "recqhrDZc0vFnQ3hA",
       "slug": "the-sierra-club-postcard",
       "kind": "event",
@@ -21513,9 +21639,14 @@
           "slug": "paul-avery"
         },
         {
-          "id": "recpeSHGaAhZPttuI",
-          "name": "Donna Lass",
-          "slug": "donna-lass"
+          "id": "recpJMrcs1l3WRn9j",
+          "name": "The Los Angeles Times",
+          "slug": "the-los-angeles-times"
+        },
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
         }
       ],
       "tags": [
@@ -21558,7 +21689,7 @@
       "sources": [],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
       "hasMedia": true,
-      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Chronicle offices Zodiac San Francisco Chronicle Paul Avery Donna Lass Zodiac Letters"
+      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Chronicle offices Zodiac San Francisco Chronicle Paul Avery The Los Angeles Times San Francisco Examiner Zodiac Letters"
     },
     {
       "id": "rec2bN9YdG1bQJAHc",
@@ -29388,7 +29519,7 @@
       },
       {
         "value": "1971",
-        "count": 21
+        "count": 23
       },
       {
         "value": "1970",
@@ -29550,7 +29681,7 @@
       },
       {
         "value": "Newspaper Article",
-        "count": 39
+        "count": 41
       },
       {
         "value": "Non-Zodiac Events",
@@ -30400,7 +30531,7 @@
       },
       {
         "value": "San Francisco",
-        "count": 66
+        "count": 68
       },
       {
         "value": "San Francisco Chronicle offices",
@@ -30942,7 +31073,7 @@
       },
       {
         "value": "Donna Lass",
-        "count": 7
+        "count": 6
       },
       {
         "value": "Douglas Benne",
@@ -31457,6 +31588,10 @@
         "count": 1
       },
       {
+        "value": "Sacramento Bee",
+        "count": 1
+      },
+      {
         "value": "Sahara Tahoe",
         "count": 1
       },
@@ -31470,11 +31605,11 @@
       },
       {
         "value": "San Francisco Chronicle",
-        "count": 25
+        "count": 27
       },
       {
         "value": "San Francisco Examiner",
-        "count": 14
+        "count": 16
       },
       {
         "value": "Seventh Day Adventists",
@@ -31558,7 +31693,7 @@
       },
       {
         "value": "The Los Angeles Times",
-        "count": 7
+        "count": 8
       },
       {
         "value": "The Manson Family",
