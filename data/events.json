@@ -11046,14 +11046,49 @@
       "type": "Newspaper Article",
       "description": "",
       "excerpt": "",
-      "locations": [],
-      "people": [],
+      "locations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "",
+          "name": "Vallejo",
+          "slug": "vallejo"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
+        }
+      ],
       "tags": [],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+          "thumbUrl": "data/media/derived/thumb/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+          "mediumUrl": "data/media/derived/medium/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_08_06_57.jpg"
+        }
+      ],
       "sources": [],
       "mapUrl": "",
-      "hasMedia": false,
-      "searchText": "Zodiac Press Coverage [8/6/1969] Newspaper Article"
+      "hasMedia": true,
+      "searchText": "Zodiac Press Coverage [8/6/1969] Newspaper Article San Francisco Vallejo, CA Vallejo CA San Francisco Examiner"
     },
     {
       "id": "rec5koLcWuG7HyqFX",
@@ -14069,6 +14104,65 @@
       "searchText": "Hartnell's vehicle transported from Lake Berryessa Case Event Lake Berryessa Park Headquarters Hal Snook Bryan Calvin Hartnell"
     },
     {
+      "id": "rec1HdAw0mG4XQyUD",
+      "slug": "berryessa-attack-connected-to-cipher-killer",
+      "kind": "event",
+      "title": "Berryessa attack connected to \"Cipher Killer\"",
+      "date": "1969-09-29",
+      "dateLabel": "Mon, Sep 29, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-09-29-9999-00473",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recEKYdzhHISXUYQt",
+          "name": "Napa, CA",
+          "slug": "napa-ca"
+        },
+        {
+          "id": "",
+          "name": "Napa",
+          "slug": "napa"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
+        }
+      ],
+      "tags": [
+        {
+          "id": "recguCeqiWgWqR24q",
+          "name": "Attack at Lake Berryessa",
+          "slug": "attack-at-lake-berryessa"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+          "thumbUrl": "data/media/derived/thumb/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+          "mediumUrl": "data/media/derived/medium/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_09_29_10.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Berryessa attack connected to \"Cipher Killer\" Newspaper Article Napa, CA Napa CA San Francisco Examiner Attack at Lake Berryessa"
+    },
+    {
       "id": "recokW8DDIhEUKvJr",
       "slug": "cabbie-claims-encounter-with-zodiac",
       "kind": "event",
@@ -14094,7 +14188,13 @@
           "slug": "presidio-heights"
         }
       ],
-      "people": [],
+      "people": [
+        {
+          "id": "rec8pIzHYRJCXYsj1",
+          "name": "Dave Peterson",
+          "slug": "dave-peterson"
+        }
+      ],
       "tags": [],
       "images": [
         {
@@ -14108,7 +14208,77 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Cabbie claims encounter with Zodiac Media Event San Francisco Presidio Heights"
+      "searchText": "Cabbie claims encounter with Zodiac Media Event San Francisco Presidio Heights Dave Peterson"
+    },
+    {
+      "id": "rec5R8IDYrCOs0rpM",
+      "slug": "cipher-killer-challenged-by-napa-county-sheriff-s-over-lake-berryessa-note-on-car-door",
+      "kind": "event",
+      "title": "Cipher Killer challenged by Napa County Sheriff's over Lake Berryessa note on car door",
+      "date": "1969-09-30",
+      "dateLabel": "Tue, Sep 30, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-09-30-9999-00474",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "",
+          "name": "Napa County",
+          "slug": "napa-county"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recSEKXCZ713pyThm",
+          "name": "Napa County Sheriff's Department",
+          "slug": "napa-county-sheriff-s-department"
+        },
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
+        },
+        {
+          "id": "reckrBEZH5yMsCBnR",
+          "name": "Don Townsend",
+          "slug": "don-townsend"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+          "mediumUrl": "data/media/derived/medium/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_09_30_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+          "thumbUrl": "data/media/derived/thumb/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+          "mediumUrl": "data/media/derived/medium/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_09_30_8.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Cipher Killer challenged by Napa County Sheriff's over Lake Berryessa note on car door Newspaper Article Napa County, CA Napa County CA Napa County Sheriff's Department San Francisco Examiner Don Townsend"
     },
     {
       "id": "rechIqE7sbnT374eP",
@@ -18802,11 +18972,6 @@
           "id": "recXWIp8s3P3TAYiu",
           "name": "San Francisco",
           "slug": "san-francisco"
-        },
-        {
-          "id": "rec3SXc62X9TM4dMm",
-          "name": "San Francisco Chronicle offices",
-          "slug": "san-francisco-chronicle-offices"
         }
       ],
       "people": [
@@ -18814,6 +18979,11 @@
           "id": "recXJdTXSNJPLgeJ2",
           "name": "Melvin Belli",
           "slug": "melvin-belli"
+        },
+        {
+          "id": "reckQ2Se5cvoZCWrF",
+          "name": "San Francisco Examiner",
+          "slug": "san-francisco-examiner"
         }
       ],
       "tags": [
@@ -18825,6 +18995,20 @@
       ],
       "images": [
         {
+          "originalUrl": "data/media/attb6uZBjmRFhAxyh_Belli_1.jpg",
+          "thumbUrl": "data/media/derived/thumb/attb6uZBjmRFhAxyh_Belli_1.jpg",
+          "mediumUrl": "data/media/derived/medium/attb6uZBjmRFhAxyh_Belli_1.jpg",
+          "derivativeState": "derived",
+          "label": "Belli_1.jpg"
+        },
+        {
+          "originalUrl": "data/media/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
+          "thumbUrl": "data/media/derived/thumb/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
+          "mediumUrl": "data/media/derived/medium/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
+          "derivativeState": "derived",
+          "label": "The_San_Francisco_Examiner_1969_12_28_24.jpg"
+        },
+        {
           "originalUrl": "data/media/attQoBd6kGwfWwn66_Melvin_Letter.PNG",
           "thumbUrl": "data/media/derived/thumb/attQoBd6kGwfWwn66_Melvin_Letter.png",
           "mediumUrl": "data/media/derived/medium/attQoBd6kGwfWwn66_Melvin_Letter.png",
@@ -18835,7 +19019,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "The Belli Letter is published Media Event San Francisco San Francisco Chronicle offices Melvin Belli Zodiac Letters"
+      "searchText": "The Belli Letter is published Media Event San Francisco Melvin Belli San Francisco Examiner Zodiac Letters"
     },
     {
       "id": "recQcTQCK2YbFjZPx",
@@ -21584,6 +21768,11 @@
           "id": "recZR4bvZKAmYMZig",
           "name": "Sacramento Bee",
           "slug": "sacramento-bee"
+        },
+        {
+          "id": "reco6x2u1P40zZ7XM",
+          "name": "Forest Pines at Incline Village Condos",
+          "slug": "forest-pines-at-incline-village-condos"
         }
       ],
       "tags": [],
@@ -21599,7 +21788,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee. Newspaper Article San Francisco San Francisco Chronicle San Francisco Examiner Sacramento Bee"
+      "searchText": "Forest Pines at Incline advertisement runs in SF Chronicle & Examiner Used in Sierra Club / \"Peek Through the Pines\" card. Ran 2/26/1971 in Reno Gazette-Journal, on 3/19 in SF Chronicle and Examiner, on 3/21 and 3/28 in Sacramento Bee. Newspaper Article San Francisco San Francisco Chronicle San Francisco Examiner Sacramento Bee Forest Pines at Incline Village Condos"
     },
     {
       "id": "recqhrDZc0vFnQ3hA",
@@ -21647,6 +21836,11 @@
           "id": "reckQ2Se5cvoZCWrF",
           "name": "San Francisco Examiner",
           "slug": "san-francisco-examiner"
+        },
+        {
+          "id": "reco6x2u1P40zZ7XM",
+          "name": "Forest Pines at Incline Village Condos",
+          "slug": "forest-pines-at-incline-village-condos"
         }
       ],
       "tags": [
@@ -21689,7 +21883,7 @@
       "sources": [],
       "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833",
       "hasMedia": true,
-      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Chronicle offices Zodiac San Francisco Chronicle Paul Avery The Los Angeles Times San Francisco Examiner Zodiac Letters"
+      "searchText": "The Sierra Club Postcard Disputed Z Communication San Francisco Chronicle offices Zodiac San Francisco Chronicle Paul Avery The Los Angeles Times San Francisco Examiner Forest Pines at Incline Village Condos Zodiac Letters"
     },
     {
       "id": "rec2bN9YdG1bQJAHc",
@@ -22306,6 +22500,43 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Louie Myers serving in US Army in Germany Army Pvt. Louis J. Myers, 19, son of Mr. and Mrs. William H. Myers, 468 La Jolla St., is serving with the 3rd Infantry Division near Kitzingen, Germany. He is a grenadier in Company A, 1st Battalion, 15th Infantry. Suspect Event West Germany Louis Myers' parents residence in late 1960s Louis (Louie) Joseph Myers"
+    },
+    {
+      "id": "recCslZe1KnwaQpfT",
+      "slug": "forest-pines-development-in-incline-village-ready-for-tours",
+      "kind": "event",
+      "title": "Forest Pines development in Incline Village ready for tours",
+      "date": "1971-09-26",
+      "dateLabel": "Sun, Sep 26, 1971",
+      "year": 1971,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1971-09-26-9999-00475",
+      "type": "Newspaper Article",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "reco6x2u1P40zZ7XM",
+          "name": "Forest Pines at Incline Village Condos",
+          "slug": "forest-pines-at-incline-village-condos"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
+          "thumbUrl": "data/media/derived/thumb/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
+          "mediumUrl": "data/media/derived/medium/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
+          "derivativeState": "derived",
+          "label": "Nevada_State_Journal_1971_09_26_45.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Forest Pines development in Incline Village ready for tours Newspaper Article Forest Pines at Incline Village Condos"
     },
     {
       "id": "recBB7oBXwy81jaFi",
@@ -26544,6 +26775,11 @@
           "id": "recpeSHGaAhZPttuI",
           "name": "Donna Lass",
           "slug": "donna-lass"
+        },
+        {
+          "id": "reccV1p0loVrtbWbs",
+          "name": "The Roseville Press-Tribune",
+          "slug": "the-roseville-press-tribune"
         }
       ],
       "tags": [
@@ -26560,6 +26796,13 @@
       ],
       "images": [
         {
+          "originalUrl": "data/media/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "thumbUrl": "data/media/derived/thumb/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "mediumUrl": "data/media/derived/medium/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "derivativeState": "derived",
+          "label": "The_Press_Tribune_1986_01_02_5.jpg"
+        },
+        {
           "originalUrl": "data/media/att8mNOLA30NouOgp_image.png",
           "thumbUrl": "data/media/derived/thumb/att8mNOLA30NouOgp_image.png",
           "mediumUrl": "data/media/derived/medium/att8mNOLA30NouOgp_image.png",
@@ -26570,7 +26813,88 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Donna Lass remains recovered Victim Event Donna Lass skull location near Camp Spaulding Donna Lass Non-Canonical Crimes The Donna Lass Murder"
+      "searchText": "Donna Lass remains recovered Victim Event Donna Lass skull location near Camp Spaulding Donna Lass The Roseville Press-Tribune Non-Canonical Crimes The Donna Lass Murder"
+    },
+    {
+      "id": "recwmP8JSu6NYo9Dx",
+      "slug": "news-coverage-of-donna-lass-remains-recovered",
+      "kind": "event",
+      "title": "News coverage of Donna Lass remains recovered",
+      "date": "1986-01-02",
+      "dateLabel": "Thu, Jan 2, 1986",
+      "year": 1986,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1986-01-02-9999-00476",
+      "type": "Victim Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recQi8KpdIytxlbHe",
+          "name": "Donna Lass skull location near Camp Spaulding",
+          "slug": "donna-lass-skull-location-near-camp-spaulding"
+        },
+        {
+          "id": "recw7n0IZfvLKINCj",
+          "name": "Auburn, CA",
+          "slug": "auburn-ca"
+        },
+        {
+          "id": "",
+          "name": "Auburn",
+          "slug": "auburn"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recpeSHGaAhZPttuI",
+          "name": "Donna Lass",
+          "slug": "donna-lass"
+        },
+        {
+          "id": "reccV1p0loVrtbWbs",
+          "name": "The Roseville Press-Tribune",
+          "slug": "the-roseville-press-tribune"
+        }
+      ],
+      "tags": [
+        {
+          "id": "receWYqyZXkYs9n2J",
+          "name": "Non-Canonical Crimes",
+          "slug": "non-canonical-crimes"
+        },
+        {
+          "id": "recObA4GdmylyI9eg",
+          "name": "The Donna Lass Murder",
+          "slug": "the-donna-lass-murder"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "thumbUrl": "data/media/derived/thumb/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "mediumUrl": "data/media/derived/medium/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+          "derivativeState": "derived",
+          "label": "The_Press_Tribune_1986_01_02_5.jpg"
+        },
+        {
+          "originalUrl": "data/media/att8mNOLA30NouOgp_image.png",
+          "thumbUrl": "data/media/derived/thumb/att8mNOLA30NouOgp_image.png",
+          "mediumUrl": "data/media/derived/medium/att8mNOLA30NouOgp_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "News coverage of Donna Lass remains recovered Victim Event Donna Lass skull location near Camp Spaulding Auburn, CA Auburn CA Donna Lass The Roseville Press-Tribune Non-Canonical Crimes The Donna Lass Murder"
     },
     {
       "id": "rec1Js0yixTEQkfvj",
@@ -29463,7 +29787,7 @@
       },
       {
         "value": "1986",
-        "count": 6
+        "count": 7
       },
       {
         "value": "1985",
@@ -29519,7 +29843,7 @@
       },
       {
         "value": "1971",
-        "count": 23
+        "count": 24
       },
       {
         "value": "1970",
@@ -29527,7 +29851,7 @@
       },
       {
         "value": "1969",
-        "count": 162
+        "count": 164
       },
       {
         "value": "1968",
@@ -29681,7 +30005,7 @@
       },
       {
         "value": "Newspaper Article",
-        "count": 41
+        "count": 44
       },
       {
         "value": "Non-Zodiac Events",
@@ -29705,7 +30029,7 @@
       },
       {
         "value": "Victim Event",
-        "count": 52
+        "count": 53
       },
       {
         "value": "Witness Event",
@@ -29786,6 +30110,14 @@
         "count": 4
       },
       {
+        "value": "Auburn",
+        "count": 1
+      },
+      {
+        "value": "Auburn, CA",
+        "count": 1
+      },
+      {
         "value": "AZ",
         "count": 1
       },
@@ -29843,7 +30175,7 @@
       },
       {
         "value": "CA",
-        "count": 167
+        "count": 171
       },
       {
         "value": "CA)",
@@ -29907,7 +30239,7 @@
       },
       {
         "value": "Donna Lass skull location near Camp Spaulding",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Escalon",
@@ -30263,7 +30595,7 @@
       },
       {
         "value": "Napa",
-        "count": 5
+        "count": 6
       },
       {
         "value": "Napa Car Wash",
@@ -30271,15 +30603,15 @@
       },
       {
         "value": "Napa County",
-        "count": 8
+        "count": 9
       },
       {
         "value": "Napa County, CA",
-        "count": 8
+        "count": 9
       },
       {
         "value": "Napa, CA",
-        "count": 5
+        "count": 6
       },
       {
         "value": "NE",
@@ -30531,11 +30863,11 @@
       },
       {
         "value": "San Francisco",
-        "count": 68
+        "count": 69
       },
       {
         "value": "San Francisco Chronicle offices",
-        "count": 12
+        "count": 11
       },
       {
         "value": "San Jose",
@@ -30743,7 +31075,7 @@
       },
       {
         "value": "Vallejo",
-        "count": 39
+        "count": 40
       },
       {
         "value": "Vallejo (Allen family home)",
@@ -30755,7 +31087,7 @@
       },
       {
         "value": "Vallejo, CA",
-        "count": 39
+        "count": 40
       },
       {
         "value": "Villa Montalvo (Saratoga",
@@ -30981,7 +31313,7 @@
       },
       {
         "value": "Dave Peterson",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Dave Smith",
@@ -31048,6 +31380,10 @@
         "count": 3
       },
       {
+        "value": "Don Townsend",
+        "count": 1
+      },
+      {
         "value": "Donald (Don) Cheney",
         "count": 1
       },
@@ -31073,7 +31409,7 @@
       },
       {
         "value": "Donna Lass",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Douglas Benne",
@@ -31129,6 +31465,10 @@
       },
       {
         "value": "FBI",
+        "count": 3
+      },
+      {
+        "value": "Forest Pines at Incline Village Condos",
         "count": 3
       },
       {
@@ -31417,7 +31757,7 @@
       },
       {
         "value": "Napa County Sheriff's Department",
-        "count": 5
+        "count": 6
       },
       {
         "value": "Napa D.A. James Boitano",
@@ -31609,7 +31949,7 @@
       },
       {
         "value": "San Francisco Examiner",
-        "count": 16
+        "count": 20
       },
       {
         "value": "Seventh Day Adventists",
@@ -31710,6 +32050,10 @@
       {
         "value": "The New York Times",
         "count": 1
+      },
+      {
+        "value": "The Roseville Press-Tribune",
+        "count": 2
       },
       {
         "value": "The Sacramento Union",
@@ -31835,7 +32179,7 @@
       },
       {
         "value": "Attack at Lake Berryessa",
-        "count": 26
+        "count": 27
       },
       {
         "value": "Blue Meanies",
@@ -31871,7 +32215,7 @@
       },
       {
         "value": "Non-Canonical Crimes",
-        "count": 8
+        "count": 9
       },
       {
         "value": "Paul Doerr",
@@ -31911,7 +32255,7 @@
       },
       {
         "value": "The Donna Lass Murder",
-        "count": 3
+        "count": 4
       },
       {
         "value": "The Kathleen Johns Incident",

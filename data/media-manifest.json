@@ -1332,6 +1332,12 @@
       "mediumUrl": "data/media/derived/medium/att8mNOLA30NouOgp_image.png",
       "derivativeState": "derived"
     },
+    "data/media/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg": {
+      "originalUrl": "data/media/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+      "thumbUrl": "data/media/derived/thumb/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+      "mediumUrl": "data/media/derived/medium/attlvojoGFvGez3vS_The_Press_Tribune_1986_01_02_5.jpg",
+      "derivativeState": "derived"
+    },
     "data/media/attBSBCVzvk4v5ryK_image.png": {
       "originalUrl": "data/media/attBSBCVzvk4v5ryK_image.png",
       "thumbUrl": "data/media/derived/thumb/attBSBCVzvk4v5ryK_image.png",
@@ -2308,6 +2314,18 @@
       "originalUrl": "data/media/attDAZb0JTHqpzcdK_image.png",
       "thumbUrl": "data/media/derived/thumb/attDAZb0JTHqpzcdK_image.png",
       "mediumUrl": "data/media/derived/medium/attDAZb0JTHqpzcdK_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attb6uZBjmRFhAxyh_Belli_1.jpg": {
+      "originalUrl": "data/media/attb6uZBjmRFhAxyh_Belli_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/attb6uZBjmRFhAxyh_Belli_1.jpg",
+      "mediumUrl": "data/media/derived/medium/attb6uZBjmRFhAxyh_Belli_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg": {
+      "originalUrl": "data/media/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
+      "thumbUrl": "data/media/derived/thumb/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
+      "mediumUrl": "data/media/derived/medium/attsRQYA6p0skgBCM_The_San_Francisco_Examiner_1969_12_28_24.jpg",
       "derivativeState": "derived"
     },
     "data/media/attVuUrQIwWcYIYgo_image.png": {
@@ -3318,6 +3336,12 @@
       "mediumUrl": "data/media/derived/medium/attvbW5uQaSllBnqQ_The_Solano_Napa_News_Chronicle_1969_08_04_2__1_.jpg",
       "derivativeState": "derived"
     },
+    "data/media/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg": {
+      "originalUrl": "data/media/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+      "thumbUrl": "data/media/derived/thumb/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+      "mediumUrl": "data/media/derived/medium/attxiJU5bRroC6gOK_The_San_Francisco_Examiner_1969_08_06_57.jpg",
+      "derivativeState": "derived"
+    },
     "data/media/att3YK8kHIeFDezoZ_Vallejo_Mass_Murder_Threat_Fails.jpg": {
       "originalUrl": "data/media/att3YK8kHIeFDezoZ_Vallejo_Mass_Murder_Threat_Fails.jpg",
       "thumbUrl": "data/media/derived/thumb/att3YK8kHIeFDezoZ_Vallejo_Mass_Murder_Threat_Fails.jpg",
@@ -4234,6 +4258,30 @@
       "originalUrl": "data/media/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
       "thumbUrl": "data/media/derived/thumb/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
       "mediumUrl": "data/media/derived/medium/attap4FS6jdSZbp8t_San_Francisco_Chronicle_1971_03_16_14.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg": {
+      "originalUrl": "data/media/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+      "thumbUrl": "data/media/derived/thumb/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+      "mediumUrl": "data/media/derived/medium/attzxRnqvM1K6tIzw_The_San_Francisco_Examiner_1969_09_29_10.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg": {
+      "originalUrl": "data/media/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+      "thumbUrl": "data/media/derived/thumb/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+      "mediumUrl": "data/media/derived/medium/att7sue3EVctjpQaP_The_San_Francisco_Examiner_1969_09_30_1.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg": {
+      "originalUrl": "data/media/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+      "thumbUrl": "data/media/derived/thumb/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+      "mediumUrl": "data/media/derived/medium/attsg74NP5pJ0xKEv_The_San_Francisco_Examiner_1969_09_30_8.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg": {
+      "originalUrl": "data/media/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
+      "thumbUrl": "data/media/derived/thumb/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
+      "mediumUrl": "data/media/derived/medium/attOiFqXTqQ8xAI0j_Nevada_State_Journal_1971_09_26_45.jpg",
       "derivativeState": "derived"
     },
     "data/media/attD0P2TkTV1TT5jO_image.png": {
@@ -5940,6 +5988,48 @@
       "mediumUrl": "data/media/derived/medium/attESD6d3nciQtsVd_image.png",
       "derivativeState": "derived"
     },
+    "data/media/attcmI7QZ4rxtkqNv_Screenshot_2026-05-23_at_10.10.55_AM.png": {
+      "originalUrl": "data/media/attcmI7QZ4rxtkqNv_Screenshot_2026-05-23_at_10.10.55_AM.png",
+      "thumbUrl": "data/media/derived/thumb/attcmI7QZ4rxtkqNv_Screenshot_2026-05-23_at_10.10.55_AM.png",
+      "mediumUrl": "data/media/derived/medium/attcmI7QZ4rxtkqNv_Screenshot_2026-05-23_at_10.10.55_AM.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attKkmc28pnZARLMB_The_Los_Angeles_Times_1971_08_15_180.jpg": {
+      "originalUrl": "data/media/attKkmc28pnZARLMB_The_Los_Angeles_Times_1971_08_15_180.jpg",
+      "thumbUrl": "data/media/derived/thumb/attKkmc28pnZARLMB_The_Los_Angeles_Times_1971_08_15_180.jpg",
+      "mediumUrl": "data/media/derived/medium/attKkmc28pnZARLMB_The_Los_Angeles_Times_1971_08_15_180.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/attzkQmTY7s8eJjXM_don_townsend.png": {
+      "originalUrl": "data/media/attzkQmTY7s8eJjXM_don_townsend.png",
+      "thumbUrl": "data/media/derived/thumb/attzkQmTY7s8eJjXM_don_townsend.png",
+      "mediumUrl": "data/media/derived/medium/attzkQmTY7s8eJjXM_don_townsend.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attDDa9Gbma99kIhv_image.png": {
+      "originalUrl": "data/media/attDDa9Gbma99kIhv_image.png",
+      "thumbUrl": "data/media/derived/thumb/attDDa9Gbma99kIhv_image.png",
+      "mediumUrl": "data/media/derived/medium/attDDa9Gbma99kIhv_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attv2Hy7vbotK80g8_image.png": {
+      "originalUrl": "data/media/attv2Hy7vbotK80g8_image.png",
+      "thumbUrl": "data/media/derived/thumb/attv2Hy7vbotK80g8_image.png",
+      "mediumUrl": "data/media/derived/medium/attv2Hy7vbotK80g8_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attqh5XqkQwsNs0HL_Oroville_Mercury_Register_1958_09_17_3.jpg": {
+      "originalUrl": "data/media/attqh5XqkQwsNs0HL_Oroville_Mercury_Register_1958_09_17_3.jpg",
+      "thumbUrl": "data/media/derived/thumb/attqh5XqkQwsNs0HL_Oroville_Mercury_Register_1958_09_17_3.jpg",
+      "mediumUrl": "data/media/derived/medium/attqh5XqkQwsNs0HL_Oroville_Mercury_Register_1958_09_17_3.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att8m9zOS5nUzfaI3_image.png": {
+      "originalUrl": "data/media/att8m9zOS5nUzfaI3_image.png",
+      "thumbUrl": "data/media/derived/thumb/att8m9zOS5nUzfaI3_image.png",
+      "mediumUrl": "data/media/derived/medium/att8m9zOS5nUzfaI3_image.png",
+      "derivativeState": "derived"
+    },
     "data/media/attdDhYp8IaddoCn3_image.png": {
       "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
       "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -6018,6 +6108,12 @@
       "mediumUrl": "data/media/derived/medium/attPHN1RnXiWy6eW5_image.png",
       "derivativeState": "derived"
     },
+    "data/media/attV3sNhsOtXYsKSO_image.png": {
+      "originalUrl": "data/media/attV3sNhsOtXYsKSO_image.png",
+      "thumbUrl": "data/media/derived/thumb/attV3sNhsOtXYsKSO_image.png",
+      "mediumUrl": "data/media/derived/medium/attV3sNhsOtXYsKSO_image.png",
+      "derivativeState": "derived"
+    },
     "data/media/attYsgsY5g7bBs2Pk_image.png": {
       "originalUrl": "data/media/attYsgsY5g7bBs2Pk_image.png",
       "thumbUrl": "data/media/derived/thumb/attYsgsY5g7bBs2Pk_image.png",
@@ -6034,6 +6130,12 @@
       "originalUrl": "data/media/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
       "thumbUrl": "data/media/derived/thumb/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
       "mediumUrl": "data/media/derived/medium/attyIguBBoFYUhYmM_Screenshot_2025-09-05_at_1.16.34_AM.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attMzRmuJcDeCV9Qt_image.png": {
+      "originalUrl": "data/media/attMzRmuJcDeCV9Qt_image.png",
+      "thumbUrl": "data/media/derived/thumb/attMzRmuJcDeCV9Qt_image.png",
+      "mediumUrl": "data/media/derived/medium/attMzRmuJcDeCV9Qt_image.png",
       "derivativeState": "derived"
     },
     "data/media/attzvxm8VTj4TTe8N_image.png": {
@@ -6232,6 +6334,12 @@
       "originalUrl": "data/media/attrPxBSmQV2csvlZ_image.png",
       "thumbUrl": "data/media/derived/thumb/attrPxBSmQV2csvlZ_image.png",
       "mediumUrl": "data/media/derived/medium/attrPxBSmQV2csvlZ_image.png",
+      "derivativeState": "derived"
+    },
+    "data/media/atttXTOiHRwuOR14p_image.png": {
+      "originalUrl": "data/media/atttXTOiHRwuOR14p_image.png",
+      "thumbUrl": "data/media/derived/thumb/atttXTOiHRwuOR14p_image.png",
+      "mediumUrl": "data/media/derived/medium/atttXTOiHRwuOR14p_image.png",
       "derivativeState": "derived"
     }
   }

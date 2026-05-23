@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-23T14:04:48.178694+00:00",
+  "generatedAt": "2026-05-23T19:39:47.384907+00:00",
   "stats": {
-    "events": 473,
-    "people": 338,
-    "locations": 352,
+    "events": 477,
+    "people": 342,
+    "locations": 356,
     "tags": 43,
-    "images": 1679,
+    "images": 1699,
     "mappedSites": 45,
     "years": {
       "start": 1925,
@@ -15,7 +15,7 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 162
+      "count": 164
     },
     {
       "value": 1970,
@@ -31,7 +31,7 @@
     },
     {
       "value": 1971,
-      "count": 23
+      "count": 24
     },
     {
       "value": 1974,
@@ -49,15 +49,15 @@
     },
     {
       "value": "Victim Event",
-      "count": 52
+      "count": 53
+    },
+    {
+      "value": "Newspaper Article",
+      "count": 44
     },
     {
       "value": "Media Event",
       "count": 43
-    },
-    {
-      "value": "Newspaper Article",
-      "count": 41
     },
     {
       "value": "Cultural Event",
@@ -134,6 +134,23 @@
       "mapOpenUrl": ""
     },
     {
+      "id": "reckQ2Se5cvoZCWrF",
+      "slug": "san-francisco-examiner",
+      "kind": "person",
+      "title": "San Francisco Examiner",
+      "subtitle": "Media,Organization,Key Figure",
+      "excerpt": "",
+      "relatedEventCount": 19,
+      "primaryImage": {
+        "originalUrl": "data/media/attbIdwlQ04HhWQKb_image.png",
+        "thumbUrl": "data/media/derived/thumb/attbIdwlQ04HhWQKb_image.png",
+        "mediumUrl": "data/media/derived/medium/attbIdwlQ04HhWQKb_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recIi4fFkzHRAIpD0",
       "slug": "paul-lee-stine",
       "kind": "person",
@@ -149,23 +166,6 @@
         "label": "image.png"
       },
       "mapOpenUrl": ""
-    },
-    {
-      "id": "rec7Fue7MIOL0uRL6",
-      "slug": "ken-narlow",
-      "kind": "person",
-      "title": "Ken Narlow",
-      "subtitle": "Law Enforcement,Deceased,Key Figure",
-      "excerpt": "",
-      "relatedEventCount": 17,
-      "primaryImage": {
-        "originalUrl": "data/media/attfPuh8b9QuBlh3b_image.png",
-        "thumbUrl": "data/media/derived/thumb/attfPuh8b9QuBlh3b_image.png",
-        "mediumUrl": "data/media/derived/medium/attfPuh8b9QuBlh3b_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "mapOpenUrl": ""
     }
   ],
   "featuredLocations": [
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 66,
+      "relatedEventCount": 67,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -193,7 +193,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 39,
+      "relatedEventCount": 40,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -244,7 +244,7 @@
       "title": "San Francisco Chronicle offices",
       "subtitle": "Business",
       "excerpt": "",
-      "relatedEventCount": 12,
+      "relatedEventCount": 11,
       "primaryImage": null,
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
     },
@@ -308,7 +308,7 @@
       "title": "Attack at Lake Berryessa",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 32,
+      "relatedEventCount": 30,
       "primaryImage": {
         "originalUrl": "data/media/att2UPeGusw0o0lff_image.png",
         "thumbUrl": "data/media/derived/thumb/att2UPeGusw0o0lff_image.png",
@@ -372,7 +372,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 39,
+      "relatedEventCount": 40,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -389,7 +389,7 @@
       "title": "San Francisco Chronicle offices",
       "subtitle": "Business",
       "excerpt": "",
-      "relatedEventCount": 12,
+      "relatedEventCount": 11,
       "primaryImage": null,
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
     },
@@ -473,7 +473,7 @@
     }
   ],
   "freshness": {
-    "label": "May 23, 2026, 02:04 PM UTC",
+    "label": "May 23, 2026, 07:39 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,17 +484,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "473 dated events spanning 1925 to 2025."
+      "description": "477 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "338 linked people and organizations with related-event cross references."
+      "description": "342 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "352 places connected to the archive, including mapped sites where data exists."
+      "description": "356 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

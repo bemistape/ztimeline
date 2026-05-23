@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T14:04:48.178694+00:00",
+  "generatedAt": "2026-05-23T19:39:47.384907+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -2041,9 +2041,9 @@
       ],
       "relatedEvents": [
         {
-          "id": "",
-          "name": "Lake Berryessa Stabbings",
-          "slug": "lake-berryessa-stabbings"
+          "id": "recmQK2TtG43z2t8t",
+          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
+          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
         },
         {
           "id": "recQuYLdGf36hNmut",
@@ -2051,9 +2051,9 @@
           "slug": "napa-pd-confession-call"
         },
         {
-          "id": "",
-          "name": "Car Door Message",
-          "slug": "car-door-message"
+          "id": "reccPjrKfLC01M282",
+          "name": "Zodiac writes a message on Bryan Hartnell's car door",
+          "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door"
         },
         {
           "id": "recF2WE9VrdA5pIVr",
@@ -2061,9 +2061,9 @@
           "slug": "arthur-leigh-allen-alibi-for-lake-berryessa"
         },
         {
-          "id": "",
-          "name": "Death of Cecelia Shepard",
-          "slug": "death-of-cecelia-shepard"
+          "id": "recuOuUGfQpwjuGqq",
+          "name": "Cecelia Shepard dies",
+          "slug": "cecelia-shepard-dies"
         },
         {
           "id": "recwejKFdO1CcOt3J",
@@ -2071,9 +2071,9 @@
           "slug": "deer-lodge-prison-mentioned-in-syndicated-news-clip"
         },
         {
-          "id": "",
-          "name": "Vallejo coverage of Deer Lodge escapees recaptured",
-          "slug": "vallejo-coverage-of-deer-lodge-escapees-recaptured"
+          "id": "recwTrtPD3leL7NPJ",
+          "name": "Vallejo coverage of Deer Lodge escapees being recaptured",
+          "slug": "vallejo-coverage-of-deer-lodge-escapees-being-recaptured"
         },
         {
           "id": "recWHabSfgEAq9vBK",
@@ -2176,29 +2176,19 @@
           "slug": "services-are-held-for-cecelia-shepard-at-puc"
         },
         {
-          "id": "recmQK2TtG43z2t8t",
-          "name": "Zodiac attacks Bryan Hartnell and Cecilia Shepard at Lake Berryessa",
-          "slug": "zodiac-attacks-bryan-hartnell-and-cecilia-shepard-at-lake-berryessa"
-        },
-        {
-          "id": "reccPjrKfLC01M282",
-          "name": "Zodiac writes a message on Bryan Hartnell's car door",
-          "slug": "zodiac-writes-a-message-on-bryan-hartnell-s-car-door"
-        },
-        {
-          "id": "recuOuUGfQpwjuGqq",
-          "name": "Cecelia Shepard dies",
-          "slug": "cecelia-shepard-dies"
-        },
-        {
-          "id": "recwTrtPD3leL7NPJ",
-          "name": "Vallejo coverage of Deer Lodge escapees being recaptured",
-          "slug": "vallejo-coverage-of-deer-lodge-escapees-being-recaptured"
+          "id": "",
+          "name": "Berryessa attack connected to Cipher Killer",
+          "slug": "berryessa-attack-connected-to-cipher-killer"
         },
         {
           "id": "rec5msPLuYq5kmtBS",
           "name": "Hal Snook notified of stabbings, dispatches Narlow and Lonergan",
           "slug": "hal-snook-notified-of-stabbings-dispatches-narlow-and-lonergan"
+        },
+        {
+          "id": "rec1HdAw0mG4XQyUD",
+          "name": "Berryessa attack connected to \"Cipher Killer\"",
+          "slug": "berryessa-attack-connected-to-cipher-killer"
         }
       ],
       "relatedPeople": [
@@ -2321,11 +2311,6 @@
           "id": "recYfYBYA7KwMuX69",
           "name": "Sheriff Earl Randol",
           "slug": "sheriff-earl-randol"
-        },
-        {
-          "id": "",
-          "name": "Earl Randol",
-          "slug": "earl-randol"
         }
       ],
       "relatedLocations": [
@@ -2352,7 +2337,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 32,
+      "relatedEventCount": 30,
       "searchText": "Attack at Lake Berryessa"
     },
     {
@@ -4544,9 +4529,9 @@
       ],
       "relatedEvents": [
         {
-          "id": "",
-          "name": "Cheri Jo Bates Homicide",
-          "slug": "cheri-jo-bates-homicide"
+          "id": "recygMQrhavJKZ2Qz",
+          "name": "Cheri Jo Bates is murdered in Riverside",
+          "slug": "cheri-jo-bates-is-murdered-in-riverside"
         },
         {
           "id": "recytWrpVgR2gwLQU",
@@ -4554,14 +4539,14 @@
           "slug": "the-confession-letters-sent-to-riverside-police"
         },
         {
-          "id": "",
-          "name": "“Bates Had to Die” Letters",
+          "id": "recMWZ6w3JJmVXsmd",
+          "name": "Bates Had to Die Letters",
           "slug": "bates-had-to-die-letters"
         },
         {
-          "id": "",
-          "name": "Donna Lass disappears",
-          "slug": "donna-lass-disappears"
+          "id": "rec5GoyI3M52m5F5q",
+          "name": "Donna Lass is seen for the last time",
+          "slug": "donna-lass-is-seen-for-the-last-time"
         },
         {
           "id": "recaIh7bnv1F5Uj2C",
@@ -4584,19 +4569,9 @@
           "slug": "bates-desktop-poem-discovered"
         },
         {
-          "id": "recygMQrhavJKZ2Qz",
-          "name": "Cheri Jo Bates is murdered in Riverside",
-          "slug": "cheri-jo-bates-is-murdered-in-riverside"
-        },
-        {
-          "id": "recMWZ6w3JJmVXsmd",
-          "name": "Bates Had to Die Letters",
-          "slug": "bates-had-to-die-letters"
-        },
-        {
-          "id": "rec5GoyI3M52m5F5q",
-          "name": "Donna Lass is seen for the last time",
-          "slug": "donna-lass-is-seen-for-the-last-time"
+          "id": "recwmP8JSu6NYo9Dx",
+          "name": "News coverage of Donna Lass remains recovered",
+          "slug": "news-coverage-of-donna-lass-remains-recovered"
         },
         {
           "id": "recFFSKEFx7Q5CKxl",
@@ -4619,7 +4594,7 @@
       "relatedLocations": [],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 12,
+      "relatedEventCount": 10,
       "searchText": "Non-Canonical Crimes"
     },
     {
@@ -5371,9 +5346,9 @@
           "slug": "donna-lass-remains-identified"
         },
         {
-          "id": "",
-          "name": "Donna Lass disappears",
-          "slug": "donna-lass-disappears"
+          "id": "rec5GoyI3M52m5F5q",
+          "name": "Donna Lass is seen for the last time",
+          "slug": "donna-lass-is-seen-for-the-last-time"
         },
         {
           "id": "recaIh7bnv1F5Uj2C",
@@ -5381,9 +5356,9 @@
           "slug": "donna-lass-remains-recovered"
         },
         {
-          "id": "rec5GoyI3M52m5F5q",
-          "name": "Donna Lass is seen for the last time",
-          "slug": "donna-lass-is-seen-for-the-last-time"
+          "id": "recwmP8JSu6NYo9Dx",
+          "name": "News coverage of Donna Lass remains recovered",
+          "slug": "news-coverage-of-donna-lass-remains-recovered"
         }
       ],
       "relatedPeople": [
