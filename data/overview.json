@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-30T14:07:22.501809+00:00",
+  "generatedAt": "2026-05-30T19:42:56.770011+00:00",
   "stats": {
-    "events": 477,
-    "people": 342,
-    "locations": 356,
+    "events": 486,
+    "people": 343,
+    "locations": 358,
     "tags": 43,
-    "images": 1699,
-    "mappedSites": 45,
+    "images": 1707,
+    "mappedSites": 46,
     "years": {
       "start": 1925,
       "end": 2025
@@ -26,11 +26,11 @@
       "count": 29
     },
     {
-      "value": 1966,
-      "count": 24
+      "value": 1971,
+      "count": 25
     },
     {
-      "value": 1971,
+      "value": 1966,
       "count": 24
     },
     {
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 121
+      "count": 130
     },
     {
       "value": "Case Event",
@@ -66,6 +66,23 @@
   ],
   "featuredPeople": [
     {
+      "id": "recoOKTf4wXF3GBYn",
+      "slug": "marvin-margolis-merrill",
+      "kind": "person",
+      "title": "Marvin (Margolis) Merrill",
+      "subtitle": "Suspect,Military,Deceased",
+      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
+      "relatedEventCount": 44,
+      "primaryImage": {
+        "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "mediumUrl": "data/media/derived/medium/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
+        "derivativeState": "derived",
+        "label": "Screenshot_2026-05-10_at_9.18.17_PM.png"
+      },
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recGZwp9mtC6qB9Hd",
       "slug": "zodiac",
       "kind": "person",
@@ -79,23 +96,6 @@
         "mediumUrl": "data/media/derived/medium/attD0P2TkTV1TT5jO_image.png",
         "derivativeState": "derived",
         "label": "image.png"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "recoOKTf4wXF3GBYn",
-      "slug": "marvin-merrill",
-      "kind": "person",
-      "title": "Marvin Merrill",
-      "subtitle": "Suspect,Military,Deceased",
-      "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 35,
-      "primaryImage": {
-        "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
-        "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
-        "mediumUrl": "data/media/derived/medium/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
-        "derivativeState": "derived",
-        "label": "Screenshot_2026-05-10_at_9.18.17_PM.png"
       },
       "mapOpenUrl": ""
     },
@@ -193,7 +193,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 40,
+      "relatedEventCount": 41,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -249,20 +249,14 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
     },
     {
-      "id": "recxuIuPaJDKhXKo6",
-      "slug": "lake-berryessa",
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
       "kind": "location",
-      "title": "Lake Berryessa",
-      "subtitle": "Site",
+      "title": "Vista, CA",
+      "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 10,
-      "primaryImage": {
-        "originalUrl": "data/media/attkivbmybaAngm0N_image.png",
-        "thumbUrl": "data/media/derived/thumb/attkivbmybaAngm0N_image.png",
-        "mediumUrl": "data/media/derived/medium/attkivbmybaAngm0N_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
+      "relatedEventCount": 11,
+      "primaryImage": null,
       "mapOpenUrl": ""
     }
   ],
@@ -372,7 +366,7 @@
       "title": "Vallejo, CA",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 40,
+      "relatedEventCount": 41,
       "primaryImage": {
         "originalUrl": "data/media/attgAhXS75r2btCyV_image.png",
         "thumbUrl": "data/media/derived/thumb/attgAhXS75r2btCyV_image.png",
@@ -473,7 +467,7 @@
     }
   ],
   "freshness": {
-    "label": "May 30, 2026, 02:07 PM UTC",
+    "label": "May 30, 2026, 07:42 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -484,17 +478,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "477 dated events spanning 1925 to 2025."
+      "description": "486 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "342 linked people and organizations with related-event cross references."
+      "description": "343 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "356 places connected to the archive, including mapped sites where data exists."
+      "description": "358 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",

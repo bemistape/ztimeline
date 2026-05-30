@@ -24,6 +24,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -46,7 +51,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Margolis is born Marvin Merrill was born as Marvin Margolis in Cook County, IL (presumably Chicago) on March 25, 1925. Birthday Chicago Marvin Merrill"
+      "searchText": "Marvin Margolis is born Marvin Merrill was born as Marvin Margolis in Cook County, IL (presumably Chicago) on March 25, 1925. Birthday Chicago Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recuBhlkcmZlBIIT6",
@@ -621,6 +626,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -638,7 +648,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin (Merrill) Margolis registers for draft post-war Suspect Event Chicago Marvin Merrill"
+      "searchText": "Marvin (Merrill) Margolis registers for draft post-war Suspect Event Chicago Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recsHX0ADK53cHAsg",
@@ -664,6 +674,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -686,7 +701,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin (Merrill) Margolis marries first wife Edith Bernstein Marvin Margolis married his first wife Edith in a Jewish ceremony, in the presence of Robert Barrick and David Bernstein, listed as happening at [6331 W 6th St, Los Angeles, CA 90048](https://www.zillow.com/homedetails/6331-W-6th-St-Los-Angeles-CA-90048/2117796538_zpid/). Suspect Event Los Angeles Marvin Merrill"
+      "searchText": "Marvin (Merrill) Margolis marries first wife Edith Bernstein Marvin Margolis married his first wife Edith in a Jewish ceremony, in the presence of Robert Barrick and David Bernstein, listed as happening at [6331 W 6th St, Los Angeles, CA 90048](https://www.zillow.com/homedetails/6331-W-6th-St-Los-Angeles-CA-90048/2117796538_zpid/). Suspect Event Los Angeles Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recgg6pxV9DLvTKz3",
@@ -920,7 +935,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -1025,6 +1040,59 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Cheri Jo Bates and family in the 1950 Census Date is an estimate. Census Records Bellevue, NE Bellevue NE Cheri Jo Bates Joseph C. Bates Irene Karolevitz Michael Bates 1950 Census"
+    },
+    {
+      "id": "recx2OPnsLWdMlqHt",
+      "slug": "letter-to-chicago-police-re-marvin-margolis-impersonating-a-cop",
+      "kind": "event",
+      "title": "Letter to Chicago police re: Marvin Margolis impersonating a cop",
+      "date": "1950-01-31",
+      "dateLabel": "Tue, Jan 31, 1950",
+      "year": 1950,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1950-01-31-9999-00477",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recnog62LVFsETdfp",
+          "name": "Chicago",
+          "slug": "chicago"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "recybbSrLy3OuJ0Kv",
+          "name": "H.L. Stanley",
+          "slug": "h-l-stanley"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attNy1yLT2iapul9y_image.png",
+          "thumbUrl": "data/media/derived/thumb/attNy1yLT2iapul9y_image.png",
+          "mediumUrl": "data/media/derived/medium/attNy1yLT2iapul9y_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "sources": [
+        {
+          "label": "CCCOA Substack",
+          "url": "https://substack.com/home/post/p-199515973"
+        }
+      ],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Letter to Chicago police re: Marvin Margolis impersonating a cop Suspect Event Chicago Marvin (Margolis) Merrill H.L. Stanley"
     },
     {
       "id": "recmykb8A3bfWtx1h",
@@ -1401,7 +1469,7 @@
       "locations": [],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -1582,6 +1650,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -1610,7 +1683,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's in-laws visit in Atlanta Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children. Suspect Event Atlanta, GA Atlanta GA Marvin Merrill Marvin Margolis"
+      "searchText": "Marvin Merrill's in-laws visit in Atlanta Mr. and Mrs. Philip Bernstein of Chicago will arrive in Atlanta on Saturday morning to spend the Labor Day weekend with Mr. and Mrs. Marvin Merrill and children. Suspect Event Atlanta, GA Atlanta GA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recPgYIXBepgFUtiw",
@@ -1646,6 +1719,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -1674,7 +1752,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill referenced in Atlanta synagogue ```\nSunday, February 27, was a\nbig day at Congregation Beth El.\nThe morning was highlighted by\na creative art exhibit in which all\nstudents of the Sunday School\nparticipated. Honorable mention\nwas accorded the following stu\ndents: Isadore Mitzner, Rosalind\nBerger, Pamela Reich, Sandra\nLewitz and Franklin Leiter.\nThe judges, Mrs. Marcus Fire\nstone and Sam Rosenberg, award\ned a special prize to the class of\nLou Schreibman for their Purim\nscene. Members of the class are:\nSheryl Becker, Ted Krick,\nNancy Schreibman, Robert Tre-\nbits, Debbie and Gail Weinstein.\nStudents of the elementary grades\nparticipated in a costume party.\nThe following received prizes for\ntheir costumes: Bruce Gadlin,\nRenee Bagen, Marilyn Levy and\nKenny Merrill. The Adult Edu\ncation Class presented an inter\nesting panel discussion on the\nhistory and custom of Purim to\nthe teen-age assembly.\nClimax of the day was the\nPurim Masquerade Ball held at\nthe Progressive Club. Here too,\nprizes were awarded for unusu\nal costumes. The winners were\nMr. and Mrs. Marvin Merrill,\nMrs. Leon Socol and Sydney\nWallenstein.\n``` Suspect Event Atlanta, GA Atlanta GA Marvin Merrill Marvin Margolis"
+      "searchText": "Marvin Merrill referenced in Atlanta synagogue ```\nSunday, February 27, was a\nbig day at Congregation Beth El.\nThe morning was highlighted by\na creative art exhibit in which all\nstudents of the Sunday School\nparticipated. Honorable mention\nwas accorded the following stu\ndents: Isadore Mitzner, Rosalind\nBerger, Pamela Reich, Sandra\nLewitz and Franklin Leiter.\nThe judges, Mrs. Marcus Fire\nstone and Sam Rosenberg, award\ned a special prize to the class of\nLou Schreibman for their Purim\nscene. Members of the class are:\nSheryl Becker, Ted Krick,\nNancy Schreibman, Robert Tre-\nbits, Debbie and Gail Weinstein.\nStudents of the elementary grades\nparticipated in a costume party.\nThe following received prizes for\ntheir costumes: Bruce Gadlin,\nRenee Bagen, Marilyn Levy and\nKenny Merrill. The Adult Edu\ncation Class presented an inter\nesting panel discussion on the\nhistory and custom of Purim to\nthe teen-age assembly.\nClimax of the day was the\nPurim Masquerade Ball held at\nthe Progressive Club. Here too,\nprizes were awarded for unusu\nal costumes. The winners were\nMr. and Mrs. Marvin Merrill,\nMrs. Leon Socol and Sydney\nWallenstein.\n``` Suspect Event Atlanta, GA Atlanta GA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recbkiWmOu8n2DmPp",
@@ -2336,6 +2414,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -2371,7 +2454,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Margolis gets marriage license as M. Skipton Merrill Suspect Event Wichita, KS Wichita KS Marvin Merrill Marvin Margolis"
+      "searchText": "Marvin Margolis gets marriage license as M. Skipton Merrill Suspect Event Wichita, KS Wichita KS Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "rec9qab7gedpdSbR6",
@@ -2452,6 +2535,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -2476,7 +2564,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Article in Wellington, Kansas newspaper Suspect Event Wellington, KS Wellington KS Marvin Merrill"
+      "searchText": "Article in Wellington, Kansas newspaper Suspect Event Wellington, KS Wellington KS Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recaLXBXGk2YnpEP0",
@@ -2512,6 +2600,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -2535,7 +2628,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Merrill sells two paintings to Medford, OK furniture company Suspect Event Medford, OK Medford OK Marvin Merrill Marvin Margolis"
+      "searchText": "Merrill sells two paintings to Medford, OK furniture company Suspect Event Medford, OK Medford OK Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recwV2KcxNP5fVVZN",
@@ -2571,6 +2664,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -2594,7 +2692,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Skipton Merrill's Wellington Art Association announces art show Suspect Event Wellington, KS Wellington KS Marvin Merrill Marvin Margolis"
+      "searchText": "Skipton Merrill's Wellington Art Association announces art show Suspect Event Wellington, KS Wellington KS Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recUT71dubfLU9N5n",
@@ -3412,6 +3510,49 @@
       "searchText": "Paul Doerr listed on deed records in Solano County Suspect Event Solano County, CA Solano County CA Paul Alfred Doerr, Jr. Paul Alfred Doerr Jr. Paul Doerr"
     },
     {
+      "id": "rec02TocTsFnZMK1w",
+      "slug": "marvin-merrill-and-donna-f-merrill-purchase-solana-beach-property",
+      "kind": "event",
+      "title": "Marvin Merrill and Donna F. Merrill purchase Solana Beach property",
+      "date": "1963-11-28",
+      "dateLabel": "Thu, Nov 28, 1963",
+      "year": 1963,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1963-11-28-9999-00479",
+      "type": "Suspect Event",
+      "description": "SOLANA BEACH\n\\- Marvin S. and Donna F.\nMerrill, Burton and Roanne\nShamsky, 111 No. Acacia Ave.,\nSolana Beach, from Mary E.\nRouse. Por. Sec. 7 T14S,\nR3W.",
+      "excerpt": "SOLANA BEACH \\- Marvin S. and Donna F. Merrill, Burton and Roanne Shamsky, 111 No. Acacia Ave., Solana Beach, from Mary E. Rouse. Por. Sec. 7 T14S, R3W.",
+      "locations": [
+        {
+          "id": "recKKYCEks87hiVwN",
+          "name": "Marvin Merrill's Solana Beach property",
+          "slug": "marvin-merrill-s-solana-beach-property"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attwev4lrOOC71yIm_Coast_Dispatch_1963_11_28_5.jpg",
+          "thumbUrl": "data/media/derived/thumb/attwev4lrOOC71yIm_Coast_Dispatch_1963_11_28_5.jpg",
+          "mediumUrl": "data/media/derived/medium/attwev4lrOOC71yIm_Coast_Dispatch_1963_11_28_5.jpg",
+          "derivativeState": "derived",
+          "label": "Coast_Dispatch_1963_11_28_5.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "https://maps.app.goo.gl/iDexSMGSV2WfJ2Xb9",
+      "hasMedia": true,
+      "searchText": "Marvin Merrill and Donna F. Merrill purchase Solana Beach property SOLANA BEACH\n\\- Marvin S. and Donna F.\nMerrill, Burton and Roanne\nShamsky, 111 No. Acacia Ave.,\nSolana Beach, from Mary E.\nRouse. Por. Sec. 7 T14S,\nR3W. Suspect Event Marvin Merrill's Solana Beach property Marvin (Margolis) Merrill"
+    },
+    {
       "id": "rec5ZRAwVq6j3H700",
       "slug": "william-mcduff-andrew-participates-in-masonic-temple-event-for-mother-s-day",
       "kind": "event",
@@ -3500,6 +3641,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -3522,7 +3668,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill writes letter to the editor Suspect Event San Diego, CA Carlsbad, CA San Diego CA Carlsbad Marvin Merrill"
+      "searchText": "Marvin Merrill writes letter to the editor Suspect Event San Diego, CA Carlsbad, CA San Diego CA Carlsbad Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "receULtlwlZA5dhhK",
@@ -8548,6 +8694,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -8571,7 +8722,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Likely reference to Marvin Merrill in article about Vista, CA school location Suspect Event Vista, CA Vista CA Marvin Merrill Marvin Margolis"
+      "searchText": "Likely reference to Marvin Merrill in article about Vista, CA school location Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "rece6JXvimttwZ2Kw",
@@ -9070,6 +9221,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -9098,7 +9254,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Merrill advertises for business partner in Vista Press ￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspaper of the city _where he resides_.\n\nThis ad runs several other times that month, so hopefully he rushes home to receive the calls he solicited. By the way, this is, ostensibly, when he is supposedly working for _Intel_, his reason to even be in the Bay Area during the crimes. (It seems fairly certain that _if_ he worked at Intel, it isn't until the late 1970s.) Suspect Event Vista, CA Vista CA Marvin Merrill Marvin Margolis"
+      "searchText": "Merrill advertises for business partner in Vista Press ￼​On the same day that he is in Vallejo, California preparing his evening attack on Darlene Ferrin and Mike Mageau, Marvin Merrill is running an advertisement for a furniture accessories business partner in the newspaper of the city _where he resides_.\n\nThis ad runs several other times that month, so hopefully he rushes home to receive the calls he solicited. By the way, this is, ostensibly, when he is supposedly working for _Intel_, his reason to even be in the Bay Area during the crimes. (It seems fairly certain that _if_ he worked at Intel, it isn't until the late 1970s.) Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "rec3uFgjJT93kVKzX",
@@ -10132,7 +10288,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -11710,6 +11866,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -11732,7 +11893,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill quoted in article about Vista school board zoning Suspect Event Vista, CA Vista CA Marvin Merrill"
+      "searchText": "Marvin Merrill quoted in article about Vista school board zoning Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recFFGBi0xbFbusla",
@@ -18811,6 +18972,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -18833,7 +18999,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Merrill referenced in search for family dog in Vista, CA Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will need to return to the Bay Area soon to mail the Belli Letter on or around December 20th. Suspect Event Vista, CA Vista CA Marvin Merrill"
+      "searchText": "Merrill referenced in search for family dog in Vista, CA Marvin Merrill's family dog is missing, and though he is not explicitly named as being present, \"the Merrills\" are identified as a group out searching for the dog. If Marvin Merrill _was_ searching for the dog, he will need to return to the Bay Area soon to mail the Belli Letter on or around December 20th. Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recq0Zly0j1za56fW",
@@ -20191,7 +20357,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -21516,6 +21682,35 @@
       "searchText": "Spinelli surrenders in Portland Witness Event Portland, OR Portland OR Ralph Spinelli Arthur Leigh Allen"
     },
     {
+      "id": "recrwt2RVqHLCfpsz",
+      "slug": "marvin-merrill-speaks-in-favor-of-highway-expansion",
+      "kind": "event",
+      "title": "Marvin Merrill speaks in favor of highway expansion",
+      "date": "1971-03-01",
+      "dateLabel": "Mon, Mar 1, 1971",
+      "year": 1971,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1971-03-01-9999-00483",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Marvin Merrill speaks in favor of highway expansion Suspect Event Marvin (Margolis) Merrill"
+    },
+    {
       "id": "rec1pRvTsUrpzImQh",
       "slug": "the-la-times-letter",
       "kind": "event",
@@ -22078,6 +22273,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -22095,7 +22295,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's father Isadore dies Isadore Margolis SCOTTSDALE - Services for Isadore Margolis, 77, owner of the Arizona Auto Products Co. of Scottsdale, were held May 13 in Chicago. Mr. Margolis, 6926 E. Oak, died May 11 in St.\nLuke's Hospital in Phoenix. Born in Russia, he came to Scottsdale in 1959 from Chicago. Survivors include his wife, Lillian; three sons, Marvin of Vista, Calif., Milton and Donald, both of Chicago; a sister of Chicago, and five grandchildren.. Suspect Event Phoenix, AZ Phoenix AZ Marvin Merrill"
+      "searchText": "Marvin Merrill's father Isadore dies Isadore Margolis SCOTTSDALE - Services for Isadore Margolis, 77, owner of the Arizona Auto Products Co. of Scottsdale, were held May 13 in Chicago. Mr. Margolis, 6926 E. Oak, died May 11 in St.\nLuke's Hospital in Phoenix. Born in Russia, he came to Scottsdale in 1959 from Chicago. Survivors include his wife, Lillian; three sons, Marvin of Vista, Calif., Milton and Donald, both of Chicago; a sister of Chicago, and five grandchildren.. Suspect Event Phoenix, AZ Phoenix AZ Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recat0ikBRBor98HZ",
@@ -22131,6 +22331,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -22155,7 +22360,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill and wife involved in \"Project Devel Corp\" Various dates. Suspect Event San Diego County, CA San Diego County CA Marvin Merrill"
+      "searchText": "Marvin Merrill and wife involved in \"Project Devel Corp\" Various dates. Suspect Event San Diego County, CA San Diego County CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recUaR76C89J0wwzI",
@@ -22736,7 +22941,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -22796,13 +23001,18 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
         },
         {
           "id": "recDGLrzZDACdBeH6",
           "name": "Donna Faye McEachern Merrill",
           "slug": "donna-faye-mceachern-merrill"
+        },
+        {
+          "id": "",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
         }
       ],
       "tags": [
@@ -22824,7 +23034,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's wife sells vehicles Address listed is business zoned, 521 Vandegrift, Oceanside, CA. Suspect Event Oceanside, CA Oceanside CA Marvin Merrill Donna Faye McEachern Merrill Marvin Margolis"
+      "searchText": "Marvin Merrill's wife sells vehicles Address listed is business zoned, 521 Vandegrift, Oceanside, CA. Suspect Event Oceanside, CA Oceanside CA Marvin (Margolis) Merrill Donna Faye McEachern Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recY9qWh9rH1BMgm3",
@@ -22880,10 +23090,63 @@
       "searchText": "Paul Doerr writes letter to editor referencing \"slaves\" Suspect Event San Francisco Paul Alfred Doerr, Jr. Paul Alfred Doerr Jr."
     },
     {
-      "id": "rec0OzAVw6RpeMgmr",
-      "slug": "marvin-merrill-s-wife-said-to-be-living-in-los-angeles",
+      "id": "recOASUl7XTfnxXyq",
+      "slug": "lien-sale-at-address-tied-to-marvin-merrill",
       "kind": "event",
-      "title": "Marvin Merrill's wife said to be living in Los Angeles",
+      "title": "Lien sale at address tied to Marvin Merrill",
+      "date": "1972-05-02",
+      "dateLabel": "Tue, May 2, 1972",
+      "year": 1972,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1972-05-02-9999-00481",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att4afIrmQdRtMBWV_Daily_Times_Advocate_1972_05_02_23.jpg",
+          "thumbUrl": "data/media/derived/thumb/att4afIrmQdRtMBWV_Daily_Times_Advocate_1972_05_02_23.jpg",
+          "mediumUrl": "data/media/derived/medium/att4afIrmQdRtMBWV_Daily_Times_Advocate_1972_05_02_23.jpg",
+          "derivativeState": "derived",
+          "label": "Daily_Times_Advocate_1972_05_02_23.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Lien sale at address tied to Marvin Merrill Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill"
+    },
+    {
+      "id": "rec0OzAVw6RpeMgmr",
+      "slug": "donna-merrill-s-father-s-obituary-says-she-lives-in-los-angeles",
+      "kind": "event",
+      "title": "Donna Merrill's father's obituary says she lives in Los Angeles",
       "date": "1972-06-19",
       "dateLabel": "Mon, Jun 19, 1972",
       "year": 1972,
@@ -22898,13 +23161,28 @@
           "id": "reccuFwS3SQNJRVps",
           "name": "Los Angeles",
           "slug": "los-angeles"
+        },
+        {
+          "id": "recrH8mYy6Oyhsol6",
+          "name": "Wichita, KS",
+          "slug": "wichita-ks"
+        },
+        {
+          "id": "",
+          "name": "Wichita",
+          "slug": "wichita"
+        },
+        {
+          "id": "",
+          "name": "KS",
+          "slug": "ks"
         }
       ],
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
         },
         {
           "id": "recDGLrzZDACdBeH6",
@@ -22925,7 +23203,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's wife said to be living in Los Angeles Via her father's obituary:\nServices for Eugene McEachern, 63, of Wellington, Kan., retired Santa Fe Railroad d Co. employe. who died Sunday, will be at 2 p.m. Tuesday in Frank Funeral Home, Wellington. Burial will be in Wellington.\nHe was born in Perth, Kan. He had been a resident of the Wellington area all of his life. He was a member of the Presbyterian Church, Elks Lodge and Masonic Lodge. Survivors include his widow, Lena; a son, Delwain, Garber, Okla.; a daughter, Mrs. Donna Merrill, Los Angeles, Calif.; four brothers, Hugh, Roy, John and Jess, all of Wellington; three sisters, Bessie Kingsley, Conway Springs, Kan., Marie Kern, Wichita, and Fannie Kern, Wellington. Suspect Event Los Angeles Marvin Merrill Donna Faye McEachern Merrill"
+      "searchText": "Donna Merrill's father's obituary says she lives in Los Angeles Via her father's obituary:\nServices for Eugene McEachern, 63, of Wellington, Kan., retired Santa Fe Railroad d Co. employe. who died Sunday, will be at 2 p.m. Tuesday in Frank Funeral Home, Wellington. Burial will be in Wellington.\nHe was born in Perth, Kan. He had been a resident of the Wellington area all of his life. He was a member of the Presbyterian Church, Elks Lodge and Masonic Lodge. Survivors include his widow, Lena; a son, Delwain, Garber, Okla.; a daughter, Mrs. Donna Merrill, Los Angeles, Calif.; four brothers, Hugh, Roy, John and Jess, all of Wellington; three sisters, Bessie Kingsley, Conway Springs, Kan., Marie Kern, Wichita, and Fannie Kern, Wellington. Suspect Event Los Angeles Wichita, KS Wichita KS Marvin (Margolis) Merrill Donna Faye McEachern Merrill"
     },
     {
       "id": "recwJ8thtS5IxTWgi",
@@ -22995,6 +23273,96 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Sculptor Creates Works of Art in Flanders Studio i - THE BERNARDSVILLE NEWS -OBSERVER-TRIBUNE-ECHOES-SENTINEL, THURSDAY, AUGUST 17, 1972 Sculptor Creates Works Of Art In Flanders Studio By ANNE BOTSFORD Special Correspondent It has been a short summer for Berta Margoulies. Hidden in a studio in Flanders where she lives with her husband Eugene O'Hare. Berta Margoulies has been doing what she loves to do. For hours each day, she has been sculpting. creating works that have helped make her so wellknown in her field.\nMrs. O'Hare. or Miss Margoulies as she is known profes- sionally. works ned by her son engineer as well and teaches at free-lance and engineer Museum of Fine Bertha's inventor. designer He published such as \"Viet tional Law.\" Crime of Silence: the Russell Mine Disaster, Famous Work in a studio desig- Crimes Tribunal.\" both still avail- shoulder.\nand nobody seemed to Michael. He is an able under O'Hare Books know what one really looked like. as an architect The sculptor has a garden full but we finally found one in the MIT. He is a of other \"children.\" They are her Smithsonian's attic.\" The consultant architect sculptures. spanning a 40 year postman.\nlike all of her commisfor the Boston career. Born In Poland and sioned work of the period. is Arts. educated in Belgium. Holland beautifully executed and freehusband is a retired and England, she came to this spirited.\nand publisher. country as a young woman to As Berta guides a visitor anti-war books attend Hunter College. from through the garden she chats Nam and Interna- which she was graduated with a about each piece. occasionally and \"Against the B.A. degree in anthropology and lightly touching your arm when of languages.\nHer father had been she says something she feels is Proceedings International War lost in Belgium during World especially important. She laughs War I and her mother died later about some of the pieces. either while they were in England. because they appeal to rather her The sculpture garden repre- wry sense of humor or because there is a funny story connected sents the growth of the artist and the woman over years that saw with them. many triumphs and much critical A larger-than-life female figure recognition.\nstarting with a is so strong and healthy dominates and Gardner Foundation Fellowship beautiful that she one in 1929. She has received the end of the garden. She was done Prize. given by the Ar- during the The model was forties. Avery chitectural League of New York.\na 15 year old Czech girl who went The Accomplishment in Sculp- on to co-star in several HollyAward given by the wood movies and finally married ture of someone who bore her off to American Academy Arts and Latters. and a Guggenheim Fel- Canada and anonymity. The other marks piece is heroic and calm and lowsip, among many of distinction. belongs in the garden of the the thirties and early Museum of Modern Art but there During forties. when President Roose- is also a grave delicacy about her.\nvelt's administration was en- There is also \"Adam\", an excouraging the arts, she entered pectant person. smaller than lifeand won a number of national size and roughly modelled. competitions which resulted In \"Penelope\", waiting, has her important commissions. The arms draped over the back of : a original plaster sculpture of the chair. on which she sits backColonial Foot Postman standing wards.\nShe is a figure that makes in the Postmaster General's office you laugh. Penelop's plight, waitin Washington. D.C. is in her ing for Ulysses for so many years, studio. \"I used every bit of the is not treated as tragic by Miss research training I'd received at Margoulies.\nHer Penelope is Hunter to do him.\" she said. \"The fuming. She's disgusted and Smithsonian didn't even know bored. You can read her mind in they had a colonial-period mail the lines of her small body and pouch like the one you see on his modelling of her tiny hands. The most extraordinary figure in the garden is titled \"Lost Lady.\" She stands over six feet tall.\nand alone. Her legs are apart and her arms are raised in 3 poignant movement rather as if she is about to shoot an arrow. The slight twist of her upper body, led by her head. shows she is in mid-movement. captured and frozen by the artist.\n\"Lost Lady\" is a figure of anguish and confusion. but she looks like a survivor, a runner. She is pulled by opposing forces. but IS not tragic in a maudlin way. Margoulies treats tragedy as if it were simply part of life, not as cataclysm.\nPerhaps her power as a sculptor lies in this ability to be realistic. to humanize the events in life that in another artist's work might assume monstrous significance. Margoulies never oversymbolizes. Done in the forties. \"Mine Disaster\" 1S Miss Margoulies' most famous and most reproduced piece.\nShe has another casting of the bronze which is at the Whitney Museum. It stands near the entrance to the garden. Eight semi- abstract figures stand cramFlanders med together behind a fence. craning to see the rescue work. One of the sculptures that amuses Margoulies is her first stone carving.\ndone after she was \\* : Helen Keller With Sculpture a At Home In Flanders graduated from Hunter. In fact. it is a piece of Hunter. The old school building was demolished to make room for a new one, and Margoulies salaged a hunk of stone and carved a mother and child from it. Even though she thinks it is naive and uncertain, she loves it because it was her first effort in stone.\n\"I love all the sculpture media. You must keep experimenting. You find when you return to familiar materials that you've learned a great deal about them by working with something else.\" she said. Miss Margoulies has taught during her career. In fact, her classes at Somerset Art Assn.\nin Claremont Rd.. Bernardsville resume in the fall. When she and her family lived in New York, she taught at NYU in the adult education department. in private studio classes and at Finch College for seven years. She has taught with various art assocations in the New York Area.\nMiss Margoulies began to teach at the Somerset Art Association in Bernardsville when she and her husband moved permanently to their charming country house in Flanders a year and a half ago. It is an old stone farm house. The O'Hares got in the habit of redesigning parts of it when it was gutted by fire almost 30 years ago. \\*We took advantage of the fire and redid it the way we really wanted it. Then my son Michael added the columns in front much into perspective.\nI also get great satisfaction in bringing things out in people. It's the giving back that 'like. You're pouring back talent and energy into other people's lives. The purpose is not to make my students professional sculptors but to give them the means to say something in another medium than they usually do. It's amazing how rewarding people find it to make things.\nAlso sculpture classes help them to see the criticize sculpture better. It gives them respect for the artist. They respect art when they realize that learning to sculpt or paint isn't like learning multiplication tables. It can't be done in ten easy lessons. You have to do it long enough and suffer a little bit.\" Berta Margoulies commented.\n\"Many students go on to acquire sculpture once they've learned what effort and joy goes into it. They may discover they outgrow a sculpture they've bought, but after all. we throw out curtains and furniture every few years and that's all right. If you get tired of a sculpture you can put it in the attic and rediscover it later. \"Why do we always put plants in a spot that needs something three-dimensional? A sculpture is usually a better solution.\nPeople seem to think they have to have marble stands and special lighting to own sculpture, but that's not true. Another common mistake is to assume sculpture belongs in the house. It's more fun to put it outside where you can watch the natural play of light on it. That Margoulies' work expresses universal themes is hardly unique. What makes it special is that each piece has a multiplicity of meanings.\nOne figure. titlec \"Ritual.\" represents the celebrant tending the candles during a religious ceremony. It also reminds you of early man. drawn to fire for warmth and protection. All of these thoughts occur to the viewer in a rush of response.\nwithout intellectual process. A good artist does not necessarily make a good art teacher. Margoulies is both. a rare bird indeed. Many of her students at the Somerset Art Association are beginners, and in the evening classes, many are men.\nMiss Margoulies moves slowly around the circle of students, who are grouped around a live model. She pauses at each person's workstand to make a comment or bridkly perform a bit of plastic surgery on a terra cotta nose. At the same time, she delivers a general lecture on the techniques of sculpture. \"First see what's good, then look for what's wrong. Look here, how you've allowed the head to get smaller.Don't carve it down to nothing.\" The head has fallen off one student's torso.\n\"While it's off we will hollow it. Take advantage of disasters, class,\" says Miss Margoulies. She stops to show how much to gouge out of the head. (Terra cotta pieces must be carefully hollowed before they are fired.) She moves on to the next person and asks, \"Are you using the right tool for this? Get tools that feel right, as if you were buying a tennis racquet.\" She shows the student how to indicate the model's head is turned. \"If something good happens by accident, recognize it and keep it.\nAnd don't feel that just because the model changes her pose slightly from session to session that you have to keep changing the work you've already done.\" The next student is not as far along with her sculpture. \"Once you've got the composition of those spindly little arms established, anchor them well to the torso before you flesh them out. \"Please always imitate the model's pose yourselves so you can see how it feels and what happens to your own body in that position. Think a little bit ahead of time, like chess.\" Berta Margoulies communicates not only what she teaches. but a sense of her own discipline and dignity.\nShe is a small woman, but she has great presence. Her hair is blonde and falls from her chignon in wisps when she works hard. He blue eyes can zap you, but they laugh, too. \"I've never felt that as a woman I've been treated unfairly as an artist. It's petty of me, you say 'paintress'? What ever you call me.\nit isn't an easy. Combining wife and mother and work can be agonizing at times. wanted to do all three well, and it took everything I had. Sometimes people act as if being an artist is easy, but the gay bohemian life is a myth. Artists are the most disciplined people in the world.\nThey have to because the hours aren't set for them from nine to five. We are always working. even in the middle of the night and when we're away on a vacation.\" Her dedication has made her a fine artist. and a famous one. How fortunate for us all that she has chosen to be a teacher, too.\nSome of Berta Margoulies' work can be seen at the Hunterdon Art Center in Clinton beginning August 22. during his architecture school days. My husband says it looks like an antebellum plantation now. but the columns are really very beautiful. Also the shape of the roof did you notice the shape of the roof?\\*\\* She asks.\nprodding your arm and pointing upward. \"I'm primarily a creative sculptor. not a teacher. but I've always taught somewhere, and I'm delighted with my classes in Bernardsville. I think teaching is particularly important these days.\nThe art will die if it isn't taught. \"The teaching of art is in a very sorry state. Part of the fault is that minimal art is taking over and robs some of our appreciation of true art. I don't like gimicky art or instant art. They're killingtechinque.\n1 learned to work in all the sculpture media, wood, plaster, stone, concrete, terra cotta. \\*\\*I have no objection to welded sculpture since it is a legimate new medium of our age. I do object to the quick throwing together of diverse objects with no technical contribution. or minimal sculpture which is an arid technological exercise and eliminates both man and artist. I hold man very precious, and for this reason my sculpture is humanistic.\nAt the same time. I'm not sympathetic to synthetic materials in sculpture. I like all the earth source materials.\" said Miss Margoulies. \"I find teaching crystallizes things for an artist. It pulls so Studio In Happenings In The Hills P Wood Carving In Her Studio. Newspaper Article Flanders, NJ Flanders NJ Berta Margoulies Michael O'Hare Ray Grant's Zodiac Project Theory"
+    },
+    {
+      "id": "recoBsj84xnMZqKKm",
+      "slug": "marvin-merrill-speaks-at-meeting",
+      "kind": "event",
+      "title": "Marvin Merrill speaks at meeting",
+      "date": "1972-08-21",
+      "dateLabel": "Mon, Aug 21, 1972",
+      "year": 1972,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1972-08-21-9999-00484",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Marvin Merrill speaks at meeting Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill"
+    },
+    {
+      "id": "recoxa8l4vNLr8ZLY",
+      "slug": "m-s-merrill-speaks-at-vista-planning-commission-meeting",
+      "kind": "event",
+      "title": "M.S. Merrill speaks at Vista Planning Commission meeting",
+      "date": "1972-09-05",
+      "dateLabel": "Tue, Sep 5, 1972",
+      "year": 1972,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1972-09-05-9999-00482",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recURm55M69p21vYN",
+          "name": "Vallejo, CA",
+          "slug": "vallejo-ca"
+        },
+        {
+          "id": "",
+          "name": "Vallejo",
+          "slug": "vallejo"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
+      "hasMedia": false,
+      "searchText": "M.S. Merrill speaks at Vista Planning Commission meeting Suspect Event Vallejo, CA Vallejo CA Marvin (Margolis) Merrill"
     },
     {
       "id": "recg1dUJ02MDrKqj7",
@@ -23178,6 +23546,35 @@
       "mapUrl": "",
       "hasMedia": false,
       "searchText": "SF Examiner article asking where Zodiac went Newspaper Article San Francisco San Francisco Examiner"
+    },
+    {
+      "id": "rec90WTL6rjZ9KxSM",
+      "slug": "merrill-speaks-at-vista-planning-commission-meeting",
+      "kind": "event",
+      "title": "Merrill speaks at Vista Planning Commission meeting",
+      "date": "1973-05-07",
+      "dateLabel": "Mon, May 7, 1973",
+      "year": 1973,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1973-05-07-9999-00485",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": false,
+      "searchText": "Merrill speaks at Vista Planning Commission meeting Suspect Event Marvin (Margolis) Merrill"
     },
     {
       "id": "recFT7BcIqRXittfV",
@@ -23868,6 +24265,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -23885,7 +24287,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's daughter has bat mitzvah Suspect Event Vista, CA Vista CA Marvin Merrill"
+      "searchText": "Marvin Merrill's daughter has bat mitzvah Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recISLlMUV2t4GZ0s",
@@ -24536,6 +24938,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -24559,7 +24966,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill is sued in small claims court Suspect Event San Diego County, CA San Diego County CA Marvin Merrill Marvin Margolis"
+      "searchText": "Marvin Merrill is sued in small claims court Suspect Event San Diego County, CA San Diego County CA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recGtwhRpLbkPeEUs",
@@ -24756,7 +25163,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -24861,6 +25268,43 @@
       "searchText": "Vallejo Times-Herald article on Toschi _Here is a Gemini AI transcription of the article about Dave Toschi:_\n### Lone SF Detective Is Chasing ‘Zodiac’\n**By TIM REITERMAN**\nSAN FRANCISCO (AP) — For seven years, Police Det. Dave Toschi has been looking for one particular pot-bellied man, about 5-feet-8 tall, 200 pounds, with short reddish brown hair and glasses on his round face. 1\nThe man appears intelligent and may have learned cryptography in the military. 2 He sometimes wears pleated pants over sine shoes. On weekdays, he may work at a menial job where he is looked upon as little more than a name and number. On weekends, he takes pleasure in killing unarmed strangers. 3\nHe calls himself Zodiac. 4\nIn boastful, taunting, sometimes coded communications, Zodiac has claimed a number of murders. 5\nZodiac is a personal nemesis for Toschi, now the only San Francisco Police Department officer assigned to the case. 6 His case files fill seven large drawers, one for each frustrating year on Zodiac’s trail. He carries a copy of Zodiac’s last letter at all times — a reminder that the killer may still be at large. 7\n“To be honest, I’m no closer now to solving the case,” the dapper, curly-haired detective says with a tug at his bow tie. 8“It’s been a paper chase for me. My files are getting larger. I doubt I’ll get him unless he makes a mistake or kills again. I don’t know where he is.” 9\n### UNSOLVED MURDERS\n“He has a personal box score,” the homicide detective says. “We know for sure he killed at least six and wounded two in the late 1960s, but there are many unsolved homicides. He hasn’t taken credit for any specific killings in the last few years, yet whenever we get a new letter postmarked from him, the score goes up.” 10\nZodiac has claimed responsibility for a host of murders, several of which police say he definitely did not commit. 11But they are certain the following attacks belong in his “boxscore”: 12\n- On Oct. 30, 1966, a man slashed the throat of a University of California coed, Cheri Jo Bates, in a Riverside parking lot. 13\n- On Dec. 20, 1968, a man used a pencil flashlight taped to the barrel of a .22-caliber pistol to find and kill David Faraday and Betty Lou Jensen on a dark lover’s lane near Vallejo. 14\n- On July 5, 1969, less than four miles from the double murder, a man repeatedly fired a 9mm pistol into another parked car, killing Mrs. Darlene Ferrin, 22, and wounding Michael Mageau, 19. 15\n- A black-hooded man tied up and repeatedly stabbed Bryan Hartnell and Cecelia Ann Shepard at Lake Berryessa Park, about 20 miles north of Napa. The woman died from stab wounds but Hartnell recovered. 16161616\n- On Oct. 11, 1969, a man pumped four bullets into the head of taxi driver Paul Stine, 29, in a posh San Francisco neighborhood. 17171717\n### STRANGE PATTERN\nThe first known slaying and the last known slaying are considered particularly strange. Zodiac did not boast of the first, the only slaying outside the San Francisco Bay area. And the last did not fit his pattern. 18\n“The other killings were in remote areas and no money was taken,” Toschi observed. “This last one was a sloppy holdup.” 19“He had to have gotten blood on his hands and clothing. Maybe he got a total of $8.” 20\nDid Zodiac need money, or did he want to change his techniques, never using the same weapon twice? He concealed his face during a daylight murder, and he used a knife rather than a gun when shots would attract attention. 21212121\n### HIS MOTIVATION\nWhat drives Zodiac to kill? 22\nIn his own decoded words, Zodiac said, “I like killing people because it is so much fun, it is more fun than killing wild game in the forest because man is the most dangerous animal of all, to kill something gives me the most thrilling experie23nce. The best part of it is that when I die I will be reborn in paradice, and all I have killed will become my slaves.” 242424242424242424\nToschi tends to dismiss the witchcraft-Satanic implications. “He was trying to be dramatic. If he had much of an interest in the occult, he never would have misspelled paradise as ‘paradice.’ I think the letters are a screen, not a real clue.” 25\nIs Zodiac a perverse sex killer? “There’s no evidence he ever molested any of his victims, nor did he do any fondling or use filthy language,” Toschi says. 26“Some psychiatrists will tell you he’s a latent homosexual or he hates women. I think he gets sexual gratification or pleasure from killing unarmed people. One victim said he was laughing loudly and hideously while stabbing a woman victim.” 2728\n### SUSPICIOUS WIVES\nToschi says this after pinning down 2,000 possible suspects whose names were provided by concerned citizens, police officers, prison officials and others. 29\n“I’ve even had wives come in and tell me they suspect their husband,” he says. 30“But I never joke about the Zodiac. I’ll talk to anybody about the case on the chance they know something.” 31\nZodiac has not sent a direct statement in months, but that’s not unprecedented. 32In January 1974, after a silence of 34 months, he wrote to update his murder count and to pan the gut-wrenching movie, “The Exorcist,” as “bad comedy.” 33Then in July 1974, he wrote a letter to the San Francisco Chronicle, decrying ads for the movie “Badlands” as “murder glorification.” 34“Why don’t you show some concern for public sensibilities and cut this ad,” printed the man who terrorized the area with grisly murders and occasional threats against busloads of children. 35353535The letter was signed, “A Citizen,” but alert mail room workers recognized his printing, which was then verified by handwriting experts. 36\n“When we get intervals of silence, it’s possible he’s in the hospital or in prison where he wouldn’t dare send a letter,” Toschi says. “But this is only supposition.” 37\n### FOUR QUESTIONS\nA newspaper article will prompt a rash of tips. He has consulted psychics and astrologers for clues. Four men considered likely suspects were placed under surveillance, fingerprinted and questioned extensively. But nothing has panned out. 38\nJust what do police know about the mystery killer? 39They have partial fingerprints but not enough to make an identification. 40They have an admittedly weak physical description based on accounts of survivors and witnesses. 41414141They are almost certain he wears glasses since he even wore them during the daytime stabbing at Lake Berryessa. 42They believe he lives in the San Francisco Bay area since most of his communications were mailed from this area. 43434343\nJudging from Zodiac’s physical description, his use of dated jargon, Toschi estimates that he may be 35 to 45 years old. “I would speculate he maybe has a menial job, is not well thought of and blends into the crowd,” he said. “He might be a room clerk or work for a big insurance company. A name and a number.” 44444444\n“In 1969, I felt we’d solve the case. Zodiac would make a mistake or he’d come in and surrender,” Toschi says. “I never thought then that I’d still be working on the case now. Dammit, I hope I can solve it. I have seven or eight years before I’m eligible for retirement.” 45454545 Case Event Vallejo, CA San Francisco Vallejo CA David Toschi Vallejo Times-Herald"
     },
     {
+      "id": "rec9B2hLC22sLJJdA",
+      "slug": "bonded-engine-co-advertises-new-owner",
+      "kind": "event",
+      "title": "Bonded Engine Co. advertises new owner",
+      "date": "1976-11-10",
+      "dateLabel": "Wed, Nov 10, 1976",
+      "year": 1976,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1976-11-10-9999-00480",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attJNN9vaQctMTFAb_North_County_Times_1976_11_10_21.jpg",
+          "thumbUrl": "data/media/derived/thumb/attJNN9vaQctMTFAb_North_County_Times_1976_11_10_21.jpg",
+          "mediumUrl": "data/media/derived/medium/attJNN9vaQctMTFAb_North_County_Times_1976_11_10_21.jpg",
+          "derivativeState": "derived",
+          "label": "North_County_Times_1976_11_10_21.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Bonded Engine Co. advertises new owner Suspect Event Marvin (Margolis) Merrill"
+    },
+    {
       "id": "recejl2agGVbNQPgb",
       "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect",
       "kind": "event",
@@ -24903,7 +25347,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -25058,6 +25502,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -25081,7 +25530,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Merrill still owns land in San Diego County in 1977 Suspect Event Vista, CA Oceanside, CA Vista CA Oceanside Marvin Merrill Marvin Margolis"
+      "searchText": "Merrill still owns land in San Diego County in 1977 Suspect Event Vista, CA Oceanside, CA Vista CA Oceanside Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "recCrD4tC0vJHowE4",
@@ -25117,6 +25566,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -25140,7 +25594,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill endorses failed rezoning effort Suspect Event Vista, CA Vista CA Marvin Merrill Marvin Margolis"
+      "searchText": "Marvin Merrill endorses failed rezoning effort Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Marvin Merrill Marvin Margolis"
     },
     {
       "id": "rectm9Z1y7eQJEcgZ",
@@ -25324,6 +25778,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -25346,7 +25805,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Donna Merrill files for divorce from Marvin Merrill Suspect Event San Diego County, CA San Diego County CA Marvin Merrill"
+      "searchText": "Donna Merrill files for divorce from Marvin Merrill Suspect Event San Diego County, CA San Diego County CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recvVqdTgYYBYx4AL",
@@ -25430,7 +25889,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -25441,6 +25900,71 @@
       "mapUrl": "",
       "hasMedia": false,
       "searchText": "Marvin Merrill (as Skip Merrill) possibly living in San Jose Suspect Event San Jose, CA San Jose CA Marvin Merrill"
+    },
+    {
+      "id": "recJwbZPXMFcaw5XB",
+      "slug": "marvin-merrill-and-donna-merrill-are-selling-property",
+      "kind": "event",
+      "title": "Marvin Merrill and Donna Merrill are selling property",
+      "date": "1979-03-01",
+      "dateLabel": "Thu, Mar 1, 1979",
+      "year": 1979,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1979-03-01-9999-00478",
+      "type": "Suspect Event",
+      "description": "**Transcription**\n> PUBLIC NOTICE\n> \n> 67220\n> NOTICE OF TRUSTEE'S\n> SALE\n> Foreclosure No. 78-31\n> \n> On Friday, the 23rd. day of March, 1979, at the hour of 11:00, A.M. at The Main entrance to the City Hall, City of Oceanside, County of San Diego, State of California, MEC ASSOCIATES, INC., as Trustee, will sell at public auction, to the highest bidder for cash in lawful money of the United States, all payable at the time of sale, the real property situate in the Unincorporated area of County of San Diego, State of California, and described as follows:\n> Lot 263 San Diego Country Estates VI, as per Map Number 7980, filed in the office of the County Recorder of San Diego County, California on July 15, 1974.\n> The sale will be made without covenant or warranty regarding title, possession, or encumbrances to satisfy the obligations secured by and pursuant to the power of sale conferred in that certain Deed of Trust executed by M. Margolis Merrill and Donna F. Merrill, husband and wife as joint tenants as to an undivided 1/2 interest; & Daniel A. Abbott and Sharon I. Abbott, husband and wife, joint tenants as to an undivided 1/2 interest as tenants in common. as Trustor(s), to MEC ASSOCIATES, INC., as Trustee, to secure an indebtedness to Wells Fargo Realty Services, Inc., as trustee under Trust No. 1520., the named Beneficiary, dated June 12, 1977, and recorded on July 29, 1977, as Instrument No. 1372, in Book 1977, Page 77-308128, of Official Records in the office of the Recorder of San Diego County, State of California, which Deed of Trust and the Note secured thereby are now owned by Wells Fargo Realty Svcs. Inc. as trustee under Trust No. 1520.\n> Notice of Default and Election to Sell the described real property under the said Deed of Trust was recorded November 14, 1978, in Book 1978, at Page 78-490889, as Instrument No. 867, Official Records of said County.\n> This sale is being made at the request of the present beneficiary, Wells Fargo Realty Services, Inc., whose address is 572 East Green Street, Pasadena, CA. 91101.\n> DATED: February 23, 1979\n> MEC ASSOCIATES, INC., a California corporation\n> By: Howard Goldstein, President\n> 1633 26th Street\n> P. O. Box 2114\n> Santa Monica, CA 90406\n> 213/829-4586\n> PUBLISH: March 1, 8, and 15, 1979",
+      "excerpt": "**Transcription** > PUBLIC NOTICE > > 67220 > NOTICE OF TRUSTEE'S > SALE > Foreclosure No. 78-31 > > On Friday, the 23rd. day of March, 1979, at the hour of 11:00, A.M. at The Main entrance to the City Hall, City of Oce…",
+      "locations": [
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "",
+          "name": "Oceanside",
+          "slug": "oceanside"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att52t7XE0S1OjOdk_Ramona_Sentinel_1979_03_01_16.jpg",
+          "thumbUrl": "data/media/derived/thumb/att52t7XE0S1OjOdk_Ramona_Sentinel_1979_03_01_16.jpg",
+          "mediumUrl": "data/media/derived/medium/att52t7XE0S1OjOdk_Ramona_Sentinel_1979_03_01_16.jpg",
+          "derivativeState": "derived",
+          "label": "Ramona_Sentinel_1979_03_01_16.jpg"
+        },
+        {
+          "originalUrl": "data/media/attZfG5r5lAkOtdgL_Ramona_Sentinel_1979_03_15_18__1_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attZfG5r5lAkOtdgL_Ramona_Sentinel_1979_03_15_18__1_.jpg",
+          "mediumUrl": "data/media/derived/medium/attZfG5r5lAkOtdgL_Ramona_Sentinel_1979_03_15_18__1_.jpg",
+          "derivativeState": "derived",
+          "label": "Ramona_Sentinel_1979_03_15_18__1_.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin Merrill and Donna Merrill are selling property **Transcription**\n> PUBLIC NOTICE\n> \n> 67220\n> NOTICE OF TRUSTEE'S\n> SALE\n> Foreclosure No. 78-31\n> \n> On Friday, the 23rd. day of March, 1979, at the hour of 11:00, A.M. at The Main entrance to the City Hall, City of Oceanside, County of San Diego, State of California, MEC ASSOCIATES, INC., as Trustee, will sell at public auction, to the highest bidder for cash in lawful money of the United States, all payable at the time of sale, the real property situate in the Unincorporated area of County of San Diego, State of California, and described as follows:\n> Lot 263 San Diego Country Estates VI, as per Map Number 7980, filed in the office of the County Recorder of San Diego County, California on July 15, 1974.\n> The sale will be made without covenant or warranty regarding title, possession, or encumbrances to satisfy the obligations secured by and pursuant to the power of sale conferred in that certain Deed of Trust executed by M. Margolis Merrill and Donna F. Merrill, husband and wife as joint tenants as to an undivided 1/2 interest; & Daniel A. Abbott and Sharon I. Abbott, husband and wife, joint tenants as to an undivided 1/2 interest as tenants in common. as Trustor(s), to MEC ASSOCIATES, INC., as Trustee, to secure an indebtedness to Wells Fargo Realty Services, Inc., as trustee under Trust No. 1520., the named Beneficiary, dated June 12, 1977, and recorded on July 29, 1977, as Instrument No. 1372, in Book 1977, Page 77-308128, of Official Records in the office of the Recorder of San Diego County, State of California, which Deed of Trust and the Note secured thereby are now owned by Wells Fargo Realty Svcs. Inc. as trustee under Trust No. 1520.\n> Notice of Default and Election to Sell the described real property under the said Deed of Trust was recorded November 14, 1978, in Book 1978, at Page 78-490889, as Instrument No. 867, Official Records of said County.\n> This sale is being made at the request of the present beneficiary, Wells Fargo Realty Services, Inc., whose address is 572 East Green Street, Pasadena, CA. 91101.\n> DATED: February 23, 1979\n> MEC ASSOCIATES, INC., a California corporation\n> By: Howard Goldstein, President\n> 1633 26th Street\n> P. O. Box 2114\n> Santa Monica, CA 90406\n> 213/829-4586\n> PUBLISH: March 1, 8, and 15, 1979 Suspect Event Oceanside, CA Oceanside CA Marvin (Margolis) Merrill Donna Faye McEachern Merrill"
     },
     {
       "id": "rectHY4t0Vh2zDty9",
@@ -25561,7 +26085,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         },
@@ -26569,13 +27093,18 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
         },
         {
           "id": "recDGLrzZDACdBeH6",
           "name": "Donna Faye McEachern Merrill",
           "slug": "donna-faye-mceachern-merrill"
+        },
+        {
+          "id": "",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
         }
       ],
       "tags": [],
@@ -26591,7 +27120,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero Suspect Event Atascadero, CA Atascadero CA Marvin Merrill Donna Faye McEachern Merrill"
+      "searchText": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero Suspect Event Atascadero, CA Atascadero CA Marvin (Margolis) Merrill Donna Faye McEachern Merrill Marvin Merrill"
     },
     {
       "id": "recc9zfA8j55eRHaH",
@@ -26627,6 +27156,11 @@
       "people": [
         {
           "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -26644,7 +27178,7 @@
       "sources": [],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Merrill's engine shop is being sold Suspect Event Oceanside, CA Oceanside CA Marvin Merrill"
+      "searchText": "Merrill's engine shop is being sold Suspect Event Oceanside, CA Oceanside CA Marvin (Margolis) Merrill Marvin Merrill"
     },
     {
       "id": "recE5E7zyNhLgfnBV",
@@ -28317,7 +28851,7 @@
       ],
       "people": [
         {
-          "id": "recoOKTf4wXF3GBYn",
+          "id": "",
           "name": "Marvin Merrill",
           "slug": "marvin-merrill"
         }
@@ -29811,7 +30345,7 @@
       },
       {
         "value": "1979",
-        "count": 3
+        "count": 4
       },
       {
         "value": "1978",
@@ -29823,7 +30357,7 @@
       },
       {
         "value": "1976",
-        "count": 5
+        "count": 6
       },
       {
         "value": "1975",
@@ -29835,15 +30369,15 @@
       },
       {
         "value": "1973",
-        "count": 3
+        "count": 4
       },
       {
         "value": "1972",
-        "count": 8
+        "count": 11
       },
       {
         "value": "1971",
-        "count": 24
+        "count": 25
       },
       {
         "value": "1970",
@@ -29875,7 +30409,7 @@
       },
       {
         "value": "1963",
-        "count": 4
+        "count": 5
       },
       {
         "value": "1962",
@@ -29919,7 +30453,7 @@
       },
       {
         "value": "1950",
-        "count": 2
+        "count": 3
       },
       {
         "value": "1949",
@@ -30021,7 +30555,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 121
+        "count": 130
       },
       {
         "value": "Uncategorized",
@@ -30175,7 +30709,7 @@
       },
       {
         "value": "CA",
-        "count": 171
+        "count": 175
       },
       {
         "value": "CA)",
@@ -30191,7 +30725,7 @@
       },
       {
         "value": "Chicago",
-        "count": 4
+        "count": 5
       },
       {
         "value": "China Camp (Renaissance Pleasure Faire Site)",
@@ -30455,7 +30989,7 @@
       },
       {
         "value": "KS",
-        "count": 3
+        "count": 4
       },
       {
         "value": "LA",
@@ -30544,6 +31078,10 @@
       {
         "value": "Martinez, CA",
         "count": 8
+      },
+      {
+        "value": "Marvin Merrill's Solana Beach property",
+        "count": 1
       },
       {
         "value": "Mason & Geary (Union Square)",
@@ -30671,11 +31209,11 @@
       },
       {
         "value": "Oceanside",
-        "count": 7
+        "count": 8
       },
       {
         "value": "Oceanside, CA",
-        "count": 7
+        "count": 8
       },
       {
         "value": "OK",
@@ -31075,7 +31613,7 @@
       },
       {
         "value": "Vallejo",
-        "count": 40
+        "count": 41
       },
       {
         "value": "Vallejo (Allen family home)",
@@ -31087,7 +31625,7 @@
       },
       {
         "value": "Vallejo, CA",
-        "count": 40
+        "count": 41
       },
       {
         "value": "Villa Montalvo (Saratoga",
@@ -31099,11 +31637,11 @@
       },
       {
         "value": "Vista",
-        "count": 9
+        "count": 11
       },
       {
         "value": "Vista, CA",
-        "count": 9
+        "count": 11
       },
       {
         "value": "Waldport",
@@ -31147,11 +31685,11 @@
       },
       {
         "value": "Wichita",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Wichita, KS",
-        "count": 1
+        "count": 2
       }
     ],
     "people": [
@@ -31405,7 +31943,7 @@
       },
       {
         "value": "Donna Faye McEachern Merrill",
-        "count": 5
+        "count": 6
       },
       {
         "value": "Donna Lass",
@@ -31505,6 +32043,10 @@
       },
       {
         "value": "Gordon Marais",
+        "count": 1
+      },
+      {
+        "value": "H.L. Stanley",
         "count": 1
       },
       {
@@ -31712,8 +32254,12 @@
         "count": 2
       },
       {
+        "value": "Marvin (Margolis) Merrill",
+        "count": 34
+      },
+      {
         "value": "Marvin Merrill",
-        "count": 35
+        "count": 34
       },
       {
         "value": "Matthew Burrell",

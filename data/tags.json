@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T14:07:22.501809+00:00",
+  "generatedAt": "2026-05-30T19:42:56.770011+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -3538,8 +3538,8 @@
       "relatedPeople": [
         {
           "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
         },
         {
           "id": "reck9mzheu3yuoDWi",
@@ -3550,6 +3550,11 @@
           "id": "recDGLrzZDACdBeH6",
           "name": "Donna Faye McEachern Merrill",
           "slug": "donna-faye-mceachern-merrill"
+        },
+        {
+          "id": "",
+          "name": "Marvin Merrill",
+          "slug": "marvin-merrill"
         }
       ],
       "relatedLocations": [],
