@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T09:25:34.186009+00:00",
+  "generatedAt": "2026-05-31T14:13:33.613348+00:00",
   "items": [
     {
       "id": "recqHvlmSyXK7UYJo",
@@ -3435,7 +3435,7 @@
       "facts": [
         {
           "label": "Date",
-          "value": "1947-01-15"
+          "value": "1925-03-25"
         }
       ],
       "relatedEvents": [
@@ -3450,9 +3450,9 @@
           "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
         },
         {
-          "id": "",
-          "name": "Marvin Merrill is jailed",
-          "slug": "marvin-merrill-is-jailed"
+          "id": "recuedkkLZd51Nd8x",
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
         },
         {
           "id": "recdWDlUyGaTqu29y",
@@ -3520,9 +3520,9 @@
           "slug": "merrill-advertises-for-business-partner-in-vista-press"
         },
         {
-          "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed for grand theft",
-          "slug": "marvin-merrill-is-jailed-for-grand-theft"
+          "id": "recfqoBnnqTH0eyNr",
+          "name": "Marvin Margolis is born",
+          "slug": "marvin-margolis-is-born"
         },
         {
           "id": "reckBlXfwOEPHVuzI",
@@ -3550,11 +3550,6 @@
           "id": "recDGLrzZDACdBeH6",
           "name": "Donna Faye McEachern Merrill",
           "slug": "donna-faye-mceachern-merrill"
-        },
-        {
-          "id": "",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
         }
       ],
       "relatedLocations": [],

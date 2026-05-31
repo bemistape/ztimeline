@@ -26,14 +26,15 @@
           "id": "recoOKTf4wXF3GBYn",
           "name": "Marvin (Margolis) Merrill",
           "slug": "marvin-margolis-merrill"
-        },
-        {
-          "id": "",
-          "name": "Marvin Merrill",
-          "slug": "marvin-merrill"
         }
       ],
-      "tags": [],
+      "tags": [
+        {
+          "id": "recnyN76pwtLF9eBJ",
+          "name": "Marvin Margolis",
+          "slug": "marvin-margolis"
+        }
+      ],
       "images": [
         {
           "originalUrl": "data/media/att9axNFqdotriwp1_Marvin_Margolis_birth_record.png",
@@ -51,7 +52,7 @@
       ],
       "mapUrl": "",
       "hasMedia": true,
-      "searchText": "Marvin Margolis is born Marvin Merrill was born as Marvin Margolis in Cook County, IL (presumably Chicago) on March 25, 1925. Birthday Chicago Marvin (Margolis) Merrill Marvin Merrill"
+      "searchText": "Marvin Margolis is born Marvin Merrill was born as Marvin Margolis in Cook County, IL (presumably Chicago) on March 25, 1925. Birthday Chicago Marvin (Margolis) Merrill Marvin Margolis"
     },
     {
       "id": "recuBhlkcmZlBIIT6",
@@ -32428,7 +32429,7 @@
       },
       {
         "value": "Marvin Merrill",
-        "count": 34
+        "count": 33
       },
       {
         "value": "Matthew Burrell",
@@ -32918,7 +32919,7 @@
       },
       {
         "value": "Marvin Margolis",
-        "count": 14
+        "count": 15
       },
       {
         "value": "Military",
