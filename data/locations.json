@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T14:13:33.613348+00:00",
+  "generatedAt": "2026-05-31T19:43:10.439402+00:00",
   "items": [
     {
       "id": "recXWIp8s3P3TAYiu",
@@ -366,6 +366,11 @@
           "id": "recqLLmdfczGnNezQ",
           "name": "Zodiac Press Coverage [8/6/1969]",
           "slug": "zodiac-press-coverage-8-6-1969"
+        },
+        {
+          "id": "rec1E5jfm2pjI7iqa",
+          "name": "Stanley Dean Baker said to be charged in Salem murder",
+          "slug": "stanley-dean-baker-said-to-be-charged-in-salem-murder"
         }
       ],
       "relatedLocations": [
@@ -635,7 +640,7 @@
         }
       ],
       "downloads": [],
-      "relatedEventCount": 67,
+      "relatedEventCount": 68,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "San Francisco City Zodiac Paul Lee Stine San Francisco Chronicle San Francisco Examiner Paul Avery Jim Dunbar Count Marco (Marc H. Spinelli) Armistead Maupin David Toschi Melvin Belli SFPD Bill Armstrong Martin Lee Richard Gaikowski Donna Lass Chester Clark Klingel Jr. Earl Van Best, Jr. LeRoy Sweet William McDuff Andrew Rick Marshall Xenophon Lusby Anthony KGO-TV Good Times (San Francisco alt-weekly) SFGate The Manson Family San Francisco State University Fireman's Fund Insurance Letterman General Hospital Donald J. Fouke Thomas Arthur Faraday Claudia (Wescott) Stine Yellow Cab Company (San Francisco) Armand Pelisetti John J. Ferdon Fairmont Hotel Frank Peda Jarett Kobek Pan-Am Airways Charles Ellis"
@@ -1403,6 +1408,119 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638",
       "mapEmbedUrl": "https://www.google.com/maps?q=38.104088,-122.256638&output=embed",
       "searchText": "Vallejo, CA City Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Ed Rust Thomas Arthur Faraday Hogan High School Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Roy Conway Mare Island Naval Shipyard Highland Elementary School Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
+    },
+    {
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "kind": "location",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "San Diego County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recj0L0bOP7SfRcaH",
+          "name": "Marvin Merrill's daughter has bat mitzvah",
+          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recBaof7Bg5qbQCYl",
+          "name": "Marvin Merrill quoted in article about Vista school board zoning",
+          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
+        },
+        {
+          "id": "recxk09B0xp90KPp0",
+          "name": "Merrill referenced in search for family dog in Vista, CA",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
+        },
+        {
+          "id": "recpRHdOWqbe8Rpbc",
+          "name": "Marvin Merrill's home in Vista is being sold",
+          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        },
+        {
+          "id": "recOASUl7XTfnxXyq",
+          "name": "Lien sale at address tied to Marvin Merrill",
+          "slug": "lien-sale-at-address-tied-to-marvin-merrill"
+        },
+        {
+          "id": "recoBsj84xnMZqKKm",
+          "name": "Marvin Merrill speaks at meeting",
+          "slug": "marvin-merrill-speaks-at-meeting"
+        },
+        {
+          "id": "rec3kqkezzx2ZDiLf",
+          "name": "Donna Merrill is the Crestview PTA president",
+          "slug": "donna-merrill-is-the-crestview-pta-president"
+        },
+        {
+          "id": "recAHlToPWAgPgudz",
+          "name": "Marvin and Donna Merrill mentioned in school board advertisement",
+          "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement"
+        },
+        {
+          "id": "rec9B2hLC22sLJJdA",
+          "name": "Bonded Engine Co. advertises new owner",
+          "slug": "bonded-engine-co-advertises-new-owner"
+        },
+        {
+          "id": "rec90WTL6rjZ9KxSM",
+          "name": "Merrill speaks at Vista Planning Commission meeting",
+          "slug": "merrill-speaks-at-vista-planning-commission-meeting"
+        },
+        {
+          "id": "recrwt2RVqHLCfpsz",
+          "name": "Marvin Merrill speaks in favor of highway expansion",
+          "slug": "marvin-merrill-speaks-in-favor-of-highway-expansion"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 16,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Vista, CA City Marvin (Margolis) Merrill"
     },
     {
       "id": "recO5mW1mFKtK0hCE",
@@ -3158,104 +3276,6 @@
       "searchText": "United States of America Country Zodiac Bryan Calvin Hartnell Paul Lee Stine Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Cecelia Ann Shepard Michael Renault Mageau Kathleen Johns Arthur Leigh Allen San Francisco Chronicle Cheri Jo Bates San Francisco Examiner Vallejo Times-Herald Paul Avery The Los Angeles Times Donald (Don) Cheney Richard Hoffman Ken Narlow Nancy Slover (Ludine Jones Earp) Jim Dunbar Count Marco (Marc H. Spinelli) Tom Voigt Armistead Maupin David Toschi Napa County Sheriff's Department Vallejo Police Melvin Belli SFPD Sherwood Morrill Bill Armstrong Bettye Harden Martin Lee Donald Harden Marvin (Margolis) Merrill Richard Gaikowski Donna Lass Elizabeth Short Ralph Spinelli Shelly Irene Holmboe Kathie Reyne Snoozy Daniel B. Williams Debra Gaye Furlong Chester Clark Klingel Jr. Paul Alfred Doerr, Jr. Raymond Davis Matthew Burrell Gareth Penn Louis (Louie) Joseph Myers William McDuff Andrew Jim Phillips Crabtree Harry Wogan Michael O'Hare The Solano-Napa News Chronicle The San Bernardino County Sun Stella E. (Borges) Medeiros Earl Van Best, Jr. Theodore Kaczynski Gary Ronald Schilling Joanne (Sunbather) Linda L. Jensen (Sunbather) Berta Margoulies R. Clifton Rayfield The Sacramento Union William Joseph Grant David Lee Rayfield Cleophus Martin Linda (Sunbather) David Slaight Dean Ferrin James A. Owen Frank Gasser Fredric Manalli Lake Berryessa Sniper Elizabeth White Karen (Ellendy?) Redlands Daily Facts Sharon Henslin (Adolfo Stutsman) Dennis Land LeRoy Sweet Hugh Penn William Crow Archie E. White Ross Sullivan Rick Marshall Lorraine Osuna DeGroat Harvey Colliver The Napa Valley Register Xenophon Lusby Anthony KGO-TV Albany Knickerbocker-News Sacramento Bee Dave Smith Albany Times-Union The Modesto Bee Boston Globe The New York Times Golden Daily Transcript KHJ-TV Progress-Bulletin The Daily Republic Good Times (San Francisco alt-weekly) Ventura County Star The (Orange County) Register KTIM Radio SFGate The Times (San Mateo) The Press Democrat Berkeley Voice Petaluma Argus-Courier The Tribune (San Luis Obispo) Santa Barbara News-Press Northern California Renaissance Pleasure Faire Hal Snook Peter Gasser Ronald Gene Allen Ethan Warren Allen Richard Lonergan Bernice Allen Jack Steadman Beeman Karen Marie (Long) Allen Deer Lodge Prison Leo Suennen Jr. Edith Bernstein (Margolis) Merrill Joseph C. Bates Pacific Union College Pythian Castle (Vallejo, CA) Sonoma State University Solano (Community) College Stanford University MIT The Manson Family Joe Charles Stine San Francisco State University Benicia Police Department University of California, Berkeley Fireman's Fund Insurance Karl F. Werner Forest Pines at Incline Village Condos FBI Lake Berryessa Park Letterman General Hospital James W. Reed Rancho Monticello Resort Daniel Pitta Ed Rust Sheriff Earl Randol Donald J. Fouke Thomas Arthur Faraday Riverside City College Library Hogan High School William Warner Robert W. Mageau Claudia (Wescott) Stine Virginia Lee (Blenderman) Jensen Stephen Mageau Napa Police Solano County Sheriff's Office George Bawart Yellow Cab Company (San Francisco) Verne Marion Jensen Donald C. B. Marsh Patty Hearst Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Armand Pelisetti Christina Louise Suennen Pierre Bidou Coroner of Solano County Kim Rossmo Rev. James O. Hulin Donald Lee Stanley Les Lundblad David Collins Harvey Hines John J. Ferdon Fairmont Hotel United States Army Sgt. H.L. Homsher John P. Lynch California Highway Patrol Patterson Police Department Paul Holes Teddy (Theodore) Milford Stine Jack E. Stiltz Tom E. Butler Melvin Nicolai Ray Land Edward B. Pace Frank Peda Bob Luce Sahara Tahoe John W. Nicoll Barbara Lowe Napa D.A. James Boitano Riverside Police Department William Garlington Chief Lambert T. Kinkead Russell T. Butterbach Riverside Community College Jarett Kobek Vallejo College Stanislaus County Sheriff's Department Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Contra Costa County Sheriff's Office Ramona High School Atascadero State Hospital Dr. Byron Thomas Sanford Napa High School Mare Island Naval Shipyard Pan-Am Airways Santa Rosa Elementary School (Atascadero, CA) Highland Elementary School Charles Ellis Sara Jane Olson / Kathleen Ann Soliah Humble Oil / Exxon / Valero Refinery Napa Junior College Sonoma County Sheriff's Vallejo High School Doyen Pest Control Service California Polytechnic State University (Cal Poly) Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "kind": "location",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "San Diego County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recj0L0bOP7SfRcaH",
-          "name": "Marvin Merrill's daughter has bat mitzvah",
-          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
-        },
-        {
-          "id": "recsGm4yN1bVwmMNr",
-          "name": "Merrill advertises for business partner in Vista Press",
-          "slug": "merrill-advertises-for-business-partner-in-vista-press"
-        },
-        {
-          "id": "recBaof7Bg5qbQCYl",
-          "name": "Marvin Merrill quoted in article about Vista school board zoning",
-          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
-        },
-        {
-          "id": "recxk09B0xp90KPp0",
-          "name": "Merrill referenced in search for family dog in Vista, CA",
-          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
-        },
-        {
-          "id": "recpRHdOWqbe8Rpbc",
-          "name": "Marvin Merrill's home in Vista is being sold",
-          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
-        },
-        {
-          "id": "recejl2agGVbNQPgb",
-          "name": "Marvin Merrill is advertising services as a retired architect",
-          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
-        },
-        {
-          "id": "recOASUl7XTfnxXyq",
-          "name": "Lien sale at address tied to Marvin Merrill",
-          "slug": "lien-sale-at-address-tied-to-marvin-merrill"
-        },
-        {
-          "id": "recoBsj84xnMZqKKm",
-          "name": "Marvin Merrill speaks at meeting",
-          "slug": "marvin-merrill-speaks-at-meeting"
-        },
-        {
-          "id": "rec3kqkezzx2ZDiLf",
-          "name": "Donna Merrill is the Crestview PTA president",
-          "slug": "donna-merrill-is-the-crestview-pta-president"
-        },
-        {
-          "id": "recAHlToPWAgPgudz",
-          "name": "Marvin and Donna Merrill mentioned in school board advertisement",
-          "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin (Margolis) Merrill",
-          "slug": "marvin-margolis-merrill"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 13,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Vista, CA City Marvin (Margolis) Merrill"
-    },
-    {
       "id": "reccuFwS3SQNJRVps",
       "slug": "los-angeles",
       "kind": "location",
@@ -4699,6 +4719,84 @@
       "searchText": "San Diego County, CA County Marvin (Margolis) Merrill Raymond Davis"
     },
     {
+      "id": "recnog62LVFsETdfp",
+      "slug": "chicago",
+      "kind": "location",
+      "title": "Chicago",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Cook County, IL"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXWIWFBz95hjA2J",
+          "name": "Count Marco's Chicago letter referencing Red Phantom",
+          "slug": "count-marco-s-chicago-letter-referencing-red-phantom"
+        },
+        {
+          "id": "recmy5F1K1nbOMtwH",
+          "name": "Marvin (Merrill) Margolis registers for draft post-war",
+          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+        },
+        {
+          "id": "recfqoBnnqTH0eyNr",
+          "name": "Marvin Margolis is born",
+          "slug": "marvin-margolis-is-born"
+        },
+        {
+          "id": "recDkkq5yIUao8uq3",
+          "name": "Marvin Merrill (Marvin Margolis) opens Motive Supply in Chicago",
+          "slug": "marvin-merrill-marvin-margolis-opens-motive-supply-in-chicago"
+        },
+        {
+          "id": "recx2OPnsLWdMlqHt",
+          "name": "Letter to Chicago police re: Marvin Margolis impersonating a cop",
+          "slug": "letter-to-chicago-police-re-marvin-margolis-impersonating-a-cop"
+        },
+        {
+          "id": "recDF0Kktq2fffSCs",
+          "name": "Marvin Merrill (Margolis) arrested for running confidence game",
+          "slug": "marvin-merrill-margolis-arrested-for-running-confidence-game"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recb9DBCgGcF3eXXg",
+          "name": "Jim Dunbar",
+          "slug": "jim-dunbar"
+        },
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "reccShMW1va313Ttn",
+          "name": "Harvey Colliver",
+          "slug": "harvey-colliver"
+        },
+        {
+          "id": "rec2BmtZQGx9ht2an",
+          "name": "Edith Bernstein (Margolis) Merrill",
+          "slug": "edith-bernstein-margolis-merrill"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 6,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Chicago City Jim Dunbar Marvin (Margolis) Merrill Harvey Colliver Edith Bernstein (Margolis) Merrill"
+    },
+    {
       "id": "recEKYdzhHISXUYQt",
       "slug": "napa-ca",
       "kind": "location",
@@ -5165,69 +5263,114 @@
       "searchText": "Site of Lake Berryessa Zodiac Encounter Site"
     },
     {
-      "id": "recnog62LVFsETdfp",
-      "slug": "chicago",
+      "id": "recua0h5YmOZlnHzS",
+      "slug": "berkeley-ca",
       "kind": "location",
-      "title": "Chicago",
+      "title": "Berkeley, CA",
       "subtitle": "City",
       "summary": "",
       "excerpt": "",
-      "images": [],
-      "primaryImage": null,
+      "images": [
+        {
+          "originalUrl": "data/media/attOpvwt6dNm62jf6_image.png",
+          "thumbUrl": "data/media/derived/thumb/attOpvwt6dNm62jf6_image.png",
+          "mediumUrl": "data/media/derived/medium/attOpvwt6dNm62jf6_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attOpvwt6dNm62jf6_image.png",
+        "thumbUrl": "data/media/derived/thumb/attOpvwt6dNm62jf6_image.png",
+        "mediumUrl": "data/media/derived/medium/attOpvwt6dNm62jf6_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
       "facts": [
         {
           "label": "Located Within",
-          "value": "Cook County, IL"
+          "value": "Alameda County, CA"
         }
       ],
       "relatedEvents": [
         {
-          "id": "recXWIWFBz95hjA2J",
-          "name": "Count Marco's Chicago letter referencing Red Phantom",
-          "slug": "count-marco-s-chicago-letter-referencing-red-phantom"
+          "id": "recvgIbsTJOjQxr14",
+          "name": "\"Zodiac is going to...\" / Dr. Adams Letter",
+          "slug": "zodiac-is-going-to--dr-adams-letter"
         },
         {
-          "id": "recmy5F1K1nbOMtwH",
-          "name": "Marvin (Merrill) Margolis registers for draft post-war",
-          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+          "id": "recLl0NXuotr3HirV",
+          "name": "Patty Hearst kidnapped by SLA",
+          "slug": "patty-hearst-kidnapped-by-sla"
         },
         {
-          "id": "recfqoBnnqTH0eyNr",
-          "name": "Marvin Margolis is born",
-          "slug": "marvin-margolis-is-born"
+          "id": "recYBJPM7ROdql8Dg",
+          "name": "BayCon 1968",
+          "slug": "baycon-1968"
         },
         {
-          "id": "recDkkq5yIUao8uq3",
-          "name": "Marvin Merrill (Marvin Margolis) opens Motive Supply in Chicago",
-          "slug": "marvin-merrill-marvin-margolis-opens-motive-supply-in-chicago"
+          "id": "rec8ElxIeUrhapdLr",
+          "name": "Arthur Leigh Allen ushers for a friend's wedding",
+          "slug": "arthur-leigh-allen-ushers-for-a-friend-s-wedding"
         },
         {
-          "id": "recx2OPnsLWdMlqHt",
-          "name": "Letter to Chicago police re: Marvin Margolis impersonating a cop",
-          "slug": "letter-to-chicago-police-re-marvin-margolis-impersonating-a-cop"
+          "id": "recm1OBDqzZBnhjuF",
+          "name": "UC Berkeley Public Policy School Renamed After $10-Million Gift",
+          "slug": "uc-berkeley-public-policy-school-renamed-after-10-million-gift"
         }
       ],
-      "relatedLocations": [],
+      "relatedLocations": [
+        {
+          "id": "rec3q24hcEt1W1KcC",
+          "name": "Home of Ted Kaczynski in Berkeley, CA",
+          "slug": "home-of-ted-kaczynski-in-berkeley-ca"
+        },
+        {
+          "id": "",
+          "name": "Home of Ted Kaczynski in Berkeley",
+          "slug": "home-of-ted-kaczynski-in-berkeley"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
       "relatedPeople": [
         {
-          "id": "recb9DBCgGcF3eXXg",
-          "name": "Jim Dunbar",
-          "slug": "jim-dunbar"
+          "id": "rec5opHF6J5pu58Uu",
+          "name": "Sherwood Morrill",
+          "slug": "sherwood-morrill"
         },
         {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin (Margolis) Merrill",
-          "slug": "marvin-margolis-merrill"
+          "id": "recjPYHlB3vWALJEu",
+          "name": "Theodore Kaczynski",
+          "slug": "theodore-kaczynski"
         },
         {
-          "id": "reccShMW1va313Ttn",
-          "name": "Harvey Colliver",
-          "slug": "harvey-colliver"
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
         },
         {
-          "id": "rec2BmtZQGx9ht2an",
-          "name": "Edith Bernstein (Margolis) Merrill",
-          "slug": "edith-bernstein-margolis-merrill"
+          "id": "recEfI9rLQzLeUItB",
+          "name": "Berkeley Voice",
+          "slug": "berkeley-voice"
+        },
+        {
+          "id": "recTsOdMprpYMZiTt",
+          "name": "University of California, Berkeley",
+          "slug": "university-of-california-berkeley"
+        },
+        {
+          "id": "rec3V0afQm5NxnyxY",
+          "name": "Patty Hearst",
+          "slug": "patty-hearst"
+        },
+        {
+          "id": "reclhR72XzI2FR104",
+          "name": "Dr. Byron Thomas Sanford",
+          "slug": "dr-byron-thomas-sanford"
         }
       ],
       "relatedTags": [],
@@ -5235,7 +5378,7 @@
       "relatedEventCount": 5,
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
-      "searchText": "Chicago City Jim Dunbar Marvin (Margolis) Merrill Harvey Colliver Edith Bernstein (Margolis) Merrill"
+      "searchText": "Berkeley, CA City Sherwood Morrill Theodore Kaczynski Michael O'Hare Berkeley Voice University of California, Berkeley Patty Hearst Dr. Byron Thomas Sanford"
     },
     {
       "id": "recPEmMPH0ZQTmCGq",
@@ -5666,105 +5809,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Atlanta, GA City Marvin (Margolis) Merrill Edith Bernstein (Margolis) Merrill"
-    },
-    {
-      "id": "recua0h5YmOZlnHzS",
-      "slug": "berkeley-ca",
-      "kind": "location",
-      "title": "Berkeley, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Alameda County, CA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recvgIbsTJOjQxr14",
-          "name": "\"Zodiac is going to...\" / Dr. Adams Letter",
-          "slug": "zodiac-is-going-to--dr-adams-letter"
-        },
-        {
-          "id": "recLl0NXuotr3HirV",
-          "name": "Patty Hearst kidnapped by SLA",
-          "slug": "patty-hearst-kidnapped-by-sla"
-        },
-        {
-          "id": "recYBJPM7ROdql8Dg",
-          "name": "BayCon 1968",
-          "slug": "baycon-1968"
-        },
-        {
-          "id": "rec8ElxIeUrhapdLr",
-          "name": "Arthur Leigh Allen ushers for a friend's wedding",
-          "slug": "arthur-leigh-allen-ushers-for-a-friend-s-wedding"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "rec3q24hcEt1W1KcC",
-          "name": "Home of Ted Kaczynski in Berkeley, CA",
-          "slug": "home-of-ted-kaczynski-in-berkeley-ca"
-        },
-        {
-          "id": "",
-          "name": "Home of Ted Kaczynski in Berkeley",
-          "slug": "home-of-ted-kaczynski-in-berkeley"
-        },
-        {
-          "id": "",
-          "name": "CA",
-          "slug": "ca"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "rec5opHF6J5pu58Uu",
-          "name": "Sherwood Morrill",
-          "slug": "sherwood-morrill"
-        },
-        {
-          "id": "recjPYHlB3vWALJEu",
-          "name": "Theodore Kaczynski",
-          "slug": "theodore-kaczynski"
-        },
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        },
-        {
-          "id": "recEfI9rLQzLeUItB",
-          "name": "Berkeley Voice",
-          "slug": "berkeley-voice"
-        },
-        {
-          "id": "recTsOdMprpYMZiTt",
-          "name": "University of California, Berkeley",
-          "slug": "university-of-california-berkeley"
-        },
-        {
-          "id": "rec3V0afQm5NxnyxY",
-          "name": "Patty Hearst",
-          "slug": "patty-hearst"
-        },
-        {
-          "id": "reclhR72XzI2FR104",
-          "name": "Dr. Byron Thomas Sanford",
-          "slug": "dr-byron-thomas-sanford"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 4,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Berkeley, CA City Sherwood Morrill Theodore Kaczynski Michael O'Hare Berkeley Voice University of California, Berkeley Patty Hearst Dr. Byron Thomas Sanford"
     },
     {
       "id": "recMEZwnCFgLvvOBF",
@@ -6831,6 +6875,59 @@
       "searchText": "Solano County, CA County Zodiac Darlene (Suennen) Ferrin David Arthur Faraday Betty Lou Jensen Michael Renault Mageau Arthur Leigh Allen Vallejo Times-Herald Donald (Don) Cheney Richard Hoffman Nancy Slover (Ludine Jones Earp) Vallejo Police Ralph Spinelli Paul Alfred Doerr, Jr. Matthew Burrell Louis (Louie) Joseph Myers Jim Phillips Crabtree Harry Wogan The Solano-Napa News Chronicle Stella E. (Borges) Medeiros Dean Ferrin James A. Owen Frank Gasser Karen (Ellendy?) Sharon Henslin (Adolfo Stutsman) Gareth Penn William Crow William McDuff Andrew Lorraine Osuna DeGroat The Daily Republic Ronald Gene Allen Ethan Warren Allen Bernice Allen Jack Steadman Beeman Leo Suennen Jr. Pythian Castle (Vallejo, CA) Solano (Community) College Benicia Police Department Karl F. Werner Daniel Pitta Ed Rust Thomas Arthur Faraday Hogan High School William Warner Robert W. Mageau Virginia Lee (Blenderman) Jensen Solano County Sheriff's Office George Bawart Verne Marion Jensen Shohei Shirai Nina Jean (LaTourette) Faraday Carmen Elois Welch Mageau Vrana Christina Louise Suennen Pierre Bidou Coroner of Solano County Rev. James O. Hulin John P. Lynch Jack E. Stiltz Melvin Nicolai Bob Luce John W. Nicoll Barbara Lowe William Garlington Russell T. Butterbach Vallejo College Steven Laurence Armenta First Presbyterian Church (Vallejo, CA) Vallejo Unified School District Fairfield Police Department Roy Conway Dr. Byron Thomas Sanford Mare Island Naval Shipyard Highland Elementary School Humble Oil / Exxon / Valero Refinery Vallejo High School Doyen Pest Control Service Norma Jean (Hightower) Suennen Daniel Horan Terry's Restaurant Leo Suennen III Deena Lynn Ferrin Pontious"
     },
     {
+      "id": "recYYObQ6rjCcjWSF",
+      "slug": "boston-ma",
+      "kind": "location",
+      "title": "Boston, MA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Suffolk County, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recE5E7zyNhLgfnBV",
+          "name": "Joan Webster's suitcase found in Greyhound Bus Station",
+          "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station"
+        },
+        {
+          "id": "rec0xk8jRcZ4F18Nk",
+          "name": "Article on Berta Margoulies's career",
+          "slug": "article-on-berta-margoulies-s-career"
+        },
+        {
+          "id": "recpc0tvwKXc3LHTr",
+          "name": "Search continues for Joan Webster",
+          "slug": "search-continues-for-joan-webster"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        },
+        {
+          "id": "recJLC9aDDuTbSdEY",
+          "name": "Boston Globe",
+          "slug": "boston-globe"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 3,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Boston, MA City Michael O'Hare Boston Globe"
+    },
+    {
       "id": "rec6evH12LhXgAkIW",
       "slug": "home-of-cheri-jo-bates",
       "kind": "location",
@@ -7051,6 +7148,48 @@
       "searchText": "Lake Herman Road Street Zodiac David Arthur Faraday Betty Lou Jensen Pierre Bidou"
     },
     {
+      "id": "recaMsecgZ7DUHrxT",
+      "slug": "livingston-mt",
+      "kind": "location",
+      "title": "Livingston, MT",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Park County, MT"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec3iUb2URE7xAoru",
+          "name": "Stanley Dean Baker confesses to Robert Salem murder",
+          "slug": "stanley-dean-baker-confesses-to-robert-salem-murder"
+        },
+        {
+          "id": "recvJ2n3LRFtED6OY",
+          "name": "Stanley Dean Baker pleads guilty in Schlosser murder",
+          "slug": "stanley-dean-baker-pleads-guilty-in-schlosser-murder"
+        },
+        {
+          "id": "rec1E5jfm2pjI7iqa",
+          "name": "Stanley Dean Baker said to be charged in Salem murder",
+          "slug": "stanley-dean-baker-said-to-be-charged-in-salem-murder"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 3,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Livingston, MT City"
+    },
+    {
       "id": "recmY9ReKFWBSksP5",
       "slug": "redlands-ca",
       "kind": "location",
@@ -7235,54 +7374,6 @@
       "searchText": "Atascadero, CA City Atascadero State Hospital Santa Rosa Elementary School (Atascadero, CA)"
     },
     {
-      "id": "recYYObQ6rjCcjWSF",
-      "slug": "boston-ma",
-      "kind": "location",
-      "title": "Boston, MA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Suffolk County, MA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recE5E7zyNhLgfnBV",
-          "name": "Joan Webster's suitcase found in Greyhound Bus Station",
-          "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station"
-        },
-        {
-          "id": "rec0xk8jRcZ4F18Nk",
-          "name": "Article on Berta Margoulies's career",
-          "slug": "article-on-berta-margoulies-s-career"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        },
-        {
-          "id": "recJLC9aDDuTbSdEY",
-          "name": "Boston Globe",
-          "slug": "boston-globe"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 2,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Boston, MA City Michael O'Hare Boston Globe"
-    },
-    {
       "id": "recmwgCRjIkc22sT3",
       "slug": "darlene-ferrin-s-parents-home-1969",
       "kind": "location",
@@ -7333,6 +7424,57 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Darlene Ferrin's parents home (1969) Leo Suennen Jr. Norma Jean (Hightower) Suennen"
+    },
+    {
+      "id": "recYkAlSpf6luG8IY",
+      "slug": "deer-lodge-mt",
+      "kind": "location",
+      "title": "Deer Lodge, MT",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
+          "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
+          "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
+        "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
+        "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Powell County, MT"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recwTrtPD3leL7NPJ",
+          "name": "Vallejo coverage of Deer Lodge escapees being recaptured",
+          "slug": "vallejo-coverage-of-deer-lodge-escapees-being-recaptured"
+        },
+        {
+          "id": "recnJ8A7bzhPIELZu",
+          "name": "Stanley Dean Baker is granted parole",
+          "slug": "stanley-dean-baker-is-granted-parole"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Deer Lodge, MT City"
     },
     {
       "id": "recQi8KpdIytxlbHe",
@@ -7528,6 +7670,52 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Honolulu City,County Arthur Leigh Allen"
+    },
+    {
+      "id": "rec2FyZ4yPUPM9ayq",
+      "slug": "joan-webster-dump-site",
+      "kind": "location",
+      "title": "Joan Webster dump site",
+      "subtitle": "Site",
+      "summary": "\"Uncovered beneath a pile of decomposing leaves in a shallow grave near Chebacco Rd.,\"",
+      "excerpt": "\"Uncovered beneath a pile of decomposing leaves in a shallow grave near Chebacco Rd.,\"",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Address",
+          "value": "362 Chebacco Rd, South Hamilton, MA 01982"
+        },
+        {
+          "label": "Located Within",
+          "value": "South Hamilton, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recJH0swT9SM0WkOD",
+          "name": "Article in Harvard Crimson about Joan Webster",
+          "slug": "article-in-harvard-crimson-about-joan-webster"
+        },
+        {
+          "id": "recI6vIkLPZDkmpqQ",
+          "name": "Joan Webster's remains are found",
+          "slug": "joan-webster-s-remains-are-found"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Map",
+          "url": "https://maps.app.goo.gl/9hzx55d1N9BWDrS1A"
+        }
+      ],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "https://maps.app.goo.gl/9hzx55d1N9BWDrS1A",
+      "mapEmbedUrl": "",
+      "searchText": "Joan Webster dump site Site \"Uncovered beneath a pile of decomposing leaves in a shallow grave near Chebacco Rd.,\""
     },
     {
       "id": "rec86QdIxhJX9ECbX",
@@ -8175,6 +8363,43 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Santa Rosa, CA City Arthur Leigh Allen Fredric Manalli The Press Democrat Ronald Gene Allen Karen Marie (Long) Allen"
+    },
+    {
+      "id": "recqaOy0BlAMqZQ03",
+      "slug": "saugus-ma",
+      "kind": "location",
+      "title": "Saugus, MA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Essex County, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "rec0veZliNylcRbcv",
+          "name": "Joan Webster's wallet found in Saugus, MA",
+          "slug": "joan-webster-s-wallet-found-in-saugus-ma"
+        },
+        {
+          "id": "reclO3JHlJRZQqwGe",
+          "name": "Police search Saugus river for Joan Webster",
+          "slug": "police-search-saugus-river-for-joan-webster"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Saugus, MA City"
     },
     {
       "id": "recT4sMRyAv9Sk1zs",
@@ -10497,52 +10722,6 @@
       "searchText": "Daphne Funeral Service Business"
     },
     {
-      "id": "recYkAlSpf6luG8IY",
-      "slug": "deer-lodge-mt",
-      "kind": "location",
-      "title": "Deer Lodge, MT",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [
-        {
-          "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
-          "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
-          "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attFLYch80MeydGKC_image.png",
-        "thumbUrl": "data/media/derived/thumb/attFLYch80MeydGKC_image.png",
-        "mediumUrl": "data/media/derived/medium/attFLYch80MeydGKC_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Powell County, MT"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recwTrtPD3leL7NPJ",
-          "name": "Vallejo coverage of Deer Lodge escapees being recaptured",
-          "slug": "vallejo-coverage-of-deer-lodge-escapees-being-recaptured"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Deer Lodge, MT City"
-    },
-    {
       "id": "recl84URzlbR43lIf",
       "slug": "dexter-lake",
       "kind": "location",
@@ -12256,6 +12435,129 @@
       "searchText": "MIT Earth Sciences Building 54 Site The **Cecil and Ida Green Building**, also called the **Green Building** or **Building 54**, is an academic and research building at the [Massachusetts Institute of Technology](https://en.wikipedia.org/wiki/Massachusetts_Institute_of_Technology) (MIT) in [Cambridge, Massachusetts](https://en.wikipedia.org/wiki/Cambridge,_Massachusetts). The building houses the Department of Earth, Atmospheric, and Planetary Sciences (EAPS). It is one of the [tallest buildings in Cambridge](https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures_in_Cambridge,_Massachusetts)."
     },
     {
+      "id": "recHj2STUvlDAKs77",
+      "slug": "montana",
+      "kind": "location",
+      "title": "Montana",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [
+        {
+          "originalUrl": "data/media/attpljFgQ4LGKjeXR_image.png",
+          "thumbUrl": "data/media/derived/thumb/attpljFgQ4LGKjeXR_image.png",
+          "mediumUrl": "data/media/derived/medium/attpljFgQ4LGKjeXR_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attpljFgQ4LGKjeXR_image.png",
+        "thumbUrl": "data/media/derived/thumb/attpljFgQ4LGKjeXR_image.png",
+        "mediumUrl": "data/media/derived/medium/attpljFgQ4LGKjeXR_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "United States of America"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recynWGctpsYFe9MD",
+          "name": "Stanley Dean Baker released on parole",
+          "slug": "stanley-dean-baker-released-on-parole"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recIVw6BEtPyN6rsp",
+          "name": "Silver Bow County, MT",
+          "slug": "silver-bow-county-mt"
+        },
+        {
+          "id": "recfXIKfexCkt161K",
+          "name": "Powell County, MT",
+          "slug": "powell-county-mt"
+        },
+        {
+          "id": "recAC1ClW6znpeDBL",
+          "name": "Park County, MT",
+          "slug": "park-county-mt"
+        },
+        {
+          "id": "",
+          "name": "Butte",
+          "slug": "butte"
+        },
+        {
+          "id": "",
+          "name": "MTDeer Lodge",
+          "slug": "mtdeer-lodge"
+        },
+        {
+          "id": "",
+          "name": "MTLivingston",
+          "slug": "mtlivingston"
+        },
+        {
+          "id": "",
+          "name": "MTSilver Bow County",
+          "slug": "mtsilver-bow-county"
+        },
+        {
+          "id": "",
+          "name": "MTPowell County",
+          "slug": "mtpowell-county"
+        },
+        {
+          "id": "",
+          "name": "MTPark County",
+          "slug": "mtpark-county"
+        },
+        {
+          "id": "",
+          "name": "MT",
+          "slug": "mt"
+        },
+        {
+          "id": "",
+          "name": "Silver Bow County",
+          "slug": "silver-bow-county"
+        },
+        {
+          "id": "",
+          "name": "Powell County",
+          "slug": "powell-county"
+        },
+        {
+          "id": "",
+          "name": "Park County",
+          "slug": "park-county"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recSQxaebRMoAn0Ys",
+          "name": "Deer Lodge Prison",
+          "slug": "deer-lodge-prison"
+        },
+        {
+          "id": "reckWCQZgpapc6biS",
+          "name": "FBI",
+          "slug": "fbi"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Montana Deer Lodge Prison FBI"
+    },
+    {
       "id": "recKc0HtBWlBy7ufV",
       "slug": "monticello-dam",
       "kind": "location",
@@ -13007,6 +13309,54 @@
       "searchText": "Rupert, ID"
     },
     {
+      "id": "rec13xk9bdHL73rmt",
+      "slug": "salinas-ca",
+      "kind": "location",
+      "title": "Salinas, CA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Monterey County, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "reccJXAHNmy6gewyc",
+          "name": "Stanley Dean Baker is captured in Big Sur",
+          "slug": "stanley-dean-baker-is-captured-in-big-sur"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedPeople": [
+        {
+          "id": "recLS6oYJ6Lv8rJAB",
+          "name": "Bettye Harden",
+          "slug": "bettye-harden"
+        },
+        {
+          "id": "recHXVfggUxX8lL6s",
+          "name": "Donald Harden",
+          "slug": "donald-harden"
+        },
+        {
+          "id": "recPqXiJKRfZyGcb6",
+          "name": "Thomas Arthur Faraday",
+          "slug": "thomas-arthur-faraday"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Salinas, CA City Bettye Harden Donald Harden Thomas Arthur Faraday"
+    },
+    {
       "id": "recW1ODoJpuqrqToL",
       "slug": "salt-point-ranch-state-park",
       "kind": "location",
@@ -13212,38 +13562,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Santa Cruz, CA"
-    },
-    {
-      "id": "recqaOy0BlAMqZQ03",
-      "slug": "saugus-ma",
-      "kind": "location",
-      "title": "Saugus, MA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Essex County, MA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "rec0veZliNylcRbcv",
-          "name": "Joan Webster's wallet found in Saugus, MA",
-          "slug": "joan-webster-s-wallet-found-in-saugus-ma"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Saugus, MA City"
     },
     {
       "id": "recFoywdpGid3E7JD",
@@ -18060,14 +18378,34 @@
           "slug": "saugus-ma"
         },
         {
+          "id": "recI5ESuBk6L1j7m9",
+          "name": "South Hamilton, MA",
+          "slug": "south-hamilton-ma"
+        },
+        {
+          "id": "",
+          "name": "Joan Webster dump siteSaugus",
+          "slug": "joan-webster-dump-sitesaugus"
+        },
+        {
+          "id": "",
+          "name": "MASouth Hamilton",
+          "slug": "masouth-hamilton"
+        },
+        {
+          "id": "",
+          "name": "MA",
+          "slug": "ma"
+        },
+        {
           "id": "",
           "name": "Saugus",
           "slug": "saugus"
         },
         {
           "id": "",
-          "name": "MA",
-          "slug": "ma"
+          "name": "South Hamilton",
+          "slug": "south-hamilton"
         }
       ],
       "relatedPeople": [],
@@ -20493,89 +20831,6 @@
       "searchText": "Minidoka County, ID County"
     },
     {
-      "id": "recHj2STUvlDAKs77",
-      "slug": "montana",
-      "kind": "location",
-      "title": "Montana",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "United States of America"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recIVw6BEtPyN6rsp",
-          "name": "Silver Bow County, MT",
-          "slug": "silver-bow-county-mt"
-        },
-        {
-          "id": "recfXIKfexCkt161K",
-          "name": "Powell County, MT",
-          "slug": "powell-county-mt"
-        },
-        {
-          "id": "",
-          "name": "Butte",
-          "slug": "butte"
-        },
-        {
-          "id": "",
-          "name": "MTDeer Lodge",
-          "slug": "mtdeer-lodge"
-        },
-        {
-          "id": "",
-          "name": "MTSilver Bow County",
-          "slug": "mtsilver-bow-county"
-        },
-        {
-          "id": "",
-          "name": "MTPowell County",
-          "slug": "mtpowell-county"
-        },
-        {
-          "id": "",
-          "name": "MT",
-          "slug": "mt"
-        },
-        {
-          "id": "",
-          "name": "Silver Bow County",
-          "slug": "silver-bow-county"
-        },
-        {
-          "id": "",
-          "name": "Powell County",
-          "slug": "powell-county"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recSQxaebRMoAn0Ys",
-          "name": "Deer Lodge Prison",
-          "slug": "deer-lodge-prison"
-        },
-        {
-          "id": "reckWCQZgpapc6biS",
-          "name": "FBI",
-          "slug": "fbi"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Montana Deer Lodge Prison FBI"
-    },
-    {
       "id": "recggh53Nh7XPNhlp",
       "slug": "monterey-county-ca",
       "kind": "location",
@@ -21817,6 +22072,48 @@
       "searchText": "Palmdale, CA Sara Jane Olson / Kathleen Ann Soliah"
     },
     {
+      "id": "recAC1ClW6znpeDBL",
+      "slug": "park-county-mt",
+      "kind": "location",
+      "title": "Park County, MT",
+      "subtitle": "County",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Montana"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "recaMsecgZ7DUHrxT",
+          "name": "Livingston, MT",
+          "slug": "livingston-mt"
+        },
+        {
+          "id": "",
+          "name": "Livingston",
+          "slug": "livingston"
+        },
+        {
+          "id": "",
+          "name": "MT",
+          "slug": "mt"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "Park County, MT County"
+    },
+    {
       "id": "recxJyU1u4FOOtgAY",
       "slug": "parke-county-in",
       "kind": "location",
@@ -22761,48 +23058,6 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "Sacramento County, CA County Sherwood Morrill The Sacramento Union Hugh Penn Sacramento Bee Teddy (Theodore) Milford Stine Melvin Nicolai"
-    },
-    {
-      "id": "rec13xk9bdHL73rmt",
-      "slug": "salinas-ca",
-      "kind": "location",
-      "title": "Salinas, CA",
-      "subtitle": "City",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Located Within",
-          "value": "Monterey County, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recLS6oYJ6Lv8rJAB",
-          "name": "Bettye Harden",
-          "slug": "bettye-harden"
-        },
-        {
-          "id": "recHXVfggUxX8lL6s",
-          "name": "Donald Harden",
-          "slug": "donald-harden"
-        },
-        {
-          "id": "recPqXiJKRfZyGcb6",
-          "name": "Thomas Arthur Faraday",
-          "slug": "thomas-arthur-faraday"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "mapOpenUrl": "",
-      "mapEmbedUrl": "",
-      "searchText": "Salinas, CA City Bettye Harden Donald Harden Thomas Arthur Faraday"
     },
     {
       "id": "recHA4DDJVtmmW5qa",
@@ -24077,6 +24332,38 @@
       "mapOpenUrl": "",
       "mapEmbedUrl": "",
       "searchText": "South Dakota State"
+    },
+    {
+      "id": "recI5ESuBk6L1j7m9",
+      "slug": "south-hamilton-ma",
+      "kind": "location",
+      "title": "South Hamilton, MA",
+      "subtitle": "City",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Located Within",
+          "value": "Essex County, MA"
+        }
+      ],
+      "relatedEvents": [],
+      "relatedLocations": [
+        {
+          "id": "rec2FyZ4yPUPM9ayq",
+          "name": "Joan Webster dump site",
+          "slug": "joan-webster-dump-site"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 0,
+      "mapOpenUrl": "",
+      "mapEmbedUrl": "",
+      "searchText": "South Hamilton, MA City"
     },
     {
       "id": "reciOdq64k4EYQfv7",

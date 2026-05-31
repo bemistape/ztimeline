@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T14:13:33.613348+00:00",
+  "generatedAt": "2026-05-31T19:43:10.439402+00:00",
   "items": [
     {
       "id": "recoOKTf4wXF3GBYn",
@@ -4630,8 +4630,8 @@
       "relatedTags": [
         {
           "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
         }
       ],
       "downloads": [
@@ -4646,6 +4646,128 @@
       ],
       "relatedEventCount": 10,
       "searchText": "Gareth Penn Gareth Penn Author of \"Times 17\"\nPersonal website: https://d550.blogspot.com/ Napa, CA Vallejo, CA Solano County, CA Napa County, CA California SF Bay Area United States of America San Francisco Sacramento, CA MIT Earth Sciences Building 54 San Rafael, CA"
+    },
+    {
+      "id": "recHCLsFRf9aLoGbP",
+      "slug": "stanley-dean-baker",
+      "kind": "person",
+      "title": "Stanley Dean Baker",
+      "subtitle": "Non-Zodiac Criminal",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Stanley Dean Baker"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attan4pnWSp142Z36_image.png",
+          "thumbUrl": "data/media/derived/thumb/attan4pnWSp142Z36_image.png",
+          "mediumUrl": "data/media/derived/medium/attan4pnWSp142Z36_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attan4pnWSp142Z36_image.png",
+        "thumbUrl": "data/media/derived/thumb/attan4pnWSp142Z36_image.png",
+        "mediumUrl": "data/media/derived/medium/attan4pnWSp142Z36_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recOmaHlSFQamXT3v",
+          "name": "Robert Salem's dead body is found",
+          "slug": "robert-salem-s-dead-body-is-found"
+        },
+        {
+          "id": "reccJXAHNmy6gewyc",
+          "name": "Stanley Dean Baker is captured in Big Sur",
+          "slug": "stanley-dean-baker-is-captured-in-big-sur"
+        },
+        {
+          "id": "rec3iUb2URE7xAoru",
+          "name": "Stanley Dean Baker confesses to Robert Salem murder",
+          "slug": "stanley-dean-baker-confesses-to-robert-salem-murder"
+        },
+        {
+          "id": "recvJ2n3LRFtED6OY",
+          "name": "Stanley Dean Baker pleads guilty in Schlosser murder",
+          "slug": "stanley-dean-baker-pleads-guilty-in-schlosser-murder"
+        },
+        {
+          "id": "recaG6A6n24i2P9eG",
+          "name": "Verdict in Schlosser case against Stroup",
+          "slug": "verdict-in-schlosser-case-against-stroup"
+        },
+        {
+          "id": "recynWGctpsYFe9MD",
+          "name": "Stanley Dean Baker released on parole",
+          "slug": "stanley-dean-baker-released-on-parole"
+        },
+        {
+          "id": "recnUbsy4AqVbF3WO",
+          "name": "Murder of James Schlosser",
+          "slug": "murder-of-james-schlosser"
+        },
+        {
+          "id": "recnJ8A7bzhPIELZu",
+          "name": "Stanley Dean Baker is granted parole",
+          "slug": "stanley-dean-baker-is-granted-parole"
+        },
+        {
+          "id": "rec1E5jfm2pjI7iqa",
+          "name": "Stanley Dean Baker said to be charged in Salem murder",
+          "slug": "stanley-dean-baker-said-to-be-charged-in-salem-murder"
+        },
+        {
+          "id": "rec7zlCnyLY0kIksY",
+          "name": "Reports of Robert Salem murder, \"not Zodiac\" according to police",
+          "slug": "reports-of-robert-salem-murder-not-zodiac-according-to-police"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recXWIp8s3P3TAYiu",
+          "name": "San Francisco",
+          "slug": "san-francisco"
+        },
+        {
+          "id": "rec13xk9bdHL73rmt",
+          "name": "Salinas, CA",
+          "slug": "salinas-ca"
+        },
+        {
+          "id": "recaMsecgZ7DUHrxT",
+          "name": "Livingston, MT",
+          "slug": "livingston-mt"
+        },
+        {
+          "id": "recHj2STUvlDAKs77",
+          "name": "Montana",
+          "slug": "montana"
+        },
+        {
+          "id": "recYkAlSpf6luG8IY",
+          "name": "Deer Lodge, MT",
+          "slug": "deer-lodge-mt"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Stanley%20Dean%20Baker&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Stanley%20Dean%20Baker&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 10,
+      "searchText": "Stanley Dean Baker Stanley Dean Baker  San Francisco Salinas, CA Livingston, MT Montana Deer Lodge, MT"
     },
     {
       "id": "recVvuvbfvZdCyti3",
@@ -5526,6 +5648,132 @@
       ],
       "relatedEventCount": 8,
       "searchText": "Donna Faye McEachern Merrill Donna Faye McEachern Merrill Second wife of Marvin Margolis / Merrill Oceanside, CA Los Angeles Wichita, KS San Diego, CA Atascadero, CA Vista, CA"
+    },
+    {
+      "id": "recYoEXvqkwsaFlAq",
+      "slug": "joan-webster",
+      "kind": "person",
+      "title": "Joan Webster",
+      "subtitle": "Possible Victim",
+      "summary": "Murder victim in officially unsolved case that's been linked to Zodiac.",
+      "excerpt": "Murder victim in officially unsolved case that's been linked to Zodiac.",
+      "aliases": [
+        "Joan Webster"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attvjmC5KuFfCfPuS_image.png",
+          "thumbUrl": "data/media/derived/thumb/attvjmC5KuFfCfPuS_image.png",
+          "mediumUrl": "data/media/derived/medium/attvjmC5KuFfCfPuS_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attvjmC5KuFfCfPuS_image.png",
+        "thumbUrl": "data/media/derived/thumb/attvjmC5KuFfCfPuS_image.png",
+        "mediumUrl": "data/media/derived/medium/attvjmC5KuFfCfPuS_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Extended Name",
+          "value": "Joan L. Webster"
+        },
+        {
+          "label": "Born",
+          "value": "1956-08-19"
+        },
+        {
+          "label": "Died",
+          "value": "1981-11-28"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recltROKSFlfxrI2B",
+          "name": "Disappearance of Joan Webster",
+          "slug": "disappearance-of-joan-webster"
+        },
+        {
+          "id": "rec0veZliNylcRbcv",
+          "name": "Joan Webster's wallet found in Saugus, MA",
+          "slug": "joan-webster-s-wallet-found-in-saugus-ma"
+        },
+        {
+          "id": "recE5E7zyNhLgfnBV",
+          "name": "Joan Webster's suitcase found in Greyhound Bus Station",
+          "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station"
+        },
+        {
+          "id": "recI6vIkLPZDkmpqQ",
+          "name": "Joan Webster's remains are found",
+          "slug": "joan-webster-s-remains-are-found"
+        },
+        {
+          "id": "recJH0swT9SM0WkOD",
+          "name": "Article in Harvard Crimson about Joan Webster",
+          "slug": "article-in-harvard-crimson-about-joan-webster"
+        },
+        {
+          "id": "recpc0tvwKXc3LHTr",
+          "name": "Search continues for Joan Webster",
+          "slug": "search-continues-for-joan-webster"
+        },
+        {
+          "id": "reclO3JHlJRZQqwGe",
+          "name": "Police search Saugus river for Joan Webster",
+          "slug": "police-search-saugus-river-for-joan-webster"
+        },
+        {
+          "id": "recvH8hKL1GywicgJ",
+          "name": "Search pressed for Harvard grad student",
+          "slug": "search-pressed-for-harvard-grad-student"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "reckkyYyzSgyCnH8J",
+          "name": "Logan International Airport",
+          "slug": "logan-international-airport"
+        },
+        {
+          "id": "recqaOy0BlAMqZQ03",
+          "name": "Saugus, MA",
+          "slug": "saugus-ma"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "rec2FyZ4yPUPM9ayq",
+          "name": "Joan Webster dump site",
+          "slug": "joan-webster-dump-site"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Joan%20Webster&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Joan%20Webster&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 8,
+      "searchText": "Joan Webster Joan Webster Murder victim in officially unsolved case that's been linked to Zodiac. Logan International Airport Saugus, MA Boston, MA Joan Webster dump site"
     },
     {
       "id": "recXJdTXSNJPLgeJ2",
@@ -6989,6 +7237,170 @@
       "searchText": "Jim Phillips Crabtree Jim Phillips Crabtree First husband of Darlene Ferrin. AKA James Phillips. Albany, NY Santa Barbara, CA Solano County, CA Vallejo, CA California SF Bay Area United States of America Albany County, NY Santa Barbara County, CA Fairfield, CA New York State Santa Cruz, CA Darlene Ferrin's parents home (1969) Reno, NV"
     },
     {
+      "id": "recFaKMK2SMtmEMkK",
+      "slug": "michael-o-hare",
+      "kind": "person",
+      "title": "Michael O'Hare",
+      "subtitle": "Suspect,Living",
+      "summary": "Zodiac suspect and Professor of Public Policy",
+      "excerpt": "Zodiac suspect and Professor of Public Policy",
+      "aliases": [
+        "Michael O'Hare"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
+        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
+        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Berkeley, CA, Boston, MA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        },
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        },
+        {
+          "id": "recEitd7ysY0Dvynq",
+          "name": "Alan Cabal references pranking Gareth Penn in review of Graysmith's \"Zodiac Unmasked\"",
+          "slug": "alan-cabal-references-pranking-gareth-penn-in-review-of-graysmith-s-zodiac-unmasked"
+        },
+        {
+          "id": "recm1OBDqzZBnhjuF",
+          "name": "UC Berkeley Public Policy School Renamed After $10-Million Gift",
+          "slug": "uc-berkeley-public-policy-school-renamed-after-10-million-gift"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        },
+        {
+          "id": "recYYObQ6rjCcjWSF",
+          "name": "Boston, MA",
+          "slug": "boston-ma"
+        },
+        {
+          "id": "rec3j7ziSuI13OnhA",
+          "name": "Suffolk County, MA",
+          "slug": "suffolk-county-ma"
+        },
+        {
+          "id": "recQCUmzdimTBeYjB",
+          "name": "Massachusetts",
+          "slug": "massachusetts"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recQQnEmwWwpVACOp",
+          "name": "Alameda County, CA",
+          "slug": "alameda-county-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "rec4uzkCoOurp4K2R",
+          "name": "Napa County, CA",
+          "slug": "napa-county-ca"
+        },
+        {
+          "id": "recT5UMd9o61gJhFr",
+          "name": "Flanders, NJ",
+          "slug": "flanders-nj"
+        },
+        {
+          "id": "rec4PjXRAoG5FSQga",
+          "name": "MIT Earth Sciences Building 54",
+          "slug": "mit-earth-sciences-building-54"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recTsOdMprpYMZiTt",
+          "name": "University of California, Berkeley",
+          "slug": "university-of-california-berkeley"
+        },
+        {
+          "id": "rec4i4VSg7Tk4sUUy",
+          "name": "Harvard University",
+          "slug": "harvard-university"
+        },
+        {
+          "id": "recrgPdSrBpZhuQCU",
+          "name": "Arthur D. Little",
+          "slug": "arthur-d-little"
+        },
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 6,
+      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Suffolk County, MA Massachusetts United States of America Alameda County, CA California SF Bay Area Napa County, CA Flanders, NJ MIT Earth Sciences Building 54"
+    },
+    {
       "id": "recSEKXCZ713pyThm",
       "slug": "napa-county-sheriff-s-department",
       "kind": "person",
@@ -7763,165 +8175,6 @@
       ],
       "relatedEventCount": 5,
       "searchText": "Joseph C. Bates Joseph C. Bates Father of Cheri Jo Bates. Riverside, CA Riverside County, CA Home of Cheri Jo Bates California United States of America Bellevue, NE Waterloo, NY The Swiss Inn"
-    },
-    {
-      "id": "recFaKMK2SMtmEMkK",
-      "slug": "michael-o-hare",
-      "kind": "person",
-      "title": "Michael O'Hare",
-      "subtitle": "Suspect,Living",
-      "summary": "Zodiac suspect and Professor of Public Policy",
-      "excerpt": "Zodiac suspect and Professor of Public Policy",
-      "aliases": [
-        "Michael O'Hare"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-          "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-          "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attEwl1VYhccA809U_image.png",
-        "thumbUrl": "data/media/derived/thumb/attEwl1VYhccA809U_image.png",
-        "mediumUrl": "data/media/derived/medium/attEwl1VYhccA809U_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Berkeley, CA, Boston, MA"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recqTC6EnS33U9riH",
-          "name": "The 1981 Atlas Peak Fire",
-          "slug": "the-1981-atlas-peak-fire"
-        },
-        {
-          "id": "recwJ8thtS5IxTWgi",
-          "name": "Sculptor Creates Works of Art in Flanders Studio",
-          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
-        },
-        {
-          "id": "recv3mvZ3xIBCyMxU",
-          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
-          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
-        },
-        {
-          "id": "recEitd7ysY0Dvynq",
-          "name": "Alan Cabal references pranking Gareth Penn in review of Graysmith's \"Zodiac Unmasked\"",
-          "slug": "alan-cabal-references-pranking-gareth-penn-in-review-of-graysmith-s-zodiac-unmasked"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
-        },
-        {
-          "id": "recYYObQ6rjCcjWSF",
-          "name": "Boston, MA",
-          "slug": "boston-ma"
-        },
-        {
-          "id": "rec3j7ziSuI13OnhA",
-          "name": "Suffolk County, MA",
-          "slug": "suffolk-county-ma"
-        },
-        {
-          "id": "recQCUmzdimTBeYjB",
-          "name": "Massachusetts",
-          "slug": "massachusetts"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recQQnEmwWwpVACOp",
-          "name": "Alameda County, CA",
-          "slug": "alameda-county-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "rec4uzkCoOurp4K2R",
-          "name": "Napa County, CA",
-          "slug": "napa-county-ca"
-        },
-        {
-          "id": "recT5UMd9o61gJhFr",
-          "name": "Flanders, NJ",
-          "slug": "flanders-nj"
-        },
-        {
-          "id": "rec4PjXRAoG5FSQga",
-          "name": "MIT Earth Sciences Building 54",
-          "slug": "mit-earth-sciences-building-54"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recTsOdMprpYMZiTt",
-          "name": "University of California, Berkeley",
-          "slug": "university-of-california-berkeley"
-        },
-        {
-          "id": "rec4i4VSg7Tk4sUUy",
-          "name": "Harvard University",
-          "slug": "harvard-university"
-        },
-        {
-          "id": "recrgPdSrBpZhuQCU",
-          "name": "Arthur D. Little",
-          "slug": "arthur-d-little"
-        },
-        {
-          "id": "recMYOFG2oXTk0Gwa",
-          "name": "Berta Margoulies",
-          "slug": "berta-margoulies"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Michael%20O%27Hare&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 5,
-      "searchText": "Michael O'Hare Michael O'Hare Zodiac suspect and Professor of Public Policy Berkeley, CA Boston, MA Suffolk County, MA Massachusetts United States of America Alameda County, CA California SF Bay Area Napa County, CA Flanders, NJ MIT Earth Sciences Building 54"
     },
     {
       "id": "recFjCYNvW74IINvL",
@@ -10993,96 +11246,6 @@
       "searchText": "Jim Dunbar Jim Dunbar Bay Area broadcaster and longtime KGO Radio/KGO‑TV host whose live morning program became the stage for the high‑profile October 22, 1969 “Sam” call. Chicago Cook County, IL Illinois California United States of America San Francisco SF Bay Area KGO-TV Headquarters Oakland, CA"
     },
     {
-      "id": "recYoEXvqkwsaFlAq",
-      "slug": "joan-webster",
-      "kind": "person",
-      "title": "Joan Webster",
-      "subtitle": "Possible Victim",
-      "summary": "Murder victim in officially unsolved case that's been linked to Zodiac.",
-      "excerpt": "Murder victim in officially unsolved case that's been linked to Zodiac.",
-      "aliases": [
-        "Joan Webster"
-      ],
-      "images": [
-        {
-          "originalUrl": "data/media/attvjmC5KuFfCfPuS_image.png",
-          "thumbUrl": "data/media/derived/thumb/attvjmC5KuFfCfPuS_image.png",
-          "mediumUrl": "data/media/derived/medium/attvjmC5KuFfCfPuS_image.png",
-          "derivativeState": "derived",
-          "label": "image.png"
-        }
-      ],
-      "primaryImage": {
-        "originalUrl": "data/media/attvjmC5KuFfCfPuS_image.png",
-        "thumbUrl": "data/media/derived/thumb/attvjmC5KuFfCfPuS_image.png",
-        "mediumUrl": "data/media/derived/medium/attvjmC5KuFfCfPuS_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "facts": [
-        {
-          "label": "Extended Name",
-          "value": "Joan L. Webster"
-        },
-        {
-          "label": "Born",
-          "value": "1956-08-19"
-        },
-        {
-          "label": "Died",
-          "value": "1981-11-28"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recltROKSFlfxrI2B",
-          "name": "Disappearance of Joan Webster",
-          "slug": "disappearance-of-joan-webster"
-        },
-        {
-          "id": "rec0veZliNylcRbcv",
-          "name": "Joan Webster's wallet found in Saugus, MA",
-          "slug": "joan-webster-s-wallet-found-in-saugus-ma"
-        },
-        {
-          "id": "recE5E7zyNhLgfnBV",
-          "name": "Joan Webster's suitcase found in Greyhound Bus Station",
-          "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "reckkyYyzSgyCnH8J",
-          "name": "Logan International Airport",
-          "slug": "logan-international-airport"
-        },
-        {
-          "id": "recqaOy0BlAMqZQ03",
-          "name": "Saugus, MA",
-          "slug": "saugus-ma"
-        },
-        {
-          "id": "recYYObQ6rjCcjWSF",
-          "name": "Boston, MA",
-          "slug": "boston-ma"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Joan%20Webster&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Joan%20Webster&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 3,
-      "searchText": "Joan Webster Joan Webster Murder victim in officially unsolved case that's been linked to Zodiac. Logan International Airport Saugus, MA Boston, MA"
-    },
-    {
       "id": "recq1U2ZIF4h4NDGP",
       "slug": "karl-f-werner",
       "kind": "person",
@@ -12224,8 +12387,8 @@
       "relatedTags": [
         {
           "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
         }
       ],
       "downloads": [
@@ -14854,8 +15017,8 @@
       "relatedTags": [
         {
           "id": "rec8LU7p4LGaQ2Uvz",
-          "name": "Ray Grant's Zodiac Project Theory",
-          "slug": "ray-grant-s-zodiac-project-theory"
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
         }
       ],
       "downloads": [
@@ -20181,6 +20344,55 @@
       "searchText": "Harold Pierce Harold Pierce Pallbearer at David Faraday's funeral Tulocay Cemetery & Crematory"
     },
     {
+      "id": "rec4i4VSg7Tk4sUUy",
+      "slug": "harvard-university",
+      "kind": "person",
+      "title": "Harvard University",
+      "subtitle": "Education,Organization",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "Harvard University"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "recJH0swT9SM0WkOD",
+          "name": "Article in Harvard Crimson about Joan Webster",
+          "slug": "article-in-harvard-crimson-about-joan-webster"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "rec2FyZ4yPUPM9ayq",
+          "name": "Joan Webster dump site",
+          "slug": "joan-webster-dump-site"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "Harvard University Harvard University  Joan Webster dump site"
+    },
+    {
       "id": "recSH3t6JshE3eNXM",
       "slug": "harvey-hines",
       "kind": "person",
@@ -20433,7 +20645,13 @@
           "slug": "gareth-penn"
         }
       ],
-      "relatedTags": [],
+      "relatedTags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
+        }
+      ],
       "downloads": [
         {
           "label": "Google Search",
@@ -25249,6 +25467,109 @@
       "searchText": "United States Army United States Army  Fort Eustis Newport News, VA Virginia United States of America The Presidio"
     },
     {
+      "id": "recTsOdMprpYMZiTt",
+      "slug": "university-of-california-berkeley",
+      "kind": "person",
+      "title": "University of California, Berkeley",
+      "subtitle": "Organization",
+      "summary": "",
+      "excerpt": "",
+      "aliases": [
+        "University of California, Berkeley"
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/attTgxCNb5gFE4iPB_image.png",
+          "thumbUrl": "data/media/derived/thumb/attTgxCNb5gFE4iPB_image.png",
+          "mediumUrl": "data/media/derived/medium/attTgxCNb5gFE4iPB_image.png",
+          "derivativeState": "derived",
+          "label": "image.png"
+        }
+      ],
+      "primaryImage": {
+        "originalUrl": "data/media/attTgxCNb5gFE4iPB_image.png",
+        "thumbUrl": "data/media/derived/thumb/attTgxCNb5gFE4iPB_image.png",
+        "mediumUrl": "data/media/derived/medium/attTgxCNb5gFE4iPB_image.png",
+        "derivativeState": "derived",
+        "label": "image.png"
+      },
+      "facts": [
+        {
+          "label": "Home / HQ",
+          "value": "Berkeley, CA"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recm1OBDqzZBnhjuF",
+          "name": "UC Berkeley Public Policy School Renamed After $10-Million Gift",
+          "slug": "uc-berkeley-public-policy-school-renamed-after-10-million-gift"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recQQnEmwWwpVACOp",
+          "name": "Alameda County, CA",
+          "slug": "alameda-county-ca"
+        },
+        {
+          "id": "rec3q24hcEt1W1KcC",
+          "name": "Home of Ted Kaczynski in Berkeley, CA",
+          "slug": "home-of-ted-kaczynski-in-berkeley-ca"
+        },
+        {
+          "id": "recioUzi4gjitPDzS",
+          "name": "California",
+          "slug": "california"
+        },
+        {
+          "id": "recT4sMRyAv9Sk1zs",
+          "name": "SF Bay Area",
+          "slug": "sf-bay-area"
+        },
+        {
+          "id": "recO5mW1mFKtK0hCE",
+          "name": "United States of America",
+          "slug": "united-states-of-america"
+        },
+        {
+          "id": "recua0h5YmOZlnHzS",
+          "name": "Berkeley, CA",
+          "slug": "berkeley-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recjPYHlB3vWALJEu",
+          "name": "Theodore Kaczynski",
+          "slug": "theodore-kaczynski"
+        },
+        {
+          "id": "recmQ9moIGpjHOofr",
+          "name": "Ronald Gene Allen",
+          "slug": "ronald-gene-allen"
+        },
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "relatedTags": [],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=University%20of%20California%2C%20Berkeley&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=University%20of%20California%2C%20Berkeley&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 1,
+      "searchText": "University of California, Berkeley University of California, Berkeley  Alameda County, CA Home of Ted Kaczynski in Berkeley, CA California SF Bay Area United States of America Berkeley, CA"
+    },
+    {
       "id": "recz1NnEBQrPCi7j6",
       "slug": "upi",
       "kind": "person",
@@ -27101,43 +27422,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "Harry Wogan Harry Wogan  Harry Wogan Beacon Station Vallejo, CA Solano County, CA California SF Bay Area United States of America"
-    },
-    {
-      "id": "rec4i4VSg7Tk4sUUy",
-      "slug": "harvard-university",
-      "kind": "person",
-      "title": "Harvard University",
-      "subtitle": "Education,Organization",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "Harvard University"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [],
-      "relatedEvents": [],
-      "relatedLocations": [],
-      "relatedPeople": [
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Harvard%20University&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "Harvard University Harvard University  "
     },
     {
       "id": "reccShMW1va313Ttn",
@@ -30937,89 +31221,6 @@
       ],
       "relatedEventCount": 0,
       "searchText": "United States Navy United States Navy  "
-    },
-    {
-      "id": "recTsOdMprpYMZiTt",
-      "slug": "university-of-california-berkeley",
-      "kind": "person",
-      "title": "University of California, Berkeley",
-      "subtitle": "Organization",
-      "summary": "",
-      "excerpt": "",
-      "aliases": [
-        "University of California, Berkeley"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Home / HQ",
-          "value": "Berkeley, CA"
-        }
-      ],
-      "relatedEvents": [],
-      "relatedLocations": [
-        {
-          "id": "recQQnEmwWwpVACOp",
-          "name": "Alameda County, CA",
-          "slug": "alameda-county-ca"
-        },
-        {
-          "id": "rec3q24hcEt1W1KcC",
-          "name": "Home of Ted Kaczynski in Berkeley, CA",
-          "slug": "home-of-ted-kaczynski-in-berkeley-ca"
-        },
-        {
-          "id": "recioUzi4gjitPDzS",
-          "name": "California",
-          "slug": "california"
-        },
-        {
-          "id": "recT4sMRyAv9Sk1zs",
-          "name": "SF Bay Area",
-          "slug": "sf-bay-area"
-        },
-        {
-          "id": "recO5mW1mFKtK0hCE",
-          "name": "United States of America",
-          "slug": "united-states-of-america"
-        },
-        {
-          "id": "recua0h5YmOZlnHzS",
-          "name": "Berkeley, CA",
-          "slug": "berkeley-ca"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recjPYHlB3vWALJEu",
-          "name": "Theodore Kaczynski",
-          "slug": "theodore-kaczynski"
-        },
-        {
-          "id": "recmQ9moIGpjHOofr",
-          "name": "Ronald Gene Allen",
-          "slug": "ronald-gene-allen"
-        },
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedTags": [],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=University%20of%20California%2C%20Berkeley&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=University%20of%20California%2C%20Berkeley&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 0,
-      "searchText": "University of California, Berkeley University of California, Berkeley  Alameda County, CA Home of Ted Kaczynski in Berkeley, CA California SF Bay Area United States of America Berkeley, CA"
     },
     {
       "id": "recdj3XYj2O97ZIC3",

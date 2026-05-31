@@ -1,6 +1,337 @@
 {
-  "generatedAt": "2026-05-31T14:13:33.613348+00:00",
+  "generatedAt": "2026-05-31T19:43:10.439402+00:00",
   "items": [
+    {
+      "id": "recnyN76pwtLF9eBJ",
+      "slug": "marvin-margolis",
+      "kind": "tag",
+      "title": "Marvin Margolis",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1925-03-25"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recxNREAEkp81YHhh",
+          "name": "Elizabeth Short's body is found",
+          "slug": "elizabeth-short-s-body-is-found"
+        },
+        {
+          "id": "recuLlpHkGvMXeEeQ",
+          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
+          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
+        },
+        {
+          "id": "recuedkkLZd51Nd8x",
+          "name": "Marvin Merrill is jailed for grand theft",
+          "slug": "marvin-merrill-is-jailed-for-grand-theft"
+        },
+        {
+          "id": "recdWDlUyGaTqu29y",
+          "name": "Merrill still owns land in San Diego County in 1977",
+          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
+        },
+        {
+          "id": "recCrD4tC0vJHowE4",
+          "name": "Marvin Merrill endorses failed rezoning effort",
+          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
+        },
+        {
+          "id": "",
+          "name": "Likely reference to Marvin Merrill in article about Vista",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista"
+        },
+        {
+          "id": "",
+          "name": "CA school location",
+          "slug": "ca-school-location"
+        },
+        {
+          "id": "rec1ItC2hUR9ajXWE",
+          "name": "Marvin Merrill's wife sells vehicles",
+          "slug": "marvin-merrill-s-wife-sells-vehicles"
+        },
+        {
+          "id": "recwV2KcxNP5fVVZN",
+          "name": "Skipton Merrill's Wellington Art Association announces art show",
+          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
+        },
+        {
+          "id": "recSO0r5G4dBjGcVr",
+          "name": "Marvin Merrill is sued in small claims court",
+          "slug": "marvin-merrill-is-sued-in-small-claims-court"
+        },
+        {
+          "id": "recp7VSk50ch4MQEh",
+          "name": "Marvin Merrill's wife Donna remarries",
+          "slug": "marvin-merrill-s-wife-donna-remarries"
+        },
+        {
+          "id": "",
+          "name": "Merrill sells two paintings to Medford",
+          "slug": "merrill-sells-two-paintings-to-medford"
+        },
+        {
+          "id": "",
+          "name": "OK furniture company",
+          "slug": "ok-furniture-company"
+        },
+        {
+          "id": "recPgYIXBepgFUtiw",
+          "name": "Marvin Merrill referenced in Atlanta synagogue",
+          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
+        },
+        {
+          "id": "recZ4772B9Dt5m0EN",
+          "name": "Marvin Merrill's in-laws visit in Atlanta",
+          "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
+        },
+        {
+          "id": "recsGm4yN1bVwmMNr",
+          "name": "Merrill advertises for business partner in Vista Press",
+          "slug": "merrill-advertises-for-business-partner-in-vista-press"
+        },
+        {
+          "id": "recfqoBnnqTH0eyNr",
+          "name": "Marvin Margolis is born",
+          "slug": "marvin-margolis-is-born"
+        },
+        {
+          "id": "recmy5F1K1nbOMtwH",
+          "name": "Marvin (Merrill) Margolis registers for draft post-war",
+          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+        },
+        {
+          "id": "rechqk9QUDG3VQ0Nw",
+          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
+        },
+        {
+          "id": "recAHlToPWAgPgudz",
+          "name": "Marvin and Donna Merrill mentioned in school board advertisement",
+          "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement"
+        },
+        {
+          "id": "recsHX0ADK53cHAsg",
+          "name": "Marvin (Merrill) Margolis marries first wife Edith Bernstein",
+          "slug": "marvin-merrill-margolis-marries-first-wife-edith-bernstein"
+        },
+        {
+          "id": "recDkkq5yIUao8uq3",
+          "name": "Marvin Merrill (Marvin Margolis) opens Motive Supply in Chicago",
+          "slug": "marvin-merrill-marvin-margolis-opens-motive-supply-in-chicago"
+        },
+        {
+          "id": "recx2OPnsLWdMlqHt",
+          "name": "Letter to Chicago police re: Marvin Margolis impersonating a cop",
+          "slug": "letter-to-chicago-police-re-marvin-margolis-impersonating-a-cop"
+        },
+        {
+          "id": "recDF0Kktq2fffSCs",
+          "name": "Marvin Merrill (Margolis) arrested for running confidence game",
+          "slug": "marvin-merrill-margolis-arrested-for-running-confidence-game"
+        },
+        {
+          "id": "",
+          "name": "Article in Wellington",
+          "slug": "article-in-wellington"
+        },
+        {
+          "id": "",
+          "name": "Kansas newspaper",
+          "slug": "kansas-newspaper"
+        },
+        {
+          "id": "rec02TocTsFnZMK1w",
+          "name": "Marvin Merrill and Donna F. Merrill purchase Solana Beach property",
+          "slug": "marvin-merrill-and-donna-f-merrill-purchase-solana-beach-property"
+        },
+        {
+          "id": "rec1ajtzGcjktpatB",
+          "name": "Marvin Merrill writes letter to the editor",
+          "slug": "marvin-merrill-writes-letter-to-the-editor"
+        },
+        {
+          "id": "recggvAiwTw1JfRVe",
+          "name": "Marvin Merrill's Project Development Corporation property is released",
+          "slug": "marvin-merrill-s-project-development-corporation-property-is-released"
+        },
+        {
+          "id": "recBaof7Bg5qbQCYl",
+          "name": "Marvin Merrill quoted in article about Vista school board zoning",
+          "slug": "marvin-merrill-quoted-in-article-about-vista-school-board-zoning"
+        },
+        {
+          "id": "rec3kqkezzx2ZDiLf",
+          "name": "Donna Merrill is the Crestview PTA president",
+          "slug": "donna-merrill-is-the-crestview-pta-president"
+        },
+        {
+          "id": "",
+          "name": "Merrill referenced in search for family dog in Vista",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        },
+        {
+          "id": "recqd0UxXer0YT3Fs",
+          "name": "Marvin Merrill declares homestead in San Diego County",
+          "slug": "marvin-merrill-declares-homestead-in-san-diego-county"
+        },
+        {
+          "id": "recrwt2RVqHLCfpsz",
+          "name": "Marvin Merrill speaks in favor of highway expansion",
+          "slug": "marvin-merrill-speaks-in-favor-of-highway-expansion"
+        },
+        {
+          "id": "recPpPAlK985mGxvA",
+          "name": "Marvin Merrill's father Isadore dies",
+          "slug": "marvin-merrill-s-father-isadore-dies"
+        },
+        {
+          "id": "",
+          "name": "Marvin Merrill and wife involved in Project Devel Corp",
+          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
+        },
+        {
+          "id": "recOASUl7XTfnxXyq",
+          "name": "Lien sale at address tied to Marvin Merrill",
+          "slug": "lien-sale-at-address-tied-to-marvin-merrill"
+        },
+        {
+          "id": "rec0OzAVw6RpeMgmr",
+          "name": "Donna Merrill's father's obituary says she lives in Los Angeles",
+          "slug": "donna-merrill-s-father-s-obituary-says-she-lives-in-los-angeles"
+        },
+        {
+          "id": "recoBsj84xnMZqKKm",
+          "name": "Marvin Merrill speaks at meeting",
+          "slug": "marvin-merrill-speaks-at-meeting"
+        },
+        {
+          "id": "recoxa8l4vNLr8ZLY",
+          "name": "M.S. Merrill speaks at Vista Planning Commission meeting",
+          "slug": "m-s-merrill-speaks-at-vista-planning-commission-meeting"
+        },
+        {
+          "id": "rec90WTL6rjZ9KxSM",
+          "name": "Merrill speaks at Vista Planning Commission meeting",
+          "slug": "merrill-speaks-at-vista-planning-commission-meeting"
+        },
+        {
+          "id": "recj0L0bOP7SfRcaH",
+          "name": "Marvin Merrill's daughter has bat mitzvah",
+          "slug": "marvin-merrill-s-daughter-has-bat-mitzvah"
+        },
+        {
+          "id": "rec8PpVKQ9uouFf1R",
+          "name": "Marvin Merrill (as Mendell) Bonded Engine settlement with David T. Keith",
+          "slug": "marvin-merrill-as-mendell-bonded-engine-settlement-with-david-t-keith"
+        },
+        {
+          "id": "rec9B2hLC22sLJJdA",
+          "name": "Bonded Engine Co. advertises new owner",
+          "slug": "bonded-engine-co-advertises-new-owner"
+        },
+        {
+          "id": "recejl2agGVbNQPgb",
+          "name": "Marvin Merrill is advertising services as a retired architect",
+          "slug": "marvin-merrill-is-advertising-services-as-a-retired-architect"
+        },
+        {
+          "id": "recuodXC00lNolxWt",
+          "name": "Donna Merrill files for divorce from Marvin Merrill",
+          "slug": "donna-merrill-files-for-divorce-from-marvin-merrill"
+        },
+        {
+          "id": "recNx4oUXQjksYjJc",
+          "name": "Marvin Merrill (as Skip Merrill) possibly living in San Jose",
+          "slug": "marvin-merrill-as-skip-merrill-possibly-living-in-san-jose"
+        },
+        {
+          "id": "recJwbZPXMFcaw5XB",
+          "name": "Marvin Merrill and Donna Merrill are selling property",
+          "slug": "marvin-merrill-and-donna-merrill-are-selling-property"
+        },
+        {
+          "id": "recpRHdOWqbe8Rpbc",
+          "name": "Marvin Merrill's home in Vista is being sold",
+          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
+        },
+        {
+          "id": "recc9zfA8j55eRHaH",
+          "name": "Merrill's engine shop is being sold",
+          "slug": "merrill-s-engine-shop-is-being-sold"
+        },
+        {
+          "id": "recks4d6ydmgvE7V0",
+          "name": "Marvin Margolis is burglarized in Atascadero",
+          "slug": "marvin-margolis-is-burglarized-in-atascadero"
+        },
+        {
+          "id": "rec5sL9hC0CU6qw1r",
+          "name": "Marvin (Margolis) Merrill dies",
+          "slug": "marvin-margolis-merrill-dies"
+        },
+        {
+          "id": "reckBlXfwOEPHVuzI",
+          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
+          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
+        },
+        {
+          "id": "recaLXBXGk2YnpEP0",
+          "name": "Merrill sells two paintings to Medford, OK furniture company",
+          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
+        },
+        {
+          "id": "recmo3WyzFVuLvMli",
+          "name": "Article in Wellington, Kansas newspaper",
+          "slug": "article-in-wellington-kansas-newspaper"
+        },
+        {
+          "id": "recxk09B0xp90KPp0",
+          "name": "Merrill referenced in search for family dog in Vista, CA",
+          "slug": "merrill-referenced-in-search-for-family-dog-in-vista-ca"
+        },
+        {
+          "id": "recat0ikBRBor98HZ",
+          "name": "Marvin Merrill and wife involved in \"Project Devel Corp\"",
+          "slug": "marvin-merrill-and-wife-involved-in-project-devel-corp"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "reck9mzheu3yuoDWi",
+          "name": "Elizabeth Short",
+          "slug": "elizabeth-short"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 58,
+      "searchText": "Marvin Margolis"
+    },
     {
       "id": "recqHvlmSyXK7UYJo",
       "slug": "zodiac-letters",
@@ -2341,6 +2672,207 @@
       "searchText": "Attack at Lake Berryessa"
     },
     {
+      "id": "rec8LU7p4LGaQ2Uvz",
+      "slug": "ray-grant-s-theory",
+      "kind": "tag",
+      "title": "Ray Grant's Theory",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1970-04-19"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "",
+          "name": "Michael O'Hare's essay Confessions of a Non-Serial Killer is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "recRhyUJTuIrjjp60",
+          "name": "Hugh Penn dies",
+          "slug": "hugh-penn-dies"
+        },
+        {
+          "id": "recEgj1bRx7qI6Ird",
+          "name": "Firefighters Stem Napa Valley Blaze",
+          "slug": "firefighters-stem-napa-valley-blaze"
+        },
+        {
+          "id": "recwJ8thtS5IxTWgi",
+          "name": "Sculptor Creates Works of Art in Flanders Studio",
+          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
+        },
+        {
+          "id": "recqTC6EnS33U9riH",
+          "name": "The 1981 Atlas Peak Fire",
+          "slug": "the-1981-atlas-peak-fire"
+        },
+        {
+          "id": "recv3mvZ3xIBCyMxU",
+          "name": "Gareth Penn's speculated date of Michael O'Hare's suicide",
+          "slug": "gareth-penn-s-speculated-date-of-michael-o-hare-s-suicide"
+        },
+        {
+          "id": "rec9WuHi5UJXZvGGy",
+          "name": "Gareth Penn receives St. Petersburg postcard",
+          "slug": "gareth-penn-receives-st-petersburg-postcard"
+        },
+        {
+          "id": "recINJtqwKx5Av7RL",
+          "name": "Penn article in Ecphorizer",
+          "slug": "penn-article-in-ecphorizer"
+        },
+        {
+          "id": "recCSF1fIrw68Th7U",
+          "name": "Gareth Penn writes article in California Magazine under pen name",
+          "slug": "gareth-penn-writes-article-in-california-magazine-under-pen-name"
+        },
+        {
+          "id": "",
+          "name": "Gareth Penn complains about garbled theory in letter to editor",
+          "slug": "gareth-penn-complains-about-garbled-theory-in-letter-to-editor"
+        },
+        {
+          "id": "",
+          "name": "Alan Cabal references pranking Gareth Penn in review of Graysmith's Zodiac Unmasked",
+          "slug": "alan-cabal-references-pranking-gareth-penn-in-review-of-graysmith-s-zodiac-unmasked"
+        },
+        {
+          "id": "rec0xk8jRcZ4F18Nk",
+          "name": "Article on Berta Margoulies's career",
+          "slug": "article-on-berta-margoulies-s-career"
+        },
+        {
+          "id": "",
+          "name": "Joan Webster's wallet found in Saugus",
+          "slug": "joan-webster-s-wallet-found-in-saugus"
+        },
+        {
+          "id": "",
+          "name": "MA",
+          "slug": "ma"
+        },
+        {
+          "id": "recE5E7zyNhLgfnBV",
+          "name": "Joan Webster's suitcase found in Greyhound Bus Station",
+          "slug": "joan-webster-s-suitcase-found-in-greyhound-bus-station"
+        },
+        {
+          "id": "recI6vIkLPZDkmpqQ",
+          "name": "Joan Webster's remains are found",
+          "slug": "joan-webster-s-remains-are-found"
+        },
+        {
+          "id": "recltROKSFlfxrI2B",
+          "name": "Disappearance of Joan Webster",
+          "slug": "disappearance-of-joan-webster"
+        },
+        {
+          "id": "recJH0swT9SM0WkOD",
+          "name": "Article in Harvard Crimson about Joan Webster",
+          "slug": "article-in-harvard-crimson-about-joan-webster"
+        },
+        {
+          "id": "recm1OBDqzZBnhjuF",
+          "name": "UC Berkeley Public Policy School Renamed After $10-Million Gift",
+          "slug": "uc-berkeley-public-policy-school-renamed-after-10-million-gift"
+        },
+        {
+          "id": "reclO3JHlJRZQqwGe",
+          "name": "Police search Saugus river for Joan Webster",
+          "slug": "police-search-saugus-river-for-joan-webster"
+        },
+        {
+          "id": "recvH8hKL1GywicgJ",
+          "name": "Search pressed for Harvard grad student",
+          "slug": "search-pressed-for-harvard-grad-student"
+        },
+        {
+          "id": "recpc0tvwKXc3LHTr",
+          "name": "Search continues for Joan Webster",
+          "slug": "search-continues-for-joan-webster"
+        },
+        {
+          "id": "recOmaHlSFQamXT3v",
+          "name": "Robert Salem's dead body is found",
+          "slug": "robert-salem-s-dead-body-is-found"
+        },
+        {
+          "id": "rec3iUb2URE7xAoru",
+          "name": "Stanley Dean Baker confesses to Robert Salem murder",
+          "slug": "stanley-dean-baker-confesses-to-robert-salem-murder"
+        },
+        {
+          "id": "reccJXAHNmy6gewyc",
+          "name": "Stanley Dean Baker is captured in Big Sur",
+          "slug": "stanley-dean-baker-is-captured-in-big-sur"
+        },
+        {
+          "id": "recXiiqpMPrezY5D3",
+          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
+          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
+        },
+        {
+          "id": "rec0GvFUy25svZOsK",
+          "name": "Gareth Penn complains about \"garbled theory\" in letter to editor",
+          "slug": "gareth-penn-complains-about-garbled-theory-in-letter-to-editor"
+        },
+        {
+          "id": "recEitd7ysY0Dvynq",
+          "name": "Alan Cabal references pranking Gareth Penn in review of Graysmith's \"Zodiac Unmasked\"",
+          "slug": "alan-cabal-references-pranking-gareth-penn-in-review-of-graysmith-s-zodiac-unmasked"
+        },
+        {
+          "id": "rec0veZliNylcRbcv",
+          "name": "Joan Webster's wallet found in Saugus, MA",
+          "slug": "joan-webster-s-wallet-found-in-saugus-ma"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recjQcjMRG4TeVOI8",
+          "name": "Ray Grant",
+          "slug": "ray-grant"
+        },
+        {
+          "id": "recbmC37Z7MsD78qO",
+          "name": "Gareth Penn",
+          "slug": "gareth-penn"
+        },
+        {
+          "id": "recMYOFG2oXTk0Gwa",
+          "name": "Berta Margoulies",
+          "slug": "berta-margoulies"
+        },
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        },
+        {
+          "id": "rec6qfvgItNNAztyn",
+          "name": "Hugh Penn",
+          "slug": "hugh-penn"
+        },
+        {
+          "id": "recYoEXvqkwsaFlAq",
+          "name": "Joan Webster",
+          "slug": "joan-webster"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 29,
+      "searchText": "Ray Grant's Theory"
+    },
+    {
       "id": "recR0NFmznLOB0Nf6",
       "slug": "murders-at-lake-herman-road",
       "kind": "tag",
@@ -3421,142 +3953,6 @@
       "downloads": [],
       "relatedEventCount": 21,
       "searchText": "Arthur Leigh Allen"
-    },
-    {
-      "id": "recnyN76pwtLF9eBJ",
-      "slug": "marvin-margolis",
-      "kind": "tag",
-      "title": "Marvin Margolis",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1925-03-25"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recxNREAEkp81YHhh",
-          "name": "Elizabeth Short's body is found",
-          "slug": "elizabeth-short-s-body-is-found"
-        },
-        {
-          "id": "recuLlpHkGvMXeEeQ",
-          "name": "Marvin Margolis gets marriage license as M. Skipton Merrill",
-          "slug": "marvin-margolis-gets-marriage-license-as-m-skipton-merrill"
-        },
-        {
-          "id": "recuedkkLZd51Nd8x",
-          "name": "Marvin Merrill is jailed for grand theft",
-          "slug": "marvin-merrill-is-jailed-for-grand-theft"
-        },
-        {
-          "id": "recdWDlUyGaTqu29y",
-          "name": "Merrill still owns land in San Diego County in 1977",
-          "slug": "merrill-still-owns-land-in-san-diego-county-in-1977"
-        },
-        {
-          "id": "recCrD4tC0vJHowE4",
-          "name": "Marvin Merrill endorses failed rezoning effort",
-          "slug": "marvin-merrill-endorses-failed-rezoning-effort"
-        },
-        {
-          "id": "",
-          "name": "Likely reference to Marvin Merrill in article about Vista",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista"
-        },
-        {
-          "id": "",
-          "name": "CA school location",
-          "slug": "ca-school-location"
-        },
-        {
-          "id": "rec1ItC2hUR9ajXWE",
-          "name": "Marvin Merrill's wife sells vehicles",
-          "slug": "marvin-merrill-s-wife-sells-vehicles"
-        },
-        {
-          "id": "recwV2KcxNP5fVVZN",
-          "name": "Skipton Merrill's Wellington Art Association announces art show",
-          "slug": "skipton-merrill-s-wellington-art-association-announces-art-show"
-        },
-        {
-          "id": "recSO0r5G4dBjGcVr",
-          "name": "Marvin Merrill is sued in small claims court",
-          "slug": "marvin-merrill-is-sued-in-small-claims-court"
-        },
-        {
-          "id": "recp7VSk50ch4MQEh",
-          "name": "Marvin Merrill's wife Donna remarries",
-          "slug": "marvin-merrill-s-wife-donna-remarries"
-        },
-        {
-          "id": "",
-          "name": "Merrill sells two paintings to Medford",
-          "slug": "merrill-sells-two-paintings-to-medford"
-        },
-        {
-          "id": "",
-          "name": "OK furniture company",
-          "slug": "ok-furniture-company"
-        },
-        {
-          "id": "recPgYIXBepgFUtiw",
-          "name": "Marvin Merrill referenced in Atlanta synagogue",
-          "slug": "marvin-merrill-referenced-in-atlanta-synagogue"
-        },
-        {
-          "id": "recZ4772B9Dt5m0EN",
-          "name": "Marvin Merrill's in-laws visit in Atlanta",
-          "slug": "marvin-merrill-s-in-laws-visit-in-atlanta"
-        },
-        {
-          "id": "recsGm4yN1bVwmMNr",
-          "name": "Merrill advertises for business partner in Vista Press",
-          "slug": "merrill-advertises-for-business-partner-in-vista-press"
-        },
-        {
-          "id": "recfqoBnnqTH0eyNr",
-          "name": "Marvin Margolis is born",
-          "slug": "marvin-margolis-is-born"
-        },
-        {
-          "id": "reckBlXfwOEPHVuzI",
-          "name": "Likely reference to Marvin Merrill in article about Vista, CA school location",
-          "slug": "likely-reference-to-marvin-merrill-in-article-about-vista-ca-school-location"
-        },
-        {
-          "id": "recaLXBXGk2YnpEP0",
-          "name": "Merrill sells two paintings to Medford, OK furniture company",
-          "slug": "merrill-sells-two-paintings-to-medford-ok-furniture-company"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin (Margolis) Merrill",
-          "slug": "marvin-margolis-merrill"
-        },
-        {
-          "id": "reck9mzheu3yuoDWi",
-          "name": "Elizabeth Short",
-          "slug": "elizabeth-short"
-        },
-        {
-          "id": "recDGLrzZDACdBeH6",
-          "name": "Donna Faye McEachern Merrill",
-          "slug": "donna-faye-mceachern-merrill"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 19,
-      "searchText": "Marvin Margolis"
     },
     {
       "id": "rec8HlpeGk8KlrXoi",
@@ -4996,77 +5392,6 @@
       "searchText": "The Daniel Williams incident Non-Canonical Crimes"
     },
     {
-      "id": "rec8LU7p4LGaQ2Uvz",
-      "slug": "ray-grant-s-zodiac-project-theory",
-      "kind": "tag",
-      "title": "Ray Grant's Zodiac Project Theory",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1972-08-17"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "",
-          "name": "Michael O'Hare's essay Confessions of a Non-Serial Killer is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        },
-        {
-          "id": "recRhyUJTuIrjjp60",
-          "name": "Hugh Penn dies",
-          "slug": "hugh-penn-dies"
-        },
-        {
-          "id": "recEgj1bRx7qI6Ird",
-          "name": "Firefighters Stem Napa Valley Blaze",
-          "slug": "firefighters-stem-napa-valley-blaze"
-        },
-        {
-          "id": "recwJ8thtS5IxTWgi",
-          "name": "Sculptor Creates Works of Art in Flanders Studio",
-          "slug": "sculptor-creates-works-of-art-in-flanders-studio"
-        },
-        {
-          "id": "recXiiqpMPrezY5D3",
-          "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
-          "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recjQcjMRG4TeVOI8",
-          "name": "Ray Grant",
-          "slug": "ray-grant"
-        },
-        {
-          "id": "recbmC37Z7MsD78qO",
-          "name": "Gareth Penn",
-          "slug": "gareth-penn"
-        },
-        {
-          "id": "recMYOFG2oXTk0Gwa",
-          "name": "Berta Margoulies",
-          "slug": "berta-margoulies"
-        },
-        {
-          "id": "recFaKMK2SMtmEMkK",
-          "name": "Michael O'Hare",
-          "slug": "michael-o-hare"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 5,
-      "searchText": "Ray Grant's Zodiac Project Theory"
-    },
-    {
       "id": "recTMiG4WfngIFgng",
       "slug": "the-340-cipher",
       "kind": "tag",
@@ -5832,6 +6157,72 @@
       "searchText": "Domingos–Edwards Murders"
     },
     {
+      "id": "recARqcCrYYCA8P03",
+      "slug": "military",
+      "kind": "tag",
+      "title": "Military",
+      "subtitle": "",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1945-10-15"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recmykb8A3bfWtx1h",
+          "name": "Chester Klingel Jr. promoted to message center chief in US Army",
+          "slug": "chester-klingel-jr-promoted-to-message-center-chief-in-us-army"
+        },
+        {
+          "id": "recmy5F1K1nbOMtwH",
+          "name": "Marvin (Merrill) Margolis registers for draft post-war",
+          "slug": "marvin-merrill-margolis-registers-for-draft-post-war"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recg462dI0mJi8KMB",
+          "name": "Chester Clark Klingel Jr.",
+          "slug": "chester-clark-klingel-jr"
+        },
+        {
+          "id": "recM454vnmOnqX3rD",
+          "name": "United States Army",
+          "slug": "united-states-army"
+        },
+        {
+          "id": "rec5sLMwfiMUYMmOS",
+          "name": "United States Navy",
+          "slug": "united-states-navy"
+        },
+        {
+          "id": "reczV15noceEWDHkD",
+          "name": "Ethan Warren Allen",
+          "slug": "ethan-warren-allen"
+        },
+        {
+          "id": "rech3D7sonIMHkOft",
+          "name": "Arthur Leigh Allen",
+          "slug": "arthur-leigh-allen"
+        },
+        {
+          "id": "recBksQ4rNpargfGq",
+          "name": "David Toschi",
+          "slug": "david-toschi"
+        }
+      ],
+      "relatedLocations": [],
+      "relatedTags": [],
+      "downloads": [],
+      "relatedEventCount": 2,
+      "searchText": "Military"
+    },
+    {
       "id": "recgpFjv9jS5Dc4LA",
       "slug": "the-kathleen-johns-incident",
       "kind": "tag",
@@ -6063,67 +6454,6 @@
       "downloads": [],
       "relatedEventCount": 1,
       "searchText": "1950 Census"
-    },
-    {
-      "id": "recARqcCrYYCA8P03",
-      "slug": "military",
-      "kind": "tag",
-      "title": "Military",
-      "subtitle": "",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1950-03-13"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recmykb8A3bfWtx1h",
-          "name": "Chester Klingel Jr. promoted to message center chief in US Army",
-          "slug": "chester-klingel-jr-promoted-to-message-center-chief-in-us-army"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recg462dI0mJi8KMB",
-          "name": "Chester Clark Klingel Jr.",
-          "slug": "chester-clark-klingel-jr"
-        },
-        {
-          "id": "recM454vnmOnqX3rD",
-          "name": "United States Army",
-          "slug": "united-states-army"
-        },
-        {
-          "id": "rec5sLMwfiMUYMmOS",
-          "name": "United States Navy",
-          "slug": "united-states-navy"
-        },
-        {
-          "id": "reczV15noceEWDHkD",
-          "name": "Ethan Warren Allen",
-          "slug": "ethan-warren-allen"
-        },
-        {
-          "id": "rech3D7sonIMHkOft",
-          "name": "Arthur Leigh Allen",
-          "slug": "arthur-leigh-allen"
-        },
-        {
-          "id": "recBksQ4rNpargfGq",
-          "name": "David Toschi",
-          "slug": "david-toschi"
-        }
-      ],
-      "relatedLocations": [],
-      "relatedTags": [],
-      "downloads": [],
-      "relatedEventCount": 1,
-      "searchText": "Military"
     },
     {
       "id": "reckfxAcpNcKS2TRn",

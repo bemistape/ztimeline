@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-31T14:13:33.613348+00:00",
+  "generatedAt": "2026-05-31T19:43:10.439402+00:00",
   "stats": {
-    "events": 489,
-    "people": 343,
-    "locations": 358,
+    "events": 503,
+    "people": 344,
+    "locations": 362,
     "tags": 43,
-    "images": 1710,
-    "mappedSites": 46,
+    "images": 1742,
+    "mappedSites": 47,
     "years": {
       "start": 1925,
       "end": 2025
@@ -19,7 +19,7 @@
     },
     {
       "value": 1970,
-      "count": 31
+      "count": 38
     },
     {
       "value": 1968,
@@ -34,8 +34,8 @@
       "count": 24
     },
     {
-      "value": 1974,
-      "count": 19
+      "value": 1981,
+      "count": 20
     }
   ],
   "featuredTypes": [
@@ -45,15 +45,15 @@
     },
     {
       "value": "Case Event",
-      "count": 90
+      "count": 91
     },
     {
       "value": "Victim Event",
-      "count": 53
+      "count": 57
     },
     {
       "value": "Newspaper Article",
-      "count": 44
+      "count": 47
     },
     {
       "value": "Media Event",
@@ -176,7 +176,7 @@
       "title": "San Francisco",
       "subtitle": "City",
       "excerpt": "",
-      "relatedEventCount": 67,
+      "relatedEventCount": 68,
       "primaryImage": {
         "originalUrl": "data/media/attdDhYp8IaddoCn3_image.png",
         "thumbUrl": "data/media/derived/thumb/attdDhYp8IaddoCn3_image.png",
@@ -204,6 +204,17 @@
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:38.104088+-122.256638"
     },
     {
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "kind": "location",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 16,
+      "primaryImage": null,
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recO5mW1mFKtK0hCE",
       "slug": "united-states-of-america",
       "kind": "location",
@@ -218,17 +229,6 @@
         "derivativeState": "derived",
         "label": "image.png"
       },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "kind": "location",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "excerpt": "",
-      "relatedEventCount": 13,
-      "primaryImage": null,
       "mapOpenUrl": ""
     },
     {
@@ -261,6 +261,17 @@
     }
   ],
   "featuredTags": [
+    {
+      "id": "recnyN76pwtLF9eBJ",
+      "slug": "marvin-margolis",
+      "kind": "tag",
+      "title": "Marvin Margolis",
+      "subtitle": "",
+      "excerpt": "",
+      "relatedEventCount": 58,
+      "primaryImage": null,
+      "mapOpenUrl": ""
+    },
     {
       "id": "recqHvlmSyXK7UYJo",
       "slug": "zodiac-letters",
@@ -313,6 +324,17 @@
       "mapOpenUrl": ""
     },
     {
+      "id": "rec8LU7p4LGaQ2Uvz",
+      "slug": "ray-grant-s-theory",
+      "kind": "tag",
+      "title": "Ray Grant's Theory",
+      "subtitle": "",
+      "excerpt": "",
+      "relatedEventCount": 29,
+      "primaryImage": null,
+      "mapOpenUrl": ""
+    },
+    {
       "id": "recR0NFmznLOB0Nf6",
       "slug": "murders-at-lake-herman-road",
       "kind": "tag",
@@ -327,34 +349,6 @@
         "derivativeState": "derived",
         "label": "lhr-crime_scene_sketch_4-redacted.jpg"
       },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "reci68Kc8tcfOciIO",
-      "slug": "arthur-leigh-allen",
-      "kind": "tag",
-      "title": "Arthur Leigh Allen",
-      "subtitle": "",
-      "excerpt": "",
-      "relatedEventCount": 21,
-      "primaryImage": {
-        "originalUrl": "data/media/attBe8HHBwoLJ1Cfm_image.png",
-        "thumbUrl": "data/media/derived/thumb/attBe8HHBwoLJ1Cfm_image.png",
-        "mediumUrl": "data/media/derived/medium/attBe8HHBwoLJ1Cfm_image.png",
-        "derivativeState": "derived",
-        "label": "image.png"
-      },
-      "mapOpenUrl": ""
-    },
-    {
-      "id": "recnyN76pwtLF9eBJ",
-      "slug": "marvin-margolis",
-      "kind": "tag",
-      "title": "Marvin Margolis",
-      "subtitle": "",
-      "excerpt": "",
-      "relatedEventCount": 19,
-      "primaryImage": null,
       "mapOpenUrl": ""
     }
   ],
@@ -467,7 +461,7 @@
     }
   ],
   "freshness": {
-    "label": "May 31, 2026, 02:13 PM UTC",
+    "label": "May 31, 2026, 07:43 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -478,17 +472,17 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "489 dated events spanning 1925 to 2025."
+      "description": "503 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
       "title": "People",
-      "description": "343 linked people and organizations with related-event cross references."
+      "description": "344 linked people and organizations with related-event cross references."
     },
     {
       "view": "locations",
       "title": "Locations",
-      "description": "358 places connected to the archive, including mapped sites where data exists."
+      "description": "362 places connected to the archive, including mapped sites where data exists."
     },
     {
       "view": "tags",
