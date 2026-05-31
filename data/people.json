@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T19:42:56.770011+00:00",
+  "generatedAt": "2026-05-31T04:55:51.712575+00:00",
   "items": [
     {
       "id": "recoOKTf4wXF3GBYn",
@@ -406,6 +406,21 @@
           "id": "rec90WTL6rjZ9KxSM",
           "name": "Merrill speaks at Vista Planning Commission meeting",
           "slug": "merrill-speaks-at-vista-planning-commission-meeting"
+        },
+        {
+          "id": "rec3kqkezzx2ZDiLf",
+          "name": "Donna Merrill is the Crestview PTA president",
+          "slug": "donna-merrill-is-the-crestview-pta-president"
+        },
+        {
+          "id": "recAHlToPWAgPgudz",
+          "name": "Marvin and Donna Merrill mentioned in school board advertisement",
+          "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement"
+        },
+        {
+          "id": "recks4d6ydmgvE7V0",
+          "name": "Marvin Margolis is burglarized in Atascadero",
+          "slug": "marvin-margolis-is-burglarized-in-atascadero"
         }
       ],
       "relatedLocations": [
@@ -567,14 +582,14 @@
           "slug": "united-states-navy"
         },
         {
-          "id": "recDGLrzZDACdBeH6",
-          "name": "Donna Faye McEachern Merrill",
-          "slug": "donna-faye-mceachern-merrill"
-        },
-        {
           "id": "rec2BmtZQGx9ht2an",
           "name": "Edith Bernstein (Margolis) Merrill",
           "slug": "edith-bernstein-margolis-merrill"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
         }
       ],
       "relatedTags": [
@@ -594,7 +609,7 @@
           "url": "https://www.google.com/search?as_st=y&as_q=Marvin%20%28Margolis%29%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
         }
       ],
-      "relatedEventCount": 44,
+      "relatedEventCount": 47,
       "searchText": "Marvin (Margolis) Merrill Marvin (Margolis) Merrill Black Dahlia suspect, accused of Zodiac crimes in 2025. Wichita, KS Sedgwick County, KS Kansas Chicago Cook County, IL Illinois California United States of America Atlanta, GA Georgia Oceanside, CA Vista, CA Carlsbad, CA Santa Barbara, CA Jacksonville, FL San Diego County, CA Santa Barbara County, CA Duval County, FL Fulton County, GA Florida Los Angeles San Diego, CA Wellington, KS St. Francis Medical Center Phoenix, AZ Medford, OK Atascadero, CA San Jose, CA Marvin Merrill's Solana Beach property Vallejo, CA"
     },
     {
@@ -5398,6 +5413,121 @@
       "searchText": "Vallejo Times-Herald Vallejo Times-Herald  California United States of America SF Bay Area Vallejo, CA Solano County, CA San Francisco Deer Lodge, MT Oakland, CA Los Angeles"
     },
     {
+      "id": "recDGLrzZDACdBeH6",
+      "slug": "donna-faye-mceachern-merrill",
+      "kind": "person",
+      "title": "Donna Faye McEachern Merrill",
+      "subtitle": "Tied to Suspect",
+      "summary": "Second wife of Marvin Margolis / Merrill",
+      "excerpt": "Second wife of Marvin Margolis / Merrill",
+      "aliases": [
+        "Donna Faye McEachern Merrill"
+      ],
+      "images": [],
+      "primaryImage": null,
+      "facts": [],
+      "relatedEvents": [
+        {
+          "id": "rec1ItC2hUR9ajXWE",
+          "name": "Marvin Merrill's wife sells vehicles",
+          "slug": "marvin-merrill-s-wife-sells-vehicles"
+        },
+        {
+          "id": "rec0OzAVw6RpeMgmr",
+          "name": "Donna Merrill's father's obituary says she lives in Los Angeles",
+          "slug": "donna-merrill-s-father-s-obituary-says-she-lives-in-los-angeles"
+        },
+        {
+          "id": "recp7VSk50ch4MQEh",
+          "name": "Marvin Merrill's wife Donna remarries",
+          "slug": "marvin-merrill-s-wife-donna-remarries"
+        },
+        {
+          "id": "rechqk9QUDG3VQ0Nw",
+          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
+          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
+        },
+        {
+          "id": "recpRHdOWqbe8Rpbc",
+          "name": "Marvin Merrill's home in Vista is being sold",
+          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
+        },
+        {
+          "id": "recJwbZPXMFcaw5XB",
+          "name": "Marvin Merrill and Donna Merrill are selling property",
+          "slug": "marvin-merrill-and-donna-merrill-are-selling-property"
+        },
+        {
+          "id": "rec3kqkezzx2ZDiLf",
+          "name": "Donna Merrill is the Crestview PTA president",
+          "slug": "donna-merrill-is-the-crestview-pta-president"
+        },
+        {
+          "id": "recAHlToPWAgPgudz",
+          "name": "Marvin and Donna Merrill mentioned in school board advertisement",
+          "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement"
+        }
+      ],
+      "relatedLocations": [
+        {
+          "id": "recb0X8kEnkBnJw0f",
+          "name": "Oceanside, CA",
+          "slug": "oceanside-ca"
+        },
+        {
+          "id": "reccuFwS3SQNJRVps",
+          "name": "Los Angeles",
+          "slug": "los-angeles"
+        },
+        {
+          "id": "recrH8mYy6Oyhsol6",
+          "name": "Wichita, KS",
+          "slug": "wichita-ks"
+        },
+        {
+          "id": "recmc2ZGx4Zoy8cz8",
+          "name": "San Diego, CA",
+          "slug": "san-diego-ca"
+        },
+        {
+          "id": "recWZBzvg1ndmy27m",
+          "name": "Atascadero, CA",
+          "slug": "atascadero-ca"
+        },
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        }
+      ],
+      "relatedPeople": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "relatedTags": [
+        {
+          "id": "recnyN76pwtLF9eBJ",
+          "name": "Marvin Margolis",
+          "slug": "marvin-margolis"
+        }
+      ],
+      "downloads": [
+        {
+          "label": "Google Search",
+          "url": "https://www.google.com/search?as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
+        },
+        {
+          "label": "Image Search",
+          "url": "https://www.google.com/search?as_st=y&as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
+        }
+      ],
+      "relatedEventCount": 8,
+      "searchText": "Donna Faye McEachern Merrill Donna Faye McEachern Merrill Second wife of Marvin Margolis / Merrill Oceanside, CA Los Angeles Wichita, KS San Diego, CA Atascadero, CA Vista, CA"
+    },
+    {
       "id": "recXJdTXSNJPLgeJ2",
       "slug": "melvin-belli",
       "kind": "person",
@@ -6688,111 +6818,6 @@
       ],
       "relatedEventCount": 7,
       "searchText": "The Solano-Napa News Chronicle The Solano-Napa News Chronicle  Vallejo, CA Solano County, CA California SF Bay Area United States of America Los Angeles San Francisco"
-    },
-    {
-      "id": "recDGLrzZDACdBeH6",
-      "slug": "donna-faye-mceachern-merrill",
-      "kind": "person",
-      "title": "Donna Faye McEachern Merrill",
-      "subtitle": "Tied to Suspect",
-      "summary": "Second wife of Marvin Margolis / Merrill",
-      "excerpt": "Second wife of Marvin Margolis / Merrill",
-      "aliases": [
-        "Donna Faye McEachern Merrill"
-      ],
-      "images": [],
-      "primaryImage": null,
-      "facts": [],
-      "relatedEvents": [
-        {
-          "id": "rec1ItC2hUR9ajXWE",
-          "name": "Marvin Merrill's wife sells vehicles",
-          "slug": "marvin-merrill-s-wife-sells-vehicles"
-        },
-        {
-          "id": "rec0OzAVw6RpeMgmr",
-          "name": "Donna Merrill's father's obituary says she lives in Los Angeles",
-          "slug": "donna-merrill-s-father-s-obituary-says-she-lives-in-los-angeles"
-        },
-        {
-          "id": "recp7VSk50ch4MQEh",
-          "name": "Marvin Merrill's wife Donna remarries",
-          "slug": "marvin-merrill-s-wife-donna-remarries"
-        },
-        {
-          "id": "rechqk9QUDG3VQ0Nw",
-          "name": "Marvin Merrill's business assets sold; Merrill officially living in Atascadero",
-          "slug": "marvin-merrill-s-business-assets-sold-merrill-officially-living-in-atascadero"
-        },
-        {
-          "id": "recpRHdOWqbe8Rpbc",
-          "name": "Marvin Merrill's home in Vista is being sold",
-          "slug": "marvin-merrill-s-home-in-vista-is-being-sold"
-        },
-        {
-          "id": "recJwbZPXMFcaw5XB",
-          "name": "Marvin Merrill and Donna Merrill are selling property",
-          "slug": "marvin-merrill-and-donna-merrill-are-selling-property"
-        }
-      ],
-      "relatedLocations": [
-        {
-          "id": "recb0X8kEnkBnJw0f",
-          "name": "Oceanside, CA",
-          "slug": "oceanside-ca"
-        },
-        {
-          "id": "reccuFwS3SQNJRVps",
-          "name": "Los Angeles",
-          "slug": "los-angeles"
-        },
-        {
-          "id": "recrH8mYy6Oyhsol6",
-          "name": "Wichita, KS",
-          "slug": "wichita-ks"
-        },
-        {
-          "id": "recmc2ZGx4Zoy8cz8",
-          "name": "San Diego, CA",
-          "slug": "san-diego-ca"
-        },
-        {
-          "id": "recWZBzvg1ndmy27m",
-          "name": "Atascadero, CA",
-          "slug": "atascadero-ca"
-        },
-        {
-          "id": "recS1hWCS7jNh8Gsb",
-          "name": "Vista, CA",
-          "slug": "vista-ca"
-        }
-      ],
-      "relatedPeople": [
-        {
-          "id": "recoOKTf4wXF3GBYn",
-          "name": "Marvin (Margolis) Merrill",
-          "slug": "marvin-margolis-merrill"
-        }
-      ],
-      "relatedTags": [
-        {
-          "id": "recnyN76pwtLF9eBJ",
-          "name": "Marvin Margolis",
-          "slug": "marvin-margolis"
-        }
-      ],
-      "downloads": [
-        {
-          "label": "Google Search",
-          "url": "https://www.google.com/search?as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&as_filetype=&tbs=\"}"
-        },
-        {
-          "label": "Image Search",
-          "url": "https://www.google.com/search?as_st=y&as_q=Donna%20Faye%20McEachern%20Merrill&as_epq=&as_oq=&as_eq=&imgar=&imgcolor=&imgtype=&cr=&as_sitesearch=&as_filetype=&tbs=&udm=2\"}"
-        }
-      ],
-      "relatedEventCount": 6,
-      "searchText": "Donna Faye McEachern Merrill Donna Faye McEachern Merrill Second wife of Marvin Margolis / Merrill Oceanside, CA Los Angeles Wichita, KS San Diego, CA Atascadero, CA Vista, CA"
     },
     {
       "id": "recBcRszrpzCKM2UO",

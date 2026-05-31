@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-30T19:42:56.770011+00:00",
+  "generatedAt": "2026-05-31T04:55:51.712575+00:00",
   "stats": {
-    "events": 486,
+    "events": 489,
     "people": 343,
     "locations": 358,
     "tags": 43,
-    "images": 1707,
+    "images": 1710,
     "mappedSites": 46,
     "years": {
       "start": 1925,
@@ -15,11 +15,11 @@
   "featuredYears": [
     {
       "value": 1969,
-      "count": 164
+      "count": 165
     },
     {
       "value": 1970,
-      "count": 30
+      "count": 31
     },
     {
       "value": 1968,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 130
+      "count": 133
     },
     {
       "value": "Case Event",
@@ -72,7 +72,7 @@
       "title": "Marvin (Margolis) Merrill",
       "subtitle": "Suspect,Military,Deceased",
       "excerpt": "Black Dahlia suspect, accused of Zodiac crimes in 2025.",
-      "relatedEventCount": 44,
+      "relatedEventCount": 47,
       "primaryImage": {
         "originalUrl": "data/media/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
         "thumbUrl": "data/media/derived/thumb/att22Ka9VEPy6ylRe_Screenshot_2026-05-10_at_9.18.17_PM.png",
@@ -221,6 +221,17 @@
       "mapOpenUrl": ""
     },
     {
+      "id": "recS1hWCS7jNh8Gsb",
+      "slug": "vista-ca",
+      "kind": "location",
+      "title": "Vista, CA",
+      "subtitle": "City",
+      "excerpt": "",
+      "relatedEventCount": 13,
+      "primaryImage": null,
+      "mapOpenUrl": ""
+    },
+    {
       "id": "reccuFwS3SQNJRVps",
       "slug": "los-angeles",
       "kind": "location",
@@ -247,17 +258,6 @@
       "relatedEventCount": 11,
       "primaryImage": null,
       "mapOpenUrl": "http://maps.google.com/maps?z=12&t=m&q=loc:37.7821582+-122.4065833"
-    },
-    {
-      "id": "recS1hWCS7jNh8Gsb",
-      "slug": "vista-ca",
-      "kind": "location",
-      "title": "Vista, CA",
-      "subtitle": "City",
-      "excerpt": "",
-      "relatedEventCount": 11,
-      "primaryImage": null,
-      "mapOpenUrl": ""
     }
   ],
   "featuredTags": [
@@ -467,7 +467,7 @@
     }
   ],
   "freshness": {
-    "label": "May 30, 2026, 07:42 PM UTC",
+    "label": "May 31, 2026, 04:55 AM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -478,7 +478,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "486 dated events spanning 1925 to 2025."
+      "description": "489 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",

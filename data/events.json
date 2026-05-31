@@ -16284,6 +16284,64 @@
       "searchText": "Zodiac Press Coverage [10/15/1969] Newspaper Article Los Angeles The Los Angeles Times Dave Smith San Francisco Chronicle The Solano-Napa News Chronicle"
     },
     {
+      "id": "rec3kqkezzx2ZDiLf",
+      "slug": "donna-merrill-is-the-crestview-pta-president",
+      "kind": "event",
+      "title": "Donna Merrill is the Crestview PTA president",
+      "date": "1969-10-15",
+      "dateLabel": "Wed, Oct 15, 1969",
+      "year": 1969,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1969-10-15-9999-00486",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        },
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/att8AL6ZEq2usFMb5_Screenshot_2026-05-30_at_4.11.26_PM.png",
+          "thumbUrl": "data/media/derived/thumb/att8AL6ZEq2usFMb5_Screenshot_2026-05-30_at_4.11.26_PM.png",
+          "mediumUrl": "data/media/derived/medium/att8AL6ZEq2usFMb5_Screenshot_2026-05-30_at_4.11.26_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-05-30_at_4.11.26_PM.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Donna Merrill is the Crestview PTA president Suspect Event Vista, CA Vista CA Donna Faye McEachern Merrill Marvin (Margolis) Merrill"
+    },
+    {
       "id": "recD9SjQb5LX8WGex",
       "slug": "sf-chronicle-bay-killer-s-shrinking-timetable",
       "kind": "event",
@@ -19444,6 +19502,64 @@
       "mapUrl": "",
       "hasMedia": true,
       "searchText": "Jim Phillips Crabtree interviewed by Vallejo Police Suspect Event Santa Cruz, CA Santa Cruz CA Jim Phillips Crabtree Jack Doyle Mulanax Peter Zander Attack at Blue Rock Springs Park"
+    },
+    {
+      "id": "recAHlToPWAgPgudz",
+      "slug": "marvin-and-donna-merrill-mentioned-in-school-board-advertisement",
+      "kind": "event",
+      "title": "Marvin and Donna Merrill mentioned in school board advertisement",
+      "date": "1970-02-15",
+      "dateLabel": "Sun, Feb 15, 1970",
+      "year": 1970,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1970-02-15-9999-00487",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recS1hWCS7jNh8Gsb",
+          "name": "Vista, CA",
+          "slug": "vista-ca"
+        },
+        {
+          "id": "",
+          "name": "Vista",
+          "slug": "vista"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        },
+        {
+          "id": "recDGLrzZDACdBeH6",
+          "name": "Donna Faye McEachern Merrill",
+          "slug": "donna-faye-mceachern-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attEJi2JtWGrJ7Bvh_Screenshot_2026-05-30_at_4.18.05_PM.png",
+          "thumbUrl": "data/media/derived/thumb/attEJi2JtWGrJ7Bvh_Screenshot_2026-05-30_at_4.18.05_PM.png",
+          "mediumUrl": "data/media/derived/medium/attEJi2JtWGrJ7Bvh_Screenshot_2026-05-30_at_4.18.05_PM.png",
+          "derivativeState": "derived",
+          "label": "Screenshot_2026-05-30_at_4.18.05_PM.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin and Donna Merrill mentioned in school board advertisement Suspect Event Vista, CA Vista CA Marvin (Margolis) Merrill Donna Faye McEachern Merrill"
     },
     {
       "id": "recv0lD33punv2RPf",
@@ -27239,6 +27355,59 @@
       "searchText": "Joan Webster's suitcase found in Greyhound Bus Station Via justiceforjoanwebster.com\n> Joan's Lark suitcase was discovered at the Park Square Greyhound Bus Station.\n> \n> The location was about five miles west of Logan Airport.\n> \n> The suitcase was placed in locker #1434 where it remained for 30 days. It was placed there before 9:30 a.m. on November 29, 1981.\n> \n> The suitcase was removed from the locker after 30 days and was stored in a caged room for another 30 days before an employee noticed the tag and called police.\n> \n> Key #3711 for locker #1434 was not recovered.\n> \n> The FBI catalogued the contents and reported the bag was undisturbed. Case Event Boston, MA Boston MA Joan Webster"
     },
     {
+      "id": "recks4d6ydmgvE7V0",
+      "slug": "marvin-margolis-is-burglarized-in-atascadero",
+      "kind": "event",
+      "title": "Marvin Margolis is burglarized in Atascadero",
+      "date": "1982-06-03",
+      "dateLabel": "Thu, Jun 3, 1982",
+      "year": 1982,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1982-06-03-9999-00488",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [
+        {
+          "id": "recWZBzvg1ndmy27m",
+          "name": "Atascadero, CA",
+          "slug": "atascadero-ca"
+        },
+        {
+          "id": "",
+          "name": "Atascadero",
+          "slug": "atascadero"
+        },
+        {
+          "id": "",
+          "name": "CA",
+          "slug": "ca"
+        }
+      ],
+      "people": [
+        {
+          "id": "recoOKTf4wXF3GBYn",
+          "name": "Marvin (Margolis) Merrill",
+          "slug": "marvin-margolis-merrill"
+        }
+      ],
+      "tags": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attYBUVsiMn8HmYvH_The_Tribune_1982_06_03_2.jpg",
+          "thumbUrl": "data/media/derived/thumb/attYBUVsiMn8HmYvH_The_Tribune_1982_06_03_2.jpg",
+          "mediumUrl": "data/media/derived/medium/attYBUVsiMn8HmYvH_The_Tribune_1982_06_03_2.jpg",
+          "derivativeState": "derived",
+          "label": "The_Tribune_1982_06_03_2.jpg"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Marvin Margolis is burglarized in Atascadero Suspect Event Atascadero, CA Atascadero CA Marvin (Margolis) Merrill"
+    },
+    {
       "id": "recO5tOVNDLCHE7G1",
       "slug": "chester-klingel-jr-starts-satellite-business",
       "kind": "event",
@@ -30333,7 +30502,7 @@
       },
       {
         "value": "1982",
-        "count": 1
+        "count": 2
       },
       {
         "value": "1981",
@@ -30381,11 +30550,11 @@
       },
       {
         "value": "1970",
-        "count": 30
+        "count": 31
       },
       {
         "value": "1969",
-        "count": 164
+        "count": 165
       },
       {
         "value": "1968",
@@ -30555,7 +30724,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 130
+        "count": 133
       },
       {
         "value": "Uncategorized",
@@ -30629,11 +30798,11 @@
       },
       {
         "value": "Atascadero",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Atascadero, CA",
-        "count": 1
+        "count": 2
       },
       {
         "value": "Atlanta",
@@ -30709,7 +30878,7 @@
       },
       {
         "value": "CA",
-        "count": 175
+        "count": 178
       },
       {
         "value": "CA)",
@@ -31637,11 +31806,11 @@
       },
       {
         "value": "Vista",
-        "count": 11
+        "count": 13
       },
       {
         "value": "Vista, CA",
-        "count": 11
+        "count": 13
       },
       {
         "value": "Waldport",
@@ -31943,7 +32112,7 @@
       },
       {
         "value": "Donna Faye McEachern Merrill",
-        "count": 6
+        "count": 8
       },
       {
         "value": "Donna Lass",
@@ -32255,7 +32424,7 @@
       },
       {
         "value": "Marvin (Margolis) Merrill",
-        "count": 34
+        "count": 37
       },
       {
         "value": "Marvin Merrill",

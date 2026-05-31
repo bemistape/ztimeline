@@ -1,15 +1,15 @@
 {
-  "generated_at_utc": "2026-05-30T19:42:56.770011+00:00",
+  "generated_at_utc": "2026-05-31T04:55:51.712575+00:00",
   "dataset": "events",
-  "record_count": 486,
+  "record_count": 489,
   "media_cached": true,
-  "media_files_in_use": 721,
+  "media_files_in_use": 724,
   "base_id": "appyDwtN9iiA9sjEe",
   "table_id": "tblxd8PLtQOl1dRa7",
   "view_id": "viwUWtXt3UUxE6LOC",
   "sync_mode": "delta",
-  "changed_records": 10,
+  "changed_records": 3,
   "published_field": "Published",
   "last_modified_field": "Last Modified",
-  "sync_cursor_utc": "2026-05-30T19:09:15+00:00"
+  "sync_cursor_utc": "2026-05-30T22:49:11+00:00"
 }
