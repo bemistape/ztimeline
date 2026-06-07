@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T14:22:45.842700+00:00",
+  "generatedAt": "2026-06-07T19:48:44.671317+00:00",
   "stats": {
     "events": 503,
     "people": 344,
@@ -49,7 +49,7 @@
     },
     {
       "value": "Victim Event",
-      "count": 57
+      "count": 56
     },
     {
       "value": "Newspaper Article",
@@ -461,7 +461,7 @@
     }
   ],
   "freshness": {
-    "label": "Jun 07, 2026, 02:22 PM UTC",
+    "label": "Jun 07, 2026, 07:48 PM UTC",
     "syncMode": "delta"
   },
   "method": {

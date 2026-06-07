@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-07T14:22:45.842700+00:00",
+  "generatedAt": "2026-06-07T19:48:44.671317+00:00",
   "items": [
     {
       "id": "recnyN76pwtLF9eBJ",
@@ -3905,6 +3905,16 @@
           "slug": "dna-evidence-said-to-clear-arthur-leigh-allen"
         },
         {
+          "id": "recBzDi3hpunBuHiu",
+          "name": "Arthur Leigh Allen's family departs Hawaii for San Francisco",
+          "slug": "arthur-leigh-allen-s-family-departs-hawaii-for-san-francisco"
+        },
+        {
+          "id": "recjeDHR2yo6jVwmW",
+          "name": "Arthur Leigh Allen's family arrives in Los Angeles from Hawaii",
+          "slug": "arthur-leigh-allen-s-family-arrives-in-los-angeles-from-hawaii"
+        },
+        {
           "id": "recBB7oBXwy81jaFi",
           "name": "Ronald Allen hired by Santa Rosa, CA as landscape architect",
           "slug": "ronald-allen-hired-by-santa-rosa-ca-as-landscape-architect"
@@ -3951,7 +3961,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 21,
+      "relatedEventCount": 23,
       "searchText": "Arthur Leigh Allen"
     },
     {
@@ -4561,7 +4571,7 @@
       "facts": [
         {
           "label": "Date",
-          "value": "1954-03-17"
+          "value": "1936-03-14"
         }
       ],
       "relatedEvents": [
@@ -4641,6 +4651,11 @@
           "slug": "richard-gaikowski-registers-for-the-draft"
         },
         {
+          "id": "reclLxD9LwMIurJZr",
+          "name": "Richard Gaikowski is born",
+          "slug": "richard-gaikowski-is-born"
+        },
+        {
           "id": "recpveXFUNpcxeKn1",
           "name": "Gaikowski gets himself arrested, writes series about jail",
           "slug": "gaikowski-gets-himself-arrested-writes-series-about-jail"
@@ -4672,7 +4687,7 @@
       ],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 17,
+      "relatedEventCount": 18,
       "searchText": "Richard Gaikowski"
     },
     {
@@ -5392,6 +5407,67 @@
       "searchText": "The Daniel Williams incident Non-Canonical Crimes"
     },
     {
+      "id": "rechK4YIown8dQIgo",
+      "slug": "cultural-references",
+      "kind": "tag",
+      "title": "Cultural References",
+      "subtitle": "The Mikado, Blue Meanies",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1939-08-31"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recVjurhso0tAiEcG",
+          "name": "Yellow Submarine opens in Vallejo",
+          "slug": "yellow-submarine-opens-in-vallejo"
+        },
+        {
+          "id": "recH08M3MzCXEmEn3",
+          "name": "Tim Holt #30 is published",
+          "slug": "tim-holt-30-is-published"
+        },
+        {
+          "id": "",
+          "name": "Alfred Hitchcock Museum Piece episode airs",
+          "slug": "alfred-hitchcock-museum-piece-episode-airs"
+        },
+        {
+          "id": "recazLmDUksf84HgI",
+          "name": "Charlie Chan at Treasure Island released",
+          "slug": "charlie-chan-at-treasure-island-released"
+        },
+        {
+          "id": "recaMkDBLv6iVqyst",
+          "name": "Alfred Hitchcock \"Museum Piece\" episode airs",
+          "slug": "alfred-hitchcock-museum-piece-episode-airs"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedLocations": [],
+      "relatedTags": [
+        {
+          "id": "reckfxAcpNcKS2TRn",
+          "name": "The Mikado",
+          "slug": "the-mikado"
+        },
+        {
+          "id": "recl25iy81YFuLSK6",
+          "name": "Blue Meanies",
+          "slug": "blue-meanies"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 5,
+      "searchText": "Cultural References The Mikado, Blue Meanies"
+    },
+    {
       "id": "recTMiG4WfngIFgng",
       "slug": "the-340-cipher",
       "kind": "tag",
@@ -5577,62 +5653,6 @@
       "downloads": [],
       "relatedEventCount": 4,
       "searchText": "Blue Meanies <https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29>\n\nThe **Blue Meanies** are the main antagonists in the [surreal](https://en.wikipedia.org/wiki/Surrealism) 1968 [Beatles](https://en.wikipedia.org/wiki/The_Beatles) animated film _[Yellow Submarine](https://en.wikipedia.org/wiki/Yellow_Submarine_(film))_. They are a fictional army of disagreeable beings that abhor all music, [allegorically](https://en.wikipedia.org/wiki/Allegory) representing all the bad people in the world.[[1]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-hidden-1) Their visual appearance was mostly designed by [Heinz Edelmann](https://en.wikipedia.org/wiki/Heinz_Edelmann).[[2]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-Al_Brodax-2) Producer [Al Brodax](https://en.wikipedia.org/wiki/Al_Brodax) said that the Chief Blue Meanie resembled production coordinator Abe Goodman.[[1]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-hidden-1)\nDescription\nIn the surreal universe of _Yellow Submarine_, The Blue Meanies attempt to silence and occupy Pepperland, an underwater utopia filled with color and music. The Meanies have blue skin and claw-like, six-fingered hands. They wear black masks around their eyes and hats that resemble [Mickey Mouse's](https://en.wikipedia.org/wiki/Mickey_Mouse) ears on their heads. They are [humanoid](https://en.wikipedia.org/wiki/Humanoid) in appearance — albeit with blue faces and very long noses.[[2]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-Al_Brodax-2)\n**History**\nThe Blue Meanies launch an attack on Pepperland, a paradise where music and peace reign, in an attempt to crush its spirit. This prompts one of Pepperland's [sailors](https://en.wikipedia.org/wiki/Sailors), the former [Commander](https://en.wikipedia.org/wiki/Commander), now the newly appointed [Lord Admiral](https://en.wikipedia.org/wiki/Lord_Admiral), known as \"Old Fred\" (or \"Young Fred\", according to the even older Lord Mayor), to escape in the Yellow Submarine to find help. Old Fred journeys to [Liverpool](https://en.wikipedia.org/wiki/Liverpool), where he meets [the Beatles](https://en.wikipedia.org/wiki/The_Beatles), whom he enlists for help, since, as musicians, they would be able to restore harmony (and, indeed, melody) to Pepperland. The Meanies, in his absence, cause the lovely and colourful Pepperland to turn into a very grey, dull, and oppressive place, wrought with thorns and thistles.[[3]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-risky_business-3)\nLater in the film, a Meanie abducts the Beatles' companion, [Jeremy Hillary Boob, PhD](https://en.wikipedia.org/wiki/Jeremy_Hillary_Boob), the so-called \"[Nowhere Man](https://en.wikipedia.org/wiki/Nowhere_Man_(song))\". When the Beatles arrive in Pepperland, the audience sees how the Meanies have laid waste to the former paradise and petrified the natives. The Beatles find Pepperland's confiscated musical instruments and their own doubles, [Sgt. Pepper's Lonely Hearts Club Band](https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band), and bring music back to Pepperland. This restores colour to the hills and plants and life into the Pepperlanders (who had been petrified by various weapons in the Meanies' possession). With their spell now broken, the Meanies lose their hold on Pepperland: even their guns start shooting flowers instead of missiles. Those that do not flee are invited by The Beatles to stay and \"mingle\", and they make peace with their former enemies.[[4]](https://en.wikipedia.org/wiki/Blue_Meanies_%28Yellow_Submarine%29#cite_note-David_Edward_Dayton-4)"
-    },
-    {
-      "id": "rechK4YIown8dQIgo",
-      "slug": "cultural-references",
-      "kind": "tag",
-      "title": "Cultural References",
-      "subtitle": "The Mikado, Blue Meanies",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [
-        {
-          "label": "Date",
-          "value": "1952-06-01"
-        }
-      ],
-      "relatedEvents": [
-        {
-          "id": "recVjurhso0tAiEcG",
-          "name": "Yellow Submarine opens in Vallejo",
-          "slug": "yellow-submarine-opens-in-vallejo"
-        },
-        {
-          "id": "recH08M3MzCXEmEn3",
-          "name": "Tim Holt #30 is published",
-          "slug": "tim-holt-30-is-published"
-        },
-        {
-          "id": "",
-          "name": "Alfred Hitchcock Museum Piece episode airs",
-          "slug": "alfred-hitchcock-museum-piece-episode-airs"
-        },
-        {
-          "id": "recaMkDBLv6iVqyst",
-          "name": "Alfred Hitchcock \"Museum Piece\" episode airs",
-          "slug": "alfred-hitchcock-museum-piece-episode-airs"
-        }
-      ],
-      "relatedPeople": [],
-      "relatedLocations": [],
-      "relatedTags": [
-        {
-          "id": "reckfxAcpNcKS2TRn",
-          "name": "The Mikado",
-          "slug": "the-mikado"
-        },
-        {
-          "id": "recl25iy81YFuLSK6",
-          "name": "Blue Meanies",
-          "slug": "blue-meanies"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 4,
-      "searchText": "Cultural References The Mikado, Blue Meanies"
     },
     {
       "id": "recObA4GdmylyI9eg",
@@ -6644,6 +6664,77 @@
       "searchText": "The Red Phantom (Red with rage)"
     },
     {
+      "id": "recvNePFbNBhJtDJI",
+      "slug": "themes",
+      "kind": "tag",
+      "title": "Themes",
+      "subtitle": "Military, Zodiac Buttons, Cultural References, The Mikado, Diving, Blue Meanies, Renaissance Fairs, Cryptography",
+      "summary": "",
+      "excerpt": "",
+      "images": [],
+      "primaryImage": null,
+      "facts": [
+        {
+          "label": "Date",
+          "value": "1939-08-31"
+        }
+      ],
+      "relatedEvents": [
+        {
+          "id": "recazLmDUksf84HgI",
+          "name": "Charlie Chan at Treasure Island released",
+          "slug": "charlie-chan-at-treasure-island-released"
+        }
+      ],
+      "relatedPeople": [],
+      "relatedLocations": [],
+      "relatedTags": [
+        {
+          "id": "recARqcCrYYCA8P03",
+          "name": "Military",
+          "slug": "military"
+        },
+        {
+          "id": "reckeGmUh2Oxiy7Pr",
+          "name": "Zodiac Buttons",
+          "slug": "zodiac-buttons"
+        },
+        {
+          "id": "rechK4YIown8dQIgo",
+          "name": "Cultural References",
+          "slug": "cultural-references"
+        },
+        {
+          "id": "reckfxAcpNcKS2TRn",
+          "name": "The Mikado",
+          "slug": "the-mikado"
+        },
+        {
+          "id": "rec2NDi2NyMmnA16Y",
+          "name": "Diving",
+          "slug": "diving"
+        },
+        {
+          "id": "recl25iy81YFuLSK6",
+          "name": "Blue Meanies",
+          "slug": "blue-meanies"
+        },
+        {
+          "id": "rec77VSkiIMgVNNt0",
+          "name": "Renaissance Fairs",
+          "slug": "renaissance-fairs"
+        },
+        {
+          "id": "recRx5DpBWH57bV5x",
+          "name": "Cryptography",
+          "slug": "cryptography"
+        }
+      ],
+      "downloads": [],
+      "relatedEventCount": 1,
+      "searchText": "Themes Military, Zodiac Buttons, Cultural References, The Mikado, Diving, Blue Meanies, Renaissance Fairs, Cryptography"
+    },
+    {
       "id": "reckeGmUh2Oxiy7Pr",
       "slug": "zodiac-buttons",
       "kind": "tag",
@@ -7056,66 +7147,6 @@
       "downloads": [],
       "relatedEventCount": 0,
       "searchText": "Suspects Richard Gaikowski, Arthur Leigh Allen, Paul Doerr, Lawrence Kane, Suspects, William Joseph Grant, aka Andrew Todd Walker"
-    },
-    {
-      "id": "recvNePFbNBhJtDJI",
-      "slug": "themes",
-      "kind": "tag",
-      "title": "Themes",
-      "subtitle": "Military, Zodiac Buttons, Cultural References, The Mikado, Diving, Blue Meanies, Renaissance Fairs, Cryptography",
-      "summary": "",
-      "excerpt": "",
-      "images": [],
-      "primaryImage": null,
-      "facts": [],
-      "relatedEvents": [],
-      "relatedPeople": [],
-      "relatedLocations": [],
-      "relatedTags": [
-        {
-          "id": "recARqcCrYYCA8P03",
-          "name": "Military",
-          "slug": "military"
-        },
-        {
-          "id": "reckeGmUh2Oxiy7Pr",
-          "name": "Zodiac Buttons",
-          "slug": "zodiac-buttons"
-        },
-        {
-          "id": "rechK4YIown8dQIgo",
-          "name": "Cultural References",
-          "slug": "cultural-references"
-        },
-        {
-          "id": "reckfxAcpNcKS2TRn",
-          "name": "The Mikado",
-          "slug": "the-mikado"
-        },
-        {
-          "id": "rec2NDi2NyMmnA16Y",
-          "name": "Diving",
-          "slug": "diving"
-        },
-        {
-          "id": "recl25iy81YFuLSK6",
-          "name": "Blue Meanies",
-          "slug": "blue-meanies"
-        },
-        {
-          "id": "rec77VSkiIMgVNNt0",
-          "name": "Renaissance Fairs",
-          "slug": "renaissance-fairs"
-        },
-        {
-          "id": "recRx5DpBWH57bV5x",
-          "name": "Cryptography",
-          "slug": "cryptography"
-        }
-      ],
-      "downloads": [],
-      "relatedEventCount": 0,
-      "searchText": "Themes Military, Zodiac Buttons, Cultural References, The Mikado, Diving, Blue Meanies, Renaissance Fairs, Cryptography"
     }
   ]
 }
