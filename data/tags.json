@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T11:21:46.679094+00:00",
+  "generatedAt": "2026-06-08T16:30:23.497640+00:00",
   "items": [
     {
       "id": "recnyN76pwtLF9eBJ",
@@ -2684,7 +2684,7 @@
       "facts": [
         {
           "label": "Date",
-          "value": "1970-04-19"
+          "value": "1967-03-01"
         }
       ],
       "relatedEvents": [
@@ -2814,6 +2814,11 @@
           "slug": "stanley-dean-baker-is-captured-in-big-sur"
         },
         {
+          "id": "recJODMQ5qFpbcFGw",
+          "name": "Michael O'Hare writes Wind Whistles Through MIT Tower article",
+          "slug": "michael-o-hare-writes-wind-whistles-through-mit-tower-article"
+        },
+        {
           "id": "recXiiqpMPrezY5D3",
           "name": "Michael O'Hare's essay \"Confessions of a Non-Serial Killer\" is published",
           "slug": "michael-o-hare-s-essay-confessions-of-a-non-serial-killer-is-published"
@@ -2869,7 +2874,7 @@
       "relatedLocations": [],
       "relatedTags": [],
       "downloads": [],
-      "relatedEventCount": 29,
+      "relatedEventCount": 30,
       "searchText": "Ray Grant's Theory"
     },
     {

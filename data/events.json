@@ -5726,6 +5726,70 @@
       "searchText": "Bates connection to Gillinger kidnapping is explored Newspaper Article Riverside, CA Riverside CA Linda Lee Gillinger The San Bernardino County Sun Cheri Jo Bates"
     },
     {
+      "id": "recJODMQ5qFpbcFGw",
+      "slug": "michael-o-hare-writes-wind-whistles-through-mit-tower-article",
+      "kind": "event",
+      "title": "Michael O'Hare writes Wind Whistles Through MIT Tower article",
+      "date": "1967-03-01",
+      "dateLabel": "Wed, Mar 1, 1967",
+      "year": 1967,
+      "timeLabel": "",
+      "sortTime": 1441,
+      "sortValue": "1967-03-01-9999-00503",
+      "type": "Suspect Event",
+      "description": "",
+      "excerpt": "",
+      "locations": [],
+      "people": [
+        {
+          "id": "recFaKMK2SMtmEMkK",
+          "name": "Michael O'Hare",
+          "slug": "michael-o-hare"
+        }
+      ],
+      "tags": [
+        {
+          "id": "rec8LU7p4LGaQ2Uvz",
+          "name": "Ray Grant's Theory",
+          "slug": "ray-grant-s-theory"
+        }
+      ],
+      "images": [
+        {
+          "originalUrl": "data/media/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+          "thumbUrl": "data/media/derived/thumb/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+          "mediumUrl": "data/media/derived/medium/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+          "derivativeState": "derived",
+          "label": "Pages_from_PA-1967-03_Page_1.png"
+        },
+        {
+          "originalUrl": "data/media/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+          "thumbUrl": "data/media/derived/thumb/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+          "mediumUrl": "data/media/derived/medium/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+          "derivativeState": "derived",
+          "label": "Pages_from_PA-1967-03_Page_4.png"
+        },
+        {
+          "originalUrl": "data/media/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+          "thumbUrl": "data/media/derived/thumb/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+          "mediumUrl": "data/media/derived/medium/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+          "derivativeState": "derived",
+          "label": "Pages_from_PA-1967-03_Page_3.png"
+        },
+        {
+          "originalUrl": "data/media/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
+          "thumbUrl": "data/media/derived/thumb/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
+          "mediumUrl": "data/media/derived/medium/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
+          "derivativeState": "derived",
+          "label": "Pages_from_PA-1967-03_Page_2.png"
+        }
+      ],
+      "sources": [],
+      "mapUrl": "",
+      "hasMedia": true,
+      "searchText": "Michael O'Hare writes Wind Whistles Through MIT Tower article Suspect Event Michael O'Hare Ray Grant's Theory"
+    },
+    {
       "id": "recu9xta5DWnDSaRC",
       "slug": "paul-doerr-s-final-deed-record-in-solano-county",
       "kind": "event",
@@ -30333,10 +30397,18 @@
           "slug": "ray-grant-s-theory"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "originalUrl": "data/media/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+          "thumbUrl": "data/media/derived/thumb/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+          "mediumUrl": "data/media/derived/medium/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+          "derivativeState": "derived",
+          "label": "The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg"
+        }
+      ],
       "sources": [],
       "mapUrl": "",
-      "hasMedia": false,
+      "hasMedia": true,
       "searchText": "UC Berkeley Public Policy School Renamed After $10-Million Gift BERKELEY -The Richard &amp; Rhoda Goldman Fund, a prominent Bay Area philanthropic group, has donated $10 million to the Graduate School of Public Policy at UC Berkeley. In honor of the gift, the University of California has named the school the Richard and Rhoda Goldman School of Public Policy. The gift will help improve the school's facilities on Hearst Avenue and help launch several academic and public outreach initiatives. The bulk of the gift -$7 million- will be known as the Goldman Funds for Public Policy. The money will extend the school's involvement in the community and create new sources of support for research and exchange among faculty and students.\n\"This gift will bolster the stature of Berkeley's public policy and government programs, currently matched in quality only by Harvard's John F. Kennedy School of Government and Princeton's Woodrow Wilson School of Public and International Affairs,\" said Chancellor Robert M. Berdahl. -Times wire services. Newspaper Article Berkeley, CA Berkeley CA University of California Berkeley Michael O'Hare Ray Grant's Theory"
     },
     {
@@ -31710,7 +31782,7 @@
       },
       {
         "value": "1967",
-        "count": 8
+        "count": 9
       },
       {
         "value": "1966",
@@ -31872,7 +31944,7 @@
       },
       {
         "value": "Suspect Event",
-        "count": 133
+        "count": 134
       },
       {
         "value": "Uncategorized",
@@ -33632,7 +33704,7 @@
       },
       {
         "value": "Michael O'Hare",
-        "count": 6
+        "count": 7
       },
       {
         "value": "Michael Renault Mageau",
@@ -34134,7 +34206,7 @@
       },
       {
         "value": "Ray Grant's Theory",
-        "count": 24
+        "count": 25
       },
       {
         "value": "Renaissance Fairs",

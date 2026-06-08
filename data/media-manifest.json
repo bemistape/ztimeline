@@ -4422,6 +4422,12 @@
       "mediumUrl": "data/media/derived/medium/attYBUVsiMn8HmYvH_The_Tribune_1982_06_03_2.jpg",
       "derivativeState": "derived"
     },
+    "data/media/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg": {
+      "originalUrl": "data/media/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+      "thumbUrl": "data/media/derived/thumb/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+      "mediumUrl": "data/media/derived/medium/attakqcesnroPHS6k_The_Los_Angeles_Times_1997_07_11_Page_232__1_.jpg",
+      "derivativeState": "derived"
+    },
     "data/media/attSVbkwad6ZydZZL_The_Boston_Globe_1981_12_04_17.jpg": {
       "originalUrl": "data/media/attSVbkwad6ZydZZL_The_Boston_Globe_1981_12_04_17.jpg",
       "thumbUrl": "data/media/derived/thumb/attSVbkwad6ZydZZL_The_Boston_Globe_1981_12_04_17.jpg",
@@ -4504,6 +4510,30 @@
       "originalUrl": "data/media/attsVjqNtQiioldvF_The_San_Francisco_Examiner_1970_04_20_3.jpg",
       "thumbUrl": "data/media/derived/thumb/attsVjqNtQiioldvF_The_San_Francisco_Examiner_1970_04_20_3.jpg",
       "mediumUrl": "data/media/derived/medium/attsVjqNtQiioldvF_The_San_Francisco_Examiner_1970_04_20_3.jpg",
+      "derivativeState": "derived"
+    },
+    "data/media/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png": {
+      "originalUrl": "data/media/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+      "thumbUrl": "data/media/derived/thumb/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+      "mediumUrl": "data/media/derived/medium/att3W0T6Ez3tSJP8J_Pages_from_PA-1967-03_Page_1.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png": {
+      "originalUrl": "data/media/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+      "thumbUrl": "data/media/derived/thumb/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+      "mediumUrl": "data/media/derived/medium/attGuzrM9Gcjj9HcK_Pages_from_PA-1967-03_Page_4.png",
+      "derivativeState": "derived"
+    },
+    "data/media/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png": {
+      "originalUrl": "data/media/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+      "thumbUrl": "data/media/derived/thumb/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+      "mediumUrl": "data/media/derived/medium/att1fUoOaWRxAIHTF_Pages_from_PA-1967-03_Page_3.png",
+      "derivativeState": "derived"
+    },
+    "data/media/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png": {
+      "originalUrl": "data/media/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
+      "thumbUrl": "data/media/derived/thumb/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
+      "mediumUrl": "data/media/derived/medium/attvVa8H9Ql6BdVAx_Pages_from_PA-1967-03_Page_2.png",
       "derivativeState": "derived"
     },
     "data/media/attD0P2TkTV1TT5jO_image.png": {

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-08T11:21:46.679094+00:00",
+  "generatedAt": "2026-06-08T16:30:23.497640+00:00",
   "stats": {
-    "events": 503,
+    "events": 504,
     "people": 344,
     "locations": 362,
     "tags": 43,
-    "images": 1742,
+    "images": 1747,
     "mappedSites": 47,
     "years": {
       "start": 1925,
@@ -41,7 +41,7 @@
   "featuredTypes": [
     {
       "value": "Suspect Event",
-      "count": 133
+      "count": 134
     },
     {
       "value": "Case Event",
@@ -330,7 +330,7 @@
       "title": "Ray Grant's Theory",
       "subtitle": "",
       "excerpt": "",
-      "relatedEventCount": 29,
+      "relatedEventCount": 30,
       "primaryImage": null,
       "mapOpenUrl": ""
     },
@@ -461,7 +461,7 @@
     }
   ],
   "freshness": {
-    "label": "Jun 08, 2026, 11:21 AM UTC",
+    "label": "Jun 08, 2026, 04:30 PM UTC",
     "syncMode": "delta"
   },
   "method": {
@@ -472,7 +472,7 @@
     {
       "view": "timeline",
       "title": "Timeline",
-      "description": "503 dated events spanning 1925 to 2025."
+      "description": "504 dated events spanning 1925 to 2025."
     },
     {
       "view": "people",
