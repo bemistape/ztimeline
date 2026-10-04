@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T12:28:32.783297+00:00",
+  "generatedAt": "2026-10-04T21:32:56.620905+00:00",
   "stats": {
     "events": 504,
     "people": 344,
@@ -461,7 +461,7 @@
     }
   ],
   "freshness": {
-    "label": "Oct 04, 2026, 12:28 PM UTC",
+    "label": "Oct 04, 2026, 09:32 PM UTC",
     "syncMode": "delta"
   },
   "method": {
