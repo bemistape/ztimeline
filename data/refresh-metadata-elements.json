@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-19T20:43:07.980132+00:00",
+  "generated_at_utc": "2026-11-20T07:24:43.569880+00:00",
   "dataset": "elements",
   "record_count": 11,
   "media_cached": true,
@@ -11,5 +11,5 @@
   "changed_records": 11,
   "published_field": "Published",
   "last_modified_field": "",
-  "sync_cursor_utc": "2026-11-19T20:43:07.980114+00:00"
+  "sync_cursor_utc": "2026-11-20T07:24:43.569864+00:00"
 }
